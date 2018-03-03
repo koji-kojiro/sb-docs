@@ -49,5 +49,5 @@ private: the assembler, used by the compiler
 
 
 ### Variable
-- [`#<PATTERN :MULTI-CHAR-WILD "assem-max-locations" :MULTI-CHAR-WILD>`](variable/$assem-max-locations$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "assem-scheduler-p" :MULTI-CHAR-WILD>`](variable/$assem-scheduler-p$.md)
+- [`*assem-max-locations*`](variable/$assem-max-locations$.md)
+- [`*assem-scheduler-p*`](variable/$assem-scheduler-p$.md)

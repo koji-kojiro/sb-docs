@@ -22,4 +22,4 @@ internal: a code walker used by PCL
 
 
 ### Variable
-- [`#<PATTERN :MULTI-CHAR-WILD "walk-form-expand-macros-p" :MULTI-CHAR-WILD>`](variable/$walk-form-expand-macros-p$.md)
+- [`*walk-form-expand-macros-p*`](variable/$walk-form-expand-macros-p$.md)

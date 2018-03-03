@@ -105,7 +105,7 @@ no guarantees of interface stability.
 - [`fd-zero`](function/fd-zero.md)
 - [`nanosleep`](function/nanosleep.md)
 - [`posix-getcwd`](function/posix-getcwd.md)
-- [`NIL`](function/posix-getcwd^.md)
+- [`posix-getcwd/`](function/posix-getcwd^.md)
 - [`sb-mkstemp`](function/sb-mkstemp.md)
 - [`uid-homedir`](function/uid-homedir.md)
 - [`uid-username`](function/uid-username.md)

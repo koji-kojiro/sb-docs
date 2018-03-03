@@ -36,5 +36,5 @@ private: stuff related to FASL load/dump logic (and GENESIS)
 
 
 ### Variable
-- [`#<PATTERN :MULTI-CHAR-WILD "assembler-routines" :MULTI-CHAR-WILD>`](variable/$assembler-routines$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "fasl-file-type" :MULTI-CHAR-WILD>`](variable/$fasl-file-type$.md)
+- [`*assembler-routines*`](variable/$assembler-routines$.md)
+- [`*fasl-file-type*`](variable/$fasl-file-type$.md)

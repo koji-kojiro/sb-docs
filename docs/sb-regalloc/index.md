@@ -14,9 +14,9 @@ private: implementation of the compiler's register allocator
 
 
 ### Variable
-- [`#<PATTERN :MULTI-CHAR-WILD "pack-assign-costs" :MULTI-CHAR-WILD>`](variable/$pack-assign-costs$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "pack-iterations" :MULTI-CHAR-WILD>`](variable/$pack-iterations$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "pack-optimize-saves" :MULTI-CHAR-WILD>`](variable/$pack-optimize-saves$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "register-allocation-method" :MULTI-CHAR-WILD>`](variable/$register-allocation-method$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "tn-loop-depth-multiplier" :MULTI-CHAR-WILD>`](variable/$tn-loop-depth-multiplier$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "tn-write-cost" :MULTI-CHAR-WILD>`](variable/$tn-write-cost$.md)
+- [`*pack-assign-costs*`](variable/$pack-assign-costs$.md)
+- [`*pack-iterations*`](variable/$pack-iterations$.md)
+- [`*pack-optimize-saves*`](variable/$pack-optimize-saves$.md)
+- [`*register-allocation-method*`](variable/$register-allocation-method$.md)
+- [`*tn-loop-depth-multiplier*`](variable/$tn-loop-depth-multiplier$.md)
+- [`*tn-write-cost*`](variable/$tn-write-cost$.md)

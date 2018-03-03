@@ -27,7 +27,7 @@ of SBCL which maintained the CMU-CL-style split into two packages.)
 
 
 ### Function
-- [`WILD`](function/$.md)
+- [`*`](function/$.md)
 - [`alien-funcall`](function/alien-funcall.md)
 - [`alien-sap`](function/alien-sap.md)
 - [`char`](function/char.md)
@@ -65,4 +65,4 @@ of SBCL which maintained the CMU-CL-style split into two packages.)
 
 
 ### Variable
-- [`WILD`](variable/$.md)
+- [`*`](variable/$.md)

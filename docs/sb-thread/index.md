@@ -82,4 +82,4 @@ public (but low-level): native thread support
 
 
 ### Variable
-- [`#<PATTERN :MULTI-CHAR-WILD "current-thread" :MULTI-CHAR-WILD>`](variable/$current-thread$.md)
+- [`*current-thread*`](variable/$current-thread$.md)

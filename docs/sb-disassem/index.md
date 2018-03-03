@@ -82,8 +82,8 @@ private: stuff related to the implementation of the disassembler
 
 
 ### Variable
-- [`#<PATTERN :MULTI-CHAR-WILD "default-dstate-hooks" :MULTI-CHAR-WILD>`](variable/$default-dstate-hooks$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "disassem-inst-alignment-bytes" :MULTI-CHAR-WILD>`](variable/$disassem-inst-alignment-bytes$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "disassem-location-column-width" :MULTI-CHAR-WILD>`](variable/$disassem-location-column-width$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "disassem-note-column" :MULTI-CHAR-WILD>`](variable/$disassem-note-column$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "disassem-opcode-column-width" :MULTI-CHAR-WILD>`](variable/$disassem-opcode-column-width$.md)
+- [`*default-dstate-hooks*`](variable/$default-dstate-hooks$.md)
+- [`*disassem-inst-alignment-bytes*`](variable/$disassem-inst-alignment-bytes$.md)
+- [`*disassem-location-column-width*`](variable/$disassem-location-column-width$.md)
+- [`*disassem-note-column*`](variable/$disassem-note-column$.md)
+- [`*disassem-opcode-column-width*`](variable/$disassem-opcode-column-width$.md)

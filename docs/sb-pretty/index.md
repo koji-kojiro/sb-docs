@@ -19,5 +19,4 @@ private: implementation of pretty-printing
 
 
 ### Variable
-- [`#<PATTERN :MULTI-CHAR-WILD "pprint-quote-with-syntactic-sugar"
-              :MULTI-CHAR-WILD>`](variable/$pprint-quote-with-syntactic-sugar$.md)
+- [`*pprint-quote-with-syntactic-sugar*`](variable/$pprint-quote-with-syntactic-sugar$.md)

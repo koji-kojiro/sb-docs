@@ -309,11 +309,10 @@ structure representations
 
 
 ### Variable
-- [`#<PATTERN :MULTI-CHAR-WILD "alloc-signal" :MULTI-CHAR-WILD>`](variable/$alloc-signal$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "binding-stack-start" :MULTI-CHAR-WILD>`](variable/$binding-stack-start$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "control-stack-end" :MULTI-CHAR-WILD>`](variable/$control-stack-end$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "control-stack-start" :MULTI-CHAR-WILD>`](variable/$control-stack-start$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "current-catch-block" :MULTI-CHAR-WILD>`](variable/$current-catch-block$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "primitive-objects" :MULTI-CHAR-WILD>`](variable/$primitive-objects$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "specialized-array-element-type-properties"
-              :MULTI-CHAR-WILD>`](variable/$specialized-array-element-type-properties$.md)
+- [`*alloc-signal*`](variable/$alloc-signal$.md)
+- [`*binding-stack-start*`](variable/$binding-stack-start$.md)
+- [`*control-stack-end*`](variable/$control-stack-end$.md)
+- [`*control-stack-start*`](variable/$control-stack-start$.md)
+- [`*current-catch-block*`](variable/$current-catch-block$.md)
+- [`*primitive-objects*`](variable/$primitive-objects$.md)
+- [`*specialized-array-element-type-properties*`](variable/$specialized-array-element-type-properties$.md)

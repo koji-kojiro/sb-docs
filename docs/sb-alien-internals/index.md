@@ -118,5 +118,5 @@ private: stuff for implementing ALIENs and friends
 
 
 ### Variable
-- [`#<PATTERN :MULTI-CHAR-WILD "saved-fp-and-pcs" :MULTI-CHAR-WILD>`](variable/$saved-fp-and-pcs$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "values-type-okay" :MULTI-CHAR-WILD>`](variable/$values-type-okay$.md)
+- [`*saved-fp-and-pcs*`](variable/$saved-fp-and-pcs$.md)
+- [`*values-type-okay*`](variable/$values-type-okay$.md)

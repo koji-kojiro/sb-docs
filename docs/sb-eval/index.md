@@ -30,5 +30,5 @@ internal: the evaluator implementation used to execute code without compiling it
 
 
 ### Variable
-- [`#<PATTERN :MULTI-CHAR-WILD "eval-calls" :MULTI-CHAR-WILD>`](variable/$eval-calls$.md)
-- [`#<PATTERN :MULTI-CHAR-WILD "eval-level" :MULTI-CHAR-WILD>`](variable/$eval-level$.md)
+- [`*eval-calls*`](variable/$eval-calls$.md)
+- [`*eval-level*`](variable/$eval-level$.md)
