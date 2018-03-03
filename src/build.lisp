@@ -6,10 +6,9 @@
   (format nil "~(~a~)~a" (substitute #\$ #\* (substitute #\^ #\/ name)) ext))
 
 (defun filename-lispname (name &optional (remove-extp t))
-  (let ((filename (substitute #\* #\$ (substitute #\/ #\^ (string name)))))
-    (if remove-extp
-      (pathname-name filename)
-      filename)))
+  (let* ((filename (if remove-extp (pathname-name name) name))
+         (lispname (substitute #\* #\$ (substitute #\/ #\^ (string filename)))))
+    lispname))
 
 (defmacro with-open-file-to-write ((stream filespec) &body body)
   `(progn
@@ -25,7 +24,7 @@
   (loop :for sym :being :the :external-symbols :of pkg
         :for definitions := (ignore-errors (trivial-documentation:symbol-definitions sym))
         :when definitions
-              :append (mapcar #'(lambda (x) (setf (getf x :name) (string-downcase sym)) x)
+              :append (mapcar #'(lambda (x) (setf (getf x :name) (string sym)) x)
                                 definitions)))
 
 (defun extract-sb-packages ()
@@ -70,7 +69,7 @@
                 (format s "~2%### ~@(~a~)~%" (first (last (pathname-directory dir))))
                 (loop :for file :in files
                       :do (format s "- [`~a`](~a/~a.md)~%"
-                                  (filename-lispname (pathname-name file))
+                                  (filename-lispname (pathname file))
                                   (first (last (pathname-directory dir)))
                                   (pathname-name file)))))))
 
