@@ -1,6 +1,6 @@
 (in-package :sb-docs)
 
-(defvar *clhs-base-ulr* "http://www.lispworks.com/documentation/HyperSpec/~a")
+(defvar *clhs-base-url* "http://www.lispworks.com/documentation/HyperSpec/~a")
 
 (defvar *clhs-symbols-map*
   '(("&allow-other-keys" . "Body/03_da.htm") ("&aux" . "Body/03_da.htm")
@@ -645,7 +645,7 @@
     ("yes-or-no-p" . "Body/f_y_or_n.htm") ("zerop" . "Body/f_zerop.htm")))
 
 (defun get-link-to-clhs (symname)
-  (let ((url (cdr (assoc symname *clhs-symbols-map*))))
+  (let ((url (cdr (assoc symname *clhs-symbols-map* :test #'string-equal))))
     (when url
       (format nil *clhs-base-url* url))))
 
