@@ -1,0 +1,99 @@
+(in-package :sb-docs)
+
+(defvar *document-root* #P"docs/")
+
+(defun lispname-filename (name &optional (ext ".md"))
+  (format nil "~(~a~)~a" (substitute #\$ #\* (substitute #\^ #\/ name)) ext))
+
+(defun filename-lispname (name &optional (remove-extp t))
+  (let ((filename (substitute #\* #\$ (substitute #\/ #\^ (string name)))))
+    (if remove-extp
+      (pathname-name filename)
+      filename)))
+
+(defmacro with-open-file-to-write ((stream filespec) &body body)
+  `(progn
+     (ensure-directories-exist (directory-namestring ,filespec) :verbose t)
+     (with-open-file (,stream
+                      ,filespec
+                      :direction :output
+                      :if-exists :supersede
+                      :if-does-not-exist :create)
+       ,@body)))
+
+(defun extract-definitions (pkg)
+  (loop :for sym :being :the :external-symbols :of pkg
+        :for definitions := (ignore-errors (trivial-documentation:symbol-definitions sym))
+        :when definitions
+              :append (mapcar #'(lambda (x) (setf (getf x :name) (string sym)) x)
+                                definitions)))
+
+(defun extract-sb-packages ()
+  (loop :for pkg :in (list-all-packages)
+        :for test := (string< "SB-" (package-name pkg))
+        :when (and test (not (zerop test)))
+              :collect pkg))
+
+(defun package-dirname (pkg)
+  (merge-pathnames (format nil "~(~a~)/" (package-name pkg))
+                   *document-root*))
+
+(defun symbol-filename (pkg kind symname)
+  (merge-pathnames (format nil "~(~a~)/" kind)
+                   (merge-pathnames (package-dirname pkg)
+                                    (lispname-filename symname))))
+
+(defun write-doc-of-symbol (definition pkg s)
+  (format s "## ~@(~a: ***~a:~a***~)~%"
+          (getf definition :kind)
+          (package-name pkg)
+          (getf definition :name))
+  (insert-badges s pkg definition)
+  (loop :for key :in '(:value :lambda-list :precedence-list :initargs :documentation)
+        :for body := (getf definition key)
+        :when body :do (format s "### ~@(~a~)~%```~%~a~%```~%"
+                               (substitute #\space #\- (string key))
+                               body)))
+
+(defun write-index-of-symbols (pkg s)
+  (format s "## Package: ***~a***~%```~%~a~%```~%---~%## Contents~%"
+          pkg
+          (or (documentation (find-package pkg) t) "No description."))
+  (let ((dirs (cl-fad:list-directory (package-dirname pkg))))
+    (loop :for dir :in dirs
+          :when (cl-fad:list-directory dir)
+          :do (format s "- [~@(~a~)](#~:*~a)~%" (first (last (pathname-directory dir)))))
+    (loop :for dir :in dirs
+          :for files := (cl-fad:list-directory dir)
+          :when files
+          :do (progn
+                (format s "~2%### ~@(~a~)~%" (first (last (pathname-directory dir))))
+                (loop :for file :in files
+                      :do (format s "- [`~a`](~a/~a.md)~%"
+                                  (filename-lispname (pathname-name file))
+                                  (first (last (pathname-directory dir)))
+                                  (pathname-name file)))))))
+
+(defun build-1 (pkg)
+  (let ((definitions (extract-definitions pkg)))
+    (loop :for definition :in definitions
+          :for kind := (getf definition :kind)
+          :for name := (getf definition :name)
+          :do (with-open-file-to-write (s (symbol-filename pkg kind name))
+                (write-doc-of-symbol definition pkg s))))
+  (with-open-file-to-write (s (merge-pathnames "index.md" (package-dirname pkg)))
+    (write-index-of-symbols pkg s)))
+
+(defun build ()
+  (with-open-file-to-write (s (merge-pathnames *document-root* "index.md"))
+    (format s "This is an **unofficial** collection of API references of [Steel Bank Common Lisp](http://www.sbcl.org/) aka SBCL.
+All the documentations are automatically extracted from documentation strings provided by SBCL (**version ~a**),
+and their copyrights belong to the original authors.~%## Contents~%"
+            (lisp-implementation-version))
+    (let ((pkg-list '(:sb-alien))) ;;(append '(:cl) (extract-sb-packages))))
+      (loop :for pkg :in (sort pkg-list #'(lambda (a b) (string-lessp (package-name a) (package-name b))))
+            :when (loop :for sym :being :the :external-symbols :of pkg :collect sym)
+                  :do (progn
+                        (format s "- [Package: ~a]~((~:*~a/index.html)~)~%" (package-name pkg))
+                        (build-1 pkg))))))
+
