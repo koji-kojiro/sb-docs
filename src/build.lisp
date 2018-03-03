@@ -25,7 +25,7 @@
   (loop :for sym :being :the :external-symbols :of pkg
         :for definitions := (ignore-errors (trivial-documentation:symbol-definitions sym))
         :when definitions
-              :append (mapcar #'(lambda (x) (setf (getf x :name) (string sym)) x)
+              :append (mapcar #'(lambda (x) (setf (getf x :name) (string-downcase sym)) x)
                                 definitions)))
 
 (defun extract-sb-packages ()
@@ -84,16 +84,16 @@
   (with-open-file-to-write (s (merge-pathnames "index.md" (package-dirname pkg)))
     (write-index-of-symbols pkg s)))
 
-(defun build ()
+(defun build (&optional pkg-list)
   (with-open-file-to-write (s (merge-pathnames *document-root* "index.md"))
     (format s "This is an **unofficial** collection of API references of [Steel Bank Common Lisp](http://www.sbcl.org/) aka SBCL.
 All the documentations are automatically extracted from documentation strings provided by SBCL (**version ~a**),
 and their copyrights belong to the original authors.~%## Contents~%"
             (lisp-implementation-version))
-    (let ((pkg-list '(:sb-alien))) ;;(append '(:cl) (extract-sb-packages))))
+    (let ((pkg-list (if pkg-list pkg-list (append '(:cl) (extract-sb-packages)))))
       (loop :for pkg :in (sort pkg-list #'(lambda (a b) (string-lessp (package-name a) (package-name b))))
             :when (loop :for sym :being :the :external-symbols :of pkg :collect sym)
                   :do (progn
-                        (format s "- [Package: ~a]~((~:*~a/index.html)~)~%" (package-name pkg))
+                        (format s "- [Package: ~a]~((~:*~a/)~)~%" (package-name pkg))
                         (build-1 pkg))))))
 

@@ -2,6 +2,8 @@
 build:
 	@ros run -L sbcl -sp sb-docs -e "(build)" -q
 test:
+	@ros run -L sbcl -sp sb-docs -e "(build '(:sb-alien))" -q
+preview:
 	@bundle exec jekyll serve -s docs
 clean:
 	@cd docs; ls | grep -v -E "_config.yml|_layouts" | xargs rm -r
