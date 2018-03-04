@@ -1,7 +1,8 @@
 ## Package: ***SB-FASL***
-```
-private: stuff related to FASL load/dump logic (and GENESIS)
-```
+
+> private: stuff related to FASL load/dump logic (and GENESIS)
+
+
 ---
 ## Contents
 - [Constant](#constant)

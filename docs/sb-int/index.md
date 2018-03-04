@@ -1,9 +1,10 @@
 ## Package: ***SB-INT***
-```
-private: miscellaneous unsupported extensions to the ANSI spec. Much of
-the stuff in here originated in CMU CL's EXTENSIONS package and is retained,
-possibly temporarily, because it might be used internally.
-```
+
+> private: miscellaneous unsupported extensions to the ANSI spec. Much of
+> the stuff in here originated in CMU CL's EXTENSIONS package and is retained,
+> possibly temporarily, because it might be used internally.
+
+
 ---
 ## Contents
 - [Class](#class)

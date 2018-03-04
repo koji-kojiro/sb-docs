@@ -1,11 +1,12 @@
 ## Package: ***SB-ALIEN***
-```
-public: the ALIEN foreign function interface (If you're
-porting CMU CL code, note that this package corresponds roughly to a union
-of the packages ALIEN and C-CALL at the time of the SBCL fork. SB-C-CALL
-is a deprecated nickname to help ease the transition from older versions
-of SBCL which maintained the CMU-CL-style split into two packages.)
-```
+
+> public: the ALIEN foreign function interface (If you're
+> porting CMU CL code, note that this package corresponds roughly to a union
+> of the packages ALIEN and C-CALL at the time of the SBCL fork. SB-C-CALL
+> is a deprecated nickname to help ease the transition from older versions
+> of SBCL which maintained the CMU-CL-style split into two packages.)
+
+
 ---
 ## Contents
 - [Class](#class)

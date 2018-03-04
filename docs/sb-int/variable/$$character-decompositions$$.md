@@ -1,5 +1,8 @@
 ## Variable: ***sb-int:**character-decompositions*****
 [![package](https://img.shields.io/badge/Package-SB--INT-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Variable-5f9ea0.svg?style=social&colorA=999999)](../#variable) 
+
+> No description.
+
 ### Value
 ```
 #(32 32 776 97 32 772 50 51 32 769 956 32 807 49 111 49 8260 52 49 8260 50 51

@@ -1,11 +1,12 @@
 ## Package: ***SB-PCL***
-```
-semi-public: This package includes useful meta-object protocol
-extensions, but even they are not guaranteed to be present in later
-versions of SBCL, and the other stuff in here is definitely not
-guaranteed to be present in later versions of SBCL.  Use of this
-package is deprecated in favour of SB-MOP.
-```
+
+> semi-public: This package includes useful meta-object protocol
+> extensions, but even they are not guaranteed to be present in later
+> versions of SBCL, and the other stuff in here is definitely not
+> guaranteed to be present in later versions of SBCL.  Use of this
+> package is deprecated in favour of SB-MOP.
+
+
 ---
 ## Contents
 - [Class](#class)

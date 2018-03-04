@@ -1,5 +1,8 @@
 ## Variable: ***sb-int:**character-misc-database*****
 [![package](https://img.shields.io/badge/Package-SB--INT-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Variable-5f9ea0.svg?style=social&colorA=999999)](../#variable) 
+
+> No description.
+
 ### Value
 ```
 #(5 0 0 128 0 0 1 10 9 5 17 0 128 0 0 1 4 9 5 3 0 128 0 0 1 20 9 5 17 0 128 0 0

@@ -1,8 +1,9 @@
 ## Package: ***SB-SEQUENCE***
-```
-semi-public: implements something which might eventually
-be submitted as a CDR
-```
+
+> semi-public: implements something which might eventually
+> be submitted as a CDR
+
+
 ---
 ## Contents
 - [Class](#class)

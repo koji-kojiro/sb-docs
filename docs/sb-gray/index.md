@@ -1,8 +1,9 @@
 ## Package: ***SB-GRAY***
-```
-public: an implementation of the stream-definition-by-user
-Lisp extension proposal by David N. Gray
-```
+
+> public: an implementation of the stream-definition-by-user
+> Lisp extension proposal by David N. Gray
+
+
 ---
 ## Contents
 - [Class](#class)

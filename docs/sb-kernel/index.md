@@ -1,9 +1,10 @@
 ## Package: ***SB-KERNEL***
-```
-private: Theoretically this 'hides state and types used for package
-integration' (said CMU CL architecture.tex) and that probably was and
-is a good idea, but see SB-SYS re. blurring of boundaries.
-```
+
+> private: Theoretically this 'hides state and types used for package
+> integration' (said CMU CL architecture.tex) and that probably was and
+> is a good idea, but see SB-SYS re. blurring of boundaries.
+
+
 ---
 ## Contents
 - [Class](#class)

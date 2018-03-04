@@ -1,7 +1,8 @@
 ## Package: ***SB-BIGNUM***
-```
-private: bignum implementation
-```
+
+> private: bignum implementation
+
+
 ---
 ## Contents
 - [Function](#function)

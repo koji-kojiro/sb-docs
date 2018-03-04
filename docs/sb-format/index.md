@@ -1,7 +1,8 @@
 ## Package: ***SB-FORMAT***
-```
-private: implementation of FORMAT and friends
-```
+
+> private: implementation of FORMAT and friends
+
+
 ---
 ## Contents
 - [Class](#class)

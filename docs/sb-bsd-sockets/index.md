@@ -1,11 +1,12 @@
 ## Package: ***SB-BSD-SOCKETS***
-```
-A thinly-disguised BSD socket API for SBCL.  Ideas stolen from the BSD
-socket API for C and Graham Barr's IO::Socket classes for Perl.
 
-We represent sockets as CLOS objects, and rename a lot of methods and
-arguments to fit Lisp style more closely.
-```
+> A thinly-disguised BSD socket API for SBCL.  Ideas stolen from the BSD
+> socket API for C and Graham Barr's IO::Socket classes for Perl.
+> 
+> We represent sockets as CLOS objects, and rename a lot of methods and
+> arguments to fit Lisp style more closely.
+
+
 ---
 ## Contents
 - [Class](#class)

@@ -1,7 +1,8 @@
 ## Package: ***SB-WALKER***
-```
-internal: a code walker used by PCL
-```
+
+> internal: a code walker used by PCL
+
+
 ---
 ## Contents
 - [Function](#function)

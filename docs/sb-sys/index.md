@@ -1,13 +1,14 @@
 ## Package: ***SB-SYS***
-```
-private: In theory, this "contains functions and information
-necessary for system interfacing" (said cmu-user.tex at the time
-of the SBCL code fork). That probably was and is a good idea, but in
-practice, the distinctions between this package and SB-KERNEL
-and even SB-VM seem to have become somewhat blurred over the years.
-Some anomalies (e.g. FIND-IF-IN-CLOSURE being in SB-SYS instead of
-SB-KERNEL) have been undone, but probably more remain.
-```
+
+> private: In theory, this "contains functions and information
+> necessary for system interfacing" (said cmu-user.tex at the time
+> of the SBCL code fork). That probably was and is a good idea, but in
+> practice, the distinctions between this package and SB-KERNEL
+> and even SB-VM seem to have become somewhat blurred over the years.
+> Some anomalies (e.g. FIND-IF-IN-CLOSURE being in SB-SYS instead of
+> SB-KERNEL) have been undone, but probably more remain.
+
+
 ---
 ## Contents
 - [Class](#class)

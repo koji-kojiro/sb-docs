@@ -1,7 +1,8 @@
 ## Package: ***SB-DISASSEM***
-```
-private: stuff related to the implementation of the disassembler
-```
+
+> private: stuff related to the implementation of the disassembler
+
+
 ---
 ## Contents
 - [Constant](#constant)

@@ -1,7 +1,8 @@
 ## Package: ***COMMON-LISP***
-```
-public: home of symbols defined by the ANSI language specification
-```
+
+> public: home of symbols defined by the ANSI language specification
+
+
 ---
 ## Contents
 - [Class](#class)

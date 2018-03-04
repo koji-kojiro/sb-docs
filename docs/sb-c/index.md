@@ -1,7 +1,8 @@
 ## Package: ***SB-C***
-```
-private: implementation of the compiler
-```
+
+> private: implementation of the compiler
+
+
 ---
 ## Contents
 - [Class](#class)

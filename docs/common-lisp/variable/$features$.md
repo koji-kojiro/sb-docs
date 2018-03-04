@@ -1,5 +1,9 @@
 ## Variable: ***common-lisp:*features****
 [![package](https://img.shields.io/badge/Package-COMMON--LISP-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Variable-5f9ea0.svg?style=social&colorA=999999)](../#variable) [![clhs](https://img.shields.io/badge/CLHS-*FEATURES*-5f9ea0.svg?style=social&colorA=999999)](http://www.lispworks.com/documentation/HyperSpec/Body/v_featur.htm) 
+
+> a list of symbols that describe features provided by the
+> implementation
+
 ### Value
 ```
 (CLOSER-MOP CL-PPCRE CL-FAD SEQUENCE-EMPTYP QUICKLISP QUICKLISP-SUPPORT-HTTPS
@@ -14,9 +18,4 @@
  SB-UNICODE SBCL STACK-ALLOCATABLE-CLOSURES STACK-ALLOCATABLE-FIXED-OBJECTS
  STACK-ALLOCATABLE-LISTS STACK-ALLOCATABLE-VECTORS SYMBOL-INFO-VOPS UNIX
  UNWIND-TO-FRAME-AND-CALL-VOP)
-```
-### Documentation
-```
-a list of symbols that describe features provided by the
-   implementation
 ```

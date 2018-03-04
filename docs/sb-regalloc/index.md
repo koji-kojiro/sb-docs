@@ -1,7 +1,8 @@
 ## Package: ***SB-REGALLOC***
-```
-private: implementation of the compiler's register allocator
-```
+
+> private: implementation of the compiler's register allocator
+
+
 ---
 ## Contents
 - [Function](#function)

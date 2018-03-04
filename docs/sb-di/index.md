@@ -1,7 +1,8 @@
 ## Package: ***SB-DI***
-```
-private: primitives used to write debuggers
-```
+
+> private: primitives used to write debuggers
+
+
 ---
 ## Contents
 - [Class](#class)

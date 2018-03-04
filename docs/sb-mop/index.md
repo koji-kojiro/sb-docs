@@ -1,9 +1,10 @@
 ## Package: ***SB-MOP***
-```
-public: the MetaObject Protocol interface, as defined by
-The Art of the Metaobject Protocol, by Kiczales, des Rivieres and Bobrow:
-ISBN 0-262-61074-4, with exceptions as noted in the User Manual.
-```
+
+> public: the MetaObject Protocol interface, as defined by
+> The Art of the Metaobject Protocol, by Kiczales, des Rivieres and Bobrow:
+> ISBN 0-262-61074-4, with exceptions as noted in the User Manual.
+
+
 ---
 ## Contents
 - [Class](#class)

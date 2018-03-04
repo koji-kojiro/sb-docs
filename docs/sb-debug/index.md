@@ -1,10 +1,11 @@
 ## Package: ***SB-DEBUG***
-```
-sorta public: Eventually this should become the debugger interface, with
-basic stuff like BACKTRACE and ARG. For now, the actual supported interface
-is still mixed indiscriminately with low-level internal implementation stuff
-like *STACK-TOP-HINT* and unsupported stuff like *TRACED-FUN-LIST*.
-```
+
+> sorta public: Eventually this should become the debugger interface, with
+> basic stuff like BACKTRACE and ARG. For now, the actual supported interface
+> is still mixed indiscriminately with low-level internal implementation stuff
+> like *STACK-TOP-HINT* and unsupported stuff like *TRACED-FUN-LIST*.
+
+
 ---
 ## Contents
 - [Function](#function)

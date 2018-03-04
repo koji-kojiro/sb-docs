@@ -1,7 +1,8 @@
 ## Package: ***SB-UNICODE***
-```
-public: algorithms for Unicode data
-```
+
+> public: algorithms for Unicode data
+
+
 ---
 ## Contents
 - [Function](#function)

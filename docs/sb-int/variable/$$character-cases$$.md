@@ -1,5 +1,8 @@
 ## Variable: ***sb-int:**character-cases*****
 [![package](https://img.shields.io/badge/Package-SB--INT-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Variable-5f9ea0.svg?style=social&colorA=999999)](../#variable) 
+
+> No description.
+
 ### Value
 ```
 #(0 0 97 65 98 66 99 67 100 68 101 69 102 70 103 71 104 72 105 73 106 74 107 75

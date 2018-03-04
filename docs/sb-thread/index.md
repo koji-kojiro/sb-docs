@@ -1,7 +1,8 @@
 ## Package: ***SB-THREAD***
-```
-public (but low-level): native thread support
-```
+
+> public (but low-level): native thread support
+
+
 ---
 ## Contents
 - [Class](#class)

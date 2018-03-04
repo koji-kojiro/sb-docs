@@ -1,5 +1,8 @@
 ## Variable: ***sb-int:**unicode-1-name-char-database*****
 [![package](https://img.shields.io/badge/Package-SB--INT-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Variable-5f9ea0.svg?style=social&colorA=999999)](../#variable) 
+
+> No description.
+
 ### Value
 ```
 #(13272 9001 37330 0 53138 7 60136 9002 114303 8486 130871 8487 224520 9837

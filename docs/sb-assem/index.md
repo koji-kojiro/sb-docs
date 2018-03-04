@@ -1,7 +1,8 @@
 ## Package: ***SB-ASSEM***
-```
-private: the assembler, used by the compiler
-```
+
+> private: the assembler, used by the compiler
+
+
 ---
 ## Contents
 - [Constant](#constant)

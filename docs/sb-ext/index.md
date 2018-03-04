@@ -1,7 +1,8 @@
 ## Package: ***SB-EXT***
-```
-public: miscellaneous supported extensions to the ANSI Lisp spec
-```
+
+> public: miscellaneous supported extensions to the ANSI Lisp spec
+
+
 ---
 ## Contents
 - [Class](#class)

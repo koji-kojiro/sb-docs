@@ -1,7 +1,8 @@
 ## Package: ***SB-EVAL***
-```
-internal: the evaluator implementation used to execute code without compiling it.
-```
+
+> internal: the evaluator implementation used to execute code without compiling it.
+
+
 ---
 ## Contents
 - [Class](#class)

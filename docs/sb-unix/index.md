@@ -1,14 +1,15 @@
 ## Package: ***SB-UNIX***
-```
-private: a wrapper layer for SBCL itself to use when talking
-with an underlying Unix-y operating system.
-This was a public package in CMU CL, but that was different.
-CMU CL's UNIX package tried to provide a comprehensive,
-stable Unix interface suitable for the end user.
-This package only tries to implement what happens to be
-needed by the current implementation of SBCL, and makes
-no guarantees of interface stability.
-```
+
+> private: a wrapper layer for SBCL itself to use when talking
+> with an underlying Unix-y operating system.
+> This was a public package in CMU CL, but that was different.
+> CMU CL's UNIX package tried to provide a comprehensive,
+> stable Unix interface suitable for the end user.
+> This package only tries to implement what happens to be
+> needed by the current implementation of SBCL, and makes
+> no guarantees of interface stability.
+
+
 ---
 ## Contents
 - [Constant](#constant)

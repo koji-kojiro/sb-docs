@@ -1,7 +1,8 @@
 ## Package: ***SB-PROFILE***
-```
-public: the interface to the profiler
-```
+
+> public: the interface to the profiler
+
+
 ---
 ## Contents
 - [Function](#function)

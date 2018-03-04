@@ -1,8 +1,9 @@
 ## Package: ***SB-VM***
-```
-internal: the default place to hide information about the hardware and data
-structure representations
-```
+
+> internal: the default place to hide information about the hardware and data
+> structure representations
+
+
 ---
 ## Contents
 - [Constant](#constant)

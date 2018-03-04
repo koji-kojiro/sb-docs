@@ -1,7 +1,8 @@
 ## Package: ***SB-PRETTY***
-```
-private: implementation of pretty-printing
-```
+
+> private: implementation of pretty-printing
+
+
 ---
 ## Contents
 - [Function](#function)

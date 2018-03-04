@@ -1,7 +1,8 @@
 ## Package: ***SB-ALIEN-INTERNALS***
-```
-private: stuff for implementing ALIENs and friends
-```
+
+> private: stuff for implementing ALIENs and friends
+
+
 ---
 ## Contents
 - [Function](#function)
