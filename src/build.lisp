@@ -56,7 +56,7 @@
 
 (defun write-index-of-symbols (pkg s)
   (format s "## Package: ***~a***~%```~%~a~%```~%---~%## Contents~%"
-          pkg
+          (package-name pkg)
           (or (documentation (find-package pkg) t) "No description."))
   (let ((dirs (cl-fad:list-directory (package-dirname pkg))))
     (loop :for dir :in dirs
