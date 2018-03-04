@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-FORMAT">***
+## Package: ***SB-FORMAT***
 ```
 private: implementation of FORMAT and friends
 ```

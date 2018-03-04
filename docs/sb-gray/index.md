@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-GRAY">***
+## Package: ***SB-GRAY***
 ```
 public: an implementation of the stream-definition-by-user
 Lisp extension proposal by David N. Gray

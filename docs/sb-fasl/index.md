@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-FASL">***
+## Package: ***SB-FASL***
 ```
 private: stuff related to FASL load/dump logic (and GENESIS)
 ```

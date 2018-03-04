@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-INTROSPECT">***
+## Package: ***SB-INTROSPECT***
 ```
 No description.
 ```

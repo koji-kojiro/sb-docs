@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-UNICODE">***
+## Package: ***SB-UNICODE***
 ```
 public: algorithms for Unicode data
 ```

@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-DISASSEM">***
+## Package: ***SB-DISASSEM***
 ```
 private: stuff related to the implementation of the disassembler
 ```

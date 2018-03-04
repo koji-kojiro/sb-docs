@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-THREAD">***
+## Package: ***SB-THREAD***
 ```
 public (but low-level): native thread support
 ```

@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-DOCS">***
+## Package: ***SB-DOCS***
 ```
 No description.
 ```

@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-PCL">***
+## Package: ***SB-PCL***
 ```
 semi-public: This package includes useful meta-object protocol
 extensions, but even they are not guaranteed to be present in later

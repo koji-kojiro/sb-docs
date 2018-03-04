@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-WALKER">***
+## Package: ***SB-WALKER***
 ```
 internal: a code walker used by PCL
 ```

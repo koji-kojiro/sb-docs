@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-PROFILE">***
+## Package: ***SB-PROFILE***
 ```
 public: the interface to the profiler
 ```

@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-C">***
+## Package: ***SB-C***
 ```
 private: implementation of the compiler
 ```

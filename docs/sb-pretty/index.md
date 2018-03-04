@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-PRETTY">***
+## Package: ***SB-PRETTY***
 ```
 private: implementation of pretty-printing
 ```

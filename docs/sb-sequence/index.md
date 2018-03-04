@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-SEQUENCE">***
+## Package: ***SB-SEQUENCE***
 ```
 semi-public: implements something which might eventually
 be submitted as a CDR

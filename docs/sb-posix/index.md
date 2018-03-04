@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-POSIX">***
+## Package: ***SB-POSIX***
 ```
 No description.
 ```

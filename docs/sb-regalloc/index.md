@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-REGALLOC">***
+## Package: ***SB-REGALLOC***
 ```
 private: implementation of the compiler's register allocator
 ```

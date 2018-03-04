@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-SYS">***
+## Package: ***SB-SYS***
 ```
 private: In theory, this "contains functions and information
 necessary for system interfacing" (said cmu-user.tex at the time

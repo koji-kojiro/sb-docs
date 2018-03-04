@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-BIGNUM">***
+## Package: ***SB-BIGNUM***
 ```
 private: bignum implementation
 ```

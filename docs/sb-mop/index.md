@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-MOP">***
+## Package: ***SB-MOP***
 ```
 public: the MetaObject Protocol interface, as defined by
 The Art of the Metaobject Protocol, by Kiczales, des Rivieres and Bobrow:

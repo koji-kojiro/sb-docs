@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-EVAL">***
+## Package: ***SB-EVAL***
 ```
 internal: the evaluator implementation used to execute code without compiling it.
 ```

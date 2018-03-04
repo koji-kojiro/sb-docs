@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-KERNEL">***
+## Package: ***SB-KERNEL***
 ```
 private: Theoretically this 'hides state and types used for package
 integration' (said CMU CL architecture.tex) and that probably was and

@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-UNIX">***
+## Package: ***SB-UNIX***
 ```
 private: a wrapper layer for SBCL itself to use when talking
 with an underlying Unix-y operating system.

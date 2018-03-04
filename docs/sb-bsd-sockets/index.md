@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-BSD-SOCKETS">***
+## Package: ***SB-BSD-SOCKETS***
 ```
 A thinly-disguised BSD socket API for SBCL.  Ideas stolen from the BSD
 socket API for C and Graham Barr's IO::Socket classes for Perl.

@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-ALIEN-INTERNALS">***
+## Package: ***SB-ALIEN-INTERNALS***
 ```
 private: stuff for implementing ALIENs and friends
 ```

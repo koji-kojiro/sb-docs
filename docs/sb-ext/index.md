@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-EXT">***
+## Package: ***SB-EXT***
 ```
 public: miscellaneous supported extensions to the ANSI Lisp spec
 ```

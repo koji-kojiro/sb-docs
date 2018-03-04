@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-DI">***
+## Package: ***SB-DI***
 ```
 private: primitives used to write debuggers
 ```

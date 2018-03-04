@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-DEBUG">***
+## Package: ***SB-DEBUG***
 ```
 sorta public: Eventually this should become the debugger interface, with
 basic stuff like BACKTRACE and ARG. For now, the actual supported interface

@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-ASSEM">***
+## Package: ***SB-ASSEM***
 ```
 private: the assembler, used by the compiler
 ```

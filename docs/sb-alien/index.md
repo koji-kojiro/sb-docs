@@ -1,4 +1,4 @@
-## Package: ***#<PACKAGE "SB-ALIEN">***
+## Package: ***SB-ALIEN***
 ```
 public: the ALIEN foreign function interface (If you're
 porting CMU CL code, note that this package corresponds roughly to a union
