@@ -41,6 +41,11 @@
   (merge-pathnames (format nil "~(~a~)/" kind)
                    (merge-pathnames (package-dirname pkg)
                                     (lispname-filename symname))))
+(defun insert-description (s doc)
+  (let ((lines (ppcre:split "\\n" doc)))
+    (format s
+            "~%~:[> No description.~%~;~1:*~{> ~a~%~}~]~%"
+            (mapcar #'(lambda (x) (string-trim '(#\space) x)) lines))))
 
 (defun write-doc-of-symbol (definition pkg s)
   (format s "## ~@(~a: ***~a:~a***~)~%"
@@ -48,16 +53,17 @@
           (package-name pkg)
           (getf definition :name))
   (insert-badges s pkg definition)
-  (loop :for key :in '(:value :lambda-list :precedence-list :initargs :documentation)
+  (insert-description s (getf definition :documentation))
+  (loop :for key :in '(:value :lambda-list :precedence-list :initargs)
         :for body := (getf definition key)
         :when body :do (format s "### ~@(~a~)~%```~%~a~%```~%"
                                (substitute #\space #\- (string key))
                                body)))
 
 (defun write-index-of-symbols (pkg s)
-  (format s "## Package: ***~a***~%```~%~a~%```~%---~%## Contents~%"
+  (format s "## Package: ***~a***~%~a~%---~%## Contents~%"
           (package-name pkg)
-          (or (documentation (find-package pkg) t) "No description."))
+          (insert-description nil (documentation (find-package pkg) t)))
   (let ((dirs (cl-fad:list-directory (package-dirname pkg))))
     (loop :for dir :in dirs
           :when (cl-fad:list-directory dir)
