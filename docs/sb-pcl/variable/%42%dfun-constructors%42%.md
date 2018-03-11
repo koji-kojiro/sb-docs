@@ -9,13 +9,13 @@
   (NIL
    #<FUNCTION (LAMBDA (SB-PCL::CACHE SB-PCL::MISS-FN)
                 :IN
-                "/home/travis/build/koji-kojiro/sb-docs/sb-docs.asd") {100265FB3B}>
+                "/home/travis/build/koji-kojiro/sb-docs/sb-docs.asd") {1002657B3B}>
    PCL NIL))
  (EMIT-ONE-CLASS-BOUNDP
   ((NIL)
    #<FUNCTION (LAMBDA (SB-PCL::WRAPPER-0 SB-INT:INDEX SB-PCL::MISS-FN)
                 :IN
-                "/home/travis/.roswell/lisp/quicklisp/quicklisp/quicklisp.asd") {100265FD7B}>
+                "/home/travis/.roswell/lisp/quicklisp/quicklisp/quicklisp.asd") {1002657D7B}>
    PCL NIL))
  (EMIT-DEFAULT-ONLY
   (((T) T)
@@ -27,22 +27,22 @@
   (((CLASS T) T)
    #<FUNCTION (LAMBDA (SB-PCL::CACHE SB-PCL::EMF SB-PCL::MISS-FN)
                 :IN
-                "/home/travis/.roswell/etc/roswell/util.lisp") {100265DBDB}>
+                "/home/travis/.roswell/etc/roswell/util.lisp") {1002655BDB}>
    PCL NIL)
   (((T CLASS CLASS) NIL)
    #<FUNCTION (LAMBDA (SB-PCL::CACHE SB-PCL::EMF SB-PCL::MISS-FN)
                 :IN
-                "/home/travis/.roswell/lisp/quicklisp/setup.lisp") {100265E25B}>
+                "/home/travis/.roswell/lisp/quicklisp/setup.lisp") {100265625B}>
    PCL NIL)
   (((T CLASS) NIL)
    #<FUNCTION (LAMBDA (SB-PCL::CACHE SB-PCL::EMF SB-PCL::MISS-FN)
                 :IN
-                "/home/travis/.roswell/lisp/quicklisp/setup.lisp") {100265E6DB}>
+                "/home/travis/.roswell/lisp/quicklisp/setup.lisp") {10026566DB}>
    PCL NIL)
   (((T CLASS CLASS) T)
    #<FUNCTION (LAMBDA (SB-PCL::CACHE SB-PCL::EMF SB-PCL::MISS-FN)
                 :IN
-                "/home/travis/.roswell/lisp/quicklisp/setup.lisp") {100265EB2B}>
+                "/home/travis/.roswell/lisp/quicklisp/setup.lisp") {1002656B2B}>
    PCL NIL)
   (((CLASS T T) T)
    #<FUNCTION (LAMBDA (SB-PCL::CACHE SB-PCL::EMF SB-PCL::MISS-FN)
@@ -119,7 +119,7 @@
   (((T CLASS CLASS) T)
    #<FUNCTION (LAMBDA (SB-PCL::CACHE SB-PCL::MISS-FN)
                 :IN
-                "/home/travis/.roswell/lisp/quicklisp/setup.lisp") {100265F27B}>
+                "/home/travis/.roswell/lisp/quicklisp/setup.lisp") {100265727B}>
    PCL NIL)
   (((T CLASS CLASS) NIL)
    #<FUNCTION (LAMBDA (SB-PCL::CACHE SB-PCL::MISS-FN)
@@ -284,7 +284,7 @@
   ((T)
    #<FUNCTION (LAMBDA (SB-PCL::WRAPPER-0 SB-INT:INDEX SB-PCL::MISS-FN)
                 :IN
-                "/home/travis/.roswell/lisp/quicklisp/setup.lisp") {100265F96B}>
+                "/home/travis/.roswell/lisp/quicklisp/setup.lisp") {100265796B}>
    PCL NIL)
   ((NIL)
    #<FUNCTION (LAMBDA (SB-PCL::WRAPPER-0 SB-INT:INDEX SB-PCL::MISS-FN)
