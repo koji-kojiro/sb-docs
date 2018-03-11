@@ -2,12 +2,23 @@
 
 (defvar *document-root* #P"docs/")
 
-(defun lispname-filename (name &optional (ext ".md"))
-  (format nil "~(~a~)~a" (substitute #\$ #\* (substitute #\^ #\/ name)) ext))
+(defun lispname-filename (lispname &optional (ext ".md"))
+  (let ((filename lispname))
+    (ppcre:do-matches (start end "[^\\w|-]" lispname)
+      (loop :for n :from start :below end
+            :for char := (char lispname n)
+            :do (setf filename (ppcre:regex-replace-all char filename (format nil "%~a%" (char-code char))))))
+    (format nil "~(~a~)~a" filename ext)))
 
-(defun filename-lispname (name &optional (remove-extp t))
-  (let* ((filename (if remove-extp (pathname-name name) name))
-         (lispname (substitute #\* #\$ (substitute #\/ #\^ (string filename)))))
+(defun filename-lispname (filename &optional (remove-extp t))
+  (let* ((filename (if remove-extp (pathname-name filename) filename))
+         (lispname filename))
+    (ppcre:do-matches (start end "%\\d+%" filename)
+      (setf lispname
+            (ppcre:regex-replace-all
+              (subseq filename start end)
+              lispname
+              (format nil "~a" (code-char (parse-integer (subseq filename (1+ start) (1- end))))))))
     lispname))
 
 (defmacro with-open-file-to-write ((stream filespec) &body body)
