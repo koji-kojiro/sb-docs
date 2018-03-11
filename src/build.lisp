@@ -33,7 +33,8 @@
 
 (defun extract-definitions (pkg)
   (loop :for sym :being :the :symbols :of pkg
-        :for definitions := (ignore-errors (trivial-documentation:symbol-definitions sym))
+        :for definitions := (let ((*error-output* (make-broadcast-stream)))
+                              (ignore-errors (trivial-documentation:symbol-definitions sym)))
         :when definitions
               :append (loop :for definition :in definitions
                             :for status := (cadr (multiple-value-list (find-symbol (string sym) pkg)))
