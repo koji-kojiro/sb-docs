@@ -1,0 +1,9 @@
+## Variable: SB-UNICODE::\*BIDI-CLASSES\*
+[![package](https://img.shields.io/badge/Package-SB--UNICODE-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Variable-5f9ea0.svg?style=social&colorA=999999)](../#variable) 
+
+> No description.
+
+### Value
+```
+#(BN AL AN B CS EN ES ET L LRE LRO NSM ON PDF R RLE RLO S WS LRI RLI FSI PDI)
+```
