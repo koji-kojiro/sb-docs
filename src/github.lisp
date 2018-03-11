@@ -4,7 +4,9 @@
 
 (defun get-link-to-github (pkg definition)
   (when (eql :function (getf definition :kind))
-    (let* ((fun (symbol-function (getf definition :symbol)))
+    (let* ((fun (handler-case
+                  (symbol-function (getf definition :symbol))
+                  (condition () (return-from get-link-to-github nil))))
            (info (sb-kernel:%code-debug-info
                    (sb-impl::fun-code-header (sb-impl::%fun-fun fun)))))
       (when info
