@@ -4,12 +4,7 @@
 
 (defun get-link-to-github (pkg definition)
   (when (eql :function (getf definition :kind))
-    (let* ((fun (eval
-                  (read-from-string
-                    (format nil
-                            "#'~a::~a"
-                            (package-name pkg)
-                            (getf definition :name)))))
+    (let* ((fun (symbol-function (getf definition :symbol)))
            (info (sb-kernel:%code-debug-info
                    (sb-impl::fun-code-header (sb-impl::%fun-fun fun)))))
       (when info

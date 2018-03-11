@@ -28,6 +28,7 @@
                             :for status := (cadr (multiple-value-list (find-symbol (string sym) pkg)))
                             :unless (eql status :inherited)
                                     :do (setf (getf definition :name) (string sym)
+                                              (getf definition :symbol) sym
                                               (getf definition :status) status)
                                     :and :collect definition)))
 
