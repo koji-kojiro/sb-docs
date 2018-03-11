@@ -5,5 +5,5 @@
 
 ### Value
 ```
-#<FD-STREAM for "standard output" {10018D9A03}>
+#<FD-STREAM for "standard output" {10018D9AD3}>
 ```
