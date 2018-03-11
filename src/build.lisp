@@ -3,13 +3,12 @@
 (defvar *document-root* #P"docs/")
 
 (defun lispname-filename (lispname &optional (ext ".md"))
-  (let ((filename lispname))
+  (let ((filename-list (ppcre:split "" lispname)))
     (ppcre:do-matches (start end "[^\\w|-]" lispname)
       (loop :for n :from start :below end
-            :for char := (char lispname n)
-            :do (setf filename (ppcre:regex-replace-all char filename (format nil "%~a%" (char-code char))))))
-    (format nil "~(~a~)~a" filename ext)))
-
+            :do (setf (nth n filename-list) (format nil "%~a%" (char-code (char lispname n))))))
+    (format nil "~{~a~}~a" filename-list ext)))
+ 
 (defun filename-lispname (filename &optional (remove-extp t))
   (let* ((filename (if remove-extp (pathname-name filename) filename))
          (lispname filename))
