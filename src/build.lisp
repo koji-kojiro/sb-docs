@@ -64,7 +64,7 @@
             (mapcar #'(lambda (x) (string-trim '(#\space) x)) lines))))
 
 (defun write-doc-of-symbol (definition pkg s)
-  (format s "## ~@(~a: [~a~:[::~;:~]~a](../)~)~%"
+  (format s "## ~@(~a:~) ~a~:[::~;:~]~a~%"
           (getf definition :kind)
           (package-name pkg)
           (eql (getf definition :status) :external)
