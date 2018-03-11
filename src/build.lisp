@@ -21,11 +21,15 @@
        ,@body)))
 
 (defun extract-definitions (pkg)
-  (loop :for sym :being :the :external-symbols :of pkg
+  (loop :for sym :being :the :symbols :of pkg
         :for definitions := (ignore-errors (trivial-documentation:symbol-definitions sym))
         :when definitions
-              :append (mapcar #'(lambda (x) (setf (getf x :name) (string sym)) x)
-                                definitions)))
+              :append (loop :for definition :in definitions
+                            :for status := (cadr (multiple-value-list (find-symbol (string sym) pkg)))
+                            :unless (eql status :inherited)
+                                    :do (setf (getf definition :name) (string sym)
+                                              (getf definition :status) status)
+                                    :and :collect definition)))
 
 (defun extract-sb-packages ()
   (loop :for pkg :in (list-all-packages)
@@ -48,10 +52,11 @@
             (mapcar #'(lambda (x) (string-trim '(#\space) x)) lines))))
 
 (defun write-doc-of-symbol (definition pkg s)
-  (format s "## ~@(~a: ***~a:~a***~)~%"
+  (format s "## ~@(~a: [~a~:[::~;:~]~a](../)~)~%"
           (getf definition :kind)
           (package-name pkg)
-          (getf definition :name))
+          (eql (getf definition :status) :external)
+          (ppcre:regex-replace-all "\\*" (getf definition :name) "\\*"))
   (insert-badges s pkg definition)
   (insert-description s (getf definition :documentation))
   (loop :for key :in '(:value :lambda-list :precedence-list :initargs)
@@ -61,7 +66,7 @@
                                body)))
 
 (defun write-index-of-symbols (pkg s)
-  (format s "## Package: ***~a***~%~a~%---~%## Contents~%"
+  (format s "## Package: ~a~%~a~%---~%## Contents~%"
           (package-name pkg)
           (insert-description nil (documentation (find-package pkg) t)))
   (let ((dirs (cl-fad:list-directory (package-dirname pkg))))

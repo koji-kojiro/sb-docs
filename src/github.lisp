@@ -7,7 +7,7 @@
     (let* ((fun (eval
                   (read-from-string
                     (format nil
-                            "#'~a:~a"
+                            "#'~a::~a"
                             (package-name pkg)
                             (getf definition :name)))))
            (info (sb-kernel:%code-debug-info
