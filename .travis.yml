@@ -5,10 +5,6 @@ env:
   global:
     - PATH: ~/.roswell/bin:$PATH
     - ROSWELL_INSTALL_DIR: $HOME/.roswell
-    - GIT_COMITTER_NAME: "Kojiro TANI"
-    - GIT_COMMITTER_EMAIL: kojiro0531@gmail.com
-    - GIT_AUTHOR_NAME: "Kojiro TANI"
-    - GIT_AUTHOR_EMAIL: kojir0531@gmail.com
 
 os:
   - linux
