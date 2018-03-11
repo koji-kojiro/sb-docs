@@ -114,8 +114,7 @@ and their copyrights belong to the original authors.~%## Contents~%"
             (lisp-implementation-version))
     (let ((pkg-list (if pkg-list pkg-list (append '(:cl) (extract-sb-packages)))))
       (loop :for pkg :in (sort pkg-list #'(lambda (a b) (string-lessp (package-name a) (package-name b))))
-            :when (loop :for sym :being :the :external-symbols :of pkg :collect sym)
-                  :do (progn
-                        (format s "- [Package: ~a]~((~:*~a/)~)~%" (package-name pkg))
-                        (build-1 pkg))))))
+            :do (progn
+                  (format s "- [Package: ~a]~((~:*~a/)~)~%" (package-name pkg))
+                         (build-1 pkg))))))
 
