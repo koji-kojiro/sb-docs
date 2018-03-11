@@ -20,7 +20,7 @@ after_success:
   - chmod 600 ~/.ssh/id_rsa
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
   - git config --global user.email "kojiro0531@gmail.com"
-  - git config --global user.name "Kojiro TANI"
+  - git config --global user.name "TANI Kojiro"
   - git clone git@github.com:koji-kojiro/sb-docs.git
   - cd sb-docs
   - make clean build
