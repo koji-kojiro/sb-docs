@@ -21,7 +21,7 @@
   (((T) T)
    #<FUNCTION (LAMBDA (SB-PCL::EMF)
                 :IN
-                "/home/travis/.roswell/lisp/quicklisp/setup.lisp") {1002BA006B}>
+                "/home/travis/.roswell/lisp/quicklisp/setup.lisp") {1002BA806B}>
    PCL NIL))
  (EMIT-CHECKING
   (((CLASS T) T)
