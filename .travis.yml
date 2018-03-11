@@ -24,6 +24,6 @@ script:
   - make clean build
 
 after_success:
-  - git add docs/
-  - git commit -a -m "Updated by travis"
-  - git push -f git@github.com:koji-kojiro/sb-docs master
+  - git add docs/ >&/dev/null
+  - git commit -m "Updated by travis" >&/dev/null
+  - git push origin master
