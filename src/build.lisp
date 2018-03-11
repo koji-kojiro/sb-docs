@@ -42,11 +42,10 @@
                                               (getf definition :symbol) sym
                                               (getf definition :status) status)
                                     :and :collect definition)))
-
 (defun extract-sb-packages ()
   (loop :for pkg :in (list-all-packages)
         :for test := (string< "SB-" (package-name pkg))
-        :when (and test (not (zerop test)))
+        :when (and test (not (zerop test)) (not (string= "SB-DOCS" (package-name pkg))))
               :collect pkg))
 
 (defun package-dirname (pkg)
