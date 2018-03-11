@@ -1,8 +1,8 @@
 .PHONY: build test clean
 build:
-	@ros run -L sbcl -sp sb-docs -e "(build)" -q
+	@ros run -L sbcl-bin -sp sb-docs -e "(build)" -q
 test:
-	@ros run -L sbcl -sp sb-docs -e "(build '(:sb-format))" -q
+	@ros run -L sbcl-bin -sp sb-docs -e "(build '(:sb-format))" -q
 preview:
 	@bundle exec jekyll serve -s docs
 clean:
