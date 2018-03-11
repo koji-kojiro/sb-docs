@@ -16,14 +16,18 @@ os:
 install:
   - curl -L https://raw.githubusercontent.com/roswell/roswell/release/scripts/install-for-ci.sh | sh
   - ros install koji-kojiro/sb-docs
-  - openssl aes-256-cbc -K $encrypted_ccf13e78b2dd_key -iv $encrypted_ccf13e78b2dd_iv -in .travis.enc -out .travis -d
-  - cp .travis ~/.ssh/id_rsa
-  - chmod 600 ~/.ssh/id_rsa 
-
 script:
   - make clean build
 
 after_success:
+  - openssl aes-256-cbc -K $encrypted_ccf13e78b2dd_key -iv $encrypted_ccf13e78b2dd_iv -in .travis.enc -out ~/.ssh/id_rsa -d
+  - chmod 600 ~/.ssh/id_rsa
+  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  - git config --global user.email "kojiro0531@gmail.com"
+  - git config --global user.name "Kojiro TANI"
+  - git clone git@github.com:koji-kojiro/sb-docs.git
+  - cd sb-docs
+  - make clean build
   - git add docs/ >&/dev/null
   - git commit -m "Updated by travis" >&/dev/null
   - git push origin master
