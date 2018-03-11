@@ -25,5 +25,5 @@ after_success:
   - cd sb-docs
   - make clean build
   - git add docs/ >&/dev/null
-  - git commit -m "Updated by travis" >&/dev/null
+  - git commit -m "Updated by travis [ci skip]" >&/dev/null
   - git push origin master
