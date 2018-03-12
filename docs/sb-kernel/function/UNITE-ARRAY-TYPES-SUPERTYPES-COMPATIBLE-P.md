@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&REST SUPERTYPES)
+```cl
+(&rest sb-kernel::supertypes)
 ```

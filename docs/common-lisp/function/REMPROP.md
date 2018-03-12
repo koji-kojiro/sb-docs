@@ -10,6 +10,6 @@
 > or false (the symbol NIL). Portable code should not rely on any other value.
 
 ### Lambda list
-```
-(SYMBOL INDICATOR)
+```cl
+(symbol sb-impl::indicator)
 ```

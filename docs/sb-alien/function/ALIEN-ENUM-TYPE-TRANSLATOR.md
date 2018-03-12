@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME &REST MAPPINGS)
+```cl
+(sb-alien::name &rest sb-alien::mappings)
 ```

@@ -27,6 +27,6 @@
 > been defined. (See SB-EXT:CAS for more information.)
 
 ### Lambda list
-```
-(PLACE OLD NEW)
+```cl
+(sb-impl::place sb-impl::old sb-impl::new)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BUFFER SIZE)
+```cl
+(sb-bsd-sockets::buffer sb-bsd-sockets::size)
 ```

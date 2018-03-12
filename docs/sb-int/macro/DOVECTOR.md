@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((ELT VECTOR &OPTIONAL RESULT) &BODY BODY)
+```cl
+((elt vector &optional sb-impl::result) &body sb-impl::body)
 ```

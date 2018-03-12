@@ -4,10 +4,10 @@
 > No description.
 
 ### Precedence list
-```
-(SIMPLE-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(simple-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS)
+```cl
+(:format-control :format-arguments)
 ```

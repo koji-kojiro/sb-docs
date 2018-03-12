@@ -6,6 +6,6 @@
 > specified RESULT-TYPE.
 
 ### Lambda list
-```
-(RESULT-TYPE &REST SEQUENCES)
+```cl
+(sb-impl::result-type &rest sb-impl::sequences)
 ```

@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-((NEW-ENV OLD-ENV MACROLET/FLET/LABELS-FORM) &BODY BODY)
+```cl
+((sb-walker::new-env sb-walker::old-env
+  sb-walker::macrolet/flet/labels-form)
+ &body sb-walker::body)
 ```

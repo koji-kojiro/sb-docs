@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LOCATION)
+```cl
+(sb-introspect::location)
 ```

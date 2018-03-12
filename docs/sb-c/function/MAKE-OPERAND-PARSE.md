@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (KIND KIND) (TARGET TARGET) (TEMP TEMP) (BORN BORN)
- (DIES DIES) (SCS SCS) (LOAD-TN LOAD-TN) (LOAD LOAD) (SC SC) (OFFSET OFFSET))
+```cl
+(&key (:name #:name) (:kind #:kind) (:target #:target) (:temp #:temp)
+ (:born #:born) (:dies #:dies) (:scs #:scs) (:load-tn #:load-tn)
+ (:load #:load) (:sc #:sc) (:offset #:offset))
 ```

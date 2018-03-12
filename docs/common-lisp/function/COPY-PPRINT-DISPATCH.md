@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL TABLE)
+```cl
+(&optional sb-pretty::table)
 ```

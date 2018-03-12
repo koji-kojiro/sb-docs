@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<BUILT-IN-CLASS SB-KERNEL::SIMPLE-ARRAY-COMPLEX-DOUBLE-FLOAT>
+```cl
+#<built-in-class sb-kernel::simple-array-complex-double-float>
 ```

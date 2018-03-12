@@ -62,7 +62,8 @@
 > future.
 
 ### Lambda list
-```
-(&KEY TEST SIZE REHASH-SIZE REHASH-THRESHOLD HASH-FUNCTION WEAKNESS
- SYNCHRONIZED)
+```cl
+(&key sb-impl::test sb-impl::size sb-impl::rehash-size
+ sb-impl::rehash-threshold sb-impl::hash-function sb-impl::weakness
+ sb-impl::synchronized)
 ```

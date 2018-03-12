@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((VAR LIST IMPROPER-LIST-HANDLER) &BODY BODY)
+```cl
+((sb-pcl::var list sb-pcl::improper-list-handler) &body sb-pcl::body)
 ```

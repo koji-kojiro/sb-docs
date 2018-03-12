@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD OFFSET WHENCE)
+```cl
+(sb-posix::fd sb-posix::offset sb-posix::whence)
 ```

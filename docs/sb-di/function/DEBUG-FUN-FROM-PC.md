@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COMPONENT PC &OPTIONAL ESCAPED)
+```cl
+(sb-di::component sb-di::pc &optional sb-di::escaped)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(THUNK STREAM FORMAT-CONTROL FORMAT-ARGUMENTS)
+```cl
+(sb-impl::thunk stream sb-kernel:format-control
+ sb-impl::format-arguments)
 ```

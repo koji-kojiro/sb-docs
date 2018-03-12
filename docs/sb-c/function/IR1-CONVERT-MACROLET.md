@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DEFINITIONS &REST BODY)
+```cl
+(sb-c::definitions &rest sb-c::body)
 ```

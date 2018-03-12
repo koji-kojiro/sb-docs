@@ -4,6 +4,6 @@
 > The default for the :PRINT argument to COMPILE-FILE.
 
 ### Value
-```
-T
+```cl
+t
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM DATA-TYPE)
+```cl
+(sb-kernel:form sb-loop::data-type)
 ```

@@ -4,6 +4,6 @@
 > Return the package SYMBOL was interned in, or NIL if none.
 
 ### Lambda list
-```
-(SYMBOL)
+```cl
+(symbol)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NUMBER-LOW NUMBER-HIGH DIVISOR-LOW DIVISOR-HIGH)
+```cl
+(sb-c::number-low sb-c::number-high sb-c::divisor-low
+ sb-c::divisor-high)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(INITARGS BODY REQ-ARGS LMF-PARAMS RESTP)
+```cl
+(sb-pcl::initargs sb-pcl::body sb-pcl::req-args sb-pcl::lmf-params
+ sb-pcl::restp)
 ```

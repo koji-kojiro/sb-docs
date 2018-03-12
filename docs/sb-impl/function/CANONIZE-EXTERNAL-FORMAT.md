@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EXTERNAL-FORMAT ENTRY)
+```cl
+(sb-impl::external-format sb-impl::entry)
 ```

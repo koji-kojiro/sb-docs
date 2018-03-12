@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM PREFIX PER-LINE-P SUFFIX)
+```cl
+(stream sb-pretty::prefix sb-pretty::per-line-p sb-pretty::suffix)
 ```

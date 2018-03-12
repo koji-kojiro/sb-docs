@@ -10,6 +10,6 @@
 > #+sb-unicode builds
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

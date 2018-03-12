@@ -4,6 +4,6 @@
 > Return functions which call FUNCTION, by searching SPACES for code objects
 
 ### Lambda list
-```
-(FUNCTION &OPTIONAL SPACES)
+```cl
+(function &optional sb-introspect::spaces)
 ```

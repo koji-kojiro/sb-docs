@@ -4,6 +4,6 @@
 > Add ITEM to LIST unless it is already a member
 
 ### Lambda list
-```
-(ITEM LIST &KEY KEY TEST TEST-NOT)
+```cl
+(sb-impl::item list &key sb-impl::key sb-impl::test sb-impl::test-not)
 ```

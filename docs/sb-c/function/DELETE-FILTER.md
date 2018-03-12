@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE LVAR VALUE)
+```cl
+(sb-c::node sb-c::lvar sb-c::value)
 ```

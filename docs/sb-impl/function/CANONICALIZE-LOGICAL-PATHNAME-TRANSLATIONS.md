@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TRANSLATION-LIST HOST)
+```cl
+(sb-impl::translation-list sb-kernel:host)
 ```

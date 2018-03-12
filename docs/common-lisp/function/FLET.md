@@ -8,6 +8,6 @@
 > lexically apparent function definition in the enclosing environment.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

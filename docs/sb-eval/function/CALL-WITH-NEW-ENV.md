@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(OLD-ENV BINDINGS DECLARATIONS FREE-SPECIALS-P FUNCTION)
+```cl
+(sb-eval::old-env sb-eval::bindings sb-eval::declarations
+ sb-eval::free-specials-p function)
 ```

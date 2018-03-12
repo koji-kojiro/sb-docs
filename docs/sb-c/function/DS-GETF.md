@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PLACE INDICATOR)
+```cl
+(sb-c::place sb-c::indicator)
 ```

@@ -7,6 +7,6 @@
 > RETURN-FROM can be used to exit the form.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

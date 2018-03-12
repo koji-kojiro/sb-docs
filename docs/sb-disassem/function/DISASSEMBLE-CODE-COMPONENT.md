@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CODE-COMPONENT &KEY STREAM USE-LABELS)
+```cl
+(sb-kernel:code-component &key stream sb-disassem::use-labels)
 ```

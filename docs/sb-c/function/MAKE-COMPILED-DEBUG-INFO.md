@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (SOURCE SOURCE) (FUN-MAP FUN-MAP) (CONTEXTS CONTEXTS)
- (TLF-NUMBER TLF-NUMBER) (CHAR-OFFSET CHAR-OFFSET))
+```cl
+(&key (:name #:name) (:source #:source) (:fun-map #:fun-map)
+ (:contexts #:contexts) (:tlf-number #:tlf-number)
+ (:char-offset #:char-offset))
 ```

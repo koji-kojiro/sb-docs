@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BITS EXP PLUSP)
+```cl
+(sb-bignum::bits exp plusp)
 ```

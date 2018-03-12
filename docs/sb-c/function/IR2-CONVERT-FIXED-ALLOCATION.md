@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE BLOCK NAME WORDS TYPE LOWTAG INITS)
+```cl
+(#:node block sb-c::name sb-c::words type sb-c::lowtag sb-c::inits)
 ```

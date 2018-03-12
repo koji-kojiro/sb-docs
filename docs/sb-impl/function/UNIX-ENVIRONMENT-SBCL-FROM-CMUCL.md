@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CMUCL)
+```cl
+(sb-impl::cmucl)
 ```

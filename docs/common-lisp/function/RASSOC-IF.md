@@ -5,6 +5,6 @@
 > is supplied, apply it to the CDR of each cons before testing.
 
 ### Lambda list
-```
-(PREDICATE ALIST &KEY KEY)
+```cl
+(sb-impl::predicate sb-impl::alist &key sb-impl::key)
 ```

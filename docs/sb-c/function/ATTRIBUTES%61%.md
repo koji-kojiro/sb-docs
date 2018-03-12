@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ATTR1 ATTR2)
+```cl
+(sb-c::attr1 sb-c::attr2)
 ```

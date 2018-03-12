@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(WHAT (LAMBDA-LIST &OPTIONAL NODE &REST VARS) &BODY BODY)
+```cl
+(sb-c::what (sb-c::lambda-list &optional sb-c::node &rest sb-c::vars)
+ &body sb-c::body)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PREDICATE TREE)
+```cl
+(sb-c::predicate sb-c::tree)
 ```

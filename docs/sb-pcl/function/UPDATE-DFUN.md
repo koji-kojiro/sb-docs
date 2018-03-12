@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION &OPTIONAL DFUN CACHE INFO)
+```cl
+(generic-function &optional sb-pcl::dfun sb-pcl::cache sb-int:info)
 ```

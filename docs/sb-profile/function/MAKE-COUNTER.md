@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (WORD WORD) (OVERFLOW OVERFLOW))
+```cl
+(&key (:word #:word) (:overflow #:overflow))
 ```

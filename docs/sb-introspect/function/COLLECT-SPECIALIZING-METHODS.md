@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PREDICATE)
+```cl
+(sb-introspect::predicate)
 ```

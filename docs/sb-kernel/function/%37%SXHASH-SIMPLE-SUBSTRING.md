@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X COUNT)
+```cl
+(sb-impl::x count)
 ```

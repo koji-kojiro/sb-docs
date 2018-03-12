@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL PAIRS)
+```cl
+(&optional sb-kernel::pairs)
 ```

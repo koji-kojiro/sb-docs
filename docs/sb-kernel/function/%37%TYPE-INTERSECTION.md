@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INPUT-TYPES)
+```cl
+(sb-kernel::input-types)
 ```

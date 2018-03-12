@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COMPONENT SEGMENT LENGTH FIXUP-NOTES OBJECT)
+```cl
+(sb-c:component sb-assem:segment length sb-c::fixup-notes sb-c::object)
 ```

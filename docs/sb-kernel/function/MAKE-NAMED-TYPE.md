@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (CLASS-INFO CLASS-INFO) (HASH-VALUE HASH-VALUE) (NAME NAME))
+```cl
+(&key (:class-info #:class-info) (:hash-value #:hash-value)
+ (:name #:name))
 ```

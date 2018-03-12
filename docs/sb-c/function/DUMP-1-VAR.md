@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FUN VAR TN MINIMAL BUFFER &OPTIONAL SAME-NAME-P)
+```cl
+(sb-c::fun sb-c::var sb-c:tn sb-c::minimal sb-c::buffer &optional
+ sb-c::same-name-p)
 ```

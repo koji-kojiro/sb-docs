@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD ACTION)
+```cl
+(sb-posix::fd sb-posix::action)
 ```

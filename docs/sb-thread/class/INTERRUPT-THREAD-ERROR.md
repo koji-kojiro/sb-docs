@@ -5,11 +5,11 @@
 > exited. The offending thread can be accessed using THREAD-ERROR-THREAD.
 
 ### Precedence list
-```
-(INTERRUPT-THREAD-ERROR THREAD-ERROR ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-thread:interrupt-thread-error sb-thread:thread-error error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(THREAD)
+```cl
+(:thread)
 ```

@@ -7,6 +7,6 @@
 > :LOAD-TOPLEVEL, or :EXECUTE, or (deprecated) COMPILE, LOAD, or EVAL).
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

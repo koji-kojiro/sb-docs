@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY EXTERNAL-FORMAT ELEMENT-TYPE NOT-NULL)
+```cl
+(&key sb-alien::external-format sb-alien::element-type
+ sb-alien::not-null)
 ```

@@ -5,6 +5,6 @@
 > The second returned value is (mod number divisor).
 
 ### Lambda list
-```
-(NUMBER &OPTIONAL DIVISOR)
+```cl
+(number &optional sb-kernel::divisor)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ENV EXIT)
+```cl
+(sb-c::env sb-ext:exit)
 ```

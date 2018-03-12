@@ -7,6 +7,6 @@
 > Completely ignores daylight-savings-time when time-zone is supplied.
 
 ### Lambda list
-```
-(UNIVERSAL-TIME &OPTIONAL TIME-ZONE)
+```cl
+(sb-impl::universal-time &optional sb-impl::time-zone)
 ```

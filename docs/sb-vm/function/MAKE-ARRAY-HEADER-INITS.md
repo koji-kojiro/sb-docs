@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STORAGE N-ELEMENTS DIMENSIONS)
+```cl
+(sb-vm::storage sb-vm::n-elements sb-vm::dimensions)
 ```

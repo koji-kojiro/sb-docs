@@ -4,10 +4,10 @@
 > No description.
 
 ### Precedence list
-```
-(SYSTEM-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-sys:system-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(ADDRESS CONTEXT)
+```cl
+(:address :context)
 ```

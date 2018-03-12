@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GF FORM METATYPES APPLYP ENV)
+```cl
+(sb-pcl::gf sb-kernel:form sb-pcl::metatypes sb-pcl::applyp sb-pcl::env)
 ```

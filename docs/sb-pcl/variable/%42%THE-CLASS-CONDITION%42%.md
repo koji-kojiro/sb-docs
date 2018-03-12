@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<CONDITION-CLASS COMMON-LISP:CONDITION>
+```cl
+#<sb-pcl::condition-class common-lisp:condition>
 ```

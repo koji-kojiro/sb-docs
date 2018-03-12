@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME &OPTIONAL CLASSOID)
+```cl
+(sb-kernel::name &optional sb-kernel:classoid)
 ```

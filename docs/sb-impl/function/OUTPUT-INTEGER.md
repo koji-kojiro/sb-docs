@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INTEGER STREAM BASE RADIXP)
+```cl
+(integer stream sb-impl::base sb-impl::radixp)
 ```

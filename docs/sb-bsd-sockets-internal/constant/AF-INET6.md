@@ -4,6 +4,6 @@
 > IP version 6
 
 ### Value
-```
+```cl
 10
 ```

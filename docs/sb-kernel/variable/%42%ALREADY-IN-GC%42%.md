@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "GC lock" (free)>
+```cl
+#<sb-thread:mutex "gc lock" (free)>
 ```

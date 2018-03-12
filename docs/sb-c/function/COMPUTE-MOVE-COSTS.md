@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FROM-SC TO-SC COST)
+```cl
+(sb-c::from-sc sb-c::to-sc sb-c::cost)
 ```

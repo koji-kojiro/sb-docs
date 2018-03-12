@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ARRAY DATA LENGTH FILL-POINTER DISPLACEMENT DIMENSIONS DISPLACEDP NEWP)
+```cl
+(array sb-impl::data length fill-pointer sb-impl::displacement
+ sb-impl::dimensions sb-impl::displacedp sb-impl::newp)
 ```

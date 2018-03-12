@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRING COMMACHAR COMMAINTERVAL)
+```cl
+(string sb-format::commachar sb-format::commainterval)
 ```

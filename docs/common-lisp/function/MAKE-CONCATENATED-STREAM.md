@@ -5,6 +5,6 @@
 > going on to the next at EOF.
 
 ### Lambda list
-```
-(&REST STREAMS)
+```cl
+(&rest sb-impl::streams)
 ```

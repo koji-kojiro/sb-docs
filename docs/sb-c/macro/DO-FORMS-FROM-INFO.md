@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(((FORM &REST KEYS) INFO &OPTIONAL ON-ERROR) &BODY BODY)
+```cl
+(((sb-kernel:form &rest sb-c::keys) sb-int:info &optional
+  sb-c::on-error)
+ &body sb-c::body)
 ```

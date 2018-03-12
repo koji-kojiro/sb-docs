@@ -4,6 +4,6 @@
 > Non-Authoritative Host not found, or SERVERFAIL.
 
 ### Value
-```
+```cl
 2
 ```

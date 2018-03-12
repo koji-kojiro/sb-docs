@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT AMOUNT &OPTIONAL PATTERN)
+```cl
+(sb-assem:segment sb-assem::amount &optional sb-assem::pattern)
 ```

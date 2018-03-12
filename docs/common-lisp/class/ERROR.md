@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(error serious-condition condition sb-pcl::slot-object t)
 ```

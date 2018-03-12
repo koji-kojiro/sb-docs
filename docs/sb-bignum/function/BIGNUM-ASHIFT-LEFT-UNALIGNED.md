@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(BIGNUM DIGITS N-BITS RES-LEN &OPTIONAL RES)
+```cl
+(bignum sb-bignum::digits sb-bignum::n-bits sb-bignum::res-len
+ &optional sb-bignum::res)
 ```

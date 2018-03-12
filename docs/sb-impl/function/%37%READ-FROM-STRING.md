@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(STRING EOF-ERROR-P EOF-VALUE START END PRESERVE-WHITESPACE)
+```cl
+(string sb-impl::eof-error-p sb-impl::eof-value sb-impl::start
+        sb-impl::end sb-impl::preserve-whitespace)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(ARRAY T)
+```cl
+(array t)
 ```

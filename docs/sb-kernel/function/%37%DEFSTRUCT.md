@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DD INHERITS SOURCE-LOCATION)
+```cl
+(sb-kernel::dd sb-kernel::inherits sb-kernel::source-location)
 ```

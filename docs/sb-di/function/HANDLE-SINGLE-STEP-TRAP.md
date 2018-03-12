@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KIND CALLEE-REGISTER-OFFSET)
+```cl
+(sb-di::kind sb-di::callee-register-offset)
 ```

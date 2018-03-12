@@ -4,6 +4,6 @@
 > Return (NCONC (NREVERSE X) Y).
 
 ### Lambda list
-```
-(X Y)
+```cl
+(sb-impl::x sb-impl::y)
 ```

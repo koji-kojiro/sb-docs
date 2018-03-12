@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CHUNK INST-SPACE)
+```cl
+(sb-disassem::chunk sb-disassem::inst-space)
 ```

@@ -6,6 +6,6 @@
 > Keyform. If none of the keys matches then an error is signalled.
 
 ### Lambda list
-```
-(KEYFORM &BODY CASES)
+```cl
+(sb-impl::keyform &body sb-impl::cases)
 ```

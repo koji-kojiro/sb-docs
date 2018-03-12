@@ -4,6 +4,6 @@
 > Return some valid address for HOST-ENT.
 
 ### Lambda list
-```
-(HOST-ENT)
+```cl
+(sb-bsd-sockets:host-ent)
 ```

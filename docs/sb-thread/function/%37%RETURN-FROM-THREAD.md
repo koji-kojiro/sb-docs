@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUES ALLOW-EXIT)
+```cl
+(values sb-thread::allow-exit)
 ```

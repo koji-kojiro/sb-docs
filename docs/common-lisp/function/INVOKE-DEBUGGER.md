@@ -4,6 +4,6 @@
 > Enter the debugger.
 
 ### Lambda list
-```
-(CONDITION)
+```cl
+(condition)
 ```

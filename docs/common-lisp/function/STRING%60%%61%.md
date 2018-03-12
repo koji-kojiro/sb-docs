@@ -6,6 +6,7 @@
 > (using char=) of the two strings. Otherwise, returns ().
 
 ### Lambda list
-```
-(STRING1 STRING2 &KEY START1 END1 START2 END2)
+```cl
+(sb-impl::string1 sb-impl::string2 &key sb-impl::start1 sb-impl::end1
+ sb-impl::start2 sb-impl::end2)
 ```

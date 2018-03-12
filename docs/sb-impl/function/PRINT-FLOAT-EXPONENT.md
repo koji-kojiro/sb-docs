@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X EXP STREAM)
+```cl
+(sb-impl::x exp stream)
 ```

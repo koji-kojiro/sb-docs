@@ -8,6 +8,6 @@
 > string for the parameter.
 
 ### Lambda list
-```
-(VAR VAL &OPTIONAL DOC)
+```cl
+(sb-debug:var sb-impl::val &optional sb-impl::doc)
 ```

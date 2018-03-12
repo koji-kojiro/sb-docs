@@ -9,6 +9,6 @@
 > system's syntax for files.
 
 ### Lambda list
-```
-(PATHNAME &KEY AS-FILE)
+```cl
+(pathname &key sb-impl::as-file)
 ```

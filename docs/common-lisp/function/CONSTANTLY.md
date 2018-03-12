@@ -4,6 +4,6 @@
 > Return a function that always returns VALUE.
 
 ### Lambda list
-```
-(VALUE)
+```cl
+(sb-impl::value)
 ```

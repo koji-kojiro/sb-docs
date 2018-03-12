@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM ORIG-ARGS ARGS PREFIX PER-LINE-P INSIDES SUFFIX ATSIGNP)
+```cl
+(stream sb-format::orig-args sb-format::args sb-format::prefix
+ sb-format::per-line-p sb-format::insides sb-format::suffix
+ sb-format::atsignp)
 ```

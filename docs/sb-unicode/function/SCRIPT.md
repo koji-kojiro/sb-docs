@@ -5,6 +5,6 @@
 > If CHARACTER does not have a known script, returns :UNKNOWN
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

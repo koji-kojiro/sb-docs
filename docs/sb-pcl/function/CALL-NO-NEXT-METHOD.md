@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(METHOD-CELL &REST ARGS)
+```cl
+(sb-pcl::method-cell &rest sb-pcl::args)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(RESULT-TN WIDETAG SIZE NODE &OPTIONAL STACK-ALLOCATE-P)
+```cl
+(sb-vm::result-tn sb-vm::widetag sb-vm::size sb-vm::node &optional
+ sb-vm::stack-allocate-p)
 ```

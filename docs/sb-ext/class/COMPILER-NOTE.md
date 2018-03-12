@@ -6,6 +6,6 @@
 > a STYLE-WARNING (or any more serious condition).
 
 ### Precedence list
-```
-(COMPILER-NOTE CONDITION SLOT-OBJECT T)
+```cl
+(sb-ext:compiler-note condition sb-pcl::slot-object t)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DSTATE CONSTRUCTOR)
+```cl
+(sb-disassem::dstate sb-disassem::constructor)
 ```

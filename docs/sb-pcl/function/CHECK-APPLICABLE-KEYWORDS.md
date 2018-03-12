@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(START VALID-KEYS MORE-CONTEXT MORE-COUNT)
+```cl
+(sb-pcl::start sb-pcl::valid-keys sb-pcl::more-context
+ sb-pcl::more-count)
 ```

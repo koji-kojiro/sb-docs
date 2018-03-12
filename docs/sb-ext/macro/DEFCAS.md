@@ -12,6 +12,7 @@
 > EXPERIMENTAL: Interface subject to change.
 
 ### Lambda list
-```
-(ACCESSOR LAMBDA-LIST FUNCTION &OPTIONAL DOCSTRING)
+```cl
+(sb-impl::accessor sb-impl::lambda-list function &optional
+ sb-impl::docstring)
 ```

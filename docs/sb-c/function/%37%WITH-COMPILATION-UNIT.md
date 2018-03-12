@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FN &KEY OVERRIDE POLICY SOURCE-PLIST SOURCE-NAMESTRING)
+```cl
+(sb-c::fn &key sb-c::override sb-c:policy sb-c::source-plist
+ sb-c::source-namestring)
 ```

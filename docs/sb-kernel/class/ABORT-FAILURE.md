@@ -4,6 +4,7 @@
 > No description.
 
 ### Precedence list
-```
-(ABORT-FAILURE CONTROL-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel::abort-failure control-error error serious-condition
+ condition sb-pcl::slot-object t)
 ```

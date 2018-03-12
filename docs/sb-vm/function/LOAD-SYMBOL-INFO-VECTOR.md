@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RESULT SYMBOL TEMP)
+```cl
+(sb-vm::result symbol sb-vm::temp)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WIDTH SIGNEDP)
+```cl
+(sb-c::width sb-c::signedp)
 ```

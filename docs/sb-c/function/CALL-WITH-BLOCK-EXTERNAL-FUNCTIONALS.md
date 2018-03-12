@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK FUN)
+```cl
+(block sb-c::fun)
 ```

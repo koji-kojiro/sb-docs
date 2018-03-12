@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PTYPE SCN)
+```cl
+(sb-c::ptype sb-c::scn)
 ```

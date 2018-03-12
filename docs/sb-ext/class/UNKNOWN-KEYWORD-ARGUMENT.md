@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(UNKNOWN-KEYWORD-ARGUMENT PROGRAM-ERROR ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-ext:unknown-keyword-argument program-error error serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME)
+```cl
+(:name)
 ```

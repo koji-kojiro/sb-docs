@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VAR INLINEP LOCAL-TYPE)
+```cl
+(sb-c::var sb-c::inlinep sb-c::local-type)
 ```

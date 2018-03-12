@@ -10,6 +10,6 @@
 > the status is set to T.
 
 ### Lambda list
-```
-(SEMAPHORE &OPTIONAL N NOTIFICATION)
+```cl
+(sb-thread:semaphore &optional sb-thread::n sb-thread::notification)
 ```

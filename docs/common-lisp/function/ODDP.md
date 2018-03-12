@@ -4,6 +4,6 @@
 > Is this integer odd?
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

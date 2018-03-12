@@ -4,6 +4,6 @@
 > Return true if OBJECT is a CHARACTER-STRING, and NIL otherwise.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

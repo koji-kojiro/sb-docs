@@ -4,35 +4,13 @@
 > No description.
 
 ### Value
-```
-#(#S(SB-C::FINITE-SB-TEMPLATE
-     :NAME REGISTERS
-     :KIND FINITE
-     :SIZE 32
-     :INDEX 0
-     :SIZE-INCREMENT 32
-     :SIZE-ALIGNMENT 1)
-  #S(SB-C::FINITE-SB-TEMPLATE
-     :NAME FLOAT-REGISTERS
-     :KIND FINITE
-     :SIZE 16
-     :INDEX 1
-     :SIZE-INCREMENT 16
-     :SIZE-ALIGNMENT 1)
-  #S(SB-C::FINITE-SB-TEMPLATE
-     :NAME STACK
-     :KIND UNBOUNDED
-     :SIZE 2
-     :INDEX 2
-     :SIZE-INCREMENT 1
-     :SIZE-ALIGNMENT 1)
-  #S(SB-C:STORAGE-BASE :NAME CONSTANT :KIND NON-PACKED :SIZE 0)
-  #S(SB-C:STORAGE-BASE :NAME IMMEDIATE-CONSTANT :KIND NON-PACKED :SIZE 0)
-  #S(SB-C::FINITE-SB-TEMPLATE
-     :NAME NOISE
-     :KIND UNBOUNDED
-     :SIZE 2
-     :INDEX 3
-     :SIZE-INCREMENT 2
-     :SIZE-ALIGNMENT 1))
+```cl
+#(#s(sb-c::finite-sb-template
+     :name sb-vm::registers
+     :kind :finite
+     :size 32
+     :index 0
+     :size-increment 32
+     :size-alignment 1)
+  #s(sb-c::finite-sb-template ..))
 ```

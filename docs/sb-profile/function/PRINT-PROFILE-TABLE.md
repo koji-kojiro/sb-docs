@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TIME-INFO-LIST)
+```cl
+(sb-profile::time-info-list)
 ```

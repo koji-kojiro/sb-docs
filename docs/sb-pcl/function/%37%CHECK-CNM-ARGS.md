@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CNM-ARGS ORIG-ARGS METHOD-CELL)
+```cl
+(sb-pcl::cnm-args sb-pcl::orig-args sb-pcl::method-cell)
 ```

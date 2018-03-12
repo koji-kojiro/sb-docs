@@ -5,6 +5,6 @@
 > argument is an upper-case character, NIL otherwise.
 
 ### Lambda list
-```
-(CHAR)
+```cl
+(char)
 ```

@@ -5,10 +5,11 @@
 > longer than permitted by the deadline.
 
 ### Precedence list
-```
-(DEADLINE-TIMEOUT TIMEOUT SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-sys:deadline-timeout sb-ext:timeout serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(SECONDS)
+```cl
+(:seconds)
 ```

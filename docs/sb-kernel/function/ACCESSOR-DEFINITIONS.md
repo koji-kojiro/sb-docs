@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DD *PENDING-DEFSTRUCT-TYPE*)
+```cl
+(sb-kernel::dd sb-kernel::*pending-defstruct-type*)
 ```

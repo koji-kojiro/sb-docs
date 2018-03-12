@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KEY WEIGHT)
+```cl
+(sb-impl::key sb-impl::weight)
 ```

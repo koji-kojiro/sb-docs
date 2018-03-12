@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATHNAME-DESIGNATOR)
+```cl
+(sb-kernel:pathname-designator)
 ```

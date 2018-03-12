@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL HOOK)
+```cl
+(&optional sb-impl::hook)
 ```

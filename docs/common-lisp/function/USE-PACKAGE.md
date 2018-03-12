@@ -6,6 +6,6 @@
 > PACKAGE.
 
 ### Lambda list
-```
-(PACKAGES-TO-USE &OPTIONAL PACKAGE)
+```cl
+(sb-impl::packages-to-use &optional package)
 ```

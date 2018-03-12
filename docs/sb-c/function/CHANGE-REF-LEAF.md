@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(REF LEAF &KEY RECKLESSLY)
+```cl
+(sb-c::ref sb-c::leaf &key sb-c::recklessly)
 ```

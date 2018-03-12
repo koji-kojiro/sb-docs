@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(DUPLICATE-DEFINITION REFERENCE-CONDITION WARNING CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:duplicate-definition sb-int:reference-condition warning
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES NAME)
+```cl
+(:references :name)
 ```

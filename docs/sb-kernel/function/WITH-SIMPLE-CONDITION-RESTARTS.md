@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION CERROR-ARG DATUM &REST ARGUMENTS)
+```cl
+(function sb-kernel::cerror-arg sb-kernel::datum &rest
+ sb-kernel::arguments)
 ```

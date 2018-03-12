@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NULL-ENV-P NAME-AND-OPTIONS SLOT-DESCRIPTIONS)
+```cl
+(sb-kernel::null-env-p sb-kernel::name-and-options
+ sb-kernel::slot-descriptions)
 ```

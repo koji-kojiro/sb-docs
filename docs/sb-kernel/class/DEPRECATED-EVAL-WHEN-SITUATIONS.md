@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(DEPRECATED-EVAL-WHEN-SITUATIONS STYLE-WARNING WARNING CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel:deprecated-eval-when-situations style-warning warning
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(SITUATIONS)
+```cl
+(:situations)
 ```

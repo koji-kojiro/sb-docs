@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONSTANT LABEL)
+```cl
+(sb-kernel:constant sb-assem:label)
 ```

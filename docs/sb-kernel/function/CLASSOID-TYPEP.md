@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJ-LAYOUT CLASSOID OBJECT)
+```cl
+(sb-kernel::obj-layout sb-kernel:classoid sb-kernel::object)
 ```

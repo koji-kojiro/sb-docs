@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM STREAM-ELEMENT-MODE SEQUENCE-ELEMENT-TYPE CHARACTER-IO BINARY-IO
- BIVALENT-IO)
+```cl
+(stream sb-impl::stream-element-mode sb-impl::sequence-element-type
+ sb-impl::character-io sb-impl::binary-io sb-impl::bivalent-io)
 ```

@@ -4,6 +4,6 @@
 > the exclusive upper bound on the rank of an array
 
 ### Value
-```
+```cl
 65529
 ```

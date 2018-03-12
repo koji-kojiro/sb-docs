@@ -4,6 +4,6 @@
 > Truncate exponent if it's too large for a float
 
 ### Lambda list
-```
-(EXPONENT NUMBER DIVISOR)
+```cl
+(sb-impl::exponent number sb-impl::divisor)
 ```

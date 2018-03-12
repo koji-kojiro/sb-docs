@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STATE SINCE FORM)
+```cl
+(sb-c::state sb-c::since sb-kernel:form)
 ```

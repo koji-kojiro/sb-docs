@@ -12,6 +12,6 @@
 > to protect the MAPHASH call.
 
 ### Lambda list
-```
-(FUNCTION-DESIGNATOR HASH-TABLE)
+```cl
+(sb-kernel:function-designator hash-table)
 ```

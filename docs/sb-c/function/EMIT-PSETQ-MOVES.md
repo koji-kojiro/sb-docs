@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE BLOCK FUN OLD-FP &OPTIONAL CLOSURE-FP)
+```cl
+(sb-c::node block sb-c::fun sb-c::old-fp &optional sb-c::closure-fp)
 ```

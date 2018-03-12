@@ -4,6 +4,6 @@
 > Prettily output OBJECT preceded by a newline.
 
 ### Lambda list
-```
-(OBJECT &OPTIONAL STREAM)
+```cl
+(sb-impl::object &optional stream)
 ```

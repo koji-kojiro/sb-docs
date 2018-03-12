@@ -4,9 +4,10 @@
 > No description.
 
 ### Lambda list
-```
-(((DATA-VAR ARRAY &KEY OFFSET-VAR) (START-VAR &OPTIONAL SVALUE)
-  (END-VAR &OPTIONAL EVALUE) &KEY FORCE-INLINE CHECK-FILL-POINTER
-  ARRAY-HEADER-P)
- &BODY FORMS)
+```cl
+(((sb-c::data-var array &key sb-c::offset-var)
+  (sb-c::start-var &optional sb-c::svalue)
+  (sb-c::end-var &optional sb-c::evalue) &key sb-c::force-inline
+  sb-c::check-fill-pointer sb-kernel:array-header-p)
+ &body sb-c::forms)
 ```

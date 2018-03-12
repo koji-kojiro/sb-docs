@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL STACK-DELTA)
+```cl
+(&optional sb-x86-64-asm::stack-delta)
 ```

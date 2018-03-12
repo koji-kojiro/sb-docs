@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAMESPACE)
+```cl
+(sb-c::namespace)
 ```

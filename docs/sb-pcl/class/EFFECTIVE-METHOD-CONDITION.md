@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(EFFECTIVE-METHOD-CONDITION REFERENCE-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-pcl::effective-method-condition sb-int:reference-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES GENERIC-FUNCTION METHOD ARGS)
+```cl
+(:references :generic-function :method :args)
 ```

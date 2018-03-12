@@ -10,6 +10,6 @@
 > signalled condition will be associated with the new restarts.
 
 ### Lambda list
-```
-(EXPRESSION &BODY CLAUSES)
+```cl
+(sb-impl::expression &body sb-impl::clauses)
 ```

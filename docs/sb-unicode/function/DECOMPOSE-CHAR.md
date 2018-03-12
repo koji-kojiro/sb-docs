@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CHAR COMPATIBILITY CALLBACK)
+```cl
+(char sb-unicode::compatibility sb-unicode::callback)
 ```

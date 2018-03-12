@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(AVAILABLE REQUESTED)
+```cl
+(sb-kernel::available sb-kernel::requested)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(DECLS VARS FVARS &KEY LEXENV BINDING-FORM-P CONTEXT ALLOW-LAMBDA-LIST)
+```cl
+(sb-c::decls sb-c::vars sb-c::fvars &key sb-kernel:lexenv
+ sb-c::binding-form-p sb-c::context sb-c::allow-lambda-list)
 ```

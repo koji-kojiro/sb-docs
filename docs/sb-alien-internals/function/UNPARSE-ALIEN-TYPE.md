@@ -5,6 +5,6 @@
 > the type.
 
 ### Lambda list
-```
-(TYPE)
+```cl
+(type)
 ```

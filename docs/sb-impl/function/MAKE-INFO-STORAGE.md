@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(N-CELLS-MIN &OPTIONAL LOAD-FACTOR)
+```cl
+(sb-impl::n-cells-min &optional sb-impl::load-factor)
 ```

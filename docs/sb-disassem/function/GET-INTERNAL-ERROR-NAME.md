@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ERRNUM)
+```cl
+(sb-disassem::errnum)
 ```

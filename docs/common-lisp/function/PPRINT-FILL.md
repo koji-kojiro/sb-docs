@@ -7,6 +7,6 @@
 > can be used with the ~/.../ format directive.
 
 ### Lambda list
-```
-(STREAM LIST &OPTIONAL COLON? ATSIGN?)
+```cl
+(stream list &optional sb-pretty::colon? sb-pretty::atsign?)
 ```

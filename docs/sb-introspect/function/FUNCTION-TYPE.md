@@ -4,6 +4,6 @@
 > Returns the ftype of FUNCTION-DESIGNATOR, or NIL.
 
 ### Lambda list
-```
-(FUNCTION-DESIGNATOR)
+```cl
+(sb-introspect::function-designator)
 ```

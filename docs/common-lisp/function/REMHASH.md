@@ -5,6 +5,6 @@
 > there was such an entry, or NIL if not.
 
 ### Lambda list
-```
-(KEY HASH-TABLE)
+```cl
+(sb-impl::key hash-table)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME SPECIFIED-PLACE DIFF ENV)
+```cl
+(sb-impl::name sb-impl::specified-place sb-impl::diff sb-impl::env)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VOP-INFO)
+```cl
+(sb-c::vop-info)
 ```

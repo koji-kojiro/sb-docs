@@ -7,6 +7,6 @@
 > before any signalling is done.
 
 ### Lambda list
-```
-(DATUM &REST ARGUMENTS)
+```cl
+(sb-kernel::datum &rest sb-kernel::arguments)
 ```

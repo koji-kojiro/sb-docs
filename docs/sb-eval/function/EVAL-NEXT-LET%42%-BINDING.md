@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BINDINGS SPECIALS ENV END-ACTION)
+```cl
+(sb-eval::bindings sb-eval::specials sb-eval::env sb-eval::end-action)
 ```

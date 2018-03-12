@@ -9,6 +9,6 @@
 > the index of the next element is returned.
 
 ### Lambda list
-```
-(SEQ STREAM &KEY START END)
+```cl
+(sb-impl::seq stream &key sb-impl::start sb-impl::end)
 ```

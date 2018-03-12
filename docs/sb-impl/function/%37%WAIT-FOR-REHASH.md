@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ENV STORAGE)
+```cl
+(sb-impl::env sb-impl::storage)
 ```

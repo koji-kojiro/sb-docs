@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SIZE INITIAL-ELEMENT)
+```cl
+(sb-impl::size sb-impl::initial-element)
 ```

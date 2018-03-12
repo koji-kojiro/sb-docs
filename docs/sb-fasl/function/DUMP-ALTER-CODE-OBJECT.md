@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CODE-HANDLE OFFSET ENTRY-HANDLE FILE)
+```cl
+(sb-fasl::code-handle sb-fasl::offset sb-fasl::entry-handle
+ sb-fasl::file)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FILE EXTERNAL-FORMAT &OPTIONAL FORM-TRACKING-P)
+```cl
+(sb-c::file sb-c::external-format &optional sb-c::form-tracking-p)
 ```

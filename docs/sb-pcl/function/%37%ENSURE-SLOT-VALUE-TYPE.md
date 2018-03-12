@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CONTEXT SLOT-NAME SLOT-TYPE VALUE OLD-CLASS NEW-CLASS)
+```cl
+(sb-pcl::context sb-pcl::slot-name sb-pcl::slot-type sb-pcl::value
+ sb-pcl::old-class sb-pcl::new-class)
 ```

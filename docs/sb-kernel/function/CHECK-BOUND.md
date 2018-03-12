@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARRAY BOUND INDEX)
+```cl
+(array sb-impl::bound sb-int:index)
 ```

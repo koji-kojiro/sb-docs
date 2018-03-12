@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LAMBDA-LIST HOW)
+```cl
+(sb-c::lambda-list sb-c::how)
 ```

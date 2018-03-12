@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<BUILT-IN-CLASS SB-EXT:SIMD-PACK>
+```cl
+#<built-in-class sb-ext:simd-pack>
 ```

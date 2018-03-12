@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(XSET1 XSET2)
+```cl
+(sb-kernel::xset1 sb-kernel::xset2)
 ```

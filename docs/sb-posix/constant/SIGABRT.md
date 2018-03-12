@@ -4,6 +4,6 @@
 > abort program (formerly SIGIOT).
 
 ### Value
-```
+```cl
 6
 ```

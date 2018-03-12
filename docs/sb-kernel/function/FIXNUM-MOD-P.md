@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X LIMIT)
+```cl
+(sb-impl::x sb-impl::limit)
 ```

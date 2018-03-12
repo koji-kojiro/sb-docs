@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LAMBDAS LOAD-TIME-VALUE-P)
+```cl
+(sb-c::lambdas sb-c::load-time-value-p)
 ```

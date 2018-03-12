@@ -12,6 +12,6 @@
 > Experimental: subject to change without prior notice.
 
 ### Lambda list
-```
-(TEST-FORM &KEY TIMEOUT)
+```cl
+(sb-impl::test-form &key sb-ext:timeout)
 ```

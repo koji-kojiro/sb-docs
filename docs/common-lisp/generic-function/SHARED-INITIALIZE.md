@@ -4,10 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(INSTANCE SLOT-NAMES &REST INITARGS &KEY PROTOCOL TYPE DIRECT-SUPERCLASSES
- DIRECT-SLOTS DIRECT-DEFAULT-INITARGS NAME ALLOCATION ALLOCATION-CLASS
- QUALIFIERS LAMBDA-LIST SPECIALIZERS FUNCTION DOCUMENTATION SLOT-NAME
- SLOT-DEFINITION (METHOD-CELL METHOD-CELL) ARGUMENT-PRECEDENCE-ORDER
- DECLARATIONS METHOD-CLASS METHOD-COMBINATION &ALLOW-OTHER-KEYS)
+```cl
+(sb-kernel:instance sb-pcl::slot-names &rest sb-pcl::initargs &key
+ sb-bsd-sockets::protocol type sb-pcl::direct-superclasses
+ sb-pcl::direct-slots sb-pcl::direct-default-initargs sb-pcl::name
+ sb-pcl::allocation sb-pcl::allocation-class sb-pcl::qualifiers
+ sb-pcl::lambda-list sb-pcl::specializers function documentation
+ sb-pcl::slot-name sb-mop:slot-definition
+ (sb-pcl::method-cell sb-pcl::method-cell)
+ sb-pcl::argument-precedence-order sb-pcl::declarations ..)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SIZE)
+```cl
+(sb-fasl::size)
 ```

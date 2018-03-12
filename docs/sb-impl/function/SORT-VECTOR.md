@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR START END PREDICATE-FUN KEY-FUN-OR-NIL)
+```cl
+(vector sb-impl::start sb-impl::end sb-impl::predicate-fun
+        sb-impl::key-fun-or-nil)
 ```

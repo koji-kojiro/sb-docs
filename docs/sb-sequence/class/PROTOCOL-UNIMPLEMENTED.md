@@ -6,11 +6,12 @@
 > operation.
 
 ### Precedence list
-```
-(PROTOCOL-UNIMPLEMENTED TYPE-ERROR ERROR SERIOUS-CONDITION REFERENCE-CONDITION
-                        CONDITION SLOT-OBJECT T)
+```cl
+(sb-sequence:protocol-unimplemented type-error error serious-condition
+                                    sb-int:reference-condition
+                                    condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES DATUM EXPECTED-TYPE CONTEXT OPERATION)
+```cl
+(:references :datum :expected-type :context :operation)
 ```

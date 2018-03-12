@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS GENERIC-FUNCTION SLOT-NAME SLOT-DOCUMENTATION SOURCE-LOCATION)
+```cl
+(class generic-function sb-pcl::slot-name sb-pcl::slot-documentation
+ sb-pcl::source-location)
 ```

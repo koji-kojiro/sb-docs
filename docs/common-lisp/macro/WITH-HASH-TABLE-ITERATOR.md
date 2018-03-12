@@ -17,6 +17,6 @@
 > for.
 
 ### Lambda list
-```
-((NAME HASH-TABLE) &BODY BODY)
+```cl
+((sb-impl::name hash-table) &body sb-impl::body)
 ```

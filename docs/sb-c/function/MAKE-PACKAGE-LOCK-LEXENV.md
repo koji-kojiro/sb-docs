@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DISABLED-PACKAGE-LOCKS %POLICY)
+```cl
+(sb-kernel:disabled-package-locks sb-c::%policy)
 ```

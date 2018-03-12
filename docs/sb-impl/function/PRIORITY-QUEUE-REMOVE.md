@@ -4,6 +4,6 @@
 > Remove and return ITEM from PRIORITY-QUEUE.
 
 ### Lambda list
-```
-(PRIORITY-QUEUE ITEM &KEY TEST)
+```cl
+(sb-impl::priority-queue sb-impl::item &key sb-impl::test)
 ```

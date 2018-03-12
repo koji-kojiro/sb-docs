@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DD OPTION-BITS)
+```cl
+(sb-kernel::dd sb-kernel::option-bits)
 ```

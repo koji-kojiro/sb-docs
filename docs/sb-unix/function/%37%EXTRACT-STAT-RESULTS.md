@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WRAPPED-STAT)
+```cl
+(sb-unix::wrapped-stat)
 ```

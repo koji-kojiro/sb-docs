@@ -5,6 +5,6 @@
 > have the foreground next.
 
 ### Lambda list
-```
-(&OPTIONAL NEXT)
+```cl
+(&optional sb-thread::next)
 ```

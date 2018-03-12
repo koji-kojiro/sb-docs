@@ -9,6 +9,6 @@
 > FUNCALL.
 
 ### Value
-```
-FUNCALL
+```cl
+funcall
 ```

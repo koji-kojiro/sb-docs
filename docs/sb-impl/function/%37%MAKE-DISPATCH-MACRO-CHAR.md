@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DTABLE)
+```cl
+(sb-impl::dtable)
 ```

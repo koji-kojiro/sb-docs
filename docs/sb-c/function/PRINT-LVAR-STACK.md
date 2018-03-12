@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STACK &OPTIONAL STREAM)
+```cl
+(sb-c::stack &optional stream)
 ```

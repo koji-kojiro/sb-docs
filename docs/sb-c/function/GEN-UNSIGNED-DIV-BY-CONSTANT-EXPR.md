@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(Y MAX-X)
+```cl
+(sb-c::y sb-c::max-x)
 ```

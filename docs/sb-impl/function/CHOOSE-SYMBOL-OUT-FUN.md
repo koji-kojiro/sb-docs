@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PRINT-CASE READTABLE-CASE)
+```cl
+(sb-impl::print-case readtable-case)
 ```

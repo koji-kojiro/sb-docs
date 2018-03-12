@@ -4,6 +4,6 @@
 > Return the name (a STRING) for a CHARACTER object.
 
 ### Lambda list
-```
-(CHAR)
+```cl
+(char)
 ```

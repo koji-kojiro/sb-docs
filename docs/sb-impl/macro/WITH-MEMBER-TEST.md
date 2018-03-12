@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((TEST-VAR &OPTIONAL FIRST-CLAUSE) &BODY BODY)
+```cl
+((sb-impl::test-var &optional sb-impl::first-clause) &body
+ sb-impl::body)
 ```

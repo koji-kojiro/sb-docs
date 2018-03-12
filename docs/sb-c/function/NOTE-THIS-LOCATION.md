@@ -8,6 +8,6 @@
 > that the live set is computed.
 
 ### Lambda list
-```
-(VOP KIND)
+```cl
+(sb-c::vop sb-c::kind)
 ```

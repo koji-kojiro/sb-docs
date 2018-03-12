@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT &KEY SLOT-NAMES ENVIRONMENT)
+```cl
+(sb-kernel::object &key sb-kernel::slot-names sb-kernel::environment)
 ```

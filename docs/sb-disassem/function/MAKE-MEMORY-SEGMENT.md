@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CODE ADDRESS &REST ARGS)
+```cl
+(sb-disassem::code sb-disassem::address &rest sb-disassem::args)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RE-TYPE IM-TYPE SAME-ARG)
+```cl
+(sb-c::re-type sb-c::im-type sb-c::same-arg)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INTEGER1 INTEGER2)
+```cl
+(sb-kernel::integer1 sb-kernel::integer2)
 ```

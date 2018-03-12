@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FN STRING SPECIAL-FN)
+```cl
+(sb-unicode::fn string sb-unicode::special-fn)
 ```

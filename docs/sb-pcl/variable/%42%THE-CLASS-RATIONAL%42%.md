@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<BUILT-IN-CLASS COMMON-LISP:RATIONAL>
+```cl
+#<built-in-class common-lisp:rational>
 ```

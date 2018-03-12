@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS NAME ARGS THUNK)
+```cl
+(class sb-pcl::name sb-pcl::args sb-pcl::thunk)
 ```

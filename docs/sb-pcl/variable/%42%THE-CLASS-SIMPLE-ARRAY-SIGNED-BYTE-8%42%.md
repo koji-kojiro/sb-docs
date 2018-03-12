@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<BUILT-IN-CLASS SB-KERNEL::SIMPLE-ARRAY-SIGNED-BYTE-8>
+```cl
+#<built-in-class sb-kernel::simple-array-signed-byte-8>
 ```

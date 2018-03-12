@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CHAR1 CHAR2)
+```cl
+(sb-unicode::char1 sb-unicode::char2)
 ```

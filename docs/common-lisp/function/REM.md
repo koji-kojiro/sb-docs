@@ -4,6 +4,6 @@
 > Return second result of TRUNCATE.
 
 ### Lambda list
-```
-(NUMBER DIVISOR)
+```cl
+(number sb-kernel::divisor)
 ```

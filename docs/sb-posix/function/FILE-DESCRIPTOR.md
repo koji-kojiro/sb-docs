@@ -4,6 +4,6 @@
 > Converts FILE-DESCRIPTOR-DESIGNATOR into a FILE-DESCRIPTOR.
 
 ### Lambda list
-```
-(FILE-DESCRIPTOR)
+```cl
+(sb-posix:file-descriptor)
 ```

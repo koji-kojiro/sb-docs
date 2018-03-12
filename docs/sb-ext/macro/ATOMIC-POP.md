@@ -8,6 +8,6 @@
 > Works on all CASable places.
 
 ### Lambda list
-```
-(PLACE)
+```cl
+(sb-impl::place)
 ```

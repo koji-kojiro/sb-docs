@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION EFFECTIVE-METHOD METHOD-ALIST-P WRAPPERS-P)
+```cl
+(generic-function sb-pcl::effective-method sb-pcl::method-alist-p
+ sb-pcl::wrappers-p)
 ```

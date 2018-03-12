@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE-NAME OPERATOR IOA DOC SOURCE-LOCATION)
+```cl
+(sb-pcl::type-name sb-pcl::operator sb-pcl::ioa sb-pcl::doc
+ sb-pcl::source-location)
 ```

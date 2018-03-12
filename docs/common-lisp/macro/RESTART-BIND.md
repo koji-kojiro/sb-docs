@@ -8,6 +8,6 @@
 > restart name, FIND-RESTART will find the first such binding.
 
 ### Lambda list
-```
-(BINDINGS &BODY FORMS)
+```cl
+(sb-impl::bindings &body sb-impl::forms)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME DIRECT-SUPERS LAYOUT READERS WRITERS)
+```cl
+(sb-kernel::name sb-kernel::direct-supers sb-kernel:layout
+ sb-kernel::readers sb-kernel::writers)
 ```

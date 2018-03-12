@@ -6,6 +6,6 @@
 > function with the same specifier already exists.
 
 ### Value
-```
-#<HASH-TABLE :TEST EQUAL :COUNT 0 {1000B0C1A3}>
+```cl
+#<hash-table :test equal :count 0 {1000b0c1a3}>
 ```

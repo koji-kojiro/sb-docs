@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE SP OFFSET)
+```cl
+(type sb-vm::sp sb-vm::offset)
 ```

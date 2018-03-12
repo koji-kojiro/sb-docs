@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-%CODE-COVERAGE-UNMARKED%
+```cl
+sb-c::%code-coverage-unmarked%
 ```

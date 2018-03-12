@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<BUILT-IN-CLASS SB-KERNEL::SIMPLE-ARRAY-FIXNUM>
+```cl
+#<built-in-class sb-kernel::simple-array-fixnum>
 ```

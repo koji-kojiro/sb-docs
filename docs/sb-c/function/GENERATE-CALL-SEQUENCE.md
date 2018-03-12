@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME STYLE VOP OPTIONS)
+```cl
+(sb-vm::name sb-vm::style sb-vm::vop sb-vm::options)
 ```

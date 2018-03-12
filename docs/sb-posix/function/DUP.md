@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OLDFD)
+```cl
+(sb-posix::oldfd)
 ```

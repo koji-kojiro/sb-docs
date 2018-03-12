@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-((FIXNUM MOST-POSITIVE-FIXNUM MOST-NEGATIVE-FIXNUM))
+```cl
+((fixnum most-positive-fixnum most-negative-fixnum))
 ```

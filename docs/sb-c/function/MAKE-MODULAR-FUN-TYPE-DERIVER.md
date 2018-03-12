@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PROTOTYPE KIND WIDTH SIGNEDP)
+```cl
+(sb-c::prototype sb-c::kind sb-c::width sb-c::signedp)
 ```

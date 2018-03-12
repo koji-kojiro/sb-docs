@@ -4,6 +4,6 @@
 > mlockall: lock all pages which are currently mapped into the address space of the process.
 
 ### Value
-```
+```cl
 1
 ```

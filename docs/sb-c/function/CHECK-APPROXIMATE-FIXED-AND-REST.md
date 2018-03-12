@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALL-TYPE FIXED REST)
+```cl
+(sb-c::call-type sb-c::fixed rest)
 ```

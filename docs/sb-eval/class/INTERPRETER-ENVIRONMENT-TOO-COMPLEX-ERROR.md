@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(INTERPRETER-ENVIRONMENT-TOO-COMPLEX-ERROR SIMPLE-ERROR SIMPLE-CONDITION ERROR
- SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-eval::interpreter-environment-too-complex-error simple-error
+ simple-condition error serious-condition condition sb-pcl::slot-object
+ t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS)
+```cl
+(:format-control :format-arguments)
 ```

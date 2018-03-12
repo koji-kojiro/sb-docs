@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(FIXNUM INTEGER RATIONAL REAL NUMBER T)
+```cl
+(fixnum integer rational real number t)
 ```

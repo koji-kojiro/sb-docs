@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#(O NO B NB EQ NE BE NBE S NS P NP L NL LE NLE)
+```cl
+#(:o :no :b :nb :eq :ne :be :nbe :s :ns :p :np :l :nl :le :nle)
 ```

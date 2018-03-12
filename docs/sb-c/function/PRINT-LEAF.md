@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LEAF &OPTIONAL STREAM)
+```cl
+(sb-c::leaf &optional stream)
 ```

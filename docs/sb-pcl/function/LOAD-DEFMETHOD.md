@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS NAME QUALS SPECLS LL INITARGS SOURCE-LOCATION)
+```cl
+(class sb-pcl::name sb-pcl::quals sb-pcl::specls sb-pcl::ll
+ sb-pcl::initargs sb-pcl::source-location)
 ```

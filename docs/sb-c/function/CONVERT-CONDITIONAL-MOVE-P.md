@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE DST-TN X-TN Y-TN)
+```cl
+(sb-vm::node sb-vm::dst-tn sb-vm::x-tn sb-vm::y-tn)
 ```

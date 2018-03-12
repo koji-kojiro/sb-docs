@@ -19,6 +19,6 @@
 > maintained.
 
 ### Lambda list
-```
-(&BODY BODY)
+```cl
+(&body sb-impl::body)
 ```

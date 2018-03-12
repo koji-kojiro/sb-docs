@@ -4,6 +4,6 @@
 > Removes NAME's most recent encapsulation of the specified TYPE.
 
 ### Lambda list
-```
-(NAME TYPE)
+```cl
+(sb-impl::name type)
 ```

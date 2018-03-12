@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALLEE CALLER TYPE ARG-COUNT CONDITION-TYPE)
+```cl
+(sb-c::callee sb-c::caller type sb-c::arg-count sb-c::condition-type)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BND X-INT Y-INT X-TYPE Y-TYPE)
+```cl
+(sb-c::bnd sb-c::x-int sb-c::y-int sb-c::x-type sb-c::y-type)
 ```

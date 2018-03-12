@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION MUTEX VALUE WAITP TIMEOUT)
+```cl
+(function sb-thread:mutex sb-thread::value sb-thread::waitp
+ sb-thread::timeout)
 ```

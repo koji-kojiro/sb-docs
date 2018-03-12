@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STYLE)
+```cl
+(sb-vm::style)
 ```

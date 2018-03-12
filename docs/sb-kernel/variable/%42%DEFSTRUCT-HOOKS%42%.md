@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-(ENSURE-DEFFOO-CLASS)
+```cl
+(sb-pcl::ensure-deffoo-class)
 ```

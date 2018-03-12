@@ -4,6 +4,6 @@
 > If supplied to openlog(), delay opening the syslog connection to the first syslog() call.
 
 ### Value
-```
+```cl
 4
 ```

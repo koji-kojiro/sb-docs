@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-PCL::PLIST-MIXIN>
+```cl
+#<standard-class sb-pcl::plist-mixin>
 ```

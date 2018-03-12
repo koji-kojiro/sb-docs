@@ -5,6 +5,6 @@
 > just a CLOS STANDARD-OBJECT.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

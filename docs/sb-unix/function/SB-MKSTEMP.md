@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TEMPLATE-STRING MODE)
+```cl
+(sb-unix::template-string sb-unix::mode)
 ```

@@ -5,6 +5,6 @@
 > NON-BLOCKING-P
 
 ### Lambda list
-```
-(NON-BLOCKING-P SOCKET)
+```cl
+(sb-bsd-sockets::non-blocking-p sb-bsd-sockets:socket)
 ```

@@ -4,6 +4,6 @@
 > interrupt program.
 
 ### Value
-```
+```cl
 2
 ```

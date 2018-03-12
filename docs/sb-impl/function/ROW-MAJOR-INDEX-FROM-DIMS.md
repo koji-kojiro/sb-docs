@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(REV-SUBSCRIPTS REV-DIM-LIST)
+```cl
+(sb-impl::rev-subscripts sb-impl::rev-dim-list)
 ```

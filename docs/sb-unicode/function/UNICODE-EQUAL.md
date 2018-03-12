@@ -7,6 +7,8 @@
 > NIL, UNICODE= tests compatibility equavalence instead.
 
 ### Lambda list
-```
-(STRING1 STRING2 &KEY START1 END1 START2 END2 STRICT)
+```cl
+(sb-unicode::string1 sb-unicode::string2 &key sb-unicode::start1
+ sb-unicode::end1 sb-unicode::start2 sb-unicode::end2
+ sb-unicode::strict)
 ```

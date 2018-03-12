@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((&REST TYPES) VAR &BODY BODY)
+```cl
+((&rest sb-impl::types) sb-debug:var &body sb-impl::body)
 ```

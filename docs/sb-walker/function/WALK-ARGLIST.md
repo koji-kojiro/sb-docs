@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ARGLIST CONTEXT ENV &OPTIONAL DESTRUCTURINGP)
+```cl
+(sb-walker::arglist sb-walker::context sb-walker::env &optional
+ sb-walker::destructuringp)
 ```

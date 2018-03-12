@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME VALUE SOURCE-LOCATION &OPTIONAL DOC)
+```cl
+(sb-impl::name sb-impl::value sb-impl::source-location &optional
+ sb-impl::doc)
 ```

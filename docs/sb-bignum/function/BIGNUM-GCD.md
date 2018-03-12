@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(U0 V0)
+```cl
+(sb-bignum::u0 sb-bignum::v0)
 ```

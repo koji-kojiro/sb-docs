@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "World Lock" (free)>
+```cl
+#<sb-thread:mutex "world lock" (free)>
 ```

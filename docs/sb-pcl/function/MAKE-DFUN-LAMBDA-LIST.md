@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NARGS APPLYP)
+```cl
+(sb-pcl::nargs sb-pcl::applyp)
 ```

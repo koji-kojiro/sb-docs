@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NKEYS WRAPPERS CLASSES METATYPES)
+```cl
+(sb-pcl::nkeys sb-pcl::wrappers sb-pcl::classes sb-pcl::metatypes)
 ```

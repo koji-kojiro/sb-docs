@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM1 RESULT &BODY BODY)
+```cl
+(sb-impl::form1 sb-impl::result &body sb-impl::body)
 ```

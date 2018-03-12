@@ -15,6 +15,6 @@
 > See SB-EXT:SEED-RANDOM-STATE for a SBCL extension to this functionality.
 
 ### Lambda list
-```
-(&OPTIONAL STATE)
+```cl
+(&optional sb-kernel::state)
 ```

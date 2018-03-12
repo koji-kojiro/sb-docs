@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME INLINE-LAMBDA COMPILE-TOPLEVEL)
+```cl
+(sb-c::name sb-c::inline-lambda sb-c::compile-toplevel)
 ```

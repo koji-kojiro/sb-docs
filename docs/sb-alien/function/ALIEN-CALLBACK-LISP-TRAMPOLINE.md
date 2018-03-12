@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WRAPPER FUNCTION)
+```cl
+(sb-alien::wrapper function)
 ```

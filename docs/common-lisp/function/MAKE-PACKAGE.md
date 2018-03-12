@@ -8,6 +8,7 @@
 > implementation it is NIL.
 
 ### Lambda list
-```
-(NAME &KEY USE NICKNAMES INTERNAL-SYMBOLS EXTERNAL-SYMBOLS)
+```cl
+(sb-impl::name &key sb-impl::use sb-impl::nicknames
+ sb-impl::internal-symbols sb-impl::external-symbols)
 ```

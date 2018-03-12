@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LAST-GEN)
+```cl
+(sb-kernel::last-gen)
 ```

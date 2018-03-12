@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DIMS NODE)
+```cl
+(sb-c::dims sb-c::node)
 ```

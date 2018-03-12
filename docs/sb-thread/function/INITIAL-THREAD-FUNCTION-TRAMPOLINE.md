@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(THREAD SETUP-SEM REAL-FUNCTION ARGUMENTS)
+```cl
+(sb-thread:thread sb-thread::setup-sem sb-thread::real-function
+ sb-thread::arguments)
 ```

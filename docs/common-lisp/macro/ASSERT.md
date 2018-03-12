@@ -20,6 +20,7 @@
 > included in the error report if the assertion fails.
 
 ### Lambda list
-```
-(TEST-FORM &OPTIONAL PLACES DATUM &REST ARGUMENTS)
+```cl
+(sb-impl::test-form &optional sb-impl::places sb-impl::datum &rest
+ sb-impl::arguments)
 ```

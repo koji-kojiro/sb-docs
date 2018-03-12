@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INFO OBJECT &OPTIONAL FUNCTION)
+```cl
+(sb-int:info sb-c::object &optional function)
 ```

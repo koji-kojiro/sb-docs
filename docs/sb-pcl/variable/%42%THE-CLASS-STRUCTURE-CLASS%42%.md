@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS COMMON-LISP:STRUCTURE-CLASS>
+```cl
+#<standard-class common-lisp:structure-class>
 ```

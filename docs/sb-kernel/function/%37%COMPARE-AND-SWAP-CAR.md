@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONS OLD NEW)
+```cl
+(cons sb-impl::old sb-impl::new)
 ```

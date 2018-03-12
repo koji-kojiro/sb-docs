@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HEAD LIST1 LIST2 TEST KEY)
+```cl
+(sb-impl::head sb-impl::list1 sb-impl::list2 sb-impl::test sb-impl::key)
 ```

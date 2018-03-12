@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NUM STREAM DSTATE &KEY OFFSET TRAILING-SPACE)
+```cl
+(sb-disassem::num stream sb-disassem::dstate &key sb-disassem::offset
+ sb-disassem::trailing-space)
 ```

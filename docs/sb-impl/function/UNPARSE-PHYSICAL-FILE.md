@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATHNAME ESCAPE-CHAR)
+```cl
+(pathname sb-impl::escape-char)
 ```

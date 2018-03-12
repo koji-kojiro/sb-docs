@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR1 VECTOR2)
+```cl
+(sb-unicode::vector1 sb-unicode::vector2)
 ```

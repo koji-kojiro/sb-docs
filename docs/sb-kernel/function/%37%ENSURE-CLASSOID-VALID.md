@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASSOID LAYOUT ERROR-CONTEXT)
+```cl
+(sb-kernel:classoid sb-kernel:layout sb-kernel::error-context)
 ```

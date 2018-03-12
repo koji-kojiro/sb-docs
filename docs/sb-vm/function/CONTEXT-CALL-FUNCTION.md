@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONTEXT FUNCTION &OPTIONAL ARG-COUNT)
+```cl
+(sb-vm::context function &optional sb-vm::arg-count)
 ```

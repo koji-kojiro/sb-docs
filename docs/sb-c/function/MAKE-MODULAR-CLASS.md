@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (FUNS FUNS) (VERSIONS VERSIONS) (WIDTHS WIDTHS))
+```cl
+(&key (:funs #:funs) (:versions #:versions) (:widths #:widths))
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(MARKER STREAM)
+```cl
+(sb-impl::marker stream)
 ```

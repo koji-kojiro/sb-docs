@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(REASON &KEY CLASS NAME GENERIC-FUNCTION METHOD)
+```cl
+(sb-pcl::reason &key class sb-pcl::name generic-function method)
 ```

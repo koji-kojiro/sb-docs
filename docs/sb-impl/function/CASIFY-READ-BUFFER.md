@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TOKEN-BUF)
+```cl
+(sb-impl::token-buf)
 ```

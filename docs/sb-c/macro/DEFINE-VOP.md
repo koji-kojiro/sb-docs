@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((NAME &OPTIONAL INHERITS) &BODY SPECS)
+```cl
+((sb-c::name &optional sb-c::inherits) &body sb-c::specs)
 ```

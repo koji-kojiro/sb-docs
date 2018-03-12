@@ -6,6 +6,6 @@
 > value.
 
 ### Lambda list
-```
-(TYPESPEC-OPERATOR)
+```cl
+(sb-introspect::typespec-operator)
 ```

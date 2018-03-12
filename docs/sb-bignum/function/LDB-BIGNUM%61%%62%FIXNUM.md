@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BYTE-SIZE BYTE-POS BIGNUM)
+```cl
+(byte-size sb-bignum::byte-pos bignum)
 ```

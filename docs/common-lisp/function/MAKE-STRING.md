@@ -5,6 +5,6 @@
 > new string COUNT long filled with the fill character.
 
 ### Lambda list
-```
-(COUNT &KEY ELEMENT-TYPE (INITIAL-ELEMENT FILL-CHAR))
+```cl
+(count &key sb-impl::element-type (:initial-element sb-impl::fill-char))
 ```

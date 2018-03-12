@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DECLS)
+```cl
+(sb-eval::decls)
 ```

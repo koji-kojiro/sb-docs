@@ -4,12 +4,13 @@
 > No description.
 
 ### Value
-```
-((SLOW-METHOD . #<FUNCTION SB-C::%CHECK-SLOW-METHOD-FUN-NAME>)
- (FAST-METHOD . #<FUNCTION SB-C::%CHECK-FAST-METHOD-FUN-NAME>)
- (SLOT-ACCESSOR . #<FUNCTION SB-C::%CHECK-SLOT-ACCESSOR-FUN-NAME>)
- (MACROLET . #<FUNCTION SB-IMPL::%CHECK-MACROLET-FUN-NAME>)
- (DEFMACRO . #<FUNCTION SB-IMPL::%CHECK-DEFMACRO-FUN-NAME>)
- (CAS . #<FUNCTION SB-IMPL::%CHECK-SETF-FUN-NAME>)
- (SETF . #<FUNCTION SB-IMPL::%CHECK-SETF-FUN-NAME>))
+```cl
+((sb-pcl::slow-method . #<function sb-c::%check-slow-method-fun-name>)
+ (sb-pcl::fast-method . #<function sb-c::%check-fast-method-fun-name>)
+ (sb-pcl::slot-accessor
+  . #<function sb-c::%check-slot-accessor-fun-name>)
+ (macrolet . #<function sb-impl::%check-macrolet-fun-name>)
+ (defmacro . #<function sb-impl::%check-defmacro-fun-name>)
+ (sb-ext:cas . #<function sb-impl::%check-setf-fun-name>)
+ (setf . #<function sb-impl::%check-setf-fun-name>))
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM &KEY ERRORP)
+```cl
+(stream &key sb-fasl::errorp)
 ```

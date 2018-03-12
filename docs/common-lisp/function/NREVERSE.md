@@ -5,6 +5,6 @@
 > is destroyed.
 
 ### Lambda list
-```
-(SEQUENCE)
+```cl
+(sequence)
 ```

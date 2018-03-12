@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT N-BYTES)
+```cl
+(sb-assem:segment sb-assem::n-bytes)
 ```

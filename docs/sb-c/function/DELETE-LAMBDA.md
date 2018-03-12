@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLAMBDA &OPTIONAL DELETE-CHILDREN)
+```cl
+(sb-c::clambda &optional sb-c::delete-children)
 ```

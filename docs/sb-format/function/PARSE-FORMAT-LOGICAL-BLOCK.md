@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENTS COLONP FIRST-SEMI CLOSE PARAMS STRING END)
+```cl
+(sb-format::segments sb-format::colonp sb-format::first-semi close
+ sb-format::params string sb-format::end)
 ```

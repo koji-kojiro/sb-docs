@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM &OPTIONAL FINALP)
+```cl
+(sb-kernel:form &optional sb-c::finalp)
 ```

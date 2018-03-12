@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TN &OPTIONAL TAG)
+```cl
+(sb-c:tn &optional sb-vm::tag)
 ```

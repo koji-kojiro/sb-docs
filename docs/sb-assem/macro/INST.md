@@ -4,6 +4,6 @@
 > Emit the specified instruction to the current segment.
 
 ### Lambda list
-```
-(INSTRUCTION &REST ARGS)
+```cl
+(sb-assem::instruction &rest sb-assem::args)
 ```

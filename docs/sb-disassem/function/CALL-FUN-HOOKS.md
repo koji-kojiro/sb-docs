@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CHUNK STREAM DSTATE)
+```cl
+(sb-disassem::chunk stream sb-disassem::dstate)
 ```

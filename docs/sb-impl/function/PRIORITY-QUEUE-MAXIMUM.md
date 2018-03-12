@@ -4,6 +4,6 @@
 > Return the item in PRIORITY-QUEUE with the largest key.
 
 ### Lambda list
-```
-(PRIORITY-QUEUE)
+```cl
+(sb-impl::priority-queue)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRUCTURE STREAM NAME DD)
+```cl
+(structure stream sb-kernel::name sb-kernel::dd)
 ```

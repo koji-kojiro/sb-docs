@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME READERS WRITERS SLOTS)
+```cl
+(sb-kernel::name sb-kernel::readers sb-kernel::writers sb-kernel::slots)
 ```

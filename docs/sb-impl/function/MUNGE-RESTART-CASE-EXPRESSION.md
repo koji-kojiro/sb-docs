@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EXPRESSION ENV)
+```cl
+(sb-impl::expression sb-impl::env)
 ```

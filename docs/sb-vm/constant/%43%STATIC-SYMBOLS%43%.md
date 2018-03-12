@@ -4,7 +4,8 @@
 > No description.
 
 ### Value
-```
-#(T *IMMOBILE-FREELIST* *FREE-TLS-INDEX* MSAN-PARAM-TLS
-  *THREAD-INITIAL-BINDINGS* FUNCTION-LAYOUT)
+```cl
+#(t sb-vm::*immobile-freelist* sb-vm::*free-tls-index*
+  sb-vm::msan-param-tls sb-thread::*thread-initial-bindings*
+  sb-vm:function-layout)
 ```

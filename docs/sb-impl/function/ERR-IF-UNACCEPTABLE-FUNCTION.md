@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT SETTER)
+```cl
+(sb-impl::object sb-impl::setter)
 ```

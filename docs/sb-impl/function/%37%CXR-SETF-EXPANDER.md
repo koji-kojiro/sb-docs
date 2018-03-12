@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SUB-ACCESSOR SETTER)
+```cl
+(sb-impl::sub-accessor sb-impl::setter)
 ```

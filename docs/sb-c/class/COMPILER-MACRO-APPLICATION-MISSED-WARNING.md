@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(COMPILER-MACRO-APPLICATION-MISSED-WARNING STYLE-WARNING WARNING CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-c:compiler-macro-application-missed-warning style-warning warning
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(COUNT FUNCTION)
+```cl
+(:count :function)
 ```

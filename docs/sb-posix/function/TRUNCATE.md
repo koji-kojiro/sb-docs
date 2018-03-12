@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATHNAME LENGTH)
+```cl
+(pathname length)
 ```

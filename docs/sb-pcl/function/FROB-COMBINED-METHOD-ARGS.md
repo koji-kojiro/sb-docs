@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUES LAMBDA-LIST NREQ NOPT)
+```cl
+(values sb-pcl::lambda-list sb-pcl::nreq sb-pcl::nopt)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS INITARGS)
+```cl
+(class sb-pcl::initargs)
 ```

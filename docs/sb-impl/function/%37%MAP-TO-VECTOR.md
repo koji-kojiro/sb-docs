@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OUTPUT-TYPE-SPEC FUN SEQUENCES)
+```cl
+(sb-impl::output-type-spec sb-impl::fun sb-impl::sequences)
 ```

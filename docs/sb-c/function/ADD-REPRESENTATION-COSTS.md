@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(TN REFS SCS COSTS OPS-SLOT COSTS-SLOT MORE-COSTS-SLOT WRITE-P)
+```cl
+(sb-c:tn sb-c::refs sb-c::scs sb-c::costs sb-c::ops-slot
+ sb-c::costs-slot sb-c::more-costs-slot sb-c::write-p)
 ```

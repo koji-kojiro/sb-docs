@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PLIST &KEY TEST)
+```cl
+(sb-pcl::plist &key sb-pcl::test)
 ```

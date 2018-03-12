@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NODE SERVICE HINTS RES)
+```cl
+(sb-bsd-sockets-internal::node sb-bsd-sockets-internal::service
+ sb-bsd-sockets-internal::hints sb-bsd-sockets-internal::res)
 ```

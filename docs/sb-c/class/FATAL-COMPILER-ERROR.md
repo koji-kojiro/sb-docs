@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(FATAL-COMPILER-ERROR ENCAPSULATED-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-c:fatal-compiler-error sb-int:encapsulated-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(CONDITION)
+```cl
+(:condition)
 ```

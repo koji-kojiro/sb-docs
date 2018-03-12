@@ -55,6 +55,6 @@
 > Short version: be careful out there.
 
 ### Lambda list
-```
-(THREAD FUNCTION)
+```cl
+(sb-thread:thread function)
 ```

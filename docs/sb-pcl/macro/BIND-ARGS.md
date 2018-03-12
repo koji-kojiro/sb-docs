@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((LAMBDA-LIST ARGS) &BODY BODY)
+```cl
+((sb-pcl::lambda-list sb-pcl::args) &body sb-pcl::body)
 ```

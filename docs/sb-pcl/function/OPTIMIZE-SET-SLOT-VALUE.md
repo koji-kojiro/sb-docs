@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM SLOTS REQUIRED-PARAMETERS ENV)
+```cl
+(sb-kernel:form sb-pcl::slots sb-pcl::required-parameters sb-pcl::env)
 ```

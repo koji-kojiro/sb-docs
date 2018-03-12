@@ -4,8 +4,8 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-METHOD SB-MOP:SLOT-VALUE-USING-CLASS (SB-PCL::CONDITION-CLASS
-                                                 CONDITION
-                                                 SB-PCL::CONDITION-EFFECTIVE-SLOT-DEFINITION) {1000930453}>
+```cl
+#<standard-method sb-mop:slot-value-using-class (sb-pcl::condition-class
+                                                 condition
+                                                 sb-pcl::condition-effective-slot-definition) {1000930453}>
 ```

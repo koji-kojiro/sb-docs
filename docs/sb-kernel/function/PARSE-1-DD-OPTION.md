@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OPTION DD SEEN-OPTIONS)
+```cl
+(sb-kernel::option sb-kernel::dd sb-kernel::seen-options)
 ```

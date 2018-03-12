@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PTR SLOT LOWTAG)
+```cl
+(sb-vm::ptr sb-alien:slot sb-vm::lowtag)
 ```

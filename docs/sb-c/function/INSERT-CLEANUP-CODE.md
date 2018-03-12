@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PRED-BLOCKS SUCC-BLOCK NODE FORM &OPTIONAL CLEANUP)
+```cl
+(sb-c::pred-blocks sb-c::succ-block sb-c::node sb-kernel:form &optional
+ sb-c::cleanup)
 ```

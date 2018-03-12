@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(START LENGTH)
+```cl
+(sb-posix::start length)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "finalizer" (free)>
+```cl
+#<sb-thread:mutex "finalizer" (free)>
 ```

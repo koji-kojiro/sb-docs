@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NUMBER KIND PRIMITIVE-TYPE SC)
+```cl
+(number sb-c::kind sb-c:primitive-type sb-c::sc)
 ```

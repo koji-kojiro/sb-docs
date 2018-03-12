@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KIND READERS WRITERS)
+```cl
+(sb-kernel::kind sb-kernel::readers sb-kernel::writers)
 ```

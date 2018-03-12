@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-INSPECT-UNBOUND-OBJECT-363
+```cl
+#:inspect-unbound-object-363
 ```

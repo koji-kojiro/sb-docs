@@ -6,6 +6,6 @@
 > CONTROL-ERROR if the restart does not exist.
 
 ### Lambda list
-```
-(CONDITION)
+```cl
+(condition)
 ```

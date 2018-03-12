@@ -4,6 +4,6 @@
 > Log severity level denoting informational messages.
 
 ### Value
-```
+```cl
 6
 ```

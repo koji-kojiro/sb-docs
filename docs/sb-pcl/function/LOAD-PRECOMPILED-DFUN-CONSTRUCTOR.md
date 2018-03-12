@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GENERATOR ARGS SYSTEM CONSTRUCTOR)
+```cl
+(sb-pcl::generator sb-pcl::args sb-pcl::system sb-pcl::constructor)
 ```

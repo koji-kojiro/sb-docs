@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SIGNAL CODE CONTEXT)
+```cl
+(signal sb-unix::code sb-unix::context)
 ```

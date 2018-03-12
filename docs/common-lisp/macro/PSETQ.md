@@ -7,6 +7,6 @@
 > forms have been evaluated.
 
 ### Lambda list
-```
-(&REST PAIRS)
+```cl
+(&rest sb-impl::pairs)
 ```

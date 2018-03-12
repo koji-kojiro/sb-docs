@@ -56,6 +56,6 @@
 > (defun make-number-table () (make-hash-table :test '==))
 
 ### Lambda list
-```
-(NAME HASH-FUNCTION)
+```cl
+(sb-impl::name sb-impl::hash-function)
 ```

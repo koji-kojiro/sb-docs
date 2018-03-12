@@ -6,6 +6,6 @@
 > SYSTEM:REMOVE-FD-HANDLER when it is no longer needed.
 
 ### Lambda list
-```
-(FD DIRECTION FUNCTION)
+```cl
+(sb-impl::fd sb-impl::direction function)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE STATE)
+```cl
+(type sb-vm::state)
 ```

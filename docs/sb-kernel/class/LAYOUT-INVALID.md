@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(LAYOUT-INVALID TYPE-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel:layout-invalid type-error error serious-condition condition
+                          sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(DATUM EXPECTED-TYPE CONTEXT)
+```cl
+(:datum :expected-type :context)
 ```

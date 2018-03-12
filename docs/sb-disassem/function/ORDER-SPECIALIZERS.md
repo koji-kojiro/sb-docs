@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INSTS)
+```cl
+(sb-disassem::insts)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(START NEXT RESULT FUNS BODY)
+```cl
+(sb-c::start sb-c::next sb-c::result sb-c::funs sb-c::body)
 ```

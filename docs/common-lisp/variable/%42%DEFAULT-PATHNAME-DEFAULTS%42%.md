@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-/home/travis/build/koji-kojiro/sb-docs/sb-docs/
+```cl
+#p"/home/travis/build/koji-kojiro/sb-docs/sb-docs/"
 ```

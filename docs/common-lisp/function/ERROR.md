@@ -5,6 +5,6 @@
 > If the condition is not handled, the debugger is invoked.
 
 ### Lambda list
-```
-(DATUM &REST ARGUMENTS)
+```cl
+(sb-kernel::datum &rest sb-kernel::arguments)
 ```

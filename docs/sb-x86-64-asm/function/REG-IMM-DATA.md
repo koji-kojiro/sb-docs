@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DCHUNK DSTATE)
+```cl
+(sb-disassem:dchunk sb-x86-64-asm::dstate)
 ```

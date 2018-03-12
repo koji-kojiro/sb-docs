@@ -5,6 +5,6 @@
 > the identical object.
 
 ### Lambda list
-```
-(ARRAY)
+```cl
+(array)
 ```

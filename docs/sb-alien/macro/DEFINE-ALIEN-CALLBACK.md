@@ -5,6 +5,7 @@
 > the alien callback for that function with the given alien type.
 
 ### Lambda list
-```
-(NAME RESULT-TYPE TYPED-LAMBDA-LIST &BODY FORMS)
+```cl
+(sb-alien::name sb-alien::result-type sb-alien::typed-lambda-list &body
+ sb-alien::forms)
 ```

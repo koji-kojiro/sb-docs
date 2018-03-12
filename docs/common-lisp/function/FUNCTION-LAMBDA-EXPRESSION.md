@@ -8,6 +8,6 @@
 > NAME is some name (for debugging only) or NIL if there is no name.
 
 ### Lambda list
-```
-(FUN)
+```cl
+(sb-impl::fun)
 ```

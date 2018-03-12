@@ -4,6 +4,6 @@
 > Return the stream line length or NIL.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

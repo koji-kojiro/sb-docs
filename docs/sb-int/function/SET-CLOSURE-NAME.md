@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLOSURE PERMIT-COPY NEW-NAME)
+```cl
+(sb-kernel:closure sb-impl::permit-copy sb-impl::new-name)
 ```

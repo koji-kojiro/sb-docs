@@ -4,6 +4,6 @@
 > If NUMBER is zero, return NUMBER, else return (/ NUMBER (ABS NUMBER)).
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

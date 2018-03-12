@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#(EQ LT LE UNORD NEQ NLT NLE ORD)
+```cl
+#(:eq :lt :le :unord :neq :nlt :nle :ord)
 ```

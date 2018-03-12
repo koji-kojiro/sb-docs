@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((NAME VECTOR) &BODY BODY)
+```cl
+((sb-bsd-sockets::name vector) &body sb-bsd-sockets::body)
 ```

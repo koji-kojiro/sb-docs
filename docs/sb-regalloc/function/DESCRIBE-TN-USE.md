@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LOC TN OP)
+```cl
+(sb-regalloc::loc sb-c:tn sb-regalloc::op)
 ```

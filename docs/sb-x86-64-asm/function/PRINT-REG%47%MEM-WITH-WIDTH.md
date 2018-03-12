@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE WIDTH SIZED-P STREAM DSTATE)
+```cl
+(sb-x86-64-asm::value sb-x86-64-asm::width sb-x86-64-asm::sized-p
+ stream sb-x86-64-asm::dstate)
 ```

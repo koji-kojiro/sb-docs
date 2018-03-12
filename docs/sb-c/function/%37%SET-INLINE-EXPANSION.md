@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME DEFINED-FUN INLINE-LAMBDA)
+```cl
+(sb-c::name sb-c::defined-fun sb-c::inline-lambda)
 ```

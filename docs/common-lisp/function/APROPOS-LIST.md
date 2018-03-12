@@ -5,6 +5,7 @@
 > of describing them.
 
 ### Lambda list
-```
-(STRING-DESIGNATOR &OPTIONAL PACKAGE-DESIGNATOR EXTERNAL-ONLY)
+```cl
+(sb-kernel:string-designator &optional sb-kernel:package-designator
+ sb-impl::external-only)
 ```

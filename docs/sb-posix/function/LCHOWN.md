@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATHNAME OWNER GROUP)
+```cl
+(pathname sb-posix::owner sb-posix:group)
 ```

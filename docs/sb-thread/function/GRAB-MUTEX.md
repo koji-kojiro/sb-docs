@@ -36,6 +36,6 @@
 > directly.
 
 ### Lambda list
-```
-(MUTEX &KEY WAITP TIMEOUT)
+```cl
+(sb-thread:mutex &key sb-thread::waitp sb-thread::timeout)
 ```

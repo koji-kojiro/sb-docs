@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION INPUT OFFSET)
+```cl
+(function sb-disassem::input sb-disassem::offset)
 ```

@@ -7,6 +7,6 @@
 > values from the first VALUES-FORM making up the first argument, etc.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

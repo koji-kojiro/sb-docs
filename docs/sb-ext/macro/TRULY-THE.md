@@ -10,6 +10,6 @@
 > care.
 
 ### Lambda list
-```
-(WHOLE ENV)
+```cl
+(sb-c::whole sb-c::env)
 ```

@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(REQUIRED OPTIONAL REST KEYP KEYWORDS ALLOWP WILD-ARGS RETURNS)
+```cl
+(sb-kernel::required sb-kernel::optional rest sb-kernel::keyp
+ sb-kernel::keywords sb-kernel::allowp sb-kernel::wild-args
+ sb-kernel::returns)
 ```

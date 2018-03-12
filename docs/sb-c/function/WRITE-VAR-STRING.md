@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRING VEC)
+```cl
+(string sb-c::vec)
 ```

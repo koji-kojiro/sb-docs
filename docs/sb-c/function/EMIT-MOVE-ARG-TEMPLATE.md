@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NODE BLOCK TEMPLATE X F Y &OPTIONAL BEFORE)
+```cl
+(sb-c::node block sb-c::template sb-c::x sb-c::f sb-c::y &optional
+ sb-c::before)
 ```

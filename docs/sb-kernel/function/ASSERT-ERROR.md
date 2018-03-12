@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ASSERTION &OPTIONAL ARGS-AND-VALUES PLACES DATUM &REST ARGUMENTS)
+```cl
+(sb-kernel::assertion &optional sb-kernel::args-and-values
+ sb-kernel::places sb-kernel::datum &rest sb-kernel::arguments)
 ```

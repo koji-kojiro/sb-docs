@@ -4,6 +4,6 @@
 > Return constructs and returns a list of its arguments.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-impl::args)
 ```

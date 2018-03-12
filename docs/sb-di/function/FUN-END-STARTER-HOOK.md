@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STARTER-BPT DEBUG-FUN)
+```cl
+(sb-di::starter-bpt sb-di:debug-fun)
 ```

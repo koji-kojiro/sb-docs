@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WARNING OLD)
+```cl
+(warning sb-kernel::old)
 ```

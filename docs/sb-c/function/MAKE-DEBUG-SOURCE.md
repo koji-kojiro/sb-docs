@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAMESTRING NAMESTRING) (CREATED CREATED) (FORM FORM) (FUNCTION FUNCTION)
- (COMPILED COMPILED) (PLIST PLIST))
+```cl
+(&key (:namestring #:namestring) (:created #:created) (:form #:form)
+ (:function #:function) (:compiled #:compiled) (:plist #:plist))
 ```

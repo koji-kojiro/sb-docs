@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TEST CLOSURE)
+```cl
+(sb-impl::test sb-kernel:closure)
 ```

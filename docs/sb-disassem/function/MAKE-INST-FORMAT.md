@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME LENGTH DEFAULT-PRINTER ARGS)
+```cl
+(sb-disassem::name length sb-disassem::default-printer
+ sb-disassem::args)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(E1 E2)
+```cl
+(sb-pretty::e1 sb-pretty::e2)
 ```

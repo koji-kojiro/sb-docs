@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DST COND)
+```cl
+(sb-x86-64-asm::dst cond)
 ```

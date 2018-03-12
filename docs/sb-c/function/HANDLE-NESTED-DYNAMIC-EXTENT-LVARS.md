@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DX LVAR &OPTIONAL RECHECK-COMPONENT)
+```cl
+(sb-c::dx sb-c::lvar &optional sb-c::recheck-component)
 ```

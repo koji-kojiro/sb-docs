@@ -4,12 +4,12 @@
 > No description.
 
 ### Value
-```
-#S(SB-C::EVENT-INFO
-   :NAME REPACK-BLOCK
-   :DESCRIPTION Repacked a block due to TN unpacking.
-   :VAR *REPACK-BLOCK-EVENT-INFO*
-   :COUNT 0
-   :LEVEL 0
-   :ACTION NIL)
+```cl
+#s(sb-c::event-info
+   :name sb-regalloc::repack-block
+   :description "repacked a block due to tn unpacking."
+   :var sb-regalloc::*repack-block-event-info*
+   :count 0
+   :level 0
+   :action nil)
 ```

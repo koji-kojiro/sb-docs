@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNARG ARG-FORMS)
+```cl
+(sb-impl::funarg sb-impl::arg-forms)
 ```

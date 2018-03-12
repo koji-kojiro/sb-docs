@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION METHOD &OPTIONAL SKIP-DFUN-UPDATE-P)
+```cl
+(generic-function method &optional sb-pcl::skip-dfun-update-p)
 ```

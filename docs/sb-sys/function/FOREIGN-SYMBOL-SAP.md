@@ -7,6 +7,6 @@
 > if the symbol isn't found.
 
 ### Lambda list
-```
-(SYMBOL &OPTIONAL DATAP)
+```cl
+(symbol &optional sb-impl::datap)
 ```

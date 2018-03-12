@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(HOST-NOT-FOUND-ERROR NAME-SERVICE-ERROR ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-bsd-sockets:host-not-found-error sb-bsd-sockets:name-service-error
+ error serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(ERRNO ERROR-CODE SYMBOL SYSCALL)
+```cl
+(:errno :error-code :symbol :syscall)
 ```

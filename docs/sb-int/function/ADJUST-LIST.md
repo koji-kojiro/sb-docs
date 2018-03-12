@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LIST LENGTH INITIAL-ELEMENT)
+```cl
+(list length sb-impl::initial-element)
 ```

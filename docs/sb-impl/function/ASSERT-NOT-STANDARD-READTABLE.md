@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(READTABLE OPERATION)
+```cl
+(readtable sb-impl::operation)
 ```

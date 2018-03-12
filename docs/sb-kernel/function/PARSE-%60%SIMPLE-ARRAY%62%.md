@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL ELEMENT-TYPE DIMENSIONS)
+```cl
+(&optional sb-kernel::element-type sb-kernel::dimensions)
 ```

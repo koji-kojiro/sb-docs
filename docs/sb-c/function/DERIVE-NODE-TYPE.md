@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE RTYPE &KEY FROM-SCRATCH)
+```cl
+(sb-c::node sb-c::rtype &key sb-c::from-scratch)
 ```

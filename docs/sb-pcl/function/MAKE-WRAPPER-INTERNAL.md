@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY BITMAP LENGTH CLASSOID)
+```cl
+(&key sb-pcl::bitmap length sb-kernel:classoid)
 ```

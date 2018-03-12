@@ -7,6 +7,6 @@
 > the Unix permission bits.
 
 ### Lambda list
-```
-(PATHSPEC &KEY VERBOSE MODE)
+```cl
+(sb-impl::pathspec &key sb-impl::verbose sb-impl::mode)
 ```

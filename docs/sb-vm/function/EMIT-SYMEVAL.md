@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE SYMBOL SYMBOL-REG CHECK-BOUNDP VOP)
+```cl
+(sb-vm::value symbol sb-vm::symbol-reg sb-vm::check-boundp sb-vm::vop)
 ```

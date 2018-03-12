@@ -4,7 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-((FD-VAR SOCKADDR-VAR SIZE-OF-SOCKADDR-VAR &OPTIONAL SOCKADDR-ARGS) SOCKET
- &BODY BODY)
+```cl
+((sb-bsd-sockets::fd-var sb-bsd-sockets::sockaddr-var
+  sb-bsd-sockets::size-of-sockaddr-var &optional
+  sb-bsd-sockets::sockaddr-args)
+ sb-bsd-sockets:socket &body sb-bsd-sockets::body)
 ```

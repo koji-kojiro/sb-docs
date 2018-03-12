@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-MOP:FORWARD-REFERENCED-CLASS>
+```cl
+#<standard-class sb-mop:forward-referenced-class>
 ```

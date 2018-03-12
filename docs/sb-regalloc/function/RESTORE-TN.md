@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TN BEFORE CONTEXT)
+```cl
+(sb-c:tn sb-regalloc::before sb-regalloc::context)
 ```

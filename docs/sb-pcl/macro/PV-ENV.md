@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((PV-TABLE-FORM PV-PARAMETERS) &REST FORMS)
+```cl
+((sb-pcl::pv-table-form sb-pcl::pv-parameters) &rest sb-pcl::forms)
 ```

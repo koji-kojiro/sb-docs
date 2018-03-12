@@ -5,6 +5,6 @@
 > Return LIST.
 
 ### Lambda list
-```
-(FUNCTION LIST &REST MORE-LISTS)
+```cl
+(function list &rest sb-impl::more-lists)
 ```

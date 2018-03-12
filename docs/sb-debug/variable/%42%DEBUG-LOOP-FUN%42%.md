@@ -4,6 +4,6 @@
 > A function taking no parameters that starts the low-level debug loop.
 
 ### Value
-```
-#<FUNCTION SB-DEBUG::DEBUG-LOOP-FUN>
+```cl
+#<function sb-debug::debug-loop-fun>
 ```

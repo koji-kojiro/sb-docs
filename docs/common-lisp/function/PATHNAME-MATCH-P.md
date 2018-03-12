@@ -4,6 +4,6 @@
 > Pathname matches the wildname template?
 
 ### Lambda list
-```
-(IN-PATHNAME IN-WILDNAME)
+```cl
+(sb-impl::in-pathname sb-impl::in-wildname)
 ```

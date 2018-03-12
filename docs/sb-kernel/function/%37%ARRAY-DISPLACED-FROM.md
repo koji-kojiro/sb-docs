@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE ARRAY)
+```cl
+(sb-impl::value array)
 ```

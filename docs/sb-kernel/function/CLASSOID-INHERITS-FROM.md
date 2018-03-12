@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SUB SUPER-OR-NAME)
+```cl
+(sb-kernel::sub sb-kernel::super-or-name)
 ```

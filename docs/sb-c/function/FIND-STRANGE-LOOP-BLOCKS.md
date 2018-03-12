@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK HEAD)
+```cl
+(block sb-c::head)
 ```

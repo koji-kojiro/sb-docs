@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT DST SRC PREFIX OP1 OP2 &KEY OPERAND-SIZE REMAINING-BYTES)
+```cl
+(sb-x86-64-asm::segment sb-x86-64-asm::dst sb-x86-64-asm::src
+ sb-x86-64-asm::prefix sb-x86-64-asm::op1 sb-x86-64-asm::op2 &key
+ sb-x86-64-asm::operand-size sb-x86-64-asm::remaining-bytes)
 ```

@@ -5,6 +5,6 @@
 > status slot.
 
 ### Lambda list
-```
-(PROCESS)
+```cl
+(sb-impl::process)
 ```

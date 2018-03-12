@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION COMBIN METHOD)
+```cl
+(generic-function sb-pcl::combin method)
 ```

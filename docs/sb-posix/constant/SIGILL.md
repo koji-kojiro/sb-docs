@@ -4,6 +4,6 @@
 > illegal instruction.
 
 ### Value
-```
+```cl
 4
 ```

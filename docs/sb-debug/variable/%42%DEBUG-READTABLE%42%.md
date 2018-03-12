@@ -4,6 +4,6 @@
 > *READTABLE* for the debugger
 
 ### Value
-```
-#<READTABLE {1000029E33}>
+```cl
+#<readtable {1000029e33}>
 ```

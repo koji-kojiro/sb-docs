@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TRUE FALSE)
+```cl
+(sb-format::true sb-format::false)
 ```

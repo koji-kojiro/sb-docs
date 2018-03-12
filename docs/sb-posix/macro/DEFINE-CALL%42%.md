@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME &REST ARGUMENTS)
+```cl
+(sb-posix::name &rest sb-posix::arguments)
 ```

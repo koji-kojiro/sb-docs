@@ -4,6 +4,6 @@
 > Is this real number strictly positive?
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

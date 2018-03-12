@@ -4,6 +4,6 @@
 > Form associated with the STEP-CONDITION.
 
 ### Lambda list
-```
-(CONDITION)
+```cl
+(condition)
 ```

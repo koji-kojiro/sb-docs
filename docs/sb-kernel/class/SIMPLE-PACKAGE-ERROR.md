@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(SIMPLE-PACKAGE-ERROR SIMPLE-CONDITION PACKAGE-ERROR ERROR SERIOUS-CONDITION
- CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel:simple-package-error simple-condition package-error error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(PACKAGE FORMAT-CONTROL FORMAT-ARGUMENTS)
+```cl
+(:package :format-control :format-arguments)
 ```

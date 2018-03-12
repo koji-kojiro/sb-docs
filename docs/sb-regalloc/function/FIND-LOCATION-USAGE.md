@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SB OFFSET)
+```cl
+(sb-regalloc::sb sb-regalloc::offset)
 ```

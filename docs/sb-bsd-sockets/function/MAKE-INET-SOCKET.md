@@ -8,6 +8,6 @@
 > Make an INET socket.
 
 ### Lambda list
-```
-(TYPE PROTOCOL)
+```cl
+(type sb-bsd-sockets::protocol)
 ```

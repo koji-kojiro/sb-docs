@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(START NEXT RESULT VAR FORM)
+```cl
+(sb-c::start sb-c::next sb-c::result sb-c::var sb-kernel:form)
 ```

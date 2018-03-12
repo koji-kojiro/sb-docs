@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(METHOD NAME)
+```cl
+(method sb-pcl::name)
 ```

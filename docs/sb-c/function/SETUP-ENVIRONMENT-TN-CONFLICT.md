@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TN 2BLOCK DEBUG-P)
+```cl
+(sb-c:tn sb-c::2block sb-c::debug-p)
 ```

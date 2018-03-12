@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT TARGET &OPTIONAL N-EXTRA)
+```cl
+(sb-x86-64-asm::segment sb-x86-64-asm::target &optional
+ sb-x86-64-asm::n-extra)
 ```

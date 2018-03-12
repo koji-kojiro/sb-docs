@@ -7,6 +7,6 @@
 > property was present, NIL if not.
 
 ### Lambda list
-```
-(PLACE INDICATOR)
+```cl
+(sb-impl::place sb-impl::indicator)
 ```

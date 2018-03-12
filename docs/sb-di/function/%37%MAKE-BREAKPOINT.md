@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HOOK-FUN WHAT KIND %INFO)
+```cl
+(sb-di::hook-fun sb-di::what sb-di::kind sb-di::%info)
 ```

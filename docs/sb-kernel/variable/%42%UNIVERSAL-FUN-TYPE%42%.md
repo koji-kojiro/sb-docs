@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<FUN-TYPE (FUNCTION * *)>
+```cl
+#<sb-kernel:fun-type (function * *)>
 ```

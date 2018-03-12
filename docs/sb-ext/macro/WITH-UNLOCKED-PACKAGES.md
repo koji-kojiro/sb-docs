@@ -5,6 +5,6 @@
 > error if any of PACKAGES is not a valid package designator.
 
 ### Lambda list
-```
-((&REST PACKAGES) &BODY FORMS)
+```cl
+((&rest sb-impl::packages) &body sb-impl::forms)
 ```

@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (RAW-TYPE RAW-TYPE) (ACCESSOR-NAME ACCESSOR-NAME) (INIT-VOP INIT-VOP)
- (N-WORDS N-WORDS) (ALIGNMENT ALIGNMENT) (COMPARER COMPARER))
+```cl
+(&key (:raw-type #:raw-type) (:accessor-name #:accessor-name)
+ (:init-vop #:init-vop) (:n-words #:n-words) (:alignment #:alignment)
+ (:comparer #:comparer))
 ```

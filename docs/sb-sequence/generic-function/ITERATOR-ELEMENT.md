@@ -5,6 +5,6 @@
 > associated to position of ITERATOR with NEW-VALUE.
 
 ### Lambda list
-```
-(NEW-VALUE SEQUENCE ITERATOR)
+```cl
+(sb-impl::new-value sequence sb-impl::iterator)
 ```

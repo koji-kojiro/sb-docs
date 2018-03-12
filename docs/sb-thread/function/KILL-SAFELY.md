@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OS-THREAD SIGNAL)
+```cl
+(sb-thread::os-thread signal)
 ```

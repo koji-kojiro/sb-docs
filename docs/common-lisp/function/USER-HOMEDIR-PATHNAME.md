@@ -7,6 +7,6 @@
 > system. HOST argument is ignored by SBCL.
 
 ### Lambda list
-```
-(&OPTIONAL HOST)
+```cl
+(&optional sb-kernel:host)
 ```

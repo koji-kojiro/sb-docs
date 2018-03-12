@@ -7,6 +7,6 @@
 > calls to STREAM-READ-CHAR.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

@@ -4,6 +4,6 @@
 > Return second result of FLOOR.
 
 ### Lambda list
-```
-(NUMBER DIVISOR)
+```cl
+(number sb-kernel::divisor)
 ```

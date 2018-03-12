@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARRAY NODE CHECK-FILL-POINTER)
+```cl
+(array sb-c::node sb-c::check-fill-pointer)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CODE-OBJ I FUN OBJECT)
+```cl
+(sb-c::code-obj sb-c::i sb-c::fun sb-c::object)
 ```

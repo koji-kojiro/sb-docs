@@ -4,11 +4,12 @@
 > No description.
 
 ### Value
-```
-(NIL BASE-CHAR CHARACTER SINGLE-FLOAT DOUBLE-FLOAT BIT (UNSIGNED-BYTE 2)
- (UNSIGNED-BYTE 4) (UNSIGNED-BYTE 7) (UNSIGNED-BYTE 8) (UNSIGNED-BYTE 15)
- (UNSIGNED-BYTE 16) (UNSIGNED-BYTE 31) (UNSIGNED-BYTE 32) (UNSIGNED-BYTE 62)
- (UNSIGNED-BYTE 63) (UNSIGNED-BYTE 64) (SIGNED-BYTE 8) (SIGNED-BYTE 16)
- (SIGNED-BYTE 32) FIXNUM (SIGNED-BYTE 64) (COMPLEX SINGLE-FLOAT)
- (COMPLEX DOUBLE-FLOAT) T)
+```cl
+(nil base-char character single-float double-float bit
+ (unsigned-byte 2) (unsigned-byte 4) (unsigned-byte 7)
+ (unsigned-byte 8) (unsigned-byte 15) (unsigned-byte 16)
+ (unsigned-byte 31) (unsigned-byte 32) (unsigned-byte 62)
+ (unsigned-byte 63) (unsigned-byte 64) (signed-byte 8) (signed-byte 16)
+ (signed-byte 32) fixnum (signed-byte 64) (complex single-float)
+ (complex double-float) t)
 ```

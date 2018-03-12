@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FUN &KEY SOURCE-NAME DEBUG-NAME SYSTEM-LAMBDA POLICY)
+```cl
+(sb-c::fun &key sb-c::source-name sb-c::debug-name sb-c::system-lambda
+ sb-c:policy)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEGATE KWD)
+```cl
+(sb-kernel:negate sb-loop::kwd)
 ```

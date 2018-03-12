@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((THREAD LOCK &OPTIONAL TIMEOUT) &BODY FORMS)
+```cl
+((sb-thread:thread sb-thread::lock &optional sb-thread::timeout) &body
+ sb-thread::forms)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ADDR LENGTH FLAGS)
+```cl
+(sb-alien:addr length sb-posix::flags)
 ```

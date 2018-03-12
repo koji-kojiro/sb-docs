@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COMPONENT &KEY REDUCER)
+```cl
+(sb-c:component &key sb-regalloc::reducer)
 ```

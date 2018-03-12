@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE BLOCK)
+```cl
+(#:node block)
 ```

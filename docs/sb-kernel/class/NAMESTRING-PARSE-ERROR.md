@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(NAMESTRING-PARSE-ERROR PARSE-ERROR ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-kernel:namestring-parse-error parse-error error serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(COMPLAINT ARGS NAMESTRING OFFSET)
+```cl
+(:complaint :args :namestring :offset)
 ```

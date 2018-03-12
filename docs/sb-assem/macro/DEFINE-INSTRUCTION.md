@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME LAMBDA-LIST &REST OPTIONS)
+```cl
+(sb-assem::name sb-assem::lambda-list &rest sb-assem::options)
 ```

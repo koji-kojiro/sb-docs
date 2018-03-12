@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(DIRECTION FIELD1 SEPARATOR FIELD2)
+```cl
+(sb-x86-64-asm::direction sb-x86-64-asm::field1
+ sb-x86-64-asm::separator sb-x86-64-asm::field2)
 ```

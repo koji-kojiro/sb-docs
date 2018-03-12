@@ -8,7 +8,9 @@
 > extent.
 
 ### Lambda list
-```
-((STEP ENDP ELT SETF INDEX COPY) (SEQUENCE &REST ARGS &KEY FROM-END START END)
- &BODY BODY)
+```cl
+((step endp elt setf sb-int:index sb-impl::copy)
+ (sequence &rest sb-impl::args &key sb-impl::from-end sb-impl::start
+  sb-impl::end)
+ &body sb-impl::body)
 ```

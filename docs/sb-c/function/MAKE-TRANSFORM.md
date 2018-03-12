@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (TYPE TYPE) (FUNCTION FUNCTION) (NOTE NOTE) (IMPORTANT IMPORTANT)
- (POLICY POLICY) (EXTRA-TYPE EXTRA-TYPE))
+```cl
+(&key (:type #:type) (:function #:function) (:note #:note)
+ (:important #:important) (:policy #:policy) (:extra-type #:extra-type))
 ```

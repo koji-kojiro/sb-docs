@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE VECTOR)
+```cl
+(sb-c::value vector)
 ```

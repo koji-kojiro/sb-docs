@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OD TYPE WHERE)
+```cl
+(sb-c::od type sb-c::where)
 ```

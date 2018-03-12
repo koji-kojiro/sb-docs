@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THING COMPILER-P)
+```cl
+(sb-impl::thing sb-impl::compiler-p)
 ```

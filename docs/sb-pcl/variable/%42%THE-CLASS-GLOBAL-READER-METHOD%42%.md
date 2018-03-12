@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-PCL::GLOBAL-READER-METHOD>
+```cl
+#<standard-class sb-pcl::global-reader-method>
 ```

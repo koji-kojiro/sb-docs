@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(METHOD SPECIALIZERS)
+```cl
+(method sb-pcl::specializers)
 ```

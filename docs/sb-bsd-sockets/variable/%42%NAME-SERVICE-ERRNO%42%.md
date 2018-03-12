@@ -5,6 +5,6 @@
 > GET-NAME-SERVICE-ERRNO
 
 ### Value
-```
+```cl
 0
 ```

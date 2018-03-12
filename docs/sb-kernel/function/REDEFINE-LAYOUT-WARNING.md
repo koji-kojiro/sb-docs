@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(OLD-CONTEXT OLD-LAYOUT CONTEXT LENGTH INHERITS DEPTHOID BITMAP)
+```cl
+(sb-kernel::old-context sb-kernel::old-layout sb-kernel::context length
+ sb-kernel::inherits sb-kernel::depthoid sb-kernel::bitmap)
 ```

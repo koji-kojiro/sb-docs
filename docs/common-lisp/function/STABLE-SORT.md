@@ -5,6 +5,6 @@
 > ARG1 is to precede ARG2.
 
 ### Lambda list
-```
-(SEQUENCE PREDICATE &REST ARGS &KEY KEY)
+```cl
+(sequence sb-impl::predicate &rest sb-impl::args &key sb-impl::key)
 ```

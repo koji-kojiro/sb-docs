@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(XSET FP-ZEROES)
+```cl
+(sb-int:xset sb-kernel::fp-zeroes)
 ```

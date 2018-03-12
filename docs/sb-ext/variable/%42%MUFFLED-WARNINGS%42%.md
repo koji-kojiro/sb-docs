@@ -6,6 +6,6 @@
 > handled by any other handler, it will be muffled.
 
 ### Value
-```
-UNINTERESTING-REDEFINITION
+```cl
+sb-kernel:uninteresting-redefinition
 ```

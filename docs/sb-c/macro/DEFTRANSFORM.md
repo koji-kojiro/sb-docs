@@ -4,9 +4,10 @@
 > No description.
 
 ### Lambda list
-```
-(NAME
- (LAMBDA-LIST &OPTIONAL ARG-TYPES RESULT-TYPE &KEY RESULT POLICY NODE
-  DEFUN-ONLY EVAL-NAME IMPORTANT)
- &BODY BODY-DECLS-DOC)
+```cl
+(sb-c::name
+ (sb-c::lambda-list &optional sb-c::arg-types sb-c::result-type &key
+  sb-c::result sb-c:policy sb-c::node sb-c::defun-only sb-c::eval-name
+  sb-c::important)
+ &body sb-c::body-decls-doc)
 ```

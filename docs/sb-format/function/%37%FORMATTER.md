@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CONTROL-STRING &OPTIONAL ARG-COUNT NEED-RETVAL)
+```cl
+(sb-format::control-string &optional sb-format::arg-count
+ sb-format::need-retval)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SAP TRAP-NUMBER &OPTIONAL ERROR-NUMBER)
+```cl
+(sb-kernel::sap sb-kernel::trap-number &optional
+ sb-kernel::error-number)
 ```

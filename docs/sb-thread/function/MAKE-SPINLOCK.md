@@ -6,6 +6,6 @@
 > Use SB-THREAD:MAKE-MUTEX instead.
 
 ### Lambda list
-```
-(&KEY NAME)
+```cl
+(&key sb-thread::name)
 ```

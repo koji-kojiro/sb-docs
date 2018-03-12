@@ -4,6 +4,6 @@
 > Return non-NIL if SYMBOL is bound to a value.
 
 ### Lambda list
-```
-(SYMBOL)
+```cl
+(symbol)
 ```

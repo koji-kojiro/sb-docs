@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<HASH-TABLE :TEST EQ :COUNT 0 :WEAKNESS :KEY {10000F6983}>
+```cl
+#<hash-table :test eq :count 0 :weakness :key {10000f6983}>
 ```

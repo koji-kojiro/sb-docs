@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INTERNAL-TIME SECONDS)
+```cl
+(sb-kernel:internal-time sb-impl::seconds)
 ```

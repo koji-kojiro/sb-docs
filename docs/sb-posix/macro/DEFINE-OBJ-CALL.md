@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME ARG TYPE CONV)
+```cl
+(sb-posix::name sb-posix::arg type sb-posix::conv)
 ```

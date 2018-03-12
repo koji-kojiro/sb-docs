@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LABEL LIST STREAM &KEY ESCAPE)
+```cl
+(sb-impl::label list stream &key sb-impl::escape)
 ```

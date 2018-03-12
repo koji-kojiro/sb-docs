@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE INSTANCE LOCATION)
+```cl
+(sb-pcl::new-value sb-kernel:instance sb-pcl::location)
 ```

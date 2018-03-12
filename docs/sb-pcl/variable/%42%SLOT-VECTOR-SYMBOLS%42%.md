@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-(.SLOTS0. .SLOTS1. .SLOTS2. .SLOTS3.)
+```cl
+(sb-pcl::.slots0. sb-pcl::.slots1. sb-pcl::.slots2. sb-pcl::.slots3.)
 ```

@@ -4,6 +4,6 @@
 > Construct an association list from KEYS and DATA (adding to ALIST).
 
 ### Lambda list
-```
-(KEYS DATA &OPTIONAL ALIST)
+```cl
+(sb-impl::keys sb-impl::data &optional sb-impl::alist)
 ```

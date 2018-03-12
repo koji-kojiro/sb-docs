@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-#'DEBUG-INFO
+```cl
+#'sb-introspect::debug-info
 ```

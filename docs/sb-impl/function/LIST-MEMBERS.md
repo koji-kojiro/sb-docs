@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LIST &KEY MAX-LENGTH)
+```cl
+(list &key sb-impl::max-length)
 ```

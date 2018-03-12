@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(LAMBDA-NAME LAMBDA-LIST BODY KIND NAME &KEY ACCESSOR DOC-STRING-ALLOWED
- (ENVIRONMENT ENVP) WRAP-BLOCK)
+```cl
+(sb-c::lambda-name sb-c::lambda-list sb-c::body sb-c::kind sb-c::name
+ &key sb-c::accessor sb-c::doc-string-allowed (:environment sb-c::envp)
+ sb-c::wrap-block)
 ```

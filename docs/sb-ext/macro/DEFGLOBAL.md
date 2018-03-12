@@ -12,6 +12,6 @@
 > See also the declarations SB-EXT:GLOBAL and SB-EXT:ALWAYS-BOUND.
 
 ### Lambda list
-```
-(NAME VALUE &OPTIONAL DOC)
+```cl
+(sb-impl::name sb-impl::value &optional sb-impl::doc)
 ```

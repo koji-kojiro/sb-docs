@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(INTERPRETED-FUNCTION FUNCTION T)
+```cl
+(sb-eval:interpreted-function function t)
 ```

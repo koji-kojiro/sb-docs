@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(NAMES TYPE ATTRIBUTES LOCATION &KEY DERIVE-TYPE OPTIMIZER RESULT-ARG
- OVERWRITE-FNDB-SILENTLY CALL-TYPE-DERIVER ANNOTATION)
+```cl
+(sb-c::names type sb-c:attributes sb-c::location &key sb-c:derive-type
+ sb-c:optimizer sb-c::result-arg sb-c::overwrite-fndb-silently
+ sb-c::call-type-deriver sb-c::annotation)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE FASL-INPUT)
+```cl
+(sb-fasl::value sb-fasl::fasl-input)
 ```

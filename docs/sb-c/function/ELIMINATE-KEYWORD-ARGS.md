@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALL N-POSITIONAL SPECS)
+```cl
+(sb-c:call sb-c::n-positional sb-c::specs)
 ```

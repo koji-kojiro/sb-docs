@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ELEMENT SET)
+```cl
+(sb-c::element set)
 ```

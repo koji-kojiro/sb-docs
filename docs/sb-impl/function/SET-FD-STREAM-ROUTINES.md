@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FD-STREAM ELEMENT-TYPE EXTERNAL-FORMAT INPUT-P OUTPUT-P BUFFER-P)
+```cl
+(sb-sys:fd-stream sb-impl::element-type sb-impl::external-format
+ sb-impl::input-p sb-impl::output-p sb-impl::buffer-p)
 ```

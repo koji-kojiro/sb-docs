@@ -4,6 +4,6 @@
 > trace trap.
 
 ### Value
-```
+```cl
 5
 ```

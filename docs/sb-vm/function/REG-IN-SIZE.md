@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TN SIZE)
+```cl
+(sb-c:tn sb-vm::size)
 ```

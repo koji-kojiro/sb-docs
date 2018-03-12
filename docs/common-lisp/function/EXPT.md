@@ -4,6 +4,6 @@
 > Return BASE raised to the POWER.
 
 ### Lambda list
-```
-(BASE POWER)
+```cl
+(sb-kernel::base sb-kernel::power)
 ```

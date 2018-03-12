@@ -4,6 +4,6 @@
 > counter for generating unique GENSYM symbols
 
 ### Value
-```
+```cl
 551
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BASE INDEX SCALE DISP)
+```cl
+(sb-c::base sb-int:index sb-c::scale sb-c::disp)
 ```

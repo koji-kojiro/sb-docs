@@ -4,6 +4,6 @@
 > Return the greatest integer less than or equal to the square root of N.
 
 ### Lambda list
-```
-(N)
+```cl
+(sb-kernel::n)
 ```

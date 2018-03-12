@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&REST FORMS)
+```cl
+(&rest sb-vm::forms)
 ```

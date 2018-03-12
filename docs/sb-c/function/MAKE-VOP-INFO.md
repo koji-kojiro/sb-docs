@@ -4,15 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (TYPE TYPE) (ARG-TYPES ARG-TYPES) (RESULT-TYPES RESULT-TYPES)
- (MORE-ARGS-TYPE MORE-ARGS-TYPE) (MORE-RESULTS-TYPE MORE-RESULTS-TYPE)
- (GUARD GUARD) (LTN-POLICY LTN-POLICY) (COST COST) (NOTE NOTE)
- (INFO-ARG-COUNT INFO-ARG-COUNT) (SAVE-P SAVE-P) (MOVE-ARGS MOVE-ARGS)
- (ARG-COSTS ARG-COSTS) (RESULT-COSTS RESULT-COSTS)
- (MORE-ARG-COSTS MORE-ARG-COSTS) (MORE-RESULT-COSTS MORE-RESULT-COSTS)
- (ARG-LOAD-SCS ARG-LOAD-SCS) (RESULT-LOAD-SCS RESULT-LOAD-SCS)
- (GENERATOR-FUNCTION GENERATOR-FUNCTION) (VARIANT VARIANT) (NUM-ARGS NUM-ARGS)
- (NUM-RESULTS NUM-RESULTS) (TEMPS TEMPS) (REF-ORDERING REF-ORDERING)
- (TARGETS TARGETS))
+```cl
+(&key (:name #:name) (:type #:type) (:arg-types #:arg-types)
+ (:result-types #:result-types) (:more-args-type #:more-args-type)
+ (:more-results-type #:more-results-type) (:guard #:guard)
+ (:ltn-policy #:ltn-policy) (:cost #:cost) (:note #:note)
+ (:info-arg-count #:info-arg-count) (:save-p #:save-p)
+ (:move-args #:move-args) (:arg-costs #:arg-costs)
+ (:result-costs #:result-costs) (:more-arg-costs #:more-arg-costs)
+ (:more-result-costs #:more-result-costs) ..)
 ```

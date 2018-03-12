@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(GF &KEY NEW-METHOD LAMBDA-LIST ARGUMENT-PRECEDENCE-ORDER)
+```cl
+(sb-pcl::gf &key sb-pcl::new-method sb-pcl::lambda-list
+ sb-pcl::argument-precedence-order)
 ```

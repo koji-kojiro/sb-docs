@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY CLASS BITS ALIGNMENT RESULT-TYPE ARG-TYPES VARARGS STUB CONVENTION)
+```cl
+(&key class sb-alien::bits sb-alien::alignment sb-alien::result-type
+ sb-alien::arg-types sb-alien::varargs sb-alien::stub
+ sb-alien::convention)
 ```

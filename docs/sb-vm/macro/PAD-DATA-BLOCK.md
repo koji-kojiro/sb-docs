@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WORDS)
+```cl
+(sb-vm::words)
 ```

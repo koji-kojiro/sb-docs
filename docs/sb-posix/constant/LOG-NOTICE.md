@@ -4,6 +4,6 @@
 > Log severity level denoting non-errors that may require special handling.
 
 ### Value
-```
+```cl
 5
 ```

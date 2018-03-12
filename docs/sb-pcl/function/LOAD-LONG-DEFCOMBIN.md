@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE-NAME DOC FUNCTION ARGS-LAMBDA-LIST SOURCE-LOCATION)
+```cl
+(sb-pcl::type-name sb-pcl::doc function sb-pcl::args-lambda-list
+ sb-pcl::source-location)
 ```

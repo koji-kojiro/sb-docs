@@ -7,6 +7,6 @@
 > been specified on the command-line.
 
 ### Value
-```
-#<FUNCTION SB-IMPL::USERINIT-PATHNAME>
+```cl
+#<function sb-impl::userinit-pathname>
 ```

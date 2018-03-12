@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-PCL::STANDARD-METHOD-COMBINATION>
+```cl
+#<standard-class sb-pcl::standard-method-combination>
 ```

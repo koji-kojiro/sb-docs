@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PREFIX-STRING &KEY ERRNO SIMPLE-ERROR OTHER-CONDITION-ARGS)
+```cl
+(sb-impl::prefix-string &key sb-impl::errno simple-error
+ sb-impl::other-condition-args)
 ```

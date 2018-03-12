@@ -4,7 +4,6 @@
 > No description.
 
 ### Value
-```
-A SB-KERNEL::HEAP-EXHAUSTED-ERROR condition without bindings for heap statistics.  (If
-you did not expect to see this message, please report it.
+```cl
+#<sb-kernel::heap-exhausted-error {1000002893}>
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM IGNORE LABEL)
+```cl
+(stream ignore sb-impl::label)
 ```

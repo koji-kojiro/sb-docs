@@ -4,6 +4,7 @@
 > Base class for all Gray streams.
 
 ### Precedence list
-```
-(FUNDAMENTAL-STREAM STANDARD-OBJECT SLOT-OBJECT STREAM T)
+```cl
+(sb-gray:fundamental-stream standard-object sb-pcl::slot-object stream
+ t)
 ```

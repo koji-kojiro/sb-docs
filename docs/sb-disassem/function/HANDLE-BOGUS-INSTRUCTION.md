@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM DSTATE PREFIX-LEN)
+```cl
+(stream sb-disassem::dstate sb-disassem::prefix-len)
 ```

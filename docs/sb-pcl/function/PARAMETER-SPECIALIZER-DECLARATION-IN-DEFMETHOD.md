@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PROTO-GENERIC-FUNCTION PROTO-METHOD PARAMETER SPECIALIZER SPECIALS ENV)
+```cl
+(sb-pcl::proto-generic-function sb-pcl::proto-method sb-pcl::parameter
+ sb-mop:specializer sb-pcl::specials sb-pcl::env)
 ```

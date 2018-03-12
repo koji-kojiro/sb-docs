@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SORTED)
+```cl
+(sb-c::sorted)
 ```

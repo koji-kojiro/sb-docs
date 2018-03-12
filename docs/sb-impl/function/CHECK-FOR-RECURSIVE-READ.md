@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM RECURSIVE-P OPERATOR-NAME)
+```cl
+(stream sb-impl::recursive-p sb-impl::operator-name)
 ```

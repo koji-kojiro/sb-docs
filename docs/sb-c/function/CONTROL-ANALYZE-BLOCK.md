@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK TAIL BLOCK-INFO-CONSTRUCTOR)
+```cl
+(block sb-c::tail sb-c::block-info-constructor)
 ```

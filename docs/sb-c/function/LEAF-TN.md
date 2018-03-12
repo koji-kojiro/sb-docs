@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LEAF ENV)
+```cl
+(sb-c::leaf sb-c::env)
 ```

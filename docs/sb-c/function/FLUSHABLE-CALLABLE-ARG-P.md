@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME ARG-COUNT)
+```cl
+(sb-c::name sb-c::arg-count)
 ```

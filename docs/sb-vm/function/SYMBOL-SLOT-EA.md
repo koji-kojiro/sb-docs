@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SYMBOL SLOT &OPTIONAL SIZE)
+```cl
+(symbol sb-alien:slot &optional sb-vm::size)
 ```

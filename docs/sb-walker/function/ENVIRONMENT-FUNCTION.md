@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ENV FN)
+```cl
+(sb-walker::env sb-walker::fn)
 ```

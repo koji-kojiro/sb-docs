@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM STRING MINCOL COLINC MINPAD PADCHAR PADLEFT)
+```cl
+(stream string sb-format::mincol sb-format::colinc sb-format::minpad
+ sb-format::padchar sb-format::padleft)
 ```

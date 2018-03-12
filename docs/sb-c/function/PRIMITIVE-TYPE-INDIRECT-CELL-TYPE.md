@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PTYPE)
+```cl
+(sb-vm::ptype)
 ```

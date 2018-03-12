@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((VAR LIST &OPTIONAL RESULT) &BODY BODY)
+```cl
+((sb-debug:var list &optional sb-impl::result) &body sb-impl::body)
 ```

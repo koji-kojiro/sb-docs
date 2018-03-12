@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LISP-FUN-ADDRESS)
+```cl
+(sb-thread::lisp-fun-address)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VERTICES COMPONENT)
+```cl
+(sb-regalloc::vertices sb-c:component)
 ```

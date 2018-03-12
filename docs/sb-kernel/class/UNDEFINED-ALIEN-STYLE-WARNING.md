@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(UNDEFINED-ALIEN-STYLE-WARNING STYLE-WARNING WARNING CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel:undefined-alien-style-warning style-warning warning
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(SYMBOL)
+```cl
+(:symbol)
 ```

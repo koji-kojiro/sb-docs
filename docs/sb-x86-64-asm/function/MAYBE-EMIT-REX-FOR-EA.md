@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT THING REG &KEY OPERAND-SIZE)
+```cl
+(sb-x86-64-asm::segment sb-x86-64-asm::thing sb-x86-64-asm::reg &key
+ sb-x86-64-asm::operand-size)
 ```

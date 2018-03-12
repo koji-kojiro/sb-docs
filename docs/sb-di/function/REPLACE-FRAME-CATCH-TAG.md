@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FRAME OLD-TAG NEW-TAG)
+```cl
+(sb-di:frame sb-di::old-tag sb-di::new-tag)
 ```

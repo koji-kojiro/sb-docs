@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(VECTOR ARRAY SEQUENCE T)
+```cl
+(vector array sequence t)
 ```

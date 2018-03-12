@@ -5,6 +5,6 @@
 > interactive.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

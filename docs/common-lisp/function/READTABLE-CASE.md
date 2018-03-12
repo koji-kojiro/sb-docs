@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CASE READTABLE)
+```cl
+(case readtable)
 ```

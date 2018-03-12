@@ -13,6 +13,6 @@
 > See also: ABORT-THREAD and SB-EXT:EXIT.
 
 ### Lambda list
-```
-(VALUES-FORM &KEY ALLOW-EXIT)
+```cl
+(sb-thread::values-form &key sb-thread::allow-exit)
 ```

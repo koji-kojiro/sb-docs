@@ -13,6 +13,6 @@
 > is unable to derive from other declared types.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

@@ -4,6 +4,6 @@
 > Makes SYMBOLS no longer exported from PACKAGE.
 
 ### Lambda list
-```
-(SYMBOLS &OPTIONAL PACKAGE)
+```cl
+(sb-impl::symbols &optional package)
 ```

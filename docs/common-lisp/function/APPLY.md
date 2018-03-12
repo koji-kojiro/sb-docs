@@ -7,6 +7,6 @@
 > list.
 
 ### Lambda list
-```
-(FUNCTION ARG &REST ARGUMENTS)
+```cl
+(function sb-debug:arg &rest sb-impl::arguments)
 ```

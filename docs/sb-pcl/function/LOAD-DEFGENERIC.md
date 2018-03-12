@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FUN-NAME LAMBDA-LIST SOURCE-LOCATION &REST INITARGS)
+```cl
+(sb-pcl::fun-name sb-pcl::lambda-list sb-pcl::source-location &rest
+ sb-pcl::initargs)
 ```

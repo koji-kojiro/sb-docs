@@ -4,9 +4,11 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NUMBER NUMBER) (REOPTIMIZE REOPTIMIZE) (NEXT NEXT) (PREV PREV)
- (LEXENV LEXENV) (SOURCE-PATH SOURCE-PATH) (TAIL-P TAIL-P) (TEST TEST)
- (CONSEQUENT CONSEQUENT) (CONSEQUENT-CONSTRAINTS CONSEQUENT-CONSTRAINTS)
- (ALTERNATIVE ALTERNATIVE) (ALTERNATIVE-CONSTRAINTS ALTERNATIVE-CONSTRAINTS))
+```cl
+(&key (:number #:number) (:reoptimize #:reoptimize) (:next #:next)
+ (:prev #:prev) (:lexenv #:lexenv) (:source-path #:source-path)
+ (:tail-p #:tail-p) (:test #:test) (:consequent #:consequent)
+ (:consequent-constraints #:consequent-constraints)
+ (:alternative #:alternative)
+ (:alternative-constraints #:alternative-constraints))
 ```

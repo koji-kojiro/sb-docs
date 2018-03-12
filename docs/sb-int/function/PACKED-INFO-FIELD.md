@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR DESC-INDEX FIELD-INDEX)
+```cl
+(vector sb-impl::desc-index sb-impl::field-index)
 ```

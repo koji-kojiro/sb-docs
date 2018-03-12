@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(*INSPECTED* S)
+```cl
+(sb-ext:*inspected* sb-impl::s)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALL-TYPE MAX-ARGS TYPE)
+```cl
+(sb-c::call-type sb-c::max-args type)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM FUN)
+```cl
+(stream sb-gray::fun)
 ```

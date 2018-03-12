@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATH FLAGS MODE &KEY)
+```cl
+(sb-unix::path sb-unix::flags sb-unix::mode &key)
 ```

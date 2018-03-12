@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TAG LOW HIGH)
+```cl
+(sb-impl::tag sb-impl::low sb-impl::high)
 ```

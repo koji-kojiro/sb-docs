@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW OLD PROPAGATE-DX)
+```cl
+(sb-c::new sb-c::old sb-c::propagate-dx)
 ```

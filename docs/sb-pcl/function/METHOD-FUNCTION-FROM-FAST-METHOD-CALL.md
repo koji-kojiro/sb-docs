@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FMC)
+```cl
+(sb-pcl::fmc)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VAR VAL DATA-TYPE)
+```cl
+(sb-loop::var sb-loop::val sb-loop::data-type)
 ```

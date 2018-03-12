@@ -4,6 +4,6 @@
 > Allocate and return a weak pointer which points to OBJECT.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

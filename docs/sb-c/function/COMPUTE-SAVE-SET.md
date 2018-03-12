@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VOP LIVE-BITS)
+```cl
+(sb-c::vop sb-c::live-bits)
 ```

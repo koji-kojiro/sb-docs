@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KEYWORD LIST)
+```cl
+(keyword list)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJ FORM DEPTH)
+```cl
+(sb-c::obj sb-kernel:form sb-c::depth)
 ```

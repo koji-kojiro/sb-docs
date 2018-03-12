@@ -15,6 +15,6 @@
 > it will signal a timeout condition.
 
 ### Lambda list
-```
-(SECONDS)
+```cl
+(sb-impl::seconds)
 ```

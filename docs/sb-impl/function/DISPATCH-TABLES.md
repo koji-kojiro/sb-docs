@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-ALIST READTABLE)
+```cl
+(sb-impl::new-alist readtable)
 ```

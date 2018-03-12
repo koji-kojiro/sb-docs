@@ -4,10 +4,11 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NUMBER NUMBER) (REOPTIMIZE REOPTIMIZE) (NEXT NEXT) (PREV PREV)
- (LEXENV LEXENV) (SOURCE-PATH SOURCE-PATH) (TAIL-P TAIL-P)
- (DERIVED-TYPE DERIVED-TYPE) (LVAR LVAR) (ASSERTED-TYPE ASSERTED-TYPE)
- (TYPE-TO-CHECK TYPE-TO-CHECK) (%TYPE-CHECK %TYPE-CHECK) (VALUE VALUE)
- (CONTEXT CONTEXT) (SILENT-CONFLICT SILENT-CONFLICT) (HOOK HOOK))
+```cl
+(&key (:number #:number) (:reoptimize #:reoptimize) (:next #:next)
+ (:prev #:prev) (:lexenv #:lexenv) (:source-path #:source-path)
+ (:tail-p #:tail-p) (:derived-type #:derived-type) (:lvar #:lvar)
+ (:asserted-type #:asserted-type) (:type-to-check #:type-to-check)
+ (:%type-check #:%type-check) (:value #:value) (:context #:context)
+ (:silent-conflict #:silent-conflict) (:hook #:hook))
 ```

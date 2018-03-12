@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((&OPTIONAL KIND THING &REST FORMAT) &BODY BODY)
+```cl
+((&optional sb-impl::kind sb-impl::thing &rest format) &body
+ sb-impl::body)
 ```

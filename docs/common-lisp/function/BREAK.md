@@ -5,6 +5,6 @@
 > of condition handling occurring.
 
 ### Lambda list
-```
-(&OPTIONAL DATUM &REST ARGUMENTS)
+```cl
+(&optional sb-kernel::datum &rest sb-kernel::arguments)
 ```

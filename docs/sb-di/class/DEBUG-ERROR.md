@@ -5,6 +5,7 @@
 > tools inherit from this type.
 
 ### Precedence list
-```
-(DEBUG-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-di:debug-error error serious-condition condition
+ sb-pcl::slot-object t)
 ```

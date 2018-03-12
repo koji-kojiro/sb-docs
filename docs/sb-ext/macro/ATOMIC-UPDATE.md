@@ -32,6 +32,6 @@
 > x)
 
 ### Lambda list
-```
-(PLACE UPDATE-FN &REST ARGUMENTS)
+```cl
+(sb-impl::place sb-impl::update-fn &rest sb-impl::arguments)
 ```

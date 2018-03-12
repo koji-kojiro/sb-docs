@@ -11,6 +11,7 @@
 > slots as in unix-getitimer.
 
 ### Lambda list
-```
-(WHICH INT-SECS INT-USEC VAL-SECS VAL-USEC)
+```cl
+(sb-unix::which sb-unix::int-secs sb-unix::int-usec sb-unix::val-secs
+ sb-unix::val-usec)
 ```

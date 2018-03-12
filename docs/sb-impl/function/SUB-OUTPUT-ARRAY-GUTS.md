@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARRAY DIMENSIONS STREAM INDEX)
+```cl
+(array sb-impl::dimensions stream sb-int:index)
 ```

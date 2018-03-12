@@ -4,6 +4,6 @@
 > Is STREAM an interactive stream?
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

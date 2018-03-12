@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(READER/WRITER CLASS-SLOT-P SLOTS INDEX MISS-FN ARGLIST)
+```cl
+(sb-pcl::reader/writer sb-pcl::class-slot-p sb-pcl::slots sb-int:index
+ sb-pcl::miss-fn sb-pcl::arglist)
 ```

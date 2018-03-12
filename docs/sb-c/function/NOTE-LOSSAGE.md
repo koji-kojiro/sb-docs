@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORMAT-STRING &REST FORMAT-ARGS)
+```cl
+(sb-c::format-string &rest sb-c::format-args)
 ```

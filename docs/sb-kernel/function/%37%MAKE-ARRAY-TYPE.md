@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(DIMENSIONS COMPLEXP ELEMENT-TYPE SPECIALIZED-ELEMENT-TYPE)
+```cl
+(sb-kernel::dimensions complexp sb-kernel::element-type
+ sb-kernel::specialized-element-type)
 ```

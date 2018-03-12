@@ -11,6 +11,8 @@
 > buffer was too small.
 
 ### Lambda list
-```
-(SOCKET BUFFER LENGTH &KEY OOB PEEK WAITALL DONTWAIT ELEMENT-TYPE)
+```cl
+(sb-bsd-sockets:socket sb-bsd-sockets::buffer length &key
+ sb-bsd-sockets::oob sb-bsd-sockets::peek sb-bsd-sockets::waitall
+ sb-bsd-sockets::dontwait sb-bsd-sockets::element-type)
 ```

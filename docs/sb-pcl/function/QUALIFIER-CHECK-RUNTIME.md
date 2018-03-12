@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATTERN QUALIFIERS)
+```cl
+(sb-pcl::pattern sb-pcl::qualifiers)
 ```

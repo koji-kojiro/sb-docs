@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OLD-FP RETURN-PC)
+```cl
+(sb-vm::old-fp sb-vm::return-pc)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FRAME COOKIE)
+```cl
+(sb-di:frame sb-di::cookie)
 ```

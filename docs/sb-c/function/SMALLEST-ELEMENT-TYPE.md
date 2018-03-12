@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INTEGER NEGATIVE)
+```cl
+(integer sb-c::negative)
 ```

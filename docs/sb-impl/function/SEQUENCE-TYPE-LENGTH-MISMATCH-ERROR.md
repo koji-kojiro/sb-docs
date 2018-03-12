@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE LENGTH)
+```cl
+(type length)
 ```

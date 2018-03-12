@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAMESTR HOST DEFAULTS START END JUNK-ALLOWED AS-DIRECTORY)
+```cl
+(sb-impl::namestr sb-kernel:host sb-impl::defaults sb-impl::start
+ sb-impl::end sb-impl::junk-allowed sb-impl::as-directory)
 ```

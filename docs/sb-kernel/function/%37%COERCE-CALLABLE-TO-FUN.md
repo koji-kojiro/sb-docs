@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALLABLE)
+```cl
+(sb-kernel:callable)
 ```

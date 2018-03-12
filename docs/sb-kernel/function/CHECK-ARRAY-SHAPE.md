@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARRAY DIMENSIONS)
+```cl
+(array sb-impl::dimensions)
 ```

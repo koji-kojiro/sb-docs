@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#(COMPILATION-SPEED DEBUG SAFETY SPACE SPEED INHIBIT-WARNINGS)
+```cl
+#(compilation-speed debug safety space speed sb-ext:inhibit-warnings)
 ```

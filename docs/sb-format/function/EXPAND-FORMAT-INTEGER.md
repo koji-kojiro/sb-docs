@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BASE COLONP ATSIGNP PARAMS)
+```cl
+(sb-format::base sb-format::colonp sb-format::atsignp sb-format::params)
 ```

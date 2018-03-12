@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE SOCKET)
+```cl
+(sb-bsd-sockets::new-value sb-bsd-sockets:socket)
 ```

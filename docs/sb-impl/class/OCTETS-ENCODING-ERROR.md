@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(OCTETS-ENCODING-ERROR CHARACTER-ENCODING-ERROR CHARACTER-CODING-ERROR ERROR
- SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-impl::octets-encoding-error sb-int:character-encoding-error
+ sb-int:character-coding-error error serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(EXTERNAL-FORMAT CODE STRING POSITION EXTERNAL-FORMAT)
+```cl
+(:external-format :code :string :position :external-format)
 ```

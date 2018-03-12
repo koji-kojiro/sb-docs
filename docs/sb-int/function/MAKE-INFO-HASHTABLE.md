@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (STORAGE STORAGE) (COMPARATOR COMPARATOR) (HASH-FUNCTION HASH-FUNCTION)
- (MUTEX MUTEX) (TOMBSTONES TOMBSTONES) (COUNT COUNT))
+```cl
+(&key (:storage #:storage) (:comparator #:comparator)
+ (:hash-function #:hash-function) (:mutex #:mutex)
+ (:tombstones #:tombstones) (:count #:count))
 ```

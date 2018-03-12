@@ -6,6 +6,6 @@
 > package designator.
 
 ### Lambda list
-```
-(PACKAGES-TO-ADD &OPTIONAL PACKAGE)
+```cl
+(sb-impl::packages-to-add &optional package)
 ```

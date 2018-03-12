@@ -6,6 +6,6 @@
 > is true. If no form is satisfied then an error is signalled.
 
 ### Lambda list
-```
-(KEYFORM &BODY CASES)
+```cl
+(sb-impl::keyform &body sb-impl::cases)
 ```

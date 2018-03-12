@@ -6,6 +6,6 @@
 > Use SB-THREAD:WITH-MUTEX instead.
 
 ### Lambda list
-```
-((LOCK) &BODY BODY)
+```cl
+((sb-thread::lock) &body sb-thread::body)
 ```

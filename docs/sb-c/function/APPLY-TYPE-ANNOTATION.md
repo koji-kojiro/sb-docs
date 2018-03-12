@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FUN-NAME ARG TYPE LVARS POLICY &OPTIONAL ANNOTATION)
+```cl
+(sb-c::fun-name sb-c::arg type sb-c::lvars sb-c:policy &optional
+ sb-c::annotation)
 ```

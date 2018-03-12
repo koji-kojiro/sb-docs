@@ -4,6 +4,6 @@
 > Bypass routing facilities: instead send direct to appropriate network interface for the network portion of the destination address
 
 ### Value
-```
+```cl
 5
 ```

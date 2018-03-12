@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME1 NAME2)
+```cl
+(sb-unix::name1 sb-unix::name2)
 ```

@@ -6,6 +6,6 @@
 > uninterned.
 
 ### Lambda list
-```
-(SYMBOL &OPTIONAL PACKAGE)
+```cl
+(symbol &optional package)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-PCL::STANDARD-BOUNDP-METHOD>
+```cl
+#<standard-class sb-pcl::standard-boundp-method>
 ```

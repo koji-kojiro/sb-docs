@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INST ROUTINE VOP TEMP-REG)
+```cl
+(sb-assem:inst sb-vm::routine sb-vm::vop sb-vm::temp-reg)
 ```

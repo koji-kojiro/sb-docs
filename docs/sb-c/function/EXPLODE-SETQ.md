@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM ERR-FUN)
+```cl
+(sb-kernel:form sb-c::err-fun)
 ```

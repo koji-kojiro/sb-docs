@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VOP OP DEST-TN)
+```cl
+(sb-c::vop sb-c::op sb-c::dest-tn)
 ```

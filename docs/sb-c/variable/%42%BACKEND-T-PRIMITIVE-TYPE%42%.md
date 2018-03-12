@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<PRIMITIVE-TYPE :NAME T>
+```cl
+#<sb-c:primitive-type :name t>
 ```

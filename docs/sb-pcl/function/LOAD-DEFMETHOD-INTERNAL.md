@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(METHOD-CLASS GF-SPEC QUALIFIERS SPECIALIZERS LAMBDA-LIST INITARGS
- SOURCE-LOCATION)
+```cl
+(sb-pcl::method-class sb-pcl::gf-spec sb-pcl::qualifiers
+ sb-pcl::specializers sb-pcl::lambda-list sb-pcl::initargs
+ sb-pcl::source-location)
 ```

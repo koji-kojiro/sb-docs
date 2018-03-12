@@ -4,12 +4,12 @@
 > No description.
 
 ### Value
-```
-#S(SB-C::EVENT-INFO
-   :NAME CONTROL-DELETED-BLOCK
-   :DESCRIPTION control analysis deleted dead block
-   :VAR *CONTROL-DELETED-BLOCK-EVENT-INFO*
-   :COUNT 7
-   :LEVEL 0
-   :ACTION NIL)
+```cl
+#s(sb-c::event-info
+   :name sb-c::control-deleted-block
+   :description "control analysis deleted dead block"
+   :var sb-c::*control-deleted-block-event-info*
+   :count 7
+   :level 0
+   :action nil)
 ```

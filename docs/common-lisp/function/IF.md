@@ -7,6 +7,6 @@
 > otherwise evaluate ELSE and return its values. ELSE defaults to NIL.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

@@ -4,6 +4,6 @@
 > Return SYMBOL's name as a string.
 
 ### Lambda list
-```
-(SYMBOL)
+```cl
+(symbol)
 ```

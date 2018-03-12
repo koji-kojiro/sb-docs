@@ -15,6 +15,7 @@
 > not a function designator.
 
 ### Lambda list
-```
-(RESULT-PROTOTYPE SEQUENCE1 SEQUENCE2 PREDICATE &KEY KEY)
+```cl
+(sb-impl::result-prototype sb-impl::sequence1 sb-impl::sequence2
+ sb-impl::predicate &key sb-impl::key)
 ```

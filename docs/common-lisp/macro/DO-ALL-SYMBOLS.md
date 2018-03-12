@@ -6,6 +6,7 @@
 > to the current symbol.
 
 ### Lambda list
-```
-((VAR &OPTIONAL RESULT-FORM) &BODY BODY-DECLS)
+```cl
+((sb-debug:var &optional sb-impl::result-form) &body
+ sb-impl::body-decls)
 ```

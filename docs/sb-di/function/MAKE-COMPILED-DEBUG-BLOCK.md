@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (ELSEWHERE-P ELSEWHERE-P) (CODE-LOCATIONS CODE-LOCATIONS))
+```cl
+(&key (:elsewhere-p #:elsewhere-p) (:code-locations #:code-locations))
 ```

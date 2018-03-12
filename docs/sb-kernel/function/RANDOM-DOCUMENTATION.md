@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE NAME TYPE)
+```cl
+(sb-c::new-value sb-c::name type)
 ```

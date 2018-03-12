@@ -8,6 +8,6 @@
 > 3) -1.0 or 1.0 (i.e. the sign of the argument.)
 
 ### Lambda list
-```
-(F)
+```cl
+(sb-kernel::f)
 ```

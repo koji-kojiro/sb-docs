@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT CHOOSER)
+```cl
+(sb-assem:segment sb-assem::chooser)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VEC N FASL-OUTPUT)
+```cl
+(sb-fasl::vec sb-fasl::n sb-fasl:fasl-output)
 ```

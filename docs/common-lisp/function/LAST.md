@@ -4,6 +4,6 @@
 > Return the last N conses (not the last element!) of a list.
 
 ### Lambda list
-```
-(LIST &OPTIONAL N)
+```cl
+(list &optional sb-impl::n)
 ```

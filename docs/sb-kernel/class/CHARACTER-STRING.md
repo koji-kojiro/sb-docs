@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(CHARACTER-STRING STRING VECTOR ARRAY SEQUENCE T)
+```cl
+(sb-kernel::character-string string vector array sequence t)
 ```

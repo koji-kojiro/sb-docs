@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RESTRICTIVE NEGATE)
+```cl
+(sb-loop::restrictive sb-kernel:negate)
 ```

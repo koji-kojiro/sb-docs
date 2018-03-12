@@ -4,6 +4,6 @@
 > stop signal generated from keyboard.
 
 ### Value
-```
+```cl
 20
 ```

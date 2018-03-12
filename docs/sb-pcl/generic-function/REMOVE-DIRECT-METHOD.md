@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPECIALIZER METHOD)
+```cl
+(sb-mop:specializer method)
 ```

@@ -4,6 +4,6 @@
 > the exclusive upper bound on LAYOUT-CLOS-HASH values
 
 ### Value
-```
+```cl
 576460752303423488
 ```

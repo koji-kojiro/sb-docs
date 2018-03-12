@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE OPERATION)
+```cl
+(type sb-alien::operation)
 ```

@@ -4,6 +4,6 @@
 > Default number of frames to backtrace. Defaults to 1000.
 
 ### Value
-```
+```cl
 1000
 ```

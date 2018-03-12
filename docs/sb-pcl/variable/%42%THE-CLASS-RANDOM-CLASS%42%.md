@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<BUILT-IN-CLASS SB-KERNEL::RANDOM-CLASS>
+```cl
+#<built-in-class sb-kernel::random-class>
 ```

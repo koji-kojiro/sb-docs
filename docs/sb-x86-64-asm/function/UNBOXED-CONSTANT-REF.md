@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(DSTATE SEGMENT-OFFSET ADDR DISP)
+```cl
+(sb-x86-64-asm::dstate sb-x86-64-asm::segment-offset
+ sb-x86-64-asm::addr sb-x86-64-asm::disp)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME WORDS ALLOC-STYLE HEADER LOWTAG INITS)
+```cl
+(sb-c::name sb-c::words sb-c::alloc-style sb-c::header sb-c::lowtag
+ sb-c::inits)
 ```

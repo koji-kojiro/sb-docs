@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONTEXT-SAP ADDRESS-SAP)
+```cl
+(sb-kernel::context-sap sb-kernel::address-sap)
 ```

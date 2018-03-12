@@ -4,14 +4,13 @@
 > No description.
 
 ### Value
-```
-((115 . OPERATION-IN-PROGRESS) (97 . ADDRESS-FAMILY-NOT-SUPPORTED)
- (107 . NOT-CONNECTED-ERROR) (101 . NETWORK-UNREACHABLE-ERROR)
- (94 . SOCKET-TYPE-NOT-SUPPORTED-ERROR) (93 . PROTOCOL-NOT-SUPPORTED-ERROR)
- (1 . OPERATION-NOT-PERMITTED-ERROR) (95 . OPERATION-NOT-SUPPORTED-ERROR)
- (12 . OUT-OF-MEMORY-ERROR) (105 . NO-BUFFERS-ERROR)
- (22 . INVALID-ARGUMENT-ERROR) (4 . INTERRUPTED-ERROR)
- (110 . OPERATION-TIMEOUT-ERROR) (111 . CONNECTION-REFUSED-ERROR)
- (9 . BAD-FILE-DESCRIPTOR-ERROR) (11 . INTERRUPTED-ERROR)
- (98 . ADDRESS-IN-USE-ERROR))
+```cl
+((115 . sb-bsd-sockets:operation-in-progress)
+ (97 . sb-bsd-sockets:address-family-not-supported)
+ (107 . sb-bsd-sockets:not-connected-error)
+ (101 . sb-bsd-sockets:network-unreachable-error)
+ (94 . sb-bsd-sockets:socket-type-not-supported-error)
+ (93 . sb-bsd-sockets:protocol-not-supported-error)
+ (1 . sb-bsd-sockets:operation-not-permitted-error)
+ (95 . sb-bsd-sockets:operation-not-supported-error) ..)
 ```

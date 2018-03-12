@@ -6,6 +6,6 @@
 > non-nil restart name, then a CONTROL-ERROR is signalled.
 
 ### Lambda list
-```
-(RESTART &REST VALUES)
+```cl
+(restart &rest values)
 ```

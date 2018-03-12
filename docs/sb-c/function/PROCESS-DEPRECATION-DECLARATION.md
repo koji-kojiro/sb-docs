@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THING STATE SOFTWARE VERSION)
+```cl
+(sb-c::thing sb-c::state sb-c::software sb-c::version)
 ```

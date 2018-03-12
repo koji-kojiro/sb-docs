@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (CLASS CLASS) (HISTORY HISTORY) (TEMPVARS TEMPVARS)
- (SPECIFIED-TYPE SPECIFIED-TYPE) (DTYPE DTYPE) (DATA DATA))
+```cl
+(&key (:name #:name) (:class #:class) (:history #:history)
+ (:tempvars #:tempvars) (:specified-type #:specified-type)
+ (:dtype #:dtype) (:data #:data))
 ```

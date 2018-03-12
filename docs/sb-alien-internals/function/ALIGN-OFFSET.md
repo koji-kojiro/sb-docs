@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OFFSET ALIGNMENT)
+```cl
+(sb-alien::offset sb-alien::alignment)
 ```

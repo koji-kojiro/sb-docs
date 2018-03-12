@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME &REST FORMS)
+```cl
+(sb-kernel::name &rest sb-kernel::forms)
 ```

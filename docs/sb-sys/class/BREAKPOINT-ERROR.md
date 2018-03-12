@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(BREAKPOINT-ERROR SYSTEM-CONDITION ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-sys:breakpoint-error sb-sys:system-condition error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(ADDRESS CONTEXT)
+```cl
+(:address :context)
 ```

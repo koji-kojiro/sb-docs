@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KIND NAME THUNK)
+```cl
+(sb-kernel::kind sb-kernel::name sb-kernel::thunk)
 ```

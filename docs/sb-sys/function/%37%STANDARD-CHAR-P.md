@@ -5,6 +5,6 @@
 > STANDARD-CHAR-P in that THING doesn't have to be a character.
 
 ### Lambda list
-```
-(THING)
+```cl
+(sb-impl::thing)
 ```

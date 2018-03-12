@@ -4,6 +4,7 @@
 > Return new list of elements appearing exactly once in LIST1 and LIST2.
 
 ### Lambda list
-```
-(LIST1 LIST2 &KEY KEY TEST TEST-NOT)
+```cl
+(sb-impl::list1 sb-impl::list2 &key sb-impl::key sb-impl::test
+ sb-impl::test-not)
 ```

@@ -6,6 +6,6 @@
 > variable is undefined.
 
 ### Lambda list
-```
-(SYMBOL)
+```cl
+(symbol)
 ```

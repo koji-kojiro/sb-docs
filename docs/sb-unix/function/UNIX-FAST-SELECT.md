@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NUM-DESCRIPTORS READ-FDS WRITE-FDS EXCEPTION-FDS TIMEOUT-SECS TIMEOUT-USECS)
+```cl
+(sb-unix::num-descriptors sb-unix::read-fds sb-unix::write-fds
+ sb-unix::exception-fds sb-unix::timeout-secs sb-unix::timeout-usecs)
 ```

@@ -4,6 +4,6 @@
 > Return the number of dimensions of ARRAY.
 
 ### Lambda list
-```
-(ARRAY)
+```cl
+(array)
 ```

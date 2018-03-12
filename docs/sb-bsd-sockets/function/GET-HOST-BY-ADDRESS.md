@@ -7,6 +7,6 @@
 > See gethostbyaddr(3) for details.
 
 ### Lambda list
-```
-(ADDRESS)
+```cl
+(sb-bsd-sockets::address)
 ```

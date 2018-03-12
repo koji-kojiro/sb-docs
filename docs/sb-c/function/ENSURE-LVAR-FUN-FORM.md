@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LVAR LVAR-NAME &KEY COERCER GIVE-UP)
+```cl
+(sb-c::lvar sb-c::lvar-name &key sb-c::coercer sb-c::give-up)
 ```

@@ -4,17 +4,17 @@
 > No description.
 
 ### Value
-```
-
-help for INSPECT:
-  Q, E        -  Quit the inspector.
-  <integer>   -  Inspect the numbered slot.
-  R           -  Redisplay current inspected object.
-  U           -  Move upward/backward to previous inspected object.
-  ?, H, Help  -  Show this help.
-  <other>     -  Evaluate the input as an expression.
-Within the inspector, the special variable SB-EXT:*INSPECTED* is bound
+```cl
+"
+help for inspect:
+  q, e        -  quit the inspector.
+  <integer>   -  inspect the numbered slot.
+  r           -  redisplay current inspected object.
+  u           -  move upward/backward to previous inspected object.
+  ?, h, help  -  show this help.
+  <other>     -  evaluate the input as an expression.
+within the inspector, the special variable sb-ext:*inspected* is bound
 to the current inspected object, so that it can be referred to in
 evaluated expressions.
-
+"
 ```

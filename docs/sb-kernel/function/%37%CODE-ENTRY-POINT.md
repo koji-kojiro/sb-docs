@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CODE-OBJ FUN-INDEX)
+```cl
+(sb-impl::code-obj sb-impl::fun-index)
 ```

@@ -13,7 +13,8 @@
 > the printing of the obvious part of the time/date.
 
 ### Lambda list
-```
-(DESTINATION UNIVERSAL-TIME &KEY TIMEZONE STYLE DATE-FIRST PRINT-SECONDS
- PRINT-MERIDIAN PRINT-TIMEZONE PRINT-WEEKDAY)
+```cl
+(sb-impl::destination sb-impl::universal-time &key sb-impl::timezone
+ sb-impl::style sb-impl::date-first sb-impl::print-seconds
+ sb-impl::print-meridian sb-impl::print-timezone sb-impl::print-weekday)
 ```

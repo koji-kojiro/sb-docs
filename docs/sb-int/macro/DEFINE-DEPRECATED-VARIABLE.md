@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(STATE VERSION NAME &KEY VALUE REPLACEMENT)
+```cl
+(sb-impl::state sb-impl::version sb-impl::name &key sb-impl::value
+ sb-impl::replacement)
 ```

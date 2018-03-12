@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INDICATOR PLIST)
+```cl
+(sb-impl::indicator sb-impl::plist)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SYMBOL THREAD)
+```cl
+(symbol sb-thread:thread)
 ```

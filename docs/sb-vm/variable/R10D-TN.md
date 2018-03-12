@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<TN {1000C0C873}>
+```cl
+#<sb-c:tn {1000c0c873}>
 ```

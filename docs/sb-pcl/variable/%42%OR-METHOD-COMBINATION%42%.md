@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<SHORT-METHOD-COMBINATION OR (:MOST-SPECIFIC-FIRST) {1000C99F53}>
+```cl
+#<sb-pcl::short-method-combination or (:most-specific-first) {1000c99f53}>
 ```

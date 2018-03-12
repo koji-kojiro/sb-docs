@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(RANDOM-CLASS T)
+```cl
+(sb-kernel::random-class t)
 ```

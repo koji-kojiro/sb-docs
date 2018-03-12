@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME LENGTH FLAGS INHERITS DEPTHOID BITMAP)
+```cl
+(sb-kernel::name length sb-kernel::flags sb-kernel::inherits
+ sb-kernel::depthoid sb-kernel::bitmap)
 ```

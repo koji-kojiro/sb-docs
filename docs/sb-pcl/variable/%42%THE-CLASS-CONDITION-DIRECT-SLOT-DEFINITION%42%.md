@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-PCL::CONDITION-DIRECT-SLOT-DEFINITION>
+```cl
+#<standard-class sb-pcl::condition-direct-slot-definition>
 ```

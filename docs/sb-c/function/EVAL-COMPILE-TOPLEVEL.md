@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BODY PATH)
+```cl
+(sb-c::body sb-c::path)
 ```

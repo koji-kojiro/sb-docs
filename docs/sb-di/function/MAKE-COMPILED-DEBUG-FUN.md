@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COMPILER-DEBUG-FUN COMPONENT)
+```cl
+(sb-di::compiler-debug-fun sb-di::component)
 ```

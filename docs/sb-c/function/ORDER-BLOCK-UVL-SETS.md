@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK PRED)
+```cl
+(block sb-c::pred)
 ```

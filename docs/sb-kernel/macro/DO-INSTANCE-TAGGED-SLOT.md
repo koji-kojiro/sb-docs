@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-((INDEX-VAR THING &KEY LAYOUT PAD) &BODY BODY)
+```cl
+((sb-kernel::index-var sb-kernel::thing &key sb-kernel:layout
+  sb-kernel::pad)
+ &body sb-kernel::body)
 ```

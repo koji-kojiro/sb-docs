@@ -4,7 +4,7 @@
 > No description.
 
 ### Precedence list
-```
-(INVALID-CONTROL-STACK-POINTER DEBUG-ERROR ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-di:invalid-control-stack-pointer sb-di:debug-error error
+ serious-condition condition sb-pcl::slot-object t)
 ```

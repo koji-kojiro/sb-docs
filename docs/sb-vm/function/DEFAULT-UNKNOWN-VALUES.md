@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VOP VALUES NVALS NODE)
+```cl
+(sb-vm::vop values sb-vm::nvals sb-vm::node)
 ```

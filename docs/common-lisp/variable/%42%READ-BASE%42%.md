@@ -4,6 +4,6 @@
 > the radix that Lisp reads numbers in
 
 ### Value
-```
+```cl
 10
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LVAR FORM)
+```cl
+(sb-c::lvar sb-kernel:form)
 ```

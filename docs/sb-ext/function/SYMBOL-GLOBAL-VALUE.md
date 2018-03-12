@@ -6,6 +6,6 @@
 > distinct from the global value. Can also be SETF.
 
 ### Lambda list
-```
-(SYMBOL)
+```cl
+(symbol)
 ```

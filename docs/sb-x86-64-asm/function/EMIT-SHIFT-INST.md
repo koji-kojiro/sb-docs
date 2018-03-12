@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT DST AMOUNT OPCODE)
+```cl
+(sb-x86-64-asm::segment sb-x86-64-asm::dst sb-x86-64-asm::amount
+ sb-x86-64-asm::opcode)
 ```

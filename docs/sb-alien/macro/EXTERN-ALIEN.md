@@ -5,6 +5,6 @@
 > This is SETFable.
 
 ### Lambda list
-```
-(NAME TYPE)
+```cl
+(sb-alien::name type)
 ```

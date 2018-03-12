@@ -4,6 +4,6 @@
 > Return the number of entries in the given HASH-TABLE.
 
 ### Lambda list
-```
-(HASH-TABLE)
+```cl
+(hash-table)
 ```

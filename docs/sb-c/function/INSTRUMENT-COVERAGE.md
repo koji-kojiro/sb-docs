@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(START MODE FORM)
+```cl
+(sb-c::start sb-c::mode sb-kernel:form)
 ```

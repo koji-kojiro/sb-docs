@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SECONDS)
+```cl
+(sb-impl::seconds)
 ```

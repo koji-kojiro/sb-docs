@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "all threads lock" (free)>
+```cl
+#<sb-thread:mutex "all threads lock" (free)>
 ```

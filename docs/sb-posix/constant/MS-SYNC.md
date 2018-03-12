@@ -4,6 +4,6 @@
 > msync: perform synchronous writes
 
 ### Value
-```
+```cl
 4
 ```

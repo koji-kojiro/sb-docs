@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (KEY-COUNT KEY-COUNT) (VALUE VALUE) (LINE-SIZE LINE-SIZE) (VECTOR VECTOR)
- (MASK MASK) (DEPTH DEPTH) (LIMIT LIMIT))
+```cl
+(&key (:key-count #:key-count) (:value #:value)
+ (:line-size #:line-size) (:vector #:vector) (:mask #:mask)
+ (:depth #:depth) (:limit #:limit))
 ```

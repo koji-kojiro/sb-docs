@@ -7,6 +7,6 @@
 > returns NIL each time.
 
 ### Lambda list
-```
-((NAME &KEY SECONDS) &BODY BODY)
+```cl
+((sb-impl::name &key sb-impl::seconds) &body sb-impl::body)
 ```

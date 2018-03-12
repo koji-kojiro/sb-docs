@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DATUM &REST ARGUMENTS)
+```cl
+(sb-di::datum &rest sb-di::arguments)
 ```

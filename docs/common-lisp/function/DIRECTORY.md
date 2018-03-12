@@ -9,6 +9,6 @@
 > matching filenames.
 
 ### Lambda list
-```
-(PATHSPEC &KEY RESOLVE-SYMLINKS)
+```cl
+(sb-impl::pathspec &key sb-impl::resolve-symlinks)
 ```

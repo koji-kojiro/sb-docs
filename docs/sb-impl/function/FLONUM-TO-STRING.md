@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(X &OPTIONAL WIDTH FDIGITS SCALE FMIN)
+```cl
+(sb-impl::x &optional sb-impl::width sb-impl::fdigits sb-impl::scale
+ sb-impl::fmin)
 ```

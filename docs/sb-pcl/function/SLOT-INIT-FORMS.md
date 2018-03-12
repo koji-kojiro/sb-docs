@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CTOR EARLY-UNBOUND-MARKERS-P SETF-SVUC-SLOTS SBUC-SLOTS)
+```cl
+(sb-pcl::ctor sb-pcl::early-unbound-markers-p sb-pcl::setf-svuc-slots
+ sb-pcl::sbuc-slots)
 ```

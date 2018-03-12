@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DESIGNATOR &REST INITARGS)
+```cl
+(sb-kernel::designator &rest sb-kernel::initargs)
 ```

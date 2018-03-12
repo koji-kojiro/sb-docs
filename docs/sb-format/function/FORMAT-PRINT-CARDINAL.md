@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM N)
+```cl
+(stream sb-format::n)
 ```

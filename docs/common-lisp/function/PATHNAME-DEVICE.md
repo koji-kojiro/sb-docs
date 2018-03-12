@@ -4,6 +4,6 @@
 > Return PATHNAME's device.
 
 ### Lambda list
-```
-(PATHNAME &KEY CASE)
+```cl
+(pathname &key case)
 ```

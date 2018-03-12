@@ -5,6 +5,6 @@
 > relative to DEFAULTS.
 
 ### Lambda list
-```
-(PATHNAME &OPTIONAL DEFAULTS)
+```cl
+(pathname &optional sb-impl::defaults)
 ```

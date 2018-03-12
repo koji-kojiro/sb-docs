@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONDITION SOURCE)
+```cl
+(condition sb-c::source)
 ```

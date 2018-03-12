@@ -7,6 +7,6 @@
 > it.
 
 ### Lambda list
-```
-(VOP KIND)
+```cl
+(sb-c::vop sb-c::kind)
 ```

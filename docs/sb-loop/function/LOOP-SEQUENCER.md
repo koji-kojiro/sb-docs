@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(INDEXV INDEXV-TYPE VARIABLE VARIABLE-TYPE SEQUENCE-VARIABLE SEQUENCE-TYPE
- STEP-HACK DEFAULT-TOP PREP-PHRASES)
+```cl
+(sb-loop::indexv sb-loop::indexv-type variable sb-loop::variable-type
+ sb-loop::sequence-variable sb-loop::sequence-type sb-loop::step-hack
+ sb-loop::default-top sb-loop::prep-phrases)
 ```

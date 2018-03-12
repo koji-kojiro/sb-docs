@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT-0 ARG-FOR-(BYTE 4 4)-1 ARG-FOR-(BYTE 1 3)-2 ARG-FOR-(BYTE 1 2)-3
- ARG-FOR-(BYTE 1 1)-4 ARG-FOR-(BYTE 1 0)-5)
+```cl
+(#:segment-0 #:|arg-for-(byte 4 4)-1| #:|arg-for-(byte 1 3)-2|
+ #:|arg-for-(byte 1 2)-3| #:|arg-for-(byte 1 1)-4|
+ #:|arg-for-(byte 1 0)-5|)
 ```

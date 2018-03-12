@@ -18,6 +18,6 @@
 > normally during operations like SLEEP.
 
 ### Lambda list
-```
-(FORM)
+```cl
+(sb-kernel:form)
 ```

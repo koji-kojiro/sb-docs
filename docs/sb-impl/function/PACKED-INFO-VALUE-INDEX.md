@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR AUX-KEY TYPE-NUM)
+```cl
+(vector sb-impl::aux-key sb-impl::type-num)
 ```

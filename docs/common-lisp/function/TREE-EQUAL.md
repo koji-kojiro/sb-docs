@@ -4,6 +4,6 @@
 > Return T if X and Y are isomorphic trees with identical leaves.
 
 ### Lambda list
-```
-(X Y &KEY TEST TEST-NOT)
+```cl
+(sb-impl::x sb-impl::y &key sb-impl::test sb-impl::test-not)
 ```

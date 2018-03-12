@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&REST ATTRIBUTES)
+```cl
+(&rest sb-c:attributes)
 ```

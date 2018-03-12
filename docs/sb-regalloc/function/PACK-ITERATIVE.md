@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COMPONENT 2COMP OPTIMIZE)
+```cl
+(sb-c:component sb-regalloc::2comp optimize)
 ```

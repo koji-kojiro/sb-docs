@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION SEQUENCE &REST ARGS &KEY KEY FROM-END START END INITIAL-VALUE)
+```cl
+(function sequence &rest sb-impl::args &key sb-impl::key
+ sb-impl::from-end sb-impl::start sb-impl::end sb-impl::initial-value)
 ```

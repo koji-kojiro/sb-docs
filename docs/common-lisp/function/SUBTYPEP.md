@@ -7,6 +7,6 @@
 > If values are NIL and NIL, it couldn't be determined.
 
 ### Lambda list
-```
-(TYPE1 TYPE2 &OPTIONAL ENVIRONMENT)
+```cl
+(sb-kernel::type1 sb-kernel::type2 &optional sb-kernel::environment)
 ```

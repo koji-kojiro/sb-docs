@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CELL OBJECT)
+```cl
+(sb-kernel::cell sb-kernel::object)
 ```

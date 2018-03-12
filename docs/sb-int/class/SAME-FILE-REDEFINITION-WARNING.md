@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(SAME-FILE-REDEFINITION-WARNING STYLE-WARNING WARNING CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:same-file-redefinition-warning style-warning warning condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME)
+```cl
+(:name)
 ```

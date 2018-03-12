@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME CONDITION FDEFN-OR-SYMBOL CONTEXT)
+```cl
+(sb-kernel::name condition sb-kernel::fdefn-or-symbol
+ sb-kernel::context)
 ```

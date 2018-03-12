@@ -4,6 +4,6 @@
 > Tests if STRING is normalized to FORM
 
 ### Lambda list
-```
-(STRING &OPTIONAL FORM)
+```cl
+(string &optional sb-unicode::form)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL RESTARTS)
+```cl
+(&optional sb-debug::restarts)
 ```

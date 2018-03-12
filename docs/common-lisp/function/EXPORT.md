@@ -4,6 +4,6 @@
 > Exports SYMBOLS from PACKAGE, checking that no name conflicts result.
 
 ### Lambda list
-```
-(SYMBOLS &OPTIONAL PACKAGE)
+```cl
+(sb-impl::symbols &optional package)
 ```

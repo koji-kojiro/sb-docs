@@ -4,6 +4,6 @@
 > Return the length of dimension AXIS-NUMBER of ARRAY.
 
 ### Lambda list
-```
-(ARRAY AXIS-NUMBER)
+```cl
+(array sb-impl::axis-number)
 ```

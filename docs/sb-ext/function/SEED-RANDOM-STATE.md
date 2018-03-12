@@ -28,6 +28,6 @@
 > http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html
 
 ### Lambda list
-```
-(&OPTIONAL STATE)
+```cl
+(&optional sb-kernel::state)
 ```

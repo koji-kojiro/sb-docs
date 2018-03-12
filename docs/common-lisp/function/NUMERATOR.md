@@ -4,6 +4,6 @@
 > Return the numerator of NUMBER, which must be rational.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

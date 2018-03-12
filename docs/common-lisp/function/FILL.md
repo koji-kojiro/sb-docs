@@ -4,6 +4,6 @@
 > Replace the specified elements of SEQUENCE with ITEM.
 
 ### Lambda list
-```
-(SEQUENCE ITEM &KEY START END)
+```cl
+(sequence sb-impl::item &key sb-impl::start sb-impl::end)
 ```

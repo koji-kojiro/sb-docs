@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INFO BREAK WHERE FRAME &REST ARGS)
+```cl
+(sb-int:info break sb-debug::where sb-debug::frame &rest sb-debug::args)
 ```

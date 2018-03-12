@@ -5,6 +5,6 @@
 > The second returned value is the remainder.
 
 ### Lambda list
-```
-(NUMBER &OPTIONAL DIVISOR)
+```cl
+(number &optional sb-kernel::divisor)
 ```

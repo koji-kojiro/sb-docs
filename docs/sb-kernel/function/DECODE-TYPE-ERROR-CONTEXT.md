@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONTEXT TYPE)
+```cl
+(sb-kernel::context type)
 ```

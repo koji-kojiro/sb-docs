@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(BODY PATH COMPILE-TIME-TOO &KEY VARS FUNS)
+```cl
+(sb-c::body sb-c::path sb-c::compile-time-too &key sb-c::vars
+ sb-c::funs)
 ```

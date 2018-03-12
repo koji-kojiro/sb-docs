@@ -35,6 +35,7 @@
 > in effect.
 
 ### Lambda list
-```
-(&KEY TRAPS ROUNDING-MODE CURRENT-EXCEPTIONS ACCRUED-EXCEPTIONS FAST-MODE)
+```cl
+(&key sb-vm::traps sb-vm::rounding-mode sb-vm::current-exceptions
+ sb-vm::accrued-exceptions sb-vm::fast-mode)
 ```

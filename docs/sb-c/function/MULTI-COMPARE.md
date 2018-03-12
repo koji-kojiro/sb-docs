@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PREDICATE ARGS NOT-P TYPE &OPTIONAL FORCE-TWO-ARG-P)
+```cl
+(sb-c::predicate sb-c::args sb-c::not-p type &optional
+ sb-c::force-two-arg-p)
 ```

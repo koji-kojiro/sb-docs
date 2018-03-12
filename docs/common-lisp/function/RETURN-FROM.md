@@ -8,6 +8,6 @@
 > extent of the block.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

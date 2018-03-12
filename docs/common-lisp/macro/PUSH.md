@@ -5,6 +5,6 @@
 > the list, returning the modified list. OBJ is evaluated before PLACE.
 
 ### Lambda list
-```
-(OBJ PLACE)
+```cl
+(sb-impl::obj sb-impl::place)
 ```

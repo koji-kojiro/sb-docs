@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (POSITIONAL POSITIONAL) (REST REST) (KEY KEY) (RETURNS RETURNS))
+```cl
+(&key (:positional #:positional) (:rest #:rest) (:key #:key)
+ (:returns #:returns))
 ```

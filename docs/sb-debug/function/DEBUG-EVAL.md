@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EXPR)
+```cl
+(sb-debug::expr)
 ```

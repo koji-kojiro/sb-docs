@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS &OPTIONAL MAKE-FORWARD-REFERENCED-CLASS-P)
+```cl
+(class &optional sb-pcl::make-forward-referenced-class-p)
 ```

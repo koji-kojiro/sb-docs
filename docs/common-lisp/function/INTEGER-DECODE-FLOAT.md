@@ -10,6 +10,6 @@
 > 3) -1 or 1 (i.e. the sign of the argument.)
 
 ### Lambda list
-```
-(X)
+```cl
+(sb-kernel::x)
 ```

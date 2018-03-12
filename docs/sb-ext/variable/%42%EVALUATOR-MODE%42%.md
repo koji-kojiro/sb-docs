@@ -6,6 +6,6 @@
 > to :INTERPRET, an interpreter will be used.
 
 ### Value
-```
-COMPILE
+```cl
+:compile
 ```

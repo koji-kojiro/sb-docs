@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION VALUEP CACHE CLASSES-LIST NEW-CLASS)
+```cl
+(generic-function sb-pcl::valuep sb-pcl::cache sb-pcl::classes-list
+ sb-pcl::new-class)
 ```

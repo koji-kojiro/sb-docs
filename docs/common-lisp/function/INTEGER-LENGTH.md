@@ -5,6 +5,6 @@
 > of INTEGER.
 
 ### Lambda list
-```
-(INTEGER)
+```cl
+(integer)
 ```

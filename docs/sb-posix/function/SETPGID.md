@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PID PGID)
+```cl
+(sb-posix::pid sb-posix::pgid)
 ```

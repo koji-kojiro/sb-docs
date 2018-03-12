@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(SPECIAL-FORM-FUNCTION UNDEFINED-FUNCTION CELL-ERROR ERROR SERIOUS-CONDITION
- CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:special-form-function undefined-function cell-error error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME NOT-YET-LOADED)
+```cl
+(:name :not-yet-loaded)
 ```

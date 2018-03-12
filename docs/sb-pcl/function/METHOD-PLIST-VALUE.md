@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE METHOD KEY &OPTIONAL DEFAULT)
+```cl
+(sb-pcl::new-value method sb-pcl::key &optional sb-pcl::default)
 ```

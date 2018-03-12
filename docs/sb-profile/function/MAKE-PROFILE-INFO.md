@@ -4,8 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (ENCAPSULATED-FUN ENCAPSULATED-FUN)
- (ENCAPSULATION-FUN ENCAPSULATION-FUN) (READ-STATS-FUN READ-STATS-FUN)
- (CLEAR-STATS-FUN CLEAR-STATS-FUN))
+```cl
+(&key (:name #:name) (:encapsulated-fun #:encapsulated-fun)
+ (:encapsulation-fun #:encapsulation-fun)
+ (:read-stats-fun #:read-stats-fun)
+ (:clear-stats-fun #:clear-stats-fun))
 ```

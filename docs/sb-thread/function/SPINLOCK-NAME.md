@@ -6,6 +6,6 @@
 > Use (COMMON-LISP:SETF SB-THREAD:MUTEX-NAME) instead.
 
 ### Lambda list
-```
-(NAME LOCK)
+```cl
+(sb-thread::name sb-thread::lock)
 ```

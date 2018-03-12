@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HASH-TABLE ENSURE-FREE-SLOT-P)
+```cl
+(hash-table sb-impl::ensure-free-slot-p)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((&KEY ALREADY-WITHOUT-INTERRUPTS) &BODY BODY)
+```cl
+((&key sb-thread::already-without-interrupts) &body sb-thread::body)
 ```

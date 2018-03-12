@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY CLASS FORMAT COMPLEXP LOW HIGH ENUMERABLE)
+```cl
+(&key class format complexp sb-kernel::low sb-kernel::high
+ sb-kernel::enumerable)
 ```

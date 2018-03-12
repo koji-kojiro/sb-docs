@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(COMPLEX-SINGLE-FLOAT COMPLEX NUMBER T)
+```cl
+(sb-kernel:complex-single-float complex number t)
 ```

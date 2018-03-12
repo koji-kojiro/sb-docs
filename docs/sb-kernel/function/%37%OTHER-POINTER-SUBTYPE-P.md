@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X CHOICES)
+```cl
+(sb-impl::x sb-impl::choices)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SIZE FUN)
+```cl
+(sb-assem::size sb-assem::fun)
 ```

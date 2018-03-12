@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(STANDARD-FUNCALLABLE-INSTANCE FUNCTION T)
+```cl
+(sb-pcl::standard-funcallable-instance function t)
 ```

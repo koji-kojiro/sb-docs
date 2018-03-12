@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM POS)
+```cl
+(stream sb-impl::pos)
 ```

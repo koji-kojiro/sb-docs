@@ -4,6 +4,6 @@
 > quit program.
 
 ### Value
-```
+```cl
 3
 ```

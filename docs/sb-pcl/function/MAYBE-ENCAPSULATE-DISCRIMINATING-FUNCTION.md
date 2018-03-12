@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GF ENCS STD)
+```cl
+(sb-pcl::gf sb-pcl::encs sb-pcl::std)
 ```

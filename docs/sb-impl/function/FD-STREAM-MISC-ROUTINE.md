@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FD-STREAM OPERATION &OPTIONAL ARG1 ARG2)
+```cl
+(sb-sys:fd-stream sb-impl::operation &optional sb-impl::arg1
+ sb-impl::arg2)
 ```

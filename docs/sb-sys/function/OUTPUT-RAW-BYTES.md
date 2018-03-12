@@ -6,6 +6,6 @@
 > Use COMMON-LISP:WRITE-SEQUENCE instead.
 
 ### Lambda list
-```
-(STREAM THING &OPTIONAL START END)
+```cl
+(stream sb-impl::thing &optional sb-impl::start sb-impl::end)
 ```

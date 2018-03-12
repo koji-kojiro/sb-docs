@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LVAR &KEY FLUSH)
+```cl
+(sb-c::lvar &key sb-c::flush)
 ```

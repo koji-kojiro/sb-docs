@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(METATYPES APPLYP)
+```cl
+(sb-pcl::metatypes sb-pcl::applyp)
 ```

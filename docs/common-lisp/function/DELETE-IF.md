@@ -5,6 +5,7 @@
 > the specified PREDICATE from the given SEQUENCE.
 
 ### Lambda list
-```
-(PREDICATE SEQUENCE &REST ARGS &KEY FROM-END START KEY END COUNT)
+```cl
+(sb-impl::predicate sequence &rest sb-impl::args &key sb-impl::from-end
+ sb-impl::start sb-impl::key sb-impl::end count)
 ```

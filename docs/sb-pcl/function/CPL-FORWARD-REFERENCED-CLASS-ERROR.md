@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS FORWARD-CLASS)
+```cl
+(class sb-pcl::forward-class)
 ```

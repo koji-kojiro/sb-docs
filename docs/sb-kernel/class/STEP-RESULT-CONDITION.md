@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(STEP-RESULT-CONDITION STEP-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel::step-result-condition sb-ext:step-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORM RESULT)
+```cl
+(:form :result)
 ```

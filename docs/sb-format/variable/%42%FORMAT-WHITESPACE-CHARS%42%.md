@@ -4,8 +4,6 @@
 > No description.
 
 ### Value
-```
-#(  
-
-  	)
+```cl
+#(#\  #\newline #\tab)
 ```

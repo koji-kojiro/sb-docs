@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CONTEXT LAMBDA-LISTY-THING INNER-CONTEXT-KIND)
+```cl
+(sb-kernel::context sb-kernel::lambda-listy-thing
+ sb-kernel::inner-context-kind)
 ```

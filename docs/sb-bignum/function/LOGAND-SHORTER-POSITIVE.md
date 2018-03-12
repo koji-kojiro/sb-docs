@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(A LEN-A B RES)
+```cl
+(sb-bignum::a sb-bignum::len-a sb-bignum::b sb-bignum::res)
 ```

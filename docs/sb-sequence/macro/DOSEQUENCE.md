@@ -5,6 +5,6 @@
 > SEQUENCE, then returns RETURN.
 
 ### Lambda list
-```
-((ELEMENT SEQUENCE &OPTIONAL RETURN) &BODY BODY)
+```cl
+((sb-impl::element sequence &optional return) &body sb-impl::body)
 ```

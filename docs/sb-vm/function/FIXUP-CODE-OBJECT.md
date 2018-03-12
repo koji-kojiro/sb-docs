@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CODE OFFSET FIXUP KIND FLAVOR)
+```cl
+(sb-vm::code sb-vm::offset sb-c:fixup sb-vm::kind sb-vm::flavor)
 ```

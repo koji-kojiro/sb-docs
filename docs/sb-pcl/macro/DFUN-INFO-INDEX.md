@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DI)
+```cl
+(sb-pcl::di)
 ```

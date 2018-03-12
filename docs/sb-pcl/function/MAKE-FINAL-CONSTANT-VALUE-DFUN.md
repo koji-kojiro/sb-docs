@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION CLASSES-LIST NEW-CLASS)
+```cl
+(generic-function sb-pcl::classes-list sb-pcl::new-class)
 ```

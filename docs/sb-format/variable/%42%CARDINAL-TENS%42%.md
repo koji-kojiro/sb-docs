@@ -4,6 +4,7 @@
 > No description.
 
 ### Value
-```
-#(NIL NIL twenty thirty forty fifty sixty seventy eighty ninety)
+```cl
+#(nil nil "twenty" "thirty" "forty" "fifty" "sixty" "seventy" "eighty"
+  "ninety")
 ```

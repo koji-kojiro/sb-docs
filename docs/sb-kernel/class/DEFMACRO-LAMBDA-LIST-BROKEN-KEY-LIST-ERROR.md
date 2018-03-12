@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(DEFMACRO-LAMBDA-LIST-BROKEN-KEY-LIST-ERROR DEFMACRO-LAMBDA-LIST-BIND-ERROR
- ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel::defmacro-lambda-list-broken-key-list-error
+ sb-kernel::defmacro-lambda-list-bind-error error serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(KIND NAME PROBLEM INFO)
+```cl
+(:kind :name :problem :info)
 ```

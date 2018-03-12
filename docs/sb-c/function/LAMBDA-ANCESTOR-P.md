@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(MAYBE-ANCESTOR MAYBE-DESCENDANT)
+```cl
+(sb-c::maybe-ancestor sb-c::maybe-descendant)
 ```

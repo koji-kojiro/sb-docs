@@ -12,6 +12,6 @@
 > collection is always performed.
 
 ### Lambda list
-```
-(&KEY FULL GEN &ALLOW-OTHER-KEYS)
+```cl
+(&key sb-kernel::full sb-kernel::gen &allow-other-keys)
 ```

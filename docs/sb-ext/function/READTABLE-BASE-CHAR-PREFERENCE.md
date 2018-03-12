@@ -4,6 +4,6 @@
 > Sets the READTABLE-BASE-CHAR-PREFERENCE of the given READTABLE.
 
 ### Lambda list
-```
-(NEW-VALUE READTABLE)
+```cl
+(sb-impl::new-value readtable)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ENT)
+```cl
+(sb-unix::ent)
 ```

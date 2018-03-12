@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DIRECTORY DIDDLE-CASE)
+```cl
+(directory sb-impl::diddle-case)
 ```

@@ -4,6 +4,6 @@
 > stop (cannot be caught or ignored).
 
 ### Value
-```
+```cl
 19
 ```

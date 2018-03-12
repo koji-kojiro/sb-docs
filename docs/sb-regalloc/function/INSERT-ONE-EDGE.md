@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(A B &OPTIONAL PERHAPS-REDUNDANT)
+```cl
+(sb-regalloc::a sb-regalloc::b &optional sb-regalloc::perhaps-redundant)
 ```

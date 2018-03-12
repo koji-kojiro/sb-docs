@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN START END &OPTIONAL STRICT-BOUND)
+```cl
+(sb-vm::fun sb-vm::start sb-vm::end &optional sb-vm::strict-bound)
 ```

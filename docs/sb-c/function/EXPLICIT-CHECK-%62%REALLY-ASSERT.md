@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EXPLICIT-CHECK)
+```cl
+(sb-int:explicit-check)
 ```

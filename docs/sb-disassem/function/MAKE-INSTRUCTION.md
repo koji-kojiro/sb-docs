@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(NAME FORMAT-NAME PRINT-NAME LENGTH MASK ID PRINTER LABELLER PREFILTERS CONTROL)
+```cl
+(sb-disassem::name sb-disassem::format-name sb-disassem::print-name
+ length sb-disassem::mask sb-disassem::id sb-disassem::printer
+ sb-disassem::labeller sb-disassem::prefilters sb-disassem::control)
 ```

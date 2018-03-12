@@ -5,6 +5,6 @@
 > a list of protocol aliases
 
 ### Lambda list
-```
-(NAME)
+```cl
+(sb-bsd-sockets::name)
 ```

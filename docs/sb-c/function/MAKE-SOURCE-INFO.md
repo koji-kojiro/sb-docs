@@ -4,8 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (START-TIME START-TIME) (START-REAL-TIME START-REAL-TIME)
- (FILE-INFO FILE-INFO) (STREAM STREAM)
- (LAST-DEFN-SOURCE-LOC LAST-DEFN-SOURCE-LOC) (PARENT PARENT))
+```cl
+(&key (:start-time #:start-time) (:start-real-time #:start-real-time)
+ (:file-info #:file-info) (:stream #:stream)
+ (:last-defn-source-loc #:last-defn-source-loc) (:parent #:parent))
 ```

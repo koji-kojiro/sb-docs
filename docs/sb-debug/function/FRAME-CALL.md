@@ -17,6 +17,7 @@
 > the current thread are replaced with dummy objects which can safely escape.
 
 ### Lambda list
-```
-(FRAME &KEY METHOD-FRAME-STYLE REPLACE-DYNAMIC-EXTENT-OBJECTS)
+```cl
+(sb-debug::frame &key sb-debug::method-frame-style
+ sb-debug::replace-dynamic-extent-objects)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION NAMESTRING ERRORP)
+```cl
+(function namestring sb-impl::errorp)
 ```

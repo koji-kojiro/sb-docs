@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CASE-LIST)
+```cl
+(sb-pcl::case-list)
 ```

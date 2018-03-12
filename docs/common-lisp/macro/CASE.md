@@ -6,6 +6,6 @@
 > Keyform. If a singleton key is T then the clause is a default clause.
 
 ### Lambda list
-```
-(KEYFORM &BODY CASES)
+```cl
+(sb-impl::keyform &body sb-impl::cases)
 ```

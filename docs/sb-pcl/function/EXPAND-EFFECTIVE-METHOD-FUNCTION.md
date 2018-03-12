@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GF EFFECTIVE-METHOD &OPTIONAL ENV)
+```cl
+(sb-pcl::gf sb-pcl::effective-method &optional sb-pcl::env)
 ```

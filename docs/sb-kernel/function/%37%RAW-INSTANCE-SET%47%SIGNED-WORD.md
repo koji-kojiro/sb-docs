@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INSTANCE INDEX NEW-VALUE)
+```cl
+(sb-kernel:instance sb-int:index sb-c::new-value)
 ```

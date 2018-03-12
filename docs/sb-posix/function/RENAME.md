@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OLDPATH NEWPATH)
+```cl
+(sb-posix::oldpath sb-posix::newpath)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PRIMARY-QUALITIES &OPTIONAL PRESENCE-BITS)
+```cl
+(sb-c::primary-qualities &optional sb-c::presence-bits)
 ```

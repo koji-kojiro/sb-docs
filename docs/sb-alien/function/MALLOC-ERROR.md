@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BYTES ERRNO)
+```cl
+(sb-alien::bytes sb-alien::errno)
 ```

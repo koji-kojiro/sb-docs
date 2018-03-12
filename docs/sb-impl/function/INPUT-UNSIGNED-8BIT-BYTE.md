@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM EOF-ERROR EOF-VALUE)
+```cl
+(stream sb-impl::eof-error sb-impl::eof-value)
 ```

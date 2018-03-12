@@ -4,6 +4,6 @@
 > Return a list whose elements are the dimensions of the array
 
 ### Lambda list
-```
-(ARRAY)
+```cl
+(array)
 ```

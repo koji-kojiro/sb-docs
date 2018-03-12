@@ -4,7 +4,10 @@
 > No description.
 
 ### Lambda list
-```
-(NAME NICKNAMES SIZE SHADOWS SHADOWING-IMPORTS USE IMPORTS INTERNS EXPORTS
- IMPLEMENT LOCAL-NICKNAMES LOCK SOURCE-LOCATION &OPTIONAL DOC)
+```cl
+(sb-impl::name sb-impl::nicknames sb-impl::size sb-impl::shadows
+ sb-impl::shadowing-imports sb-impl::use sb-impl::imports
+ sb-impl::interns sb-impl::exports sb-impl::implement
+ sb-impl::local-nicknames sb-impl::lock sb-impl::source-location
+ &optional sb-impl::doc)
 ```

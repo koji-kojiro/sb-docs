@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME ALWAYS-BOUNDP VALUE ASSIGN-IT-P)
+```cl
+(sb-impl::name sb-impl::always-boundp sb-impl::value
+ sb-impl::assign-it-p)
 ```

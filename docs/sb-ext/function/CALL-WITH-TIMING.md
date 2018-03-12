@@ -41,6 +41,6 @@
 > EXPERIMENTAL: Interface subject to change.
 
 ### Lambda list
-```
-(TIMER FUNCTION &REST ARGUMENTS)
+```cl
+(sb-ext:timer function &rest sb-impl::arguments)
 ```

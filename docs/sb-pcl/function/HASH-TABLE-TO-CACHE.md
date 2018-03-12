@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TABLE &KEY VALUE KEY-COUNT)
+```cl
+(sb-pcl::table &key sb-pcl::value sb-pcl::key-count)
 ```

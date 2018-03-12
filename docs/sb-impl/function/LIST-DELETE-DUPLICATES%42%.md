@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(LIST TEST TEST-NOT KEY FROM-END START END)
+```cl
+(list sb-impl::test sb-impl::test-not sb-impl::key sb-impl::from-end
+      sb-impl::start sb-impl::end)
 ```

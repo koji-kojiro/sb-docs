@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OSET ELEMENT)
+```cl
+(sb-int:oset sb-c::element)
 ```

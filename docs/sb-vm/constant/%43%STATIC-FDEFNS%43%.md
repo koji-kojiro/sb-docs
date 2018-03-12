@@ -4,8 +4,10 @@
 > No description.
 
 ### Value
-```
-#(LENGTH TWO-ARG-+ TWO-ARG-- TWO-ARG-* TWO-ARG-/ TWO-ARG-< TWO-ARG-> TWO-ARG-=
-  EQL %NEGATE TWO-ARG-AND TWO-ARG-IOR TWO-ARG-XOR TWO-ARG-GCD TWO-ARG-LCM
-  %COERCE-CALLABLE-TO-FUN)
+```cl
+#(length sb-kernel:two-arg-+ sb-kernel:two-arg-- sb-kernel:two-arg-*
+  sb-kernel:two-arg-/ sb-kernel:two-arg-< sb-kernel:two-arg->
+  sb-kernel:two-arg-= eql sb-kernel:%negate sb-kernel:two-arg-and
+  sb-kernel:two-arg-ior sb-kernel:two-arg-xor sb-kernel:two-arg-gcd
+  sb-kernel:two-arg-lcm sb-kernel:%coerce-callable-to-fun)
 ```

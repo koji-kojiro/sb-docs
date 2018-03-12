@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SUPPLIED-INITARGS CLASS-DEFAULT-INITARGS)
+```cl
+(sb-pcl::supplied-initargs sb-mop:class-default-initargs)
 ```

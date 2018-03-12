@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WORD)
+```cl
+(sb-ext:word)
 ```

@@ -5,6 +5,6 @@
 > is found, return the associated value, else return DEFAULT.
 
 ### Lambda list
-```
-(SYMBOL INDICATOR &OPTIONAL DEFAULT)
+```cl
+(symbol sb-impl::indicator &optional sb-impl::default)
 ```

@@ -5,8 +5,9 @@
 > is a subtype of unsigned-byte or signed-byte.
 
 ### Precedence list
-```
-(FUNDAMENTAL-BINARY-INPUT-STREAM FUNDAMENTAL-INPUT-STREAM
- FUNDAMENTAL-BINARY-STREAM FUNDAMENTAL-STREAM STANDARD-OBJECT SLOT-OBJECT
- STREAM T)
+```cl
+(sb-gray:fundamental-binary-input-stream
+ sb-gray:fundamental-input-stream sb-gray:fundamental-binary-stream
+ sb-gray:fundamental-stream standard-object sb-pcl::slot-object stream
+ t)
 ```

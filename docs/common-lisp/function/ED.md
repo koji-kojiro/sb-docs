@@ -8,6 +8,6 @@
 > the file system.
 
 ### Lambda list
-```
-(&OPTIONAL X)
+```cl
+(&optional sb-impl::x)
 ```

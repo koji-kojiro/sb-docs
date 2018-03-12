@@ -16,6 +16,6 @@
 > Experimental.
 
 ### Lambda list
-```
-((&KEY SECONDS OVERRIDE) &BODY BODY)
+```cl
+((&key sb-impl::seconds sb-impl::override) &body sb-impl::body)
 ```

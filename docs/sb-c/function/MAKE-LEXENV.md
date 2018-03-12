@@ -4,7 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY DEFAULT FUNS VARS BLOCKS TAGS TYPE-RESTRICTIONS LAMBDA CLEANUP
- HANDLED-CONDITIONS DISABLED-PACKAGE-LOCKS POLICY USER-DATA FLUSHABLE)
+```cl
+(&key sb-c::default sb-c::funs sb-c::vars sb-c::blocks sb-c::tags
+ sb-c::type-restrictions lambda sb-c::cleanup sb-c::handled-conditions
+ sb-kernel:disabled-package-locks sb-c:policy sb-c::user-data
+ sb-assem:flushable)
 ```

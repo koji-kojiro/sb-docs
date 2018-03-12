@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN FORM &OPTIONAL CMACRO)
+```cl
+(sb-c::fun sb-kernel:form &optional sb-c::cmacro)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FORM &KEY SOURCE-NAME DEBUG-NAME MAYBE-ADD-DEBUG-CATCH SYSTEM-LAMBDA)
+```cl
+(sb-kernel:form &key sb-c::source-name sb-c::debug-name
+ sb-c::maybe-add-debug-catch sb-c::system-lambda)
 ```

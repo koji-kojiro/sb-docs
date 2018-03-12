@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME ALIEN-TYPE SUPERCLASSES SLOTS &REST OPTIONS)
+```cl
+(sb-posix::name sb-posix::alien-type sb-posix::superclasses
+ sb-posix::slots &rest sb-posix::options)
 ```

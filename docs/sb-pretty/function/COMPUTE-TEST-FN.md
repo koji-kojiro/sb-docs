@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CTYPE TYPE-SPEC FUNCTION)
+```cl
+(sb-kernel:ctype sb-pretty::type-spec function)
 ```

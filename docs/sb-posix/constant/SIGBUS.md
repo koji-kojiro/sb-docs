@@ -4,6 +4,6 @@
 > bus error.
 
 ### Value
-```
+```cl
 7
 ```

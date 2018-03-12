@@ -4,6 +4,6 @@
 > Return a list with SE1 as the CAR and SE2 as the CDR.
 
 ### Lambda list
-```
-(SE1 SE2)
+```cl
+(sb-impl::se1 sb-impl::se2)
 ```

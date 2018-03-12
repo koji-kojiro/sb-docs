@@ -4,6 +4,6 @@
 > Create a waitqueue.
 
 ### Lambda list
-```
-(&KEY NAME)
+```cl
+(&key sb-thread::name)
 ```

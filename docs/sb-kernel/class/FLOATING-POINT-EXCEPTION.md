@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(FLOATING-POINT-EXCEPTION ARITHMETIC-ERROR ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-kernel:floating-point-exception arithmetic-error error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(OPERATION OPERANDS TRAPS)
+```cl
+(:operation :operands :traps)
 ```

@@ -6,6 +6,6 @@
 > guaranteed to never be modified, so it can be put in read-only storage.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

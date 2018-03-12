@@ -27,6 +27,6 @@
 > behaves as :INTERRUPTED-FRAME outside the debugger.
 
 ### Lambda list
-```
-(FUNCTION &KEY START FROM COUNT)
+```cl
+(function &key sb-debug::start sb-debug::from count)
 ```

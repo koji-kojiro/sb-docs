@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(ARGUMENT OBJECT COOKIE &REST KEYS &KEY DIRECTION EXTERNAL-FORMAT WAIT
- &ALLOW-OTHER-KEYS)
+```cl
+(sb-impl::argument sb-impl::object sb-impl::cookie &rest sb-impl::keys
+ &key sb-impl::direction sb-impl::external-format sb-impl::wait
+ &allow-other-keys)
 ```

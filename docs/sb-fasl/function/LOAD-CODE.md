@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NFUNS BOX-NUM CODE-LENGTH STACK PTR FASL-INPUT)
+```cl
+(sb-fasl::nfuns sb-fasl::box-num sb-fasl::code-length sb-fasl::stack
+ sb-fasl::ptr sb-fasl::fasl-input)
 ```

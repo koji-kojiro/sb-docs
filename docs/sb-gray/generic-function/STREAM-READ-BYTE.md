@@ -5,6 +5,6 @@
 > if the stream is at end-of-file.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

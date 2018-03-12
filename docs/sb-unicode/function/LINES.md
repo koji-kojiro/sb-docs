@@ -8,6 +8,6 @@
 > it defaults to 80 characters
 
 ### Lambda list
-```
-(STRING &KEY MARGIN)
+```cl
+(string &key sb-unicode::margin)
 ```

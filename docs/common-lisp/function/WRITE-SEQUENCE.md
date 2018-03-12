@@ -4,6 +4,6 @@
 > Write the elements of SEQ bounded by START and END to STREAM.
 
 ### Lambda list
-```
-(SEQ STREAM &KEY START END)
+```cl
+(sb-impl::seq stream &key sb-impl::start sb-impl::end)
 ```

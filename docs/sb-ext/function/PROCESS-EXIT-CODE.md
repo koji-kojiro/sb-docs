@@ -4,6 +4,6 @@
 > The exit code or the signal of a stopped process.
 
 ### Lambda list
-```
-(PROCESS)
+```cl
+(sb-impl::process)
 ```

@@ -4,10 +4,10 @@
 > No description.
 
 ### Precedence list
-```
-(FILE-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(file-error error serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(PATHNAME)
+```cl
+(:pathname)
 ```

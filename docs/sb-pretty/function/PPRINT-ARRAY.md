@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM ARRAY)
+```cl
+(stream array)
 ```

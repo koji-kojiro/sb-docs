@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT SLOT-NAME CLASS)
+```cl
+(sb-pcl::object sb-pcl::slot-name class)
 ```

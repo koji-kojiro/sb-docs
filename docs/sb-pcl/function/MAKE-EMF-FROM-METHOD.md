@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(METHOD CM-ARGS &OPTIONAL GF FMF-P METHOD-ALIST WRAPPERS)
+```cl
+(method sb-pcl::cm-args &optional sb-pcl::gf sb-pcl::fmf-p
+ sb-pcl::method-alist sb-pcl::wrappers)
 ```

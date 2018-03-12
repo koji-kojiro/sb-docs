@@ -4,11 +4,13 @@
 > No description.
 
 ### Precedence list
-```
-(EQL-SPECIALIZER STANDARD-SPECIALIZER EXACT-CLASS-SPECIALIZER
- SPECIALIZER-WITH-OBJECT SPECIALIZER METAOBJECT STANDARD-OBJECT SLOT-OBJECT T)
+```cl
+(sb-mop:eql-specializer sb-pcl::standard-specializer
+ sb-pcl::exact-class-specializer sb-pcl::specializer-with-object
+ sb-mop:specializer sb-mop:metaobject standard-object
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(OBJECT)
+```cl
+(:object)
 ```

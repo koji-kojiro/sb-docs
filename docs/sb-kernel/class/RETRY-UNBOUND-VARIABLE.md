@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(RETRY-UNBOUND-VARIABLE SIMPLE-CONDITION UNBOUND-VARIABLE CELL-ERROR ERROR
- SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel::retry-unbound-variable simple-condition unbound-variable
+ cell-error error serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME NOT-YET-LOADED FORMAT-CONTROL FORMAT-ARGUMENTS)
+```cl
+(:name :not-yet-loaded :format-control :format-arguments)
 ```

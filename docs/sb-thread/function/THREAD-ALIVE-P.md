@@ -6,6 +6,6 @@
 > any time.
 
 ### Lambda list
-```
-(THREAD)
+```cl
+(sb-thread:thread)
 ```

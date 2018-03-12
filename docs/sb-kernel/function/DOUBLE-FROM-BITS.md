@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SIGN EXP SIG)
+```cl
+(sb-kernel::sign exp sb-kernel::sig)
 ```

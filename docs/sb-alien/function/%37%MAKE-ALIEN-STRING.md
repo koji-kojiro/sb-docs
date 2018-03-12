@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(STRING &KEY START END EXTERNAL-FORMAT NULL-TERMINATE)
+```cl
+(string &key sb-alien::start sb-alien::end sb-alien::external-format
+        sb-alien::null-terminate)
 ```

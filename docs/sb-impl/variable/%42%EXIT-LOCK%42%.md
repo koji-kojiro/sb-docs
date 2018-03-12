@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "Exit Lock" (free)>
+```cl
+#<sb-thread:mutex "exit lock" (free)>
 ```

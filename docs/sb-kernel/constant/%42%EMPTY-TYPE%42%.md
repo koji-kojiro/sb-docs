@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<NAMED-TYPE NIL>
+```cl
+#<sb-kernel:named-type nil>
 ```

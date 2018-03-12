@@ -4,6 +4,6 @@
 > The default for the :VERBOSE argument to COMPILE-FILE.
 
 ### Value
-```
-T
+```cl
+t
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KIND FIXUP POSITION)
+```cl
+(sb-c::kind sb-c:fixup position)
 ```

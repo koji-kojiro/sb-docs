@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(NAME-CONFLICT REFERENCE-CONDITION PACKAGE-ERROR ERROR SERIOUS-CONDITION
-               CONDITION SLOT-OBJECT T)
+```cl
+(sb-ext:name-conflict sb-int:reference-condition package-error error
+                      serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(PACKAGE REFERENCES FUNCTION DATUM SYMBOLS)
+```cl
+(:package :references :function :datum :symbols)
 ```

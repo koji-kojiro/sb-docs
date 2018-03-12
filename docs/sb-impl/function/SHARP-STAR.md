@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM IGNORE NUMARG)
+```cl
+(stream ignore sb-impl::numarg)
 ```

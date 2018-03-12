@@ -14,6 +14,6 @@
 > of the current section, not the start of the line.
 
 ### Lambda list
-```
-(KIND COLNUM COLINC &OPTIONAL STREAM)
+```cl
+(sb-pretty::kind sb-pretty::colnum sb-pretty::colinc &optional stream)
 ```

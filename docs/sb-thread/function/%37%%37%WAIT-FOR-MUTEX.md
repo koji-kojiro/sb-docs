@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(MUTEX NEW-OWNER TO-SEC TO-USEC STOP-SEC STOP-USEC)
+```cl
+(sb-thread:mutex sb-thread::new-owner sb-thread::to-sec
+ sb-thread::to-usec sb-thread::stop-sec sb-thread::stop-usec)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM COLNUM COLINC)
+```cl
+(stream sb-format::colnum sb-format::colinc)
 ```

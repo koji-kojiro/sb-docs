@@ -4,6 +4,6 @@
 > Put out-of-band data into the normal input queue when received
 
 ### Value
-```
+```cl
 10
 ```

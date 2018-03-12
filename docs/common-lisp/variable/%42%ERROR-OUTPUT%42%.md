@@ -4,6 +4,6 @@
 > error output stream
 
 ### Value
-```
-#<BROADCAST-STREAM {100002E763}>
+```cl
+#<broadcast-stream {100002e763}>
 ```

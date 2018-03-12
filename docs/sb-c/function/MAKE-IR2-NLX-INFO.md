@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (HOME HOME) (SAVE-SP SAVE-SP) (DYNAMIC-STATE DYNAMIC-STATE)
- (TARGET TARGET))
+```cl
+(&key (:home #:home) (:save-sp #:save-sp)
+ (:dynamic-state #:dynamic-state) (:target #:target))
 ```

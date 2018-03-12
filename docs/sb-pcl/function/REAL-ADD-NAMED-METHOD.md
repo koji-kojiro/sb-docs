@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION-NAME QUALIFIERS SPECIALIZERS LAMBDA-LIST &REST OTHER-INITARGS)
+```cl
+(sb-mop:generic-function-name sb-pcl::qualifiers sb-pcl::specializers
+                              sb-pcl::lambda-list &rest
+                              sb-pcl::other-initargs)
 ```

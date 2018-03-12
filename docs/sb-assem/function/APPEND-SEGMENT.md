@@ -5,6 +5,6 @@
 > for anything after this.
 
 ### Lambda list
-```
-(SEGMENT OTHER-SEGMENT)
+```cl
+(sb-assem:segment sb-assem::other-segment)
 ```

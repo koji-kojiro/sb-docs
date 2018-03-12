@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME ITEM LIST KEY TEST TEST-NOT NODE)
+```cl
+(sb-c::name sb-c::item list sb-c::key sb-c::test sb-c::test-not
+ sb-c::node)
 ```

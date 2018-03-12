@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPACE X STUFF)
+```cl
+(space sb-vm::x sb-vm::stuff)
 ```

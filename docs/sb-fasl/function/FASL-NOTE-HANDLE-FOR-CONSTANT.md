@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONSTANT HANDLE FILE)
+```cl
+(sb-kernel:constant sb-fasl::handle sb-fasl::file)
 ```

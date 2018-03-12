@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(NAME (LAMBDA-LIST START-VAR NEXT-VAR RESULT-VAR) &BODY BODY)
+```cl
+(sb-c::name
+ (sb-c::lambda-list sb-c::start-var sb-c::next-var sb-c::result-var)
+ &body sb-c::body)
 ```

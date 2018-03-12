@@ -5,6 +5,6 @@
 > :STOPPED, :EXITED, or :SIGNALED.
 
 ### Lambda list
-```
-(PROCESS)
+```cl
+(sb-impl::process)
 ```

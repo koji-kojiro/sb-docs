@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS PROTO-NEW-CLASS)
+```cl
+(class sb-pcl::proto-new-class)
 ```

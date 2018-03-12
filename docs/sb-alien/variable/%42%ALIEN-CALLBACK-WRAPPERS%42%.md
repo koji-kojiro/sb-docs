@@ -5,6 +5,6 @@
 > we don't create new wrappers if one for the same specifier already exists.
 
 ### Value
-```
-#<HASH-TABLE :TEST EQUAL :COUNT 0 {1000B0C273}>
+```cl
+#<hash-table :test equal :count 0 {1000b0c273}>
 ```

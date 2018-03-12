@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SHORT-METHOD-COMBINATION)
+```cl
+(sb-pcl::short-method-combination)
 ```

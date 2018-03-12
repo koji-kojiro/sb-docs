@@ -4,9 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (CURRENT-SIZE CURRENT-SIZE) (LAST-OFFSET LAST-OFFSET)
- (CONFLICTS CONFLICTS) (ALWAYS-LIVE ALWAYS-LIVE)
- (ALWAYS-LIVE-COUNT ALWAYS-LIVE-COUNT) (LIVE-TNS LIVE-TNS)
- (LAST-BLOCK-COUNT LAST-BLOCK-COUNT))
+```cl
+(&key (:current-size #:current-size) (:last-offset #:last-offset)
+ (:conflicts #:conflicts) (:always-live #:always-live)
+ (:always-live-count #:always-live-count) (:live-tns #:live-tns)
+ (:last-block-count #:last-block-count))
 ```

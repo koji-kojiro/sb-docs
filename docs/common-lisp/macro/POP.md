@@ -5,6 +5,6 @@
 > of the list and returns it.
 
 ### Lambda list
-```
-(PLACE)
+```cl
+(sb-impl::place)
 ```

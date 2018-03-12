@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CANONICAL-SLOT)
+```cl
+(sb-pcl::canonical-slot)
 ```

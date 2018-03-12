@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(DUPLICATE-CASE-KEY-WARNING STYLE-WARNING WARNING CONDITION SLOT-OBJECT T)
+```cl
+(sb-impl::duplicate-case-key-warning style-warning warning condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(KEY CASE-KIND OCCURRENCES)
+```cl
+(:key :case-kind :occurrences)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ENSURE-CTOR-NAME CLASS-ARG &OPTIONAL ENSURE-CTOR-ARGS CTOR-ARGS)
+```cl
+(sb-pcl::ensure-ctor-name sb-pcl::class-arg &optional
+ sb-pcl::ensure-ctor-args sb-pcl::ctor-args)
 ```

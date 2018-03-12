@@ -4,10 +4,10 @@
 > No description.
 
 ### Precedence list
-```
-(PLIST-MIXIN STANDARD-OBJECT SLOT-OBJECT T)
+```cl
+(sb-pcl::plist-mixin standard-object sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(PLIST)
+```cl
+(sb-pcl::plist)
 ```

@@ -4,6 +4,6 @@
 > background write attempted to control terminal.
 
 ### Value
-```
+```cl
 22
 ```

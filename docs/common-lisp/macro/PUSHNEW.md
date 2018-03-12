@@ -6,6 +6,7 @@
 > the list. Keyword arguments are accepted as per the ADJOIN function.
 
 ### Lambda list
-```
-(OBJ PLACE &KEY KEY TEST TEST-NOT)
+```cl
+(sb-impl::obj sb-impl::place &key sb-impl::key sb-impl::test
+ sb-impl::test-not)
 ```

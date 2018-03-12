@@ -15,6 +15,6 @@
 > experimental and subject to change.
 
 ### Lambda list
-```
-(HOST)
+```cl
+(sb-kernel:host)
 ```

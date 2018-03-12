@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WHAT BLOCK PATH)
+```cl
+(sb-c::what block sb-c::path)
 ```

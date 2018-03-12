@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CALL RES SOURCE-NAME &OPTIONAL REOPTIMIZE-COMBINATION)
+```cl
+(sb-c:call sb-c::res sb-c::source-name &optional
+ sb-c::reoptimize-combination)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(HOST DEVICE DIRECTORY NAME TYPE VERSION)
+```cl
+(sb-kernel:host sb-impl::device directory sb-impl::name type
+ sb-impl::version)
 ```

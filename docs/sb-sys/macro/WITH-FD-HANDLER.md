@@ -6,6 +6,6 @@
 > use, and FUNCTION is the function to call whenever FD is usable.
 
 ### Lambda list
-```
-((FD DIRECTION FUNCTION) &REST BODY)
+```cl
+((sb-impl::fd sb-impl::direction function) &rest sb-impl::body)
 ```

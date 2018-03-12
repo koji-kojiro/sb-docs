@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT DEBUG-FUN &OPTIONAL SFCACHE)
+```cl
+(sb-disassem:segment sb-disassem::debug-fun &optional
+ sb-disassem::sfcache)
 ```

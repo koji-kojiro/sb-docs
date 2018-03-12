@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SOCKET BACKLOG)
+```cl
+(sb-bsd-sockets-internal::socket sb-bsd-sockets-internal::backlog)
 ```

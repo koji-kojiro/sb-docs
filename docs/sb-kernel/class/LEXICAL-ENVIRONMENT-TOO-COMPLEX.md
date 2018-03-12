@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(LEXICAL-ENVIRONMENT-TOO-COMPLEX STYLE-WARNING WARNING CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel:lexical-environment-too-complex style-warning warning
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORM LEXENV)
+```cl
+(:form :lexenv)
 ```

@@ -4,6 +4,6 @@
 > Return T if PROCESS is still alive, NIL otherwise.
 
 ### Lambda list
-```
-(PROCESS)
+```cl
+(sb-impl::process)
 ```

@@ -4,6 +4,6 @@
 > Returns T if CHARACTER is a Default_Ignorable_Code_Point
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

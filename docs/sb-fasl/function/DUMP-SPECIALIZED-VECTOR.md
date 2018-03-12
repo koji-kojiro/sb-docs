@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR FILE &KEY DATA-ONLY)
+```cl
+(vector sb-fasl::file &key sb-fasl::data-only)
 ```

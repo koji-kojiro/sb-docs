@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CHUNK INST STREAM DSTATE)
+```cl
+(sb-x86-64-asm::chunk sb-assem:inst stream sb-x86-64-asm::dstate)
 ```

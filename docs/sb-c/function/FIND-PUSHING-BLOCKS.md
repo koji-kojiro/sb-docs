@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RECEIVERS DX-LVARS)
+```cl
+(sb-c::receivers sb-c::dx-lvars)
 ```

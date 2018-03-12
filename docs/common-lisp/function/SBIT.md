@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE BIT-ARRAY &REST SUBSCRIPTS)
+```cl
+(sb-impl::new-value sb-impl::bit-array &rest sb-impl::subscripts)
 ```

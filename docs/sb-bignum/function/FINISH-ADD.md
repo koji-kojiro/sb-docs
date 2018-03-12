@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(A RES CARRY SIGN-DIGIT-B START END)
+```cl
+(sb-bignum::a sb-bignum::res sb-bignum::carry sb-bignum::sign-digit-b
+ sb-bignum::start sb-bignum::end)
 ```

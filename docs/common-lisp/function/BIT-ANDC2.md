@@ -7,6 +7,7 @@
 > created. All the arrays must have the same rank and dimensions.
 
 ### Lambda list
-```
-(BIT-ARRAY-1 BIT-ARRAY-2 &OPTIONAL RESULT-BIT-ARRAY)
+```cl
+(sb-impl::bit-array-1 sb-impl::bit-array-2 &optional
+ sb-impl::result-bit-array)
 ```

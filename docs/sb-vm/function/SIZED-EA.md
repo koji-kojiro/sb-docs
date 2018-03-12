@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EA NEW-SIZE)
+```cl
+(sb-x86-64-asm::ea sb-x86-64-asm::new-size)
 ```

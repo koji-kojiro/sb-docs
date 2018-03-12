@@ -4,6 +4,6 @@
 > Concatenates the lists given as arguments (by changing them)
 
 ### Lambda list
-```
-(&REST LISTS)
+```cl
+(&rest sb-impl::lists)
 ```

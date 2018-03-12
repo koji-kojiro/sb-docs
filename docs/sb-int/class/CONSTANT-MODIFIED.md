@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(CONSTANT-MODIFIED REFERENCE-CONDITION WARNING CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:constant-modified sb-int:reference-condition warning condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES FUN-NAME VALUE)
+```cl
+(:references :fun-name :value)
 ```

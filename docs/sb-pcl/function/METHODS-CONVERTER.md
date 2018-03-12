@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM GENERIC-FUNCTION)
+```cl
+(sb-kernel:form generic-function)
 ```

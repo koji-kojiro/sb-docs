@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE TARGET NOT-P)
+```cl
+(sb-vm::value sb-vm::target sb-vm::not-p)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RESULT-TN SIZE LOWTAG)
+```cl
+(sb-vm::result-tn sb-vm::size sb-vm::lowtag)
 ```

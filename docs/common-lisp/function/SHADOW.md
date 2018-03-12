@@ -7,6 +7,6 @@
 > it is not already present.
 
 ### Lambda list
-```
-(SYMBOLS &OPTIONAL PACKAGE)
+```cl
+(sb-impl::symbols &optional package)
 ```

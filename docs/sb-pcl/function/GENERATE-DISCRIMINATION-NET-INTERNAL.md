@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(GF METHODS TYPES METHODS-FUNCTION TEST-FUN TYPE-FUNCTION)
+```cl
+(sb-pcl::gf sb-pcl::methods sb-pcl::types sb-pcl::methods-function
+ sb-pcl::test-fun sb-pcl::type-function)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(INFO INHERITS OLD-CONTEXT NEW-CONTEXT &KEY COMPILER-LAYOUT)
+```cl
+(sb-int:info sb-kernel::inherits sb-kernel::old-context
+             sb-kernel::new-context &key sb-kernel::compiler-layout)
 ```

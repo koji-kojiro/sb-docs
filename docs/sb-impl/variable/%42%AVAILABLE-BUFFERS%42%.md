@@ -4,30 +4,13 @@
 > List of available buffers.
 
 ### Value
-```
-(#S(SB-IMPL::BUFFER
-    :SAP #.(SB-SYS:INT-SAP #X14E6BFB7B000)
-    :LENGTH 4096
-    :HEAD 0
-    :TAIL 391)
- #S(SB-IMPL::BUFFER
-    :SAP #.(SB-SYS:INT-SAP #X14E6BFB7A000)
-    :LENGTH 4096
-    :HEAD 0
-    :TAIL 0)
- #S(SB-IMPL::BUFFER
-    :SAP #.(SB-SYS:INT-SAP #X14E6BFB76000)
-    :LENGTH 4096
-    :HEAD 0
-    :TAIL 0)
- #S(SB-IMPL::BUFFER
-    :SAP #.(SB-SYS:INT-SAP #X14E6BFB75000)
-    :LENGTH 4096
-    :HEAD 0
-    :TAIL 0)
- #S(SB-IMPL::BUFFER
-    :SAP #.(SB-SYS:INT-SAP #X14E6BFB74000)
-    :LENGTH 4096
-    :HEAD 0
-    :TAIL 0))
+```cl
+(#s(sb-impl::buffer
+    :sap #.(sb-sys:int-sap #x145ae6ae8000)
+    :length 4096
+    :head 0
+    :tail 393)
+ #s(sb-impl::buffer
+    :sap #.(sb-sys:int-sap #x145ae6ae7000)
+    :length 4096 ..))
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT SRC INDEX OPCODE)
+```cl
+(sb-x86-64-asm::segment sb-x86-64-asm::src sb-int:index
+ sb-x86-64-asm::opcode)
 ```

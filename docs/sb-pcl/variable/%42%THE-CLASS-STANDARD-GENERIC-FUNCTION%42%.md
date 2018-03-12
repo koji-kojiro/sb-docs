@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<FUNCALLABLE-STANDARD-CLASS COMMON-LISP:STANDARD-GENERIC-FUNCTION>
+```cl
+#<sb-mop:funcallable-standard-class common-lisp:standard-generic-function>
 ```

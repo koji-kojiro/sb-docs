@@ -5,6 +5,7 @@
 > that followed the object.
 
 ### Lambda list
-```
-(&OPTIONAL STREAM EOF-ERROR-P EOF-VALUE RECURSIVE-P)
+```cl
+(&optional stream sb-impl::eof-error-p sb-impl::eof-value
+ sb-impl::recursive-p)
 ```

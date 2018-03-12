@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL PROMPT-CONTROL &REST PROMPT-ARGS)
+```cl
+(&optional sb-kernel::prompt-control &rest sb-kernel::prompt-args)
 ```

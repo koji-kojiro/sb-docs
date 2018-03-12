@@ -4,6 +4,6 @@
 > Return number of bytes of heap or stack directly consumed by OBJECT
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-vm::object)
 ```

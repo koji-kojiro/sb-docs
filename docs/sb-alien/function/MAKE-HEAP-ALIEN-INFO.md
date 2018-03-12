@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (TYPE TYPE) (ALIEN-NAME ALIEN-NAME) (DATAP DATAP))
+```cl
+(&key (:type #:type) (:alien-name #:alien-name) (:datap #:datap))
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR TEST TEST-NOT START END KEY FROM-END &OPTIONAL LENGTH)
+```cl
+(vector sb-impl::test sb-impl::test-not sb-impl::start sb-impl::end
+        sb-impl::key sb-impl::from-end &optional length)
 ```

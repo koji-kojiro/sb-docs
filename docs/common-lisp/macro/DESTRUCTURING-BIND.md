@@ -5,6 +5,6 @@
 > tree structure resulting from the evaluation of EXPRESSION.
 
 ### Lambda list
-```
-(LAMBDA-LIST EXPRESSION &BODY BODY)
+```cl
+(sb-impl::lambda-list sb-impl::expression &body sb-impl::body)
 ```

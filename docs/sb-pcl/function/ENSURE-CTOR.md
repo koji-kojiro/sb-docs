@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION-NAME CLASS-NAME INITARGS SAFE-CODE-P)
+```cl
+(sb-pcl::function-name class-name sb-pcl::initargs sb-pcl::safe-code-p)
 ```

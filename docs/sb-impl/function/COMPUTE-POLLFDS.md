@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(HANDLERS &OPTIONAL N-HANDLERS USE-SCRATCHPAD-P)
+```cl
+(sb-impl::handlers &optional sb-impl::n-handlers
+ sb-impl::use-scratchpad-p)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FORM TEMPLATE REPEAT-TEMPLATE STOP-FORM CONTEXT ENV)
+```cl
+(sb-walker::form sb-walker::template sb-walker::repeat-template
+ sb-walker::stop-form sb-walker::context sb-walker::env)
 ```

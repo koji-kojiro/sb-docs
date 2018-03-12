@@ -4,7 +4,7 @@
 > No description.
 
 ### Value
-```
-#(REQUIRED &OPTIONAL &REST &MORE &KEY &AUX &ENVIRONMENT &WHOLE
-  &ALLOW-OTHER-KEYS &BODY POST-ENV POST-REST POST-MORE)
+```cl
+#(:required &optional &rest sb-int:&more &key &aux &environment &whole
+  &allow-other-keys &body :post-env :post-rest :post-more)
 ```

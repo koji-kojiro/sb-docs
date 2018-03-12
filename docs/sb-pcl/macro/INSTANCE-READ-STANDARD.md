@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PV SLOTS PV-OFFSET DEFAULT &OPTIONAL KIND)
+```cl
+(sb-pcl::pv sb-pcl::slots sb-pcl::pv-offset sb-pcl::default &optional
+ sb-pcl::kind)
 ```

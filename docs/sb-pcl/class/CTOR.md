@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(CTOR FUNCTION T)
+```cl
+(sb-pcl::ctor function t)
 ```

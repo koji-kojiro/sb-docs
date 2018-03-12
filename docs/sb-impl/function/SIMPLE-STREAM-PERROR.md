@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FORMAT-CONTROL STREAM &OPTIONAL ERRNO &REST FORMAT-ARGUMENTS)
+```cl
+(sb-kernel:format-control stream &optional sb-impl::errno &rest
+ sb-impl::format-arguments)
 ```

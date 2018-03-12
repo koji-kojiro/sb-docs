@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VARIABLE DATA-TYPE PREP-PHRASES)
+```cl
+(variable sb-impl::data-type sb-impl::prep-phrases)
 ```

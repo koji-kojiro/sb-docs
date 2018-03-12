@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME PREDICATE CONSTRUCTOR)
+```cl
+(sb-kernel::name sb-kernel::predicate sb-kernel::constructor)
 ```

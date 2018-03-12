@@ -5,6 +5,6 @@
 > Emit code for an error with the specified Error-Code and context Values.
 
 ### Lambda list
-```
-(PREAMBLE-EMITTER VOP ERROR-CODE &REST VALUES)
+```cl
+(sb-vm::preamble-emitter sb-vm::vop sb-vm::error-code &rest values)
 ```

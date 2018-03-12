@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LISP-NAME C-NAME)
+```cl
+(sb-posix::lisp-name sb-posix::c-name)
 ```

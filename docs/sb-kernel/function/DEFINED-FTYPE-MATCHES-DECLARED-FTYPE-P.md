@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DEFINED-FTYPE DECLARED-FTYPE)
+```cl
+(sb-kernel::defined-ftype sb-kernel::declared-ftype)
 ```

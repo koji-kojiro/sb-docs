@@ -77,6 +77,6 @@
 > (load "foo.lisp"))
 
 ### Lambda list
-```
-(OPTIONS &BODY BODY)
+```cl
+(sb-c::options &body sb-c::body)
 ```

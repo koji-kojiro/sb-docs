@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "Specializer lock" (free)>
+```cl
+#<sb-thread:mutex "specializer lock" (free)>
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VAR INITIAL-TYPE)
+```cl
+(sb-c::var sb-c::initial-type)
 ```

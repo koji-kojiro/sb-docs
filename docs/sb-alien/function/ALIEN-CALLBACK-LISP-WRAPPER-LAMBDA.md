@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SPECIFIER RESULT-TYPE ARGUMENT-TYPES ENV)
+```cl
+(sb-alien::specifier sb-alien::result-type sb-alien::argument-types
+ sb-alien::env)
 ```

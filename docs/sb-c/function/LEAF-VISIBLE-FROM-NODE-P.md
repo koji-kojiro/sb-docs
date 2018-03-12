@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LEAF NODE)
+```cl
+(sb-c::leaf sb-c::node)
 ```

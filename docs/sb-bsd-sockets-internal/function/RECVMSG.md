@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SOCKET MSG FLAGS)
+```cl
+(sb-bsd-sockets-internal::socket sb-bsd-sockets-internal::msg
+                                 sb-bsd-sockets-internal::flags)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Value
-```
-#(BN AL AN B CS EN ES ET L LRE LRO NSM ON PDF R RLE RLO S WS LRI RLI FSI PDI)
+```cl
+#(:bn :al :an :b :cs :en :es :et :l :lre :lro :nsm :on :pdf :r :rle
+  :rlo :s :ws :lri :rli :fsi :pdi)
 ```

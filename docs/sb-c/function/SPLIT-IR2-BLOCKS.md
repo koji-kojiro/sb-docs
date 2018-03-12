@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(2BLOCK LOSE NUMBER)
+```cl
+(sb-c::2block sb-c::lose number)
 ```

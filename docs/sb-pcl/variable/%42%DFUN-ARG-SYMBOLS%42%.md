@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-(.ARG0. .ARG1. .ARG2. .ARG3.)
+```cl
+(sb-pcl::.arg0. sb-pcl::.arg1. sb-pcl::.arg2. sb-pcl::.arg3.)
 ```

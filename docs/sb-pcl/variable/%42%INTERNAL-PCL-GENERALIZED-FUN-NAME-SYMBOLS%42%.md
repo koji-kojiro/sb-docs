@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-(SLOW-METHOD FAST-METHOD SLOT-ACCESSOR)
+```cl
+(sb-pcl::slow-method sb-pcl::fast-method sb-pcl::slot-accessor)
 ```

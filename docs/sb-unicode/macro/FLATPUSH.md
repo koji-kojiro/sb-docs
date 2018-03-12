@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THING LIST)
+```cl
+(sb-unicode::thing list)
 ```

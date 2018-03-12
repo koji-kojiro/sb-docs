@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM BUFFER START NUMBYTES &OPTIONAL EOF-ERROR-P)
+```cl
+(stream sb-impl::buffer sb-impl::start sb-impl::numbytes &optional
+ sb-impl::eof-error-p)
 ```

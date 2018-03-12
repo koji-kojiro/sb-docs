@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INFO-NUMBER NAME CREATION-THUNK)
+```cl
+(sb-int:info-number sb-impl::name sb-impl::creation-thunk)
 ```

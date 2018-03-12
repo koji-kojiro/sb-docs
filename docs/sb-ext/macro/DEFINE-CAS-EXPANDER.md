@@ -11,6 +11,6 @@
 > EXPERIMENTAL: Interface subject to change.
 
 ### Lambda list
-```
-(ACCESSOR LAMBDA-LIST &BODY BODY)
+```cl
+(sb-impl::accessor sb-impl::lambda-list &body sb-impl::body)
 ```

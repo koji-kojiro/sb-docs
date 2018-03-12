@@ -4,6 +4,6 @@
 > Return any available status information on child process with PID.
 
 ### Lambda list
-```
-(PID)
+```cl
+(sb-impl::pid)
 ```

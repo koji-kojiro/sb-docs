@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(LLIST BODY ENV &OPTIONAL NAME)
+```cl
+(sb-walker::llist sb-walker::body sb-walker::env &optional
+ sb-walker::name)
 ```

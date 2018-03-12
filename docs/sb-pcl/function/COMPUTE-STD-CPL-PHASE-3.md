@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS ALL-CPDS NCLASSES)
+```cl
+(class sb-pcl::all-cpds sb-pcl::nclasses)
 ```

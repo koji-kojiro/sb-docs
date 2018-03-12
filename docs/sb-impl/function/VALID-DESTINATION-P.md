@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DESTINATION)
+```cl
+(sb-impl::destination)
 ```

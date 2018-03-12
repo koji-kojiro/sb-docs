@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM DIRECTION)
+```cl
+(stream sb-impl::direction)
 ```

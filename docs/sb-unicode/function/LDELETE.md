@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LSTRING INDEX)
+```cl
+(sb-unicode::lstring sb-int:index)
 ```

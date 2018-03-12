@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(COMPILED-PROGRAM-ERROR PROGRAM-ERROR ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-int:compiled-program-error program-error error serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(MESSAGE SOURCE)
+```cl
+(:message :source)
 ```

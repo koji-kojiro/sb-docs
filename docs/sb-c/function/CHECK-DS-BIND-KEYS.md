@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INPUT PLIST VALID-KEYS PATTERN)
+```cl
+(sb-c::input sb-c::plist sb-c::valid-keys sb-c::pattern)
 ```

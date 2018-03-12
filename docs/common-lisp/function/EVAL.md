@@ -5,6 +5,6 @@
 > result or results.
 
 ### Lambda list
-```
-(ORIGINAL-EXP)
+```cl
+(sb-impl::original-exp)
 ```

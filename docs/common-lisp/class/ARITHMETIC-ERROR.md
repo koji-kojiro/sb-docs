@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(ARITHMETIC-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(arithmetic-error error serious-condition condition sb-pcl::slot-object
+ t)
 ```
 ### Initargs
-```
-(OPERATION OPERANDS)
+```cl
+(:operation :operands)
 ```

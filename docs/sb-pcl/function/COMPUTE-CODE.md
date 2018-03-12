@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LAMBDA CODE-CONVERTER)
+```cl
+(lambda sb-pcl::code-converter)
 ```

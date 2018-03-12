@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FIXUP-NOTES CODE-OBJ)
+```cl
+(sb-c::fixup-notes sb-c::code-obj)
 ```

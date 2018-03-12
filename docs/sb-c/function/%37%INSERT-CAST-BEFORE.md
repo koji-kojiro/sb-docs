@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEXT CAST)
+```cl
+(sb-c::next sb-alien:cast)
 ```

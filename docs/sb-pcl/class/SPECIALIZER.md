@@ -4,6 +4,7 @@
 > No description.
 
 ### Precedence list
-```
-(SPECIALIZER METAOBJECT STANDARD-OBJECT SLOT-OBJECT T)
+```cl
+(sb-mop:specializer sb-mop:metaobject standard-object
+ sb-pcl::slot-object t)
 ```

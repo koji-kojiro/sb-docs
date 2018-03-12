@@ -4,11 +4,13 @@
 > No description.
 
 ### Precedence list
-```
-(INSTANCE-STRUCTURE-PROTOCOL-ERROR REFERENCE-CONDITION ERROR SERIOUS-CONDITION
-                                   CONDITION SLOT-OBJECT T)
+```cl
+(sb-pcl::instance-structure-protocol-error sb-int:reference-condition
+                                           error serious-condition
+                                           condition
+                                           sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES SLOTD FUN)
+```cl
+(:references :slotd :fun)
 ```

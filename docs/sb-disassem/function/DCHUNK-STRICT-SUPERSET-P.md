@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SUP SUB)
+```cl
+(sb-disassem::sup sb-disassem::sub)
 ```

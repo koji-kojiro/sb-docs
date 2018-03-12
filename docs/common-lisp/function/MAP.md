@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(RESULT-TYPE FUNCTION FIRST-SEQUENCE &REST MORE-SEQUENCES)
+```cl
+(sb-impl::result-type function sb-impl::first-sequence &rest
+ sb-impl::more-sequences)
 ```

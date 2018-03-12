@@ -7,6 +7,6 @@
 > method for this function.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

@@ -4,6 +4,6 @@
 > Return the hyperbolic tangent of NUMBER.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

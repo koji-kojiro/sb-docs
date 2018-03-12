@@ -5,6 +5,6 @@
 > external-format names to EXTERNAL-FORMAT structures.
 
 ### Value
-```
-#<HASH-TABLE :TEST EQL :COUNT 159 {10000F0003}>
+```cl
+#<hash-table :test eql :count 159 {10000f0003}>
 ```

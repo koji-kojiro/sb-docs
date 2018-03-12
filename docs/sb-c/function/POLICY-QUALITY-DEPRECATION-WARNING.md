@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(QUALITY)
+```cl
+(sb-c::quality)
 ```

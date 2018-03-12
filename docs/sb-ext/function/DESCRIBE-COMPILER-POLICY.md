@@ -4,6 +4,6 @@
 > Print all global optimization settings, augmented by SPEC.
 
 ### Lambda list
-```
-(&OPTIONAL SPEC)
+```cl
+(&optional sb-c::spec)
 ```

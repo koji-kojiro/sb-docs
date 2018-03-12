@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&REST CALLS)
+```cl
+(&rest sb-pcl::calls)
 ```

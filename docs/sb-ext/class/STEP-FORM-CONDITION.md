@@ -10,10 +10,11 @@
 > STEP-NEXT, and STEP-CONTINUE.
 
 ### Precedence list
-```
-(STEP-FORM-CONDITION STEP-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-ext:step-form-condition sb-ext:step-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORM ARGS)
+```cl
+(:form :args)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((HEAD-VAR TAIL-VAR &OPTIONAL USER-HEAD-VAR) &BODY BODY)
+```cl
+((sb-loop::head-var sb-loop::tail-var &optional sb-loop::user-head-var)
+ &body sb-loop::body)
 ```

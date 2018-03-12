@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LAMBDA-LIST NODE-VAR ERROR-FORM)
+```cl
+(sb-c::lambda-list sb-c::node-var sb-c::error-form)
 ```

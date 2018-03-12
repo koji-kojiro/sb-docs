@@ -4,6 +4,6 @@
 > msync: return immediately
 
 ### Value
-```
+```cl
 1
 ```

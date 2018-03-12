@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EXTERNAL-PATH)
+```cl
+(sb-sys::external-path)
 ```

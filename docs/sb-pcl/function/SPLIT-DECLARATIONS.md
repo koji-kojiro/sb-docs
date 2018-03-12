@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(BODY ARGS REQ-ARGS CNM-P PARAMETERS-SETQD)
+```cl
+(sb-pcl::body sb-pcl::args sb-pcl::req-args sb-pcl::cnm-p
+ sb-pcl::parameters-setqd)
 ```

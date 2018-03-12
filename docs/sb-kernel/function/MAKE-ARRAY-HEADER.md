@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE RANK)
+```cl
+(type sb-impl::rank)
 ```

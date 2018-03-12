@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(REASON)
+```cl
+(sb-c::reason)
 ```

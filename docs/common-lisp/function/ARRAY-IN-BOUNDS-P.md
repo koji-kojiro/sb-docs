@@ -4,6 +4,6 @@
 > Return T if the SUBSCRIPTS are in bounds for the ARRAY, NIL otherwise.
 
 ### Lambda list
-```
-(ARRAY &REST SUBSCRIPTS)
+```cl
+(array &rest sb-impl::subscripts)
 ```

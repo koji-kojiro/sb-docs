@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VOP ARG IN ORIGINAL-COPY-OF)
+```cl
+(sb-c::vop sb-c::arg sb-c::in sb-c::original-copy-of)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(N VARS KEYP)
+```cl
+(sb-c::n sb-c::vars sb-c::keyp)
 ```

@@ -23,6 +23,6 @@
 > specifies to signal a warning if SWANK package is in variance, and an error otherwise.
 
 ### Value
-```
-(WARN T)
+```cl
+(:warn t)
 ```

@@ -4,6 +4,6 @@
 > Bound in each thread to the thread itself.
 
 ### Value
-```
-#<THREAD "main thread" RUNNING {10005605B3}>
+```cl
+#<sb-thread:thread "main thread" running {10005605b3}>
 ```

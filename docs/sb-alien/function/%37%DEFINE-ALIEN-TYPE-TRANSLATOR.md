@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME TRANSLATOR)
+```cl
+(sb-alien::name sb-alien::translator)
 ```

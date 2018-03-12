@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME PARENT-TYPES)
+```cl
+(sb-kernel::name sb-kernel::parent-types)
 ```

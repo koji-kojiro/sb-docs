@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN LEVEL VAR-LOCS)
+```cl
+(sb-c::fun sb-c::level sb-c::var-locs)
 ```

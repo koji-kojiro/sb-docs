@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS &REST INITARGS &KEY &ALLOW-OTHER-KEYS)
+```cl
+(class &rest sb-pcl::initargs &key &allow-other-keys)
 ```

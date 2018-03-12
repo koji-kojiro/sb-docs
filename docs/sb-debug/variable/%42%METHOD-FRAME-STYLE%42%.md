@@ -30,6 +30,6 @@
 > dispatch machinery.
 
 ### Value
-```
-NORMAL
+```cl
+:normal
 ```

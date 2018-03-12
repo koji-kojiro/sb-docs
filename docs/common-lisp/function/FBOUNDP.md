@@ -4,6 +4,6 @@
 > Return true if name has a global function definition.
 
 ### Lambda list
-```
-(NAME)
+```cl
+(sb-impl::name)
 ```

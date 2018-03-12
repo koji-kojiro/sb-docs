@@ -4,6 +4,6 @@
 > Boole function op, makes BOOLE return logeqv of integer1 and integer2.
 
 ### Value
-```
+```cl
 9
 ```

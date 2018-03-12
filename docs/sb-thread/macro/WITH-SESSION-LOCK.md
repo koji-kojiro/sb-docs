@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((SESSION) &BODY BODY)
+```cl
+((sb-thread::session) &body sb-thread::body)
 ```

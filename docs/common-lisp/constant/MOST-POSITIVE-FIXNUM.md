@@ -4,6 +4,6 @@
 > the fixnum closest in value to positive infinity
 
 ### Value
-```
+```cl
 4611686018427387903
 ```

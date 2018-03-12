@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WORD OBJECT SLOT LOWTAG ZEROED)
+```cl
+(sb-ext:word sb-vm::object sb-alien:slot sb-vm::lowtag sb-vm::zeroed)
 ```

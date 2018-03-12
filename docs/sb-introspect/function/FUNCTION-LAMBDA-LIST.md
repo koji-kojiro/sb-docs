@@ -7,6 +7,6 @@
 > function designator.
 
 ### Lambda list
-```
-(FUNCTION)
+```cl
+(function)
 ```

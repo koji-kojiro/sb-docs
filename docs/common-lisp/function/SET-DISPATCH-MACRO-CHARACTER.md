@@ -5,6 +5,7 @@
 > followed by SUB-CHAR.
 
 ### Lambda list
-```
-(DISP-CHAR SUB-CHAR FUNCTION &OPTIONAL RT-DESIGNATOR)
+```cl
+(sb-impl::disp-char sb-impl::sub-char function &optional
+ sb-impl::rt-designator)
 ```

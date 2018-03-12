@@ -4,6 +4,6 @@
 > Is this integer even?
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

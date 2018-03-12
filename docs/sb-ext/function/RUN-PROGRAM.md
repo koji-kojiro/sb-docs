@@ -93,8 +93,10 @@
 > Controls escaping of the arguments passed to CreateProcess.
 
 ### Lambda list
-```
-(PROGRAM ARGS &KEY ENV ENVIRONMENT WAIT SEARCH PTY INPUT
- IF-INPUT-DOES-NOT-EXIST OUTPUT IF-OUTPUT-EXISTS ERROR IF-ERROR-EXISTS
- STATUS-HOOK EXTERNAL-FORMAT DIRECTORY)
+```cl
+(sb-impl::program sb-impl::args &key sb-impl::env sb-impl::environment
+ sb-impl::wait search sb-impl::pty sb-impl::input
+ sb-impl::if-input-does-not-exist sb-impl::output
+ sb-impl::if-output-exists error sb-impl::if-error-exists
+ sb-impl::status-hook sb-impl::external-format directory)
 ```

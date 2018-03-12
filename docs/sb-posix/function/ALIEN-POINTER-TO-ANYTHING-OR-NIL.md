@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ALIEN-POINTER-TO-ANYTHING-OR-NIL)
+```cl
+(sb-posix::alien-pointer-to-anything-or-nil)
 ```

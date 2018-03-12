@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY SLOT-NAME-LISTS)
+```cl
+(&key sb-pcl::slot-name-lists)
 ```

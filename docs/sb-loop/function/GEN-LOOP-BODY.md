@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PROLOGUE BEFORE-LOOP MAIN-BODY AFTER-LOOP EPILOGUE)
+```cl
+(sb-loop::prologue sb-loop::before-loop sb-loop::main-body
+                   sb-loop::after-loop sb-loop::epilogue)
 ```

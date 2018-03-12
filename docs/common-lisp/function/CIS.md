@@ -4,6 +4,6 @@
 > Return cos(Theta) + i sin(Theta), i.e. exp(i Theta).
 
 ### Lambda list
-```
-(THETA)
+```cl
+(sb-kernel::theta)
 ```

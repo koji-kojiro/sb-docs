@@ -4,8 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (PATHNAME PATHNAME) (FORM-PATH FORM-PATH) (FORM-NUMBER FORM-NUMBER)
- (CHARACTER-OFFSET CHARACTER-OFFSET) (FILE-WRITE-DATE FILE-WRITE-DATE)
- (PLIST PLIST) (DESCRIPTION DESCRIPTION))
+```cl
+(&key (:pathname #:pathname) (:form-path #:form-path)
+ (:form-number #:form-number) (:character-offset #:character-offset)
+ (:file-write-date #:file-write-date) (:plist #:plist)
+ (:description #:description))
 ```

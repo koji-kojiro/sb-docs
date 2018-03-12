@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEALED OTHER)
+```cl
+(sb-kernel::sealed sb-kernel::other)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(DEFINITION LEXENV &OPTIONAL NAME SOURCE-INFO TLF ERRORP)
+```cl
+(sb-c::definition sb-kernel:lexenv &optional sb-c::name
+ sb-c::source-info sb-c::tlf sb-c::errorp)
 ```

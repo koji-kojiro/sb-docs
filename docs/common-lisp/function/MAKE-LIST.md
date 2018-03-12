@@ -4,6 +4,6 @@
 > Constructs a list with size elements each set to value
 
 ### Lambda list
-```
-(SIZE &KEY INITIAL-ELEMENT)
+```cl
+(sb-impl::size &key sb-impl::initial-element)
 ```

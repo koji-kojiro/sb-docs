@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEQUENCE-ARG FROM-END START END-ARG ELEMENT DONE-P-EXPR)
+```cl
+(sb-c::sequence-arg sb-c::from-end sb-c::start sb-c::end-arg
+ sb-c::element sb-c::done-p-expr)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OP X Y)
+```cl
+(sb-x86-64-asm::op sb-x86-64-asm::x sb-x86-64-asm::y)
 ```

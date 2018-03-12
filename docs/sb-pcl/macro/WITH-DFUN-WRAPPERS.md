@@ -4,8 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-((ARGS METATYPES)
- (DFUN-WRAPPERS INVALID-WRAPPER-P &OPTIONAL WRAPPERS CLASSES TYPES)
- INVALID-ARGUMENTS-FORM &BODY BODY)
+```cl
+((sb-pcl::args sb-pcl::metatypes)
+ (sb-pcl::dfun-wrappers sb-pcl::invalid-wrapper-p &optional
+  sb-pcl::wrappers sb-pcl::classes sb-pcl::types)
+ sb-pcl::invalid-arguments-form &body sb-pcl::body)
 ```

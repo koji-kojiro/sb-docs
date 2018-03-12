@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LVAR TYPE POLICY HOOK)
+```cl
+(sb-c::lvar type sb-c:policy sb-c::hook)
 ```

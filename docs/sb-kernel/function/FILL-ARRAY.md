@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INITIAL-CONTENTS ARRAY)
+```cl
+(sb-impl::initial-contents array)
 ```

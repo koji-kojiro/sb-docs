@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(COMPONENT TN ENV DEBUG-P &OPTIONAL PARENT-ENVS)
+```cl
+(sb-c:component sb-c:tn sb-c::env sb-c::debug-p &optional
+ sb-c::parent-envs)
 ```

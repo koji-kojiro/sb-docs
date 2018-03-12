@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DST SRC AMT)
+```cl
+(sb-x86-64-asm::dst sb-x86-64-asm::src sb-x86-64-asm::amt)
 ```

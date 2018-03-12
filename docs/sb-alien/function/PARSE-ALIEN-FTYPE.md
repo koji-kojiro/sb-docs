@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPECIFIER ENV)
+```cl
+(sb-alien::specifier sb-alien::env)
 ```

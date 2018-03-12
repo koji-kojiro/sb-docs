@@ -4,6 +4,6 @@
 > Emit LABEL at this location in the current segment.
 
 ### Lambda list
-```
-(LABEL)
+```cl
+(sb-assem:label)
 ```

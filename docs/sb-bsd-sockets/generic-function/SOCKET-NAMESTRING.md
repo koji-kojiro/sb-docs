@@ -5,6 +5,6 @@
 > is bound to.
 
 ### Lambda list
-```
-(SOCKET)
+```cl
+(sb-bsd-sockets:socket)
 ```

@@ -4,8 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (DEBUG-SOURCE DEBUG-SOURCE) (TOPLEVEL-FORM-INDEX TOPLEVEL-FORM-INDEX)
- (LAST-LOCATION-RETRIEVED LAST-LOCATION-RETRIEVED)
- (LAST-FORM-RETRIEVED LAST-FORM-RETRIEVED))
+```cl
+(&key (:debug-source #:debug-source)
+ (:toplevel-form-index #:toplevel-form-index)
+ (:last-location-retrieved #:last-location-retrieved)
+ (:last-form-retrieved #:last-form-retrieved))
 ```

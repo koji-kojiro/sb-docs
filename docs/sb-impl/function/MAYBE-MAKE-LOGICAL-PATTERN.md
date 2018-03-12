@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAMESTRING CHUNKS)
+```cl
+(namestring sb-impl::chunks)
 ```

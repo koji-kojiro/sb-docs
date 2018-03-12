@@ -4,6 +4,6 @@
 > User defined signal 1.
 
 ### Value
-```
+```cl
 10
 ```

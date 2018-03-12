@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(REFS VOP WRITE-P COUNT MORE-P WHAT)
+```cl
+(sb-c::refs sb-c::vop sb-c::write-p count sb-c::more-p sb-c::what)
 ```

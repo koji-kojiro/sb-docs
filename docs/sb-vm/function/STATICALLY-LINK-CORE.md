@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY CALLERS EXCLUDE-CALLERS CALLEES EXCLUDE-CALLEES VERBOSE)
+```cl
+(&key sb-x86-64-asm::callers sb-x86-64-asm::exclude-callers
+ sb-x86-64-asm::callees sb-x86-64-asm::exclude-callees
+ sb-x86-64-asm::verbose)
 ```

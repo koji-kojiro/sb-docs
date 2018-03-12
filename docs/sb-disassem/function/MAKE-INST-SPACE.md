@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (VALID-MASK VALID-MASK) (CHOICES CHOICES))
+```cl
+(&key (:valid-mask #:valid-mask) (:choices #:choices))
 ```

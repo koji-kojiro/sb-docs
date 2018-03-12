@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (CLASS-INFO CLASS-INFO) (HASH-VALUE HASH-VALUE) (ENUMERABLE ENUMERABLE)
- (CLASS CLASS) (FORMAT FORMAT) (COMPLEXP COMPLEXP) (LOW LOW) (HIGH HIGH))
+```cl
+(&key (:class-info #:class-info) (:hash-value #:hash-value)
+ (:enumerable #:enumerable) (:class #:class) (:format #:format)
+ (:complexp #:complexp) (:low #:low) (:high #:high))
 ```

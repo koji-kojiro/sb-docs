@@ -5,6 +5,7 @@
 > sequence of type RESULT-TYPE using PREDICATE to order the elements.
 
 ### Lambda list
-```
-(RESULT-TYPE SEQUENCE1 SEQUENCE2 PREDICATE &KEY KEY)
+```cl
+(sb-impl::result-type sb-impl::sequence1 sb-impl::sequence2
+ sb-impl::predicate &key sb-impl::key)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INLINE-LEXENV)
+```cl
+(sb-c::inline-lexenv)
 ```

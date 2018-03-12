@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-((CODE-VAR FUN-VAR ADDR-VAR &KEY IF) &BODY BODY)
+```cl
+((sb-x86-64-asm::code-var sb-x86-64-asm::fun-var
+  sb-x86-64-asm::addr-var &key if)
+ &body sb-x86-64-asm::body)
 ```

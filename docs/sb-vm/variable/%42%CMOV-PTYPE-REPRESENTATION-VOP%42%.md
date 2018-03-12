@@ -9,13 +9,13 @@
 > to execute the conditional move.
 
 ### Value
-```
-((T DESCRIPTOR-REG MOVE-IF/T) (FIXNUM ANY-REG MOVE-IF/FX)
- (POSITIVE-FIXNUM ANY-REG MOVE-IF/FX)
- (UNSIGNED-BYTE-64 UNSIGNED-REG MOVE-IF/UNSIGNED)
- (UNSIGNED-BYTE-63 UNSIGNED-REG MOVE-IF/UNSIGNED)
- (SIGNED-BYTE-64 SIGNED-REG MOVE-IF/SIGNED)
- (CHARACTER CHARACTER-REG MOVE-IF/CHAR) (SINGLE-FLOAT) (COMPLEX-SINGLE-FLOAT)
- (DOUBLE-FLOAT) (COMPLEX-DOUBLE-FLOAT)
- (SYSTEM-AREA-POINTER SAP-REG MOVE-IF/SAP))
+```cl
+((t sb-vm::descriptor-reg sb-vm::move-if/t)
+ (fixnum sb-vm::any-reg sb-vm::move-if/fx)
+ (sb-vm::positive-fixnum sb-vm::any-reg sb-vm::move-if/fx)
+ (sb-vm::unsigned-byte-64 sb-vm::unsigned-reg sb-vm::move-if/unsigned)
+ (sb-vm::unsigned-byte-63 sb-vm::unsigned-reg sb-vm::move-if/unsigned)
+ (sb-vm::signed-byte-64 sb-vm::signed-reg sb-vm::move-if/signed)
+ (character sb-vm::character-reg sb-vm::move-if/char) (single-float)
+ (sb-kernel:complex-single-float) (double-float) ..)
 ```

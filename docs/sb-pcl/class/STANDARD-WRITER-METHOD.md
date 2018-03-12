@@ -4,13 +4,15 @@
 > No description.
 
 ### Precedence list
-```
-(STANDARD-WRITER-METHOD STANDARD-ACCESSOR-METHOD ACCESSOR-METHOD
- STANDARD-METHOD PLIST-MIXIN DEFINITION-SOURCE-MIXIN METHOD METAOBJECT
- STANDARD-OBJECT SLOT-OBJECT T)
+```cl
+(sb-mop:standard-writer-method sb-mop:standard-accessor-method
+ sb-pcl::accessor-method standard-method sb-pcl::plist-mixin
+ sb-pcl::definition-source-mixin method sb-mop:metaobject
+ standard-object sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(SOURCE PLIST QUALIFIERS SPECIALIZERS LAMBDA-LIST FUNCTION DOCUMENTATION
- SIMPLE-NEXT-METHOD-CALL SLOT-NAME SLOT-DEFINITION)
+```cl
+(sb-pcl::source sb-pcl::plist :qualifiers :specializers :lambda-list
+ :function :documentation sb-pcl::simple-next-method-call :slot-name
+ :slot-definition)
 ```

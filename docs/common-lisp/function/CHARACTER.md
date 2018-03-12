@@ -5,6 +5,6 @@
 > strings and symbols of length 1.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

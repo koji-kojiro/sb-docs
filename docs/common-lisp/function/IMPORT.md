@@ -6,6 +6,6 @@
 > the importation, then a correctable error is signalled.
 
 ### Lambda list
-```
-(SYMBOLS &OPTIONAL PACKAGE)
+```cl
+(sb-impl::symbols &optional package)
 ```

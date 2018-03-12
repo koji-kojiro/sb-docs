@@ -4,6 +4,6 @@
 > Return the type of OBJECT.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

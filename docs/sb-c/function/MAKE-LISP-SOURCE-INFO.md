@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM &KEY PARENT)
+```cl
+(sb-kernel:form &key sb-c::parent)
 ```

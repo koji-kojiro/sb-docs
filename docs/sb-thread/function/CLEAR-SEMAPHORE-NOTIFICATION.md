@@ -5,6 +5,6 @@
 > WAIT-ON-SEMAPHORE or TRY-SEMAPHORE.
 
 ### Lambda list
-```
-(SEMAPHORE-NOTIFICATION)
+```cl
+(sb-thread:semaphore-notification)
 ```

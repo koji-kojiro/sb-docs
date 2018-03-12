@@ -34,6 +34,6 @@
 > (make-alien char 12)            ; => (alien (* (signed 8)))
 
 ### Lambda list
-```
-(TYPE &OPTIONAL SIZE)
+```cl
+(type &optional sb-alien::size)
 ```

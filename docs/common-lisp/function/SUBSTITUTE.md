@@ -5,6 +5,8 @@
 > except that all elements equal to OLD are replaced with NEW.
 
 ### Lambda list
-```
-(NEW OLD SEQUENCE &REST ARGS &KEY FROM-END TEST TEST-NOT START COUNT END KEY)
+```cl
+(sb-impl::new sb-impl::old sequence &rest sb-impl::args &key
+ sb-impl::from-end sb-impl::test sb-impl::test-not sb-impl::start count
+ sb-impl::end sb-impl::key)
 ```

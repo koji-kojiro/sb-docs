@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME VARIABLES &OPTIONAL END)
+```cl
+(sb-di::name sb-di::variables &optional sb-di::end)
 ```

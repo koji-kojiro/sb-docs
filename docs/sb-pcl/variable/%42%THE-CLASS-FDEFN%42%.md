@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<BUILT-IN-CLASS SB-KERNEL:FDEFN>
+```cl
+#<built-in-class sb-kernel:fdefn>
 ```

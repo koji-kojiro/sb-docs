@@ -4,8 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (EXTERNAL-FORMAT EXTERNAL-FORMAT) (UNTRUENAME UNTRUENAME)
- (WRITE-DATE WRITE-DATE) (FORMS FORMS) (POSITIONS POSITIONS)
- (SUBFORMS SUBFORMS) (STYLE-WARNING-TRACKER STYLE-WARNING-TRACKER))
+```cl
+(&key (:name #:name) (:external-format #:external-format)
+ (:untruename #:untruename) (:write-date #:write-date) (:forms #:forms)
+ (:positions #:positions) (:subforms #:subforms)
+ (:style-warning-tracker #:style-warning-tracker))
 ```

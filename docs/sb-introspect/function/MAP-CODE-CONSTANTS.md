@@ -4,6 +4,6 @@
 > Call FN for each constant in CODE's constant pool.
 
 ### Lambda list
-```
-(CODE FN)
+```cl
+(sb-introspect::code sb-introspect::fn)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(RES ENTRY-VARS ENTRY-VALS REST MOREP KEYS NAME)
+```cl
+(sb-c::res sb-c::entry-vars sb-c::entry-vals rest sb-c::morep
+ sb-c::keys sb-c::name)
 ```

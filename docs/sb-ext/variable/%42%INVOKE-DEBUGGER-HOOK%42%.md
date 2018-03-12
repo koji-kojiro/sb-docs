@@ -12,6 +12,6 @@
 > called by BREAK.
 
 ### Value
-```
-DEBUGGER-DISABLED-HOOK
+```cl
+sb-debug::debugger-disabled-hook
 ```

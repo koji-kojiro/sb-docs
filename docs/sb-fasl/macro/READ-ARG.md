@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(N FASL-INPUT-STREAM)
+```cl
+(sb-fasl::n sb-fasl::fasl-input-stream)
 ```

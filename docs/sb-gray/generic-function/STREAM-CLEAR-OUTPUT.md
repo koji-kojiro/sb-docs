@@ -5,6 +5,6 @@
 > output STREAM. The default method does nothing.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

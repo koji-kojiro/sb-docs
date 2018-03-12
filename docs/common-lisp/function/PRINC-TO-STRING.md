@@ -5,6 +5,6 @@
 > slashification off.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

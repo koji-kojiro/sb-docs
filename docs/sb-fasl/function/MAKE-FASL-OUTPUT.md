@@ -4,10 +4,11 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (STREAM STREAM) (VARINT-BUF VARINT-BUF) (EQUAL-TABLE EQUAL-TABLE)
- (EQ-TABLE EQ-TABLE) (STRING=-TABLE STRING=-TABLE) (TABLE-FREE TABLE-FREE)
- (PACKAGES PACKAGES) (ENTRY-TABLE ENTRY-TABLE) (PATCH-TABLE PATCH-TABLE)
- (CIRCULARITY-TABLE CIRCULARITY-TABLE) (VALID-STRUCTURES VALID-STRUCTURES)
- (SOURCE-INFO SOURCE-INFO))
+```cl
+(&key (:stream #:stream) (:varint-buf #:varint-buf)
+ (:equal-table #:equal-table) (:eq-table #:eq-table)
+ (:string=-table #:string=-table) (:table-free #:table-free)
+ (:packages #:packages) (:entry-table #:entry-table)
+ (:patch-table #:patch-table) (:circularity-table #:circularity-table)
+ (:valid-structures #:valid-structures) (:source-info #:source-info))
 ```

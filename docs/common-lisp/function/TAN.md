@@ -4,6 +4,6 @@
 > Return the tangent of NUMBER.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

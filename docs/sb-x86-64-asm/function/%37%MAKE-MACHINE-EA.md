@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NEXT NEXT) (BASE BASE) (DISP DISP) (INDEX INDEX) (SCALE SCALE))
+```cl
+(&key (:next #:next) (:base #:base) (:disp #:disp) (:index #:index)
+ (:scale #:scale))
 ```

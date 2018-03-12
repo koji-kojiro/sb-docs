@@ -4,6 +4,6 @@
 > Return true if SOCKET is open; otherwise, return false.
 
 ### Lambda list
-```
-(SOCKET)
+```cl
+(sb-bsd-sockets:socket)
 ```

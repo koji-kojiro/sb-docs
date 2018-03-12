@@ -5,6 +5,6 @@
 > lowercase eszet (U+DF).
 
 ### Lambda list
-```
-(CHAR)
+```cl
+(char)
 ```

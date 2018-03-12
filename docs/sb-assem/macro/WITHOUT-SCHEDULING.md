@@ -6,6 +6,6 @@
 > DO NOT use THROW or RETURN-FROM to escape from it.
 
 ### Lambda list
-```
-((&OPTIONAL SEGMENT) &BODY BODY)
+```cl
+((&optional sb-assem:segment) &body sb-assem::body)
 ```

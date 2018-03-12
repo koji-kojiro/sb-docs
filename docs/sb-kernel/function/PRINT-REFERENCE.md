@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(REFERENCE STREAM)
+```cl
+(sb-kernel::reference stream)
 ```

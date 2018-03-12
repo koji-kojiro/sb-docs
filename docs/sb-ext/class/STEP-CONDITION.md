@@ -6,10 +6,10 @@
 > stepped.
 
 ### Precedence list
-```
-(STEP-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-ext:step-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORM)
+```cl
+(:form)
 ```

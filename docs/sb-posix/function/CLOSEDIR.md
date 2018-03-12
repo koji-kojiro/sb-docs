@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DIR)
+```cl
+(sb-posix::dir)
 ```

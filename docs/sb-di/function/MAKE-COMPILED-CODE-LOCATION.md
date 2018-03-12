@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PC DEBUG-FUN)
+```cl
+(sb-di::pc sb-di:debug-fun)
 ```

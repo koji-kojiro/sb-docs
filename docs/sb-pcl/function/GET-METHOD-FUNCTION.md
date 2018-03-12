@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(METHOD &OPTIONAL METHOD-ALIST WRAPPERS)
+```cl
+(method &optional sb-pcl::method-alist sb-pcl::wrappers)
 ```

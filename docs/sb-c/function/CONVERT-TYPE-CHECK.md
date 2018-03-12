@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CAST TYPES)
+```cl
+(sb-alien:cast sb-c::types)
 ```

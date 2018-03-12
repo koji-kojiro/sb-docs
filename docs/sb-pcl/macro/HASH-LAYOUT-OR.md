@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LAYOUT ELSE)
+```cl
+(sb-kernel:layout sb-pcl::else)
 ```

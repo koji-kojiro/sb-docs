@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM SUB-CHAR IGNORE)
+```cl
+(stream sb-impl::sub-char ignore)
 ```

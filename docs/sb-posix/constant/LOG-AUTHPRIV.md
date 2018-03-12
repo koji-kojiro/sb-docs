@@ -4,6 +4,6 @@
 > openlog() facility for authorization messages
 
 ### Value
-```
+```cl
 80
 ```

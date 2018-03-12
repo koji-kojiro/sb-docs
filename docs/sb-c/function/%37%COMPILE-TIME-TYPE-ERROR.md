@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(VALUES ATYPE DTYPE DETAIL CODE-CONTEXT CAST-CONTEXT)
+```cl
+(values sb-c::atype sb-c::dtype sb-c::detail sb-c::code-context
+        sb-c::cast-context)
 ```

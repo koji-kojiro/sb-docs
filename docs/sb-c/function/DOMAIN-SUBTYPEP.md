@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARG DOMAIN-LOW DOMAIN-HIGH)
+```cl
+(sb-c::arg sb-c::domain-low sb-c::domain-high)
 ```

@@ -6,6 +6,6 @@
 > called on the stream.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

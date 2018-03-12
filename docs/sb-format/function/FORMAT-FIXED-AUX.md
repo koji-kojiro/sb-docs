@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM NUMBER W D K OVF PAD ATSIGN)
+```cl
+(stream number sb-format::w sb-format::d sb-format::k sb-format::ovf
+ sb-format::pad sb-format::atsign)
 ```

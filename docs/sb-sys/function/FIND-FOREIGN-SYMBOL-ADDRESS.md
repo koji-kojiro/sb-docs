@@ -5,6 +5,6 @@
 > symbol in the linkage table, and never returns an address in the linkage-table.
 
 ### Lambda list
-```
-(NAME)
+```cl
+(sb-impl::name)
 ```

@@ -4,6 +4,6 @@
 > Add NEW-ITEM to PRIORITY-QUEUE.
 
 ### Lambda list
-```
-(PRIORITY-QUEUE NEW-ITEM)
+```cl
+(sb-impl::priority-queue sb-impl::new-item)
 ```

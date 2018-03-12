@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME VALUE OVERWRITE)
+```cl
+(sb-posix::name sb-posix::value sb-posix::overwrite)
 ```

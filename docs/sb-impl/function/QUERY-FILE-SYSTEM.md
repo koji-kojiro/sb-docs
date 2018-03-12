@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATHSPEC QUERY-FOR &OPTIONAL ERRORP)
+```cl
+(sb-impl::pathspec sb-impl::query-for &optional sb-impl::errorp)
 ```

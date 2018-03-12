@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X &OPTIONAL FULLY-NORMALIZE)
+```cl
+(sb-bignum::x &optional sb-bignum::fully-normalize)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VAL PASS)
+```cl
+(sb-c::val sb-c::pass)
 ```

@@ -4,6 +4,6 @@
 > Store NEWVAL as the component of SEQUENCE specified by INDEX.
 
 ### Lambda list
-```
-(SEQUENCE INDEX NEWVAL)
+```cl
+(sequence sb-int:index sb-impl::newval)
 ```

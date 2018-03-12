@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((VARIABLE OSET &OPTIONAL RETURN) &BODY BODY)
+```cl
+((variable sb-int:oset &optional return) &body sb-c::body)
 ```

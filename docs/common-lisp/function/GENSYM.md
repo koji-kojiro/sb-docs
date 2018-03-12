@@ -9,6 +9,6 @@
 > it is used.
 
 ### Lambda list
-```
-(&OPTIONAL THING)
+```cl
+(&optional sb-impl::thing)
 ```

@@ -5,6 +5,6 @@
 > returns the integer as the result.
 
 ### Lambda list
-```
-(STREAM INTEGER)
+```cl
+(stream integer)
 ```

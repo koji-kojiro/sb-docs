@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EMF RESTP REQUIRED-ARGS)
+```cl
+(sb-pcl::emf sb-pcl::restp sb-pcl::required-args)
 ```

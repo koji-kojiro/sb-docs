@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(.FASL-INPUT. N-CODE-BYTES N-BOXED-WORDS NFUNS)
+```cl
+(sb-fasl::.fasl-input. sb-fasl::n-code-bytes sb-fasl::n-boxed-words
+ sb-fasl::nfuns)
 ```

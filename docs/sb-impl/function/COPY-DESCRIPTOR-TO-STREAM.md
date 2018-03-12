@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DESCRIPTOR STREAM COOKIE EXTERNAL-FORMAT)
+```cl
+(sb-impl::descriptor stream sb-impl::cookie sb-impl::external-format)
 ```

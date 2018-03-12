@@ -4,12 +4,12 @@
 > No description.
 
 ### Value
-```
-#S(SB-C::EVENT-INFO
-   :NAME COPY-DELETED-MOVE
-   :DESCRIPTION Copy propagation deleted a move.
-   :VAR *COPY-DELETED-MOVE-EVENT-INFO*
-   :COUNT 8027
-   :LEVEL 0
-   :ACTION NIL)
+```cl
+#s(sb-c::event-info
+   :name sb-c::copy-deleted-move
+   :description "copy propagation deleted a move."
+   :var sb-c::*copy-deleted-move-event-info*
+   :count 8027
+   :level 0
+   :action nil)
 ```

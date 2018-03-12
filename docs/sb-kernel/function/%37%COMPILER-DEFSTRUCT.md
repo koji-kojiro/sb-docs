@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DD INHERITS)
+```cl
+(sb-kernel::dd sb-kernel::inherits)
 ```

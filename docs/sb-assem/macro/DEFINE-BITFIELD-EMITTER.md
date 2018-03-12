@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME TOTAL-BITS &REST BYTE-SPECS)
+```cl
+(sb-assem::name sb-assem::total-bits &rest sb-assem::byte-specs)
 ```

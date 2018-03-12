@@ -4,6 +4,6 @@
 > Emit an alignment restriction to the current segment.
 
 ### Lambda list
-```
-(BITS &OPTIONAL PATTERN)
+```cl
+(sb-assem::bits &optional sb-assem::pattern)
 ```

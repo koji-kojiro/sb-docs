@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ELT XSET)
+```cl
+(elt sb-int:xset)
 ```

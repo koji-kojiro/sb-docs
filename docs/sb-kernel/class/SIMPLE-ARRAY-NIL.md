@@ -4,7 +4,7 @@
 > No description.
 
 ### Precedence list
-```
-(SIMPLE-ARRAY-NIL VECTOR-NIL SIMPLE-STRING STRING VECTOR SIMPLE-ARRAY ARRAY
- SEQUENCE T)
+```cl
+(sb-kernel::simple-array-nil sb-kernel::vector-nil simple-string string
+ vector simple-array array sequence t)
 ```

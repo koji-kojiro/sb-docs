@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEQUENCE PREDICATE &KEY KEY)
+```cl
+(sequence sb-impl::predicate &key sb-impl::key)
 ```

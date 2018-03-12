@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FRAME-DESIGNATOR)
+```cl
+(sb-debug::frame-designator)
 ```

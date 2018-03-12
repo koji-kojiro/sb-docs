@@ -7,6 +7,6 @@
 > Experimental: interface subject to change.
 
 ### Lambda list
-```
-(GENERATION)
+```cl
+(sb-kernel::generation)
 ```

@@ -4,12 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(DIRECT-SLOT-DEFINITION SLOT-DEFINITION METAOBJECT DEFINITION-SOURCE-MIXIN
- STANDARD-OBJECT SLOT-OBJECT T)
+```cl
+(sb-mop:direct-slot-definition sb-mop:slot-definition sb-mop:metaobject
+ sb-pcl::definition-source-mixin standard-object sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(SOURCE NAME INITFORM INITFUNCTION INITARGS TYPE DOCUMENTATION CLASS READERS
- WRITERS)
+```cl
+(sb-pcl::source :name :initform :initfunction :initargs :type
+ :documentation :class :readers :writers)
 ```

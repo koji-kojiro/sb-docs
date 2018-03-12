@@ -4,6 +4,6 @@
 > Return the hyperbolic cosine of NUMBER.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

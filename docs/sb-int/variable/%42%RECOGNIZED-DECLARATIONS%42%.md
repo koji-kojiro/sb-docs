@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-(%VARIABLE-REBINDING %PARAMETER %CLASS)
+```cl
+(sb-pcl::%variable-rebinding sb-pcl::%parameter sb-pcl::%class)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LISTVAR)
+```cl
+(sb-loop::listvar)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(MARKER)
+```cl
+(sb-impl::marker)
 ```

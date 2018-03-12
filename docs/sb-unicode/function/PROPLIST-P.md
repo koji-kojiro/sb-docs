@@ -6,6 +6,6 @@
 > with underscores replaced by dashes.
 
 ### Lambda list
-```
-(CHARACTER PROPERTY)
+```cl
+(character sb-unicode::property)
 ```

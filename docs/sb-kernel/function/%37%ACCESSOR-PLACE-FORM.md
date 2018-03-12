@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DD DSD INSTANCE)
+```cl
+(sb-kernel::dd sb-kernel::dsd sb-kernel:instance)
 ```

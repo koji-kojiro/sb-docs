@@ -5,6 +5,6 @@
 > with the specifier :ELEMENT-TYPE Spec.
 
 ### Lambda list
-```
-(SPEC &OPTIONAL ENVIRONMENT)
+```cl
+(sb-kernel::spec &optional sb-kernel::environment)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TRAPS &BODY BODY)
+```cl
+(sb-vm::traps &body sb-vm::body)
 ```

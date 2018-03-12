@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X CLASS FORMAT UP-P)
+```cl
+(sb-kernel::x class format sb-kernel::up-p)
 ```

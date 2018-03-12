@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME &REST REST)
+```cl
+(sb-kernel::name &rest rest)
 ```

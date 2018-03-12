@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL ENTRIES)
+```cl
+(&optional sb-pretty::entries)
 ```

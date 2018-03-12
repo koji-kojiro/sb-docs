@@ -5,6 +5,6 @@
 > unspecified elements into a completed to-pathname based on the to-wildname.
 
 ### Lambda list
-```
-(SOURCE FROM-WILDNAME TO-WILDNAME &KEY)
+```cl
+(sb-impl::source sb-impl::from-wildname sb-impl::to-wildname &key)
 ```

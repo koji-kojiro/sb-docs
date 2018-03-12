@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(UID)
+```cl
+(sb-posix::uid)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM OBJ &REST NOISE)
+```cl
+(stream sb-pretty::obj &rest sb-pretty::noise)
 ```

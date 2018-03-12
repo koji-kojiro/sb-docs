@@ -4,6 +4,6 @@
 > Return CHAR converted to lower-case if that is possible.
 
 ### Lambda list
-```
-(CHAR)
+```cl
+(char)
 ```

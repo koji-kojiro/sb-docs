@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAMESTRING &OPTIONAL HOST)
+```cl
+(namestring &optional sb-kernel:host)
 ```

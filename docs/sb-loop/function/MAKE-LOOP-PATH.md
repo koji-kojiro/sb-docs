@@ -4,8 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAMES NAMES) (PREPOSITION-GROUPS PREPOSITION-GROUPS)
- (INCLUSIVE-PERMITTED INCLUSIVE-PERMITTED) (FUNCTION FUNCTION)
- (USER-DATA USER-DATA))
+```cl
+(&key (:names #:names) (:preposition-groups #:preposition-groups)
+ (:inclusive-permitted #:inclusive-permitted) (:function #:function)
+ (:user-data #:user-data))
 ```

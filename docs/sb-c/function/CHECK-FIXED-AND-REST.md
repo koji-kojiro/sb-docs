@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARGS TYPES REST)
+```cl
+(sb-c::args sb-c::types rest)
 ```

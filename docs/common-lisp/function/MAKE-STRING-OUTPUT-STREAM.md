@@ -5,6 +5,6 @@
 > benefit of the function GET-OUTPUT-STREAM-STRING.
 
 ### Lambda list
-```
-(&KEY ELEMENT-TYPE)
+```cl
+(&key sb-impl::element-type)
 ```

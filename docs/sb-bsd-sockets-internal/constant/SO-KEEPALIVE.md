@@ -4,6 +4,6 @@
 > Send periodic keepalives.  If peer does not respond, we get SIGPIPE.
 
 ### Value
-```
+```cl
 9
 ```

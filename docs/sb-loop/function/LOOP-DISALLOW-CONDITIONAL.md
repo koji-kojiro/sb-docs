@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL KWD)
+```cl
+(&optional sb-loop::kwd)
 ```

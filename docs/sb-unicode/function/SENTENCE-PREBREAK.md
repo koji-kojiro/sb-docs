@@ -9,6 +9,6 @@
 > - Combines any run of :cp*:close* into one character
 
 ### Lambda list
-```
-(STRING)
+```cl
+(string)
 ```

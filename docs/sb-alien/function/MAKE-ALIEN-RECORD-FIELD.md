@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (TYPE TYPE) (BITS BITS) (OFFSET OFFSET))
+```cl
+(&key (:name #:name) (:type #:type) (:bits #:bits) (:offset #:offset))
 ```

@@ -5,6 +5,6 @@
 > OLD-CONS, otherwise return (cons CAR CDR).
 
 ### Lambda list
-```
-(OLD-CONS CAR CDR)
+```cl
+(sb-disassem::old-cons car cdr)
 ```

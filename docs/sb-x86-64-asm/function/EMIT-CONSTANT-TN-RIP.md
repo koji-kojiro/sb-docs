@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT CONSTANT-TN REG REMAINING-BYTES)
+```cl
+(sb-x86-64-asm::segment sb-x86-64-asm::constant-tn sb-x86-64-asm::reg
+ sb-x86-64-asm::remaining-bytes)
 ```

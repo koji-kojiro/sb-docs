@@ -10,6 +10,7 @@
 > implemented for the class of SEQUENCE.
 
 ### Lambda list
-```
-(SEQUENCE LENGTH &KEY INITIAL-ELEMENT INITIAL-CONTENTS)
+```cl
+(sequence length &key sb-impl::initial-element
+ sb-impl::initial-contents)
 ```

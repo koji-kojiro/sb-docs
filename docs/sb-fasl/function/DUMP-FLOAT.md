@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X FILE)
+```cl
+(sb-fasl::x sb-fasl::file)
 ```

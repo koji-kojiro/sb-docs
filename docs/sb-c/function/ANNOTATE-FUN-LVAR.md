@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LVAR &OPTIONAL DELAY)
+```cl
+(sb-c::lvar &optional sb-int:delay)
 ```

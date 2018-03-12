@@ -4,6 +4,7 @@
 > Creates a new read-modify-write macro like PUSH or INCF.
 
 ### Lambda list
-```
-(NAME LAMBDA-LIST FUNCTION &OPTIONAL DOC-STRING)
+```cl
+(sb-impl::name sb-impl::lambda-list function &optional
+ sb-impl::doc-string)
 ```

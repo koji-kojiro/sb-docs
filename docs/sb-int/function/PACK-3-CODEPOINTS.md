@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FIRST &OPTIONAL SECOND THIRD)
+```cl
+(first &optional second third)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "Lock for active processes." (free)>
+```cl
+#<sb-thread:mutex "lock for active processes." (free)>
 ```

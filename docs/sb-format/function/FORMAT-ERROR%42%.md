@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(COMPLAINT ARGS &REST INITARGS &KEY &ALLOW-OTHER-KEYS)
+```cl
+(sb-format::complaint sb-format::args &rest sb-format::initargs &key
+ &allow-other-keys)
 ```

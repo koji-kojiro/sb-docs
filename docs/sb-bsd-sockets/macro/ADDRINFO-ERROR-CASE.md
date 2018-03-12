@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-((CONTEXT FORM &OPTIONAL RESULT-VAR TEST-FORM) &OPTIONAL NO-ERROR-FORM &BODY
- CLAUSES)
+```cl
+((sb-bsd-sockets::context sb-bsd-sockets::form &optional
+  sb-bsd-sockets::result-var sb-bsd-sockets::test-form)
+ &optional sb-bsd-sockets::no-error-form &body sb-bsd-sockets::clauses)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(REF CALL ENTRY VARS IGNORES ARGS INDEF)
+```cl
+(sb-c::ref sb-c:call sb-c::entry sb-c::vars sb-c::ignores sb-c::args
+ sb-c::indef)
 ```

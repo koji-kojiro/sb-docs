@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(PRED NEW SEQUENCE INCREMENTER LEFT RIGHT LENGTH START END COUNT KEY TEST
- TEST-NOT OLD)
+```cl
+(sb-impl::pred sb-impl::new sequence sb-impl::incrementer sb-impl::left
+ sb-impl::right length sb-impl::start sb-impl::end count sb-impl::key
+ sb-impl::test sb-impl::test-not sb-impl::old)
 ```

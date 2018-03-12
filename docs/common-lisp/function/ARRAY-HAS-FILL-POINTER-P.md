@@ -4,6 +4,6 @@
 > Return T if the given ARRAY has a fill pointer, or NIL otherwise.
 
 ### Lambda list
-```
-(ARRAY)
+```cl
+(array)
 ```

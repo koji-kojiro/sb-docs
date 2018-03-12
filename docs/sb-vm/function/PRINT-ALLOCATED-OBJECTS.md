@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SPACE &KEY PERCENT PAGES TYPE LARGER SMALLER COUNT STREAM)
+```cl
+(space &key sb-vm::percent sb-vm::pages type sb-vm::larger
+ sb-vm::smaller count stream)
 ```

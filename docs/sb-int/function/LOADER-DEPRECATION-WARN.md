@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STUFF WHENCE)
+```cl
+(sb-impl::stuff sb-impl::whence)
 ```

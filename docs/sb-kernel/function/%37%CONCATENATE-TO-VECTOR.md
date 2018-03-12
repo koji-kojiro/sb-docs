@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WIDETAG &REST SEQUENCES)
+```cl
+(sb-impl::widetag &rest sb-impl::sequences)
 ```

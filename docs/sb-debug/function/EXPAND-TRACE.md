@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPECS)
+```cl
+(sb-debug::specs)
 ```

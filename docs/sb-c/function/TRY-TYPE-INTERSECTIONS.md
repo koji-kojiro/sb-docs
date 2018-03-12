@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VARS TYPES WHERE)
+```cl
+(sb-c::vars sb-c::types sb-c::where)
 ```

@@ -4,6 +4,6 @@
 > openlog() facility for kernel messages
 
 ### Value
-```
+```cl
 0
 ```

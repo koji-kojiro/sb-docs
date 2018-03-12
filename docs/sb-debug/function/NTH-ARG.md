@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COUNT ARGS)
+```cl
+(count sb-debug::args)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM PARAMETER-NAME OPTIMIZED-FORM)
+```cl
+(sb-kernel:form sb-pcl::parameter-name sb-pcl::optimized-form)
 ```

@@ -4,11 +4,12 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (CLASS-INFO CLASS-INFO) (HASH-VALUE HASH-VALUE) (NAME NAME)
- (LAYOUT LAYOUT) (STATE STATE) (DIRECT-SUPERCLASSES DIRECT-SUPERCLASSES)
- (SUBCLASSES SUBCLASSES) (PCL-CLASS PCL-CLASS) (SLOTS SLOTS)
- (CLASS-SLOTS CLASS-SLOTS) (REPORT REPORT)
- (DIRECT-DEFAULT-INITARGS DIRECT-DEFAULT-INITARGS) (CPL CPL)
- (HAIRY-SLOTS HAIRY-SLOTS))
+```cl
+(&key (:class-info #:class-info) (:hash-value #:hash-value)
+ (:name #:name) (:layout #:layout) (:state #:state)
+ (:direct-superclasses #:direct-superclasses)
+ (:subclasses #:subclasses) (:pcl-class #:pcl-class) (:slots #:slots)
+ (:class-slots #:class-slots) (:report #:report)
+ (:direct-default-initargs #:direct-default-initargs) (:cpl #:cpl)
+ (:hairy-slots #:hairy-slots))
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE TARGET NOT-P (&REST TYPE-CODES) &REST OTHER-ARGS &KEY &ALLOW-OTHER-KEYS)
+```cl
+(sb-vm::value sb-vm::target sb-vm::not-p (&rest sb-vm::type-codes)
+ &rest sb-vm::other-args &key &allow-other-keys)
 ```

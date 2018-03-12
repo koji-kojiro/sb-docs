@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((VAR SSET &OPTIONAL RESULT) &BODY BODY)
+```cl
+((sb-c::var sb-int:sset &optional sb-c::result) &body sb-c::body)
 ```

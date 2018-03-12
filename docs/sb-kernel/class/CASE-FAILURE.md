@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(CASE-FAILURE TYPE-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel:case-failure type-error error serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(DATUM EXPECTED-TYPE CONTEXT NAME POSSIBILITIES)
+```cl
+(:datum :expected-type :context :name :possibilities)
 ```

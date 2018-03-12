@@ -4,6 +4,6 @@
 > Return a copy of SEQUENCE which is EQUAL to SEQUENCE but not EQ.
 
 ### Lambda list
-```
-(SEQUENCE)
+```cl
+(sequence)
 ```

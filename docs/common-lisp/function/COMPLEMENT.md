@@ -5,6 +5,6 @@
 > NIL whenever FUNCTION returns non-NIL.
 
 ### Lambda list
-```
-(FUNCTION)
+```cl
+(function)
 ```

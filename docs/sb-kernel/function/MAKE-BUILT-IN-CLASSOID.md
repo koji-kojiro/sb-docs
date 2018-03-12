@@ -4,8 +4,10 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (CLASS-INFO CLASS-INFO) (HASH-VALUE HASH-VALUE) (NAME NAME)
- (LAYOUT LAYOUT) (STATE STATE) (DIRECT-SUPERCLASSES DIRECT-SUPERCLASSES)
- (SUBCLASSES SUBCLASSES) (PCL-CLASS PCL-CLASS) (TRANSLATION TRANSLATION))
+```cl
+(&key (:class-info #:class-info) (:hash-value #:hash-value)
+ (:name #:name) (:layout #:layout) (:state #:state)
+ (:direct-superclasses #:direct-superclasses)
+ (:subclasses #:subclasses) (:pcl-class #:pcl-class)
+ (:translation #:translation))
 ```

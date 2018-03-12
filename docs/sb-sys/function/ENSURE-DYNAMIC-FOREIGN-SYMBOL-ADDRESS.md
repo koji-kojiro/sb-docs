@@ -8,6 +8,6 @@
 > is never in the linkage-table.
 
 ### Lambda list
-```
-(SYMBOL &OPTIONAL DATAP)
+```cl
+(symbol &optional sb-alien::datap)
 ```

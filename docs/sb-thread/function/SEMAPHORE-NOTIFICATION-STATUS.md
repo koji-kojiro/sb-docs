@@ -6,6 +6,6 @@
 > or cleared.
 
 ### Lambda list
-```
-(SEMAPHORE-NOTIFICATION)
+```cl
+(sb-thread:semaphore-notification)
 ```

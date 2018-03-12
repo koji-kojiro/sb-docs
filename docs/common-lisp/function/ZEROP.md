@@ -4,6 +4,6 @@
 > Is this number zero?
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

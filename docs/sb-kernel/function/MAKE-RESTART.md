@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME FUNCTION &OPTIONAL REPORT-FUNCTION INTERACTIVE-FUNCTION TEST-FUNCTION)
+```cl
+(sb-kernel::name function &optional sb-kernel::report-function
+ sb-kernel::interactive-function sb-kernel::test-function)
 ```

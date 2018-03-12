@@ -5,6 +5,6 @@
 > peer.
 
 ### Lambda list
-```
-(SOCKET)
+```cl
+(sb-bsd-sockets:socket)
 ```

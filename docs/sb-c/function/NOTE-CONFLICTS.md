@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LIVE-BITS LIVE-LIST TN NUM)
+```cl
+(sb-c::live-bits sb-c::live-list sb-c:tn sb-c::num)
 ```

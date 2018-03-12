@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM &OPTIONAL EXPECTED-TYPE)
+```cl
+(sb-kernel:form &optional sb-loop::expected-type)
 ```

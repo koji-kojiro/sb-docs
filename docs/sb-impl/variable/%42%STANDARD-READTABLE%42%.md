@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<READTABLE {10000284D3}>
+```cl
+#<readtable {10000284d3}>
 ```

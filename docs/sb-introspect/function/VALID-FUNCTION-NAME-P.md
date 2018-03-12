@@ -5,6 +5,6 @@
 > FBOUNDP.
 
 ### Lambda list
-```
-(NAME)
+```cl
+(sb-introspect::name)
 ```

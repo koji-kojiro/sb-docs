@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(METHOD-CALL MORE-CONTEXT MORE-COUNT &REST REQUIRED-ARGS)
+```cl
+(sb-pcl::method-call sb-pcl::more-context sb-pcl::more-count &rest
+ sb-pcl::required-args)
 ```

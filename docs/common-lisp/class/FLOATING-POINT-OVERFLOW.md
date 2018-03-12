@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(FLOATING-POINT-OVERFLOW ARITHMETIC-ERROR ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(floating-point-overflow arithmetic-error error serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(OPERATION OPERANDS)
+```cl
+(:operation :operands)
 ```

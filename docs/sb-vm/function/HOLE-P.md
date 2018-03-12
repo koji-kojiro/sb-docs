@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RAW-ADDRESS)
+```cl
+(sb-vm::raw-address)
 ```

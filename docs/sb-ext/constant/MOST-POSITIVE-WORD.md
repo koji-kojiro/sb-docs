@@ -4,6 +4,6 @@
 > The most positive integer that is of type SB-EXT:WORD.
 
 ### Value
-```
+```cl
 18446744073709551615
 ```

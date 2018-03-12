@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LIST THING N)
+```cl
+(list sb-assem::thing sb-assem::n)
 ```

@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(DUBIOUS-ASTERISKS-AROUND-VARIABLE-NAME STYLE-WARNING WARNING SIMPLE-CONDITION
- CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel:dubious-asterisks-around-variable-name style-warning warning
+ simple-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS)
+```cl
+(:format-control :format-arguments)
 ```

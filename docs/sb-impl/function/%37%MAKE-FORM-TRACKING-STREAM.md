@@ -4,18 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (IN-BUFFER IN-BUFFER) (CIN-BUFFER CIN-BUFFER) (IN-INDEX IN-INDEX) (IN IN)
- (BIN BIN) (N-BIN N-BIN) (OUT OUT) (BOUT BOUT) (SOUT SOUT) (MISC MISC)
- (INPUT-CHAR-POS INPUT-CHAR-POS) (NAME NAME) (FILE FILE) (ORIGINAL ORIGINAL)
- (DELETE-ORIGINAL DELETE-ORIGINAL) (ELEMENT-SIZE ELEMENT-SIZE)
- (ELEMENT-TYPE ELEMENT-TYPE) (ELEMENT-MODE ELEMENT-MODE) (FD FD)
- (FD-TYPE FD-TYPE) (BUFFERING BUFFERING) (DUAL-CHANNEL-P DUAL-CHANNEL-P)
- (OUTPUT-COLUMN OUTPUT-COLUMN) (LISTEN LISTEN) (SERVE-EVENTS SERVE-EVENTS)
- (INSTEAD INSTEAD) (IBUF IBUF) (EOF-FORCED-P EOF-FORCED-P) (OBUF OBUF)
- (OUTPUT-QUEUE OUTPUT-QUEUE) (HANDLER HANDLER) (TIMEOUT TIMEOUT)
- (PATHNAME PATHNAME) (EXTERNAL-FORMAT EXTERNAL-FORMAT) (CHAR-SIZE CHAR-SIZE)
- (OUTPUT-BYTES OUTPUT-BYTES) (OBSERVER OBSERVER) (NEWLINES NEWLINES)
- (LAST-NEWLINE LAST-NEWLINE) (FORM-START-BYTE-POS FORM-START-BYTE-POS)
- (FORM-START-CHAR-POS FORM-START-CHAR-POS))
+```cl
+(&key (:in-buffer #:in-buffer) (:cin-buffer #:cin-buffer)
+ (:in-index #:in-index) (:in #:in) (:bin #:bin) (:n-bin #:n-bin)
+ (:out #:out) (:bout #:bout) (:sout #:sout) (:misc #:misc)
+ (:input-char-pos #:input-char-pos) (:name #:name) (:file #:file)
+ (:original #:original) (:delete-original #:delete-original)
+ (:element-size #:element-size) (:element-type #:element-type)
+ (:element-mode #:element-mode) (:fd #:fd) (:fd-type #:fd-type)
+ (:buffering #:buffering) (:dual-channel-p #:dual-channel-p) ..)
 ```

@@ -5,6 +5,6 @@
 > evaluated.) TYPE must be pointer-like.
 
 ### Lambda list
-```
-(SAP TYPE)
+```cl
+(sb-alien::sap type)
 ```

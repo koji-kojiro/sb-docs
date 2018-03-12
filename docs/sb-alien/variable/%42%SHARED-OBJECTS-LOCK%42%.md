@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "shared object list lock" (free)>
+```cl
+#<sb-thread:mutex "shared object list lock" (free)>
 ```

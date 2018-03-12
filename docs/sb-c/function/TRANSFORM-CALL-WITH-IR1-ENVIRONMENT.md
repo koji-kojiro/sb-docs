@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE LAMBDA DEFAULT-NAME)
+```cl
+(sb-c::node lambda sb-c::default-name)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FASL ARGS PATH FOR-VALUE-P)
+```cl
+(sb-c::fasl sb-c::args sb-c::path sb-c::for-value-p)
 ```

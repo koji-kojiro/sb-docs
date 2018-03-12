@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(MASK NAME KIND)
+```cl
+(sb-vm::mask sb-vm::name sb-vm::kind)
 ```

@@ -6,6 +6,7 @@
 > Use SB-THREAD:GRAB-MUTEX instead.
 
 ### Lambda list
-```
-(MUTEX &OPTIONAL NEW-OWNER WAITP TIMEOUT)
+```cl
+(sb-thread:mutex &optional sb-thread::new-owner sb-thread::waitp
+ sb-thread::timeout)
 ```

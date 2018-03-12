@@ -4,8 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (START-COLUMN START-COLUMN) (SECTION-COLUMN SECTION-COLUMN)
- (PER-LINE-PREFIX-END PER-LINE-PREFIX-END) (PREFIX-LENGTH PREFIX-LENGTH)
- (SUFFIX-LENGTH SUFFIX-LENGTH) (SECTION-START-LINE SECTION-START-LINE))
+```cl
+(&key (:start-column #:start-column) (:section-column #:section-column)
+ (:per-line-prefix-end #:per-line-prefix-end)
+ (:prefix-length #:prefix-length) (:suffix-length #:suffix-length)
+ (:section-start-line #:section-start-line))
 ```

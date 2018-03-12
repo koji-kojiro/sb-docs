@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (LOCK LOCK) (THREADS THREADS) (INTERACTIVE-THREADS INTERACTIVE-THREADS)
- (INTERACTIVE-THREADS-QUEUE INTERACTIVE-THREADS-QUEUE))
+```cl
+(&key (:lock #:lock) (:threads #:threads)
+ (:interactive-threads #:interactive-threads)
+ (:interactive-threads-queue #:interactive-threads-queue))
 ```

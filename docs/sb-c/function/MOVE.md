@@ -4,6 +4,6 @@
 > Move SRC into DST unless they are location=.
 
 ### Lambda list
-```
-(DST SRC)
+```cl
+(sb-vm::dst sb-vm::src)
 ```

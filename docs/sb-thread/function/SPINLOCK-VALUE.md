@@ -6,6 +6,6 @@
 > Use SB-THREAD:MUTEX-OWNER instead.
 
 ### Lambda list
-```
-(LOCK)
+```cl
+(sb-thread::lock)
 ```

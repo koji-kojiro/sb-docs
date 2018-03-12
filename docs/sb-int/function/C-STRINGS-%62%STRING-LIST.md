@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(C-STRINGS)
+```cl
+(sb-unix::c-strings)
 ```

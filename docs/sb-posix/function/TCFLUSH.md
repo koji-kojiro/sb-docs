@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD QUEUE-SELECTOR)
+```cl
+(sb-posix::fd sb-posix::queue-selector)
 ```

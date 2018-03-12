@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE TRANSFORM ARGS)
+```cl
+(sb-c::node sb-c::transform sb-c::args)
 ```

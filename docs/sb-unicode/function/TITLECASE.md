@@ -6,6 +6,6 @@
 > :LOCALE has the same semantics as the :LOCALE argument to UPPERCASE.
 
 ### Lambda list
-```
-(STRING &KEY LOCALE)
+```cl
+(string &key sb-unicode::locale)
 ```

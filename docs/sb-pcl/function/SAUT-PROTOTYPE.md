@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPECL TYPE)
+```cl
+(sb-pcl::specl type)
 ```

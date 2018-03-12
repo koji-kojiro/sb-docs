@@ -8,6 +8,6 @@
 > 0 means polling without waiting.
 
 ### Lambda list
-```
-(&OPTIONAL TIMEOUT)
+```cl
+(&optional sb-ext:timeout)
 ```

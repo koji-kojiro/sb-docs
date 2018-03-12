@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(TYPES1 TYPES2 REST2 OPERATION)
+```cl
+(sb-kernel::types1 sb-kernel::types2 sb-kernel::rest2
+ sb-kernel::operation)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(N-BYTES WORD0 WORD1 LOWTAG)
+```cl
+(sb-vm::n-bytes sb-vm::word0 sb-vm::word1 sb-vm::lowtag)
 ```

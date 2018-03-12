@@ -13,6 +13,6 @@
 > ITERATOR-ELEMENT), ITERATOR-INDEX and ITERATOR-COPY.
 
 ### Lambda list
-```
-(SEQUENCE &KEY FROM-END START END)
+```cl
+(sequence &key sb-impl::from-end sb-impl::start sb-impl::end)
 ```

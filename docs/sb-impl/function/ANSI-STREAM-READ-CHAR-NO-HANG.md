@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM EOF-ERROR-P EOF-VALUE RECURSIVE-P)
+```cl
+(stream sb-impl::eof-error-p sb-impl::eof-value sb-impl::recursive-p)
 ```

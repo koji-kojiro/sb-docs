@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(CHARACTER T)
+```cl
+(character t)
 ```

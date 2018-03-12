@@ -10,6 +10,6 @@
 > module.
 
 ### Lambda list
-```
-(MODULE-NAME &OPTIONAL PATHNAMES)
+```cl
+(sb-impl::module-name &optional sb-impl::pathnames)
 ```

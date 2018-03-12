@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SAP-OR-NIL)
+```cl
+(sb-posix::sap-or-nil)
 ```

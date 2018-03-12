@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LOGIN-NAME)
+```cl
+(sb-posix::login-name)
 ```

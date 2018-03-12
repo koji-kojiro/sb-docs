@@ -5,6 +5,6 @@
 > or the variable value associated with STEP-VARIABLE-CONDITION.
 
 ### Lambda list
-```
-(CONDITION)
+```cl
+(condition)
 ```

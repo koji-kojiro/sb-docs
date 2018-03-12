@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VARS FROM-VAR CONSTRAINTS TARGET)
+```cl
+(sb-c::vars sb-c::from-var sb-c::constraints sb-c::target)
 ```

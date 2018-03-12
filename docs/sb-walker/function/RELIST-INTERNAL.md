@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X ARGS *P)
+```cl
+(sb-walker::x sb-walker::args sb-walker::*p)
 ```

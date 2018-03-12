@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THIS-FORM AS-LINE/COL-P)
+```cl
+(sb-c::this-form sb-c::as-line/col-p)
 ```

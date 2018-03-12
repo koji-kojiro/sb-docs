@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TEST TIMEOUT)
+```cl
+(sb-impl::test sb-ext:timeout)
 ```

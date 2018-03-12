@@ -4,6 +4,6 @@
 > The absolute pathname of the running SBCL runtime.
 
 ### Value
-```
-/home/travis/.roswell/impls/x86-64/linux/sbcl-bin/1.4.5/bin/sbcl
+```cl
+#p"/home/travis/.roswell/impls/x86-64/linux/sbcl-bin/1.4.5/bin/sbcl"
 ```

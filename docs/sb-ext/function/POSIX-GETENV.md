@@ -5,6 +5,6 @@
 > corresponds to NAME, or NIL if there is none.
 
 ### Lambda list
-```
-(NAME)
+```cl
+(sb-unix::name)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SAP TYPE)
+```cl
+(sb-kernel::sap type)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASSOID OLD NEW)
+```cl
+(sb-kernel:classoid sb-kernel::old sb-kernel::new)
 ```

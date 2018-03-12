@@ -5,6 +5,6 @@
 > table itself.
 
 ### Lambda list
-```
-(HASH-TABLE)
+```cl
+(hash-table)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALLER LVARS LVAR ANNOTATION)
+```cl
+(sb-c::caller sb-c::lvars sb-c::lvar sb-c::annotation)
 ```

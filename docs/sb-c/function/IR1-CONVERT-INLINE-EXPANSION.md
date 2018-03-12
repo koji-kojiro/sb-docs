@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME EXPANSION VAR INLINEP INFO)
+```cl
+(sb-c::name sb-c::expansion sb-c::var sb-c::inlinep sb-int:info)
 ```

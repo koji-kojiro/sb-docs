@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DEFSTRUCT SPEC &OPTIONAL INCLUDED-SLOT)
+```cl
+(defstruct sb-kernel::spec &optional sb-kernel::included-slot)
 ```

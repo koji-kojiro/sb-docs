@@ -4,11 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (PARSE PARSE) (PARSE-NATIVE PARSE-NATIVE) (UNPARSE UNPARSE)
- (UNPARSE-NATIVE UNPARSE-NATIVE) (UNPARSE-HOST UNPARSE-HOST)
- (UNPARSE-DIRECTORY UNPARSE-DIRECTORY) (UNPARSE-FILE UNPARSE-FILE)
- (UNPARSE-ENOUGH UNPARSE-ENOUGH)
- (UNPARSE-DIRECTORY-SEPARATOR UNPARSE-DIRECTORY-SEPARATOR)
- (SIMPLIFY-NAMESTRING SIMPLIFY-NAMESTRING) (CUSTOMARY-CASE CUSTOMARY-CASE))
+```cl
+(&key (:parse #:parse) (:parse-native #:parse-native)
+ (:unparse #:unparse) (:unparse-native #:unparse-native)
+ (:unparse-host #:unparse-host)
+ (:unparse-directory #:unparse-directory)
+ (:unparse-file #:unparse-file) (:unparse-enough #:unparse-enough)
+ (:unparse-directory-separator #:unparse-directory-separator)
+ (:simplify-namestring #:simplify-namestring)
+ (:customary-case #:customary-case))
 ```

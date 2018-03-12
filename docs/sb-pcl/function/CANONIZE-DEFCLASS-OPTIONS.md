@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS-NAME OPTIONS)
+```cl
+(class-name sb-pcl::options)
 ```

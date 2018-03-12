@@ -21,7 +21,7 @@
 > protocol. Interface subject to change.
 
 ### Lambda list
-```
-(PROTO-GENERIC-FUNCTION PROTO-METHOD QUALIFIERS SPECIALIZERS METHOD-LAMBDA
- ENVIRONMENT)
+```cl
+(sb-pcl::proto-generic-function sb-pcl::proto-method sb-pcl::qualifiers
+ sb-pcl::specializers sb-pcl::method-lambda sb-pcl::environment)
 ```

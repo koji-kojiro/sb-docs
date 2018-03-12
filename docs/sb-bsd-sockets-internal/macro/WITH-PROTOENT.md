@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VAR31 (&REST FIELD-VALUES-32) &BODY BODY33)
+```cl
+(#:var31 (&rest #:field-values-32) &body #:body33)
 ```

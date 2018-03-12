@@ -4,11 +4,13 @@
 > No description.
 
 ### Precedence list
-```
-(INVALID-METHOD-INITARG SIMPLE-PROGRAM-ERROR SIMPLE-CONDITION PROGRAM-ERROR
-                        ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-pcl::invalid-method-initarg sb-int:simple-program-error
+                                simple-condition program-error error
+                                serious-condition condition
+                                sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS METHOD)
+```cl
+(:format-control :format-arguments :method)
 ```

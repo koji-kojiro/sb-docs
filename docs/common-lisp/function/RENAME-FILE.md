@@ -5,6 +5,6 @@
 > file, then the associated file is renamed.
 
 ### Lambda list
-```
-(FILE NEW-NAME)
+```cl
+(sb-impl::file sb-impl::new-name)
 ```

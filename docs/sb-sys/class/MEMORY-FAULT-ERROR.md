@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(MEMORY-FAULT-ERROR SYSTEM-CONDITION ERROR SERIOUS-CONDITION CONDITION
-                    SLOT-OBJECT T)
+```cl
+(sb-sys:memory-fault-error sb-sys:system-condition error
+                           serious-condition condition
+                           sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(ADDRESS CONTEXT)
+```cl
+(:address :context)
 ```

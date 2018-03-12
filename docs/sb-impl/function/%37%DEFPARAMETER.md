@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(VAR VAL SOURCE-LOCATION &OPTIONAL DOC)
+```cl
+(sb-debug:var sb-impl::val sb-impl::source-location &optional
+              sb-impl::doc)
 ```

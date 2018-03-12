@@ -4,13 +4,15 @@
 > No description.
 
 ### Precedence list
-```
-(STRUCTURE-EFFECTIVE-SLOT-DEFINITION STRUCTURE-SLOT-DEFINITION
- EFFECTIVE-SLOT-DEFINITION SLOT-DEFINITION METAOBJECT DEFINITION-SOURCE-MIXIN
- STANDARD-OBJECT SLOT-OBJECT T)
+```cl
+(sb-pcl::structure-effective-slot-definition
+ sb-pcl::structure-slot-definition sb-mop:effective-slot-definition
+ sb-mop:slot-definition sb-mop:metaobject
+ sb-pcl::definition-source-mixin standard-object sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(SOURCE NAME INITFORM INITFUNCTION INITARGS TYPE DOCUMENTATION CLASS
- DEFSTRUCT-ACCESSOR-SYMBOL INTERNAL-READER-FUNCTION INTERNAL-WRITER-FUNCTION)
+```cl
+(sb-pcl::source :name :initform :initfunction :initargs :type
+ :documentation :class :defstruct-accessor-symbol
+ :internal-reader-function :internal-writer-function)
 ```

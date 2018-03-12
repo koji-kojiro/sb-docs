@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BIT VECTOR FROM-END START END)
+```cl
+(bit vector sb-vm::from-end sb-vm::start sb-vm::end)
 ```

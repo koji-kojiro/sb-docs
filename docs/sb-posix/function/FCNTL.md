@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD CMD &OPTIONAL ARG)
+```cl
+(sb-posix::fd sb-posix::cmd &optional sb-posix::arg)
 ```

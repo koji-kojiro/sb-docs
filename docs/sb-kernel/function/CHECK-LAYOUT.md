@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(LAYOUT CLASSOID LENGTH INHERITS DEPTHOID BITMAP)
+```cl
+(sb-kernel:layout sb-kernel:classoid length sb-kernel::inherits
+ sb-kernel::depthoid sb-kernel::bitmap)
 ```

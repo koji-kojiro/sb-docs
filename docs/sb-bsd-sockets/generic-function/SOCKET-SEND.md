@@ -10,7 +10,10 @@
 > instead. Returns the number of octets written.
 
 ### Lambda list
-```
-(SOCKET BUFFER LENGTH &KEY ADDRESS EXTERNAL-FORMAT OOB EOR DONTROUTE DONTWAIT
- NOSIGNAL CONFIRM MORE)
+```cl
+(sb-bsd-sockets:socket sb-bsd-sockets::buffer length &key
+ sb-bsd-sockets::address sb-bsd-sockets::external-format
+ sb-bsd-sockets::oob sb-bsd-sockets::eor sb-bsd-sockets::dontroute
+ sb-bsd-sockets::dontwait sb-bsd-sockets::nosignal
+ sb-bsd-sockets::confirm sb-bsd-sockets::more)
 ```

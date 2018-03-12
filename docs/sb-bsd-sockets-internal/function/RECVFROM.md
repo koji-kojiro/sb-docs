@@ -4,6 +4,10 @@
 > No description.
 
 ### Lambda list
-```
-(SOCKET BUF LEN FLAGS SOCKADDR SOCKLEN)
+```cl
+(sb-bsd-sockets-internal::socket sb-bsd-sockets-internal::buf
+                                 sb-bsd-sockets-internal::len
+                                 sb-bsd-sockets-internal::flags
+                                 sb-bsd-sockets-internal::sockaddr
+                                 sb-bsd-sockets-internal::socklen)
 ```

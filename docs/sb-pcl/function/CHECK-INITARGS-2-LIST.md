@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INITKEYS CLASS LEGAL &OPTIONAL ERROR-P)
+```cl
+(sb-pcl::initkeys class sb-pcl::legal &optional sb-pcl::error-p)
 ```

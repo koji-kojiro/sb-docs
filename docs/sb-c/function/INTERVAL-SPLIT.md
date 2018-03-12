@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(P X &OPTIONAL CLOSE-LOWER CLOSE-UPPER)
+```cl
+(sb-c::p sb-c::x &optional sb-c::close-lower sb-c::close-upper)
 ```

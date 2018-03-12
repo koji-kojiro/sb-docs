@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HASH LENGTH)
+```cl
+(sb-int:hash length)
 ```

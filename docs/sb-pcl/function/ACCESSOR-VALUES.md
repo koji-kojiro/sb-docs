@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GF ARG-INFO CLASSES METHODS)
+```cl
+(sb-pcl::gf sb-pcl::arg-info sb-pcl::classes sb-pcl::methods)
 ```

@@ -4,23 +4,13 @@
 > No description.
 
 ### Value
-```
-((VECTOR-SINGLE-FLOAT-P SINGLE-FLOAT) (VECTOR-DOUBLE-FLOAT-P DOUBLE-FLOAT)
- (VECTOR-UNSIGNED-BYTE-2-P (UNSIGNED-BYTE 2))
- (VECTOR-UNSIGNED-BYTE-4-P (UNSIGNED-BYTE 4))
- (VECTOR-UNSIGNED-BYTE-7-P (UNSIGNED-BYTE 7))
- (VECTOR-UNSIGNED-BYTE-8-P (UNSIGNED-BYTE 8))
- (VECTOR-UNSIGNED-BYTE-15-P (UNSIGNED-BYTE 15))
- (VECTOR-UNSIGNED-BYTE-16-P (UNSIGNED-BYTE 16))
- (VECTOR-UNSIGNED-BYTE-31-P (UNSIGNED-BYTE 31))
- (VECTOR-UNSIGNED-BYTE-32-P (UNSIGNED-BYTE 32))
- (VECTOR-UNSIGNED-BYTE-62-P (UNSIGNED-BYTE 62))
- (VECTOR-UNSIGNED-BYTE-63-P (UNSIGNED-BYTE 63))
- (VECTOR-UNSIGNED-BYTE-64-P (UNSIGNED-BYTE 64))
- (VECTOR-SIGNED-BYTE-8-P (SIGNED-BYTE 8))
- (VECTOR-SIGNED-BYTE-16-P (SIGNED-BYTE 16))
- (VECTOR-SIGNED-BYTE-32-P (SIGNED-BYTE 32)) (VECTOR-FIXNUM-P FIXNUM)
- (VECTOR-SIGNED-BYTE-64-P (SIGNED-BYTE 64))
- (VECTOR-COMPLEX-SINGLE-FLOAT-P (COMPLEX SINGLE-FLOAT))
- (VECTOR-COMPLEX-DOUBLE-FLOAT-P (COMPLEX DOUBLE-FLOAT)) (VECTOR-T-P T))
+```cl
+((sb-kernel:vector-single-float-p single-float)
+ (sb-kernel:vector-double-float-p double-float)
+ (sb-kernel:vector-unsigned-byte-2-p (unsigned-byte 2))
+ (sb-kernel:vector-unsigned-byte-4-p (unsigned-byte 4))
+ (sb-kernel:vector-unsigned-byte-7-p (unsigned-byte 7))
+ (sb-kernel:vector-unsigned-byte-8-p (unsigned-byte 8))
+ (sb-kernel:vector-unsigned-byte-15-p (unsigned-byte 15))
+ (sb-kernel:vector-unsigned-byte-16-p (unsigned-byte 16)) ..)
 ```

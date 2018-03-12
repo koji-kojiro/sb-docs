@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#(NIL NIL NIL NIL NIL EDT CDT MDT PDT)
+```cl
+#(nil nil nil nil nil "edt" "cdt" "mdt" "pdt")
 ```

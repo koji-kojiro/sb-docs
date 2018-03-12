@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(2ENV)
+```cl
+(sb-c::2env)
 ```

@@ -9,6 +9,7 @@
 > waiting.
 
 ### Lambda list
-```
-(FD DIRECTION &OPTIONAL TIMEOUT SERVE-EVENTS)
+```cl
+(sb-impl::fd sb-impl::direction &optional sb-ext:timeout
+ sb-impl::serve-events)
 ```

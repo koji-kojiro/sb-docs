@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WHO)
+```cl
+(sb-unix::who)
 ```

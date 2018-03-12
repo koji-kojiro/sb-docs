@@ -4,6 +4,6 @@
 > Takes and expands a type specifier recursively like MACROEXPAND-ALL.
 
 ### Lambda list
-```
-(TYPE-SPECIFIER &OPTIONAL ENV)
+```cl
+(sb-kernel:type-specifier &optional sb-kernel::env)
 ```

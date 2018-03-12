@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(RESULT-TYPE TYPED-LAMBDA-LIST &BODY FORMS)
+```cl
+(sb-alien::result-type sb-alien::typed-lambda-list &body
+ sb-alien::forms)
 ```

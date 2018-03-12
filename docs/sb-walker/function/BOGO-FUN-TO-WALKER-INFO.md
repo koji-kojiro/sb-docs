@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BOGO-FUN)
+```cl
+(sb-walker::bogo-fun)
 ```

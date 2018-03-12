@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COLLECTOR CLASS DEFAULT-TYPE)
+```cl
+(sb-loop::collector class sb-loop::default-type)
 ```

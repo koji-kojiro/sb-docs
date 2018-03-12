@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-SIZE HOLE)
+```cl
+(sb-vm::new-size sb-vm::hole)
 ```

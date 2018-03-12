@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION INFO CONDITION-NAME)
+```cl
+(function sb-int:info sb-c::condition-name)
 ```

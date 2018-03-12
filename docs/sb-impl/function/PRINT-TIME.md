@@ -4,7 +4,10 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY REAL-TIME-MS USER-RUN-TIME-US SYSTEM-RUN-TIME-US GC-RUN-TIME-MS
- PROCESSOR-CYCLES EVAL-CALLS LAMBDAS-CONVERTED PAGE-FAULTS BYTES-CONSED ABORTED)
+```cl
+(&key sb-impl::real-time-ms sb-impl::user-run-time-us
+ sb-impl::system-run-time-us sb-impl::gc-run-time-ms
+ sb-impl::processor-cycles sb-impl::eval-calls
+ sb-impl::lambdas-converted sb-impl::page-faults sb-impl::bytes-consed
+ sb-impl::aborted)
 ```

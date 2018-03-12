@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WIDETAG)
+```cl
+(sb-impl::widetag)
 ```

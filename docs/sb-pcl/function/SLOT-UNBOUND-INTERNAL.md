@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INSTANCE POSITION)
+```cl
+(sb-kernel:instance position)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR &OPTIONAL ARG)
+```cl
+(vector &optional sb-debug:arg)
 ```

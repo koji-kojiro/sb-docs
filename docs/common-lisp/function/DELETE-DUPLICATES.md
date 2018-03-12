@@ -8,6 +8,7 @@
 > The :TEST-NOT argument is deprecated.
 
 ### Lambda list
-```
-(SEQUENCE &REST ARGS &KEY TEST TEST-NOT START END FROM-END KEY)
+```cl
+(sequence &rest sb-impl::args &key sb-impl::test sb-impl::test-not
+ sb-impl::start sb-impl::end sb-impl::from-end sb-impl::key)
 ```

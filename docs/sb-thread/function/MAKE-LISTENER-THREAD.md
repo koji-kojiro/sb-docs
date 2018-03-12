@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TTY-NAME)
+```cl
+(sb-thread::tty-name)
 ```

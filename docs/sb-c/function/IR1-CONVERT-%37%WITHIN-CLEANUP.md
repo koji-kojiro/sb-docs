@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KIND MESS-UP &BODY BODY)
+```cl
+(sb-c::kind sb-c::mess-up &body sb-c::body)
 ```

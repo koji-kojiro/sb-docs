@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COMPONENT BLOCK-INFO-CONSTRUCTOR)
+```cl
+(sb-c:component sb-c::block-info-constructor)
 ```

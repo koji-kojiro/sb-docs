@@ -7,6 +7,7 @@
 > radix parameter must be between 2 and 36.
 
 ### Lambda list
-```
-(STRING &KEY START END RADIX JUNK-ALLOWED)
+```cl
+(string &key sb-impl::start sb-impl::end sb-impl::radix
+        sb-impl::junk-allowed)
 ```

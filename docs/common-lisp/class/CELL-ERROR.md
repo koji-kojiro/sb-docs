@@ -4,10 +4,10 @@
 > No description.
 
 ### Precedence list
-```
-(CELL-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(cell-error error serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME)
+```cl
+(:name)
 ```

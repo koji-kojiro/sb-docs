@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL NARGS)
+```cl
+(&optional sb-vm::nargs)
 ```

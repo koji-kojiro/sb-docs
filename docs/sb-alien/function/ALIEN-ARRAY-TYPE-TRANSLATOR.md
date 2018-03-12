@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ELE-TYPE &REST DIMS)
+```cl
+(sb-alien::ele-type &rest sb-alien::dims)
 ```

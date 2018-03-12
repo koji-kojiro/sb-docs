@@ -5,6 +5,6 @@
 > and the number of 0 bits if INTEGER is negative.
 
 ### Lambda list
-```
-(INTEGER)
+```cl
+(integer)
 ```

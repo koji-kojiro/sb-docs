@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATHNAME &OPTIONAL STAT)
+```cl
+(pathname &optional sb-posix:stat)
 ```

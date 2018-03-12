@@ -6,6 +6,6 @@
 > code in BODY to provide possible further output.
 
 ### Lambda list
-```
-((OBJECT STREAM &KEY TYPE IDENTITY) &BODY BODY)
+```cl
+((sb-impl::object stream &key type identity) &body sb-impl::body)
 ```

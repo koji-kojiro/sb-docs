@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(SIMPLE-STORAGE-CONDITION STORAGE-CONDITION SERIOUS-CONDITION SIMPLE-CONDITION
- CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:simple-storage-condition storage-condition serious-condition
+ simple-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS)
+```cl
+(:format-control :format-arguments)
 ```

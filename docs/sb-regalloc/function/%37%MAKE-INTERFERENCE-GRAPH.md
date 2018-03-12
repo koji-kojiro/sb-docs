@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (VERTICES VERTICES) (PRECOLORED-VERTICES PRECOLORED-VERTICES)
- (TN-VERTEX-MAPPING TN-VERTEX-MAPPING))
+```cl
+(&key (:vertices #:vertices)
+ (:precolored-vertices #:precolored-vertices)
+ (:tn-vertex-mapping #:tn-vertex-mapping))
 ```

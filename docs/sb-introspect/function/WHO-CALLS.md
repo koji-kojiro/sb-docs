@@ -6,6 +6,6 @@
 > function name, definition-source pairs.
 
 ### Lambda list
-```
-(FUNCTION-NAME)
+```cl
+(sb-introspect::function-name)
 ```

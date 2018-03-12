@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE SLOTS INDEX)
+```cl
+(sb-pcl::new-value sb-pcl::slots sb-int:index)
 ```

@@ -4,6 +4,6 @@
 > T if OBJECT is a PROCESS, NIL otherwise.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-kernel::object)
 ```

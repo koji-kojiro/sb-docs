@@ -5,6 +5,6 @@
 > an identity.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

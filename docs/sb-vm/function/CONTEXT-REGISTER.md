@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONTEXT INDEX)
+```cl
+(sb-vm::context sb-int:index)
 ```

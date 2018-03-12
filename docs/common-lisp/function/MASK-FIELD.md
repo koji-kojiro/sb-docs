@@ -4,6 +4,6 @@
 > Extract the specified byte from integer,  but do not right justify result.
 
 ### Lambda list
-```
-(BYTESPEC INTEGER)
+```cl
+(sb-kernel::bytespec integer)
 ```

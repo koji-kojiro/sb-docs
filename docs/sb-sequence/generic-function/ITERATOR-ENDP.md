@@ -6,6 +6,6 @@
 > direction encoded in FROM-END.
 
 ### Lambda list
-```
-(SEQUENCE ITERATOR LIMIT FROM-END)
+```cl
+(sequence sb-impl::iterator sb-impl::limit sb-impl::from-end)
 ```

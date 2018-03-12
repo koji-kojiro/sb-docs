@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SRC DEST)
+```cl
+(sb-regalloc::src sb-regalloc::dest)
 ```

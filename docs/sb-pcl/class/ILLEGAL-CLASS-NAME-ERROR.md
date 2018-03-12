@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(ILLEGAL-CLASS-NAME-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-pcl:illegal-class-name-error error serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME)
+```cl
+(:name)
 ```

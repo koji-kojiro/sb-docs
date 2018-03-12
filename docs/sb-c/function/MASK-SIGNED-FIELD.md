@@ -5,6 +5,6 @@
 > 2-complement SIZE-bits representation of a signed integer.
 
 ### Lambda list
-```
-(SIZE INTEGER)
+```cl
+(sb-kernel::size integer)
 ```

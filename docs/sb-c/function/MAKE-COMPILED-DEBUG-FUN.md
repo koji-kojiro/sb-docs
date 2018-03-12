@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (VARS VARS) (BLOCKS BLOCKS) (FORM-NUMBER FORM-NUMBER)
- (ARGUMENTS ARGUMENTS) (RETURNS RETURNS) (ENCODED-LOCS ENCODED-LOCS))
+```cl
+(&key (:name #:name) (:vars #:vars) (:blocks #:blocks)
+ (:form-number #:form-number) (:arguments #:arguments)
+ (:returns #:returns) (:encoded-locs #:encoded-locs))
 ```

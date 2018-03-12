@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION-OR-NAME INFO &OPTIONAL DEFINITION)
+```cl
+(sb-debug::function-or-name sb-int:info &optional sb-debug::definition)
 ```

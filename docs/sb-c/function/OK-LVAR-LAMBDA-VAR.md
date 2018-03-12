@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LVAR CONSTRAINTS)
+```cl
+(sb-c::lvar sb-c::constraints)
 ```

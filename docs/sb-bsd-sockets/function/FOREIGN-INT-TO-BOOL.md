@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X SIZE)
+```cl
+(sb-bsd-sockets::x sb-bsd-sockets::size)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KIND WHAT CONTEXT NODE PATH)
+```cl
+(sb-c::kind sb-c::what sb-c::context sb-c::node sb-c::path)
 ```

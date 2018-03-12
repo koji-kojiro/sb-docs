@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM STRING-OR-FUN ORIG-ARGS &OPTIONAL ARGS)
+```cl
+(stream sb-format::string-or-fun sb-format::orig-args &optional
+ sb-format::args)
 ```

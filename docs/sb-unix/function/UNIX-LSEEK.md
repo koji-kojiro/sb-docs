@@ -10,6 +10,6 @@
 > 
 
 ### Lambda list
-```
-(FD OFFSET WHENCE)
+```cl
+(sb-unix:fd sb-unix::offset sb-unix::whence)
 ```

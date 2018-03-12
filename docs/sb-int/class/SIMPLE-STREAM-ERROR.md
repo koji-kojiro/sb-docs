@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(SIMPLE-STREAM-ERROR SIMPLE-CONDITION STREAM-ERROR ERROR SERIOUS-CONDITION
- CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:simple-stream-error simple-condition stream-error error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(STREAM FORMAT-CONTROL FORMAT-ARGUMENTS)
+```cl
+(:stream :format-control :format-arguments)
 ```

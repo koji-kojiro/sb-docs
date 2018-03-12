@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE SAP OFFSET VALUE)
+```cl
+(type sb-alien::sap sb-alien::offset sb-alien::value)
 ```

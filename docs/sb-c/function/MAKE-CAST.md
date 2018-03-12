@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE TYPE POLICY &OPTIONAL CONTEXT)
+```cl
+(sb-c::value type sb-c:policy &optional sb-c::context)
 ```

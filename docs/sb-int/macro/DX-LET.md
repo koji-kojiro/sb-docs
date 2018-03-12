@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BINDINGS &BODY FORMS)
+```cl
+(sb-impl::bindings &body sb-impl::forms)
 ```

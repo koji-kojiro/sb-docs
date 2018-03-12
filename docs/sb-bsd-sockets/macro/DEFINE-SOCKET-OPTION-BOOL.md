@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME LEVEL C-NAME &OPTIONAL FEATURES INFO)
+```cl
+(sb-bsd-sockets::name sb-bsd-sockets::level sb-bsd-sockets::c-name
+ &optional sb-bsd-sockets::features sb-bsd-sockets::info)
 ```

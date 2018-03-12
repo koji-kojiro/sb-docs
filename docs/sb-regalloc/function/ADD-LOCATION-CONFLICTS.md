@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TN SC OFFSET OPTIMIZE)
+```cl
+(sb-c:tn sb-regalloc::sc sb-regalloc::offset optimize)
 ```

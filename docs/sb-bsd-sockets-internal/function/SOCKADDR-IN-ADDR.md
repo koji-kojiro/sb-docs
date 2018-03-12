@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VAR-2 STRUCT)
+```cl
+(#:var-2 sb-alien:struct)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(POINTER UP DEBUG-FUN CODE-LOCATION NUMBER &OPTIONAL ESCAPED)
+```cl
+(sb-di::pointer sb-di::up sb-di:debug-fun sb-di:code-location number
+ &optional sb-di::escaped)
 ```

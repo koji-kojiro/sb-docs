@@ -4,7 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-((GF ARGS WRAPPERS INVALIDP NEMF &OPTIONAL TYPE INDEX CACHING-P APPLICABLE)
- &BODY BODY)
+```cl
+((sb-pcl::gf sb-pcl::args sb-pcl::wrappers sb-pcl::invalidp
+  sb-pcl::nemf &optional type sb-int:index sb-pcl::caching-p
+  sb-pcl::applicable)
+ &body sb-pcl::body)
 ```

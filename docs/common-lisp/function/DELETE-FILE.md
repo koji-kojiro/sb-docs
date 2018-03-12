@@ -9,6 +9,6 @@
 > per standard Unix unlink() behaviour.
 
 ### Lambda list
-```
-(FILE)
+```cl
+(sb-impl::file)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DIRECTIVES)
+```cl
+(sb-format::directives)
 ```

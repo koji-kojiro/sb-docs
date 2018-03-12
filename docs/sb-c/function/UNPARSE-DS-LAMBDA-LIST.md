@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PARSED-LAMBDA-LIST &KEY CACHE REMOVE-DEFAULTS)
+```cl
+(sb-c::parsed-lambda-list &key sb-c::cache sb-c::remove-defaults)
 ```

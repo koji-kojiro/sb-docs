@@ -4,7 +4,7 @@
 > No description.
 
 ### Value
-```
-#(ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen
-  nineteen)
+```cl
+#("ten" "eleven" "twelve" "thirteen" "fourteen" "fifteen" "sixteen"
+  "seventeen" "eighteen" "nineteen")
 ```

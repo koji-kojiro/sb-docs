@@ -7,6 +7,6 @@
 > be embedded in a symbol name.
 
 ### Lambda list
-```
-(CHAR &OPTIONAL RT-DESIGNATOR)
+```cl
+(char &optional sb-impl::rt-designator)
 ```

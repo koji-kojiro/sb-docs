@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FP SC-OFFSET VALUE &OPTIONAL ESCAPED)
+```cl
+(sb-di::fp sb-di::sc-offset sb-di::value &optional sb-di::escaped)
 ```

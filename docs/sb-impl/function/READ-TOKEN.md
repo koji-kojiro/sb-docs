@@ -5,6 +5,6 @@
 > extended <package-name>::<form-in-package> syntax.
 
 ### Lambda list
-```
-(STREAM FIRSTCHAR)
+```cl
+(stream sb-impl::firstchar)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FUN-DESIGNATOR ARGLISTS ACCUMULATE TAKE-CAR)
+```cl
+(sb-impl::fun-designator sb-impl::arglists sb-impl::accumulate
+ sb-impl::take-car)
 ```

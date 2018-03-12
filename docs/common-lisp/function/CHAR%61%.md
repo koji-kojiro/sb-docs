@@ -4,6 +4,6 @@
 > Return T if all of the arguments are the same character.
 
 ### Lambda list
-```
-(CHARACTER &REST MORE-CHARACTERS)
+```cl
+(character &rest sb-impl::more-characters)
 ```

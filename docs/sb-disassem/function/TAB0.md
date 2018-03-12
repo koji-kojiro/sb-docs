@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COLUMN STREAM)
+```cl
+(sb-disassem::column stream)
 ```

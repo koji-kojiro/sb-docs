@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ACCESSOR-TYPE ACCESSOR-CLASS METHODS)
+```cl
+(sb-pcl::accessor-type sb-pcl::accessor-class sb-pcl::methods)
 ```

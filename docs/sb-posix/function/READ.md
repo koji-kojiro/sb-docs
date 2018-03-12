@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD BUF COUNT)
+```cl
+(sb-posix::fd sb-posix::buf count)
 ```

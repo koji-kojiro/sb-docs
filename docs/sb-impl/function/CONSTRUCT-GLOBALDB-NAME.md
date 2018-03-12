@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(AUX-SYMBOL STEM)
+```cl
+(sb-impl::aux-symbol sb-impl::stem)
 ```

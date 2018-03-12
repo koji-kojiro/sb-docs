@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FOP-STACK CODE-OBJ)
+```cl
+(sb-c::fop-stack sb-c::code-obj)
 ```

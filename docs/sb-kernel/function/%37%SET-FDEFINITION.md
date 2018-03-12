@@ -4,6 +4,6 @@
 > Set NAME's global function definition.
 
 ### Lambda list
-```
-(NAME NEW-VALUE)
+```cl
+(sb-impl::name sb-impl::new-value)
 ```

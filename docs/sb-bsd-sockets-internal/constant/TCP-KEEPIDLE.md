@@ -4,6 +4,6 @@
 > Seconds between the last data packet sent and the first keepalive probe.
 
 ### Value
-```
+```cl
 4
 ```

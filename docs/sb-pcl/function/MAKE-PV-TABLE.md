@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (CACHE CACHE) (PV-SIZE PV-SIZE) (SLOT-NAME-LISTS SLOT-NAME-LISTS))
+```cl
+(&key (:cache #:cache) (:pv-size #:pv-size)
+ (:slot-name-lists #:slot-name-lists))
 ```

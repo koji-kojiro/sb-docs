@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PAIRS ENV)
+```cl
+(sb-eval::pairs sb-eval::env)
 ```

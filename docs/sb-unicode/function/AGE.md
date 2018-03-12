@@ -6,6 +6,6 @@
 > If CHARACTER is not assigned in Unicode, returns NIL for both values.
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

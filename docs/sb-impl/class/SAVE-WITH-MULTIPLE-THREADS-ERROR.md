@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(SAVE-WITH-MULTIPLE-THREADS-ERROR SAVE-ERROR ERROR SERIOUS-CONDITION
- SAVE-CONDITION REFERENCE-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-impl::save-with-multiple-threads-error sb-impl::save-error error
+ serious-condition sb-impl::save-condition sb-int:reference-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES INTERACTIVE-THREADS OTHER-THREADS)
+```cl
+(:references :interactive-threads :other-threads)
 ```

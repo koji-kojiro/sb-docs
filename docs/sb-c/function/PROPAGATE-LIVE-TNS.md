@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK1 BLOCK2 FASTP)
+```cl
+(sb-c::block1 sb-c::block2 sb-c::fastp)
 ```

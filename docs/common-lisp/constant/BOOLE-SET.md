@@ -4,6 +4,6 @@
 > Boole function op, makes BOOLE return -1.
 
 ### Value
-```
+```cl
 1
 ```

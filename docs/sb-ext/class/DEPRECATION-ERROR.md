@@ -6,11 +6,14 @@
 > a variable.
 
 ### Precedence list
-```
-(DEPRECATION-ERROR ERROR SERIOUS-CONDITION DEPRECATION-CONDITION
-                   REFERENCE-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-ext:deprecation-error error serious-condition
+                          sb-ext:deprecation-condition
+                          sb-int:reference-condition condition
+                          sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES NAMESPACE NAME REPLACEMENTS SOFTWARE VERSION RUNTIME-ERROR)
+```cl
+(:references :namespace :name :replacements :software :version
+ :runtime-error)
 ```

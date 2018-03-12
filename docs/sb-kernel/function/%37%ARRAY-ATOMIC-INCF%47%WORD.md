@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARRAY INDEX DIFF)
+```cl
+(array sb-int:index sb-impl::diff)
 ```

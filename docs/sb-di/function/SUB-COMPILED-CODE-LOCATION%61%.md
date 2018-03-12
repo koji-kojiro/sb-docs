@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJ1 OBJ2)
+```cl
+(sb-di::obj1 sb-di::obj2)
 ```

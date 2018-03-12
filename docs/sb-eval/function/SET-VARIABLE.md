@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SYMBOL VALUE ENV)
+```cl
+(symbol sb-eval::value sb-eval::env)
 ```

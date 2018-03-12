@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GF &OPTIONAL LIMIT)
+```cl
+(sb-pcl::gf &optional sb-pcl::limit)
 ```

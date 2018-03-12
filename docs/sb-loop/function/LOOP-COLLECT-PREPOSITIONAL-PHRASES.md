@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PREPOSITION-GROUPS &OPTIONAL USING-ALLOWED INITIAL-PHRASES)
+```cl
+(sb-loop::preposition-groups &optional sb-loop::using-allowed
+ sb-loop::initial-phrases)
 ```

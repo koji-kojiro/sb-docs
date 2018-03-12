@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME FLAVOR &OPTIONAL OFFSET)
+```cl
+(sb-c::name sb-c::flavor &optional sb-c::offset)
 ```

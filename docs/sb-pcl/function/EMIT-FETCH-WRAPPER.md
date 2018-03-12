@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(METATYPE ARGUMENT MISS-TAG &OPTIONAL SLOTS-VAR)
+```cl
+(sb-pcl::metatype sb-pcl::argument sb-pcl::miss-tag &optional
+ sb-pcl::slots-var)
 ```

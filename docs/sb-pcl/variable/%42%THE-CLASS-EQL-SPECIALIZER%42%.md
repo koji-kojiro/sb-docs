@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-MOP:EQL-SPECIALIZER>
+```cl
+#<standard-class sb-mop:eql-specializer>
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SCP ORIG-INST)
+```cl
+(sb-di::scp sb-di::orig-inst)
 ```

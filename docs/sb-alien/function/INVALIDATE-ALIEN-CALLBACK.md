@@ -6,6 +6,6 @@
 > callback signal an error.
 
 ### Lambda list
-```
-(ALIEN)
+```cl
+(sb-alien:alien)
 ```

@@ -4,6 +4,6 @@
 > True if THREAD, defaulting to current thread, is the main thread of the process.
 
 ### Lambda list
-```
-(&OPTIONAL THREAD)
+```cl
+(&optional sb-thread:thread)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-(BOGO-FUN-MAGIC-TAG)
+```cl
+(:bogo-fun-magic-tag)
 ```

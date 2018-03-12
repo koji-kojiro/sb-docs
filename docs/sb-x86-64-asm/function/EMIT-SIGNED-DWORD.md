@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT VALUE)
+```cl
+(sb-x86-64-asm::segment sb-x86-64-asm::value)
 ```

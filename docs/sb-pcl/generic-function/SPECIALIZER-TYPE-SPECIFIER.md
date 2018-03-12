@@ -23,6 +23,6 @@
 > protocol. Interface subject to change.
 
 ### Lambda list
-```
-(PROTO-GENERIC-FUNCTION PROTO-METHOD SPECIALIZER)
+```cl
+(sb-pcl::proto-generic-function sb-pcl::proto-method sb-mop:specializer)
 ```

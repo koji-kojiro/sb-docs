@@ -5,6 +5,6 @@
 > with respect to other DEBUG-VARs in the same function.
 
 ### Lambda list
-```
-(INSTANCE)
+```cl
+(sb-kernel:instance)
 ```

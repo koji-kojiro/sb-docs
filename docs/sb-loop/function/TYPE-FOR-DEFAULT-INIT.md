@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE &OPTIONAL STEP-VAR-P)
+```cl
+(type &optional sb-loop::step-var-p)
 ```

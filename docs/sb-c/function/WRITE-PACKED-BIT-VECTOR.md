@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BITS BYTE-BUFFER)
+```cl
+(sb-c::bits sb-c::byte-buffer)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ACCESS-TYPES PKG-DESIGNATOR-LIST)
+```cl
+(sb-impl::access-types sb-impl::pkg-designator-list)
 ```

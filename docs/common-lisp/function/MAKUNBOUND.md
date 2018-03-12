@@ -4,6 +4,6 @@
 > Make SYMBOL unbound, removing any value it may currently have.
 
 ### Lambda list
-```
-(SYMBOL)
+```cl
+(symbol)
 ```

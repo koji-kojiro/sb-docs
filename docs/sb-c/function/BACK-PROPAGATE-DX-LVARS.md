@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK DX-LVARS)
+```cl
+(block sb-c::dx-lvars)
 ```

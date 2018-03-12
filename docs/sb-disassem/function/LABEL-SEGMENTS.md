@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGLIST DSTATE)
+```cl
+(sb-disassem::seglist sb-disassem::dstate)
 ```

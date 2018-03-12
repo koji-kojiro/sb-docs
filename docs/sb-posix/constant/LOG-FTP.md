@@ -4,6 +4,6 @@
 > openlog() facility for FTP daemons
 
 ### Value
-```
+```cl
 88
 ```

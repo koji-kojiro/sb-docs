@@ -16,6 +16,6 @@
 > line break.
 
 ### Lambda list
-```
-(RELATIVE-TO N &OPTIONAL STREAM)
+```cl
+(sb-pretty::relative-to sb-pretty::n &optional stream)
 ```

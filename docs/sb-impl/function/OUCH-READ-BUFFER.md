@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CHAR BUFFER)
+```cl
+(char sb-impl::buffer)
 ```

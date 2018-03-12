@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (REGISTER-ARGS REGISTER-ARGS) (XMM-ARGS XMM-ARGS)
- (STACK-FRAME-SIZE STACK-FRAME-SIZE))
+```cl
+(&key (:register-args #:register-args) (:xmm-args #:xmm-args)
+ (:stack-frame-size #:stack-frame-size))
 ```

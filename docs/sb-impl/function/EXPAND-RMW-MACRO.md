@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION BEFORE-ARG-FORMS PLACE AFTER-ARG-FORMS AFTER-ARGS-BINDP ENVIRONMENT
- NAME-HINTS)
+```cl
+(function sb-impl::before-arg-forms sb-impl::place
+ sb-impl::after-arg-forms sb-impl::after-args-bindp
+ sb-impl::environment sb-impl::name-hints)
 ```

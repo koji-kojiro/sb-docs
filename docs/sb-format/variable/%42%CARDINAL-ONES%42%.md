@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#(NIL one two three four five six seven eight nine)
+```cl
+#(nil "one" "two" "three" "four" "five" "six" "seven" "eight" "nine")
 ```

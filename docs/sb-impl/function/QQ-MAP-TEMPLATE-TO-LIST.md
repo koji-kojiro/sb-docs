@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INPUT DEPTH COMPILER-P)
+```cl
+(sb-impl::input sb-impl::depth sb-impl::compiler-p)
 ```

@@ -4,6 +4,6 @@
 > Used by FILE-POSITION. Returns or changes the current position within STREAM.
 
 ### Lambda list
-```
-(STREAM &OPTIONAL POSITION-SPEC)
+```cl
+(stream &optional sb-gray::position-spec)
 ```

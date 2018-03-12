@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BODY OLD-ENV)
+```cl
+(sb-eval::body sb-eval::old-env)
 ```

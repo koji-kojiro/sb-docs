@@ -10,6 +10,6 @@
 > can be performed on SOCKET.
 
 ### Lambda list
-```
-(SOCKET &KEY DIRECTION)
+```cl
+(sb-bsd-sockets:socket &key sb-bsd-sockets::direction)
 ```

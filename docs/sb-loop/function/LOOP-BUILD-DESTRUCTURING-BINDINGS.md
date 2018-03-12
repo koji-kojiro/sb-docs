@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CROCKS FORMS)
+```cl
+(sb-loop::crocks sb-loop::forms)
 ```

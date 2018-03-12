@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PROTO-GENERIC-FUNCTION PROTO-METHOD LAMBDA-EXPRESSION ENVIRONMENT)
+```cl
+(sb-pcl::proto-generic-function sb-pcl::proto-method
+ sb-pcl::lambda-expression sb-pcl::environment)
 ```

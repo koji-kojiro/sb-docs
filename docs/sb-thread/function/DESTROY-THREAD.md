@@ -6,6 +6,6 @@
 > Use SB-THREAD:TERMINATE-THREAD instead.
 
 ### Lambda list
-```
-(THREAD)
+```cl
+(sb-thread:thread)
 ```

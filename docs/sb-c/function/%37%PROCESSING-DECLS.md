@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(DECLS VARS FVARS CTRAN LVAR BINDING-FORM-P FUN)
+```cl
+(sb-c::decls sb-c::vars sb-c::fvars sb-c::ctran sb-c::lvar
+ sb-c::binding-form-p sb-c::fun)
 ```

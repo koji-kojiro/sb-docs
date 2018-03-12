@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARRAY START END)
+```cl
+(array sb-impl::start sb-impl::end)
 ```

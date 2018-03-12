@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM ARG COLONP ATSIGNP MINCOL COLINC MINPAD PADCHAR)
+```cl
+(stream sb-format::arg sb-format::colonp sb-format::atsignp
+ sb-format::mincol sb-format::colinc sb-format::minpad
+ sb-format::padchar)
 ```

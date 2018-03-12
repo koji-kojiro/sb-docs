@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THING &KEY SOURCE-NAME DEBUG-NAME)
+```cl
+(sb-c::thing &key sb-c::source-name sb-c::debug-name)
 ```

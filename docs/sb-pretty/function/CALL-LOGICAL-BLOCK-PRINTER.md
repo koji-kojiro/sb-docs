@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PROC STREAM PREFIX PER-LINE-P SUFFIX &OPTIONAL OBJECT)
+```cl
+(sb-pretty::proc stream sb-pretty::prefix sb-pretty::per-line-p
+ sb-pretty::suffix &optional sb-pretty::object)
 ```

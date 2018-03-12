@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT DST SRC SIGNED-P)
+```cl
+(sb-x86-64-asm::segment sb-x86-64-asm::dst sb-x86-64-asm::src
+ sb-x86-64-asm::signed-p)
 ```

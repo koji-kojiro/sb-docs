@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATHNAME AS-FILE)
+```cl
+(pathname sb-impl::as-file)
 ```

@@ -50,6 +50,6 @@
 > Experimental: interface subject to change.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-introspect::object)
 ```

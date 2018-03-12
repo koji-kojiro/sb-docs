@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME REPORT)
+```cl
+(sb-kernel::name sb-kernel::report)
 ```

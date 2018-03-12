@@ -40,6 +40,6 @@
 > (condition-notify *queue*)))
 
 ### Lambda list
-```
-(QUEUE MUTEX &KEY TIMEOUT)
+```cl
+(sb-thread::queue sb-thread:mutex &key sb-thread::timeout)
 ```

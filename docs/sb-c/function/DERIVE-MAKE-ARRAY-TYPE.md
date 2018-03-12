@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(DIMS ELEMENT-TYPE ADJUSTABLE FILL-POINTER DISPLACED-TO NODE)
+```cl
+(sb-c::dims sb-c::element-type sb-c::adjustable fill-pointer
+ sb-c::displaced-to sb-c::node)
 ```

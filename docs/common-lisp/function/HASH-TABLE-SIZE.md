@@ -6,6 +6,6 @@
 > having to be grown.
 
 ### Lambda list
-```
-(HASH-TABLE)
+```cl
+(hash-table)
 ```

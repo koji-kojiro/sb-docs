@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SLOT-DEFINITION)
+```cl
+(sb-mop:slot-definition)
 ```

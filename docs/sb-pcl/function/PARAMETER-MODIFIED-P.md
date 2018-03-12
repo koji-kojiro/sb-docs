@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PARAMETER-NAME ENV)
+```cl
+(sb-pcl::parameter-name sb-pcl::env)
 ```

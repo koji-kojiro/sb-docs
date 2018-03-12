@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HEAP)
+```cl
+(sb-impl::heap)
 ```

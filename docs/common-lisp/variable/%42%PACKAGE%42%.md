@@ -4,6 +4,6 @@
 > the current package
 
 ### Value
-```
-#<PACKAGE "SB-DOCS">
+```cl
+#<package "sb-docs">
 ```

@@ -4,6 +4,6 @@
 > Return true if Object is a symbol in the "KEYWORD" package.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

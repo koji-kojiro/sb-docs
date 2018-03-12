@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-EOF-OBJECT
+```cl
+#:eof-object
 ```

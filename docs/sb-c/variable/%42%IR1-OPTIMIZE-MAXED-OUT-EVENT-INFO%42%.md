@@ -4,12 +4,12 @@
 > No description.
 
 ### Value
-```
-#S(SB-C::EVENT-INFO
-   :NAME IR1-OPTIMIZE-MAXED-OUT
-   :DESCRIPTION hit *MAX-OPTIMIZE-ITERATIONS* limit
-   :VAR *IR1-OPTIMIZE-MAXED-OUT-EVENT-INFO*
-   :COUNT 0
-   :LEVEL 0
-   :ACTION NIL)
+```cl
+#s(sb-c::event-info
+   :name sb-c::ir1-optimize-maxed-out
+   :description "hit *max-optimize-iterations* limit"
+   :var sb-c::*ir1-optimize-maxed-out-event-info*
+   :count 0
+   :level 0
+   :action nil)
 ```

@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (WIDTH WIDTH) (SIGNEDP SIGNEDP) (LAMBDA-LIST LAMBDA-LIST)
- (PROTOTYPE PROTOTYPE))
+```cl
+(&key (:name #:name) (:width #:width) (:signedp #:signedp)
+ (:lambda-list #:lambda-list) (:prototype #:prototype))
 ```

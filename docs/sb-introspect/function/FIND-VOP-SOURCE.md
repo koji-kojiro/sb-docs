@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME)
+```cl
+(sb-introspect::name)
 ```

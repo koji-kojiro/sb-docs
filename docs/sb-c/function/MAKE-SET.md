@@ -4,8 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NUMBER NUMBER) (REOPTIMIZE REOPTIMIZE) (NEXT NEXT) (PREV PREV)
- (LEXENV LEXENV) (SOURCE-PATH SOURCE-PATH) (TAIL-P TAIL-P)
- (DERIVED-TYPE DERIVED-TYPE) (LVAR LVAR) (VAR VAR) (VALUE VALUE))
+```cl
+(&key (:number #:number) (:reoptimize #:reoptimize) (:next #:next)
+ (:prev #:prev) (:lexenv #:lexenv) (:source-path #:source-path)
+ (:tail-p #:tail-p) (:derived-type #:derived-type) (:lvar #:lvar)
+ (:var #:var) (:value #:value))
 ```

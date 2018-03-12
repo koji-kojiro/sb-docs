@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CHAR WHICHCLASS RT)
+```cl
+(char sb-impl::whichclass sb-impl::rt)
 ```

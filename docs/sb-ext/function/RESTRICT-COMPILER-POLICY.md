@@ -15,6 +15,6 @@
 > See also :POLICY option in WITH-COMPILATION-UNIT.
 
 ### Lambda list
-```
-(&OPTIONAL QUALITY MIN MAX)
+```cl
+(&optional sb-c::quality min max)
 ```

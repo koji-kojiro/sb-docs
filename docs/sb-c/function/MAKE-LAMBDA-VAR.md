@@ -4,14 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NUMBER NUMBER) (%SOURCE-NAME %SOURCE-NAME) (TYPE TYPE)
- (DEFINED-TYPE DEFINED-TYPE) (WHERE-FROM WHERE-FROM) (REFS REFS)
- (EVER-USED EVER-USED) (EXTENT EXTENT) (INFO INFO) (SETS SETS) (FLAGS FLAGS)
- (HOME HOME) (ARG-INFO ARG-INFO) (SPECVAR SPECVAR) (CONSTRAINTS CONSTRAINTS)
- (CTYPE-CONSTRAINTS CTYPE-CONSTRAINTS) (EQ-CONSTRAINTS EQ-CONSTRAINTS)
- (EQL-VAR-CONSTRAINTS EQL-VAR-CONSTRAINTS)
- (INHERITABLE-CONSTRAINTS INHERITABLE-CONSTRAINTS)
- (PRIVATE-CONSTRAINTS PRIVATE-CONSTRAINTS)
- (LAST-INITIAL-TYPE LAST-INITIAL-TYPE) (FOP-VALUE FOP-VALUE))
+```cl
+(&key (:number #:number) (:%source-name #:%source-name) (:type #:type)
+ (:defined-type #:defined-type) (:where-from #:where-from)
+ (:refs #:refs) (:ever-used #:ever-used) (:extent #:extent)
+ (:info #:info) (:sets #:sets) (:flags #:flags) (:home #:home)
+ (:arg-info #:arg-info) (:specvar #:specvar)
+ (:constraints #:constraints) (:ctype-constraints #:ctype-constraints)
+ (:eq-constraints #:eq-constraints)
+ (:eql-var-constraints #:eql-var-constraints) ..)
 ```

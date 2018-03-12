@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(PEEK-TYPE EOF-VALUE CHAR-VAR READ-FORM READ-EOF UNREAD-FORM &OPTIONAL
- SKIPPED-CHAR-FORM EOF-DETECTED-FORM)
+```cl
+(sb-impl::peek-type sb-impl::eof-value sb-impl::char-var
+ sb-impl::read-form sb-impl::read-eof sb-impl::unread-form &optional
+ sb-impl::skipped-char-form sb-impl::eof-detected-form)
 ```

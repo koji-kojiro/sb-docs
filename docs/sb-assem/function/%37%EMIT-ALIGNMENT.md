@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT VOP BITS &OPTIONAL PATTERN)
+```cl
+(sb-assem:segment sb-assem::vop sb-assem::bits &optional
+ sb-assem::pattern)
 ```

@@ -7,6 +7,6 @@
 > form to reference any of the previous VARS.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

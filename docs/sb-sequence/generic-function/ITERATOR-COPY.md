@@ -5,6 +5,6 @@
 > be mutated independently of ITERATOR.
 
 ### Lambda list
-```
-(SEQUENCE ITERATOR)
+```cl
+(sequence sb-impl::iterator)
 ```

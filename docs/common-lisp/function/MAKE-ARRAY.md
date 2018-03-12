@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(DIMENSIONS &REST ARGS &KEY ELEMENT-TYPE INITIAL-ELEMENT INITIAL-CONTENTS
- ADJUSTABLE FILL-POINTER DISPLACED-TO DISPLACED-INDEX-OFFSET)
+```cl
+(sb-impl::dimensions &rest sb-impl::args &key sb-impl::element-type
+ sb-impl::initial-element sb-impl::initial-contents sb-impl::adjustable
+ fill-pointer sb-impl::displaced-to sb-impl::displaced-index-offset)
 ```

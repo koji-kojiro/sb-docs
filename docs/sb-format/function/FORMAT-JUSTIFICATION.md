@@ -4,7 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM NEWLINE-PREFIX EXTRA-SPACE LINE-LEN STRINGS PAD-LEFT PAD-RIGHT MINCOL
- COLINC MINPAD PADCHAR)
+```cl
+(stream sb-format::newline-prefix sb-format::extra-space
+ sb-format::line-len sb-format::strings sb-format::pad-left
+ sb-format::pad-right sb-format::mincol sb-format::colinc
+ sb-format::minpad sb-format::padchar)
 ```

@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(PATHNAME-UNPARSE-ERROR FILE-ERROR ERROR SERIOUS-CONDITION SIMPLE-CONDITION
- CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel::pathname-unparse-error file-error error serious-condition
+ simple-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS PATHNAME PROBLEM)
+```cl
+(:format-control :format-arguments :pathname :problem)
 ```

@@ -4,6 +4,6 @@
 > Return T iff TYPE1 and TYPE2 describe equivalent alien types.
 
 ### Lambda list
-```
-(TYPE1 TYPE2)
+```cl
+(sb-alien::type1 sb-alien::type2)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STATE PRIM-TYPE REG-SC STACK-SC)
+```cl
+(sb-vm::state sb-vm::prim-type sb-vm::reg-sc sb-vm::stack-sc)
 ```

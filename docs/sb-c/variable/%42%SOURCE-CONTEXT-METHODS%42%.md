@@ -4,19 +4,13 @@
 > No description.
 
 ### Value
-```
-(DEFMETHOD #<FUNCTION (LAMBDA (#:WHOLE0)
-                        :IN
-                        "SYS:SRC;PCL;COMPILER-SUPPORT.LISP") {224A3C4B}> NAMED-LAMBDA
-           #<FUNCTION (LAMBDA (#:WHOLE0)
-                        :IN
-                        "SYS:SRC;COMPILER;IR1REPORT.LISP") {221A1CCB}>
-  FUNCTION
-  #<FUNCTION (LAMBDA (#:WHOLE0)
-               :IN
-               "SYS:SRC;COMPILER;IR1REPORT.LISP") {221A1AEB}>
-  DEFSTRUCT
-  #<FUNCTION (LAMBDA (#:WHOLE0)
-               :IN
-               "SYS:SRC;COMPILER;IR1REPORT.LISP") {221A199B}>)
+```cl
+(defmethod #<function (lambda (#:whole0)
+                        :in
+                        "sys:src;pcl;compiler-support.lisp") {224a3c4b}> sb-int:named-lambda
+           #<function (lambda (#:whole0)
+                        :in
+                        "sys:src;compiler;ir1report.lisp") {221a1ccb}>
+  function
+  #<function (lambda (#:whole0) ..)>)
 ```

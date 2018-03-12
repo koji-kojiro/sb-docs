@@ -6,6 +6,6 @@
 > Use SB-THREAD:RELEASE-MUTEX instead.
 
 ### Lambda list
-```
-(LOCK)
+```cl
+(sb-thread::lock)
 ```

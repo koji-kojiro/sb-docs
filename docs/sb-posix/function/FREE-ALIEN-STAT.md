@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT16)
+```cl
+(#:object16)
 ```

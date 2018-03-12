@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL OBJ)
+```cl
+(&optional sb-alien::obj)
 ```

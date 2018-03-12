@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SIZE POSN INTEGER)
+```cl
+(sb-kernel::size sb-kernel::posn integer)
 ```

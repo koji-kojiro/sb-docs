@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((NAME &KEY CONC-NAME IDENTITY) &REST SLOT-DESCS)
+```cl
+((sb-impl::name &key sb-impl::conc-name identity) &rest
+ sb-impl::slot-descs)
 ```

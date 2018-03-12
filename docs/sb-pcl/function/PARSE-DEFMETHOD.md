@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CDR-OF-FORM)
+```cl
+(sb-pcl::cdr-of-form)
 ```

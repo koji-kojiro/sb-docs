@@ -6,6 +6,6 @@
 > for any other type of OBJECT.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

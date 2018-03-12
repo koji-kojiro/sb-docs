@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPEC RES FVARS)
+```cl
+(sb-c::spec sb-c::res sb-c::fvars)
 ```

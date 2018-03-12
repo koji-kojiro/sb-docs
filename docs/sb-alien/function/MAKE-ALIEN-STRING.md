@@ -11,6 +11,7 @@
 > null byte.
 
 ### Lambda list
-```
-(STRING &REST REST &KEY START END EXTERNAL-FORMAT NULL-TERMINATE)
+```cl
+(string &rest rest &key sb-alien::start sb-alien::end
+        sb-alien::external-format sb-alien::null-terminate)
 ```

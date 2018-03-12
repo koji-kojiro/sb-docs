@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X &OPTIONAL ALIGNED)
+```cl
+(sb-di::x &optional sb-di::aligned)
 ```

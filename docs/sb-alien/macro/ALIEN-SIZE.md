@@ -5,6 +5,6 @@
 > use and can be either :BITS, :BYTES, or :WORDS.
 
 ### Lambda list
-```
-(TYPE &OPTIONAL UNITS)
+```cl
+(type &optional sb-alien::units)
 ```

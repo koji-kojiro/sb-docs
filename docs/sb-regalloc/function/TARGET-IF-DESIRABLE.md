@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(READ WRITE)
+```cl
+(read write)
 ```

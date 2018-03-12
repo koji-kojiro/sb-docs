@@ -4,6 +4,6 @@
 > Cancel all finalizations for OBJECT.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

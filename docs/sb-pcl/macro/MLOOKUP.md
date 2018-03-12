@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KEY INFO DEFAULT &OPTIONAL EQ-P TYPE)
+```cl
+(sb-pcl::key sb-int:info sb-pcl::default &optional sb-pcl::eq-p type)
 ```

@@ -4,7 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS QUALIFIERS LAMBDA-LIST SPECIALIZERS INITARGS DOC &REST ARGS &KEY
- SLOT-NAME OBJECT-CLASS METHOD-CLASS-FUNCTION (SOURCE SOURCE))
+```cl
+(class sb-pcl::qualifiers sb-pcl::lambda-list sb-pcl::specializers
+ sb-pcl::initargs sb-pcl::doc &rest sb-pcl::args &key sb-pcl::slot-name
+ sb-pcl::object-class sb-pcl::method-class-function
+ (sb-pcl::source sb-pcl::source))
 ```

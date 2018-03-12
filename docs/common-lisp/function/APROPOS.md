@@ -7,6 +7,6 @@
 > external symbols in the specified package.
 
 ### Lambda list
-```
-(STRING-DESIGNATOR &OPTIONAL PACKAGE EXTERNAL-ONLY)
+```cl
+(sb-kernel:string-designator &optional package sb-impl::external-only)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE-FORM MISS-FN ARGLIST)
+```cl
+(sb-pcl::value-form sb-pcl::miss-fn sb-pcl::arglist)
 ```

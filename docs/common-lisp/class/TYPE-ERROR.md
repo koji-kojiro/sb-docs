@@ -4,10 +4,10 @@
 > No description.
 
 ### Precedence list
-```
-(TYPE-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(type-error error serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(DATUM EXPECTED-TYPE CONTEXT)
+```cl
+(:datum :expected-type :context)
 ```

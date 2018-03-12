@@ -4,6 +4,6 @@
 > write on a pipe with no reader.
 
 ### Value
-```
+```cl
 13
 ```

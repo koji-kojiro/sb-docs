@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LOCATION X)
+```cl
+(sb-c::location sb-c::x)
 ```

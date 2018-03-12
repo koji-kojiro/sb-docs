@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(INTERPRETED-PROGRAM-ERROR PROGRAM-ERROR ERROR SERIOUS-CONDITION
- SIMPLE-CONDITION ENCAPSULATED-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-eval::interpreted-program-error program-error error
+ serious-condition simple-condition sb-int:encapsulated-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(CONDITION FORMAT-CONTROL FORMAT-ARGUMENTS)
+```cl
+(:condition :format-control :format-arguments)
 ```

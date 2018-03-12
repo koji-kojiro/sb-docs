@@ -4,6 +4,6 @@
 > Cause an error.  ERROR-CODE is the error to cause.
 
 ### Lambda list
-```
-(VOP ERROR-CODE &REST VALUES)
+```cl
+(sb-vm::vop sb-vm::error-code &rest values)
 ```

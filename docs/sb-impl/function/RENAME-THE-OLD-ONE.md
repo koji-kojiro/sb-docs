@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAMESTRING ORIGINAL)
+```cl
+(namestring sb-impl::original)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INPUT MIN MAX PATTERN VALID-KEYS)
+```cl
+(sb-c::input min max sb-c::pattern sb-c::valid-keys)
 ```

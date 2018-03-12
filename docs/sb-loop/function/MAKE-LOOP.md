@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SOURCE-CODE MACRO-ENVIRONMENT UNIVERSE)
+```cl
+(sb-loop::source-code sb-loop::macro-environment sb-loop::universe)
 ```

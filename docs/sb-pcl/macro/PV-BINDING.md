@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-((REQUIRED-PARAMETERS SLOT-NAME-LISTS PV-TABLE-FORM) &BODY BODY)
+```cl
+((sb-pcl::required-parameters sb-pcl::slot-name-lists
+  sb-pcl::pv-table-form)
+ &body sb-pcl::body)
 ```

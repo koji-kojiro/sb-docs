@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEQUENCE INDEX)
+```cl
+(sequence sb-int:index)
 ```

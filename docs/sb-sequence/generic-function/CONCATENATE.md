@@ -13,6 +13,6 @@
 > class.
 
 ### Lambda list
-```
-(RESULT-PROTOTYPE &REST SEQUENCES)
+```cl
+(sb-impl::result-prototype &rest sb-impl::sequences)
 ```

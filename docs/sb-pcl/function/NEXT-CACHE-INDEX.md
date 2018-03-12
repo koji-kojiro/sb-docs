@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(MASK INDEX LINE-SIZE)
+```cl
+(sb-pcl::mask sb-int:index sb-pcl::line-size)
 ```

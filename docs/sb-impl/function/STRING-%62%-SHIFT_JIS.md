@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRING SSTART SEND ADDITIONAL-SPACE)
+```cl
+(string sb-impl::sstart sb-impl::send sb-impl::additional-space)
 ```

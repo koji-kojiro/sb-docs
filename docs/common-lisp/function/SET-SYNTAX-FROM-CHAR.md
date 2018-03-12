@@ -6,6 +6,7 @@
 > standard Lisp readtable when NIL.
 
 ### Lambda list
-```
-(TO-CHAR FROM-CHAR &OPTIONAL TO-READTABLE FROM-READTABLE)
+```cl
+(sb-impl::to-char sb-impl::from-char &optional sb-impl::to-readtable
+ sb-impl::from-readtable)
 ```

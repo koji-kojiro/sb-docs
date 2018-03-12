@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ARRAY START END &KEY ELEMENT-TYPE CHECK-BOUNDS CHECK-FILL-POINTER
- ARRAY-HEADER-P)
+```cl
+(array sb-c::start sb-c::end &key sb-c::element-type sb-c::check-bounds
+ sb-c::check-fill-pointer sb-kernel:array-header-p)
 ```

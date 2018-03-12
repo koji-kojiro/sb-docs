@@ -4,11 +4,12 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (DEFSTRUCT-NAME DEFSTRUCT-NAME) (INCLUDE INCLUDE)
- (UNPARSE UNPARSE) (TYPE= TYPE=) (LISP-REP LISP-REP) (ALIEN-REP ALIEN-REP)
- (EXTRACT-GEN EXTRACT-GEN) (DEPOSIT-GEN DEPOSIT-GEN)
- (NATURALIZE-GEN NATURALIZE-GEN) (DEPORT-GEN DEPORT-GEN)
- (DEPORT-ALLOC-GEN DEPORT-ALLOC-GEN) (DEPORT-PIN-P DEPORT-PIN-P)
- (ARG-TN ARG-TN) (RESULT-TN RESULT-TN) (SUBTYPEP SUBTYPEP))
+```cl
+(&key (:name #:name) (:defstruct-name #:defstruct-name)
+ (:include #:include) (:unparse #:unparse) (:type= #:type=)
+ (:lisp-rep #:lisp-rep) (:alien-rep #:alien-rep)
+ (:extract-gen #:extract-gen) (:deposit-gen #:deposit-gen)
+ (:naturalize-gen #:naturalize-gen) (:deport-gen #:deport-gen)
+ (:deport-alloc-gen #:deport-alloc-gen) (:deport-pin-p #:deport-pin-p)
+ (:arg-tn #:arg-tn) (:result-tn #:result-tn) (:subtypep #:subtypep))
 ```

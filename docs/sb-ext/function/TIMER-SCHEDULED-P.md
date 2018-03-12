@@ -5,6 +5,6 @@
 > from now. For timers with a repeat interval it returns true.
 
 ### Lambda list
-```
-(TIMER &KEY DELTA)
+```cl
+(sb-ext:timer &key sb-impl::delta)
 ```

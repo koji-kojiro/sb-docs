@@ -5,6 +5,7 @@
 > T on success.
 
 ### Lambda list
-```
-(PATHSPEC &KEY VERBOSE PRINT IF-DOES-NOT-EXIST EXTERNAL-FORMAT)
+```cl
+(sb-fasl::pathspec &key sb-fasl::verbose print
+ sb-fasl::if-does-not-exist sb-fasl::external-format)
 ```

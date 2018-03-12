@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DESCRIPTION NAMED-P ELEMENTS STREAM)
+```cl
+(sb-impl::description sb-impl::named-p sb-impl::elements stream)
 ```

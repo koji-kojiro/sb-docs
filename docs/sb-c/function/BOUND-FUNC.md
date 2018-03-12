@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(F X STRICT)
+```cl
+(sb-c::f sb-c::x sb-c::strict)
 ```

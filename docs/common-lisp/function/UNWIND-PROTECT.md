@@ -8,6 +8,6 @@
 > due to normal completion or a non-local exit such as THROW).
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

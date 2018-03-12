@@ -7,6 +7,6 @@
 > to the null environment.
 
 ### Lambda list
-```
-(FORM &OPTIONAL ENV)
+```cl
+(sb-kernel:form &optional sb-impl::env)
 ```

@@ -19,6 +19,6 @@
 > EXPERIMENTAL: Interface subject to change.
 
 ### Lambda list
-```
-(PLACE OLD NEW)
+```cl
+(sb-impl::place sb-impl::old sb-impl::new)
 ```

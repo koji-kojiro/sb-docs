@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(POLLFDS NFDS TO-MSEC)
+```cl
+(sb-unix::pollfds sb-unix::nfds sb-unix::to-msec)
 ```

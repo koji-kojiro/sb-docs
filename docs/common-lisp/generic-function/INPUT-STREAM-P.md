@@ -4,6 +4,6 @@
 > Can STREAM perform input operations?
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

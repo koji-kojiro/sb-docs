@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS TABLE)
+```cl
+(class sb-pcl::table)
 ```

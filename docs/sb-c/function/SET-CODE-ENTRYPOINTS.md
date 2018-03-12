@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CODE OFFSETS)
+```cl
+(sb-c::code sb-c::offsets)
 ```

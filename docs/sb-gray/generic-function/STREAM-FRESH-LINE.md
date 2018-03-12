@@ -7,6 +7,6 @@
 > STREAM-START-LINE-P and STREAM-TERPRI.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

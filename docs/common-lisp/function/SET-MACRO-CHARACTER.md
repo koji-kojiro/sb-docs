@@ -6,6 +6,7 @@
 > character non-terminating, i.e. embeddable in a symbol name.
 
 ### Lambda list
-```
-(CHAR FUNCTION &OPTIONAL NON-TERMINATINGP RT-DESIGNATOR)
+```cl
+(char function &optional sb-impl::non-terminatingp
+      sb-impl::rt-designator)
 ```

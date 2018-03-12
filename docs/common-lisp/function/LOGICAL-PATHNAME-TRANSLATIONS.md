@@ -4,6 +4,6 @@
 > Set the translations list for the logical host argument.
 
 ### Lambda list
-```
-(TRANSLATIONS HOST)
+```cl
+(sb-impl::translations sb-kernel:host)
 ```

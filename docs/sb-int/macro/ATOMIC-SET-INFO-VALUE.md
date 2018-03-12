@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CATEGORY KIND NAME LAMBDA)
+```cl
+(sb-impl::category sb-impl::kind sb-impl::name lambda)
 ```

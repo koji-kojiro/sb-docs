@@ -4,6 +4,6 @@
 > Enable local address reuse
 
 ### Value
-```
+```cl
 2
 ```

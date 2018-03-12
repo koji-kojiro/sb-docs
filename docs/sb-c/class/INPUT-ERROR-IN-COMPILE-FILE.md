@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(INPUT-ERROR-IN-COMPILE-FILE READER-ERROR PARSE-ERROR STREAM-ERROR ERROR
- SERIOUS-CONDITION ENCAPSULATED-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-c::input-error-in-compile-file reader-error parse-error
+ stream-error error serious-condition sb-int:encapsulated-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(CONDITION STREAM POSITION LINE/COL INVOKER)
+```cl
+(:condition :stream :position :line/col :invoker)
 ```

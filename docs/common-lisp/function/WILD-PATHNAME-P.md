@@ -4,6 +4,6 @@
 > Predicate for determining whether pathname contains any wildcards.
 
 ### Lambda list
-```
-(PATHNAME &OPTIONAL FIELD-KEY)
+```cl
+(pathname &optional sb-impl::field-key)
 ```

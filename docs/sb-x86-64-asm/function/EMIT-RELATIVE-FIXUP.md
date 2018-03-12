@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT FIXUP)
+```cl
+(sb-x86-64-asm::segment sb-c:fixup)
 ```

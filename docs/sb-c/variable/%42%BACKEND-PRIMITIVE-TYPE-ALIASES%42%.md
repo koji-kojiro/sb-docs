@@ -4,11 +4,13 @@
 > No description.
 
 ### Value
-```
-((SIMD-PACK OR SIMD-PACK-SINGLE SIMD-PACK-DOUBLE SIMD-PACK-INT)
- (UNTAGGED-NUM OR FIXNUM POSITIVE-FIXNUM SIGNED-BYTE-64 UNSIGNED-BYTE-63
-  UNSIGNED-BYTE-64)
- (SIGNED-NUM OR SIGNED-BYTE-64 FIXNUM UNSIGNED-BYTE-63 POSITIVE-FIXNUM)
- (UNSIGNED-NUM OR UNSIGNED-BYTE-64 UNSIGNED-BYTE-63 POSITIVE-FIXNUM)
- (TAGGED-NUM OR POSITIVE-FIXNUM FIXNUM))
+```cl
+((sb-ext:simd-pack :or sb-kernel:simd-pack-single
+  sb-kernel:simd-pack-double sb-kernel:simd-pack-int)
+ (sb-vm::untagged-num :or fixnum sb-vm::positive-fixnum
+  sb-vm::signed-byte-64 sb-vm::unsigned-byte-63
+  sb-vm::unsigned-byte-64)
+ (sb-vm::signed-num :or sb-vm::signed-byte-64 fixnum
+  sb-vm::unsigned-byte-63 sb-vm::positive-fixnum)
+ (sb-vm::unsigned-num :or sb-vm::unsigned-byte-64 ..))
 ```

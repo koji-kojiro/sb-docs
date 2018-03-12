@@ -6,6 +6,6 @@
 > Use SB-SYS:OS-EXIT instead.
 
 ### Lambda list
-```
-(CODE)
+```cl
+(sb-unix::code)
 ```

@@ -9,6 +9,6 @@
 > that have a digit value but no decimal digit value
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

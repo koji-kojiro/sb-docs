@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(REF IR2-BLOCK FUNCTIONAL RES)
+```cl
+(sb-c::ref sb-c::ir2-block sb-c::functional sb-c::res)
 ```

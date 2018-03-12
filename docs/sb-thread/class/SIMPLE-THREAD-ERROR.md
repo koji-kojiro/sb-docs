@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(SIMPLE-THREAD-ERROR THREAD-ERROR ERROR SERIOUS-CONDITION SIMPLE-CONDITION
- CONDITION SLOT-OBJECT T)
+```cl
+(sb-thread::simple-thread-error sb-thread:thread-error error
+ serious-condition simple-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS THREAD)
+```cl
+(:format-control :format-arguments :thread)
 ```

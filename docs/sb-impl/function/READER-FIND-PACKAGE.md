@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PACKAGE-DESIGNATOR STREAM)
+```cl
+(sb-kernel:package-designator stream)
 ```

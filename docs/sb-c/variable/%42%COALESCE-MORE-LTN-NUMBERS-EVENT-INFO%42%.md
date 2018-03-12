@@ -4,12 +4,12 @@
 > No description.
 
 ### Value
-```
-#S(SB-C::EVENT-INFO
-   :NAME COALESCE-MORE-LTN-NUMBERS
-   :DESCRIPTION Coalesced LTN numbers for a more operand to meet LOCAL-TN-LIMIT.
-   :VAR *COALESCE-MORE-LTN-NUMBERS-EVENT-INFO*
-   :COUNT 0
-   :LEVEL 0
-   :ACTION NIL)
+```cl
+#s(sb-c::event-info
+   :name sb-c::coalesce-more-ltn-numbers
+   :description "coalesced ltn numbers for a more operand to meet local-tn-limit."
+   :var sb-c::*coalesce-more-ltn-numbers-event-info*
+   :count 0
+   :level 0
+   :action nil)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(POSN STREAM)
+```cl
+(sb-pretty::posn stream)
 ```

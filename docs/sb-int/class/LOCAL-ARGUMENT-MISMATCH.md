@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(LOCAL-ARGUMENT-MISMATCH REFERENCE-CONDITION SIMPLE-WARNING SIMPLE-CONDITION
- WARNING CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:local-argument-mismatch sb-int:reference-condition
+ simple-warning simple-condition warning condition sb-pcl::slot-object
+ t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS REFERENCES)
+```cl
+(:format-control :format-arguments :references)
 ```

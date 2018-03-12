@@ -19,6 +19,6 @@
 > REMOVE-PACKAGE-LOCAL-NICKNAME, and the DEFPACKAGE option :LOCAL-NICKNAMES.
 
 ### Lambda list
-```
-(PACKAGE-DESIGNATOR)
+```cl
+(sb-kernel:package-designator)
 ```

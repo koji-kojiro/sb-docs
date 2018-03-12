@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KEY TABLE CONSTRUCTOR)
+```cl
+(sb-impl::key sb-impl::table sb-impl::constructor)
 ```

@@ -4,9 +4,13 @@
 > No description.
 
 ### Value
-```
-#(*STEP-OUT* *TOKEN-BUF-POOL* *EXIT-IN-PROCESS* *DESCRIPTOR-HANDLERS*
-  *DEADLINE* *CURRENT-THREAD* *RESTART-CLUSTERS*
-  (**INITIAL-HANDLER-CLUSTERS** . *HANDLER-CLUSTERS*) *SAVED-FP-AND-PCS*
-  (INVALID . *IGNORED-PACKAGE-LOCKS*))
+```cl
+#(sb-impl::*step-out* sb-impl::*token-buf-pool*
+  sb-sys:*exit-in-process* sb-impl::*descriptor-handlers*
+  sb-impl::*deadline* sb-thread:*current-thread*
+  sb-kernel:*restart-clusters*
+  (sb-kernel::**initial-handler-clusters**
+   . sb-kernel:*handler-clusters*)
+  sb-alien-internals:*saved-fp-and-pcs*
+  (:invalid . sb-impl::*ignored-package-locks*))
 ```

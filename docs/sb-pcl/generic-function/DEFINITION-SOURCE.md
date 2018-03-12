@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DEFINITION-SOURCE-MIXIN)
+```cl
+(sb-pcl::definition-source-mixin)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-(NIL)
+```cl
+(nil)
 ```

@@ -5,6 +5,6 @@
 > Do a declaration or declarations for the global environment.
 
 ### Lambda list
-```
-(&REST SPECS)
+```cl
+(&rest sb-impl::specs)
 ```

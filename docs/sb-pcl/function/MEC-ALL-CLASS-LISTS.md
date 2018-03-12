@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPEC-LIST PRECOMPUTE-P)
+```cl
+(sb-pcl::spec-list sb-pcl::precompute-p)
 ```

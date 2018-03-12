@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(((VAR &OPTIONAL INDEX-VAR) REST-VAR &OPTIONAL START RESULT) &BODY BODY)
+```cl
+(((sb-debug:var &optional sb-impl::index-var) sb-impl::rest-var
+  &optional sb-impl::start sb-impl::result)
+ &body sb-impl::body)
 ```

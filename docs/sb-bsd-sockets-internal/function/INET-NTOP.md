@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(AF SRC DST SIZE)
+```cl
+(sb-bsd-sockets-internal::af sb-bsd-sockets-internal::src
+ sb-bsd-sockets-internal::dst sb-bsd-sockets-internal::size)
 ```

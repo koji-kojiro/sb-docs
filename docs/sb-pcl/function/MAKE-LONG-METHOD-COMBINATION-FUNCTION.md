@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE-NAME LL METHOD-GROUP-SPECIFIERS ARGS-OPTION GF-VAR BODY)
+```cl
+(sb-pcl::type-name sb-pcl::ll sb-pcl::method-group-specifiers
+ sb-pcl::args-option sb-pcl::gf-var sb-pcl::body)
 ```

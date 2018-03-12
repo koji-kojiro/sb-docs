@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(VARS RESULT TYPES VAR-TYPES BODY)
+```cl
+(sb-kernel::vars sb-kernel::result sb-kernel::types
+ sb-kernel::var-types sb-kernel::body)
 ```

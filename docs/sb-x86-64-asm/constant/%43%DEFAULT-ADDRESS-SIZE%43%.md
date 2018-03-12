@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-QWORD
+```cl
+:qword
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SAP OFFSET LENGTH BYTE-ORDER)
+```cl
+(sb-disassem::sap sb-disassem::offset length sb-disassem::byte-order)
 ```

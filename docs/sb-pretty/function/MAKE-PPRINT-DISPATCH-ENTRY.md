@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE PRIORITY FUN TEST-FN)
+```cl
+(type sb-pretty::priority sb-pretty::fun sb-pretty::test-fn)
 ```

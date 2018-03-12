@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD LENGTH)
+```cl
+(sb-posix::fd length)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(INSTANCE ADDED-SLOTS DISCARDED-SLOTS PROPERTY-LIST &REST INITARGS)
+```cl
+(sb-kernel:instance sb-pcl::added-slots sb-pcl::discarded-slots
+ sb-pcl::property-list &rest sb-pcl::initargs)
 ```

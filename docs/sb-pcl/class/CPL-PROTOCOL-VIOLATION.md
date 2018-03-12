@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(CPL-PROTOCOL-VIOLATION REFERENCE-CONDITION ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-pcl::cpl-protocol-violation sb-int:reference-condition error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES CLASS CPL)
+```cl
+(:references :class :cpl)
 ```

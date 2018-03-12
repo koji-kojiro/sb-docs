@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EXPR ENVIRONMENT ENVP)
+```cl
+(sb-c::expr sb-c::environment sb-c::envp)
 ```

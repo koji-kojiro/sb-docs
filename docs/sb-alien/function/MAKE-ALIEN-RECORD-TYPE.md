@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY CLASS BITS ALIGNMENT KIND NAME FIELDS)
+```cl
+(&key class sb-alien::bits sb-alien::alignment sb-alien::kind
+ sb-alien::name sb-alien::fields)
 ```

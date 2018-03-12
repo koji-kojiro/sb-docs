@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL SYSTEM)
+```cl
+(&optional sb-pcl::system)
 ```

@@ -8,6 +8,6 @@
 > close(2).
 
 ### Lambda list
-```
-(SOCKET &KEY ABORT)
+```cl
+(sb-bsd-sockets:socket &key abort)
 ```

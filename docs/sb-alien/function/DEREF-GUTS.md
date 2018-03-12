@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ALIEN INDICES)
+```cl
+(sb-alien:alien sb-alien::indices)
 ```

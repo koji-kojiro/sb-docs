@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(%NAME INTERNAL-SYMBOLS EXTERNAL-SYMBOLS)
+```cl
+(sb-impl::%name sb-impl::internal-symbols sb-impl::external-symbols)
 ```

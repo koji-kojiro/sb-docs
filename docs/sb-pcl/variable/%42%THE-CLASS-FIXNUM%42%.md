@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<BUILT-IN-CLASS COMMON-LISP:FIXNUM>
+```cl
+#<built-in-class common-lisp:fixnum>
 ```

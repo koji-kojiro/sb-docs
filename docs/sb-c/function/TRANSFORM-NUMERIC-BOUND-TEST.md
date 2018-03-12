@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(N-OBJECT TYPE BASE)
+```cl
+(sb-c::n-object type sb-c::base)
 ```

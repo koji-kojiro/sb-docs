@@ -4,6 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(SOCKET LEVEL OPTNAME OPTVAL OPTLEN)
+```cl
+(sb-bsd-sockets-internal::socket sb-bsd-sockets-internal::level
+                                 sb-bsd-sockets-internal::optname
+                                 sb-bsd-sockets-internal::optval
+                                 sb-bsd-sockets-internal::optlen)
 ```

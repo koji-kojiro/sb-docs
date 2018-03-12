@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NFDS RDFDS WRFDS XPFDS TO-SECS &OPTIONAL TO-USECS)
+```cl
+(sb-unix::nfds sb-unix::rdfds sb-unix::wrfds sb-unix::xpfds
+ sb-unix::to-secs &optional sb-unix::to-usecs)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SAP OFFSET TRAP-NUMBER &OPTIONAL LENGTH-ONLY COMPACT-ERROR-TRAP)
+```cl
+(sb-disassem::sap sb-disassem::offset sb-disassem::trap-number
+ &optional sb-disassem::length-only sb-disassem::compact-error-trap)
 ```

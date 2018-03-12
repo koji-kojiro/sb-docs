@@ -5,6 +5,6 @@
 > ENTER-ALIEN-CALLBACK pulls the corresponding trampoline out and calls it.
 
 ### Value
-```
+```cl
 #()
 ```

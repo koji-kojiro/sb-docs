@@ -5,6 +5,6 @@
 > Will be less than FLOAT-DIGITS if denormalized or zero.
 
 ### Lambda list
-```
-(F)
+```cl
+(sb-kernel::f)
 ```

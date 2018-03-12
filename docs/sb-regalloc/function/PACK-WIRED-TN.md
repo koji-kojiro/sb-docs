@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TN OPTIMIZE)
+```cl
+(sb-c:tn optimize)
 ```

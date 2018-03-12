@@ -7,6 +7,6 @@
 > function, value and property list.
 
 ### Lambda list
-```
-(SYMBOL &OPTIONAL COPY-PROPS)
+```cl
+(symbol &optional sb-impl::copy-props)
 ```

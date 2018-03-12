@@ -5,6 +5,6 @@
 > return NIL if none exists.
 
 ### Lambda list
-```
-(VALUE &OPTIONAL CONDITION)
+```cl
+(sb-kernel::value &optional condition)
 ```

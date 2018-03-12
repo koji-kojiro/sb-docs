@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALL-TYPES DECL-TYPE CONTEXT &REST ARGS)
+```cl
+(sb-c::call-types sb-c::decl-type sb-c::context &rest sb-c::args)
 ```

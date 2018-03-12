@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-(OPTIMIZE (SPEED 3) (SAFETY 0) (INHIBIT-WARNINGS 3) (DEBUG 0))
+```cl
+(optimize (speed 3) (safety 0) (sb-ext:inhibit-warnings 3) (debug 0))
 ```

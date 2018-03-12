@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SIGNAL HANDLER SYNCHRONOUS)
+```cl
+(signal sb-unix::handler sb-unix::synchronous)
 ```

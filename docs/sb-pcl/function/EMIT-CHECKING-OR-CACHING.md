@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CACHED-EMF-P RETURN-VALUE-P METATYPES APPLYP)
+```cl
+(sb-pcl::cached-emf-p sb-pcl::return-value-p sb-pcl::metatypes
+ sb-pcl::applyp)
 ```

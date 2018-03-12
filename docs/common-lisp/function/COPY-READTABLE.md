@@ -7,6 +7,6 @@
 > readtable when not provided.
 
 ### Lambda list
-```
-(&OPTIONAL FROM-READTABLE TO-READTABLE)
+```cl
+(&optional sb-impl::from-readtable sb-impl::to-readtable)
 ```

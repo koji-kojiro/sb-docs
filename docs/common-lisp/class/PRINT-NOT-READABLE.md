@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(PRINT-NOT-READABLE ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(print-not-readable error serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(OBJECT)
+```cl
+(:object)
 ```

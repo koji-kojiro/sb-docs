@@ -4,6 +4,6 @@
 > Print a description of OBJECT to STREAM-DESIGNATOR.
 
 ### Lambda list
-```
-(OBJECT &OPTIONAL STREAM-DESIGNATOR)
+```cl
+(sb-impl::object &optional sb-kernel:stream-designator)
 ```

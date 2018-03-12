@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FIXED MORE WRITE-P)
+```cl
+(sb-c::fixed sb-c::more sb-c::write-p)
 ```

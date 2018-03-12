@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CTOR II-METHODS SI-METHODS USE-MAKE-INSTANCE)
+```cl
+(sb-pcl::ctor sb-pcl::ii-methods sb-pcl::si-methods
+ sb-pcl::use-make-instance)
 ```

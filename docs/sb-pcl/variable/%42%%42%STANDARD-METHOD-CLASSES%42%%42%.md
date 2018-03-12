@@ -4,12 +4,12 @@
 > No description.
 
 ### Value
-```
-(#<STANDARD-CLASS COMMON-LISP:STANDARD-METHOD>
- #<STANDARD-CLASS SB-MOP:STANDARD-READER-METHOD>
- #<STANDARD-CLASS SB-MOP:STANDARD-WRITER-METHOD>
- #<STANDARD-CLASS SB-PCL::STANDARD-BOUNDP-METHOD>
- #<STANDARD-CLASS SB-PCL::GLOBAL-READER-METHOD>
- #<STANDARD-CLASS SB-PCL::GLOBAL-WRITER-METHOD>
- #<STANDARD-CLASS SB-PCL::GLOBAL-BOUNDP-METHOD>)
+```cl
+(#<standard-class common-lisp:standard-method>
+ #<standard-class sb-mop:standard-reader-method>
+ #<standard-class sb-mop:standard-writer-method>
+ #<standard-class sb-pcl::standard-boundp-method>
+ #<standard-class sb-pcl::global-reader-method>
+ #<standard-class sb-pcl::global-writer-method>
+ #<standard-class sb-pcl::global-boundp-method>)
 ```

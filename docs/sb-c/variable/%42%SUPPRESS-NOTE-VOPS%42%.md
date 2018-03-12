@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-(TYPE-CHECK-ERROR)
+```cl
+(sb-c:type-check-error)
 ```

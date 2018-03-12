@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PACKAGE &REST THINGS)
+```cl
+(package &rest sb-impl::things)
 ```

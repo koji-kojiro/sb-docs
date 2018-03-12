@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATTERN1 PATTERN2)
+```cl
+(sb-impl::pattern1 sb-impl::pattern2)
 ```

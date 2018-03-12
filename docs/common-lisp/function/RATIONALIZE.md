@@ -7,6 +7,6 @@
 > (= x (float (rationalize x) x))
 
 ### Lambda list
-```
-(X)
+```cl
+(sb-kernel::x)
 ```

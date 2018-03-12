@@ -4,6 +4,6 @@
 > openlog() facility for the mail subsystem
 
 ### Value
-```
+```cl
 16
 ```

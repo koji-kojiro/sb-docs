@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OLD-ARRAY NEW-ARRAY-SIZE FILL-POINTER)
+```cl
+(sb-impl::old-array sb-impl::new-array-size fill-pointer)
 ```

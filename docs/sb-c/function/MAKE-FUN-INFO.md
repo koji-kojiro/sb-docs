@@ -4,12 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (ATTRIBUTES ATTRIBUTES) (TRANSFORMS TRANSFORMS) (DERIVE-TYPE DERIVE-TYPE)
- (OPTIMIZER OPTIMIZER) (LTN-ANNOTATE LTN-ANNOTATE) (IR2-CONVERT IR2-CONVERT)
- (IR2-HOOK IR2-HOOK) (STACK-ALLOCATE-RESULT STACK-ALLOCATE-RESULT)
- (CONSTRAINT-PROPAGATE CONSTRAINT-PROPAGATE)
- (CONSTRAINT-PROPAGATE-IF CONSTRAINT-PROPAGATE-IF) (TEMPLATES TEMPLATES)
- (PREDICATE-TYPE PREDICATE-TYPE) (RESULT-ARG RESULT-ARG)
- (CALL-TYPE-DERIVER CALL-TYPE-DERIVER) (ANNOTATION ANNOTATION))
+```cl
+(&key (:attributes #:attributes) (:transforms #:transforms)
+ (:derive-type #:derive-type) (:optimizer #:optimizer)
+ (:ltn-annotate #:ltn-annotate) (:ir2-convert #:ir2-convert)
+ (:ir2-hook #:ir2-hook)
+ (:stack-allocate-result #:stack-allocate-result)
+ (:constraint-propagate #:constraint-propagate)
+ (:constraint-propagate-if #:constraint-propagate-if)
+ (:templates #:templates) (:predicate-type #:predicate-type) ..)
 ```

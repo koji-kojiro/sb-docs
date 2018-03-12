@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RANK INITIAL-CONTENTS ENV)
+```cl
+(sb-c::rank sb-c::initial-contents sb-c::env)
 ```

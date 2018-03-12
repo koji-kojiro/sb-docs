@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(MACROBINDINGS &BODY BODY)
+```cl
+(sb-c::macrobindings &body sb-c::body)
 ```

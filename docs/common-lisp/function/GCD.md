@@ -5,6 +5,6 @@
 > integers. GCD with no arguments is defined to be 0.
 
 ### Lambda list
-```
-(&REST INTEGERS)
+```cl
+(&rest sb-kernel::integers)
 ```

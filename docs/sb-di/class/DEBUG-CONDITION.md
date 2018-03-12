@@ -5,6 +5,7 @@
 > that must be handled, but they are not programmer errors.
 
 ### Precedence list
-```
-(DEBUG-CONDITION SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-di:debug-condition serious-condition condition sb-pcl::slot-object
+ t)
 ```

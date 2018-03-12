@@ -4,6 +4,6 @@
 > real-time timer expired.
 
 ### Value
-```
+```cl
 14
 ```

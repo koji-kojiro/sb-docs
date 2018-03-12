@@ -7,6 +7,6 @@
 > "SYS:OUTPUT;". Other "SYS:" translations are preserved.
 
 ### Lambda list
-```
-(PATHNAME)
+```cl
+(pathname)
 ```

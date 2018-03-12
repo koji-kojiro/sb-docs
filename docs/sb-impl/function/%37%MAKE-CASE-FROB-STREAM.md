@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TARGET OUT SOUT)
+```cl
+(sb-impl::target sb-impl::out sb-impl::sout)
 ```

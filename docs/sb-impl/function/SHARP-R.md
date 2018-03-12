@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM SUB-CHAR RADIX)
+```cl
+(stream sb-impl::sub-char sb-impl::radix)
 ```

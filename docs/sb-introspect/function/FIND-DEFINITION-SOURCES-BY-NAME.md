@@ -34,6 +34,6 @@
 > If an unsupported TYPE is requested, the function will return NIL.
 
 ### Lambda list
-```
-(NAME TYPE)
+```cl
+(sb-introspect::name type)
 ```

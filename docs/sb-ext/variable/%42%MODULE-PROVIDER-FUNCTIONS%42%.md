@@ -4,6 +4,6 @@
 > See function documentation for REQUIRE.
 
 ### Value
-```
-(MODULE-PROVIDE-ASDF MODULE-PROVIDE-CONTRIB)
+```cl
+(asdf/operate:module-provide-asdf sb-impl::module-provide-contrib)
 ```

@@ -6,6 +6,6 @@
 > than C's printf) with format string FORMAT and arguments ARGS.
 
 ### Lambda list
-```
-(PRIORITY FORMAT &REST ARGS)
+```cl
+(sb-posix::priority format &rest sb-posix::args)
 ```

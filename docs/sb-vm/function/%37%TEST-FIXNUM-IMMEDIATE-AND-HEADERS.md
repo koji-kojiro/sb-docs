@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE TARGET NOT-P IMMEDIATE HEADERS)
+```cl
+(sb-vm::value sb-vm::target sb-vm::not-p sb-vm::immediate
+ sb-vm::headers)
 ```

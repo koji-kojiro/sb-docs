@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (STRING STRING) (START START) (END END) (CHARACTER CHARACTER)
- (COLONP COLONP) (ATSIGNP ATSIGNP) (PARAMS PARAMS))
+```cl
+(&key (:string #:string) (:start #:start) (:end #:end)
+ (:character #:character) (:colonp #:colonp) (:atsignp #:atsignp)
+ (:params #:params))
 ```

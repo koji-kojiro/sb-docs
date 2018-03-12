@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FDEFN)
+```cl
+(sb-kernel:fdefn)
 ```

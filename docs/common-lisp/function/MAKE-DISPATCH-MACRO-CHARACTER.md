@@ -6,6 +6,6 @@
 > be non-terminating.
 
 ### Lambda list
-```
-(CHAR &OPTIONAL NON-TERMINATING-P RT)
+```cl
+(char &optional sb-impl::non-terminating-p sb-impl::rt)
 ```

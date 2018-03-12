@@ -39,6 +39,6 @@
 > EXPERIMENTAL: Interface subject to change.
 
 ### Lambda list
-```
-(PLACE &OPTIONAL ENVIRONMENT)
+```cl
+(sb-impl::place &optional sb-impl::environment)
 ```

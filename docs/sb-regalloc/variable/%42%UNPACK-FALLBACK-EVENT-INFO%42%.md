@@ -4,12 +4,12 @@
 > No description.
 
 ### Value
-```
-#S(SB-C::EVENT-INFO
-   :NAME UNPACK-FALLBACK
-   :DESCRIPTION Unpacked some operand TN.
-   :VAR *UNPACK-FALLBACK-EVENT-INFO*
-   :COUNT 0
-   :LEVEL 0
-   :ACTION NIL)
+```cl
+#s(sb-c::event-info
+   :name sb-regalloc::unpack-fallback
+   :description "unpacked some operand tn."
+   :var sb-regalloc::*unpack-fallback-event-info*
+   :count 0
+   :level 0
+   :action nil)
 ```

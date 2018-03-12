@@ -4,6 +4,6 @@
 > Bitwise OR (LOGNOT INTEGER1) with INTEGER2.
 
 ### Lambda list
-```
-(INTEGER1 INTEGER2)
+```cl
+(sb-kernel::integer1 sb-kernel::integer2)
 ```

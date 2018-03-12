@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NUMBER DIVISOR FLOAT-FORMAT STREAM)
+```cl
+(number sb-impl::divisor sb-impl::float-format stream)
 ```

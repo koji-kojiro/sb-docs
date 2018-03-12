@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((BUFFER SIZE) &BODY BODY)
+```cl
+((sb-posix::buffer sb-posix::size) &body sb-posix::body)
 ```

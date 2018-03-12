@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PARSED-DS-LAMBDA-LIST)
+```cl
+(sb-c::parsed-ds-lambda-list)
 ```

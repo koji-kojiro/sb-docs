@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(START NEXT RESULT FORM FUNCTIONAL)
+```cl
+(sb-c::start sb-c::next sb-c::result sb-kernel:form sb-c::functional)
 ```

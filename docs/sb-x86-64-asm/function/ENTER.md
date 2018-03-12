@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DISP &OPTIONAL LEVEL)
+```cl
+(sb-x86-64-asm::disp &optional sb-x86-64-asm::level)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJ STATE)
+```cl
+(sb-pretty::obj sb-pretty::state)
 ```

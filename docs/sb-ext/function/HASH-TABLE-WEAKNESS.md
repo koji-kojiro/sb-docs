@@ -5,6 +5,6 @@
 > :VALUE, :KEY-AND-VALUE, :KEY-OR-VALUE.
 
 ### Lambda list
-```
-(HT)
+```cl
+(sb-impl::ht)
 ```

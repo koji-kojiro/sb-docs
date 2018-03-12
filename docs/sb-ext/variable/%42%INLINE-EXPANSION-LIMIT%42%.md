@@ -5,6 +5,6 @@
 > in any given code object (single function or block compilation)
 
 ### Value
-```
+```cl
 200
 ```

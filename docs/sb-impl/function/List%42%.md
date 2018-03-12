@@ -4,6 +4,6 @@
 > Return a list of the arguments with last cons a dotted pair.
 
 ### Lambda list
-```
-(ARG &REST OTHERS)
+```cl
+(sb-debug:arg &rest sb-impl::others)
 ```

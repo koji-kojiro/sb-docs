@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VERTICES COLORS)
+```cl
+(sb-regalloc::vertices sb-regalloc::colors)
 ```

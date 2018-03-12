@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPEC RES VARS BINDING-FORM-P CONTEXT)
+```cl
+(sb-c::spec sb-c::res sb-c::vars sb-c::binding-form-p sb-c::context)
 ```

@@ -29,6 +29,7 @@
 > Experimental: interface subject to change.
 
 ### Lambda list
-```
-(FUNCTION DIRECTORY &KEY FILES DIRECTORIES CLASSIFY-SYMLINKS ERRORP)
+```cl
+(function directory &key sb-impl::files sb-impl::directories
+ sb-impl::classify-symlinks sb-impl::errorp)
 ```

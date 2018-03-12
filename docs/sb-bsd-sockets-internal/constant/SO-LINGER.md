@@ -4,6 +4,6 @@
 > For reliable streams, pause a while on closing when unsent messages are queued
 
 ### Value
-```
+```cl
 13
 ```

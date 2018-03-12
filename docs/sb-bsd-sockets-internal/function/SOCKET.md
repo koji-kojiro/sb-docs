@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DOMAIN TYPE PROTOCOL)
+```cl
+(sb-bsd-sockets-internal::domain type sb-bsd-sockets-internal::protocol)
 ```

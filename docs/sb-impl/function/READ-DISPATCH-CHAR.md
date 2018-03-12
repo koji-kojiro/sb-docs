@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM DISPATCH-TABLE)
+```cl
+(stream sb-impl::dispatch-table)
 ```

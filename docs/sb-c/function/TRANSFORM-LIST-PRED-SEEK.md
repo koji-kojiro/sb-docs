@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME PRED LIST KEY NODE)
+```cl
+(sb-c::name sb-c::pred list sb-c::key sb-c::node)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VARS)
+```cl
+(sb-di::vars)
 ```

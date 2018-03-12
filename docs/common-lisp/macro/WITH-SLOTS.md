@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SLOTS INSTANCE &BODY BODY)
+```cl
+(sb-pcl::slots sb-kernel:instance &body sb-pcl::body)
 ```

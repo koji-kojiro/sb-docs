@@ -7,6 +7,6 @@
 > ENVIRONMENT is provided the FORM is first macroexpanded in it.
 
 ### Lambda list
-```
-(FORM &OPTIONAL ENVIRONMENT)
+```cl
+(sb-kernel:form &optional sb-c::environment)
 ```

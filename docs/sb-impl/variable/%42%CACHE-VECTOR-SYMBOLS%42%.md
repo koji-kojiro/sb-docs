@@ -4,16 +4,13 @@
 > No description.
 
 ### Value
-```
-(**TOKENIZE-CONTROL-STRING-CACHE-VECTOR** **WEAKEN-TYPE-CACHE-VECTOR**
- **CTYPE-OF-ARRAY-CACHE-VECTOR** **CTYPE-OF-CACHE-VECTOR**
- **%TYPE-UNION-CACHE-VECTOR** **%TYPE-INTERSECTION-CACHE-VECTOR**
- **TYPE-SINGLETON-P-CACHE-VECTOR** **TYPE-NEGATION-CACHE-VECTOR**
- **TYPE-INTERSECTION2-CACHE-VECTOR** **TYPE-UNION2-CACHE-VECTOR**
- **TYPE=-CACHE-VECTOR** **CSUBTYPEP-CACHE-VECTOR**
- **VALUES-SUBTYPEP-CACHE-VECTOR** **VALUES-TYPE-INTERSECTION-CACHE-VECTOR**
- **VALUES-TYPE-UNION-CACHE-VECTOR** **%COERCE-TO-VALUES-CACHE-VECTOR**
- **PRIMITIVE-TYPE-AUX-CACHE-VECTOR** **VALUES-SPECIFIER-TYPE-CACHE-VECTOR**
- **MAKE-VALUES-TYPE-CACHED-CACHE-VECTOR**
- **COERCE-TO-INTERPRETED-FUNCTION-CACHE-VECTOR**)
+```cl
+(sb-format::**tokenize-control-string-cache-vector**
+ sb-c::**weaken-type-cache-vector**
+ sb-kernel::**ctype-of-array-cache-vector**
+ sb-kernel::**ctype-of-cache-vector**
+ sb-kernel::**%type-union-cache-vector**
+ sb-kernel::**%type-intersection-cache-vector**
+ sb-kernel::**type-singleton-p-cache-vector**
+ sb-kernel::**type-negation-cache-vector** ..)
 ```

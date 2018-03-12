@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CIRCLE-TABLE TREE)
+```cl
+(sb-impl::circle-table sb-impl::tree)
 ```

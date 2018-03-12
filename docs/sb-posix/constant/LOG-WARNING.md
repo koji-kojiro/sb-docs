@@ -4,6 +4,6 @@
 > Log severity level denoting a warning.
 
 ### Value
-```
+```cl
 4
 ```

@@ -4,6 +4,6 @@
 > Return the name of TIMER.
 
 ### Lambda list
-```
-(TIMER)
+```cl
+(sb-ext:timer)
 ```

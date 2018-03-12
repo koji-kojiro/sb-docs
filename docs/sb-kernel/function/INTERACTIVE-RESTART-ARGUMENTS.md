@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(REAL-RESTART)
+```cl
+(sb-kernel::real-restart)
 ```

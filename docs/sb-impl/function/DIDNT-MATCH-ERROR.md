@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SOURCE FROM)
+```cl
+(sb-impl::source sb-impl::from)
 ```

@@ -15,6 +15,7 @@
 > decrements the count, the status is set to T.
 
 ### Lambda list
-```
-(SEMAPHORE &KEY N TIMEOUT NOTIFICATION)
+```cl
+(sb-thread:semaphore &key sb-thread::n sb-thread::timeout
+ sb-thread::notification)
 ```

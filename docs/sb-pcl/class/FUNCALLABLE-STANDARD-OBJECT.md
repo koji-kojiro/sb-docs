@@ -4,6 +4,7 @@
 > No description.
 
 ### Precedence list
-```
-(FUNCALLABLE-STANDARD-OBJECT FUNCTION STANDARD-OBJECT SLOT-OBJECT T)
+```cl
+(sb-mop:funcallable-standard-object function standard-object
+ sb-pcl::slot-object t)
 ```

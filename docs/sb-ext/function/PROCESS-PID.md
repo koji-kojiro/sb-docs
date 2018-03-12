@@ -4,6 +4,6 @@
 > The pid of the child process.
 
 ### Lambda list
-```
-(INSTANCE)
+```cl
+(sb-kernel:instance)
 ```

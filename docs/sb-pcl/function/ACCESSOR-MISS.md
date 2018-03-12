@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GF NEW OBJECT DFUN-INFO)
+```cl
+(sb-pcl::gf sb-pcl::new sb-pcl::object sb-pcl::dfun-info)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VAL TYPE)
+```cl
+(sb-c::val type)
 ```

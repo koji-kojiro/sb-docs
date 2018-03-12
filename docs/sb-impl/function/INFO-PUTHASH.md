@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ENV KEY UPDATE-PROC)
+```cl
+(sb-impl::env sb-impl::key sb-impl::update-proc)
 ```

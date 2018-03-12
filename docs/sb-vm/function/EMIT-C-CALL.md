@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VOP RAX FUN ARGS VARARGSP)
+```cl
+(sb-vm::vop sb-vm::rax sb-vm::fun sb-vm::args sb-vm::varargsp)
 ```

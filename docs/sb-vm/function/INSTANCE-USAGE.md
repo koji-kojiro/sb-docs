@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPACE &KEY TOP-N)
+```cl
+(space &key sb-vm::top-n)
 ```

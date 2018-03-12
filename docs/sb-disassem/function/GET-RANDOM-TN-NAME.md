@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SC-OFFS)
+```cl
+(sb-disassem::sc-offs)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FUN ARGS IDENTITY &OPTIONAL ONE-ARG-RESULT-TYPE ONE-ARG-PREFIXES)
+```cl
+(sb-c::fun sb-c::args identity &optional sb-c::one-arg-result-type
+ sb-c::one-arg-prefixes)
 ```

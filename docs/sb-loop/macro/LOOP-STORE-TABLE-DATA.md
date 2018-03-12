@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SYMBOL TABLE DATUM)
+```cl
+(symbol sb-loop::table sb-loop::datum)
 ```

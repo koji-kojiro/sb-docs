@@ -5,6 +5,6 @@
 > argument is an alphabetic character, A-Z or a-z; otherwise NIL.
 
 ### Lambda list
-```
-(CHAR)
+```cl
+(char)
 ```

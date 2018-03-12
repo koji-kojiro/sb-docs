@@ -4,9 +4,10 @@
 > No description.
 
 ### Value
-```
-(EFFECTIVE-METHOD-GENSYM-0 EFFECTIVE-METHOD-GENSYM-1 EFFECTIVE-METHOD-GENSYM-2
- EFFECTIVE-METHOD-GENSYM-3 EFFECTIVE-METHOD-GENSYM-4 EFFECTIVE-METHOD-GENSYM-5
- EFFECTIVE-METHOD-GENSYM-6 EFFECTIVE-METHOD-GENSYM-7 EFFECTIVE-METHOD-GENSYM-8
- EFFECTIVE-METHOD-GENSYM-9)
+```cl
+(sb-pcl::effective-method-gensym-0 sb-pcl::effective-method-gensym-1
+ sb-pcl::effective-method-gensym-2 sb-pcl::effective-method-gensym-3
+ sb-pcl::effective-method-gensym-4 sb-pcl::effective-method-gensym-5
+ sb-pcl::effective-method-gensym-6 sb-pcl::effective-method-gensym-7
+ sb-pcl::effective-method-gensym-8 sb-pcl::effective-method-gensym-9)
 ```

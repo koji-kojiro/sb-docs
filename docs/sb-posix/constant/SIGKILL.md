@@ -4,6 +4,6 @@
 > kill program.
 
 ### Value
-```
+```cl
 9
 ```

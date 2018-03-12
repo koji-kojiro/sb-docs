@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN CALLABLE VOP)
+```cl
+(sb-vm::fun sb-kernel:callable sb-vm::vop)
 ```

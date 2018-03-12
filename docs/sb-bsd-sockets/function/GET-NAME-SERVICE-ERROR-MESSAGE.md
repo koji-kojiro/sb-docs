@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ERRNO ERROR-CODE)
+```cl
+(sb-bsd-sockets::errno sb-bsd-sockets::error-code)
 ```

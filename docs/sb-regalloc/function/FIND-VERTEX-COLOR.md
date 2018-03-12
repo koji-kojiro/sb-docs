@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VERTEX TN-VERTEX-MAPPING)
+```cl
+(sb-regalloc::vertex sb-regalloc::tn-vertex-mapping)
 ```

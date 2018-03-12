@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PTY COOKIE &KEY EXTERNAL-FORMAT)
+```cl
+(sb-impl::pty sb-impl::cookie &key sb-impl::external-format)
 ```

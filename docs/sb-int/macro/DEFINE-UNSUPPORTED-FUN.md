@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME &OPTIONAL DOC CONTROL ARGUMENTS)
+```cl
+(sb-impl::name &optional sb-impl::doc sb-impl::control
+ sb-impl::arguments)
 ```

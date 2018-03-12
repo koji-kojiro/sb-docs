@@ -6,6 +6,6 @@
 > YES or NO.
 
 ### Lambda list
-```
-(&OPTIONAL FORMAT-STRING &REST ARGUMENTS)
+```cl
+(&optional sb-impl::format-string &rest sb-impl::arguments)
 ```

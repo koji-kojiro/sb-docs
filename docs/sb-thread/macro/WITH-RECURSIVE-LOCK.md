@@ -19,6 +19,7 @@
 > held mutex, WITH-RECURSIVE-LOCK allows recursive lock attempts to succeed.
 
 ### Lambda list
-```
-((MUTEX &KEY WAIT-P TIMEOUT) &BODY BODY)
+```cl
+((sb-thread:mutex &key sb-thread::wait-p sb-thread::timeout) &body
+ sb-thread::body)
 ```

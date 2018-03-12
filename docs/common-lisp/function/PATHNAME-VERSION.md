@@ -4,6 +4,6 @@
 > Return PATHNAME's version.
 
 ### Lambda list
-```
-(PATHNAME)
+```cl
+(pathname)
 ```

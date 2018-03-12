@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONSTANT METHOD-ALIST WRAPPERS)
+```cl
+(sb-kernel:constant sb-pcl::method-alist sb-pcl::wrappers)
 ```

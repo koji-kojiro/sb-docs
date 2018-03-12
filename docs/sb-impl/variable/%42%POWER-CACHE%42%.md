@@ -4,7 +4,8 @@
 > No description.
 
 ### Value
-```
-#(NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL
-  NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL)
+```cl
+#(nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil
+  nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil
+  nil nil nil)
 ```

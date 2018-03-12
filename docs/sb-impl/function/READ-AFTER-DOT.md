@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM FIRSTCHAR COLLECTP)
+```cl
+(stream sb-impl::firstchar sb-impl::collectp)
 ```

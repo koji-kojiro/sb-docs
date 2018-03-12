@@ -7,6 +7,6 @@
 > disassemble.
 
 ### Lambda list
-```
-(OBJECT &KEY STREAM USE-LABELS)
+```cl
+(sb-disassem::object &key stream sb-disassem::use-labels)
 ```

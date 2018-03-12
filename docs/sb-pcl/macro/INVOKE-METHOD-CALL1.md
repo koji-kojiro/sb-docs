@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION ARGS CM-ARGS)
+```cl
+(function sb-pcl::args sb-pcl::cm-args)
 ```

@@ -7,6 +7,6 @@
 > always be more efficient than the default method.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

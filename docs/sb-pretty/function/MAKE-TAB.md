@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (POSN POSN) (SECTIONP SECTIONP) (RELATIVEP RELATIVEP) (COLNUM COLNUM)
- (COLINC COLINC))
+```cl
+(&key (:posn #:posn) (:sectionp #:sectionp) (:relativep #:relativep)
+ (:colnum #:colnum) (:colinc #:colinc))
 ```

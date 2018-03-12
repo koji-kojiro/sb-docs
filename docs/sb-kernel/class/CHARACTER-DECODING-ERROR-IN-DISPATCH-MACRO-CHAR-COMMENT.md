@@ -4,12 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(CHARACTER-DECODING-ERROR-IN-DISPATCH-MACRO-CHAR-COMMENT
- CHARACTER-DECODING-ERROR-IN-COMMENT STYLE-WARNING WARNING CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-kernel::character-decoding-error-in-dispatch-macro-char-comment
+ sb-kernel:character-decoding-error-in-comment style-warning warning
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(STREAM POSITION DISP-CHAR SUB-CHAR)
+```cl
+(:stream :position :disp-char :sub-char)
 ```

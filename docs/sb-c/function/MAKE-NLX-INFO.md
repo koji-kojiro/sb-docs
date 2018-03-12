@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLEANUP EXIT)
+```cl
+(sb-c::cleanup sb-ext:exit)
 ```

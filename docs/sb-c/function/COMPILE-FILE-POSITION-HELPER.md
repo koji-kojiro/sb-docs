@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FILE-INFO PATH-TO-FIND)
+```cl
+(sb-c::file-info sb-c::path-to-find)
 ```

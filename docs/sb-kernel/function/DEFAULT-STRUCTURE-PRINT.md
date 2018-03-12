@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRUCTURE STREAM DEPTH)
+```cl
+(structure stream sb-kernel::depth)
 ```

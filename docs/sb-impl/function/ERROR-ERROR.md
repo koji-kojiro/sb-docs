@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&REST MESSAGES)
+```cl
+(&rest sb-impl::messages)
 ```

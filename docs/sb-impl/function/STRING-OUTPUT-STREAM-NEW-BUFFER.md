@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM SIZE)
+```cl
+(stream sb-impl::size)
 ```

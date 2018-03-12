@@ -5,6 +5,6 @@
 > grapheme breaking rules specified in UAX #29, returning a list of strings.
 
 ### Lambda list
-```
-(STRING)
+```cl
+(string)
 ```

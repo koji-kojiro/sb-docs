@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CTOR II-METHODS SI-METHODS SETF-SVUC-SLOTS SBUC-SLOTS)
+```cl
+(sb-pcl::ctor sb-pcl::ii-methods sb-pcl::si-methods
+ sb-pcl::setf-svuc-slots sb-pcl::sbuc-slots)
 ```

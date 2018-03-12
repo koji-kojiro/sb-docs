@@ -5,6 +5,6 @@
 > returning the results of the evaluation.
 
 ### Lambda list
-```
-(FRAME FORM)
+```cl
+(sb-di:frame sb-kernel:form)
 ```

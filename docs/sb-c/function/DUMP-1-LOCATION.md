@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NODE BLOCK KIND LABEL LIVE VAR-LOCS VOP &OPTIONAL CONTEXT)
+```cl
+(sb-c::node block sb-c::kind sb-assem:label sb-c::live sb-c::var-locs
+ sb-c::vop &optional sb-c::context)
 ```

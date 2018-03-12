@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(UNBOUND-SLOT CELL-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(unbound-slot cell-error error serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME INSTANCE)
+```cl
+(:name :instance)
 ```

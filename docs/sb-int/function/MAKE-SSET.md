@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL VECTOR FREE COUNT)
+```cl
+(&optional vector sb-c::free count)
 ```

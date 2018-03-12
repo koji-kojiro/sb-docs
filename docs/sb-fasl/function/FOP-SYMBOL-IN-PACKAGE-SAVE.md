@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(.FASL-INPUT. LENGTH+FLAG PKG-INDEX)
+```cl
+(sb-fasl::.fasl-input. sb-fasl::length+flag sb-fasl::pkg-index)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(QUALITY VALUE POLICY)
+```cl
+(sb-c::quality sb-c::value sb-c:policy)
 ```

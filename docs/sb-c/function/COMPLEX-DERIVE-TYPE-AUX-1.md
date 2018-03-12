@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RE-TYPE)
+```cl
+(sb-c::re-type)
 ```

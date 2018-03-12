@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT VOP LABEL)
+```cl
+(sb-assem:segment sb-assem::vop sb-assem:label)
 ```

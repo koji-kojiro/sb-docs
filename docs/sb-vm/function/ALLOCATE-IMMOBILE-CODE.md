@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(N-BOXED-WORDS N-UNBOXED-BYTES)
+```cl
+(sb-vm::n-boxed-words sb-vm::n-unboxed-bytes)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT STREAM DSTATE)
+```cl
+(sb-disassem:segment stream sb-disassem::dstate)
 ```

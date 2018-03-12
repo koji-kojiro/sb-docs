@@ -6,7 +6,8 @@
 > control variable *PRINT-LEVEL* is automatically handled.
 
 ### Lambda list
-```
-((STREAM-SYMBOL OBJECT &REST KEYS &KEY PREFIX PER-LINE-PREFIX SUFFIX) &BODY
- BODY)
+```cl
+((sb-pretty::stream-symbol sb-pretty::object &rest sb-pretty::keys &key
+  sb-pretty::prefix sb-pretty::per-line-prefix sb-pretty::suffix)
+ &body sb-pretty::body)
 ```

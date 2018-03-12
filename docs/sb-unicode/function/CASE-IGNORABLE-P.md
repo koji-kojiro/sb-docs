@@ -5,6 +5,6 @@
 > 3
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-X86-64
+```cl
+:x86-64
 ```

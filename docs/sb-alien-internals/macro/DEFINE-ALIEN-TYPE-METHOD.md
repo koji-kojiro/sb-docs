@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((CLASS METHOD) LAMBDA-LIST &REST BODY)
+```cl
+((class method) sb-alien::lambda-list &rest sb-alien::body)
 ```

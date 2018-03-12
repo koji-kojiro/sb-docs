@@ -4,6 +4,6 @@
 > Return the absolute value of the number.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

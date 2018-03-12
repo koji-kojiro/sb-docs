@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<PPRINT-DISPATCH-TABLE {10000F0F33}>
+```cl
+#<sb-pretty:pprint-dispatch-table {10000f0f33}>
 ```

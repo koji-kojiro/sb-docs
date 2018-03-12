@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT VALUE TEMP OFFSET LOWTAG &OPTIONAL ZEROED)
+```cl
+(sb-vm::object sb-vm::value sb-vm::temp sb-vm::offset sb-vm::lowtag
+ &optional sb-vm::zeroed)
 ```

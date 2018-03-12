@@ -4,6 +4,6 @@
 > Creates a new symbol interned in package PACKAGE with the given PREFIX.
 
 ### Lambda list
-```
-(&OPTIONAL PREFIX PACKAGE)
+```cl
+(&optional sb-impl::prefix package)
 ```

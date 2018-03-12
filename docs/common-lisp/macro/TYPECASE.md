@@ -6,6 +6,6 @@
 > is true.
 
 ### Lambda list
-```
-(KEYFORM &BODY CASES)
+```cl
+(sb-impl::keyform &body sb-impl::cases)
 ```

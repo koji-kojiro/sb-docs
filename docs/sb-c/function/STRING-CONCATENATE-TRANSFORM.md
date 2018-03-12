@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE TYPE LVARS)
+```cl
+(sb-c::node type sb-c::lvars)
 ```

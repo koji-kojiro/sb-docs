@@ -4,6 +4,6 @@
 > This function simply returns what was passed to it.
 
 ### Lambda list
-```
-(THING)
+```cl
+(sb-impl::thing)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FASL-OUTPUT OPCODE ARG1 &OPTIONAL ARG2 ARG3)
+```cl
+(sb-fasl:fasl-output sb-fasl::opcode sb-fasl::arg1 &optional
+ sb-fasl::arg2 sb-fasl::arg3)
 ```

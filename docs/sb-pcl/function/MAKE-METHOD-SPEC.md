@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GF QUALIFIERS SPECIALIZERS)
+```cl
+(sb-pcl::gf sb-pcl::qualifiers sb-pcl::specializers)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SRC INDEX &OPTIONAL PREFIX)
+```cl
+(sb-x86-64-asm::src sb-int:index &optional sb-x86-64-asm::prefix)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "static linker" (free)>
+```cl
+#<sb-thread:mutex "static linker" (free)>
 ```

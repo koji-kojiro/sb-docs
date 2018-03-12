@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BYTES)
+```cl
+(sb-alien::bytes)
 ```

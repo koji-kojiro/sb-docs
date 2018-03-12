@@ -6,6 +6,6 @@
 > Use SB-INTROSPECT:FUNCTION-LAMBDA-LIST instead.
 
 ### Lambda list
-```
-(FUNCTION)
+```cl
+(function)
 ```

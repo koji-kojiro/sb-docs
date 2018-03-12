@@ -5,6 +5,6 @@
 > START and continuing to the end of SEQUENCE or the optional END.
 
 ### Lambda list
-```
-(SEQUENCE START &OPTIONAL END)
+```cl
+(sequence sb-impl::start &optional sb-impl::end)
 ```

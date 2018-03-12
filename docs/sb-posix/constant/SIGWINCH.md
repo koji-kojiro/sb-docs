@@ -4,6 +4,6 @@
 > Window size change.
 
 ### Value
-```
+```cl
 28
 ```

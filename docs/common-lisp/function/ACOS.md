@@ -4,6 +4,6 @@
 > Return the arc cosine of NUMBER.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

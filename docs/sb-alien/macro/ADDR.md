@@ -5,6 +5,6 @@
 > to SLOT or DEREF, or a reference to an Alien variable.
 
 ### Lambda list
-```
-(EXPR)
+```cl
+(sb-alien::expr)
 ```

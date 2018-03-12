@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VOP KIND CODE VALUES)
+```cl
+(sb-vm::vop sb-vm::kind sb-vm::code values)
 ```

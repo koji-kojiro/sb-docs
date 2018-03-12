@@ -4,6 +4,6 @@
 > the current number of recursive LOADs
 
 ### Value
-```
+```cl
 0
 ```

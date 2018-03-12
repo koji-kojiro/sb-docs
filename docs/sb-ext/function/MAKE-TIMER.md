@@ -12,6 +12,6 @@
 > runs with interrupts disabled but WITH-INTERRUPTS is allowed.
 
 ### Lambda list
-```
-(FUNCTION &KEY NAME THREAD)
+```cl
+(function &key sb-impl::name sb-impl::thread)
 ```

@@ -4,6 +4,6 @@
 > Make and return a new symbol with the STRING as its print name.
 
 ### Lambda list
-```
-(STRING)
+```cl
+(string)
 ```

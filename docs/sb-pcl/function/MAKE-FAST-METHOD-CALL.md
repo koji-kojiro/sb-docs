@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (FUNCTION FUNCTION) (PV PV) (NEXT-METHOD-CALL NEXT-METHOD-CALL)
- (ARG-INFO ARG-INFO))
+```cl
+(&key (:function #:function) (:pv #:pv)
+ (:next-method-call #:next-method-call) (:arg-info #:arg-info))
 ```

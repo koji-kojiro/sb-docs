@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE GENERIC-FUNCTION)
+```cl
+(sb-pcl::new-value generic-function)
 ```

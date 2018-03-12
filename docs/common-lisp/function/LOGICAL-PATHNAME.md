@@ -4,6 +4,6 @@
 > Converts the pathspec argument to a logical-pathname and returns it.
 
 ### Lambda list
-```
-(PATHSPEC)
+```cl
+(sb-impl::pathspec)
 ```

@@ -4,16 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAMES NAMES)
- (DEFAULT-REPLACEMENT-CHARACTER DEFAULT-REPLACEMENT-CHARACTER)
- (READ-N-CHARS-FUN READ-N-CHARS-FUN) (READ-CHAR-FUN READ-CHAR-FUN)
- (WRITE-N-BYTES-FUN WRITE-N-BYTES-FUN)
- (WRITE-CHAR-NONE-BUFFERED-FUN WRITE-CHAR-NONE-BUFFERED-FUN)
- (WRITE-CHAR-LINE-BUFFERED-FUN WRITE-CHAR-LINE-BUFFERED-FUN)
- (WRITE-CHAR-FULL-BUFFERED-FUN WRITE-CHAR-FULL-BUFFERED-FUN)
- (RESYNC-FUN RESYNC-FUN) (BYTES-FOR-CHAR-FUN BYTES-FOR-CHAR-FUN)
- (READ-C-STRING-FUN READ-C-STRING-FUN) (WRITE-C-STRING-FUN WRITE-C-STRING-FUN)
- (OCTETS-TO-STRING-FUN OCTETS-TO-STRING-FUN)
- (STRING-TO-OCTETS-FUN STRING-TO-OCTETS-FUN))
+```cl
+(&key (:names #:names)
+ (:default-replacement-character #:default-replacement-character)
+ (:read-n-chars-fun #:read-n-chars-fun)
+ (:read-char-fun #:read-char-fun)
+ (:write-n-bytes-fun #:write-n-bytes-fun)
+ (:write-char-none-buffered-fun #:write-char-none-buffered-fun)
+ (:write-char-line-buffered-fun #:write-char-line-buffered-fun)
+ (:write-char-full-buffered-fun #:write-char-full-buffered-fun) ..)
 ```

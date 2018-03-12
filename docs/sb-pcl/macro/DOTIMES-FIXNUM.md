@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((VAR COUNT &OPTIONAL RESULT) &BODY BODY)
+```cl
+((sb-pcl::var count &optional sb-pcl::result) &body sb-pcl::body)
 ```

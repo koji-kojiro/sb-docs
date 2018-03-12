@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(CHARACTER-DECODING-ERROR-IN-COMMENT STYLE-WARNING WARNING CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-kernel:character-decoding-error-in-comment style-warning warning
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(STREAM POSITION)
+```cl
+(:stream :position)
 ```

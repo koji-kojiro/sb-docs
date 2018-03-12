@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRING &KEY START END)
+```cl
+(string &key sb-impl::start sb-impl::end)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT &OPTIONAL ASSIGN MODE)
+```cl
+(sb-impl::object &optional sb-impl::assign sb-impl::mode)
 ```

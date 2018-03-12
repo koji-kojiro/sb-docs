@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(NAME RESULT_BUF BUFFER BUFFER-LEN RESULT)
+```cl
+(sb-bsd-sockets-internal::name sb-bsd-sockets-internal::result_buf
+ sb-bsd-sockets-internal::buffer sb-bsd-sockets-internal::buffer-len
+ sb-bsd-sockets-internal::result)
 ```

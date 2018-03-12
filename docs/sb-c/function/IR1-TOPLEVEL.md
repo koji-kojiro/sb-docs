@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FORM PATH FOR-VALUE &OPTIONAL ALLOW-INSTRUMENTING)
+```cl
+(sb-kernel:form sb-c::path sb-c::for-value &optional
+ sb-c::allow-instrumenting)
 ```

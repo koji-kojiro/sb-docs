@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM KIND AMOUNT)
+```cl
+(stream sb-pretty::kind sb-pretty::amount)
 ```

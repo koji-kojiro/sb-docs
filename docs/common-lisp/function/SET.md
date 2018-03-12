@@ -4,6 +4,6 @@
 > Set SYMBOL's value cell to NEW-VALUE.
 
 ### Lambda list
-```
-(SYMBOL NEW-VALUE)
+```cl
+(symbol sb-impl::new-value)
 ```

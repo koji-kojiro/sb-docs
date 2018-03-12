@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SAETP &OPTIONAL ITEM NODE)
+```cl
+(sb-c::saetp &optional sb-c::item sb-c::node)
 ```

@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(OLD-DATA OLD-DIMS OFFSET NEW-DATA NEW-DIMS NEW-LENGTH ELEMENT-TYPE
- INITIAL-ELEMENT INITIAL-ELEMENT-P)
+```cl
+(sb-impl::old-data sb-impl::old-dims sb-impl::offset sb-impl::new-data
+ sb-impl::new-dims sb-impl::new-length sb-impl::element-type
+ sb-impl::initial-element sb-impl::initial-element-p)
 ```

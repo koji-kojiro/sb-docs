@@ -6,6 +6,6 @@
 > :W (Wide), :F (Fullwidth), or :NA (Not applicable)
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

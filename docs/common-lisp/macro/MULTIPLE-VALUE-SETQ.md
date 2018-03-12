@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VARS VALUE-FORM)
+```cl
+(sb-impl::vars sb-impl::value-form)
 ```

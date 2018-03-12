@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR DECLARED-LENGTH)
+```cl
+(vector sb-impl::declared-length)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INFO CC)
+```cl
+(sb-int:info sb-c::cc)
 ```

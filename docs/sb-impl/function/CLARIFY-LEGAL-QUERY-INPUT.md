@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(YES NO)
+```cl
+(sb-impl::yes sb-impl::no)
 ```

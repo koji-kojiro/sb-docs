@@ -8,6 +8,6 @@
 > list of subforms suitable for a "~{~S ~}" format string.
 
 ### Lambda list
-```
-(NAME LAMBDA-LIST &BODY BODY)
+```cl
+(sb-c::name sb-c::lambda-list &body sb-c::body)
 ```

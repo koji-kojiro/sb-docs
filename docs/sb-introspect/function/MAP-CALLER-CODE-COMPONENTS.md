@@ -5,6 +5,6 @@
 > constant pool.
 
 ### Lambda list
-```
-(FUNCTION SPACES FN)
+```cl
+(function sb-introspect::spaces sb-introspect::fn)
 ```

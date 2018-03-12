@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME &KEY CREATE)
+```cl
+(sb-kernel::name &key sb-kernel::create)
 ```

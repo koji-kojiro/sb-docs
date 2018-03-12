@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LVAR &OPTIONAL NOTINLINE-OK)
+```cl
+(sb-c::lvar &optional sb-c::notinline-ok)
 ```

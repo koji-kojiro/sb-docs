@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RAW-FORM LOCATION)
+```cl
+(sb-c::raw-form sb-c::location)
 ```

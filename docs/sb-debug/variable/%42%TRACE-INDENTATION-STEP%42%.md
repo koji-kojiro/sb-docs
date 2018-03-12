@@ -4,6 +4,6 @@
 > the increase in trace indentation at each call level
 
 ### Value
-```
+```cl
 2
 ```

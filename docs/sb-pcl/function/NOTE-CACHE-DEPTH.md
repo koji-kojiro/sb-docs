@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CACHE DEPTH)
+```cl
+(sb-pcl::cache sb-pcl::depth)
 ```

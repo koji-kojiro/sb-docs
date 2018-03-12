@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ORDERED-LIST-1 ORDERED-LIST-2)
+```cl
+(sb-c::ordered-list-1 sb-c::ordered-list-2)
 ```

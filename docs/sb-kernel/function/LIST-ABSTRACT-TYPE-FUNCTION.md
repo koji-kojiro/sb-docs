@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE OVER &KEY UNDER OVERAPPROXIMATE)
+```cl
+(type sb-kernel::over &key sb-kernel::under sb-kernel::overapproximate)
 ```

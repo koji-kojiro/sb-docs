@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPECS ARGS-P)
+```cl
+(sb-c::specs sb-c::args-p)
 ```

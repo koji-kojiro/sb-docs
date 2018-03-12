@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NOT-REALLY-P &BODY BODY)
+```cl
+(sb-vm::not-really-p &body sb-vm::body)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SLOTS READ/WRITE SPARAMETER SLOT-NAME NEW-VALUE &OPTIONAL SAFEP)
+```cl
+(sb-pcl::slots sb-pcl::read/write sb-pcl::sparameter sb-pcl::slot-name
+ sb-pcl::new-value &optional sb-pcl::safep)
 ```

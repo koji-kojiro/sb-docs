@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(TN RESTRICTED OPTIMIZE &KEY ALLOW-UNBOUNDED-SC)
+```cl
+(sb-c:tn sb-regalloc::restricted optimize &key
+ sb-regalloc::allow-unbounded-sc)
 ```

@@ -4,6 +4,6 @@
 > Log severity level denoting a condition that should be corrected immediately.
 
 ### Value
-```
+```cl
 1
 ```

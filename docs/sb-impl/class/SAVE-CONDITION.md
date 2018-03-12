@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(SAVE-CONDITION REFERENCE-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-impl::save-condition sb-int:reference-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES)
+```cl
+(:references)
 ```

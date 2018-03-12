@@ -4,6 +4,6 @@
 > Should the debugger display beginner-oriented help messages?
 
 ### Value
-```
-T
+```cl
+t
 ```

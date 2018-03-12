@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PLACE PLACE-VALUE TYPE &OPTIONAL TYPE-STRING)
+```cl
+(sb-kernel::place sb-kernel::place-value type &optional
+ sb-kernel::type-string)
 ```

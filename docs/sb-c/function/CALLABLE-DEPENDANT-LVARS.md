@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALLER LVARS ARGS RESULTS)
+```cl
+(sb-c::caller sb-c::lvars sb-c::args sb-c::results)
 ```

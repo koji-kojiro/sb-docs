@@ -5,6 +5,6 @@
 > name is that string, if one exists. Otherwise, NIL is returned.
 
 ### Lambda list
-```
-(NAME)
+```cl
+(sb-impl::name)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X Y)
+```cl
+(sb-impl::x sb-impl::y)
 ```

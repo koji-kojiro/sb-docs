@@ -30,6 +30,6 @@
 > will be signalled when the core is saved -- this is orthogonal from DONT-SAVE.
 
 ### Lambda list
-```
-(PATHNAME &KEY DONT-SAVE)
+```cl
+(pathname &key sb-alien::dont-save)
 ```

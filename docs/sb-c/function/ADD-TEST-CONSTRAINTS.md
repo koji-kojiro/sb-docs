@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(USE IF CONSTRAINTS)
+```cl
+(sb-c::use if sb-c::constraints)
 ```

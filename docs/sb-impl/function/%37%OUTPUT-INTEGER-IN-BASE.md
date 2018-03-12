@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INTEGER BASE STREAM)
+```cl
+(integer sb-impl::base stream)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PACK)
+```cl
+(sb-vm::pack)
 ```

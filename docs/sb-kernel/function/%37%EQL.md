@@ -4,6 +4,6 @@
 > Return T if OBJ1 and OBJ2 represent the same object, otherwise NIL.
 
 ### Lambda list
-```
-(OBJ1 OBJ2)
+```cl
+(sb-impl::obj1 sb-impl::obj2)
 ```

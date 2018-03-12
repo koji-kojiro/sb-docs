@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<INST-SPACE {10000F3DC3}>
+```cl
+#<sb-disassem::inst-space {10000f3dc3}>
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM ABORT)
+```cl
+(stream abort)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ADDRESS SIZE)
+```cl
+(sb-disassem::address sb-disassem::size)
 ```

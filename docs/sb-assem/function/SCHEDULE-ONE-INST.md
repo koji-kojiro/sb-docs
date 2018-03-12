@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT DELAY-SLOT-P)
+```cl
+(sb-assem:segment sb-assem::delay-slot-p)
 ```

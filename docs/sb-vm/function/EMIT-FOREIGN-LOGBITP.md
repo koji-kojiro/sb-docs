@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INDEX FOREIGN-SYMBOL TEMP-REG)
+```cl
+(sb-int:index sb-vm::foreign-symbol sb-vm::temp-reg)
 ```

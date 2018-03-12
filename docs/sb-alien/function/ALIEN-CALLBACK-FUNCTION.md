@@ -4,6 +4,6 @@
 > Changes the lisp function designated by the callback.
 
 ### Lambda list
-```
-#'ALIEN
+```cl
+#'sb-alien:alien
 ```

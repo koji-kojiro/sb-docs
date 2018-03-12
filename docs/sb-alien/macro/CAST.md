@@ -5,6 +5,6 @@
 > must be Alien array, pointer or function types.
 
 ### Lambda list
-```
-(ALIEN TYPE)
+```cl
+(sb-alien:alien type)
 ```

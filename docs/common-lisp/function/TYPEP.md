@@ -4,6 +4,6 @@
 > Is OBJECT of type TYPE?
 
 ### Lambda list
-```
-(OBJECT TYPE &OPTIONAL ENVIRONMENT)
+```cl
+(sb-kernel::object type &optional sb-kernel::environment)
 ```

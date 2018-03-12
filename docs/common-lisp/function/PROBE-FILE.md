@@ -5,6 +5,6 @@
 > or NIL otherwise.  See TRUENAME for more information.
 
 ### Lambda list
-```
-(PATHSPEC)
+```cl
+(sb-impl::pathspec)
 ```

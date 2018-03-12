@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STATE)
+```cl
+(sb-kernel::state)
 ```

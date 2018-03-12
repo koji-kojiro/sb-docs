@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN &REST SPACES)
+```cl
+(sb-vm::fun &rest sb-vm::spaces)
 ```

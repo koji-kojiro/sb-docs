@@ -6,10 +6,11 @@
 > read by the function THREAD-ERROR-THREAD.
 
 ### Precedence list
-```
-(THREAD-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-thread:thread-error error serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(THREAD)
+```cl
+(:thread)
 ```

@@ -4,12 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (INHERITS INHERITS) (ARGS ARGS) (RESULTS RESULTS)
- (TEMPS TEMPS) (MORE-ARGS MORE-ARGS) (MORE-RESULTS MORE-RESULTS)
- (OPERANDS OPERANDS) (IGNORES IGNORES) (CONDITIONAL-P CONDITIONAL-P)
- (ARG-TYPES ARG-TYPES) (RESULT-TYPES RESULT-TYPES) (GUARD GUARD) (COST COST)
- (BODY BODY) (VARIANT VARIANT) (VARIANT-VARS VARIANT-VARS) (VOP-VAR VOP-VAR)
- (NODE-VAR NODE-VAR) (INFO-ARGS INFO-ARGS) (NOTE NOTE) (TRANSLATE TRANSLATE)
- (LTN-POLICY LTN-POLICY) (SAVE-P SAVE-P) (MOVE-ARGS MOVE-ARGS))
+```cl
+(&key (:name #:name) (:inherits #:inherits) (:args #:args)
+ (:results #:results) (:temps #:temps) (:more-args #:more-args)
+ (:more-results #:more-results) (:operands #:operands)
+ (:ignores #:ignores) (:conditional-p #:conditional-p)
+ (:arg-types #:arg-types) (:result-types #:result-types)
+ (:guard #:guard) (:cost #:cost) (:body #:body) (:variant #:variant)
+ (:variant-vars #:variant-vars) (:vop-var #:vop-var)
+ (:node-var #:node-var) (:info-args #:info-args) (:note #:note) ..)
 ```

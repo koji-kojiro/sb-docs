@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LAMBDA LEXENV)
+```cl
+(lambda sb-kernel:lexenv)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HASH-TABLE ALIST)
+```cl
+(hash-table sb-impl::alist)
 ```

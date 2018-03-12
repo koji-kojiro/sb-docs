@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STANDARD-ACCESSOR-METHOD)
+```cl
+(sb-mop:standard-accessor-method)
 ```

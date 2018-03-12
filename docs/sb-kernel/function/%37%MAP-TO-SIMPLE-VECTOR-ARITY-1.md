@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN SEQUENCE)
+```cl
+(sb-impl::fun sequence)
 ```

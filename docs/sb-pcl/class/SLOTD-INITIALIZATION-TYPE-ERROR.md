@@ -4,11 +4,13 @@
 > No description.
 
 ### Precedence list
-```
-(SLOTD-INITIALIZATION-TYPE-ERROR SLOTD-INITIALIZATION-ERROR REFERENCE-CONDITION
- TYPE-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-pcl::slotd-initialization-type-error
+ sb-pcl::slotd-initialization-error sb-int:reference-condition
+ type-error error serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(DATUM EXPECTED-TYPE CONTEXT REFERENCES INITARG KIND VALUE DATUM VALUE)
+```cl
+(:datum :expected-type :context :references :initarg :kind :value
+ :datum :value)
 ```

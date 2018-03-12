@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE DST DST-OFFSET LENGTH)
+```cl
+(sb-vm::value sb-vm::dst sb-vm::dst-offset length)
 ```

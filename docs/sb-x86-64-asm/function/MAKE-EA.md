@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SIZE &KEY BASE INDEX SCALE DISP)
+```cl
+(sb-x86-64-asm::size &key sb-x86-64-asm::base sb-int:index
+ sb-x86-64-asm::scale sb-x86-64-asm::disp)
 ```

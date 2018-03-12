@@ -6,6 +6,6 @@
 > definition-source pairs.
 
 ### Lambda list
-```
-(MACRO-NAME)
+```cl
+(sb-introspect::macro-name)
 ```

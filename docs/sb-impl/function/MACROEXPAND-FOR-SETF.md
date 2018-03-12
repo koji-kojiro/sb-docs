@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PLACE ENVIRONMENT)
+```cl
+(sb-impl::place sb-impl::environment)
 ```

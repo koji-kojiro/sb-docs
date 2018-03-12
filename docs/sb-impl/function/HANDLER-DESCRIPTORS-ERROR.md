@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL BOGUS-HANDLERS)
+```cl
+(&optional sb-impl::bogus-handlers)
 ```

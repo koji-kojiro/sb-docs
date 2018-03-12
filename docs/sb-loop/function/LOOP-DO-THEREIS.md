@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RESTRICTIVE)
+```cl
+(sb-loop::restrictive)
 ```

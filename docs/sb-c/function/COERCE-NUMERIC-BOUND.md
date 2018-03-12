@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BOUND TYPE)
+```cl
+(sb-c::bound type)
 ```

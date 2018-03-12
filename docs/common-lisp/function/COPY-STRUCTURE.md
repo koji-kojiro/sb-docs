@@ -4,6 +4,6 @@
 > Return a copy of STRUCTURE with the same (EQL) slot values.
 
 ### Lambda list
-```
-(STRUCTURE)
+```cl
+(structure)
 ```

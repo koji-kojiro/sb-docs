@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS INITKEYS)
+```cl
+(class sb-pcl::initkeys)
 ```

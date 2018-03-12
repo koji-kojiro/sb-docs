@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(UTIME)
+```cl
+(sb-impl::utime)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LM OPERATION FORM)
+```cl
+(sb-loop::lm sb-loop::operation sb-kernel:form)
 ```

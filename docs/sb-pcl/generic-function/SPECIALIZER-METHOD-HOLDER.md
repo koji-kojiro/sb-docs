@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPECIALIZER &OPTIONAL CREATE)
+```cl
+(sb-mop:specializer &optional sb-pcl::create)
 ```

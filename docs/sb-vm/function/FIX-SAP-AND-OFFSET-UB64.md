@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SAP OFFSET)
+```cl
+(sb-vm::sap sb-vm::offset)
 ```

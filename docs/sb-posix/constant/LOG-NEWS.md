@@ -4,6 +4,6 @@
 > openlog() facility for the usenet subsystem
 
 ### Value
-```
+```cl
 56
 ```

@@ -4,6 +4,6 @@
 > Construct a SIMPLE-VECTOR from the given objects.
 
 ### Lambda list
-```
-(&REST OBJECTS)
+```cl
+(&rest sb-impl::objects)
 ```

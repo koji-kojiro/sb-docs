@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(C-A-M-GF)
+```cl
+(sb-pcl::c-a-m-gf)
 ```

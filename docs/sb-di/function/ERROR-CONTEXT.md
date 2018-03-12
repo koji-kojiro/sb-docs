@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL FRAME)
+```cl
+(&optional sb-di:frame)
 ```

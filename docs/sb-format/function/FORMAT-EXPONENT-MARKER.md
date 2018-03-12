@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

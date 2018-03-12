@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<SLOT-CLASS SB-PCL::SLOT-OBJECT>
+```cl
+#<sb-pcl::slot-class sb-pcl::slot-object>
 ```

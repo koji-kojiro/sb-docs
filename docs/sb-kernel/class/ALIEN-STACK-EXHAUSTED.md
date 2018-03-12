@@ -4,7 +4,7 @@
 > No description.
 
 ### Precedence list
-```
-(ALIEN-STACK-EXHAUSTED STORAGE-CONDITION SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-kernel::alien-stack-exhausted storage-condition serious-condition
+ condition sb-pcl::slot-object t)
 ```

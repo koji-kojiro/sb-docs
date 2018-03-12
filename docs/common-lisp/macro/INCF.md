@@ -5,6 +5,6 @@
 > incremented by the second argument, DELTA, which defaults to 1.
 
 ### Lambda list
-```
-(PLACE &OPTIONAL DELTA)
+```cl
+(sb-impl::place &optional sb-impl::delta)
 ```

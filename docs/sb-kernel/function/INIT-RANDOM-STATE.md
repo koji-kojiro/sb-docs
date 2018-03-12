@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL SEED STATE)
+```cl
+(&optional sb-kernel::seed sb-kernel::state)
 ```

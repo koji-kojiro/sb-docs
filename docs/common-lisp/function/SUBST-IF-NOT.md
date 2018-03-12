@@ -4,6 +4,6 @@
 > Substitutes new for subtrees for which test is false.
 
 ### Lambda list
-```
-(NEW TEST TREE &KEY KEY)
+```cl
+(sb-impl::new sb-impl::test sb-impl::tree &key sb-impl::key)
 ```

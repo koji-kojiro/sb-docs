@@ -5,6 +5,6 @@
 > new value. The functions take the function name and the new value.
 
 ### Value
-```
-(#<FUNCTION SB-DEBUG::TRACE-REDEFINED-UPDATE>)
+```cl
+(#<function sb-debug::trace-redefined-update>)
 ```

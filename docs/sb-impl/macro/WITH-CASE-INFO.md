@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((CHAR INDEX-VAR CASES-VAR &KEY MISS-VALUE) &BODY BODY)
+```cl
+((char sb-impl::index-var sb-impl::cases-var &key sb-impl::miss-value)
+ &body sb-impl::body)
 ```

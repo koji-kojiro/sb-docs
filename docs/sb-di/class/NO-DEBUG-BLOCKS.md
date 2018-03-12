@@ -4,10 +4,11 @@
 > The debug-fun has no debug-block information.
 
 ### Precedence list
-```
-(NO-DEBUG-BLOCKS DEBUG-CONDITION SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-di:no-debug-blocks sb-di:debug-condition serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(DEBUG-FUN)
+```cl
+(:debug-fun)
 ```

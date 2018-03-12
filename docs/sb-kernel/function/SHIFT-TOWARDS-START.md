@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NUMBER COUNTOID)
+```cl
+(number sb-vm::countoid)
 ```

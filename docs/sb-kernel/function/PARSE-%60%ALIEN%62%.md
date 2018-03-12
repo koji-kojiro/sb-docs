@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL ALIEN-TYPE)
+```cl
+(&optional sb-alien-internals:alien-type)
 ```

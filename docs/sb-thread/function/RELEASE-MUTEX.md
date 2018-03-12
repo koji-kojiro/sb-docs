@@ -13,6 +13,6 @@
 > IF-NOT-OWNER is :FORCE).
 
 ### Lambda list
-```
-(MUTEX &KEY IF-NOT-OWNER)
+```cl
+(sb-thread:mutex &key sb-thread::if-not-owner)
 ```

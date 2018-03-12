@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WIDETAG LENGTH N-BITS-SHIFT)
+```cl
+(sb-impl::widetag length sb-impl::n-bits-shift)
 ```

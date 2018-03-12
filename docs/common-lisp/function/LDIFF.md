@@ -6,6 +6,6 @@
 > LIST must be a proper list or a dotted list.
 
 ### Lambda list
-```
-(LIST OBJECT)
+```cl
+(list sb-impl::object)
 ```

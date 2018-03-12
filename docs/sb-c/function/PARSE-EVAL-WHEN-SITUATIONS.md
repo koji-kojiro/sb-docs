@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SITUATIONS)
+```cl
+(sb-c::situations)
 ```

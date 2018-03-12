@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT FIXUP REG REMAINING-BYTES)
+```cl
+(sb-x86-64-asm::segment sb-c:fixup sb-x86-64-asm::reg
+ sb-x86-64-asm::remaining-bytes)
 ```

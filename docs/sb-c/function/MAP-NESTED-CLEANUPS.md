@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION LEXENV &OPTIONAL RETURN-VALUE)
+```cl
+(function sb-kernel:lexenv &optional sb-c::return-value)
 ```

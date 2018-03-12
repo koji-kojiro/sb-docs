@@ -7,11 +7,11 @@
 > the values returned by the form as a list. No associated restarts.
 
 ### Precedence list
-```
-(STEP-VALUES-CONDITION STEP-RESULT-CONDITION STEP-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-ext:step-values-condition sb-kernel::step-result-condition
+ sb-ext:step-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORM RESULT)
+```cl
+(:form :result)
 ```

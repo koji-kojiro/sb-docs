@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((SYMBOL (CONSET CONSTRAINTS) &OPTIONAL RESULT) &BODY BODY)
+```cl
+((symbol (sb-c::conset sb-c::constraints) &optional sb-c::result) &body
+ sb-c::body)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE TARGET NOT-P IMMEDIATE &OPTIONAL DROP-THROUGH)
+```cl
+(sb-vm::value sb-vm::target sb-vm::not-p sb-vm::immediate &optional
+ sb-vm::drop-through)
 ```

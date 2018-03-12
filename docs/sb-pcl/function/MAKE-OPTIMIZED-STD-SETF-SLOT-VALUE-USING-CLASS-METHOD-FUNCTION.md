@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FSC-P SLOTD)
+```cl
+(sb-pcl::fsc-p sb-pcl::slotd)
 ```

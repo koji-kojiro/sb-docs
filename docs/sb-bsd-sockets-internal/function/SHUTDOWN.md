@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD HOW)
+```cl
+(sb-bsd-sockets-internal::fd sb-bsd-sockets-internal::how)
 ```

@@ -4,8 +4,11 @@
 > No description.
 
 ### Value
-```
-((4 . NO-ADDRESS-ERROR) (3 . NO-RECOVERY-ERROR) (2 . TRY-AGAIN-ERROR)
- (1 . HOST-NOT-FOUND-ERROR) (0 . NETDB-SUCCESS-ERROR)
- (-1 . NETDB-INTERNAL-ERROR))
+```cl
+((4 . sb-bsd-sockets::no-address-error)
+ (3 . sb-bsd-sockets:no-recovery-error)
+ (2 . sb-bsd-sockets:try-again-error)
+ (1 . sb-bsd-sockets:host-not-found-error)
+ (0 . sb-bsd-sockets:netdb-success-error)
+ (-1 . sb-bsd-sockets:netdb-internal-error))
 ```

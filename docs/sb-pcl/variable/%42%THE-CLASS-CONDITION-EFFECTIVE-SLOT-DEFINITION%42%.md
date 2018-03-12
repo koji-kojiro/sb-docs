@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-PCL::CONDITION-EFFECTIVE-SLOT-DEFINITION>
+```cl
+#<standard-class sb-pcl::condition-effective-slot-definition>
 ```

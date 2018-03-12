@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-PCL::DEFINITION-SOURCE-MIXIN>
+```cl
+#<standard-class sb-pcl::definition-source-mixin>
 ```

@@ -40,6 +40,6 @@
 > assume that unknown code can safely be terminated using TERMINATE-THREAD.
 
 ### Lambda list
-```
-(THREAD)
+```cl
+(sb-thread:thread)
 ```

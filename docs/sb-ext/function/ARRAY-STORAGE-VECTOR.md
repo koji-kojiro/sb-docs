@@ -13,6 +13,6 @@
 > function to be removed without further warning.
 
 ### Lambda list
-```
-(ARRAY)
+```cl
+(array)
 ```

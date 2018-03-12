@@ -4,6 +4,6 @@
 > Return the square root of NUMBER.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

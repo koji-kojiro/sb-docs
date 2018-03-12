@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(RAW-SPEC RES VARS FVARS BINDING-FORM-P CONTEXT)
+```cl
+(sb-c::raw-spec sb-c::res sb-c::vars sb-c::fvars sb-c::binding-form-p
+ sb-c::context)
 ```

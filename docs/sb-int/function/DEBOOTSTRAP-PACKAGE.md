@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL CONDITION)
+```cl
+(&optional condition)
 ```

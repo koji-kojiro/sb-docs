@@ -5,6 +5,6 @@
 > return multiple values
 
 ### Lambda list
-```
-(SOCKET)
+```cl
+(sb-bsd-sockets:socket)
 ```

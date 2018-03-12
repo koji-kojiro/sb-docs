@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM VERBOSE PRINT)
+```cl
+(stream sb-fasl::verbose print)
 ```

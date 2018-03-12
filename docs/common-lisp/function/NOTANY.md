@@ -7,6 +7,6 @@
 > of any sequence is reached.
 
 ### Lambda list
-```
-(PRED FIRST-SEQ &REST MORE-SEQS)
+```cl
+(sb-impl::pred sb-impl::first-seq &rest sb-impl::more-seqs)
 ```

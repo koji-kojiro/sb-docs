@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(MEM &OPTIONAL PREFIX)
+```cl
+(sb-x86-64-asm::mem &optional sb-x86-64-asm::prefix)
 ```

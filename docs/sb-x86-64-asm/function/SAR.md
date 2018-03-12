@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DST AMOUNT)
+```cl
+(sb-x86-64-asm::dst sb-x86-64-asm::amount)
 ```

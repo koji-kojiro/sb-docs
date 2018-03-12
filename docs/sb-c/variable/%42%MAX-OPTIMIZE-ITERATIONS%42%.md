@@ -6,6 +6,6 @@
 > necessary, since type inference may take arbitrarily long to converge.
 
 ### Value
-```
+```cl
 3
 ```

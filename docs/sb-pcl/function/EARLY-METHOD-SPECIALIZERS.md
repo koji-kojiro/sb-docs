@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EARLY-METHOD &OPTIONAL OBJECTSP)
+```cl
+(sb-pcl::early-method &optional sb-pcl::objectsp)
 ```

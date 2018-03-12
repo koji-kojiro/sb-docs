@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NUMBER KIND X Y NOT-P)
+```cl
+(number sb-c::kind sb-c::x sb-c::y sb-c::not-p)
 ```

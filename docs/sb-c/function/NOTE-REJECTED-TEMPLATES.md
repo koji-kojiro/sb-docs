@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALL LTN-POLICY TEMPLATE)
+```cl
+(sb-c:call sb-c::ltn-policy sb-c::template)
 ```

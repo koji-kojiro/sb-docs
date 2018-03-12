@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(IO-TIMEOUT STREAM-ERROR ERROR TIMEOUT SERIOUS-CONDITION CONDITION SLOT-OBJECT
- T)
+```cl
+(sb-sys:io-timeout stream-error error sb-ext:timeout serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(SECONDS STREAM DIRECTION)
+```cl
+(:seconds :stream :direction)
 ```

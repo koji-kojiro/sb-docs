@@ -5,6 +5,6 @@
 > return NIL if none exists.
 
 ### Lambda list
-```
-(&OPTIONAL CONDITION)
+```cl
+(&optional condition)
 ```

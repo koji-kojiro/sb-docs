@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(IMPLICIT-GENERIC-FUNCTION-WARNING STYLE-WARNING WARNING CONDITION SLOT-OBJECT
- T)
+```cl
+(sb-ext:implicit-generic-function-warning style-warning warning
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME)
+```cl
+(:name)
 ```

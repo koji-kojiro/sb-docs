@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT INDEX OFFSET ELEMENT-SIZE &KEY SCALE COMPLEX-OFFSET)
+```cl
+(sb-vm::object sb-int:index sb-vm::offset sb-vm::element-size &key
+ sb-vm::scale sb-vm::complex-offset)
 ```

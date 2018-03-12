@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TAG &BODY BODY)
+```cl
+(sb-c::tag &body sb-c::body)
 ```

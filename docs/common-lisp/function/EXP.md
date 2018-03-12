@@ -4,6 +4,6 @@
 > Return e raised to the power NUMBER.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

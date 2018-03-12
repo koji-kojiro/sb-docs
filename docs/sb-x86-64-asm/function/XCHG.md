@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OPERAND1 OPERAND2)
+```cl
+(sb-x86-64-asm::operand1 sb-x86-64-asm::operand2)
 ```

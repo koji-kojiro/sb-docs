@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THING EXPR &OPTIONAL COERCION-FN)
+```cl
+(sb-c::thing sb-c::expr &optional sb-c::coercion-fn)
 ```

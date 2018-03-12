@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (OFFSET OFFSET) (FUN FUN) (BEFORE-ADDRESS BEFORE-ADDRESS))
+```cl
+(&key (:offset #:offset) (:fun #:fun)
+ (:before-address #:before-address))
 ```

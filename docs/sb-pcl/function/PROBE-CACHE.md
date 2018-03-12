@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CACHE LAYOUTS)
+```cl
+(sb-pcl::cache sb-pcl::layouts)
 ```

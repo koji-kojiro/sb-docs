@@ -4,6 +4,6 @@
 > openlog() facility for arbitrary daemons
 
 ### Value
-```
+```cl
 24
 ```

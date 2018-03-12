@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (CALL CALL) (INTERNAL INTERNAL) (TOTAL TOTAL))
+```cl
+(&key (:call #:call) (:internal #:internal) (:total #:total))
 ```

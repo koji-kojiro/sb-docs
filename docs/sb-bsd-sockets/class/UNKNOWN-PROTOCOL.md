@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(UNKNOWN-PROTOCOL ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-bsd-sockets:unknown-protocol error serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME)
+```cl
+(:name)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ARRAY START END EXTERNAL-FORMAT REASON POS)
+```cl
+(array sb-impl::start sb-impl::end sb-impl::external-format
+ sb-impl::reason sb-impl::pos)
 ```

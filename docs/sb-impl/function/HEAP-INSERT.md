@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HEAP NEW-ITEM &KEY KEY TEST)
+```cl
+(sb-impl::heap sb-impl::new-item &key sb-impl::key sb-impl::test)
 ```

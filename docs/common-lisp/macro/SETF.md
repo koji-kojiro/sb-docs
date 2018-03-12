@@ -7,6 +7,6 @@
 > knows a corresponding setting form.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-impl::args)
 ```

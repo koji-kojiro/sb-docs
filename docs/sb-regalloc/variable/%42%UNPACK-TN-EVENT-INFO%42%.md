@@ -4,12 +4,12 @@
 > No description.
 
 ### Value
-```
-#S(SB-C::EVENT-INFO
-   :NAME UNPACK-TN
-   :DESCRIPTION Unpacked a TN to satisfy operand SC restriction.
-   :VAR *UNPACK-TN-EVENT-INFO*
-   :COUNT 0
-   :LEVEL 0
-   :ACTION NIL)
+```cl
+#s(sb-c::event-info
+   :name sb-regalloc::unpack-tn
+   :description "unpacked a tn to satisfy operand sc restriction."
+   :var sb-regalloc::*unpack-tn-event-info*
+   :count 0
+   :level 0
+   :action nil)
 ```

@@ -4,6 +4,6 @@
 > Return a new list which is EQUAL to LIST. LIST may be improper.
 
 ### Lambda list
-```
-(LIST)
+```cl
+(list)
 ```

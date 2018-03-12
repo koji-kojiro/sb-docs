@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EXPR LEXENV)
+```cl
+(sb-impl::expr sb-kernel:lexenv)
 ```

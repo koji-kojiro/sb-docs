@@ -5,6 +5,6 @@
 > there are no character bits or fonts.)
 
 ### Lambda list
-```
-(CHAR)
+```cl
+(char)
 ```

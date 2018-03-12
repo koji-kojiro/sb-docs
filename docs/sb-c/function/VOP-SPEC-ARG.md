@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPEC TYPE &OPTIONAL N LAST)
+```cl
+(sb-c::spec type &optional sb-c::n last)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS INVALID-KEYS)
+```cl
+(class sb-pcl::invalid-keys)
 ```

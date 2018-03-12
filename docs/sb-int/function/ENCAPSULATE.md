@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME TYPE FUNCTION)
+```cl
+(sb-impl::name type function)
 ```

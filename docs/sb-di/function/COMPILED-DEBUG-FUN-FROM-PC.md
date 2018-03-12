@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DEBUG-INFO PC &OPTIONAL ESCAPED)
+```cl
+(sb-di::debug-info sb-di::pc &optional sb-di::escaped)
 ```

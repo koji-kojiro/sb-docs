@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CALL TYPE FUN &OPTIONAL IR1-CONVERTING-NOT-OPTIMIZING-P)
+```cl
+(sb-c:call type sb-c::fun &optional
+ sb-c::ir1-converting-not-optimizing-p)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FOR NEGATEP)
+```cl
+(sb-loop::for sb-loop::negatep)
 ```

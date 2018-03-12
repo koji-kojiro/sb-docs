@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NODE BLOCK NAME WORDS TYPE LOWTAG RESULT LVAR)
+```cl
+(sb-c::node block sb-c::name sb-c::words type sb-c::lowtag sb-c::result
+ sb-c::lvar)
 ```

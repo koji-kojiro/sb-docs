@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(NAME METACLASS-NAME SUPERS SLOTS OTHER READERS WRITERS SLOT-NAMES
- SOURCE-LOCATION &OPTIONAL SAFE-P)
+```cl
+(sb-pcl::name sb-pcl::metaclass-name sb-pcl::supers sb-pcl::slots
+ sb-pcl::other sb-pcl::readers sb-pcl::writers sb-pcl::slot-names
+ sb-pcl::source-location &optional sb-pcl::safe-p)
 ```

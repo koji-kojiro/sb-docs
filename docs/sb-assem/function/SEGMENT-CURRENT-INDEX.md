@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE SEGMENT)
+```cl
+(sb-assem::new-value sb-assem:segment)
 ```

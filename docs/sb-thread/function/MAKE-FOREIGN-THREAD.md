@@ -4,10 +4,11 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (%ALIVE-P %ALIVE-P) (%EPHEMERAL-P %EPHEMERAL-P)
- (OS-THREAD OS-THREAD) (PRIMITIVE-THREAD PRIMITIVE-THREAD)
- (INTERRUPTIONS INTERRUPTIONS) (RESULT RESULT)
- (INTERRUPTIONS-LOCK INTERRUPTIONS-LOCK) (RESULT-LOCK RESULT-LOCK)
- (WAITING-FOR WAITING-FOR))
+```cl
+(&key (:name #:name) (:%alive-p #:%alive-p)
+ (:%ephemeral-p #:%ephemeral-p) (:os-thread #:os-thread)
+ (:primitive-thread #:primitive-thread)
+ (:interruptions #:interruptions) (:result #:result)
+ (:interruptions-lock #:interruptions-lock)
+ (:result-lock #:result-lock) (:waiting-for #:waiting-for))
 ```

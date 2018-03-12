@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(U U-LEN V V-LEN TMP1)
+```cl
+(sb-bignum::u sb-bignum::u-len sb-bignum::v sb-bignum::v-len
+ sb-bignum::tmp1)
 ```

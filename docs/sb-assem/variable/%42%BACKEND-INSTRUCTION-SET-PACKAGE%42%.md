@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<PACKAGE "SB-X86-64-ASM">
+```cl
+#<package "sb-x86-64-asm">
 ```

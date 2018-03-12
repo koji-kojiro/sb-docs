@@ -7,6 +7,6 @@
 > are NIL.
 
 ### Lambda list
-```
-(NAME &OPTIONAL PACKAGE)
+```cl
+(sb-impl::name &optional package)
 ```

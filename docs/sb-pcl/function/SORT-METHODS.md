@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(METHODS PRECEDENCE COMPARE-CLASSES-FUNCTION)
+```cl
+(sb-pcl::methods sb-pcl::precedence sb-pcl::compare-classes-function)
 ```

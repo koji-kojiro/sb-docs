@@ -6,6 +6,6 @@
 > forms that explicitly control this kind of evaluation.
 
 ### Value
-```
-T
+```cl
+t
 ```

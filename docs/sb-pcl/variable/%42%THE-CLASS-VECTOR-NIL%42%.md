@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<BUILT-IN-CLASS SB-KERNEL::VECTOR-NIL>
+```cl
+#<built-in-class sb-kernel::vector-nil>
 ```

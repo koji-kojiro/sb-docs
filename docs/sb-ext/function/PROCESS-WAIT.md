@@ -6,6 +6,6 @@
 > PROCESS.
 
 ### Lambda list
-```
-(PROCESS &OPTIONAL CHECK-FOR-STOPPED)
+```cl
+(sb-impl::process &optional sb-impl::check-for-stopped)
 ```

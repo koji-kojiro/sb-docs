@@ -5,6 +5,6 @@
 > disappears when accents are placed on top of it. and NIL otherwise
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

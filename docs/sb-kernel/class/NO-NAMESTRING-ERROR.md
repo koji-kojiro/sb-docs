@@ -4,12 +4,14 @@
 > No description.
 
 ### Precedence list
-```
-(NO-NAMESTRING-ERROR PATHNAME-UNPARSE-ERROR FILE-ERROR ERROR SERIOUS-CONDITION
-                     SIMPLE-CONDITION REFERENCE-CONDITION CONDITION SLOT-OBJECT
-                     T)
+```cl
+(sb-kernel:no-namestring-error sb-kernel::pathname-unparse-error
+                               file-error error serious-condition
+                               simple-condition
+                               sb-int:reference-condition condition
+                               sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES FORMAT-CONTROL FORMAT-ARGUMENTS PATHNAME PROBLEM)
+```cl
+(:references :format-control :format-arguments :pathname :problem)
 ```

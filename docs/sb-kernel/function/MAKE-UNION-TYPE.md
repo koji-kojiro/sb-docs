@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ENUMERABLE TYPES)
+```cl
+(sb-kernel::enumerable sb-kernel::types)
 ```

@@ -4,6 +4,6 @@
 > Returns the resolved target of a symbolic link as a string.
 
 ### Lambda list
-```
-(PATHSPEC)
+```cl
+(sb-posix::pathspec)
 ```

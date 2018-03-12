@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PROTECTED &BODY CLEANUP)
+```cl
+(sb-c::protected &body sb-c::cleanup)
 ```

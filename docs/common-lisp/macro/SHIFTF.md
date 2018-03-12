@@ -7,6 +7,6 @@
 > returning the value of the leftmost.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-impl::args)
 ```

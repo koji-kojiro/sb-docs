@@ -4,6 +4,6 @@
 > Returns the canonical combining class (CCC) of CHARACTER
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

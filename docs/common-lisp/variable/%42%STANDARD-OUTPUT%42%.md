@@ -4,6 +4,6 @@
 > default output stream
 
 ### Value
-```
-#<SYNONYM-STREAM :SYMBOL SB-SYS:*STDOUT* {1000007A03}>
+```cl
+#<synonym-stream :symbol sb-sys:*stdout* {1000007a03}>
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY PRINT-SPACES COUNT-SPACES PRINT-SUMMARY CUTOFF)
+```cl
+(&key sb-vm::print-spaces sb-vm::count-spaces sb-vm::print-summary
+ sb-vm::cutoff)
 ```

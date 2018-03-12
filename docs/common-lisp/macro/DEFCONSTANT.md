@@ -7,6 +7,6 @@
 > third argument is an optional documentation string for the variable.
 
 ### Lambda list
-```
-(NAME VALUE &OPTIONAL DOC)
+```cl
+(sb-impl::name sb-impl::value &optional sb-impl::doc)
 ```

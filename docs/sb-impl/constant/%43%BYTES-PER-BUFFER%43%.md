@@ -4,6 +4,6 @@
 > Default number of bytes per buffer.
 
 ### Value
-```
+```cl
 4096
 ```

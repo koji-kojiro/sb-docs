@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EARLY LATE)
+```cl
+(sb-c::early sb-c::late)
 ```

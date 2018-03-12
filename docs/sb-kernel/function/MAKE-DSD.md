@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME TYPE ACCESSOR-NAME BITS DEFAULT)
+```cl
+(sb-kernel::name type sb-kernel::accessor-name sb-kernel::bits
+ sb-kernel::default)
 ```

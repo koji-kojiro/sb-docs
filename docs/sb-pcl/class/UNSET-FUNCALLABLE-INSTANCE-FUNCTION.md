@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(UNSET-FUNCALLABLE-INSTANCE-FUNCTION REFERENCE-CONDITION SIMPLE-ERROR
- SIMPLE-CONDITION ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-pcl::unset-funcallable-instance-function sb-int:reference-condition
+ simple-error simple-condition error serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS REFERENCES)
+```cl
+(:format-control :format-arguments :references)
 ```

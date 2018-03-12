@@ -6,6 +6,8 @@
 > may be destructively modified.
 
 ### Lambda list
-```
-(NEW OLD SEQUENCE &REST ARGS &KEY FROM-END TEST TEST-NOT END COUNT KEY START)
+```cl
+(sb-impl::new sb-impl::old sequence &rest sb-impl::args &key
+ sb-impl::from-end sb-impl::test sb-impl::test-not sb-impl::end count
+ sb-impl::key sb-impl::start)
 ```

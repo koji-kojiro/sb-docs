@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM &OPTIONAL TERPRI)
+```cl
+(stream &optional terpri)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION METHOD)
+```cl
+(generic-function method)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DEFINITIONS FUN CONTEXT)
+```cl
+(sb-c::definitions sb-c::fun sb-c::context)
 ```

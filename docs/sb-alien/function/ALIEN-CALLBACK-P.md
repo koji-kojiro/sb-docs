@@ -5,6 +5,6 @@
 > and a secondary return value of true if the callback is still valid.
 
 ### Lambda list
-```
-(ALIEN)
+```cl
+(sb-alien:alien)
 ```

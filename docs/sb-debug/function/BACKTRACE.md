@@ -6,6 +6,6 @@
 > Use SB-DEBUG:PRINT-BACKTRACE instead.
 
 ### Lambda list
-```
-(&OPTIONAL COUNT STREAM)
+```cl
+(&optional count stream)
 ```

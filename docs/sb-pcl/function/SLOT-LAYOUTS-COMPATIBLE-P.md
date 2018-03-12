@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(OSLOTDS NEW-INSTANCE-SLOTDS NEW-CLASS-SLOTDS NEW-CUSTOM-SLOTDS)
+```cl
+(sb-pcl::oslotds sb-pcl::new-instance-slotds sb-pcl::new-class-slotds
+ sb-pcl::new-custom-slotds)
 ```

@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(UNKNOWN-CODE-LOCATION DEBUG-ERROR ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-di::unknown-code-location sb-di:debug-error error serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(CODE-LOCATION)
+```cl
+(:code-location)
 ```

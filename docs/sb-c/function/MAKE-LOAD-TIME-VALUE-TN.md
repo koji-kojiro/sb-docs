@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HANDLE TYPE)
+```cl
+(sb-c::handle type)
 ```

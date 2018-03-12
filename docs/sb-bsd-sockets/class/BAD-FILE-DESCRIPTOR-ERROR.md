@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(BAD-FILE-DESCRIPTOR-ERROR SOCKET-ERROR ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-bsd-sockets:bad-file-descriptor-error sb-bsd-sockets:socket-error
+ error serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(ERRNO SYMBOL SYMBOL SYSCALL)
+```cl
+(:errno :symbol :symbol :syscall)
 ```

@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(VERTEX NUMBER CONFLICTS LOCAL-TNS LTN-COUNT GTN-P LIVE-GTNS TN-VERTEX)
+```cl
+(sb-regalloc::vertex number sb-regalloc::conflicts
+ sb-regalloc::local-tns sb-regalloc::ltn-count sb-regalloc::gtn-p
+ sb-regalloc::live-gtns sb-regalloc::tn-vertex)
 ```

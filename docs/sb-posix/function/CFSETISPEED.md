@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPEED &OPTIONAL TERMIOS)
+```cl
+(speed &optional sb-posix:termios)
 ```

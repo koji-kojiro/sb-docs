@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALL TYPE &OPTIONAL TRUSTED)
+```cl
+(sb-c:call type &optional sb-c::trusted)
 ```

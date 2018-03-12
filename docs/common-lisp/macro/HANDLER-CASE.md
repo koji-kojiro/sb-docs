@@ -10,6 +10,6 @@
 > specification.
 
 ### Lambda list
-```
-(FORM &REST CASES)
+```cl
+(sb-kernel:form &rest sb-impl::cases)
 ```

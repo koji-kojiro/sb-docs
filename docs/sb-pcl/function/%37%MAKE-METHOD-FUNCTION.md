@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FAST-FUNCTION)
+```cl
+(sb-pcl::fast-function)
 ```

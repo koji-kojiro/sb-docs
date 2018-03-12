@@ -5,6 +5,6 @@
 > a symbol of the same name is present, then it is uninterned.
 
 ### Lambda list
-```
-(SYMBOLS &OPTIONAL PACKAGE)
+```cl
+(sb-impl::symbols &optional package)
 ```

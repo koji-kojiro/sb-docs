@@ -4,6 +4,6 @@
 > Returns the bidirectional class of CHARACTER
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

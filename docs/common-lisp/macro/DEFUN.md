@@ -4,6 +4,6 @@
 > Define a function at top level.
 
 ### Lambda list
-```
-(NAME LAMBDA-LIST &BODY BODY)
+```cl
+(sb-impl::name sb-impl::lambda-list &body sb-impl::body)
 ```

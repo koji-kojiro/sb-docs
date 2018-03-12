@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BASE POWER)
+```cl
+(sb-kernel::base sb-kernel::power)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TERMIOS)
+```cl
+(sb-posix:termios)
 ```

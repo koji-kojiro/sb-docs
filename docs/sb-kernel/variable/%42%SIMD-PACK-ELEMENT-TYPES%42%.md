@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-(INTEGER SINGLE-FLOAT DOUBLE-FLOAT)
+```cl
+(integer single-float double-float)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM OPERATION &OPTIONAL ARG1 ARG2)
+```cl
+(stream sb-impl::operation &optional sb-impl::arg1 sb-impl::arg2)
 ```

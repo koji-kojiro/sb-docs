@@ -4,6 +4,6 @@
 > Remove PACKAGES-TO-UNUSE from the USE list for PACKAGE.
 
 ### Lambda list
-```
-(PACKAGES-TO-UNUSE &OPTIONAL PACKAGE)
+```cl
+(sb-impl::packages-to-unuse &optional package)
 ```

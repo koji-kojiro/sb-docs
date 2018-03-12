@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NIL &BODY BODY)
+```cl
+(nil &body sb-debug::body)
 ```

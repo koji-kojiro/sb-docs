@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((NAME &KEY INCLUDE INCLUDE-ARGS) &REST SLOTS)
+```cl
+((sb-alien::name &key sb-alien::include sb-alien::include-args) &rest
+ sb-alien::slots)
 ```

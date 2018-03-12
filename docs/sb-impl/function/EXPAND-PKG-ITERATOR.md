@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RANGE VAR BODY RESULT-FORM)
+```cl
+(sb-impl::range sb-debug:var sb-impl::body sb-impl::result-form)
 ```

@@ -14,6 +14,6 @@
 > WITH-CAS-LOCK can be entered recursively.
 
 ### Lambda list
-```
-((PLACE) &BODY BODY)
+```cl
+((sb-thread::place) &body sb-thread::body)
 ```

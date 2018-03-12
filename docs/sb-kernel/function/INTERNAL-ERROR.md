@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONTEXT CONTINUABLE)
+```cl
+(sb-kernel::context sb-kernel::continuable)
 ```

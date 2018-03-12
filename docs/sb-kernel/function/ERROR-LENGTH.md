@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ERROR-NUMBER)
+```cl
+(sb-kernel::error-number)
 ```

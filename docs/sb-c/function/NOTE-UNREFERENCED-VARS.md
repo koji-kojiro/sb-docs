@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VARS POLICY)
+```cl
+(sb-c::vars sb-c:policy)
 ```

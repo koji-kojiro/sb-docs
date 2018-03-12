@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT SIZE ALIGNMENT MAYBE-SHRINK WORST-CASE-FUN)
+```cl
+(sb-assem:segment sb-assem::size sb-assem::alignment
+ sb-assem::maybe-shrink sb-assem::worst-case-fun)
 ```

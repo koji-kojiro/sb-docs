@@ -4,7 +4,7 @@
 > No description.
 
 ### Value
-```
-#(January February March April May June July August September October November
-  December)
+```cl
+#("january" "february" "march" "april" "may" "june" "july" "august"
+  "september" "october" "november" "december")
 ```

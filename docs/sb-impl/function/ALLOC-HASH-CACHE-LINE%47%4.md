@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(G11 G12 G13 G14)
+```cl
+(#:g11 #:g12 #:g13 #:g14)
 ```

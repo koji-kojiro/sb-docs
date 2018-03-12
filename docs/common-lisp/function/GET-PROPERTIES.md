@@ -6,6 +6,6 @@
 > returned, see manual for details.
 
 ### Lambda list
-```
-(PLACE INDICATOR-LIST)
+```cl
+(sb-impl::place sb-impl::indicator-list)
 ```

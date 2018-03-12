@@ -4,6 +4,6 @@
 > mmap: execute protection
 
 ### Value
-```
+```cl
 4
 ```

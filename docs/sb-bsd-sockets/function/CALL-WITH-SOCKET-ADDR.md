@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SOCKET SOCKADDR-ARGS THUNK)
+```cl
+(sb-bsd-sockets:socket sb-bsd-sockets::sockaddr-args
+ sb-bsd-sockets::thunk)
 ```

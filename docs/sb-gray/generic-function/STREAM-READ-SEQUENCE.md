@@ -4,6 +4,6 @@
 > This is like CL:READ-SEQUENCE, but for Gray streams.
 
 ### Lambda list
-```
-(STREAM SEQ &OPTIONAL START END)
+```cl
+(stream sb-gray::seq &optional sb-gray::start sb-gray::end)
 ```

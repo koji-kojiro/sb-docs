@@ -8,6 +8,6 @@
 > the stack without triggering overflow protection.
 
 ### Value
-```
-T
+```cl
+t
 ```

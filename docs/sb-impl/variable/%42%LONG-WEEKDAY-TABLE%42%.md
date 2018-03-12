@@ -4,6 +4,7 @@
 > No description.
 
 ### Value
-```
-#(Monday Tuesday Wednesday Thursday Friday Saturday Sunday)
+```cl
+#("monday" "tuesday" "wednesday" "thursday" "friday" "saturday"
+  "sunday")
 ```

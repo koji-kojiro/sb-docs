@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE NAME &OPTIONAL ERRORP ENVIRONMENT)
+```cl
+(sb-pcl::new-value sb-pcl::name &optional sb-pcl::errorp
+ sb-pcl::environment)
 ```

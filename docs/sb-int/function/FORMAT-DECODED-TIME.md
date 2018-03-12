@@ -13,7 +13,9 @@
 > parts of the string.
 
 ### Lambda list
-```
-(DESTINATION SECONDS MINUTES HOURS DAY MONTH YEAR &KEY TIMEZONE STYLE
- DATE-FIRST PRINT-SECONDS PRINT-MERIDIAN PRINT-TIMEZONE PRINT-WEEKDAY)
+```cl
+(sb-impl::destination sb-impl::seconds sb-impl::minutes sb-impl::hours
+ sb-impl::day sb-impl::month sb-impl::year &key sb-impl::timezone
+ sb-impl::style sb-impl::date-first sb-impl::print-seconds
+ sb-impl::print-meridian sb-impl::print-timezone sb-impl::print-weekday)
 ```

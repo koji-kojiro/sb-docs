@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONTEXT SYMBOL CONTROL)
+```cl
+(sb-impl::context symbol sb-impl::control)
 ```

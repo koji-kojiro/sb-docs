@@ -4,6 +4,6 @@
 > Largest real-time signal number.
 
 ### Value
-```
+```cl
 64
 ```

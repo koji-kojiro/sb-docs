@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(TEST GENSYMS GENERATOR GENERATOR-LAMBDA SYSTEM)
+```cl
+(sb-pcl::test sb-pcl::gensyms sb-pcl::generator
+ sb-pcl::generator-lambda sb-pcl::system)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TAB SECTION-START COLUMN)
+```cl
+(sb-pretty::tab sb-pretty::section-start sb-pretty::column)
 ```

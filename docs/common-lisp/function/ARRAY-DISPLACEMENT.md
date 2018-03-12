@@ -5,6 +5,6 @@
 > options to MAKE-ARRAY, or NIL and 0 if not a displaced array.
 
 ### Lambda list
-```
-(ARRAY)
+```cl
+(array)
 ```

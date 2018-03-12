@@ -4,6 +4,7 @@
 > No description.
 
 ### Value
-```
-(((#<CLASSOID-CELL WARNING> . #<FUNCTION "MAYBE-MUFFLE" {220216BB}>)))
+```cl
+(((#<sb-kernel::classoid-cell warning>
+   . #<function "maybe-muffle" {220216bb}>)))
 ```

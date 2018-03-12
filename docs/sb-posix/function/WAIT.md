@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL STATUSPTR)
+```cl
+(&optional sb-posix::statusptr)
 ```

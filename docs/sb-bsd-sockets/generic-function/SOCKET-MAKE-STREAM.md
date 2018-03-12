@@ -10,7 +10,10 @@
 > TIMEOUT specifies a read timeout for the stream.
 
 ### Lambda list
-```
-(SOCKET &KEY INPUT OUTPUT ELEMENT-TYPE EXTERNAL-FORMAT BUFFERING TIMEOUT
- AUTO-CLOSE SERVE-EVENTS)
+```cl
+(sb-bsd-sockets:socket &key sb-bsd-sockets::input
+ sb-bsd-sockets::output sb-bsd-sockets::element-type
+ sb-bsd-sockets::external-format sb-bsd-sockets::buffering
+ sb-bsd-sockets::timeout sb-bsd-sockets::auto-close
+ sb-bsd-sockets::serve-events)
 ```

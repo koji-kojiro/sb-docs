@@ -31,6 +31,6 @@
 > highly recommended reading for anyone programming at this level.
 
 ### Lambda list
-```
-((KIND) &BODY FORMS)
+```cl
+((sb-thread::kind) &body sb-thread::forms)
 ```

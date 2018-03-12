@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT SIZE FUNCTION)
+```cl
+(sb-assem:segment sb-assem::size function)
 ```

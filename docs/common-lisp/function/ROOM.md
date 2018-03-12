@@ -9,6 +9,6 @@
 > an intermediate amount of information.
 
 ### Lambda list
-```
-(&OPTIONAL VERBOSITY)
+```cl
+(&optional sb-vm::verbosity)
 ```

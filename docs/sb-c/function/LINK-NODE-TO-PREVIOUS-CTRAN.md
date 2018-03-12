@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE CTRAN)
+```cl
+(sb-c::node sb-c::ctran)
 ```

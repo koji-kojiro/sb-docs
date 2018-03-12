@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(STATE SOFTWARE VERSION NAMESPACE NAME REPLACEMENTS &KEY RUNTIME-ERROR)
+```cl
+(sb-impl::state sb-impl::software sb-impl::version sb-impl::namespace
+ sb-impl::name sb-impl::replacements &key sb-impl::runtime-error)
 ```

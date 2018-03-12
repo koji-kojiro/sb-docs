@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(START NEXT RESULT BODY AUX-VARS AUX-VALS POST-BINDING-LEXENV)
+```cl
+(sb-c::start sb-c::next sb-c::result sb-c::body sb-c::aux-vars
+ sb-c::aux-vals sb-c::post-binding-lexenv)
 ```

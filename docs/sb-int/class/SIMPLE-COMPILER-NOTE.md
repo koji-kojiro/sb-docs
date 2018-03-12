@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(SIMPLE-COMPILER-NOTE SIMPLE-CONDITION COMPILER-NOTE CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:simple-compiler-note simple-condition sb-ext:compiler-note
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS)
+```cl
+(:format-control :format-arguments)
 ```

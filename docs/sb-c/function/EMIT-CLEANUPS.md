@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PRED-BLOCKS SUCC-BLOCK)
+```cl
+(sb-c::pred-blocks sb-c::succ-block)
 ```

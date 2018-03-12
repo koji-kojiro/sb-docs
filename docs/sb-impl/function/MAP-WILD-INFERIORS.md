@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION MORE DIRECTORY)
+```cl
+(function sb-impl::more directory)
 ```

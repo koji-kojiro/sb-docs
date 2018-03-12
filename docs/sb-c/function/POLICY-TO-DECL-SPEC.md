@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(POLICY &OPTIONAL RAW FORCE-ALL)
+```cl
+(sb-c:policy &optional sb-c::raw sb-c::force-all)
 ```

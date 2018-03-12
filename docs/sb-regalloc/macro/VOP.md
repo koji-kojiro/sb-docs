@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME NODE BLOCK &REST OPERANDS)
+```cl
+(sb-c::name sb-c::node block &rest sb-c::operands)
 ```

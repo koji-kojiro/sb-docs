@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NARGS APPLYP FN-VARIABLE &OPTIONAL EMF-TYPE)
+```cl
+(sb-pcl::nargs sb-pcl::applyp sb-pcl::fn-variable &optional
+ sb-pcl::emf-type)
 ```

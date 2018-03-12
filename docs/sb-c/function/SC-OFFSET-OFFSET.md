@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SC-OFFSET)
+```cl
+(sb-c:sc-offset)
 ```

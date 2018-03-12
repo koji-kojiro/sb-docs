@@ -7,6 +7,6 @@
 > is guessed from the one supplied.
 
 ### Lambda list
-```
-(NAME TYPE)
+```cl
+(sb-alien::name type)
 ```

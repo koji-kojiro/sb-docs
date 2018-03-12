@@ -4,6 +4,6 @@
 > Return the offending thread that the THREAD-ERROR pertains to.
 
 ### Lambda list
-```
-(CONDITION)
+```cl
+(condition)
 ```

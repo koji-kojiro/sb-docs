@@ -4,6 +4,6 @@
 > Convert PATHSPEC (a pathname designator) into a pathname.
 
 ### Lambda list
-```
-(PATHSPEC)
+```cl
+(sb-impl::pathspec)
 ```

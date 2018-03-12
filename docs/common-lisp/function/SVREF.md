@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEWVAL SIMPLE-VECTOR INDEX)
+```cl
+(sb-kernel::newval simple-vector sb-int:index)
 ```

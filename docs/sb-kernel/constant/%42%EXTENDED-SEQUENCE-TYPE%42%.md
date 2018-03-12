@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<NAMED-TYPE SB-KERNEL:EXTENDED-SEQUENCE>
+```cl
+#<sb-kernel:named-type sb-kernel:extended-sequence>
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT STREAM)
+```cl
+(sb-assem:segment stream)
 ```

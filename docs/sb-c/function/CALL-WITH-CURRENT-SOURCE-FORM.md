@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THUNK &REST FORMS)
+```cl
+(sb-c::thunk &rest sb-c::forms)
 ```

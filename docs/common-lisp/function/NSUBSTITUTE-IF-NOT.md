@@ -6,6 +6,7 @@
 > SEQUENCE may be destructively modified.
 
 ### Lambda list
-```
-(NEW PREDICATE SEQUENCE &REST ARGS &KEY FROM-END START END COUNT KEY)
+```cl
+(sb-impl::new sb-impl::predicate sequence &rest sb-impl::args &key
+ sb-impl::from-end sb-impl::start sb-impl::end count sb-impl::key)
 ```

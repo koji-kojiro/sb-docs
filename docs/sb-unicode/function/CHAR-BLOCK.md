@@ -5,6 +5,6 @@
 > If CHARACTER does not have a known block, returns :NO-BLOCK
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

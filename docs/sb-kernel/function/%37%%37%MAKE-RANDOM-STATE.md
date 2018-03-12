@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (STATE STATE))
+```cl
+(&key (:state #:state))
 ```

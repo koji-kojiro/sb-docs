@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (TYPE TYPE) (OBJECT OBJECT) (INDEX INDEX) (VALUE VALUE)
- (ENCLOSING-OBJECT ENCLOSING-OBJECT))
+```cl
+(&key (:type #:type) (:object #:object) (:index #:index)
+ (:value #:value) (:enclosing-object #:enclosing-object))
 ```

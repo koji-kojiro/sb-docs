@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GRAPH VERTEX)
+```cl
+(sb-regalloc::graph sb-regalloc::vertex)
 ```

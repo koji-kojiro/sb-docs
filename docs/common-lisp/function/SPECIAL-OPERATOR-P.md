@@ -4,6 +4,6 @@
 > If the symbol globally names a special form, return T, otherwise NIL.
 
 ### Lambda list
-```
-(SYMBOL)
+```cl
+(symbol)
 ```

@@ -5,6 +5,6 @@
 > should supply IF-AFTER and DELTA in order to ensure correct results.
 
 ### Lambda list
-```
-(LABEL &OPTIONAL IF-AFTER DELTA)
+```cl
+(sb-assem:label &optional sb-assem::if-after sb-assem::delta)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((SEGMENT INST) &BODY BODY)
+```cl
+((sb-assem:segment sb-assem:inst) &body sb-assem::body)
 ```

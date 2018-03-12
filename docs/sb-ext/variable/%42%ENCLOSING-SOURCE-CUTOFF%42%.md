@@ -6,6 +6,6 @@
 > print only the CAR.
 
 ### Value
-```
+```cl
 1
 ```

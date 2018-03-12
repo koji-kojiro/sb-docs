@@ -6,6 +6,6 @@
 > and lower case. For ASCII, this is the same as ALPHA-CHAR-P.
 
 ### Lambda list
-```
-(CHAR)
+```cl
+(char)
 ```

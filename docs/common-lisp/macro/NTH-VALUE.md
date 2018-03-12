@@ -5,6 +5,6 @@
 > without consing a temporary list of values.
 
 ### Lambda list
-```
-(N FORM)
+```cl
+(sb-impl::n sb-kernel:form)
 ```

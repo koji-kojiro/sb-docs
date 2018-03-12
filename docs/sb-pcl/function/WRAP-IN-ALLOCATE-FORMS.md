@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CTOR BODY EARLY-UNBOUND-MARKERS-P)
+```cl
+(sb-pcl::ctor sb-pcl::body sb-pcl::early-unbound-markers-p)
 ```

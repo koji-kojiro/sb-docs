@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(STANDARD-INSTANCE T)
+```cl
+(sb-pcl::standard-instance t)
 ```

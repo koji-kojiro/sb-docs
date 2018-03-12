@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BODY &KEY DOC-STRING-ALLOWED)
+```cl
+(sb-eval::body &key sb-eval::doc-string-allowed)
 ```

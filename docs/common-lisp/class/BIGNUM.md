@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(BIGNUM INTEGER RATIONAL REAL NUMBER T)
+```cl
+(bignum integer rational real number t)
 ```

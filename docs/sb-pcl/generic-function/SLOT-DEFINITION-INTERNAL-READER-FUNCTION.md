@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE STRUCTURE-SLOT-DEFINITION)
+```cl
+(sb-pcl::new-value sb-pcl::structure-slot-definition)
 ```

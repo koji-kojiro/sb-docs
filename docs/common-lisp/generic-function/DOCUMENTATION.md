@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE SLOTD DOC-TYPE)
+```cl
+(sb-pcl::new-value sb-pcl::slotd sb-pcl::doc-type)
 ```

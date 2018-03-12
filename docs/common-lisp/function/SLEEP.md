@@ -5,6 +5,6 @@
 > any non-negative real number.
 
 ### Lambda list
-```
-(SECONDS)
+```cl
+(sb-impl::seconds)
 ```

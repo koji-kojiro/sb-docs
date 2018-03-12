@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RESTR)
+```cl
+(sb-c::restr)
 ```

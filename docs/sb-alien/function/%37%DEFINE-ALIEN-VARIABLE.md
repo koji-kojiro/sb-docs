@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LISP-NAME ALIEN-NAME TYPE LOCATION)
+```cl
+(sb-alien::lisp-name sb-alien::alien-name type sb-alien::location)
 ```

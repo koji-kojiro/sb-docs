@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPEC POLICY)
+```cl
+(sb-c::spec sb-c:policy)
 ```

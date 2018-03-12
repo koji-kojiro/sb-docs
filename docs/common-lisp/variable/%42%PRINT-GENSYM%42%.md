@@ -4,6 +4,6 @@
 > Should #: prefixes be used when printing symbols with null SYMBOL-PACKAGE?
 
 ### Value
-```
-T
+```cl
+t
 ```

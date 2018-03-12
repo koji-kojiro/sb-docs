@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD-STREAM)
+```cl
+(sb-sys:fd-stream)
 ```

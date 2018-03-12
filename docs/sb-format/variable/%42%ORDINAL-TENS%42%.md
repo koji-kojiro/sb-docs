@@ -4,7 +4,7 @@
 > No description.
 
 ### Value
-```
-#(NIL tenth twentieth thirtieth fortieth fiftieth sixtieth seventieth eightieth
-  ninetieth)
+```cl
+#(nil "tenth" "twentieth" "thirtieth" "fortieth" "fiftieth" "sixtieth"
+  "seventieth" "eightieth" "ninetieth")
 ```

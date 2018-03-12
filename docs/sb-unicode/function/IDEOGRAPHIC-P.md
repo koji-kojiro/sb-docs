@@ -5,6 +5,6 @@
 > which loosely corresponds to the set of "Chinese characters"
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

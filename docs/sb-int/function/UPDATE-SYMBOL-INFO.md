@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SYMBOL UPDATE-FN)
+```cl
+(symbol sb-impl::update-fn)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<WAITQUEUE finalizer {1000011143}>
+```cl
+#<sb-thread:waitqueue finalizer {1000011143}>
 ```

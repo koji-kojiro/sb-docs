@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<PRIORITY-QUEUE empty {1000C7CE33}>
+```cl
+#<sb-impl::priority-queue empty {1000c7ce33}>
 ```

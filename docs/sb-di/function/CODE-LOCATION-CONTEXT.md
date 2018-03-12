@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CODE-LOCATION)
+```cl
+(sb-di:code-location)
 ```

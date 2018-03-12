@@ -7,6 +7,6 @@
 > constrained to be used only within the dynamic extent of the TAGBODY.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

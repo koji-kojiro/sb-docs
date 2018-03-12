@@ -4,10 +4,10 @@
 > No description.
 
 ### Precedence list
-```
-(PACKAGE-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(package-error error serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(PACKAGE)
+```cl
+(:package)
 ```

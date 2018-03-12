@@ -7,6 +7,6 @@
 > See also listen(2)
 
 ### Lambda list
-```
-(SOCKET BACKLOG)
+```cl
+(sb-bsd-sockets:socket sb-bsd-sockets::backlog)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CODE OFFSET)
+```cl
+(sb-disassem::code sb-disassem::offset)
 ```

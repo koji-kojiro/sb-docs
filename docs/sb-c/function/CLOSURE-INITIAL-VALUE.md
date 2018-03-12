@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WHAT THIS-ENV CURRENT-FP)
+```cl
+(sb-c::what sb-c::this-env sb-kernel:current-fp)
 ```

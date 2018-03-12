@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(SEQ STREAM START %END STREAM-ELEMENT-MODE CHARACTER-READ-FUNCTION
- BINARY-READ-FUNCTION)
+```cl
+(sb-impl::seq stream sb-impl::start sb-impl::%end
+ sb-impl::stream-element-mode sb-impl::character-read-function
+ sb-impl::binary-read-function)
 ```

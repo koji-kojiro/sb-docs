@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARGS NARGS START COUNT NODE)
+```cl
+(sb-vm::args sb-vm::nargs sb-vm::start count sb-vm::node)
 ```

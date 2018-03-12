@@ -4,6 +4,6 @@
 > profiling timer alarm (see setitimer(2)).
 
 ### Value
-```
+```cl
 27
 ```

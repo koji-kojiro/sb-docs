@@ -4,6 +4,6 @@
 > Return the bit-wise exclusive or of its arguments. Args must be integers.
 
 ### Lambda list
-```
-(&REST INTEGERS)
+```cl
+(&rest sb-kernel::integers)
 ```

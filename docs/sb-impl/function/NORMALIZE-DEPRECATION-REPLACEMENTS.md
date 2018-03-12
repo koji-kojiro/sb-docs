@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(REPLACEMENTS)
+```cl
+(sb-impl::replacements)
 ```

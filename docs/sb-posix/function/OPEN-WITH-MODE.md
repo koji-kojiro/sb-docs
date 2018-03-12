@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATHNAME FLAGS MODE)
+```cl
+(pathname sb-posix::flags sb-posix::mode)
 ```

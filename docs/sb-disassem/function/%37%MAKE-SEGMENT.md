@@ -4,9 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (OBJECT OBJECT) (SAP-MAKER SAP-MAKER) (LENGTH LENGTH)
- (VIRTUAL-LOCATION VIRTUAL-LOCATION) (STORAGE-INFO STORAGE-INFO) (CODE CODE)
- (INITIAL-OFFSET INITIAL-OFFSET) (INITIAL-RAW-BYTES INITIAL-RAW-BYTES)
- (HOOKS HOOKS))
+```cl
+(&key (:object #:object) (:sap-maker #:sap-maker) (:length #:length)
+ (:virtual-location #:virtual-location) (:storage-info #:storage-info)
+ (:code #:code) (:initial-offset #:initial-offset)
+ (:initial-raw-bytes #:initial-raw-bytes) (:hooks #:hooks))
 ```

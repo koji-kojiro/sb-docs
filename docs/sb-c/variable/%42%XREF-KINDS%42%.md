@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-(BINDS CALLS SETS REFERENCES MACROEXPANDS)
+```cl
+(:binds :calls :sets :references :macroexpands)
 ```

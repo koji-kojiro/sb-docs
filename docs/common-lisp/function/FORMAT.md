@@ -25,6 +25,7 @@
 > manual for details.
 
 ### Lambda list
-```
-(DESTINATION CONTROL-STRING &REST FORMAT-ARGUMENTS)
+```cl
+(sb-format::destination sb-format::control-string &rest
+ sb-format::format-arguments)
 ```

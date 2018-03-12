@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM FORCE-NEWLINES-P)
+```cl
+(stream sb-pretty::force-newlines-p)
 ```

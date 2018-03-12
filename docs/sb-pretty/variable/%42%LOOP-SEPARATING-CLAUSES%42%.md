@@ -4,8 +4,9 @@
 > No description.
 
 ### Value
-```
-(AND WITH FOR INITIALLY FINALLY DO DOING COLLECT COLLECTING APPEND APPENDING
- NCONC NCONCING COUNT COUNTING SUM SUMMING MAXIMIZE MAXIMIZING MINIMIZE
- MINIMIZING IF WHEN UNLESS END FOR WHILE UNTIL REPEAT ALWAYS NEVER THEREIS)
+```cl
+(:and :with :for :initially :finally :do :doing :collect :collecting
+ :append :appending :nconc :nconcing :count :counting :sum :summing
+ :maximize :maximizing :minimize :minimizing :if :when :unless :end
+ :for :while :until :repeat :always :never :thereis)
 ```

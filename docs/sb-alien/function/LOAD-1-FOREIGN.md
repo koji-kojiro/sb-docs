@@ -4,6 +4,6 @@
 > Unsupported as of SBCL 0.8.13. Please use LOAD-SHARED-OBJECT.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-impl::args)
 ```

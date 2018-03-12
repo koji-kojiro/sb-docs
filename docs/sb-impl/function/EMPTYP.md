@@ -5,6 +5,6 @@
 > otherwise. Signals an error if SEQUENCE is not a sequence.
 
 ### Lambda list
-```
-(SEQUENCE)
+```cl
+(sequence)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(COMPONENT CODE-SEGMENT CODE-LENGTH FIXUPS FASL-OUTPUT ENTRY-OFFSETS)
+```cl
+(sb-c:component sb-fasl::code-segment sb-fasl::code-length
+ sb-fasl::fixups sb-fasl:fasl-output sb-fasl::entry-offsets)
 ```

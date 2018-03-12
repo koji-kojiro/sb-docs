@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CHAR-BAG STRING)
+```cl
+(sb-impl::char-bag string)
 ```

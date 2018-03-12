@@ -4,7 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(LISP-NAME DOCUMENTATION LEVEL NUMBER BUFFER-TYPE MANGLE-ARG MANGLE-RETURN
- MANGLE-SETF-BUFFER &OPTIONAL FEATURES INFO)
+```cl
+(sb-bsd-sockets::lisp-name documentation sb-bsd-sockets::level number
+ sb-bsd-sockets::buffer-type sb-bsd-sockets::mangle-arg
+ sb-bsd-sockets::mangle-return sb-bsd-sockets::mangle-setf-buffer
+ &optional sb-bsd-sockets::features sb-bsd-sockets::info)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (LAMBDA LAMBDA) (CLOSURE CLOSURE) (NLX-INFO NLX-INFO) (INFO INFO))
+```cl
+(&key (:lambda #:lambda) (:closure #:closure) (:nlx-info #:nlx-info)
+ (:info #:info))
 ```

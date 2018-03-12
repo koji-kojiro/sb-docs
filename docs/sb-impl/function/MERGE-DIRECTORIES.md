@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DIR1 DIR2 DIDDLE-CASE)
+```cl
+(sb-impl::dir1 sb-impl::dir2 sb-impl::diddle-case)
 ```

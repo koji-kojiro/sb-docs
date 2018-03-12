@@ -4,6 +4,6 @@
 > the default value for the :ENCAPSULATE option to TRACE
 
 ### Value
-```
-T
+```cl
+t
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ELEMENT-TYPE OUT)
+```cl
+(sb-impl::element-type sb-impl::out)
 ```

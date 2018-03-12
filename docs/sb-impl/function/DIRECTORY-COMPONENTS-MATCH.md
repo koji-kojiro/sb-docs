@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THING WILD)
+```cl
+(sb-impl::thing sb-impl::wild)
 ```

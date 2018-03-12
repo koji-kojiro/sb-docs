@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PACKAGE &KEY SYMBOL FORMAT-CONTROL FORMAT-ARGUMENTS)
+```cl
+(package &key symbol sb-kernel:format-control sb-impl::format-arguments)
 ```

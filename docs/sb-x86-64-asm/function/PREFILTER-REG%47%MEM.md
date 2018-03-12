@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DSTATE MOD R/M)
+```cl
+(sb-x86-64-asm::dstate mod sb-x86-64-asm::r/m)
 ```

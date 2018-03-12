@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NUMBER-REQUIRED-ARGUMENTS RESTP)
+```cl
+(sb-pcl::number-required-arguments sb-pcl::restp)
 ```

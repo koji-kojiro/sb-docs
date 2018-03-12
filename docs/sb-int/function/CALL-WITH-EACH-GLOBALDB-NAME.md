@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN-DESIGNATOR)
+```cl
+(sb-impl::fun-designator)
 ```

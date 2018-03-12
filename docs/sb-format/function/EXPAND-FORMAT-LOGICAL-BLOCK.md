@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PREFIX PER-LINE-P INSIDES SUFFIX ATSIGNP)
+```cl
+(sb-format::prefix sb-format::per-line-p sb-format::insides
+ sb-format::suffix sb-format::atsignp)
 ```

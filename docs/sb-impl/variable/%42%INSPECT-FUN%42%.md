@@ -4,6 +4,6 @@
 > A function of three arguments OBJECT, INPUT, and OUTPUT which starts an interactive inspector.
 
 ### Value
-```
-#<FUNCTION SB-IMPL::INSPECTOR>
+```cl
+#<function sb-impl::inspector>
 ```

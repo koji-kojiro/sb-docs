@@ -5,6 +5,6 @@
 > sentence breaking rules specified in UAX #29
 
 ### Lambda list
-```
-(STRING)
+```cl
+(string)
 ```

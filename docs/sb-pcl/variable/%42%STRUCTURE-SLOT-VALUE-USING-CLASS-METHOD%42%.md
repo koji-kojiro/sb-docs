@@ -4,8 +4,8 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-METHOD SB-MOP:SLOT-VALUE-USING-CLASS (STRUCTURE-CLASS
-                                                 STRUCTURE-OBJECT
-                                                 SB-PCL::STRUCTURE-EFFECTIVE-SLOT-DEFINITION) {1000959F53}>
+```cl
+#<standard-method sb-mop:slot-value-using-class (structure-class
+                                                 structure-object
+                                                 sb-pcl::structure-effective-slot-definition) {1000959f53}>
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FREE-FUN)
+```cl
+(sb-c::free-fun)
 ```

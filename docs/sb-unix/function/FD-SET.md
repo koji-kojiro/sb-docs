@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OFFSET FD-SET)
+```cl
+(sb-unix::offset sb-unix:fd-set)
 ```

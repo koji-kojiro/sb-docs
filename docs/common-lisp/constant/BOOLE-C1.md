@@ -4,6 +4,6 @@
 > Boole function op, makes BOOLE return complement of integer1.
 
 ### Value
-```
+```cl
 4
 ```

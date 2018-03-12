@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARRAY AXIS VALUE)
+```cl
+(array sb-impl::axis sb-impl::value)
 ```

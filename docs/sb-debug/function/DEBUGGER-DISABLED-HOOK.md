@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONDITION PREVIOUS-HOOK &KEY QUIT)
+```cl
+(condition sb-debug::previous-hook &key sb-ext:quit)
 ```

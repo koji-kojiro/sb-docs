@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ADDRESS LENGTH &KEY STREAM CODE-COMPONENT USE-LABELS)
+```cl
+(sb-disassem::address length &key stream sb-kernel:code-component
+ sb-disassem::use-labels)
 ```

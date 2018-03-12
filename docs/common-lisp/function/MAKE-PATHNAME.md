@@ -5,6 +5,7 @@
 > a host-structure or string.
 
 ### Lambda list
-```
-(&KEY HOST DEVICE DIRECTORY NAME TYPE VERSION DEFAULTS CASE)
+```cl
+(&key sb-kernel:host sb-impl::device directory sb-impl::name type
+ sb-impl::version sb-impl::defaults case)
 ```

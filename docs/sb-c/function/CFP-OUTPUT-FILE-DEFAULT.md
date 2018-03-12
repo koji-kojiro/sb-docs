@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INPUT-FILE)
+```cl
+(sb-c::input-file)
 ```

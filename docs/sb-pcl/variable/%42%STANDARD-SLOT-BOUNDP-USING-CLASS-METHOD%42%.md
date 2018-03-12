@@ -4,8 +4,8 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-METHOD SB-MOP:SLOT-BOUNDP-USING-CLASS (SB-PCL::STD-CLASS
-                                                  STANDARD-OBJECT
-                                                  SB-MOP:STANDARD-EFFECTIVE-SLOT-DEFINITION) {10005A9A73}>
+```cl
+#<standard-method sb-mop:slot-boundp-using-class (sb-pcl::std-class
+                                                  standard-object
+                                                  sb-mop:standard-effective-slot-definition) {10005a9a73}>
 ```

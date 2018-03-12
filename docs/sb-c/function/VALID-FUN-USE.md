@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(CALL TYPE &KEY (ARGUMENT-TEST *CTYPE-TEST-FUN*) RESULT-TEST
- (LOSSAGE-FUN *LOSSAGE-FUN*) (UNWINNAGE-FUN *UNWINNAGE-FUN*))
+```cl
+(sb-c:call type &key (:argument-test sb-c::*ctype-test-fun*)
+ sb-c::result-test (:lossage-fun sb-c::*lossage-fun*)
+ (:unwinnage-fun sb-c::*unwinnage-fun*))
 ```

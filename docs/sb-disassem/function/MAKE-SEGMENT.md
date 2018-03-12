@@ -4,7 +4,10 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT INITIAL-RAW-BYTES SAP-MAKER LENGTH &KEY CODE INITIAL-OFFSET
- VIRTUAL-LOCATION DEBUG-FUN SOURCE-FORM-CACHE HOOKS)
+```cl
+(sb-disassem::object sb-disassem::initial-raw-bytes
+ sb-disassem::sap-maker length &key sb-disassem::code
+ sb-disassem::initial-offset sb-disassem::virtual-location
+ sb-disassem::debug-fun sb-disassem::source-form-cache
+ sb-disassem::hooks)
 ```

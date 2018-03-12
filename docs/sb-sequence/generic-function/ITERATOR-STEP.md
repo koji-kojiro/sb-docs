@@ -5,6 +5,6 @@
 > depending on the iteration direction encoded in FROM-END.
 
 ### Lambda list
-```
-(SEQUENCE ITERATOR FROM-END)
+```cl
+(sequence sb-impl::iterator sb-impl::from-end)
 ```

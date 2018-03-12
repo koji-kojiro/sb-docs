@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEG)
+```cl
+(sb-assem::seg)
 ```

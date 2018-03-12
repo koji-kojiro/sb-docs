@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM &OPTIONAL PRETTY)
+```cl
+(sb-kernel:form &optional sb-c::pretty)
 ```

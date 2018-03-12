@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-PCL::CONDITION-CLASS>
+```cl
+#<standard-class sb-pcl::condition-class>
 ```

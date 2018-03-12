@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK GEN PREPROCESS-REFS-P)
+```cl
+(block sb-c::gen sb-c::preprocess-refs-p)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(INSTANCE NEW-CLASS-NAME &REST INITARGS &KEY &ALLOW-OTHER-KEYS)
+```cl
+(sb-kernel:instance sb-pcl::new-class-name &rest sb-pcl::initargs &key
+ &allow-other-keys)
 ```

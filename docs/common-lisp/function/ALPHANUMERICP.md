@@ -5,6 +5,6 @@
 > is either numeric or alphabetic.
 
 ### Lambda list
-```
-(CHAR)
+```cl
+(char)
 ```

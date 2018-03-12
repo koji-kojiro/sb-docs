@@ -15,6 +15,6 @@
 > function designator.
 
 ### Lambda list
-```
-(RESULT-PROTOTYPE FUNCTION SEQUENCE &REST SEQUENCES)
+```cl
+(sb-impl::result-prototype function sequence &rest sb-impl::sequences)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PNAME STREAM READTABLE)
+```cl
+(sb-impl::pname stream readtable)
 ```

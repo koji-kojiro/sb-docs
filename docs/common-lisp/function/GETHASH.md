@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE KEY TABLE &OPTIONAL DEFAULT)
+```cl
+(sb-impl::new-value sb-impl::key sb-impl::table &optional
+ sb-impl::default)
 ```

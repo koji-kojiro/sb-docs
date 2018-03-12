@@ -7,6 +7,6 @@
 > T if SERVE-EVENT did something and NIL if not.
 
 ### Lambda list
-```
-(&OPTIONAL TIMEOUT)
+```cl
+(&optional sb-ext:timeout)
 ```

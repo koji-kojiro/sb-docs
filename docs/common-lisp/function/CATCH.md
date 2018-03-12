@@ -9,6 +9,6 @@
 > the thrown values will be returned.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

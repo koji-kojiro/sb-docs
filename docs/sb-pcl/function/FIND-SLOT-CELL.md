@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WRAPPER SLOT-NAME)
+```cl
+(sb-pcl::wrapper sb-pcl::slot-name)
 ```

@@ -4,6 +4,6 @@
 > Predicate which returns T if logand of integer1 and integer2 is not zero.
 
 ### Lambda list
-```
-(INTEGER1 INTEGER2)
+```cl
+(sb-kernel::integer1 sb-kernel::integer2)
 ```

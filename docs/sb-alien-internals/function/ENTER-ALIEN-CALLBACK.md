@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INDEX RETURN ARGUMENTS)
+```cl
+(sb-int:index return sb-alien::arguments)
 ```

@@ -4,24 +4,13 @@
 > No description.
 
 ### Value
-```
-((0 Nul Null ^@) (1 Soh ^a) (2 Stx ^b) (3 Etx ^c) (4 Eot ^d) (5 Enq ^e)
- (6 Ack ^f) (7 Bel ^g) (8 Backspace ^h Bs) (9 Tab ^i Ht)
- (10 Newline Linefeed ^j Lf Nl) (11 Vt ^k) (12 Page ^l Form Formfeed Ff Np)
- (13 Return ^m Cr) (14 So ^n) (15 Si ^o) (16 Dle ^p) (17 Dc1 ^q) (18 Dc2 ^r)
- (19 Dc3 ^s) (20 Dc4 ^t) (21 Nak ^u) (22 Syn ^v) (23 Etb ^w) (24 Can ^x)
- (25 Em ^y) (26 Sub ^z) (27 Esc Escape ^[ Altmode Alt) (28 Fs ^\) (29 Gs ^])
- (30 Rs ^^) (31 Us ^_) (32 Space Sp) (127 Rubout Delete Del) (128 C80)
- (129 C81) (130 Break-Permitted) (131 No-Break-Permitted) (132 C84)
- (133 Next-Line) (134 Start-Selected-Area) (135 End-Selected-Area)
- (136 Character-Tabulation-Set) (137 Character-Tabulation-With-Justification)
- (138 Line-Tabulation-Set) (139 Partial-Line-Forward)
- (140 Partial-Line-Backward) (141 Reverse-Linefeed) (142 Single-Shift-Two)
- (143 Single-Shift-Three) (144 Device-Control-String) (145 Private-Use-One)
- (146 Private-Use-Two) (147 Set-Transmit-State) (148 Cancel-Character)
- (149 Message-Waiting) (150 Start-Guarded-Area) (151 End-Guarded-Area)
- (152 Start-String) (153 C99) (154 Single-Character-Introducer)
- (155 Control-Sequence-Introducer) (156 String-Terminator)
- (157 Operating-System-Command) (158 Privacy-Message)
- (159 Application-Program-Command))
+```cl
+((0 "nul" "null" "^@") (1 "soh" "^a") (2 "stx" "^b") (3 "etx" "^c")
+ (4 "eot" "^d") (5 "enq" "^e") (6 "ack" "^f") (7 "bel" "^g")
+ (8 "backspace" "^h" "bs") (9 "tab" "^i" "ht")
+ (10 "newline" "linefeed" "^j" "lf" "nl") (11 "vt" "^k")
+ (12 "page" "^l" "form" "formfeed" "ff" "np") (13 "return" "^m" "cr")
+ (14 "so" "^n") (15 "si" "^o") (16 "dle" "^p") (17 "dc1" "^q")
+ (18 "dc2" "^r") (19 "dc3" "^s") (20 "dc4" "^t") (21 "nak" "^u")
+ (22 "syn" "^v") (23 "etb" "^w") (24 "can" "^x") (25 "em" "^y") ..)
 ```

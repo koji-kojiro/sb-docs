@@ -5,6 +5,6 @@
 > functions when called with no arguments.
 
 ### Lambda list
-```
-(&REST SPECS)
+```cl
+(&rest sb-debug::specs)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT TYPE NODE)
+```cl
+(sb-c::object type sb-c::node)
 ```

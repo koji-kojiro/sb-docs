@@ -6,6 +6,6 @@
 > with the STEP-CONDITION as argument.
 
 ### Value
-```
-SINGLE-STEP
+```cl
+sb-impl::single-step
 ```

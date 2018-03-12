@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<FD-STREAM for "standard error" {10018D99A3}>
+```cl
+#<sb-sys:fd-stream for "standard error" {10018d9903}>
 ```

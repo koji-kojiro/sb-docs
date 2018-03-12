@@ -12,6 +12,7 @@
 > See also: RETURN-FROM-THREAD, ABORT-THREAD.
 
 ### Lambda list
-```
-(FUNCTION &KEY NAME ARGUMENTS EPHEMERAL)
+```cl
+(function &key sb-thread::name sb-thread::arguments
+ sb-thread::ephemeral)
 ```

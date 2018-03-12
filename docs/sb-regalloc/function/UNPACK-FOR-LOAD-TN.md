@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SC OP)
+```cl
+(sb-regalloc::sc sb-regalloc::op)
 ```

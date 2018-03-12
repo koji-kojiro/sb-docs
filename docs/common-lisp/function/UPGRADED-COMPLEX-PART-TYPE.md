@@ -5,6 +5,6 @@
 > can hold parts of type SPEC.
 
 ### Lambda list
-```
-(SPEC &OPTIONAL ENVIRONMENT)
+```cl
+(sb-kernel::spec &optional sb-kernel::environment)
 ```

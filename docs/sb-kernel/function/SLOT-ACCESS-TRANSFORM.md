@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION ARGS SLOT-KEY)
+```cl
+(function sb-kernel::args sb-kernel::slot-key)
 ```

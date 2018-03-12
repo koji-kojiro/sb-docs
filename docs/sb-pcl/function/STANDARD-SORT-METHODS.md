@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(APPLICABLE-METHODS)
+```cl
+(sb-pcl::applicable-methods)
 ```

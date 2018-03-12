@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORMAT-CONTROL &REST FORMAT-ARGUMENTS)
+```cl
+(sb-kernel:format-control &rest sb-pcl::format-arguments)
 ```

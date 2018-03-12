@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME NEW-INLINEP)
+```cl
+(sb-c::name sb-c::new-inlinep)
 ```

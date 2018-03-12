@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X Y GREATER OR-EQUAL)
+```cl
+(sb-c::x sb-c::y sb-c::greater sb-c::or-equal)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<BUILT-IN-CLASS SB-KERNEL::CHARACTER-STRING>
+```cl
+#<built-in-class sb-kernel::character-string>
 ```

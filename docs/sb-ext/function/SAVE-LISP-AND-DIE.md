@@ -98,7 +98,8 @@
 > sufficiently motivated to do lengthy fixes.
 
 ### Lambda list
-```
-(CORE-FILE-NAME &KEY TOPLEVEL EXECUTABLE SAVE-RUNTIME-OPTIONS PURIFY
- ROOT-STRUCTURES ENVIRONMENT-NAME COMPRESSION)
+```cl
+(sb-impl::core-file-name &key sb-impl::toplevel sb-impl::executable
+ sb-impl::save-runtime-options sb-ext:purify sb-impl::root-structures
+ sb-impl::environment-name sb-impl::compression)
 ```

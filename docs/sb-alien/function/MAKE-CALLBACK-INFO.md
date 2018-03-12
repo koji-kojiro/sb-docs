@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (SPECIFIER SPECIFIER) (FUNCTION FUNCTION) (WRAPPER WRAPPER) (INDEX INDEX))
+```cl
+(&key (:specifier #:specifier) (:function #:function)
+ (:wrapper #:wrapper) (:index #:index))
 ```

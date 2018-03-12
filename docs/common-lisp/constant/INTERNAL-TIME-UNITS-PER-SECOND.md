@@ -5,6 +5,6 @@
 > GET-INTERNAL-REAL-TIME and GET-INTERNAL-RUN-TIME.
 
 ### Value
-```
+```cl
 1000
 ```

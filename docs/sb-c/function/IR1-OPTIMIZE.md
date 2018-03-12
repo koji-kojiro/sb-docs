@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COMPONENT FASTP)
+```cl
+(sb-c:component sb-c::fastp)
 ```

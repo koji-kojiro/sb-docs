@@ -5,6 +5,6 @@
 > No useful return value.
 
 ### Lambda list
-```
-(SOCKET &REST ADDRESS)
+```cl
+(sb-bsd-sockets:socket &rest sb-bsd-sockets::address)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM EOF-RESTART)
+```cl
+(stream sb-debug::eof-restart)
 ```

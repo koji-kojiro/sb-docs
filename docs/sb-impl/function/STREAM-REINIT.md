@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL INIT-BUFFERS-P)
+```cl
+(&optional sb-impl::init-buffers-p)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LAMBDA-LIST &KEY SILENT CONDITION-CLASS)
+```cl
+(sb-c::lambda-list &key sb-c::silent sb-c::condition-class)
 ```

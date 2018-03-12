@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-G4
+```cl
+#:g4
 ```

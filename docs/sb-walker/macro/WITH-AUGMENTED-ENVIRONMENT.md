@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-((NEW-ENV OLD-ENV &KEY FUNCTIONS MACROS) &BODY BODY)
+```cl
+((sb-walker::new-env sb-walker::old-env &key sb-walker::functions
+  sb-walker::macros)
+ &body sb-walker::body)
 ```

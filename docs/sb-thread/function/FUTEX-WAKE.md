@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WORD N)
+```cl
+(sb-thread::word sb-thread::n)
 ```

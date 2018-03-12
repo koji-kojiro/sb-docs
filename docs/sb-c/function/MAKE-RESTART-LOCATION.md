@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL LABEL TN)
+```cl
+(&optional sb-assem:label sb-c:tn)
 ```

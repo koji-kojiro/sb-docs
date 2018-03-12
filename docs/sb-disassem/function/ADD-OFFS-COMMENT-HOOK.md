@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT ADDR COMMENT)
+```cl
+(sb-disassem:segment sb-disassem::addr sb-disassem::comment)
 ```

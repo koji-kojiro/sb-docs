@@ -30,6 +30,6 @@
 > If true, no setter function is defined for this slot.
 
 ### Lambda list
-```
-(NAME-AND-OPTIONS &REST SLOT-DESCRIPTIONS)
+```cl
+(sb-kernel::name-and-options &rest sb-kernel::slot-descriptions)
 ```

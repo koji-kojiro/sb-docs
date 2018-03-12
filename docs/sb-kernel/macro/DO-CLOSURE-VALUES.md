@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((VALUE CLOSURE) &BODY BODY)
+```cl
+((sb-kernel::value sb-kernel:closure) &body sb-kernel::body)
 ```

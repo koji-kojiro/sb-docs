@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT OUTPUT-TYPE-SPEC)
+```cl
+(sb-impl::object sb-impl::output-type-spec)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VAR-VAL-PAIRS)
+```cl
+(sb-loop::var-val-pairs)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PROC)
+```cl
+(sb-impl::proc)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAMESTRING START END AS-DIRECTORY)
+```cl
+(namestring sb-impl::start sb-impl::end sb-impl::as-directory)
 ```

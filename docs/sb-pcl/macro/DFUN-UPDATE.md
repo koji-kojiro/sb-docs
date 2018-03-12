@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION FUNCTION &REST ARGS)
+```cl
+(generic-function function &rest sb-pcl::args)
 ```

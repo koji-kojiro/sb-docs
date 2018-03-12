@@ -4,6 +4,6 @@
 > If supplied to openlog(), write log messages to the process's standard error descriptor in addition to the logging facility.
 
 ### Value
-```
+```cl
 32
 ```

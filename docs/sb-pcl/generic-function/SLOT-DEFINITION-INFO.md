@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE EFFECTIVE-SLOT-DEFINITION)
+```cl
+(sb-pcl::new-value sb-mop:effective-slot-definition)
 ```

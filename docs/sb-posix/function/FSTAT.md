@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD &OPTIONAL STAT)
+```cl
+(sb-posix::fd &optional sb-posix:stat)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME ARGLIST &BODY BODY)
+```cl
+(sb-posix::name sb-posix::arglist &body sb-posix::body)
 ```

@@ -20,6 +20,7 @@
 > Experimental: interface subject to change.
 
 ### Lambda list
-```
-(FUNCTION OBJECT &KEY SIMPLE EXT)
+```cl
+(function sb-introspect::object &key sb-introspect::simple
+ sb-introspect::ext)
 ```

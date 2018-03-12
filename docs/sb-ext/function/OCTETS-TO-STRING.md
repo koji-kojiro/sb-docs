@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR &KEY EXTERNAL-FORMAT START END)
+```cl
+(vector &key sb-impl::external-format sb-impl::start sb-impl::end)
 ```

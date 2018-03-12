@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CONTROL-STRING OFFSET COMPLAINT &REST ARGS)
+```cl
+(sb-format::control-string sb-format::offset sb-format::complaint &rest
+ sb-format::args)
 ```

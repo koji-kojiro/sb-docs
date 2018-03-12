@@ -4,6 +4,6 @@
 > Make an instance of a condition object using the specified initargs.
 
 ### Lambda list
-```
-(TYPE &REST INITARGS)
+```cl
+(type &rest sb-kernel::initargs)
 ```

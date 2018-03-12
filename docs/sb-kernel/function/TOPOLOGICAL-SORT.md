@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECTS CONSTRAINTS TIE-BREAKER)
+```cl
+(sb-kernel::objects sb-kernel::constraints sb-kernel::tie-breaker)
 ```

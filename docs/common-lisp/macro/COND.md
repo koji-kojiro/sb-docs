@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&REST CLAUSES)
+```cl
+(&rest sb-impl::clauses)
 ```

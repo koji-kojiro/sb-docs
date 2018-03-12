@@ -4,10 +4,10 @@
 > No description.
 
 ### Precedence list
-```
-(BOOTSTRAP-PACKAGE-NOT-FOUND CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:bootstrap-package-not-found condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME)
+```cl
+(:name)
 ```

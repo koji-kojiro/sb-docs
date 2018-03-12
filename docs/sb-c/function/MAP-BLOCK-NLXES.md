@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN BLOCK &OPTIONAL DX-CLEANUP-FUN)
+```cl
+(sb-c::fun block &optional sb-c::dx-cleanup-fun)
 ```

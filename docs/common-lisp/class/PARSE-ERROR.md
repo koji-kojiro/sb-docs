@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(PARSE-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(parse-error error serious-condition condition sb-pcl::slot-object t)
 ```

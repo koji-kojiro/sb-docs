@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NFDS FDSET)
+```cl
+(sb-unix::nfds sb-unix::fdset)
 ```

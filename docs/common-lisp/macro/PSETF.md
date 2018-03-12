@@ -7,6 +7,6 @@
 > updated. Returns NIL.
 
 ### Lambda list
-```
-(&REST PAIRS)
+```cl
+(&rest sb-impl::pairs)
 ```

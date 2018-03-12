@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN CALL &OPTIONAL INFO UNKNOWN-KEYS-FUN)
+```cl
+(sb-c::fun sb-c:call &optional sb-int:info sb-c::unknown-keys-fun)
 ```

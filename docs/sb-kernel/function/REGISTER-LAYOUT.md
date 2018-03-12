@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LAYOUT &KEY INVALIDATE DESTRUCT-LAYOUT)
+```cl
+(sb-kernel:layout &key sb-kernel::invalidate sb-kernel::destruct-layout)
 ```

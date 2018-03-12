@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(AMBIGUOUS-VAR-NAME DEBUG-CONDITION SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-di:ambiguous-var-name sb-di:debug-condition serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME FRAME)
+```cl
+(:name :frame)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(STORAGE-CONDITION SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(storage-condition serious-condition condition sb-pcl::slot-object t)
 ```

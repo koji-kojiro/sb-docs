@@ -4,6 +4,6 @@
 > Smallest real-time signal number.
 
 ### Value
-```
+```cl
 34
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(CODE-COMPONENT T)
+```cl
+(sb-kernel:code-component t)
 ```

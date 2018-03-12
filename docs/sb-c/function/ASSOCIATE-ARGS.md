@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN FIRST-ARG MORE-ARGS)
+```cl
+(sb-c::fun sb-c::first-arg sb-c::more-args)
 ```

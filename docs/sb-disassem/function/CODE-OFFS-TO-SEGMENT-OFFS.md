@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OFFSET SEGMENT)
+```cl
+(sb-disassem::offset sb-disassem:segment)
 ```

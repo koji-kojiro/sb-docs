@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(QUICK-P FUN X Y NOT-P CONSTRAINTS TARGET)
+```cl
+(sb-c::quick-p sb-c::fun sb-c::x sb-c::y sb-c::not-p sb-c::constraints
+ sb-c::target)
 ```

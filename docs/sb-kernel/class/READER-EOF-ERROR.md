@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(READER-EOF-ERROR END-OF-FILE STREAM-ERROR ERROR SERIOUS-CONDITION CONDITION
-                  SLOT-OBJECT T)
+```cl
+(sb-kernel:reader-eof-error end-of-file stream-error error
+                            serious-condition condition
+                            sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(STREAM CONTEXT)
+```cl
+(:stream :context)
 ```

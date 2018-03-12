@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE &KEY PRESERVE-DIMENSIONS)
+```cl
+(type &key sb-c::preserve-dimensions)
 ```

@@ -4,12 +4,12 @@
 > No description.
 
 ### Value
-```
-#S(SB-C::EVENT-INFO
-   :NAME REOPTIMIZE-MAXED-OUT
-   :DESCRIPTION *REOPTIMIZE-AFTER-TYPE-CHECK-MAX* exceeded.
-   :VAR *REOPTIMIZE-MAXED-OUT-EVENT-INFO*
-   :COUNT 0
-   :LEVEL 0
-   :ACTION NIL)
+```cl
+#s(sb-c::event-info
+   :name sb-c::reoptimize-maxed-out
+   :description "*reoptimize-after-type-check-max* exceeded."
+   :var sb-c::*reoptimize-maxed-out-event-info*
+   :count 0
+   :level 0
+   :action nil)
 ```

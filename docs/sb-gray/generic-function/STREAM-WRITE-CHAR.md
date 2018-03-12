@@ -6,6 +6,6 @@
 > defined for this function.
 
 ### Lambda list
-```
-(STREAM CHARACTER)
+```cl
+(stream character)
 ```

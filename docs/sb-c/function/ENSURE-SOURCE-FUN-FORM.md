@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SOURCE &KEY COERCER GIVE-UP)
+```cl
+(sb-c::source &key sb-c::coercer sb-c::give-up)
 ```

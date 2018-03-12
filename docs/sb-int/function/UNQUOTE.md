@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EXPR &OPTIONAL KIND)
+```cl
+(sb-impl::expr &optional sb-impl::kind)
 ```

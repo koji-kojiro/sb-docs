@@ -4,6 +4,6 @@
 > Recursively copy trees of conses.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

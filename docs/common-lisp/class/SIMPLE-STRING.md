@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(SIMPLE-STRING STRING VECTOR SIMPLE-ARRAY ARRAY SEQUENCE T)
+```cl
+(simple-string string vector simple-array array sequence t)
 ```

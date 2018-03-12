@@ -7,6 +7,6 @@
 > If ABS-SEC and ABS-USEC are in the past, 0 0 is returned.
 
 ### Lambda list
-```
-(ABS-SEC ABS-USEC)
+```cl
+(sb-impl::abs-sec sb-impl::abs-usec)
 ```

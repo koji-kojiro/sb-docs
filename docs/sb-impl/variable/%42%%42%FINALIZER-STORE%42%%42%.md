@@ -4,21 +4,13 @@
 > No description.
 
 ### Value
-```
-#((0 14 16 19) #<HASH-TABLE :TEST EQ :COUNT 14 :WEAKNESS :KEY {100259D6C3}> 19
-  (#<CLOSURE (LAMBDA () :IN SB-IMPL::ALLOC-BUFFER) {10026DAFDB}>)
-  (#<CLOSURE (LAMBDA () :IN SB-IMPL::ALLOC-BUFFER) {10026DAFFB}>)
-  (#<CLOSURE (LAMBDA () :IN SB-IMPL::ALLOC-BUFFER) {10026DB01B}>)
-  (#<CLOSURE (LAMBDA () :IN SB-IMPL::ALLOC-BUFFER) {10026DB03B}>)
-  (#<CLOSURE (LAMBDA () :IN SB-IMPL::ALLOC-BUFFER) {10026DB05B}>)
-  (#<CLOSURE (LAMBDA () :IN SB-SYS:MAKE-FD-STREAM) {10026DB07B}>)
-  (#<CLOSURE (LAMBDA () :IN SB-IMPL::ALLOC-BUFFER) {10026DB09B}>)
-  (#<CLOSURE (LAMBDA () :IN SB-SYS:MAKE-FD-STREAM) {10026DB0BB}>)
-  (#<CLOSURE (LAMBDA () :IN SB-IMPL::ALLOC-BUFFER) {10026DB0DB}>)
-  (#<CLOSURE (LAMBDA () :IN SB-SYS:MAKE-FD-STREAM) {100550703B}>)
-  (#<CLOSURE (LAMBDA () :IN SB-IMPL::ALLOC-BUFFER) {10026DB0FB}>) 0
-  (#<CLOSURE (LAMBDA () :IN SB-IMPL::ALLOC-BUFFER) {10026DB11B}>) 0
-  (#<CLOSURE (LAMBDA () :IN SB-IMPL::ALLOC-BUFFER) {10026DB13B}>)
-  (#<CLOSURE (LAMBDA () :IN SB-IMPL::ALLOC-BUFFER) {10026DB15B}>) 0 0 0 0 0 0 0
-  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+```cl
+#((0 14 16 19)
+  #<hash-table :test eq :count 14 :weakness :key {100196bbf3}> 19
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {1002887a7b}>)
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {1002887a9b}>)
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {1002887abb}>)
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {1002887adb}>)
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {1002887afb}>)
+  (#<closure (lambda () :in sb-sys:make-fd-stream) {1002887b1b}>) ..)
 ```

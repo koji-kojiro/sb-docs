@@ -4,6 +4,6 @@
 > openlog() facility for the UUCP subsystem
 
 ### Value
-```
+```cl
 64
 ```

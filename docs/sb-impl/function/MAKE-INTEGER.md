@@ -5,6 +5,6 @@
 > then multiplying by a power of the base and adding.
 
 ### Lambda list
-```
-(&OPTIONAL BASE)
+```cl
+(&optional sb-impl::base)
 ```

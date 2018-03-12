@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONSET KIND X Y NOT-P)
+```cl
+(sb-c::conset sb-c::kind sb-c::x sb-c::y sb-c::not-p)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(LLKS WHOLE REQUIRED &OPTIONAL OPTIONAL REST KEYS AUX)
+```cl
+(sb-c::llks sb-c::whole sb-c::required &optional sb-c::optional rest
+ sb-c::keys sb-c::aux)
 ```

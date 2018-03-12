@@ -4,6 +4,6 @@
 > Construct a new list by concatenating the list arguments
 
 ### Lambda list
-```
-(&REST LISTS)
+```cl
+(&rest sb-impl::lists)
 ```

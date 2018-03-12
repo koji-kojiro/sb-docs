@@ -9,6 +9,7 @@
 > the ~/.../ format directive.
 
 ### Lambda list
-```
-(STREAM LIST &OPTIONAL COLON? ATSIGN? TABSIZE)
+```cl
+(stream list &optional sb-pretty::colon? sb-pretty::atsign?
+ sb-pretty::tabsize)
 ```

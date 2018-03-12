@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CELLS SIZE)
+```cl
+(sb-impl::cells sb-impl::size)
 ```

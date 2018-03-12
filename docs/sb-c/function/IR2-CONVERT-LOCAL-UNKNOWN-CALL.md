@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE BLOCK FUN LVAR START)
+```cl
+(sb-c::node block sb-c::fun sb-c::lvar sb-c::start)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (FUNCTION FUNCTION) (CALL-METHOD-ARGS CALL-METHOD-ARGS))
+```cl
+(&key (:function #:function) (:call-method-args #:call-method-args))
 ```

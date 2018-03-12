@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-((VALUE-TYPE &KEY CONTEXT SILENT-CONFLICT TRULY MODIFYING) FORM)
+```cl
+((sb-c::value-type &key sb-c::context sb-c::silent-conflict sb-c::truly
+  sb-c::modifying)
+ sb-kernel:form)
 ```

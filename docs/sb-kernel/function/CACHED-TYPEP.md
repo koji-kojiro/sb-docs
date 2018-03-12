@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CACHE OBJECT)
+```cl
+(sb-kernel::cache sb-kernel::object)
 ```

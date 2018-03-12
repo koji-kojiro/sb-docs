@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<BUILT-IN-CLASS SB-EXT:WEAK-POINTER>
+```cl
+#<built-in-class sb-ext:weak-pointer>
 ```

@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(FILE PREPEND-RUNTIME SAVE-RUNTIME-OPTIONS COMPRESSED COMPRESSION-LEVEL
- APPLICATION-TYPE)
+```cl
+(sb-impl::file sb-impl::prepend-runtime sb-impl::save-runtime-options
+ sb-impl::compressed sb-impl::compression-level
+ sb-impl::application-type)
 ```

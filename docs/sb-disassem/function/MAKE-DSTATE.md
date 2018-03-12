@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL FUN-HOOKS)
+```cl
+(&optional sb-disassem::fun-hooks)
 ```

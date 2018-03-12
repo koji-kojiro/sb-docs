@@ -4,6 +4,6 @@
 > Return all of the elements of LIST, in order, as values.
 
 ### Lambda list
-```
-(LIST)
+```cl
+(list)
 ```

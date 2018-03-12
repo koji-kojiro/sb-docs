@@ -4,6 +4,6 @@
 > Return the hyperbolic sine of NUMBER.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME TYPE-OID TYPE-SPECIFIER WHERE-FROM)
+```cl
+(sb-c::name sb-c::type-oid sb-kernel:type-specifier sb-c::where-from)
 ```

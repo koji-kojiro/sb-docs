@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VOP BLOCK BEFORE)
+```cl
+(sb-c::vop block sb-c::before)
 ```

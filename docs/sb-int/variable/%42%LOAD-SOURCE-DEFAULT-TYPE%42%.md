@@ -4,6 +4,6 @@
 > The source file types which LOAD looks for by default.
 
 ### Value
-```
-lisp
+```cl
+"lisp"
 ```

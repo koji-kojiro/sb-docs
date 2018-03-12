@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(%POLICY HANDLED-CONDITIONS FLUSHABLE)
+```cl
+(sb-c::%policy sb-c::handled-conditions sb-assem:flushable)
 ```

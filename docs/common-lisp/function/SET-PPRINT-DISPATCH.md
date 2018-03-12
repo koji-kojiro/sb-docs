@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE FUNCTION &OPTIONAL PRIORITY TABLE)
+```cl
+(type function &optional sb-pretty::priority sb-pretty::table)
 ```

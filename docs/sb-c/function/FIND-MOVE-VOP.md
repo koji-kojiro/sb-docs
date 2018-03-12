@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(OP-TN WRITE-P OTHER-SC OTHER-PTYPE SLOT)
+```cl
+(sb-c::op-tn sb-c::write-p sb-c::other-sc sb-c::other-ptype
+ sb-alien:slot)
 ```

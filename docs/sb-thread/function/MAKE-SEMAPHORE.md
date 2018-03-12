@@ -4,6 +4,6 @@
 > Create a semaphore with the supplied COUNT and NAME.
 
 ### Lambda list
-```
-(&KEY NAME (COUNT %COUNT))
+```cl
+(&key sb-thread::name (:count sb-thread::%count))
 ```

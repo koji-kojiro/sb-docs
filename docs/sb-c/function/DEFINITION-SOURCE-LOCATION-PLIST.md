@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SOURCE-LOC)
+```cl
+(sb-c::source-loc)
 ```

@@ -4,6 +4,7 @@
 > Substitute from ALIST into TREE nondestructively.
 
 ### Lambda list
-```
-(ALIST TREE &KEY KEY TEST TEST-NOT)
+```cl
+(sb-impl::alist sb-impl::tree &key sb-impl::key sb-impl::test
+ sb-impl::test-not)
 ```

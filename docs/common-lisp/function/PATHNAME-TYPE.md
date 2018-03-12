@@ -4,6 +4,6 @@
 > Return PATHNAME's type.
 
 ### Lambda list
-```
-(PATHNAME &KEY CASE)
+```cl
+(pathname &key case)
 ```

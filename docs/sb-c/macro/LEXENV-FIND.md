@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME SLOT &KEY TEST)
+```cl
+(sb-c::name sb-alien:slot &key sb-c::test)
 ```

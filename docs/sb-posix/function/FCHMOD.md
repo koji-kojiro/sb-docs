@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD MODE)
+```cl
+(sb-posix::fd sb-posix::mode)
 ```

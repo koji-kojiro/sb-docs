@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL ROOTS)
+```cl
+(&optional sb-kernel::roots)
 ```

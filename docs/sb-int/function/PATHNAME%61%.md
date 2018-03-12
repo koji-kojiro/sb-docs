@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATHNAME1 PATHNAME2)
+```cl
+(sb-impl::pathname1 sb-impl::pathname2)
 ```

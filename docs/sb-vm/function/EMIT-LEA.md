@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TARGET SOURCE DISP)
+```cl
+(sb-vm::target sb-vm::source sb-vm::disp)
 ```

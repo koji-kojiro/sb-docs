@@ -4,6 +4,6 @@
 > Transfer control to a restart named CONTINUE, or return NIL if none exists.
 
 ### Lambda list
-```
-(&OPTIONAL CONDITION)
+```cl
+(&optional condition)
 ```

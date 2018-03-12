@@ -5,6 +5,6 @@
 > overridden by *PRINT-READABLY*)
 
 ### Value
-```
-T
+```cl
+t
 ```

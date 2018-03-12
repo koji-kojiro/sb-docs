@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PV PV-OFFSET PARAMETER NEW-VALUE)
+```cl
+(sb-pcl::pv sb-pcl::pv-offset sb-pcl::parameter sb-pcl::new-value)
 ```

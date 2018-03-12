@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(NAME QUALIFIERS SPECIALIZERS UNSPECIALIZED-LAMBDA-LIST METHOD-CLASS-NAME
- INITARGS-FORM)
+```cl
+(sb-pcl::name sb-pcl::qualifiers sb-pcl::specializers
+ sb-pcl::unspecialized-lambda-list sb-pcl::method-class-name
+ sb-pcl::initargs-form)
 ```

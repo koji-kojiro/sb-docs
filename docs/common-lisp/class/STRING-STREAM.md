@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(STRING-STREAM STREAM T)
+```cl
+(string-stream stream t)
 ```

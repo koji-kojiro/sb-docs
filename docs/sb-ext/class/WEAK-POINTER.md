@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(WEAK-POINTER T)
+```cl
+(sb-ext:weak-pointer t)
 ```

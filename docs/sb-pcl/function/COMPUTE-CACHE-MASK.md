@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR-LENGTH LINE-SIZE)
+```cl
+(sb-pcl::vector-length sb-pcl::line-size)
 ```

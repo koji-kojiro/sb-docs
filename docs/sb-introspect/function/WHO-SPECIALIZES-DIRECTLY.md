@@ -13,6 +13,6 @@
 > Experimental.
 
 ### Lambda list
-```
-(CLASS-DESIGNATOR)
+```cl
+(sb-introspect::class-designator)
 ```

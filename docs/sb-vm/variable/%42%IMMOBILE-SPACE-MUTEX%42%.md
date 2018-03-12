@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "Immobile space" (free)>
+```cl
+#<sb-thread:mutex "immobile space" (free)>
 ```

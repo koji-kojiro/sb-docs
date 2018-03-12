@@ -4,6 +4,6 @@
 > Return a new sequence containing the same elements but in reverse order.
 
 ### Lambda list
-```
-(SEQUENCE)
+```cl
+(sequence)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION FORM &OPTIONAL NO-FMF-P)
+```cl
+(generic-function sb-kernel:form &optional sb-pcl::no-fmf-p)
 ```

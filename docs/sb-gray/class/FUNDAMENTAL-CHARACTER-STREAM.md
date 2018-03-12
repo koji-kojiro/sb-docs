@@ -4,7 +4,7 @@
 > Superclass of all Gray streams whose element-type is a subtype of character.
 
 ### Precedence list
-```
-(FUNDAMENTAL-CHARACTER-STREAM FUNDAMENTAL-STREAM STANDARD-OBJECT SLOT-OBJECT
- STREAM T)
+```cl
+(sb-gray:fundamental-character-stream sb-gray:fundamental-stream
+ standard-object sb-pcl::slot-object stream t)
 ```

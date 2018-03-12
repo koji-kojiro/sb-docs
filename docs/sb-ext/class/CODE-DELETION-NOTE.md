@@ -5,11 +5,11 @@
 > has written, having proved that it is unreachable.
 
 ### Precedence list
-```
-(CODE-DELETION-NOTE SIMPLE-COMPILER-NOTE SIMPLE-CONDITION COMPILER-NOTE
- CONDITION SLOT-OBJECT T)
+```cl
+(sb-ext:code-deletion-note sb-int:simple-compiler-note simple-condition
+ sb-ext:compiler-note condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS)
+```cl
+(:format-control :format-arguments)
 ```

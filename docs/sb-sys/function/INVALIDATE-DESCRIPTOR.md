@@ -5,6 +5,6 @@
 > to recover from a detected inconsistency.
 
 ### Lambda list
-```
-(FD)
+```cl
+(sb-impl::fd)
 ```

@@ -4,13 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (SIMPLE-SUBTYPEP SIMPLE-SUBTYPEP)
- (COMPLEX-SUBTYPEP-ARG1 COMPLEX-SUBTYPEP-ARG1)
- (COMPLEX-SUBTYPEP-ARG2 COMPLEX-SUBTYPEP-ARG2) (SIMPLE-UNION2 SIMPLE-UNION2)
- (COMPLEX-UNION2 COMPLEX-UNION2) (SIMPLE-INTERSECTION2 SIMPLE-INTERSECTION2)
- (COMPLEX-INTERSECTION2 COMPLEX-INTERSECTION2) (SIMPLE-= SIMPLE-=)
- (COMPLEX-= COMPLEX-=) (NEGATE NEGATE) (UNPARSE UNPARSE)
- (MIGHT-CONTAIN-OTHER-TYPES-P MIGHT-CONTAIN-OTHER-TYPES-P)
- (ENUMERABLE-P ENUMERABLE-P) (SINGLETON-P SINGLETON-P))
+```cl
+(&key (:name #:name) (:simple-subtypep #:simple-subtypep)
+ (:complex-subtypep-arg1 #:complex-subtypep-arg1)
+ (:complex-subtypep-arg2 #:complex-subtypep-arg2)
+ (:simple-union2 #:simple-union2) (:complex-union2 #:complex-union2)
+ (:simple-intersection2 #:simple-intersection2)
+ (:complex-intersection2 #:complex-intersection2)
+ (:simple-= #:simple-=) (:complex-= #:complex-=) (:negate #:negate)
+ (:unparse #:unparse) ..)
 ```

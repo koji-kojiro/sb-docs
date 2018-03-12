@@ -38,6 +38,6 @@
 > process to continue normally.
 
 ### Lambda list
-```
-(&KEY CODE ABORT TIMEOUT)
+```cl
+(&key sb-impl::code abort sb-ext:timeout)
 ```

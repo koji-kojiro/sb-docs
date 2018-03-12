@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATTERN STRING)
+```cl
+(sb-impl::pattern string)
 ```

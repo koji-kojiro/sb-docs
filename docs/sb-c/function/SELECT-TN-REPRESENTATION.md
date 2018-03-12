@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TN SCS COSTS)
+```cl
+(sb-c:tn sb-c::scs sb-c::costs)
 ```

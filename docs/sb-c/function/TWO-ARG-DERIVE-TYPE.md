@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARG1 ARG2 DERIVE-FUN FUN)
+```cl
+(sb-c::arg1 sb-c::arg2 sb-c::derive-fun sb-c::fun)
 ```

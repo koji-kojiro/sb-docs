@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ENTRY OBJECT)
+```cl
+(sb-c::entry sb-c::object)
 ```

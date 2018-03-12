@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(LENGTH ELEMENT-TYPE INITIAL-ELEMENT INITIAL-CONTENTS CALL &KEY ADJUSTABLE
-        FILL-POINTER)
+```cl
+(length sb-c::element-type sb-c::initial-element sb-c::initial-contents
+        sb-c:call &key sb-c::adjustable fill-pointer)
 ```

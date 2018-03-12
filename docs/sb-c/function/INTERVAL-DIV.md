@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TOP BOT)
+```cl
+(sb-c::top sb-c::bot)
 ```

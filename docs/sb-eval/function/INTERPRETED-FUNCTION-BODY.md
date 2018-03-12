@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE OBJECT)
+```cl
+(#:new-value #:object)
 ```

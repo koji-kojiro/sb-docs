@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THING ESCAPE-CHAR)
+```cl
+(sb-impl::thing sb-impl::escape-char)
 ```

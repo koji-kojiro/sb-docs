@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM-WE-ARE-LOADING-FROM VERBOSE)
+```cl
+(sb-fasl::stream-we-are-loading-from sb-fasl::verbose)
 ```

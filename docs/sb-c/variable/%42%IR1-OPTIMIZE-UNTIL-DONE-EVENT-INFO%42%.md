@@ -4,12 +4,12 @@
 > No description.
 
 ### Value
-```
-#S(SB-C::EVENT-INFO
-   :NAME IR1-OPTIMIZE-UNTIL-DONE
-   :DESCRIPTION IR1-OPTIMIZE-UNTIL-DONE called
-   :VAR *IR1-OPTIMIZE-UNTIL-DONE-EVENT-INFO*
-   :COUNT 1296
-   :LEVEL 0
-   :ACTION NIL)
+```cl
+#s(sb-c::event-info
+   :name sb-c::ir1-optimize-until-done
+   :description "ir1-optimize-until-done called"
+   :var sb-c::*ir1-optimize-until-done-event-info*
+   :count 1296
+   :level 0
+   :action nil)
 ```

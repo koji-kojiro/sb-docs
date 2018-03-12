@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN &REST REST)
+```cl
+(sb-debug::fun &rest rest)
 ```

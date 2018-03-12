@@ -4,8 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (CLASS-INFO CLASS-INFO) (HASH-VALUE HASH-VALUE) (REQUIRED REQUIRED)
- (OPTIONAL OPTIONAL) (REST REST) (KEYP KEYP) (KEYWORDS KEYWORDS)
- (ALLOWP ALLOWP))
+```cl
+(&key (:class-info #:class-info) (:hash-value #:hash-value)
+ (:required #:required) (:optional #:optional) (:rest #:rest)
+ (:keyp #:keyp) (:keywords #:keywords) (:allowp #:allowp))
 ```

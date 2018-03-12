@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(METAOBJECT DEPENDENT &REST INITARGS)
+```cl
+(sb-mop:metaobject sb-pcl::dependent &rest sb-pcl::initargs)
 ```

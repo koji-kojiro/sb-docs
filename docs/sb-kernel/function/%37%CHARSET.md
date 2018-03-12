@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRING INDEX NEW-EL)
+```cl
+(string sb-int:index sb-impl::new-el)
 ```

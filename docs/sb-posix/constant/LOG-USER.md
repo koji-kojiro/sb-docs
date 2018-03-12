@@ -4,6 +4,6 @@
 > Default openlog() faclity.
 
 ### Value
-```
+```cl
 8
 ```

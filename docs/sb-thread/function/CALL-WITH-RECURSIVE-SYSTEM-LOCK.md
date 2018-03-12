@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-#'LOCK
+```cl
+#'sb-thread::lock
 ```

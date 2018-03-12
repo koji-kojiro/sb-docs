@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(QUEUE MUTEX TIMEOUT TO-SEC TO-USEC STOP-SEC STOP-USEC DEADLINEP)
+```cl
+(sb-thread::queue sb-thread:mutex sb-thread::timeout sb-thread::to-sec
+ sb-thread::to-usec sb-thread::stop-sec sb-thread::stop-usec
+ sb-thread::deadlinep)
 ```

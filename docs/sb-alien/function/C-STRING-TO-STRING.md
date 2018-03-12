@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SAP EXTERNAL-FORMAT ELEMENT-TYPE)
+```cl
+(sb-impl::sap sb-impl::external-format sb-impl::element-type)
 ```

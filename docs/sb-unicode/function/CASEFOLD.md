@@ -7,6 +7,6 @@
 > The result is not guaranteed to have the same length as the input.
 
 ### Lambda list
-```
-(STRING)
+```cl
+(string)
 ```

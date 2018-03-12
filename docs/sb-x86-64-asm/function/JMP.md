@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COND &OPTIONAL WHERE)
+```cl
+(cond &optional sb-x86-64-asm::where)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CHARACTER &OPTIONAL STREAM)
+```cl
+(character &optional stream)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPESPEC)
+```cl
+(sb-kernel::typespec)
 ```

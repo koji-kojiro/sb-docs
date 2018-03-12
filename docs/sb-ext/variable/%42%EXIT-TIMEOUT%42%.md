@@ -6,6 +6,6 @@
 > means to wait indefinitely.
 
 ### Value
-```
+```cl
 60
 ```

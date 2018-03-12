@@ -4,14 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (TYPE TYPE) (BUFFER BUFFER) (RUN-SCHEDULER RUN-SCHEDULER)
- (INST-HOOK INST-HOOK) (CURRENT-POSN CURRENT-POSN)
- (%CURRENT-INDEX %CURRENT-INDEX) (ANNOTATIONS ANNOTATIONS)
- (LAST-ANNOTATION LAST-ANNOTATION) (ALIGNMENT ALIGNMENT) (SYNC-POSN SYNC-POSN)
- (FINAL-POSN FINAL-POSN) (FINAL-INDEX FINAL-INDEX) (POSTITS POSTITS)
- (INST-NUMBER INST-NUMBER) (READERS READERS) (WRITERS WRITERS)
- (BRANCH-COUNTDOWN BRANCH-COUNTDOWN)
- (EMITTABLE-INSTS-SSET EMITTABLE-INSTS-SSET) (QUEUED-BRANCHES QUEUED-BRANCHES)
- (DELAYED DELAYED) (EMITTABLE-INSTS-QUEUE EMITTABLE-INSTS-QUEUE))
+```cl
+(&key (:type #:type) (:buffer #:buffer)
+ (:run-scheduler #:run-scheduler) (:inst-hook #:inst-hook)
+ (:current-posn #:current-posn) (:%current-index #:%current-index)
+ (:annotations #:annotations) (:last-annotation #:last-annotation)
+ (:alignment #:alignment) (:sync-posn #:sync-posn)
+ (:final-posn #:final-posn) (:final-index #:final-index)
+ (:postits #:postits) (:inst-number #:inst-number) (:readers #:readers)
+ (:writers #:writers) (:branch-countdown #:branch-countdown) ..)
 ```

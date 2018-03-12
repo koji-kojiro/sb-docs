@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NUMBER COUNT)
+```cl
+(number count)
 ```

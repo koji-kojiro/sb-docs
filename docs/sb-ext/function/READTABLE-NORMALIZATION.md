@@ -6,6 +6,6 @@
 > and NIL to suppress normalization.
 
 ### Lambda list
-```
-(NEW-VALUE READTABLE)
+```cl
+(sb-impl::new-value readtable)
 ```

@@ -4,8 +4,10 @@
 > No description.
 
 ### Lambda list
-```
-(INSTANCE &REST INITARGS &KEY SYSTEM OTHER-SYSTEMS NAME INITFORM INITFUNCTION
- TYPE ALLOCATION INITARGS DOCUMENTATION READERS WRITERS LAMBDA-LIST
- ARGUMENT-PRECEDENCE-ORDER &ALLOW-OTHER-KEYS)
+```cl
+(sb-kernel:instance &rest sb-pcl::initargs &key asdf/system:system
+ asdf/plan::other-systems sb-pcl::name sb-pcl::initform
+ sb-pcl::initfunction type sb-pcl::allocation sb-pcl::initargs
+ documentation sb-pcl::readers sb-pcl::writers sb-pcl::lambda-list
+ sb-pcl::argument-precedence-order &allow-other-keys)
 ```

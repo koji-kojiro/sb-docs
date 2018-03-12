@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X Y &OPTIONAL CLOSED-INTERVALS-P)
+```cl
+(sb-c::x sb-c::y &optional sb-c::closed-intervals-p)
 ```

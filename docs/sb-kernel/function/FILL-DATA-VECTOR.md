@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR DIMENSIONS INITIAL-CONTENTS)
+```cl
+(vector sb-impl::dimensions sb-impl::initial-contents)
 ```

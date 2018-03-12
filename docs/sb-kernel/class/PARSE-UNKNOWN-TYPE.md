@@ -4,10 +4,10 @@
 > No description.
 
 ### Precedence list
-```
-(PARSE-UNKNOWN-TYPE CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel:parse-unknown-type condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(SPECIFIER)
+```cl
+(:specifier)
 ```

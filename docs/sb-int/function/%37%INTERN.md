@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME LENGTH PACKAGE ELT-TYPE)
+```cl
+(sb-impl::name length package sb-impl::elt-type)
 ```

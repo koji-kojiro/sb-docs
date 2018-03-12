@@ -4,6 +4,6 @@
 > Returns the current count of the semaphore INSTANCE.
 
 ### Lambda list
-```
-(INSTANCE)
+```cl
+(sb-kernel:instance)
 ```

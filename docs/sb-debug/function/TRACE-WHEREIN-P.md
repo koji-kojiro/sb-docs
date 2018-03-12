@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FRAME NAMES)
+```cl
+(sb-debug::frame sb-debug::names)
 ```

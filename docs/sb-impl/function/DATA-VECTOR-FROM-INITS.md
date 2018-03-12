@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(DIMENSIONS TOTAL-SIZE ELEMENT-TYPE WIDETAG N-BITS INITIALIZE INITIAL-DATA)
+```cl
+(sb-impl::dimensions sb-impl::total-size sb-impl::element-type
+ sb-impl::widetag sb-impl::n-bits sb-impl::initialize
+ sb-impl::initial-data)
 ```

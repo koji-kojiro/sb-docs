@@ -7,6 +7,6 @@
 > forms, returns NIL.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

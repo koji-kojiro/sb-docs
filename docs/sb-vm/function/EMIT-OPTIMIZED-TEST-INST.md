@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X Y SIGN-BIT-MATTERS)
+```cl
+(sb-vm::x sb-vm::y sb-vm::sign-bit-matters)
 ```

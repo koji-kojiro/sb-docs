@@ -4,7 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(TEST TEST-FUN HASH-FUN REHASH-SIZE REHASH-THRESHOLD REHASH-TRIGGER TABLE
- INDEX-VECTOR NEXT-VECTOR HASH-VECTOR FLAGS)
+```cl
+(sb-impl::test sb-impl::test-fun sb-impl::hash-fun sb-impl::rehash-size
+ sb-impl::rehash-threshold sb-impl::rehash-trigger sb-impl::table
+ sb-impl::index-vector sb-impl::next-vector sb-impl::hash-vector
+ sb-impl::flags)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME FORTHCOMING-INFO)
+```cl
+(sb-kernel::name sb-kernel::forthcoming-info)
 ```

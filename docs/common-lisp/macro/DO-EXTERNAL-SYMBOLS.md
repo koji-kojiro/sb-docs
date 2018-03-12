@@ -6,6 +6,7 @@
 > VAR bound to the current symbol.
 
 ### Lambda list
-```
-((VAR &OPTIONAL PACKAGE RESULT-FORM) &BODY BODY-DECLS)
+```cl
+((sb-debug:var &optional package sb-impl::result-form) &body
+ sb-impl::body-decls)
 ```

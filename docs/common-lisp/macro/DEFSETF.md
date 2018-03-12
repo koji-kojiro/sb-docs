@@ -5,6 +5,6 @@
 > function or macro. The format is complex. See the manual for details.
 
 ### Lambda list
-```
-(ACCESS-FN &REST REST)
+```cl
+(sb-impl::access-fn &rest rest)
 ```

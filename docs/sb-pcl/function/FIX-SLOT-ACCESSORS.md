@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS DSLOTDS ADD/REMOVE)
+```cl
+(class sb-pcl::dslotds sb-pcl::add/remove)
 ```

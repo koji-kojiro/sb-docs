@@ -5,6 +5,6 @@
 > see documentation for SB-EXT:EXIT.
 
 ### Lambda list
-```
-(&KEY RECKLESSLY-P UNIX-STATUS)
+```cl
+(&key sb-impl::recklessly-p sb-impl::unix-status)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(RATIO RATIONAL REAL NUMBER T)
+```cl
+(ratio rational real number t)
 ```

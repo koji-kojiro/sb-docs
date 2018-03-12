@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARGUMENTS LAMBDA-LIST)
+```cl
+(sb-eval::arguments sb-eval::lambda-list)
 ```

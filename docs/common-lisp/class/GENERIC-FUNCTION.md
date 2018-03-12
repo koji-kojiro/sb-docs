@@ -4,11 +4,13 @@
 > No description.
 
 ### Precedence list
-```
-(GENERIC-FUNCTION DEPENDENT-UPDATE-MIXIN PLIST-MIXIN DEFINITION-SOURCE-MIXIN
- METAOBJECT FUNCALLABLE-STANDARD-OBJECT FUNCTION STANDARD-OBJECT SLOT-OBJECT T)
+```cl
+(generic-function sb-pcl::dependent-update-mixin sb-pcl::plist-mixin
+ sb-pcl::definition-source-mixin sb-mop:metaobject
+ sb-mop:funcallable-standard-object function standard-object
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(SOURCE PLIST DOCUMENTATION)
+```cl
+(sb-pcl::source sb-pcl::plist :documentation)
 ```

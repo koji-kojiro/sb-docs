@@ -4,6 +4,6 @@
 > Return true if X (which must be an ALIEN pointer) is null, false otherwise.
 
 ### Lambda list
-```
-(X)
+```cl
+(sb-alien::x)
 ```

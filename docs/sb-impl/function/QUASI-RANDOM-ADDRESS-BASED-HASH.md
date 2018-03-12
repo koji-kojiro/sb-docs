@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STATE MASK)
+```cl
+(sb-impl::state sb-impl::mask)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(GF METHODS GENERATOR METHOD-ALIST WRAPPERS)
+```cl
+(sb-pcl::gf sb-pcl::methods sb-pcl::generator sb-pcl::method-alist
+ sb-pcl::wrappers)
 ```

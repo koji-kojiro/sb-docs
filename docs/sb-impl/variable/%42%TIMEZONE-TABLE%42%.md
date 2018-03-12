@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#(GMT     EST CST MST PST)
+```cl
+#("gmt" "" "" "" "" "est" "cst" "mst" "pst")
 ```

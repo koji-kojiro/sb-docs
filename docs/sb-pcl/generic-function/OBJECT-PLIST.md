@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE PLIST-MIXIN)
+```cl
+(sb-pcl::new-value sb-pcl::plist-mixin)
 ```

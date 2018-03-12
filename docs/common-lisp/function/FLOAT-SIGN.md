@@ -6,6 +6,6 @@
 > as FLOAT2.
 
 ### Lambda list
-```
-(FLOAT1 &OPTIONAL FLOAT2)
+```cl
+(sb-kernel::float1 &optional sb-kernel::float2)
 ```

@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(INTERACTIVE-INTERRUPT SYSTEM-CONDITION SERIOUS-CONDITION CONDITION SLOT-OBJECT
- T)
+```cl
+(sb-sys:interactive-interrupt sb-sys:system-condition serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(ADDRESS CONTEXT)
+```cl
+(:address :context)
 ```

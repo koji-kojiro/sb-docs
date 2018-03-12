@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FIELD1 FIELD2)
+```cl
+(sb-alien::field1 sb-alien::field2)
 ```

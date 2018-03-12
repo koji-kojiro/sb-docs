@@ -6,6 +6,6 @@
 > which returns CHARACTER.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

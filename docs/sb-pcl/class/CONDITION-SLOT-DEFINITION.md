@@ -4,12 +4,13 @@
 > No description.
 
 ### Precedence list
-```
-(CONDITION-SLOT-DEFINITION SLOT-DEFINITION METAOBJECT DEFINITION-SOURCE-MIXIN
- STANDARD-OBJECT SLOT-OBJECT T)
+```cl
+(sb-pcl::condition-slot-definition sb-mop:slot-definition
+ sb-mop:metaobject sb-pcl::definition-source-mixin standard-object
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(SOURCE NAME INITFORM INITFUNCTION INITARGS TYPE DOCUMENTATION CLASS ALLOCATION
- ALLOCATION-CLASS)
+```cl
+(sb-pcl::source :name :initform :initfunction :initargs :type
+ :documentation :class :allocation :allocation-class)
 ```

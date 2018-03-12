@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME ARG DESIGNATOR-FUN TYPE)
+```cl
+(sb-posix::name sb-posix::arg sb-posix::designator-fun type)
 ```

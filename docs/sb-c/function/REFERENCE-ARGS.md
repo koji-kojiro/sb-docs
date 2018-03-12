@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE BLOCK ARGS TEMPLATE)
+```cl
+(sb-c::node block sb-c::args sb-c::template)
 ```

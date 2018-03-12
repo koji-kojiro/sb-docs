@@ -6,6 +6,6 @@
 > malformed.
 
 ### Lambda list
-```
-(COLON-SEPARATED-INTEGERS)
+```cl
+(sb-bsd-sockets::colon-separated-integers)
 ```

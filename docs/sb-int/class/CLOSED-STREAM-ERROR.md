@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(CLOSED-STREAM-ERROR STREAM-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT
- T)
+```cl
+(sb-int:closed-stream-error stream-error error serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(STREAM)
+```cl
+(:stream)
 ```

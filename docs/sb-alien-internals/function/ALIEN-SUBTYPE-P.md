@@ -8,6 +8,6 @@
 > ALIEN-TYPE-=.
 
 ### Lambda list
-```
-(TYPE1 TYPE2)
+```cl
+(sb-alien::type1 sb-alien::type2)
 ```

@@ -5,6 +5,6 @@
 > word breaking rules specified in UAX #29. Returns a list of strings
 
 ### Lambda list
-```
-(STRING)
+```cl
+(string)
 ```

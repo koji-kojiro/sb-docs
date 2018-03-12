@@ -4,9 +4,9 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-METHOD (COMMON-LISP:SETF SB-MOP:SLOT-VALUE-USING-CLASS) (T
-                                                                    SB-PCL::CONDITION-CLASS
-                                                                    CONDITION
-                                                                    SB-PCL::CONDITION-EFFECTIVE-SLOT-DEFINITION) {10005A9B43}>
+```cl
+#<standard-method (common-lisp:setf sb-mop:slot-value-using-class) (t
+                                                                    sb-pcl::condition-class
+                                                                    condition
+                                                                    sb-pcl::condition-effective-slot-definition) {10005a9b43}>
 ```

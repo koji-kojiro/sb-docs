@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DEFSTRUCT)
+```cl
+(defstruct)
 ```

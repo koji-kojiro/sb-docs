@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(INSTANCE STREAM &OPTIONAL PROPERLY-NAMED-P EXTRA)
+```cl
+(sb-kernel:instance stream &optional sb-pcl::properly-named-p
+ sb-pcl::extra)
 ```

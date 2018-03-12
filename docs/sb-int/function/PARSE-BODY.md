@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BODY DOC-STRING-ALLOWED &OPTIONAL SILENT)
+```cl
+(sb-impl::body sb-impl::doc-string-allowed &optional sb-impl::silent)
 ```

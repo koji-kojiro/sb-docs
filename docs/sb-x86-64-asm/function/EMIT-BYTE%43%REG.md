@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEG BYTE REG)
+```cl
+(sb-x86-64-asm::seg byte sb-x86-64-asm::reg)
 ```

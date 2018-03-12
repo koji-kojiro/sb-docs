@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ERROR-PARSE-FUN TRAP-NUMBER STREAM DSTATE)
+```cl
+(sb-disassem::error-parse-fun sb-disassem::trap-number stream
+ sb-disassem::dstate)
 ```

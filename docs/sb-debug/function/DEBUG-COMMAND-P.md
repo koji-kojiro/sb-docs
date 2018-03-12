@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM &OPTIONAL OTHER-COMMANDS)
+```cl
+(sb-kernel:form &optional sb-debug::other-commands)
 ```

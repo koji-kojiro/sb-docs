@@ -5,6 +5,6 @@
 > and a secondary value, the number of characters consumed.
 
 ### Lambda list
-```
-(STRING)
+```cl
+(string)
 ```

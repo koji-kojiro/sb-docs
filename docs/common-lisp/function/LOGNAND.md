@@ -4,6 +4,6 @@
 > Complement the logical AND of INTEGER1 and INTEGER2.
 
 ### Lambda list
-```
-(INTEGER1 INTEGER2)
+```cl
+(sb-kernel::integer1 sb-kernel::integer2)
 ```

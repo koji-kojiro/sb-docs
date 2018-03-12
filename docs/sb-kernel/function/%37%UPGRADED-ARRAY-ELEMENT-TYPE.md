@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ELTYPE)
+```cl
+(sb-kernel::eltype)
 ```

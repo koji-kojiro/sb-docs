@@ -5,6 +5,6 @@
 > the user for input.
 
 ### Value
-```
-#<FUNCTION SB-IMPL::REPL-PROMPT-FUN>
+```cl
+#<function sb-impl::repl-prompt-fun>
 ```

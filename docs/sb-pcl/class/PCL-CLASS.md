@@ -4,11 +4,13 @@
 > No description.
 
 ### Precedence list
-```
-(PCL-CLASS CLASS DEPENDENT-UPDATE-MIXIN PLIST-MIXIN DEFINITION-SOURCE-MIXIN
- STANDARD-SPECIALIZER SPECIALIZER METAOBJECT STANDARD-OBJECT SLOT-OBJECT T)
+```cl
+(sb-pcl::pcl-class class sb-pcl::dependent-update-mixin
+ sb-pcl::plist-mixin sb-pcl::definition-source-mixin
+ sb-pcl::standard-specializer sb-mop:specializer sb-mop:metaobject
+ standard-object sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(SOURCE PLIST NAME DOCUMENTATION SAFE-P)
+```cl
+(sb-pcl::source sb-pcl::plist :name :documentation sb-pcl::safe-p)
 ```

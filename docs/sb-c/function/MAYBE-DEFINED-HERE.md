@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME WHERE)
+```cl
+(sb-c::name sb-c::where)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME LEXENV COUNT-CELL)
+```cl
+(sb-c::name sb-kernel:lexenv sb-c::count-cell)
 ```

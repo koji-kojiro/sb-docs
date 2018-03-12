@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(INVALID-FASL-VERSION INVALID-FASL ERROR SERIOUS-CONDITION CONDITION
-                      SLOT-OBJECT T)
+```cl
+(sb-fasl::invalid-fasl-version sb-ext:invalid-fasl error
+                               serious-condition condition
+                               sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(STREAM EXPECTED VERSION)
+```cl
+(:stream :expected :version)
 ```

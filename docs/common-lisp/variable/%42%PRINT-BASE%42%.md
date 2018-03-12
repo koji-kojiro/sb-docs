@@ -4,6 +4,6 @@
 > The output base for RATIONALs (including integers).
 
 ### Value
-```
+```cl
 10
 ```

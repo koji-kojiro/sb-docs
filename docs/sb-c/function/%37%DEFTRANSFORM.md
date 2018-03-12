@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME TYPE FUN &OPTIONAL NOTE IMPORTANT POLICY)
+```cl
+(sb-c::name type sb-c::fun &optional sb-c::note sb-c::important
+ sb-c:policy)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INSTANCE INDEX DIFF)
+```cl
+(sb-kernel:instance sb-int:index sb-impl::diff)
 ```

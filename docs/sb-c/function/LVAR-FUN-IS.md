@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LVAR NAMES)
+```cl
+(sb-c::lvar sb-c::names)
 ```

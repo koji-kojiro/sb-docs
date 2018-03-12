@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NUM-RESULTS NUM-RESULTS))
+```cl
+(&key (:num-results #:num-results))
 ```

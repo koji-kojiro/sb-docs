@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM WANT)
+```cl
+(stream sb-pretty::want)
 ```

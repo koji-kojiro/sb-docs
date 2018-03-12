@@ -5,6 +5,6 @@
 > CONDITION, or return NIL if the restart is not found.
 
 ### Lambda list
-```
-(&OPTIONAL CONDITION)
+```cl
+(&optional condition)
 ```

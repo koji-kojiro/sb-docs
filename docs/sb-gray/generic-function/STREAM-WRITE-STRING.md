@@ -8,6 +8,6 @@
 > STREAM-WRITE-CHAR.
 
 ### Lambda list
-```
-(STREAM STRING &OPTIONAL START END)
+```cl
+(stream string &optional sb-gray::start sb-gray::end)
 ```

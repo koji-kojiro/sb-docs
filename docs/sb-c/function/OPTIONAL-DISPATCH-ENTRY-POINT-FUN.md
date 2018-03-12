@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DISPATCHER N)
+```cl
+(sb-c::dispatcher sb-c::n)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(START-PC ELSEWHERE-PC CLOSURE-SAVE BSP-SAVE)
+```cl
+(sb-c::start-pc sb-c::elsewhere-pc sb-c::closure-save sb-c::bsp-save)
 ```

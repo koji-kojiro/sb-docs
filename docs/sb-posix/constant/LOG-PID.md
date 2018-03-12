@@ -4,6 +4,6 @@
 > If supplied to openlog(), log the process ID with each message
 
 ### Value
-```
+```cl
 1
 ```

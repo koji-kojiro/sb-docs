@@ -5,6 +5,6 @@
 > "127.0.0.1". Signals an error if the string is malformed.
 
 ### Lambda list
-```
-(DOTTED-QUADS)
+```cl
+(sb-bsd-sockets::dotted-quads)
 ```

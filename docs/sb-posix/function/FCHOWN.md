@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD OWNER GROUP)
+```cl
+(sb-posix::fd sb-posix::owner sb-posix:group)
 ```

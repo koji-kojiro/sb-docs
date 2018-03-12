@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FUN-NAME ELEMENT-SIZE LOWTAG DATA-OFFSET INDEX OFFSET &OPTIONAL SETTER-P)
+```cl
+(sb-c::fun-name sb-c::element-size sb-c::lowtag sb-c::data-offset
+ sb-int:index sb-c::offset &optional sb-c::setter-p)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SIMPLE-FUN)
+```cl
+(sb-kernel:simple-fun)
 ```

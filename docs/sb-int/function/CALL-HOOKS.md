@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KIND HOOKS &KEY ON-ERROR)
+```cl
+(sb-impl::kind sb-impl::hooks &key sb-impl::on-error)
 ```

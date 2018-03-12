@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRING NAME DOC-TYPE)
+```cl
+(string sb-c::name sb-c::doc-type)
 ```

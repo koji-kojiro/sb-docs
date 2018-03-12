@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SIGNAL CODE *CURRENT-INTERNAL-ERROR-CONTEXT*)
+```cl
+(signal sb-unix::code sb-kernel:*current-internal-error-context*)
 ```

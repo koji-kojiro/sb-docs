@@ -5,12 +5,13 @@
 > when a package-lock is violated.
 
 ### Precedence list
-```
-(PACKAGE-LOCK-VIOLATION PACKAGE-ERROR ERROR SERIOUS-CONDITION
-                        REFERENCE-CONDITION SIMPLE-CONDITION CONDITION
-                        SLOT-OBJECT T)
+```cl
+(sb-ext:package-lock-violation package-error error serious-condition
+                               sb-int:reference-condition
+                               simple-condition condition
+                               sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS REFERENCES PACKAGE)
+```cl
+(:format-control :format-arguments :references :package)
 ```

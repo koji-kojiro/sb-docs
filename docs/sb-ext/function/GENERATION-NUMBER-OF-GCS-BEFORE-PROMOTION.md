@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE GENERATION)
+```cl
+(sb-kernel::value sb-kernel::generation)
 ```

@@ -7,6 +7,6 @@
 > garbage collection.
 
 ### Lambda list
-```
-((&REST OBJECTS) &BODY BODY)
+```cl
+((&rest sb-vm::objects) &body sb-vm::body)
 ```

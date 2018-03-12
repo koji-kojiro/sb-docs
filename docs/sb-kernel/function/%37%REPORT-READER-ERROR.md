@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONDITION STREAM &KEY SIMPLE POSITION)
+```cl
+(condition stream &key sb-kernel::simple position)
 ```

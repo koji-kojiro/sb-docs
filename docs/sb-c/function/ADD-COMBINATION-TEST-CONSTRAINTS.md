@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(USE CONSTRAINTS CONSEQUENT-CONSTRAINTS ALTERNATIVE-CONSTRAINTS QUICK-P)
+```cl
+(sb-c::use sb-c::constraints sb-c::consequent-constraints
+ sb-c::alternative-constraints sb-c::quick-p)
 ```

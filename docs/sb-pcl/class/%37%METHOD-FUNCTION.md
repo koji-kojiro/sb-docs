@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(%METHOD-FUNCTION FUNCTION T)
+```cl
+(sb-pcl::%method-function function t)
 ```

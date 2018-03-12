@@ -7,6 +7,6 @@
 > one.
 
 ### Lambda list
-```
-(SPECIFIER FUNCTION)
+```cl
+(sb-alien::specifier function)
 ```

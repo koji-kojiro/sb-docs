@@ -4,6 +4,6 @@
 > Locally-defined openlog() facility
 
 ### Value
-```
+```cl
 152
 ```

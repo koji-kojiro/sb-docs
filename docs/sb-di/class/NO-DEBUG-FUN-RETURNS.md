@@ -5,10 +5,11 @@
 > it lacked information about returning values.
 
 ### Precedence list
-```
-(NO-DEBUG-FUN-RETURNS DEBUG-CONDITION SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-di:no-debug-fun-returns sb-di:debug-condition serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(DEBUG-FUN)
+```cl
+(:debug-fun)
 ```

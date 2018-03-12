@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<SYSTEM-CLASS COMMON-LISP:SEQUENCE>
+```cl
+#<sb-pcl:system-class common-lisp:sequence>
 ```

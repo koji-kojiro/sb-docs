@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((NAME COST) LAMBDA-LIST SCS &BODY BODY)
+```cl
+((sb-c::name sb-c::cost) sb-c::lambda-list sb-c::scs &body sb-c::body)
 ```

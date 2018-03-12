@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ADDRESS PORT)
+```cl
+(sb-bsd-sockets::address sb-bsd-sockets::port)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SUB-CHAR SUB-TABLE)
+```cl
+(sb-impl::sub-char sb-impl::sub-table)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PV-OFFSET PARAMETER POSITION SLOT-NAME CLASS)
+```cl
+(sb-pcl::pv-offset sb-pcl::parameter position sb-pcl::slot-name class)
 ```

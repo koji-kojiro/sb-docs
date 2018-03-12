@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(METHOD-LAMBDA REQUIRED-PARAMETERS ENV SLOTS)
+```cl
+(sb-pcl::method-lambda sb-pcl::required-parameters sb-pcl::env
+ sb-pcl::slots)
 ```

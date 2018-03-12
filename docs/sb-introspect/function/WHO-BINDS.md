@@ -6,6 +6,6 @@
 > definition-source pairs.
 
 ### Lambda list
-```
-(SYMBOL)
+```cl
+(symbol)
 ```

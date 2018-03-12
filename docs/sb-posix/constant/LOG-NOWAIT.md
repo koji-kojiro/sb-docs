@@ -4,6 +4,6 @@
 > If supplied to openlog(), do not wait for child processes created by calls to syslog().
 
 ### Value
-```
+```cl
 16
 ```

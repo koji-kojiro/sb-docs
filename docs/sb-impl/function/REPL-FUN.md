@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NOPRINT)
+```cl
+(sb-impl::noprint)
 ```

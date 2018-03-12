@@ -11,6 +11,8 @@
 > directory.
 
 ### Lambda list
-```
-(THING &OPTIONAL HOST DEFAULTS &KEY START END JUNK-ALLOWED AS-DIRECTORY)
+```cl
+(sb-impl::thing &optional sb-kernel:host sb-impl::defaults &key
+ sb-impl::start sb-impl::end sb-impl::junk-allowed
+ sb-impl::as-directory)
 ```

@@ -29,6 +29,6 @@
 > SB-EXT:*PRINT-VECTOR-LENGTH*            NIL
 
 ### Lambda list
-```
-(&BODY BODY)
+```cl
+(&body sb-impl::body)
 ```

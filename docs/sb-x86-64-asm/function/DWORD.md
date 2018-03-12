@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DWORD)
+```cl
+(sb-x86-64-asm::dword)
 ```

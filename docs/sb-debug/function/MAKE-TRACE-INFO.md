@@ -4,10 +4,11 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (WHAT WHAT) (NAMED NAMED) (ENCAPSULATED ENCAPSULATED) (UNTRACED UNTRACED)
- (START-BREAKPOINT START-BREAKPOINT) (END-BREAKPOINT END-BREAKPOINT)
- (WHEREIN WHEREIN) (METHODS METHODS) (REPORT REPORT) (CONDITION CONDITION)
- (BREAK BREAK) (PRINT PRINT) (CONDITION-AFTER CONDITION-AFTER)
- (BREAK-AFTER BREAK-AFTER) (PRINT-AFTER PRINT-AFTER))
+```cl
+(&key (:what #:what) (:named #:named) (:encapsulated #:encapsulated)
+ (:untraced #:untraced) (:start-breakpoint #:start-breakpoint)
+ (:end-breakpoint #:end-breakpoint) (:wherein #:wherein)
+ (:methods #:methods) (:report #:report) (:condition #:condition)
+ (:break #:break) (:print #:print) (:condition-after #:condition-after)
+ (:break-after #:break-after) (:print-after #:print-after))
 ```

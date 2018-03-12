@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VAL &OPTIONAL ERRORP)
+```cl
+(sb-di::val &optional sb-di::errorp)
 ```

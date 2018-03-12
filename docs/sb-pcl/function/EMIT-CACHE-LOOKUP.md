@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CACHE-VAR LAYOUT-VARS MISS-TAG VALUE-VAR)
+```cl
+(sb-pcl::cache-var sb-pcl::layout-vars sb-pcl::miss-tag
+ sb-pcl::value-var)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SYMBOL FUN-NAME DOCSTRING)
+```cl
+(symbol sb-c::fun-name sb-c::docstring)
 ```

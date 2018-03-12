@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FILE MODE)
+```cl
+(sb-alien::file sb-alien::mode)
 ```

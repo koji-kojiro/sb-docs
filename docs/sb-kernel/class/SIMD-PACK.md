@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(SIMD-PACK T)
+```cl
+(sb-ext:simd-pack t)
 ```

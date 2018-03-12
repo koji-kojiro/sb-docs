@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME DEFSTRUCT)
+```cl
+(sb-kernel::name defstruct)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORMS PATH COMPILE-TIME-TOO)
+```cl
+(sb-c::forms sb-c::path sb-c::compile-time-too)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<PRIMITIVE-TYPE :NAME FIXNUM>
+```cl
+#<sb-c:primitive-type :name fixnum>
 ```

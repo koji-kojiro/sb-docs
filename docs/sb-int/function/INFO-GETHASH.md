@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEWVAL KEY ENV)
+```cl
+(sb-impl::newval sb-impl::key sb-impl::env)
 ```

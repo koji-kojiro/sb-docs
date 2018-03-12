@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASSOID SUBCLASSES-P)
+```cl
+(sb-kernel:classoid sb-kernel::subclasses-p)
 ```

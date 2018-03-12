@@ -5,6 +5,6 @@
 > deadlines while the condition is being handled.
 
 ### Lambda list
-```
-(DATUM &REST ARGUMENTS)
+```cl
+(sb-impl::datum &rest sb-impl::arguments)
 ```

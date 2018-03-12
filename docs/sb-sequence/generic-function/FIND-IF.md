@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PRED SEQUENCE &KEY FROM-END START END KEY)
+```cl
+(sb-impl::pred sequence &key sb-impl::from-end sb-impl::start
+ sb-impl::end sb-impl::key)
 ```

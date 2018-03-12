@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(OLD-ENV LAMBDA-LIST ARGUMENTS DECLARATIONS FUNCTION)
+```cl
+(sb-eval::old-env sb-eval::lambda-list sb-eval::arguments
+ sb-eval::declarations function)
 ```

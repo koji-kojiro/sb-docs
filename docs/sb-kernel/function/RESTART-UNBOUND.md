@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SYMBOL CONDITION CONTEXT)
+```cl
+(symbol condition sb-kernel::context)
 ```

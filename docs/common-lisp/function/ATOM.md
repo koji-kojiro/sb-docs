@@ -4,6 +4,6 @@
 > Return true if OBJECT is an ATOM, and NIL otherwise.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

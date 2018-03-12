@@ -6,6 +6,6 @@
 > <return>.
 
 ### Lambda list
-```
-(CHAR)
+```cl
+(char)
 ```

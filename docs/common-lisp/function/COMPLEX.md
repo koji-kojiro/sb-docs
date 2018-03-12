@@ -4,6 +4,6 @@
 > Return a complex number with the specified real and imaginary components.
 
 ### Lambda list
-```
-(REALPART &OPTIONAL IMAGPART)
+```cl
+(realpart &optional imagpart)
 ```

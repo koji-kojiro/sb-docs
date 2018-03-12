@@ -5,6 +5,6 @@
 > Case is ignored.
 
 ### Lambda list
-```
-(CHARACTER &REST MORE-CHARACTERS)
+```cl
+(character &rest sb-impl::more-characters)
 ```

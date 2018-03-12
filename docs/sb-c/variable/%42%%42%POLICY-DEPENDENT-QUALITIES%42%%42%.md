@@ -4,113 +4,13 @@
 > No description.
 
 ### Value
-```
-#(#S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME CHECK-CONSTANT-MODIFICATION
-     :EXPRESSION SAFETY
-     :GETTER #<FUNCTION "CHECK-CONSTANT-MODIFICATION" {220AA04B}>
-     :VALUES-DOCUMENTATION (no maybe yes yes))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME TYPE-CHECK
-     :EXPRESSION (COND ((= SAFETY 0) 0) ((AND (< SAFETY 2) (< SAFETY SPEED)) 2)
-                       (T 3))
-     :GETTER #<FUNCTION "TYPE-CHECK" {220AA0FB}>
-     :VALUES-DOCUMENTATION (no maybe weak full))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME CHECK-TAG-EXISTENCE
-     :EXPRESSION (COND ((= SAFETY 0) 0) (T 3))
-     :GETTER #<FUNCTION "CHECK-TAG-EXISTENCE" {220AA25B}>
-     :VALUES-DOCUMENTATION (no maybe yes yes))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME LET-CONVERSION
-     :EXPRESSION (IF (<= DEBUG SPEED)
-                     3
-                     0)
-     :GETTER #<FUNCTION "LET-CONVERSION" {220AA32B}>
-     :VALUES-DOCUMENTATION (off maybe on on))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME ALIEN-FUNCALL-SAVES-FP-AND-PC
-     :EXPRESSION (IF (<= SPEED DEBUG)
-                     3
-                     0)
-     :GETTER #<FUNCTION "ALIEN-FUNCALL-SAVES-FP-AND-PC" {220AA43B}>
-     :VALUES-DOCUMENTATION (no maybe yes yes))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME VERIFY-ARG-COUNT
-     :EXPRESSION (IF (ZEROP SAFETY)
-                     0
-                     3)
-     :GETTER #<FUNCTION "VERIFY-ARG-COUNT" {220AA54B}>
-     :VALUES-DOCUMENTATION (no maybe yes yes))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME INSERT-DEBUG-CATCH
-     :EXPRESSION (COND ((AND (= DEBUG 3) (> DEBUG SPEED)) 3)
-                       ((AND (> DEBUG 0) (>= DEBUG SPEED)) 1) (T 0))
-     :GETTER #<FUNCTION "INSERT-DEBUG-CATCH" {220AA61B}>
-     :VALUES-DOCUMENTATION (no maybe yes yes))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME RECOGNIZE-SELF-CALLS
-     :EXPRESSION (IF (> (MAX SPEED SPACE) DEBUG)
-                     3
-                     0)
-     :GETTER #<FUNCTION "RECOGNIZE-SELF-CALLS" {220AA7DB}>
-     :VALUES-DOCUMENTATION (no maybe yes yes))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME FLOAT-ACCURACY
-     :EXPRESSION 3
-     :GETTER #<FUNCTION "FLOAT-ACCURACY" {220AA91B}>
-     :VALUES-DOCUMENTATION (degraded full full full))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME INSERT-STEP-CONDITIONS
-     :EXPRESSION (IF (> DEBUG (MAX SPEED SPACE COMPILATION-SPEED))
-                     DEBUG
-                     0)
-     :GETTER #<FUNCTION "INSERT-STEP-CONDITIONS" {220AA9BB}>
-     :VALUES-DOCUMENTATION (no no partial full))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME COMPUTE-DEBUG-FUN
-     :EXPRESSION DEBUG
-     :GETTER #<FUNCTION "COMPUTE-DEBUG-FUN" {220AAB3B}>
-     :VALUES-DOCUMENTATION (minimal yes yes yes))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME EVAL-STORE-SOURCE-FORM
-     :EXPRESSION DEBUG
-     :GETTER #<FUNCTION "EVAL-STORE-SOURCE-FORM" {220AABEB}>
-     :VALUES-DOCUMENTATION (no yes yes yes))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME PRESERVE-SINGLE-USE-DEBUG-VARIABLES
-     :EXPRESSION (IF (AND (>= DEBUG 2) (< SPEED 3))
-                     3
-                     0)
-     :GETTER #<FUNCTION "PRESERVE-SINGLE-USE-DEBUG-VARIABLES" {220AAC9B}>
-     :VALUES-DOCUMENTATION (no no no yes))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME INSERT-ARRAY-BOUNDS-CHECKS
-     :EXPRESSION (IF (= SAFETY 0)
-                     0
-                     3)
-     :GETTER #<FUNCTION "INSERT-ARRAY-BOUNDS-CHECKS" {220AAD9B}>
-     :VALUES-DOCUMENTATION (no yes yes yes))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME STORE-XREF-DATA
-     :EXPRESSION (IF (= SPACE 3)
-                     0
-                     3)
-     :GETTER #<FUNCTION "STORE-XREF-DATA" {220AAE6B}>
-     :VALUES-DOCUMENTATION (no yes yes yes))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME STORE-COVERAGE-DATA
-     :EXPRESSION 0
-     :GETTER #<FUNCTION "STORE-COVERAGE-DATA" {220AAF3B}>
-     :VALUES-DOCUMENTATION (no no yes yes))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME STORE-CLOSURE-DEBUG-POINTER
-     :EXPRESSION 0
-     :GETTER #<FUNCTION "STORE-CLOSURE-DEBUG-POINTER" {220AAFDB}>
-     :VALUES-DOCUMENTATION (no no yes yes))
-  #S(SB-C::POLICY-DEPENDENT-QUALITY
-     :NAME ALLOW-NON-RETURNING-TAIL-CALL
-     :EXPRESSION 0
-     :GETTER #<FUNCTION "ALLOW-NON-RETURNING-TAIL-CALL" {220AB07B}>
-     :VALUES-DOCUMENTATION (no no no yes)))
+```cl
+#(#s(sb-c::policy-dependent-quality
+     :name sb-c::check-constant-modification
+     :expression safety
+     :getter #<function "check-constant-modification" {220aa04b}>
+     :values-documentation ("no" "maybe" "yes" "yes"))
+  #s(sb-c::policy-dependent-quality
+     :name sb-c::type-check
+     :expression (cond ((= safety 0) 0) ..)))
 ```

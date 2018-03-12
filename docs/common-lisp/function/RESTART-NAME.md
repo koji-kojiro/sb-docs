@@ -4,6 +4,6 @@
 > Return the name of the given restart object.
 
 ### Lambda list
-```
-(INSTANCE)
+```cl
+(sb-kernel:instance)
 ```

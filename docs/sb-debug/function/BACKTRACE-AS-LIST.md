@@ -6,6 +6,6 @@
 > Use SB-DEBUG:LIST-BACKTRACE instead.
 
 ### Lambda list
-```
-(&OPTIONAL COUNT)
+```cl
+(&optional count)
 ```

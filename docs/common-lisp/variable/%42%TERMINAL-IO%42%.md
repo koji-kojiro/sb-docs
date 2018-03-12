@@ -4,6 +4,6 @@
 > terminal I/O stream
 
 ### Value
-```
-#<SYNONYM-STREAM :SYMBOL SB-SYS:*TTY* {1000016213}>
+```cl
+#<synonym-stream :symbol sb-sys:*tty* {1000016213}>
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DD SLOT-SPECS &REST SLOT-VALUES)
+```cl
+(sb-kernel::dd sb-kernel::slot-specs &rest sb-kernel::slot-values)
 ```

@@ -4,7 +4,8 @@
 > No description.
 
 ### Value
-```
-(SB-THREAD SB-PACKAGE-LOCKS SB-UNICODE CHENEYGC GENCGC MSAN SB-SAFEPOINT
- SB-SAFEPOINT-STRICTLY SB-DYNAMIC-CORE INT4-BREAKPOINTS UD2-BREAKPOINTS)
+```cl
+(:sb-thread :sb-package-locks :sb-unicode :cheneygc :gencgc :msan
+ :sb-safepoint :sb-safepoint-strictly :sb-dynamic-core
+ :int4-breakpoints :ud2-breakpoints)
 ```

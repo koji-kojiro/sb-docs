@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SPECIFIER RESULT-TYPE ARGUMENT-TYPES FUNCTION WRAPPER &OPTIONAL CALL-TYPE)
+```cl
+(sb-alien::specifier sb-alien::result-type sb-alien::argument-types
+ function sb-alien::wrapper &optional sb-alien::call-type)
 ```

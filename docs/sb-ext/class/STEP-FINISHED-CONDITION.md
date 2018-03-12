@@ -4,10 +4,11 @@
 > Condition signaled when STEP returns.
 
 ### Precedence list
-```
-(STEP-FINISHED-CONDITION STEP-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-ext:step-finished-condition sb-ext:step-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORM)
+```cl
+(:form)
 ```

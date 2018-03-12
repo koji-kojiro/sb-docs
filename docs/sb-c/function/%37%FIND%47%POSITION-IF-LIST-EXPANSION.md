@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SENSE FROM-END START END NODE)
+```cl
+(sb-c::sense sb-c::from-end sb-c::start sb-c::end sb-c::node)
 ```

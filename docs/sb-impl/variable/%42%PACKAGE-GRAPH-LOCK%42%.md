@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "Package Graph Lock" (free)>
+```cl
+#<sb-thread:mutex "package graph lock" (free)>
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OLD-VECTOR OLD-SIZE)
+```cl
+(sb-fasl::old-vector sb-fasl::old-size)
 ```

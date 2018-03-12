@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(FORMAT-ARGS-MISMATCH REFERENCE-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:format-args-mismatch sb-int:reference-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES)
+```cl
+(:references)
 ```

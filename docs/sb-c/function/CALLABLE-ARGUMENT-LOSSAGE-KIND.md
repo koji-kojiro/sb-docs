@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN-NAME LEAF SOFT HARD)
+```cl
+(sb-c::fun-name sb-c::leaf sb-c::soft sb-c::hard)
 ```

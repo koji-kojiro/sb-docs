@@ -4,7 +4,7 @@
 > No description.
 
 ### Value
-```
-(#<STANDARD-METHOD COMMON-LISP:COMPUTE-APPLICABLE-METHODS (GENERIC-FUNCTION
-                                                           T) {100058D103}>)
+```cl
+(#<standard-method common-lisp:compute-applicable-methods (generic-function
+                                                           t) {100058d103}>)
 ```

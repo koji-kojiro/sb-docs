@@ -49,6 +49,6 @@
 > ; -> ERROR, caught, WARNING signalled
 
 ### Lambda list
-```
-(OBJECT FUNCTION &KEY DONT-SAVE)
+```cl
+(sb-impl::object function &key sb-impl::dont-save)
 ```

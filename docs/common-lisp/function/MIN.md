@@ -5,6 +5,6 @@
 > the first.
 
 ### Lambda list
-```
-(NUMBER &REST MORE-NUMBERS)
+```cl
+(number &rest sb-kernel::more-numbers)
 ```

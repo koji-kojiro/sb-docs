@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KEY &OPTIONAL DEPTHOID)
+```cl
+(sb-impl::key &optional sb-impl::depthoid)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CAR-TYPE CDR-TYPE)
+```cl
+(sb-kernel::car-type sb-kernel::cdr-type)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((TYPE STREAM &OPTIONAL EOF-ERROR-P EOF-VALUE) &BODY BODY)
+```cl
+((type stream &optional sb-impl::eof-error-p sb-impl::eof-value) &body
+ sb-impl::body)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(OP SC OFFSET IGNORE-LIVE)
+```cl
+(sb-regalloc::op sb-regalloc::sc sb-regalloc::offset
+ sb-regalloc::ignore-live)
 ```

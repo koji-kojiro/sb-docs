@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(CMOVE-VOP VALUE-IF ARG-IF VALUE-ELSE ARG-ELSE TARGET RES FLAGS INFO LABEL VOP
- NODE 2BLOCK)
+```cl
+(sb-c::cmove-vop sb-c::value-if sb-c::arg-if sb-c::value-else
+ sb-c::arg-else sb-c::target sb-c::res sb-c::flags sb-int:info
+ sb-assem:label sb-c::vop sb-c::node sb-c::2block)
 ```

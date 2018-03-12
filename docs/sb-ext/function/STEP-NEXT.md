@@ -7,6 +7,6 @@
 > not exists.
 
 ### Lambda list
-```
-(CONDITION)
+```cl
+(condition)
 ```

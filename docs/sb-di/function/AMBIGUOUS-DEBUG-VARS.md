@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DEBUG-FUN NAME-PREFIX-STRING)
+```cl
+(sb-di:debug-fun sb-di::name-prefix-string)
 ```

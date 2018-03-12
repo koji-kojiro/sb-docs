@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME PROTO-GF PROTO-METHOD QUALIFIERS LAMBDA-LIST BODY ENV)
+```cl
+(sb-pcl::name sb-pcl::proto-gf sb-pcl::proto-method sb-pcl::qualifiers
+ sb-pcl::lambda-list sb-pcl::body sb-pcl::env)
 ```

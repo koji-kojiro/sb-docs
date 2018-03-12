@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SUBLIST)
+```cl
+(sb-format::sublist)
 ```

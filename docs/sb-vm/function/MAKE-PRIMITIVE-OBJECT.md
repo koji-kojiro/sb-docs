@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (WIDETAG WIDETAG) (LOWTAG LOWTAG) (OPTIONS OPTIONS)
- (SLOTS SLOTS) (LENGTH LENGTH) (VARIABLE-LENGTH-P VARIABLE-LENGTH-P))
+```cl
+(&key (:name #:name) (:widetag #:widetag) (:lowtag #:lowtag)
+ (:options #:options) (:slots #:slots) (:length #:length)
+ (:variable-length-p #:variable-length-p))
 ```

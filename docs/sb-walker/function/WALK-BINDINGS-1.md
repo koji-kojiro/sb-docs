@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(BINDINGS OLD-ENV NEW-ENV CONTEXT)
+```cl
+(sb-walker::bindings sb-walker::old-env sb-walker::new-env
+ sb-walker::context)
 ```

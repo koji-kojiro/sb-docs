@@ -10,6 +10,6 @@
 > See also DEFGLOBAL which assigns the VALUE at compile-time too.
 
 ### Lambda list
-```
-(NAME VALUE &OPTIONAL DOC)
+```cl
+(sb-impl::name sb-impl::value &optional sb-impl::doc)
 ```

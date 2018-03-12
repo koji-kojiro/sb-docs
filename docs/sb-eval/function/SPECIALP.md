@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SYMBOL DECLARED-SPECIALS)
+```cl
+(symbol sb-eval::declared-specials)
 ```

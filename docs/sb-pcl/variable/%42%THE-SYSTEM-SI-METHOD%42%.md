@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-METHOD COMMON-LISP:SHARED-INITIALIZE (SB-PCL::SLOT-OBJECT T) {10001685F3}>
+```cl
+#<standard-method common-lisp:shared-initialize (sb-pcl::slot-object t) {10001685f3}>
 ```

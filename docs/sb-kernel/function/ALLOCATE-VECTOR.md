@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE LENGTH WORDS)
+```cl
+(type length sb-impl::words)
 ```

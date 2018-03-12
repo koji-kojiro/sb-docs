@@ -10,6 +10,6 @@
 > always return NIL.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

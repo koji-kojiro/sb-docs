@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT TYPE STREAM &OPTIONAL UNDOC NEWLINE)
+```cl
+(sb-impl::object type stream &optional sb-impl::undoc sb-impl::newline)
 ```

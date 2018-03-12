@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN WHERE)
+```cl
+(sb-c::fun sb-c::where)
 ```

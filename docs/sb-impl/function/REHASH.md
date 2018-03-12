@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(TABLE NEW-SIZE NEW-KV-VECTOR NEW-NEXT-VECTOR NEW-HASH-VECTOR NEW-INDEX-VECTOR)
+```cl
+(sb-impl::table sb-impl::new-size sb-impl::new-kv-vector
+ sb-impl::new-next-vector sb-impl::new-hash-vector
+ sb-impl::new-index-vector)
 ```

@@ -4,6 +4,6 @@
 > The function SB-THREAD::SET-MUTEX-VALUE has been deprecated as of SBCL version 1.2.15.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-impl::args)
 ```

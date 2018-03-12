@@ -4,9 +4,9 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-METHOD (COMMON-LISP:SETF SB-MOP:SLOT-VALUE-USING-CLASS) (T
-                                                                    STRUCTURE-CLASS
-                                                                    STRUCTURE-OBJECT
-                                                                    SB-PCL::STRUCTURE-EFFECTIVE-SLOT-DEFINITION) {10005A9B53}>
+```cl
+#<standard-method (common-lisp:setf sb-mop:slot-value-using-class) (t
+                                                                    structure-class
+                                                                    structure-object
+                                                                    sb-pcl::structure-effective-slot-definition) {10005a9b53}>
 ```

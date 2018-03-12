@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((LOCK &KEY WITHOUT-GCING) &BODY BODY)
+```cl
+((sb-thread::lock &key sb-sys:without-gcing) &body sb-thread::body)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "pv table index lock" (free)>
+```cl
+#<sb-thread:mutex "pv table index lock" (free)>
 ```

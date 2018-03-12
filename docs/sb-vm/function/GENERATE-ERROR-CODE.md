@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VOP ERROR-CODE &REST VALUES)
+```cl
+(sb-vm::vop sb-vm::error-code &rest values)
 ```

@@ -6,6 +6,6 @@
 > returns the values NIL and NIL.
 
 ### Lambda list
-```
-(WEAK-POINTER)
+```cl
+(sb-ext:weak-pointer)
 ```

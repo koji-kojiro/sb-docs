@@ -6,6 +6,6 @@
 > NIL.
 
 ### Lambda list
-```
-(CHAR)
+```cl
+(char)
 ```

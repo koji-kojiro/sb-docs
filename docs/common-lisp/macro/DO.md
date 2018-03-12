@@ -11,6 +11,6 @@
 > used as an alternate exit mechanism.
 
 ### Lambda list
-```
-(VARLIST ENDLIST &BODY BODY)
+```cl
+(sb-impl::varlist sb-impl::endlist &body sb-impl::body)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJ)
+```cl
+(sb-debug::obj)
 ```

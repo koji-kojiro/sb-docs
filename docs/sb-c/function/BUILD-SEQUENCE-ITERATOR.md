@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEQS SEQ-NAMES &KEY RESULT INTO BODY FAST)
+```cl
+(sb-c::seqs sb-c::seq-names &key sb-c::result sb-c::into sb-c::body
+ sb-c::fast)
 ```

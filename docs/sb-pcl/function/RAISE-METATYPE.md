@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(METATYPE NEW-SPECIALIZER)
+```cl
+(sb-pcl::metatype sb-pcl::new-specializer)
 ```

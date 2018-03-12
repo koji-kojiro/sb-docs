@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (VECTOR VECTOR) (FREE FREE) (COUNT COUNT) (MEMBERS MEMBERS))
+```cl
+(&key (:vector #:vector) (:free #:free) (:count #:count)
+ (:members #:members))
 ```

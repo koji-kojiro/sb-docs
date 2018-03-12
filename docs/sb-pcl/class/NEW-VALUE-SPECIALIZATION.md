@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(NEW-VALUE-SPECIALIZATION REFERENCE-CONDITION ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-pcl::new-value-specialization sb-int:reference-condition error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES METHOD)
+```cl
+(:references :method)
 ```

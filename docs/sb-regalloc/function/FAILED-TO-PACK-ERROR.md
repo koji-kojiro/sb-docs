@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TN RESTRICTED)
+```cl
+(sb-c:tn sb-regalloc::restricted)
 ```

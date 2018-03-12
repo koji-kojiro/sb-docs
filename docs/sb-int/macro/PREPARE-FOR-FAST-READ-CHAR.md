@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM &BODY FORMS)
+```cl
+(stream &body sb-impl::forms)
 ```

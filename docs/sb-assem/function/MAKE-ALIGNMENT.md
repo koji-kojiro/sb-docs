@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BITS SIZE PATTERN)
+```cl
+(sb-assem::bits sb-assem::size sb-assem::pattern)
 ```

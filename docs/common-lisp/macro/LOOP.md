@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&REST KEYWORDS-AND-FORMS)
+```cl
+(&rest sb-loop::keywords-and-forms)
 ```

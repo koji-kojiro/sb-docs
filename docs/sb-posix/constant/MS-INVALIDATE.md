@@ -4,6 +4,6 @@
 > msync: invalidate all cached data
 
 ### Value
-```
+```cl
 2
 ```

@@ -6,6 +6,6 @@
 > for the new values, the setting function, and the accessing function.
 
 ### Lambda list
-```
-(FORM &OPTIONAL ENVIRONMENT)
+```cl
+(sb-kernel:form &optional sb-impl::environment)
 ```

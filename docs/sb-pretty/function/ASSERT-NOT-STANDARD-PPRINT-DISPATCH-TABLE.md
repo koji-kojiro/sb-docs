@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PPRINT-DISPATCH OPERATION)
+```cl
+(pprint-dispatch sb-pretty::operation)
 ```

@@ -4,6 +4,6 @@
 > If supplied to openlog(), log to the system console as well as logfiles
 
 ### Value
-```
+```cl
 2
 ```

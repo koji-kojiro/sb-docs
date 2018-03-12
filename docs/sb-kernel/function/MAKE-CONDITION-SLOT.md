@@ -4,8 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (INITARGS INITARGS) (READERS READERS) (WRITERS WRITERS)
- (INITFORM-P INITFORM-P) (INITFORM INITFORM) (INITFUNCTION INITFUNCTION)
- (ALLOCATION ALLOCATION) (CELL CELL) (DOCUMENTATION DOCUMENTATION))
+```cl
+(&key (:name #:name) (:initargs #:initargs) (:readers #:readers)
+ (:writers #:writers) (:initform-p #:initform-p) (:initform #:initform)
+ (:initfunction #:initfunction) (:allocation #:allocation)
+ (:cell #:cell) (:documentation #:documentation))
 ```

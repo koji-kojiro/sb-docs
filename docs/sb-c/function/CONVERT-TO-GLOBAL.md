@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TN)
+```cl
+(sb-c:tn)
 ```

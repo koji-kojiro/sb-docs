@@ -4,6 +4,6 @@
 > Shifts integer left by count places preserving sign. - count shifts right.
 
 ### Lambda list
-```
-(INTEGER COUNT)
+```cl
+(integer count)
 ```

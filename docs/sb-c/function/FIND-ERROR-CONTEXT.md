@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARGS &OPTIONAL OLD-CONTEXTS)
+```cl
+(sb-c::args &optional sb-c::old-contexts)
 ```

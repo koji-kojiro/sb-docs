@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM NUMBER PRINT-COMMAS-P PRINT-SIGN-P RADIX MINCOL PADCHAR COMMACHAR
- COMMAINTERVAL)
+```cl
+(stream number sb-format::print-commas-p sb-format::print-sign-p
+ sb-format::radix sb-format::mincol sb-format::padchar
+ sb-format::commachar sb-format::commainterval)
 ```

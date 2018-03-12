@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM USEC &OPTIONAL COLONP ATP)
+```cl
+(stream sb-impl::usec &optional sb-impl::colonp sb-impl::atp)
 ```

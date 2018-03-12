@@ -4,8 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (PID PID) (%STATUS %STATUS) (%EXIT-CODE %EXIT-CODE)
- (CORE-DUMPED CORE-DUMPED) (PTY PTY) (INPUT INPUT) (OUTPUT OUTPUT)
- (ERROR ERROR) (STATUS-HOOK STATUS-HOOK) (PLIST PLIST) (COOKIE COOKIE))
+```cl
+(&key (:pid #:pid) (:%status #:%status) (:%exit-code #:%exit-code)
+ (:core-dumped #:core-dumped) (:pty #:pty) (:input #:input)
+ (:output #:output) (:error #:error) (:status-hook #:status-hook)
+ (:plist #:plist) (:cookie #:cookie))
 ```

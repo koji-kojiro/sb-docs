@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (GROUPS GROUPS) (DEBUG-VARS DEBUG-VARS))
+```cl
+(&key (:groups #:groups) (:debug-vars #:debug-vars))
 ```

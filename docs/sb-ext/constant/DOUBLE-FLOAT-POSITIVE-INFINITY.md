@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#.SB-EXT:DOUBLE-FLOAT-POSITIVE-INFINITY
+```cl
+#.sb-ext:double-float-positive-infinity
 ```

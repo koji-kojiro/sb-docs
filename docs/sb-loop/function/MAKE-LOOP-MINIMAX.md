@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ANSWER-VARIABLE TYPE)
+```cl
+(sb-loop::answer-variable type)
 ```

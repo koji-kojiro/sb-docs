@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<BUILT-IN-CLASS SB-SYS:SYSTEM-AREA-POINTER>
+```cl
+#<built-in-class sb-sys:system-area-pointer>
 ```

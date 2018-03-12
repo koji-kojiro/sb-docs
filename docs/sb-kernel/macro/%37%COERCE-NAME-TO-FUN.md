@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME &OPTIONAL LOOKUP-FN STRICTLY-FUNCTIONP)
+```cl
+(sb-impl::name &optional sb-impl::lookup-fn sb-impl::strictly-functionp)
 ```

@@ -4,6 +4,6 @@
 > Returns T if NAME is known to name a type specifier, otherwise NIL.
 
 ### Lambda list
-```
-(NAME &OPTIONAL ENV)
+```cl
+(sb-kernel::name &optional sb-kernel::env)
 ```

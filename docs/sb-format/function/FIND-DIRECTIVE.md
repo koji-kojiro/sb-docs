@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DIRECTIVES KIND STOP-AT-SEMI)
+```cl
+(sb-format::directives sb-format::kind sb-format::stop-at-semi)
 ```

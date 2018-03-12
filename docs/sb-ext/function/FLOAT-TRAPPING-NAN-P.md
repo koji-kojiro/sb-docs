@@ -4,6 +4,6 @@
 > Return true if the float X is a trapping NaN (Not a Number).
 
 ### Lambda list
-```
-(X)
+```cl
+(sb-kernel::x)
 ```

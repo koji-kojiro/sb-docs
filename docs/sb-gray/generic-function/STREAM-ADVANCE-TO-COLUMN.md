@@ -9,6 +9,6 @@
 > #SPACE character; it returns NIL if STREAM-LINE-COLUMN returns NIL.
 
 ### Lambda list
-```
-(STREAM COLUMN)
+```cl
+(stream sb-gray::column)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FLOAT &OPTIONAL POSITION RELATIVEP)
+```cl
+(float &optional position sb-impl::relativep)
 ```

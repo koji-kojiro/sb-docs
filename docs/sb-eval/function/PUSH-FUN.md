@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME VALUE CALLING-ENV BODY-ENV)
+```cl
+(sb-eval::name sb-eval::value sb-eval::calling-env sb-eval::body-env)
 ```

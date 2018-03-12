@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(COMPLEX NUMBER T)
+```cl
+(complex number t)
 ```

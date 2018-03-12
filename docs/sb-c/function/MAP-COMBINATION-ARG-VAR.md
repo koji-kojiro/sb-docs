@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION COMBINATION &KEY REOPTIMIZE)
+```cl
+(function sb-c::combination &key sb-c::reoptimize)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM FIRSTCHAR ESCAPE-FIRSTCHAR)
+```cl
+(stream sb-impl::firstchar sb-impl::escape-firstchar)
 ```

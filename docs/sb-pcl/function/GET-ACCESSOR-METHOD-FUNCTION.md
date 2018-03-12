@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GF TYPE CLASS SLOTD)
+```cl
+(sb-pcl::gf type class sb-pcl::slotd)
 ```

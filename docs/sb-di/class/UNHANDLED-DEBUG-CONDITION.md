@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(UNHANDLED-DEBUG-CONDITION DEBUG-ERROR ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-di:unhandled-debug-condition sb-di:debug-error error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(CONDITION)
+```cl
+(:condition)
 ```

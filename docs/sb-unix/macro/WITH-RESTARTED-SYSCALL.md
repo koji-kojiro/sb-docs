@@ -5,6 +5,7 @@
 > SYSCALL-FORM. Repeat evaluation of SYSCALL-FORM if it is interrupted.
 
 ### Lambda list
-```
-((&OPTIONAL VALUE ERRNO) SYSCALL-FORM &REST BODY)
+```cl
+((&optional sb-unix::value sb-unix::errno) sb-unix::syscall-form &rest
+ sb-unix::body)
 ```

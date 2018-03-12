@@ -6,6 +6,6 @@
 > currently active non-NIL restart name, then a CONTROL-ERROR is signalled.
 
 ### Lambda list
-```
-(RESTART)
+```cl
+(restart)
 ```

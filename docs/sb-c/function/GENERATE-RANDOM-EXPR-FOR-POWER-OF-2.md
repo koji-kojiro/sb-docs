@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(N-BITS STATE)
+```cl
+(sb-c::n-bits sb-c::state)
 ```

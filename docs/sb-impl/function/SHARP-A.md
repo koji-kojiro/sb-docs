@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM IGNORE RANK)
+```cl
+(stream ignore sb-impl::rank)
 ```

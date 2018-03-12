@@ -19,6 +19,8 @@
 > current thread.
 
 ### Lambda list
-```
-((MUTEX &KEY WAIT-P TIMEOUT VALUE) &BODY BODY)
+```cl
+((sb-thread:mutex &key sb-thread::wait-p sb-thread::timeout
+  sb-thread::value)
+ &body sb-thread::body)
 ```

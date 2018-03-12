@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LOCK NAME OWNER STREAM)
+```cl
+(sb-thread::lock sb-thread::name sb-thread::owner stream)
 ```

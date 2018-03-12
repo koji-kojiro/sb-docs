@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPECIAL GENERAL)
+```cl
+(special sb-disassem::general)
 ```

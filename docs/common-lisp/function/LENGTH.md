@@ -4,6 +4,6 @@
 > Return an integer that is the length of SEQUENCE.
 
 ### Lambda list
-```
-(SEQUENCE)
+```cl
+(sequence)
 ```

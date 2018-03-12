@@ -9,6 +9,6 @@
 > their own method.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

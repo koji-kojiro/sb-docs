@@ -5,6 +5,6 @@
 > START and END in order.
 
 ### Lambda list
-```
-(STRING &OPTIONAL START END)
+```cl
+(string &optional sb-impl::start sb-impl::end)
 ```

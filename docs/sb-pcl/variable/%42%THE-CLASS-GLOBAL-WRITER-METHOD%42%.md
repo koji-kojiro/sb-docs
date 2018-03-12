@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-PCL::GLOBAL-WRITER-METHOD>
+```cl
+#<standard-class sb-pcl::global-writer-method>
 ```

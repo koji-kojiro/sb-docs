@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DEBUG-FUN &OPTIONAL PRETTY)
+```cl
+(sb-di:debug-fun &optional sb-di::pretty)
 ```

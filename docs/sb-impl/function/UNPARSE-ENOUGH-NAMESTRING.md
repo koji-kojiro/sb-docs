@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATHNAME DEFAULTS)
+```cl
+(pathname sb-impl::defaults)
 ```

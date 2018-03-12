@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAMESPACE NAME SOFTWARE VERSION &OPTIONAL REPLACEMENTS STREAM)
+```cl
+(sb-impl::namespace sb-impl::name sb-impl::software sb-impl::version
+ &optional sb-impl::replacements stream)
 ```

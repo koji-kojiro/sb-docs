@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LENGTH CLASS)
+```cl
+(length class)
 ```

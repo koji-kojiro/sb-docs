@@ -4,10 +4,10 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NUMBER NUMBER) (%SOURCE-NAME %SOURCE-NAME) (TYPE TYPE)
- (DEFINED-TYPE DEFINED-TYPE) (WHERE-FROM WHERE-FROM) (REFS REFS)
- (EVER-USED EVER-USED) (EXTENT EXTENT) (INFO INFO) (SETS SETS) (KIND KIND)
- (INLINEP INLINEP) (INLINE-EXPANSION INLINE-EXPANSION)
- (FUNCTIONALS FUNCTIONALS))
+```cl
+(&key (:number #:number) (:%source-name #:%source-name) (:type #:type)
+ (:defined-type #:defined-type) (:where-from #:where-from)
+ (:refs #:refs) (:ever-used #:ever-used) (:extent #:extent)
+ (:info #:info) (:sets #:sets) (:kind #:kind) (:inlinep #:inlinep)
+ (:inline-expansion #:inline-expansion) (:functionals #:functionals))
 ```

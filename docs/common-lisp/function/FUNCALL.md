@@ -4,6 +4,6 @@
 > Call FUNCTION with the given ARGUMENTS.
 
 ### Lambda list
-```
-(FUNCTION &REST ARGUMENTS)
+```cl
+(function &rest sb-impl::arguments)
 ```

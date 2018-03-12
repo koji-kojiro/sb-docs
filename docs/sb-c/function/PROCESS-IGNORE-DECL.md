@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPEC VARS FVARS LEXENV)
+```cl
+(sb-c::spec sb-c::vars sb-c::fvars sb-kernel:lexenv)
 ```

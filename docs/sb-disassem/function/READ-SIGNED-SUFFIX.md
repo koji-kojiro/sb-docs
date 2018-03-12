@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LENGTH DSTATE)
+```cl
+(length sb-disassem::dstate)
 ```

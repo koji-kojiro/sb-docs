@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEXPRS ENVIRONMENT NAME-HINTS)
+```cl
+(sb-impl::sexprs sb-impl::environment sb-impl::name-hints)
 ```

@@ -4,6 +4,6 @@
 > Converts FILENAME-DESIGNATOR into a FILENAME.
 
 ### Lambda list
-```
-(FILENAME)
+```cl
+(sb-posix:filename)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X Y FIRST SECOND INVERSE)
+```cl
+(sb-c::x sb-c::y first second sb-c::inverse)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJ SAETP)
+```cl
+(sb-vm::obj sb-vm::saetp)
 ```

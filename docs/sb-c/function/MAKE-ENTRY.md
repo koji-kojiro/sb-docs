@@ -4,8 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NUMBER NUMBER) (REOPTIMIZE REOPTIMIZE) (NEXT NEXT) (PREV PREV)
- (LEXENV LEXENV) (SOURCE-PATH SOURCE-PATH) (TAIL-P TAIL-P) (EXITS EXITS)
- (CLEANUP CLEANUP))
+```cl
+(&key (:number #:number) (:reoptimize #:reoptimize) (:next #:next)
+ (:prev #:prev) (:lexenv #:lexenv) (:source-path #:source-path)
+ (:tail-p #:tail-p) (:exits #:exits) (:cleanup #:cleanup))
 ```

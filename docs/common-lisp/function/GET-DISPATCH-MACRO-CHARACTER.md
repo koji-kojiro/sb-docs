@@ -5,6 +5,6 @@
 > or NIL if there is no associated function.
 
 ### Lambda list
-```
-(DISP-CHAR SUB-CHAR &OPTIONAL RT-DESIGNATOR)
+```cl
+(sb-impl::disp-char sb-impl::sub-char &optional sb-impl::rt-designator)
 ```

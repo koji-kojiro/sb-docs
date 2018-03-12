@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SUBFORMS DOTTED-P VECTORP)
+```cl
+(sb-impl::subforms sb-impl::dotted-p vectorp)
 ```

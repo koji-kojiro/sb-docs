@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM &REST IGNORE)
+```cl
+(stream &rest ignore)
 ```

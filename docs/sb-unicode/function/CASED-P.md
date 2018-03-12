@@ -4,6 +4,6 @@
 > Returns T if CHARACTER has a (Unicode) case, and NIL otherwise
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

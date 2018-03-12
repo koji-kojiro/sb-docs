@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME NEW SOURCE-LOCATION)
+```cl
+(sb-alien::name sb-alien::new sb-alien::source-location)
 ```

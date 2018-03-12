@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONTEXT CODE)
+```cl
+(sb-di::context sb-di::code)
 ```

@@ -5,6 +5,6 @@
 > thread, NIL otherwise.
 
 ### Lambda list
-```
-(OBJ)
+```cl
+(sb-debug::obj)
 ```

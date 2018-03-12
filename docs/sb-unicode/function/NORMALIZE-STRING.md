@@ -7,6 +7,6 @@
 > only characters for which it returns T are collected.
 
 ### Lambda list
-```
-(STRING &OPTIONAL FORM FILTER)
+```cl
+(string &optional sb-unicode::form sb-unicode::filter)
 ```

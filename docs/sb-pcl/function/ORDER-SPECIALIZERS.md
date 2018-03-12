@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SPECL1 SPECL2 INDEX COMPARE-CLASSES-FUNCTION)
+```cl
+(sb-pcl::specl1 sb-pcl::specl2 sb-int:index
+ sb-pcl::compare-classes-function)
 ```

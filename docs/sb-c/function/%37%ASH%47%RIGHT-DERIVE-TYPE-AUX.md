@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(N-TYPE SHIFT SAME-ARG)
+```cl
+(sb-c::n-type sb-c::shift sb-c::same-arg)
 ```

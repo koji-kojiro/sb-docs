@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EQL-SPECIALIZER)
+```cl
+(sb-mop:eql-specializer)
 ```

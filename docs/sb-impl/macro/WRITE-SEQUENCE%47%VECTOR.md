@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((SEQ TYPE) STREAM START END WRITE-FUNCTION)
+```cl
+((sb-impl::seq type) stream sb-impl::start sb-impl::end
+ sb-impl::write-function)
 ```

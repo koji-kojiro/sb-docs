@@ -4,6 +4,6 @@
 > Test whether the current thread is holding MUTEX.
 
 ### Lambda list
-```
-(MUTEX)
+```cl
+(sb-thread:mutex)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD BUF LEN)
+```cl
+(sb-unix:fd sb-unix::buf sb-unix::len)
 ```

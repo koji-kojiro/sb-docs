@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KIND NAME FIELDS ENV)
+```cl
+(sb-alien::kind sb-alien::name sb-alien::fields sb-alien::env)
 ```

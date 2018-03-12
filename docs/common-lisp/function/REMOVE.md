@@ -5,6 +5,8 @@
 > EQL) with ITEM removed.
 
 ### Lambda list
-```
-(ITEM SEQUENCE &REST ARGS &KEY FROM-END TEST TEST-NOT START END COUNT KEY)
+```cl
+(sb-impl::item sequence &rest sb-impl::args &key sb-impl::from-end
+ sb-impl::test sb-impl::test-not sb-impl::start sb-impl::end count
+ sb-impl::key)
 ```

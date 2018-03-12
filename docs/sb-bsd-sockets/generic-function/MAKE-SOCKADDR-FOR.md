@@ -5,6 +5,7 @@
 > When SOCKADDR is passed, it is used instead of a new object.
 
 ### Lambda list
-```
-(SOCKET &OPTIONAL SOCKADDR &REST ADDRESS)
+```cl
+(sb-bsd-sockets:socket &optional sb-bsd-sockets::sockaddr &rest
+ sb-bsd-sockets::address)
 ```

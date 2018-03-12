@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LOOP-TOKEN TABLE)
+```cl
+(sb-loop::loop-token sb-loop::table)
 ```

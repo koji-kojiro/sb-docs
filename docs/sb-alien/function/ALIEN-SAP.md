@@ -4,6 +4,6 @@
 > Return a System-Area-Pointer pointing to Alien's data.
 
 ### Lambda list
-```
-(ALIEN)
+```cl
+(sb-alien:alien)
 ```

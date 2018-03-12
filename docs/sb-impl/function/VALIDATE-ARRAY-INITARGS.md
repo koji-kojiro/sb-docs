@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ELEMENT-P ELEMENT CONTENTS-P CONTENTS DISPLACED)
+```cl
+(sb-impl::element-p sb-impl::element sb-impl::contents-p
+ sb-impl::contents sb-impl::displaced)
 ```

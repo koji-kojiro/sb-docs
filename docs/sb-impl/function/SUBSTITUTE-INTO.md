@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATTERN SUBS DIDDLE-CASE)
+```cl
+(sb-impl::pattern sb-impl::subs sb-impl::diddle-case)
 ```

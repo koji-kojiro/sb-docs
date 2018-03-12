@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE BLOCK ENV)
+```cl
+(sb-c::node block sb-c::env)
 ```

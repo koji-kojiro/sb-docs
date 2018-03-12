@@ -4,6 +4,6 @@
 > Predicate returns T if bit index of integer is a 1.
 
 ### Lambda list
-```
-(INDEX INTEGER)
+```cl
+(sb-int:index integer)
 ```

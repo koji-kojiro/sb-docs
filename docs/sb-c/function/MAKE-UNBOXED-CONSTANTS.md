@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (TABLE TABLE) (SEGMENT SEGMENT) (VECTOR VECTOR))
+```cl
+(&key (:table #:table) (:segment #:segment) (:vector #:vector))
 ```

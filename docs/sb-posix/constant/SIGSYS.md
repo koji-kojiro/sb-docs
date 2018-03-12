@@ -4,6 +4,6 @@
 > non-existent system call invoked.
 
 ### Value
-```
+```cl
 31
 ```

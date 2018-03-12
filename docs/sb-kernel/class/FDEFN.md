@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(FDEFN T)
+```cl
+(sb-kernel:fdefn t)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WORD OLD TO-SEC TO-USEC)
+```cl
+(sb-thread::word sb-thread::old sb-thread::to-sec sb-thread::to-usec)
 ```

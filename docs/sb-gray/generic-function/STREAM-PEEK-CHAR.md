@@ -6,6 +6,6 @@
 > STREAM-READ-CHAR and STREAM-UNREAD-CHAR.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM LOC)
+```cl
+(sb-kernel:form sb-di::loc)
 ```

@@ -11,6 +11,6 @@
 > the external alien given by EXTERNAL-NAME.
 
 ### Lambda list
-```
-(BINDINGS &BODY BODY)
+```cl
+(sb-alien::bindings &body sb-alien::body)
 ```

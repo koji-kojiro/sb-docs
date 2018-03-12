@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALL IR1-CONVERTING-NOT-OPTIMIZING-P)
+```cl
+(sb-c:call sb-c::ir1-converting-not-optimizing-p)
 ```

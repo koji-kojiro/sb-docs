@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(INVALID-VALUE DEBUG-CONDITION SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-di:invalid-value sb-di:debug-condition serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(DEBUG-VAR FRAME)
+```cl
+(:debug-var :frame)
 ```

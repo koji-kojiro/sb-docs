@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SRC MASK)
+```cl
+(sb-x86-64-asm::src sb-x86-64-asm::mask)
 ```

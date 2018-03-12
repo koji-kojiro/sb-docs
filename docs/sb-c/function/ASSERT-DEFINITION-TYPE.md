@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTIONAL TYPE &KEY REALLY-ASSERT (LOSSAGE-FUN *LOSSAGE-FUN*) UNWINNAGE-FUN
- WHERE)
+```cl
+(sb-c::functional type &key sb-c::really-assert
+ (:lossage-fun sb-c::*lossage-fun*) sb-c::unwinnage-fun sb-c::where)
 ```

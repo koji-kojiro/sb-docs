@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PKG FILE)
+```cl
+(sb-fasl::pkg sb-fasl::file)
 ```

@@ -7,6 +7,6 @@
 > Returns NIL.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-impl::args)
 ```

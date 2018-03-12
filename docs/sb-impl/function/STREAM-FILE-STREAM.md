@@ -6,6 +6,6 @@
 > Return NIL or the underlying FILE-STREAM.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

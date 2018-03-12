@@ -4,11 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NUMBER NUMBER) (KIND KIND) (PRIMITIVE-TYPE PRIMITIVE-TYPE) (LEAF LEAF)
- (NEXT NEXT) (READS READS) (WRITES WRITES) (NEXT* NEXT*) (LOCAL LOCAL)
- (LOCAL-NUMBER LOCAL-NUMBER) (LOCAL-CONFLICTS LOCAL-CONFLICTS)
- (GLOBAL-CONFLICTS GLOBAL-CONFLICTS) (CURRENT-CONFLICT CURRENT-CONFLICT)
- (SAVE-TN SAVE-TN) (SC SC) (OFFSET OFFSET) (COST COST) (PHYSENV PHYSENV)
- (LOOP-DEPTH LOOP-DEPTH))
+```cl
+(&key (:number #:number) (:kind #:kind)
+ (:primitive-type #:primitive-type) (:leaf #:leaf) (:next #:next)
+ (:reads #:reads) (:writes #:writes) (:next* #:next*) (:local #:local)
+ (:local-number #:local-number) (:local-conflicts #:local-conflicts)
+ (:global-conflicts #:global-conflicts)
+ (:current-conflict #:current-conflict) (:save-tn #:save-tn) (:sc #:sc)
+ (:offset #:offset) (:cost #:cost) (:physenv #:physenv)
+ (:loop-depth #:loop-depth))
 ```

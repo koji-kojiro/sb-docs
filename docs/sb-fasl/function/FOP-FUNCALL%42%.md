@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INPUT-STREAM STACK SKIPPING)
+```cl
+(sb-fasl::input-stream sb-fasl::stack sb-fasl::skipping)
 ```

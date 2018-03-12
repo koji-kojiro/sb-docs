@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PROMISE)
+```cl
+(sb-impl::promise)
 ```

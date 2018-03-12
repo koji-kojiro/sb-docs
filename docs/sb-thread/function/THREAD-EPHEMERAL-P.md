@@ -7,6 +7,6 @@
 > an error in that case.
 
 ### Lambda list
-```
-(THREAD)
+```cl
+(sb-thread:thread)
 ```

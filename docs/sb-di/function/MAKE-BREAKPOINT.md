@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(HOOK-FUN WHAT &KEY KIND INFO FUN-END-COOKIE)
+```cl
+(sb-di::hook-fun sb-di::what &key sb-di::kind sb-int:info
+ sb-di::fun-end-cookie)
 ```

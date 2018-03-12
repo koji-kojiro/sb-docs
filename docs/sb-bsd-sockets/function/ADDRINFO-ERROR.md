@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WHERE ERROR-CODE)
+```cl
+(sb-bsd-sockets::where sb-bsd-sockets::error-code)
 ```

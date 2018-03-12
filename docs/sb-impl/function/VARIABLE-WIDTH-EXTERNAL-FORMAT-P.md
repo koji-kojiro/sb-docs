@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EF-ENTRY)
+```cl
+(sb-impl::ef-entry)
 ```

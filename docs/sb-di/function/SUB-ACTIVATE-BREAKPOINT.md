@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BREAKPOINT DATA)
+```cl
+(sb-di:breakpoint sb-di::data)
 ```

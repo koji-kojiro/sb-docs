@@ -4,7 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(NAME PARENT-TYPES LAYOUT SLOTS DIRECT-DEFAULT-INITARGS ALL-READERS ALL-WRITERS
- SOURCE-LOCATION &OPTIONAL DOCUMENTATION)
+```cl
+(sb-kernel::name sb-kernel::parent-types sb-kernel:layout
+ sb-kernel::slots sb-kernel::direct-default-initargs
+ sb-kernel::all-readers sb-kernel::all-writers
+ sb-kernel::source-location &optional documentation)
 ```

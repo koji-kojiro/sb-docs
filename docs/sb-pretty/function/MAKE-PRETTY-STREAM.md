@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TARGET)
+```cl
+(sb-pretty::target)
 ```

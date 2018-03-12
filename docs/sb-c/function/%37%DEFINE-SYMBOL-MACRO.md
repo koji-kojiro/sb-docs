@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME EXPANSION SOURCE-LOCATION)
+```cl
+(sb-impl::name sb-impl::expansion sb-impl::source-location)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SIZE SYMBOL)
+```cl
+(sb-impl::size symbol)
 ```

@@ -6,6 +6,6 @@
 > pairs as separate arguments.
 
 ### Lambda list
-```
-(N)
+```cl
+(sb-debug::n)
 ```

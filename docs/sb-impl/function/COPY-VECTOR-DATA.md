@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FROM TO START END N-BITS-SHIFT)
+```cl
+(sb-impl::from sb-impl::to sb-impl::start sb-impl::end
+ sb-impl::n-bits-shift)
 ```

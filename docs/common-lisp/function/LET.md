@@ -8,6 +8,6 @@
 > have been evaluated.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

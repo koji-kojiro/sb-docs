@@ -6,6 +6,6 @@
 > is not a valid package designator.
 
 ### Lambda list
-```
-(PACKAGES-TO-REMOVE &OPTIONAL PACKAGE)
+```cl
+(sb-impl::packages-to-remove &optional package)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CODE &OPTIONAL START-OFFSET LENGTH)
+```cl
+(sb-disassem::code &optional sb-disassem::start-offset length)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PARSED-LAMBDA-LIST INPUT MACRO-CONTEXT MEMO-TABLE)
+```cl
+(sb-c::parsed-lambda-list sb-c::input sb-c::macro-context
+ sb-c::memo-table)
 ```

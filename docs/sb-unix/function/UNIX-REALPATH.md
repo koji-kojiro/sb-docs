@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATH)
+```cl
+(sb-unix::path)
 ```

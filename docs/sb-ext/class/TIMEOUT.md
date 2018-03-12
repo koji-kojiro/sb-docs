@@ -4,10 +4,10 @@
 > Signaled when an operation does not complete within an allotted time budget.
 
 ### Precedence list
-```
-(TIMEOUT SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-ext:timeout serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(SECONDS)
+```cl
+(:seconds)
 ```

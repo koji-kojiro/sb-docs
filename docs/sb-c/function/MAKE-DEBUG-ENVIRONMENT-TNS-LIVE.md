@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK LIVE-BITS LIVE-LIST)
+```cl
+(block sb-c::live-bits sb-c::live-list)
 ```

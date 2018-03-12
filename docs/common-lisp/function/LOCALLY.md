@@ -8,6 +8,6 @@
 > also processed as top level forms.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

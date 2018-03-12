@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TARGET VAL &OPTIONAL TMP-TN ZEROED)
+```cl
+(sb-vm::target sb-vm::val &optional sb-vm::tmp-tn sb-vm::zeroed)
 ```

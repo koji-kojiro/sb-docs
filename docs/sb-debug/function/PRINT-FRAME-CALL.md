@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FRAME STREAM &KEY PRINT-FRAME-SOURCE NUMBER METHOD-FRAME-STYLE
- EMERGENCY-BEST-EFFORT)
+```cl
+(sb-debug::frame stream &key sb-debug::print-frame-source number
+ sb-debug::method-frame-style sb-debug::emergency-best-effort)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM COLUMN)
+```cl
+(stream sb-pretty::column)
 ```

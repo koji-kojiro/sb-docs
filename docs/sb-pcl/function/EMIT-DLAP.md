@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CACHE-VAR ARGS METATYPES HIT-FORM MISS-FORM VALUE-VAR &OPTIONAL SLOT-VARS)
+```cl
+(sb-pcl::cache-var sb-pcl::args sb-pcl::metatypes sb-pcl::hit-form
+ sb-pcl::miss-form sb-pcl::value-var &optional sb-pcl::slot-vars)
 ```

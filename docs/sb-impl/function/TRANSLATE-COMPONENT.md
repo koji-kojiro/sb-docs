@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SOURCE FROM TO DIDDLE-CASE)
+```cl
+(sb-impl::source sb-impl::from sb-impl::to sb-impl::diddle-case)
 ```

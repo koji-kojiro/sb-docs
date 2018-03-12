@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-((MOVE . SC-MOVE-VOPS) (MOVE-ARG . SC-MOVE-ARG-VOPS))
+```cl
+((:move . sb-c::sc-move-vops) (:move-arg . sb-c::sc-move-arg-vops))
 ```

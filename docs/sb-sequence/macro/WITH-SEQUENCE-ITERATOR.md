@@ -7,7 +7,10 @@
 > value returned by MAKE-SEQUENCE-ITERATOR is ignored.
 
 ### Lambda list
-```
-((&OPTIONAL ITERATOR LIMIT FROM-END-P STEP ENDP ELEMENT SET-ELEMENT INDEX COPY)
- (SEQUENCE &KEY FROM-END START END) &BODY BODY)
+```cl
+((&optional sb-impl::iterator sb-impl::limit sb-impl::from-end-p step
+  endp sb-impl::element sb-impl::set-element sb-int:index
+  sb-impl::copy)
+ (sequence &key sb-impl::from-end sb-impl::start sb-impl::end) &body
+ sb-impl::body)
 ```

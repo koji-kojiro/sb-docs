@@ -4,6 +4,6 @@
 > floating-point exception.
 
 ### Value
-```
+```cl
 8
 ```

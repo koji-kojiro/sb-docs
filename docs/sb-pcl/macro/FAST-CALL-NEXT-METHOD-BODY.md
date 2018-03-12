@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((ARGS NEXT-METHOD-CALL REST-ARG) METHOD-CELL CNM-ARGS)
+```cl
+((sb-pcl::args sb-pcl::next-method-call sb-pcl::rest-arg)
+ sb-pcl::method-cell sb-pcl::cnm-args)
 ```

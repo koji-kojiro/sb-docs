@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TIMER)
+```cl
+(sb-ext:timer)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((TYPE SAFE-P) &BODY BODY)
+```cl
+((type sb-pcl::safe-p) &body sb-pcl::body)
 ```

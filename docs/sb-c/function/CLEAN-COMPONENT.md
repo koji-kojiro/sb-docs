@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COMPONENT &OPTIONAL BLOCK)
+```cl
+(sb-c:component &optional block)
 ```

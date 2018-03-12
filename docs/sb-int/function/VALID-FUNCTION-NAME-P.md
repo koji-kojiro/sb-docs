@@ -6,6 +6,6 @@
 > use as a BLOCK name in the function in question.
 
 ### Lambda list
-```
-(NAME)
+```cl
+(sb-impl::name)
 ```

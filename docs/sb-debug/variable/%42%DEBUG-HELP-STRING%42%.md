@@ -4,68 +4,68 @@
 > No description.
 
 ### Value
-```
-The debug prompt is square brackets, with number(s) indicating the current
+```cl
+"the debug prompt is square brackets, with number(s) indicating the current
   control stack level and, if you've entered the debugger recursively, how
   deeply recursed you are.
-Any command -- including the name of a restart -- may be uniquely abbreviated.
-The debugger rebinds various special variables for controlling i/o, sometimes
-  to defaults (much like WITH-STANDARD-IO-SYNTAX does) and sometimes to
-  its own special values, based on SB-EXT:*DEBUG-PRINT-VARIABLE-ALIST*.
-Debug commands do not affect *, //, and similar variables, but evaluation in
+any command -- including the name of a restart -- may be uniquely abbreviated.
+the debugger rebinds various special variables for controlling i/o, sometimes
+  to defaults (much like with-standard-io-syntax does) and sometimes to
+  its own special values, based on sb-ext:*debug-print-variable-alist*.
+debug commands do not affect *, //, and similar variables, but evaluation in
   the debug loop does affect these variables.
-SB-DEBUG:*FLUSH-DEBUG-ERRORS* controls whether errors at the debug prompt
-  drop you deeper into the debugger. The default NIL allows recursive entry
+sb-debug:*flush-debug-errors* controls whether errors at the debug prompt
+  drop you deeper into the debugger. the default nil allows recursive entry
   to debugger.
 
-Getting in and out of the debugger:
-  TOPLEVEL, TOP  exits debugger and returns to top level REPL
-  RESTART        invokes restart numbered as shown (prompt if not given).
-  ERROR          prints the error condition and restart cases.
+getting in and out of the debugger:
+  toplevel, top  exits debugger and returns to top level repl
+  restart        invokes restart numbered as shown (prompt if not given).
+  error          prints the error condition and restart cases.
 
-  The number of any restart, or its name, or a unique abbreviation for its
-   name, is a valid command, and is the same as using RESTART to invoke
+  the number of any restart, or its name, or a unique abbreviation for its
+   name, is a valid command, and is the same as using restart to invoke
    that restart.
 
-Changing frames:
-  UP     up frame         DOWN     down frame
-  BOTTOM bottom frame     FRAME n  frame n (n=0 for top frame)
+changing frames:
+  up     up frame         down     down frame
+  bottom bottom frame     frame n  frame n (n=0 for top frame)
 
-Inspecting frames:
-  BACKTRACE [n]  shows n frames going down the stack.
-  LIST-LOCALS, L lists locals in current frame.
-  PRINT, P       displays function call for current frame.
-  SOURCE [n]     displays frame's source form with n levels of enclosing forms.
+inspecting frames:
+  backtrace [n]  shows n frames going down the stack.
+  list-locals, l lists locals in current frame.
+  print, p       displays function call for current frame.
+  source [n]     displays frame's source form with n levels of enclosing forms.
 
-Stepping:
-  START Selects the CONTINUE restart if one exists and starts
-        single-stepping. Single stepping affects only code compiled with
-        under high DEBUG optimization quality. See User Manual for details.
-  STEP  Steps into the current form.
-  NEXT  Steps over the current form.
-  OUT   Stops stepping temporarily, but resumes it when the topmost frame that
+stepping:
+  start selects the continue restart if one exists and starts
+        single-stepping. single stepping affects only code compiled with
+        under high debug optimization quality. see user manual for details.
+  step  steps into the current form.
+  next  steps over the current form.
+  out   stops stepping temporarily, but resumes it when the topmost frame that
         was stepped into returns.
-  STOP  Stops single-stepping.
+  stop  stops single-stepping.
 
-Function and macro commands:
- (SB-DEBUG:ARG n)
-    Return the n'th argument in the current frame.
- (SB-DEBUG:VAR string-or-symbol [id])
-    Returns the value of the specified variable in the current frame.
+function and macro commands:
+ (sb-debug:arg n)
+    return the n'th argument in the current frame.
+ (sb-debug:var string-or-symbol [id])
+    returns the value of the specified variable in the current frame.
 
-Other commands:
-  RETURN expr
-    Return the values resulting from evaluation of expr from the
+other commands:
+  return expr
+    return the values resulting from evaluation of expr from the
     current frame, if this frame was compiled with a sufficiently high
-    DEBUG optimization quality.
+    debug optimization quality.
 
-  RESTART-FRAME
-    Restart execution of the current frame, if this frame is for a
+  restart-frame
+    restart execution of the current frame, if this frame is for a
     global function which was compiled with a sufficiently high
-    DEBUG optimization quality.
+    debug optimization quality.
 
-  SLURP
-    Discard all pending input on *STANDARD-INPUT*. (This can be
+  slurp
+    discard all pending input on *standard-input*. (this can be
     useful when the debugger was invoked to handle an error in
-    deeply nested input syntax, and now the reader is confused.)
+    deeply nested input syntax, and now the reader is confused.)"
 ```

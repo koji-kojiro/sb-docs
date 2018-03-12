@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-BOGUS:
+```cl
+#p"bogus:"
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM POSITION-SPEC)
+```cl
+(stream sb-impl::position-spec)
 ```

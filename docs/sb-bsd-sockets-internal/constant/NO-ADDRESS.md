@@ -4,6 +4,6 @@
 > No address, look for MX record.
 
 ### Value
-```
+```cl
 4
 ```

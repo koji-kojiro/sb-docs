@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONDITION STREAM)
+```cl
+(condition stream)
 ```

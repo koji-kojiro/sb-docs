@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OP VOP &REST ARGS)
+```cl
+(sb-vm::op sb-vm::vop &rest sb-vm::args)
 ```

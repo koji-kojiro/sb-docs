@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STACK N)
+```cl
+(sb-fasl::stack sb-fasl::n)
 ```

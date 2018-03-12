@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONSTRAINT CONSET)
+```cl
+(sb-c::constraint sb-c::conset)
 ```

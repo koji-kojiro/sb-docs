@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BINDINGS CONTEXT)
+```cl
+(sb-c::bindings sb-c::context)
 ```

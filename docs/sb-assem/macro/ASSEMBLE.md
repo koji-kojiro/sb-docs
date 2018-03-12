@@ -4,6 +4,7 @@
 > Execute BODY (as a progn) with SEGMENT as the current segment.
 
 ### Lambda list
-```
-((&OPTIONAL SEGMENT VOP &KEY LABELS) &BODY BODY)
+```cl
+((&optional sb-assem:segment sb-assem::vop &key labels) &body
+ sb-assem::body)
 ```

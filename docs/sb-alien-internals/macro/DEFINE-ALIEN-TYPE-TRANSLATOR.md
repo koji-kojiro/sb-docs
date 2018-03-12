@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME LAMBDA-LIST &BODY BODY)
+```cl
+(sb-alien::name sb-alien::lambda-list &body sb-alien::body)
 ```

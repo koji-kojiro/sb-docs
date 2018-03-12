@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SOURCE-INFO WON)
+```cl
+(sb-c::source-info sb-c::won)
 ```

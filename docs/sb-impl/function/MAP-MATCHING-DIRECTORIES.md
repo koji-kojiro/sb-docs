@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-#'PATHSPEC
+```cl
+#'sb-impl::pathspec
 ```

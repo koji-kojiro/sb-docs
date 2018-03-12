@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VARIABLE CONDITION)
+```cl
+(variable condition)
 ```

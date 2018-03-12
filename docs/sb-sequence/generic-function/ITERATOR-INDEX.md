@@ -4,6 +4,6 @@
 > Returns the position of ITERATOR in SEQUENCE.
 
 ### Lambda list
-```
-(SEQUENCE ITERATOR)
+```cl
+(sequence sb-impl::iterator)
 ```

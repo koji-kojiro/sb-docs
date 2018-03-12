@@ -4,7 +4,8 @@
 > No description.
 
 ### Value
-```
-((TCP 6 tcp TCP) (UDP 17 udp UDP) (IP 0 ip IP) (IPV6 41 ipv6 IPV6)
- (ICMP 1 icmp ICMP) (IGMP 2 igmp IGMP) (RAW 255 raw RAW))
+```cl
+((:tcp 6 "tcp" "tcp") (:udp 17 "udp" "udp") (:ip 0 "ip" "ip")
+ (:ipv6 41 "ipv6" "ipv6") (:icmp 1 "icmp" "icmp")
+ (:igmp 2 "igmp" "igmp") (:raw 255 "raw" "raw"))
 ```

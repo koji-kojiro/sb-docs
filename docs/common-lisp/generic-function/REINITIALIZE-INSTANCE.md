@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(INSTANCE &REST INITARGS &KEY DIRECT-SUPERCLASSES LAMBDA-LIST
- ARGUMENT-PRECEDENCE-ORDER &ALLOW-OTHER-KEYS)
+```cl
+(sb-kernel:instance &rest sb-pcl::initargs &key
+ sb-pcl::direct-superclasses sb-pcl::lambda-list
+ sb-pcl::argument-precedence-order &allow-other-keys)
 ```

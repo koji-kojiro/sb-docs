@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GF &OPTIONAL BOOLEAN-VALUES-P)
+```cl
+(sb-pcl::gf &optional sb-pcl::boolean-values-p)
 ```

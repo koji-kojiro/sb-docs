@@ -7,6 +7,6 @@
 > numbers this is PI.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

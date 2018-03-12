@@ -5,6 +5,6 @@
 > that digit stands, else returns NIL.
 
 ### Lambda list
-```
-(CHAR &OPTIONAL RADIX)
+```cl
+(char &optional sb-impl::radix)
 ```

@@ -4,7 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY %FLAGS CLOS-HASH CLASSOID INVALID INHERITS DEPTHOID LENGTH INFO BITMAP
- EQUALP-TESTS SOURCE-LOCATION SLOT-LIST SLOT-TABLE)
+```cl
+(&key sb-kernel::%flags sb-kernel::clos-hash sb-kernel:classoid
+ sb-kernel::invalid sb-kernel::inherits sb-kernel::depthoid length
+ sb-int:info sb-kernel::bitmap sb-kernel::equalp-tests
+ sb-kernel::source-location sb-kernel::slot-list sb-kernel::slot-table)
 ```

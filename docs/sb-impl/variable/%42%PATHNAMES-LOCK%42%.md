@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "Pathnames" (free)>
+```cl
+#<sb-thread:mutex "pathnames" (free)>
 ```

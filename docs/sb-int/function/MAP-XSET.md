@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-#'XSET
+```cl
+#'sb-int:xset
 ```

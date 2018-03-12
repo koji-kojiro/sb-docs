@@ -4,6 +4,6 @@
 > Return T iff OBJECT is an alien of type TYPE.
 
 ### Lambda list
-```
-(OBJECT TYPE)
+```cl
+(sb-alien::object type)
 ```

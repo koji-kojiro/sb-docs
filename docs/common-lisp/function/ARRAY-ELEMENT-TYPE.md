@@ -4,6 +4,6 @@
 > Return the type of the elements of the array
 
 ### Lambda list
-```
-(ARRAY)
+```cl
+(array)
 ```

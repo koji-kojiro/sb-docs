@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RESTR TYPE &KEY LVAR TN T-OK)
+```cl
+(sb-c::restr type &key sb-c::lvar sb-c:tn sb-c::t-ok)
 ```

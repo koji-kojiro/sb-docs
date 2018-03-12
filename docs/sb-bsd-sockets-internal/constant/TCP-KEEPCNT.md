@@ -4,6 +4,6 @@
 > Number of unacknowledged probes before the connection is considered dead.
 
 ### Value
-```
+```cl
 6
 ```

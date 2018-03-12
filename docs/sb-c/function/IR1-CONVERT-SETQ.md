@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&WHOLE SOURCE &REST THINGS)
+```cl
+(&whole sb-c::source &rest sb-c::things)
 ```

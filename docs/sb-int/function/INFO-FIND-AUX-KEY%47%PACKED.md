@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR SYMBOL)
+```cl
+(vector symbol)
 ```

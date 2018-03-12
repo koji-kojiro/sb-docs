@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TABLE-ADDRESS REAL-ADDRESS)
+```cl
+(sb-impl::table-address sb-impl::real-address)
 ```

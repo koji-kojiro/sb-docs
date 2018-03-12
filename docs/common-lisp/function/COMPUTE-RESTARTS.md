@@ -6,6 +6,6 @@
 > restarts associated with CONDITION (or with no condition) will be returned.
 
 ### Lambda list
-```
-(&OPTIONAL CONDITION)
+```cl
+(&optional condition)
 ```

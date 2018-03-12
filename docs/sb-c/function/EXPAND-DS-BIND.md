@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(LAMBDA-LIST DATA EMIT-PRE-TEST EXPLICIT-CAST &OPTIONAL MACRO-CONTEXT
- DEFAULT-DEFAULT)
+```cl
+(sb-c::lambda-list sb-c::data sb-c::emit-pre-test sb-c::explicit-cast
+ &optional sb-c::macro-context sb-c::default-default)
 ```

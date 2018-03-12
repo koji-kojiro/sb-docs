@@ -4,9 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (ENCLOSING-SOURCE ENCLOSING-SOURCE) (SOURCE SOURCE)
- (ORIGINAL-SOURCE ORIGINAL-SOURCE) (CONTEXT CONTEXT) (FILE-NAME FILE-NAME)
- (FILE-POSITION FILE-POSITION) (ORIGINAL-SOURCE-PATH ORIGINAL-SOURCE-PATH)
- (LEXENV LEXENV))
+```cl
+(&key (:enclosing-source #:enclosing-source) (:source #:source)
+ (:original-source #:original-source) (:context #:context)
+ (:file-name #:file-name) (:file-position #:file-position)
+ (:original-source-path #:original-source-path) (:lexenv #:lexenv))
 ```

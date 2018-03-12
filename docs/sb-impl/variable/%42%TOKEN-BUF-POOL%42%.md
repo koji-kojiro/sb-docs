@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<TOKEN-BUF next=#<SB-IMPL::TOKEN-BUF  {100259B5C3}> {10018D8153}>
+```cl
+#<sb-impl::token-buf next=#<sb-impl::token-buf  {10025fe4f3}> {10018d8103}>
 ```

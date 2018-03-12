@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&REST IGNORE)
+```cl
+(&rest ignore)
 ```

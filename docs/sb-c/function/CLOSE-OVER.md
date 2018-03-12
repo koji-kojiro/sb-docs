@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THING REF-PHYSENV HOME-PHYSENV)
+```cl
+(sb-c::thing sb-c::ref-physenv sb-c::home-physenv)
 ```

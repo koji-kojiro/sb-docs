@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NODE BLOCK TEMPLATE ARGS INFO-ARGS IF NOT-P)
+```cl
+(sb-c::node block sb-c::template sb-c::args sb-c::info-args if
+ sb-c::not-p)
 ```

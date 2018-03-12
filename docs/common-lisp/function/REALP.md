@@ -4,6 +4,6 @@
 > Return true if OBJECT is a REAL, and NIL otherwise.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

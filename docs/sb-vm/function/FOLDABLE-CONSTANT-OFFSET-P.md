@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ELEMENT-SIZE LOWTAG DATA-OFFSET OFFSET)
+```cl
+(sb-vm::element-size sb-vm::lowtag sb-vm::data-offset sb-vm::offset)
 ```

@@ -23,6 +23,6 @@
 > the system uninterruptible.
 
 ### Lambda list
-```
-(EXPIRES &BODY BODY)
+```cl
+(sb-impl::expires &body sb-impl::body)
 ```

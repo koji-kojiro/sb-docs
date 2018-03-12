@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE CATEGORY KIND NAME)
+```cl
+(sb-impl::new-value sb-impl::category sb-impl::kind sb-impl::name)
 ```

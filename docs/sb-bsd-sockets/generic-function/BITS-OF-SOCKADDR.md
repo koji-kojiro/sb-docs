@@ -5,6 +5,7 @@
 > SOCKADDR, e.g. the host/port if SOCKET is an inet socket.
 
 ### Lambda list
-```
-(SOCKET SOCKADDR &OPTIONAL SIZE)
+```cl
+(sb-bsd-sockets:socket sb-bsd-sockets::sockaddr &optional
+ sb-bsd-sockets::size)
 ```

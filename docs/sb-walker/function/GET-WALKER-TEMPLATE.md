@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X CONTEXT)
+```cl
+(sb-walker::x sb-walker::context)
 ```

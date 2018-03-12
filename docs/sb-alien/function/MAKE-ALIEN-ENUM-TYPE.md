@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY CLASS BITS ALIGNMENT NAME FROM TO KIND OFFSET SIGNED)
+```cl
+(&key class sb-alien::bits sb-alien::alignment sb-alien::name
+ sb-alien::from sb-alien::to sb-alien::kind sb-alien::offset
+ sb-alien:signed)
 ```

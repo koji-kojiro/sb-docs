@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-((MUTEX &KEY WITHOUT-GCING ALLOW-WITH-INTERRUPTS) &BODY BODY)
+```cl
+((sb-thread:mutex &key sb-sys:without-gcing
+  sb-sys:allow-with-interrupts)
+ &body sb-thread::body)
 ```

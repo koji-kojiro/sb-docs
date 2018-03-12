@@ -4,6 +4,7 @@
 > No description.
 
 ### Value
-```
-(FIXNUM SINGLE-FLOAT DOUBLE-FLOAT INTEGER SIGNED-WORD WORD BIGNUM COMPLEX RATIO)
+```cl
+(fixnum single-float double-float integer sb-vm:signed-word sb-ext:word
+ bignum complex ratio)
 ```

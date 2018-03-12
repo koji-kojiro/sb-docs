@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR STREAM)
+```cl
+(vector stream)
 ```

@@ -4,6 +4,6 @@
 > Extract SLOT from the Alien STRUCT or UNION ALIEN. May be set with SETF.
 
 ### Lambda list
-```
-(ALIEN SLOT)
+```cl
+(sb-alien:alien sb-alien:slot)
 ```

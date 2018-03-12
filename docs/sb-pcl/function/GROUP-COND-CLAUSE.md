@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME TESTS SPECIALIZER-CACHE STAR-ONLY)
+```cl
+(sb-pcl::name sb-pcl::tests sb-pcl::specializer-cache sb-pcl::star-only)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<MUTEX "Scheduler lock" (free)>
+```cl
+#<sb-thread:mutex "scheduler lock" (free)>
 ```

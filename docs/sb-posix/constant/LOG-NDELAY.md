@@ -4,6 +4,6 @@
 > If supplied to openlog(), immediately open the syslog connection.
 
 ### Value
-```
+```cl
 8
 ```

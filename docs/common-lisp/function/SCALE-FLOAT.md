@@ -5,6 +5,6 @@
 > of precision or overflow.
 
 ### Lambda list
-```
-(F EX)
+```cl
+(sb-kernel::f sb-kernel::ex)
 ```

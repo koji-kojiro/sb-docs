@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(METHOD-GROUP-SPECIFIER)
+```cl
+(sb-pcl::method-group-specifier)
 ```

@@ -7,6 +7,6 @@
 > to TAG.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

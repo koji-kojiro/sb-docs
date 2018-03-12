@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SYMBOL CELL &OPTIONAL ERRORP)
+```cl
+(symbol sb-pcl::cell &optional sb-pcl::errorp)
 ```

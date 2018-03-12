@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-PCL::ACCESSOR-METHOD>
+```cl
+#<standard-class sb-pcl::accessor-method>
 ```

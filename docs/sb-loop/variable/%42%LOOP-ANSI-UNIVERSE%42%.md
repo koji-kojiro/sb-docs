@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<LOOP-UNIVERSE {1000D8BFA3}>
+```cl
+#<sb-loop::loop-universe {1000d8bfa3}>
 ```

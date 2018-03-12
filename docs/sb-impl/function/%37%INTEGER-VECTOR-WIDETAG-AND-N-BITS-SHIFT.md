@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SIGNED HIGH)
+```cl
+(sb-alien:signed sb-impl::high)
 ```

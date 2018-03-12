@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&REST CONSTANT-DESCRIPTOR)
+```cl
+(&rest sb-c::constant-descriptor)
 ```

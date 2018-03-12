@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ENABLE-INTERRUPTS FUNCTION)
+```cl
+(sb-unix::enable-interrupts function)
 ```

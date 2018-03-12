@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLAMBDAS)
+```cl
+(sb-c::clambdas)
 ```

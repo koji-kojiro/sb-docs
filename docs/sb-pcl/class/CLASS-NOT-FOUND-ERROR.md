@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(CLASS-NOT-FOUND-ERROR CELL-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT
- T)
+```cl
+(sb-pcl:class-not-found-error cell-error error serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME NAME)
+```cl
+(:name :name)
 ```

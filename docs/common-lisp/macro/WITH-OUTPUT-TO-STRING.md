@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((VAR &OPTIONAL STRING &KEY ELEMENT-TYPE) &BODY FORMS-DECLS)
+```cl
+((sb-debug:var &optional string &key sb-impl::element-type) &body
+ sb-impl::forms-decls)
 ```

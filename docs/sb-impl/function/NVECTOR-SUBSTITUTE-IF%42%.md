@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NEW TEST SEQUENCE INCREMENTER START END COUNT KEY)
+```cl
+(sb-impl::new sb-impl::test sequence sb-impl::incrementer
+ sb-impl::start sb-impl::end count sb-impl::key)
 ```

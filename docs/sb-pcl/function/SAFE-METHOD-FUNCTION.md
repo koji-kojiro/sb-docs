@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(METHOD)
+```cl
+(method)
 ```

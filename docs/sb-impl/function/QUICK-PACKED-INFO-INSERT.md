@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INPUT INFO-NUMBER VALUE)
+```cl
+(sb-impl::input sb-int:info-number sb-impl::value)
 ```

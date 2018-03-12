@@ -4,6 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-(ADDRESS ADDRESS-LENGTH HOST HOST-LEN SERVICE SERVICE-LEN FLAGS)
+```cl
+(sb-bsd-sockets-internal::address
+ sb-bsd-sockets-internal::address-length sb-bsd-sockets-internal::host
+ sb-bsd-sockets-internal::host-len sb-bsd-sockets-internal::service
+ sb-bsd-sockets-internal::service-len sb-bsd-sockets-internal::flags)
 ```

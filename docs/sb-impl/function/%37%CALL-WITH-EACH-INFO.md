@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION VECT ROOT-SYMBOL)
+```cl
+(function sb-impl::vect sb-impl::root-symbol)
 ```

@@ -6,6 +6,6 @@
 > constantness of the FORM in ENVIRONMENT.
 
 ### Lambda list
-```
-(FORM &OPTIONAL ENVIRONMENT)
+```cl
+(sb-kernel:form &optional sb-c::environment)
 ```

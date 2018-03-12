@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME REST-P OFFSET SPECIAL OPTIONS)
+```cl
+(sb-vm::name sb-vm::rest-p sb-vm::offset special sb-vm::options)
 ```

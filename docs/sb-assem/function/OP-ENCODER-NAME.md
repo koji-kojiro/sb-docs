@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRING-DESIGNATOR &OPTIONAL CREATE)
+```cl
+(sb-assem::string-designator &optional sb-assem::create)
 ```

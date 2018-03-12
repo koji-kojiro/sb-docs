@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(PACKAGE-AT-VARIANCE-ERROR REFERENCE-CONDITION SIMPLE-CONDITION PACKAGE-ERROR
- ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:package-at-variance-error sb-int:reference-condition
+ simple-condition package-error error serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(PACKAGE FORMAT-CONTROL FORMAT-ARGUMENTS REFERENCES)
+```cl
+(:package :format-control :format-arguments :references)
 ```

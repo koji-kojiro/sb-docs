@@ -6,6 +6,6 @@
 > result is the same float format as OTHER.
 
 ### Lambda list
-```
-(NUMBER &OPTIONAL OTHER)
+```cl
+(number &optional sb-kernel::other)
 ```

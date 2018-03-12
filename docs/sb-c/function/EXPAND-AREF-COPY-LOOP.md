@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SRC SRC-OFFSET DST DST-OFFSET LENGTH)
+```cl
+(sb-c::src sb-c::src-offset sb-c::dst sb-c::dst-offset length)
 ```

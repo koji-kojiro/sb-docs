@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<SYSTEM-CLASS COMMON-LISP:FILE-STREAM>
+```cl
+#<sb-pcl:system-class common-lisp:file-stream>
 ```

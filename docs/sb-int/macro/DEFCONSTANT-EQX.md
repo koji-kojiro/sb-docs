@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SYMBOL EXPR EQX &OPTIONAL DOC)
+```cl
+(symbol sb-impl::expr sb-impl::eqx &optional sb-impl::doc)
 ```

@@ -4,6 +4,6 @@
 > Return true if the float X is an infinity (+ or -).
 
 ### Lambda list
-```
-(X)
+```cl
+(sb-kernel::x)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BYTES VEC INDEX)
+```cl
+(sb-c::bytes sb-c::vec sb-int:index)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM POSITION)
+```cl
+(stream position)
 ```

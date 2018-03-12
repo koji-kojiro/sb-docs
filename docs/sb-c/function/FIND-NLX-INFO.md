@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EXIT)
+```cl
+(sb-ext:exit)
 ```

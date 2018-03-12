@@ -4,6 +4,6 @@
 > Return tail of LIST beginning with first element EQ to ITEM.
 
 ### Lambda list
-```
-(ITEM LIST)
+```cl
+(sb-impl::item list)
 ```

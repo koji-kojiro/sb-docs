@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PACKAGE PACKAGE-DESIGNATORS)
+```cl
+(package sb-impl::package-designators)
 ```

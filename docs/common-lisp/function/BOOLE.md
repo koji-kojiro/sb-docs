@@ -20,6 +20,6 @@
 > 15      BOOLE-ORC2
 
 ### Lambda list
-```
-(OP INTEGER1 INTEGER2)
+```cl
+(sb-kernel::op sb-kernel::integer1 sb-kernel::integer2)
 ```

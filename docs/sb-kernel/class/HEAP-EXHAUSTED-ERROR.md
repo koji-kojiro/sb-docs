@@ -4,7 +4,7 @@
 > No description.
 
 ### Precedence list
-```
-(HEAP-EXHAUSTED-ERROR STORAGE-CONDITION SERIOUS-CONDITION CONDITION SLOT-OBJECT
-                      T)
+```cl
+(sb-kernel::heap-exhausted-error storage-condition serious-condition
+                                 condition sb-pcl::slot-object t)
 ```

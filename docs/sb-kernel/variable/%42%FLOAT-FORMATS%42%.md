@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-(LONG-FLOAT DOUBLE-FLOAT SINGLE-FLOAT SHORT-FLOAT)
+```cl
+(long-float double-float single-float short-float)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TN ELEMENT-SIZE PACK-TYPE)
+```cl
+(sb-c:tn sb-regalloc::element-size sb-regalloc::pack-type)
 ```

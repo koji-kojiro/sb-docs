@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WHERE OLD)
+```cl
+(sb-thread::where sb-thread::old)
 ```

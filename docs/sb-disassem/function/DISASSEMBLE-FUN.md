@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN &KEY STREAM USE-LABELS)
+```cl
+(sb-disassem::fun &key stream sb-disassem::use-labels)
 ```

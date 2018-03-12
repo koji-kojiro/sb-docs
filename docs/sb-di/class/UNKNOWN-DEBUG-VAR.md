@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(UNKNOWN-DEBUG-VAR DEBUG-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-di:unknown-debug-var sb-di:debug-error error serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(DEBUG-VAR DEBUG-FUN)
+```cl
+(:debug-var :debug-fun)
 ```

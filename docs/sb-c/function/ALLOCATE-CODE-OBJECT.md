@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(IMMOBILE-P BOXED UNBOXED)
+```cl
+(sb-c::immobile-p sb-c::boxed sb-c::unboxed)
 ```

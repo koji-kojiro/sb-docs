@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(INVALID-SUPERCLASS REFERENCE-CONDITION ERROR SERIOUS-CONDITION CONDITION
-                    SLOT-OBJECT T)
+```cl
+(sb-pcl::invalid-superclass sb-int:reference-condition error
+                            serious-condition condition
+                            sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES CLASS SUPERCLASS)
+```cl
+(:references :class :superclass)
 ```

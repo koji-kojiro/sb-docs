@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-SINGLE-FLOAT
+```cl
+single-float
 ```

@@ -4,6 +4,6 @@
 > software termination signal.
 
 ### Value
-```
+```cl
 15
 ```

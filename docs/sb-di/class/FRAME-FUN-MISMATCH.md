@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(FRAME-FUN-MISMATCH DEBUG-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-di:frame-fun-mismatch sb-di:debug-error error serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(CODE-LOCATION FRAME FORM)
+```cl
+(:code-location :frame :form)
 ```

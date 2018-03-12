@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE NAME)
+```cl
+(sb-kernel::new-value sb-kernel::name)
 ```

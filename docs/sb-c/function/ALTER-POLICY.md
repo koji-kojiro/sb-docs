@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(POLICY INDEX VALUE &OPTIONAL PRESENTP)
+```cl
+(sb-c:policy sb-int:index sb-c::value &optional sb-c::presentp)
 ```

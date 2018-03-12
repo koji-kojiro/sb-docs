@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BOGUS-LRA DEBUG-FUN)
+```cl
+(sb-di::bogus-lra sb-di:debug-fun)
 ```

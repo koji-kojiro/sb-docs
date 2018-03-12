@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONSET-1 CONSET-2)
+```cl
+(sb-c::conset-1 sb-c::conset-2)
 ```

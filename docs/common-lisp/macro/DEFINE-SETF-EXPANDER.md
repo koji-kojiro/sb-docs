@@ -5,6 +5,6 @@
 > of the definition must be a form that returns five appropriate values.
 
 ### Lambda list
-```
-(ACCESS-FN LAMBDA-LIST &BODY BODY)
+```cl
+(sb-impl::access-fn sb-impl::lambda-list &body sb-impl::body)
 ```

@@ -4,6 +4,7 @@
 > Changes the name and nicknames for a package.
 
 ### Lambda list
-```
-(PACKAGE-DESIGNATOR NAME &OPTIONAL NICKNAMES)
+```cl
+(sb-kernel:package-designator sb-impl::name &optional
+ sb-impl::nicknames)
 ```

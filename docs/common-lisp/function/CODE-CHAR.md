@@ -4,6 +4,6 @@
 > Return the character with the code CODE.
 
 ### Lambda list
-```
-(CODE)
+```cl
+(sb-impl::code)
 ```

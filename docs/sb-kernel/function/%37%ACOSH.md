@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARG0)
+```cl
+(sb-kernel::arg0)
 ```

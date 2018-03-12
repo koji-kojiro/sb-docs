@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(SLOT-OBJECT T)
+```cl
+(sb-pcl::slot-object t)
 ```

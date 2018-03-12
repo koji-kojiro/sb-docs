@@ -5,6 +5,6 @@
 > returns false. LIST must be a proper list or a dotted list.
 
 ### Lambda list
-```
-(OBJECT LIST)
+```cl
+(sb-impl::object list)
 ```

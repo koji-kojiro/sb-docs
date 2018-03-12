@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LOW HIGH)
+```cl
+(sb-kernel::low sb-kernel::high)
 ```

@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(NAMES FUNCTION UNIVERSE &KEY PREPOSITION-GROUPS INCLUSIVE-PERMITTED USER-DATA)
+```cl
+(sb-loop::names function sb-loop::universe &key
+                sb-loop::preposition-groups
+                sb-loop::inclusive-permitted sb-loop::user-data)
 ```

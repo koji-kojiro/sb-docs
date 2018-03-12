@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (POSN POSN) (KIND KIND) (AMOUNT AMOUNT))
+```cl
+(&key (:posn #:posn) (:kind #:kind) (:amount #:amount))
 ```

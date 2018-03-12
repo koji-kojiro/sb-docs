@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALL LVAR RTYPES)
+```cl
+(sb-c:call sb-c::lvar sb-c::rtypes)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NUMBER-TYPE DIVISOR-TYPE)
+```cl
+(sb-c::number-type sb-c::divisor-type)
 ```

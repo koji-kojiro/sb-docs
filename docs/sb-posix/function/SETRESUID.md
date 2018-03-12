@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RUID EUID SUID)
+```cl
+(sb-posix::ruid sb-posix::euid sb-posix::suid)
 ```

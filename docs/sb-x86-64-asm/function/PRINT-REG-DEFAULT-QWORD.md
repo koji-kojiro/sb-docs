@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE STREAM DSTATE)
+```cl
+(sb-x86-64-asm::value stream sb-x86-64-asm::dstate)
 ```

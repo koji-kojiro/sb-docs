@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TIME)
+```cl
+(time)
 ```

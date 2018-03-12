@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ITEM LIST KEY-FN)
+```cl
+(sb-vm::item list sb-vm::key-fn)
 ```

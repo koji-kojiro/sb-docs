@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE BUFFERING &OPTIONAL EXTERNAL-FORMAT)
+```cl
+(type sb-impl::buffering &optional sb-impl::external-format)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM NUMBER POWER)
+```cl
+(stream number sb-impl::power)
 ```

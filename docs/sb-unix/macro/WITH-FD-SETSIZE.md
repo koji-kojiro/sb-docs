@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((N) &BODY BODY)
+```cl
+((sb-unix::n) &body sb-unix::body)
 ```

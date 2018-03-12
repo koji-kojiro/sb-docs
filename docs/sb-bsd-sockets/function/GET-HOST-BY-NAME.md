@@ -10,6 +10,6 @@
 > weird stuff - see getaddrinfo(3) for the details.
 
 ### Lambda list
-```
-(NODE)
+```cl
+(sb-bsd-sockets::node)
 ```

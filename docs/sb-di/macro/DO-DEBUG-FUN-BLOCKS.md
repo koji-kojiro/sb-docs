@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((BLOCK-VAR DEBUG-FUN &OPTIONAL RESULT) &BODY BODY)
+```cl
+((sb-di::block-var sb-di:debug-fun &optional sb-di::result) &body
+ sb-di::body)
 ```

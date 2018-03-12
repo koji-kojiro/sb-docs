@@ -6,6 +6,6 @@
 > to clean up the side effects of having created the stream.
 
 ### Lambda list
-```
-(STREAM &KEY ABORT)
+```cl
+(stream &key abort)
 ```

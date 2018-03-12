@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (INDEX INDEX))
+```cl
+(&key (:index #:index))
 ```

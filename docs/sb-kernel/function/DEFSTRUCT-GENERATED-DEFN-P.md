@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME LAMBDA-LIST BODY)
+```cl
+(sb-kernel::name sb-kernel::lambda-list sb-kernel::body)
 ```

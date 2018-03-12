@@ -5,6 +5,6 @@
 > form, or (VALUES NIL the-ERROR-that-was-caught) if an ERROR was handled.
 
 ### Lambda list
-```
-(&REST FORMS)
+```cl
+(&rest sb-impl::forms)
 ```

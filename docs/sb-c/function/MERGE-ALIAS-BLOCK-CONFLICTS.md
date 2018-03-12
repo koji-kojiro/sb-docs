@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CONF OCONF)
+```cl
+(sb-c::conf sb-c::oconf)
 ```

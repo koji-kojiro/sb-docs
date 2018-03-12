@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(STATE SOFTWARE VERSION &OPTIONAL REPLACEMENT-SPEC)
+```cl
+(sb-impl::state sb-impl::software sb-impl::version &optional
+ sb-impl::replacement-spec)
 ```

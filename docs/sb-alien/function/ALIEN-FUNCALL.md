@@ -5,6 +5,6 @@
 > type specifies the argument and result types.
 
 ### Lambda list
-```
-(ALIEN &REST ARGS)
+```cl
+(sb-alien:alien &rest sb-alien::args)
 ```

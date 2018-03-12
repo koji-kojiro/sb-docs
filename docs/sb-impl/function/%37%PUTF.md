@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PLACE PROPERTY NEW-VALUE)
+```cl
+(sb-impl::place sb-impl::property sb-impl::new-value)
 ```

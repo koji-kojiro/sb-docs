@@ -5,6 +5,6 @@
 > the current package.
 
 ### Lambda list
-```
-(STREAM SYMBOL &OPTIONAL COLON AT)
+```cl
+(stream symbol &optional sb-impl::colon sb-impl::at)
 ```

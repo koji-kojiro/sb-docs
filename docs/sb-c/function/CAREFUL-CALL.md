@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION ARGS NODE WARN-FUN CONTEXT)
+```cl
+(function sb-c::args sb-c::node sb-c::warn-fun sb-c::context)
 ```

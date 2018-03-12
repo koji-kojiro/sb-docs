@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-ADAPTIVE
+```cl
+:adaptive
 ```

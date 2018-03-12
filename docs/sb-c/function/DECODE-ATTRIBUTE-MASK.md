@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BITS UNIVERSE)
+```cl
+(sb-c::bits sb-c::universe)
 ```

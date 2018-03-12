@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GF ARGS STATE)
+```cl
+(sb-pcl::gf sb-pcl::args sb-pcl::state)
 ```

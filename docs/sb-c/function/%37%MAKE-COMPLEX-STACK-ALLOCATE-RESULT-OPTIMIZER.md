@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE DX)
+```cl
+(#:node sb-c::dx)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FORM &OPTIONAL ENVIRONMENT WALK-FUNCTION)
+```cl
+(sb-walker::form &optional sb-walker::environment
+ sb-walker::walk-function)
 ```

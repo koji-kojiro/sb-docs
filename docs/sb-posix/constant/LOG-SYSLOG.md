@@ -4,6 +4,6 @@
 > openlog() facility for the syslog subsystem
 
 ### Value
-```
+```cl
 40
 ```

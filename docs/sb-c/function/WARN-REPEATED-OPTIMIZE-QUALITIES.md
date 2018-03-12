@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-POLICY SPECIFIED-QUALITIES)
+```cl
+(sb-c::new-policy sb-c::specified-qualities)
 ```

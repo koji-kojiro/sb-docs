@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM SAFE-CODE-P)
+```cl
+(sb-kernel:form sb-pcl::safe-code-p)
 ```

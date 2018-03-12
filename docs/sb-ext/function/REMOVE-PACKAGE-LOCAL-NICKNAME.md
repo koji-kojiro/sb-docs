@@ -11,6 +11,6 @@
 > Experimental: interface subject to change.
 
 ### Lambda list
-```
-(OLD-NICKNAME &OPTIONAL PACKAGE-DESIGNATOR)
+```cl
+(sb-impl::old-nickname &optional sb-kernel:package-designator)
 ```

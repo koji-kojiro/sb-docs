@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME &KEY CONTEXT ALLOW-SPECIAL ALLOW-SYMBOL-MACRO SIGNAL-VIA)
+```cl
+(sb-c::name &key sb-c::context sb-c::allow-special
+ sb-c::allow-symbol-macro sb-c::signal-via)
 ```

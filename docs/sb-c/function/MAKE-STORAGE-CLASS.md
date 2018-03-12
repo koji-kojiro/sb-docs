@@ -4,12 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (NUMBER NUMBER) (SB SB) (ELEMENT-SIZE ELEMENT-SIZE)
- (LOCATIONS LOCATIONS) (OPERAND-SIZE OPERAND-SIZE)
- (ALTERNATE-SCS ALTERNATE-SCS) (CONSTANT-SCS CONSTANT-SCS) (SAVE-P SAVE-P)
- (MOVE-FUNS MOVE-FUNS) (LOAD-COSTS LOAD-COSTS) (MOVE-VOPS MOVE-VOPS)
- (MOVE-COSTS MOVE-COSTS) (MOVE-ARG-VOPS MOVE-ARG-VOPS)
- (NUMBER-STACK-P NUMBER-STACK-P) (ALIGNMENT ALIGNMENT)
- (RESERVE-LOCATIONS RESERVE-LOCATIONS))
+```cl
+(&key (:name #:name) (:number #:number) (:sb #:sb)
+ (:element-size #:element-size) (:locations #:locations)
+ (:operand-size #:operand-size) (:alternate-scs #:alternate-scs)
+ (:constant-scs #:constant-scs) (:save-p #:save-p)
+ (:move-funs #:move-funs) (:load-costs #:load-costs)
+ (:move-vops #:move-vops) (:move-costs #:move-costs)
+ (:move-arg-vops #:move-arg-vops) (:number-stack-p #:number-stack-p)
+ (:alignment #:alignment) (:reserve-locations #:reserve-locations))
 ```

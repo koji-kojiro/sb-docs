@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NEXT LVAR TYPE CALLER DEPS ARG-SPECS RESULT-SPECS)
+```cl
+(sb-c::next sb-c::lvar type sb-c::caller sb-c::deps sb-c::arg-specs
+ sb-c::result-specs)
 ```

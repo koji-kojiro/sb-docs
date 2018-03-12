@@ -4,6 +4,6 @@
 > The column in which end-of-line comments for notes are started.
 
 ### Value
-```
+```cl
 61
 ```

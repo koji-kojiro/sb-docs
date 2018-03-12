@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ITEM SEQUENCE FROM-END START END KEY TEST)
+```cl
+(sb-c::item sequence sb-c::from-end sb-c::start sb-c::end sb-c::key
+ sb-c::test)
 ```

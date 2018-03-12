@@ -4,6 +4,6 @@
 > Log severity level denoting debugging information .
 
 ### Value
-```
+```cl
 7
 ```

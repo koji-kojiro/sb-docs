@@ -43,7 +43,8 @@
 > possible while navigating and ignoring possible errors.
 
 ### Lambda list
-```
-(&KEY STREAM START FROM COUNT PRINT-THREAD PRINT-FRAME-SOURCE
- METHOD-FRAME-STYLE EMERGENCY-BEST-EFFORT)
+```cl
+(&key stream sb-debug::start sb-debug::from count
+ sb-debug::print-thread sb-debug::print-frame-source
+ sb-debug::method-frame-style sb-debug::emergency-best-effort)
 ```

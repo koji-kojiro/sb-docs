@@ -4,6 +4,6 @@
 > Set the name of a compiled function object. Return the function.
 
 ### Lambda list
-```
-(FUN NEW-NAME)
+```cl
+(sb-pcl::fun sb-pcl::new-name)
 ```

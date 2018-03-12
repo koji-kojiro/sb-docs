@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VARS ERROR-TAGS CASES)
+```cl
+(sb-kernel::vars sb-kernel::error-tags sb-kernel::cases)
 ```

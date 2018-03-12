@@ -4,6 +4,6 @@
 > Returns T if CHARACTER has the Unicode property Uppercase and NIL otherwise
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

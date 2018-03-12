@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LABEL-OR-POSN KIND)
+```cl
+(sb-c::label-or-posn sb-c::kind)
 ```

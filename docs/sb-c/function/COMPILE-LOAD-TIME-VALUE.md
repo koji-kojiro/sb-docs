@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM &OPTIONAL NO-SKIP)
+```cl
+(sb-kernel:form &optional sb-c::no-skip)
 ```

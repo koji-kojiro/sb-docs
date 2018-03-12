@@ -6,6 +6,6 @@
 > list of the symbols :dynamic, :static, or :read-only.
 
 ### Lambda list
-```
-(SPACES FN)
+```cl
+(sb-introspect::spaces sb-introspect::fn)
 ```

@@ -7,6 +7,6 @@
 > documentation string for the variable.
 
 ### Lambda list
-```
-(VAR &OPTIONAL VAL DOC)
+```cl
+(sb-debug:var &optional sb-impl::val sb-impl::doc)
 ```

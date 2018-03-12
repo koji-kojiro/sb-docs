@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CHAIN)
+```cl
+(sb-impl::chain)
 ```

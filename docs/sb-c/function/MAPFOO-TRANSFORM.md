@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FN ARGLISTS ACCUMULATE TAKE-CAR)
+```cl
+(sb-c::fn sb-c::arglists sb-c::accumulate sb-c::take-car)
 ```

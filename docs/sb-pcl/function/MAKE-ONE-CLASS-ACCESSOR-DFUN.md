@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GF TYPE WRAPPER INDEX)
+```cl
+(sb-pcl::gf type sb-pcl::wrapper sb-int:index)
 ```

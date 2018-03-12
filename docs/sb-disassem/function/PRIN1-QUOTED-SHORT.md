@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THING STREAM)
+```cl
+(sb-disassem::thing stream)
 ```

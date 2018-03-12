@@ -5,6 +5,6 @@
 > avoiding atexit(3) hooks, etc. Otherwise exit(2) is called.
 
 ### Lambda list
-```
-(CODE &KEY ABORT)
+```cl
+(sb-unix::code &key abort)
 ```

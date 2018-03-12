@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ACCESSOR-TYPE INDEX WRAPPER0 WRAPPER1)
+```cl
+(sb-pcl::accessor-type sb-int:index sb-pcl::wrapper0 sb-pcl::wrapper1)
 ```

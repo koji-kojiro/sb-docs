@@ -4,6 +4,6 @@
 > Return true if OBJECT is a COMPLEX-SINGLE-FLOAT, and NIL otherwise.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

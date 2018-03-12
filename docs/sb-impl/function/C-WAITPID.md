@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PID OPTIONS)
+```cl
+(sb-impl::pid sb-impl::options)
 ```

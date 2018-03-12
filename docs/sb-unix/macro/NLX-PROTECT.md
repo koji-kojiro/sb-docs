@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PROTECTED-FORM &REST CLEANUP-FROMS)
+```cl
+(sb-unix::protected-form &rest sb-unix::cleanup-froms)
 ```

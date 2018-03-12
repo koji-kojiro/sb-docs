@@ -4,6 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-((TARGET-VARIABLE SOURCE-TN &REST KEYS &KEY LIMIT READS WRITES) &BODY BODY)
+```cl
+((sb-regalloc::target-variable sb-regalloc::source-tn &rest
+  sb-regalloc::keys &key sb-regalloc::limit sb-assem:reads
+  sb-assem:writes)
+ &body sb-regalloc::body)
 ```

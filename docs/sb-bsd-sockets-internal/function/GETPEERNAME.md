@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SOCKET HER-ADDR ADDRLEN)
+```cl
+(sb-bsd-sockets-internal::socket sb-bsd-sockets-internal::her-addr
+                                 sb-bsd-sockets-internal::addrlen)
 ```

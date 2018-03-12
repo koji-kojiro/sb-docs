@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<INFO-HASHTABLE 2379/5939 entries {1000037953}>
+```cl
+#<sb-impl::info-hashtable 2379/5939 entries {1000037953}>
 ```

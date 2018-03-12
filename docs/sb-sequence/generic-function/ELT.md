@@ -7,6 +7,6 @@
 > SEQUENCE.
 
 ### Lambda list
-```
-(NEW-VALUE SEQUENCE INDEX)
+```cl
+(sb-impl::new-value sequence sb-int:index)
 ```

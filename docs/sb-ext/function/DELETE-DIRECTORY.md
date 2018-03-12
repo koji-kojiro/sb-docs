@@ -21,6 +21,6 @@
 > exist or if is a file or a symbolic link.
 
 ### Lambda list
-```
-(PATHSPEC &KEY RECURSIVE)
+```cl
+(sb-impl::pathspec &key sb-impl::recursive)
 ```

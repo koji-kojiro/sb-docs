@@ -4,6 +4,6 @@
 > Return true if the float X is denormalized.
 
 ### Lambda list
-```
-(X)
+```cl
+(sb-kernel::x)
 ```

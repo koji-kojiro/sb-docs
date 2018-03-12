@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FRAME FORMS &REST ARGS)
+```cl
+(sb-debug::frame sb-debug::forms &rest sb-debug::args)
 ```

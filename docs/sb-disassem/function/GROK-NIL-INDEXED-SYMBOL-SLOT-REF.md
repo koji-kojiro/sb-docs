@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BYTE-OFFSET)
+```cl
+(sb-disassem::byte-offset)
 ```

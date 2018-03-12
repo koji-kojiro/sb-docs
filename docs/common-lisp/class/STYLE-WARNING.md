@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(STYLE-WARNING WARNING CONDITION SLOT-OBJECT T)
+```cl
+(style-warning warning condition sb-pcl::slot-object t)
 ```

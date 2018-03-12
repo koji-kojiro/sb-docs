@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LIST1 LIST2)
+```cl
+(sb-kernel::list1 sb-kernel::list2)
 ```

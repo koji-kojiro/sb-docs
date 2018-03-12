@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME INITIALIZATION DTYPE &OPTIONAL STEP-VAR-P)
+```cl
+(sb-loop::name sb-loop::initialization sb-loop::dtype &optional
+ sb-loop::step-var-p)
 ```

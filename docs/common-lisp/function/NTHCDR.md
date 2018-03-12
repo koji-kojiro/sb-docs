@@ -4,6 +4,6 @@
 > Performs the cdr function n times on a list.
 
 ### Lambda list
-```
-(N LIST)
+```cl
+(sb-impl::n list)
 ```

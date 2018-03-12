@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS SLOT)
+```cl
+(class sb-alien:slot)
 ```

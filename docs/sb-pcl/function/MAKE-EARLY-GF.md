@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(SPEC &OPTIONAL LAMBDA-LIST LAMBDA-LIST-P FUNCTION ARGUMENT-PRECEDENCE-ORDER
- SOURCE-LOCATION DOCUMENTATION)
+```cl
+(sb-pcl::spec &optional sb-pcl::lambda-list sb-pcl::lambda-list-p
+ function sb-pcl::argument-precedence-order sb-pcl::source-location
+ documentation)
 ```

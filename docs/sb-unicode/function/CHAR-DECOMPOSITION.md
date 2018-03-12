@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CHAR LENGTH CALLBACK)
+```cl
+(char length sb-unicode::callback)
 ```

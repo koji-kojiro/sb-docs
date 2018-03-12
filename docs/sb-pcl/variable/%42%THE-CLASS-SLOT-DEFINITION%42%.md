@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-MOP:SLOT-DEFINITION>
+```cl
+#<standard-class sb-mop:slot-definition>
 ```

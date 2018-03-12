@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(RESTART STREAM)
+```cl
+(restart stream)
 ```

@@ -4,6 +4,6 @@
 > Should the contents of arrays be printed?
 
 ### Value
-```
-T
+```cl
+t
 ```

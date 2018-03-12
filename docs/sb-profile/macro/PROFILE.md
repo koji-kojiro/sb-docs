@@ -14,6 +14,6 @@
 > UNPROFILE, REPORT and RESET.
 
 ### Lambda list
-```
-(&REST NAMES)
+```cl
+(&rest sb-profile::names)
 ```

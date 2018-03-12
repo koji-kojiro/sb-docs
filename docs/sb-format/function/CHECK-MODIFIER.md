@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(MODIFIER-NAME VALUE)
+```cl
+(sb-format::modifier-name sb-format::value)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE BLOCK LVAR PTYPES)
+```cl
+(sb-c::node block sb-c::lvar sb-c::ptypes)
 ```

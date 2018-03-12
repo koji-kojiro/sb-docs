@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SAP LENGTH)
+```cl
+(sb-impl::sap length)
 ```

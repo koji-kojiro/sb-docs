@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LAMBDA-LIST NREQ ARGUMENT-PRECEDENCE-ORDER)
+```cl
+(sb-pcl::lambda-list sb-pcl::nreq sb-pcl::argument-precedence-order)
 ```

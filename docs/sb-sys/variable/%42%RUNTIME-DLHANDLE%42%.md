@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#.(SB-SYS:INT-SAP #X14E6BFBD51C8)
+```cl
+#.(sb-sys:int-sap #x145ae6b421c8)
 ```

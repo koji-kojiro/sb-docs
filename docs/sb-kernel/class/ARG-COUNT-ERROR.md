@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(ARG-COUNT-ERROR DEFMACRO-LAMBDA-LIST-BIND-ERROR ERROR SERIOUS-CONDITION
- CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel::arg-count-error sb-kernel::defmacro-lambda-list-bind-error
+ error serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(KIND NAME ARGS LAMBDA-LIST MINIMUM MAXIMUM)
+```cl
+(:kind :name :args :lambda-list :minimum :maximum)
 ```

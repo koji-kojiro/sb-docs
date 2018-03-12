@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE POLICY)
+```cl
+(type sb-c:policy)
 ```

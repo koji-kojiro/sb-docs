@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BOUND TYPE UPPERP)
+```cl
+(sb-kernel::bound type sb-kernel::upperp)
 ```

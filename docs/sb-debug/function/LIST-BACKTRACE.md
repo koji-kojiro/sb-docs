@@ -41,6 +41,6 @@
 > information.
 
 ### Lambda list
-```
-(&KEY COUNT START FROM METHOD-FRAME-STYLE)
+```cl
+(&key count sb-debug::start sb-debug::from sb-debug::method-frame-style)
 ```

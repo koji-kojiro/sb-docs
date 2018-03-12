@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DECL RES VARS CONTEXT)
+```cl
+(sb-c::decl sb-c::res sb-c::vars sb-c::context)
 ```

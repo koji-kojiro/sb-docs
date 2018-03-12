@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INPUT &OPTIONAL FOR-TYPEP)
+```cl
+(sb-kernel::input &optional sb-kernel::for-typep)
 ```

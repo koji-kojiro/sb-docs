@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((NAME &REST ARG-TYPES) &REST ARGS)
+```cl
+((sb-unix::name &rest sb-unix::arg-types) &rest sb-unix::args)
 ```

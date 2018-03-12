@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INT SIZE)
+```cl
+(sb-disassem::int sb-disassem::size)
 ```

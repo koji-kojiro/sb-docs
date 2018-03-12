@@ -20,6 +20,7 @@
 > SLOT-VALUE may not be used on condition objects.
 
 ### Lambda list
-```
-(NAME (&REST PARENT-TYPES) (&REST SLOT-SPECS) &BODY OPTIONS)
+```cl
+(sb-kernel::name (&rest sb-kernel::parent-types)
+ (&rest sb-kernel::slot-specs) &body sb-kernel::options)
 ```

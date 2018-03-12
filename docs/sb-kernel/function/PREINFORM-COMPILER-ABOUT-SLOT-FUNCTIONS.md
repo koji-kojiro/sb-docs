@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KIND SLOTS)
+```cl
+(sb-kernel::kind sb-kernel::slots)
 ```

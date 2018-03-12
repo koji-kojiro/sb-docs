@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-MOP:STANDARD-READER-METHOD>
+```cl
+#<standard-class sb-mop:standard-reader-method>
 ```

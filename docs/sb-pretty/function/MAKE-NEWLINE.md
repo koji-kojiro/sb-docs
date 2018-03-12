@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (POSN POSN) (DEPTH DEPTH) (SECTION-END SECTION-END) (KIND KIND))
+```cl
+(&key (:posn #:posn) (:depth #:depth) (:section-end #:section-end)
+ (:kind #:kind))
 ```

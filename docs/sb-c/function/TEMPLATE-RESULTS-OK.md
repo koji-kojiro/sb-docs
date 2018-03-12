@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TEMPLATE RESULT-TYPE)
+```cl
+(sb-c::template sb-c::result-type)
 ```

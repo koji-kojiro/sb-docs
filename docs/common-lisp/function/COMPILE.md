@@ -20,6 +20,6 @@
 > not STYLE-WARNINGs occur during compilation, and NIL otherwise.
 
 ### Lambda list
-```
-(NAME &OPTIONAL DEFINITION)
+```cl
+(sb-c::name &optional sb-c::definition)
 ```

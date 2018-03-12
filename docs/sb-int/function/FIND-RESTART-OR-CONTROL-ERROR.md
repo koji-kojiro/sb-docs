@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(IDENTIFIER &OPTIONAL CONDITION CALL-TEST-P)
+```cl
+(sb-kernel::identifier &optional condition sb-kernel::call-test-p)
 ```

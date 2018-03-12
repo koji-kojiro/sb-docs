@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE FAILURES)
+```cl
+(sb-c::node sb-c::failures)
 ```

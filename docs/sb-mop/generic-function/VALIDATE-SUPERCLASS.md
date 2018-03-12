@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS SUPERCLASS)
+```cl
+(class sb-pcl::superclass)
 ```

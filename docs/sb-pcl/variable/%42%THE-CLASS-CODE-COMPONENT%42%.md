@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<BUILT-IN-CLASS SB-KERNEL:CODE-COMPONENT>
+```cl
+#<built-in-class sb-kernel:code-component>
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INTERNAL-TIME-DELTA)
+```cl
+(sb-c::internal-time-delta)
 ```

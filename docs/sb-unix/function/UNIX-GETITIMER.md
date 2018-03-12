@@ -7,6 +7,6 @@
 > T, it-interval-secs, it-interval-usec, it-value-secs, it-value-usec.
 
 ### Lambda list
-```
-(WHICH)
+```cl
+(sb-unix::which)
 ```

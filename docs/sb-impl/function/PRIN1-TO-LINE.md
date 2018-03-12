@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X &KEY COLUMNS RESERVE)
+```cl
+(sb-impl::x &key sb-impl::columns sb-impl::reserve)
 ```

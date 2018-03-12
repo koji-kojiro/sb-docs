@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TEST THEN &OPTIONAL ELSE)
+```cl
+(sb-c::test sb-c::then &optional sb-c::else)
 ```

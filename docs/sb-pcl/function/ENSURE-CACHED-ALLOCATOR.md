@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS STORE)
+```cl
+(class sb-pcl::store)
 ```

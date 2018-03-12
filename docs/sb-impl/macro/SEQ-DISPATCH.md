@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEQUENCE LIST-FORM ARRAY-FORM &OPTIONAL OTHER-FORM)
+```cl
+(sequence sb-impl::list-form sb-impl::array-form &optional
+ sb-impl::other-form)
 ```

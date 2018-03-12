@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COMPONENTS)
+```cl
+(sb-c::components)
 ```

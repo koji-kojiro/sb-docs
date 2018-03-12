@@ -7,11 +7,12 @@
 > offending thread using THREAD-ERROR-THREAD.
 
 ### Precedence list
-```
-(SYMBOL-VALUE-IN-THREAD-ERROR CELL-ERROR THREAD-ERROR ERROR SERIOUS-CONDITION
- CONDITION SLOT-OBJECT T)
+```cl
+(sb-thread:symbol-value-in-thread-error cell-error
+ sb-thread:thread-error error serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(THREAD NAME INFO)
+```cl
+(:thread :name :info)
 ```

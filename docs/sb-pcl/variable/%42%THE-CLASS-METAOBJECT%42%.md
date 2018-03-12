@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-MOP:METAOBJECT>
+```cl
+#<standard-class sb-mop:metaobject>
 ```

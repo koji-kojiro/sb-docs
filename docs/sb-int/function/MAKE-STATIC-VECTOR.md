@@ -5,6 +5,7 @@
 > of specialized arrays is supported.
 
 ### Lambda list
-```
-(LENGTH &KEY ELEMENT-TYPE INITIAL-CONTENTS INITIAL-ELEMENT)
+```cl
+(length &key sb-impl::element-type sb-impl::initial-contents
+        sb-impl::initial-element)
 ```

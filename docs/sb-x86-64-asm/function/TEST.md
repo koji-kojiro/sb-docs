@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THIS THAT)
+```cl
+(sb-x86-64-asm::this sb-x86-64-asm::that)
 ```

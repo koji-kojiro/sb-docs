@@ -5,6 +5,6 @@
 > Otherwise, returns NIL.
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
+```cl
 #(0 0 0 0)
 ```

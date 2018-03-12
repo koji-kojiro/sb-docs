@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(FTYPE-PROCLAMATION-MISMATCH-ERROR ERROR SERIOUS-CONDITION
- FTYPE-PROCLAMATION-MISMATCH PROCLAMATION-MISMATCH CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel:ftype-proclamation-mismatch-error error serious-condition
+ sb-kernel:ftype-proclamation-mismatch sb-kernel:proclamation-mismatch
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(KIND DESCRIPTION NAME OLD NEW)
+```cl
+(:kind :description :name :old :new)
 ```

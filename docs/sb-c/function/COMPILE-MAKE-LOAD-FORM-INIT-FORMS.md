@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORMS FASL)
+```cl
+(sb-c::forms sb-c::fasl)
 ```

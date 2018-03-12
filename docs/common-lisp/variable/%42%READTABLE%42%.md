@@ -4,6 +4,6 @@
 > Variable bound to current readtable.
 
 ### Value
-```
-#<READTABLE {1000028DF3}>
+```cl
+#<readtable {1000028df3}>
 ```

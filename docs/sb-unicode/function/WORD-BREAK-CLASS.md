@@ -4,6 +4,6 @@
 > Returns the word breaking class of CHARACTER, as specified in UAX #29.
 
 ### Lambda list
-```
-(CHAR)
+```cl
+(char)
 ```

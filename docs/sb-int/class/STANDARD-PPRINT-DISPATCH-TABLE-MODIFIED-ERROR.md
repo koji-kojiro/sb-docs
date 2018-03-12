@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(STANDARD-PPRINT-DISPATCH-TABLE-MODIFIED-ERROR REFERENCE-CONDITION ERROR
- SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:standard-pprint-dispatch-table-modified-error
+ sb-int:reference-condition error serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES OPERATION)
+```cl
+(:references :operation)
 ```

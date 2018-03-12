@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PACKAGE &OPTIONAL SYMBOL)
+```cl
+(package &optional symbol)
 ```

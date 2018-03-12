@@ -5,6 +5,6 @@
 > these arguments.
 
 ### Lambda list
-```
-(INPUT-FILE &KEY OUTPUT-FILE &ALLOW-OTHER-KEYS)
+```cl
+(sb-c::input-file &key sb-c::output-file &allow-other-keys)
 ```

@@ -7,6 +7,6 @@
 > is only included for backwards compatibility.
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

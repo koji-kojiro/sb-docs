@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PREVIOUS CURRENT &REST INITARGS)
+```cl
+(sb-pcl::previous sb-pcl::current &rest sb-pcl::initargs)
 ```

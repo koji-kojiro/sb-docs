@@ -4,6 +4,7 @@
 > No description.
 
 ### Value
-```
-((1 . SYMBOL-VALUE) (3 . SYMBOL-INFO) (4 . SYMBOL-NAME) (5 . SYMBOL-PACKAGE))
+```cl
+((1 . symbol-value) (3 . sb-kernel:symbol-info) (4 . symbol-name)
+ (5 . symbol-package))
 ```

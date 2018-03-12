@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DST TZ)
+```cl
+(sb-impl::dst sb-impl::tz)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(F EX SAME-ARG)
+```cl
+(sb-c::f sb-c::ex sb-c::same-arg)
 ```

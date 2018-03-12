@@ -4,6 +4,6 @@
 > Return the total number of elements in the Array.
 
 ### Lambda list
-```
-(ARRAY)
+```cl
+(array)
 ```

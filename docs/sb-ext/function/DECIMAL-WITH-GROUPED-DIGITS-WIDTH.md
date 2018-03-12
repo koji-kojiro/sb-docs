@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE &KEY COMMA-INTERVAL)
+```cl
+(sb-impl::value &key sb-impl::comma-interval)
 ```

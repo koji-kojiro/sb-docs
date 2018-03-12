@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (DESCRIPTION DESCRIPTION) (VAR VAR) (COUNT COUNT)
- (LEVEL LEVEL) (ACTION ACTION))
+```cl
+(&key (:name #:name) (:description #:description) (:var #:var)
+ (:count #:count) (:level #:level) (:action #:action))
 ```

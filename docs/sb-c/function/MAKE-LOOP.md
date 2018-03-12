@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (KIND KIND) (HEAD HEAD) (TAIL TAIL) (EXITS EXITS) (SUPERIOR SUPERIOR)
- (INFERIORS INFERIORS) (DEPTH DEPTH) (BLOCKS BLOCKS) (INFO INFO))
+```cl
+(&key (:kind #:kind) (:head #:head) (:tail #:tail) (:exits #:exits)
+ (:superior #:superior) (:inferiors #:inferiors) (:depth #:depth)
+ (:blocks #:blocks) (:info #:info))
 ```

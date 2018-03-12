@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME DIRECT-SLOTS INCLUDE)
+```cl
+(sb-pcl::name sb-pcl::direct-slots sb-pcl::include)
 ```

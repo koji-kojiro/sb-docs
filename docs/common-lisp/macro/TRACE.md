@@ -84,6 +84,6 @@
 > The -AFTER and -ALL forms can use SB-DEBUG:ARG.
 
 ### Lambda list
-```
-(&REST SPECS)
+```cl
+(&rest sb-debug::specs)
 ```

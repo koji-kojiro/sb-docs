@@ -4,8 +4,9 @@
 > No description.
 
 ### Lambda list
-```
-((METHOD-ARGS NEXT-METHODS
-  (&KEY CALL-NEXT-METHOD-P SETQ-P PARAMETERS-SETQD APPLYP METHOD-CELL))
- &BODY BODY)
+```cl
+((sb-pcl::method-args sb-pcl::next-methods
+  (&key sb-pcl::call-next-method-p sb-pcl::setq-p
+   sb-pcl::parameters-setqd sb-pcl::applyp sb-pcl::method-cell))
+ &body sb-pcl::body)
 ```

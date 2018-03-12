@@ -4,6 +4,6 @@
 > The name of the semaphore INSTANCE. Setfable.
 
 ### Lambda list
-```
-(INSTANCE)
+```cl
+(sb-kernel:instance)
 ```

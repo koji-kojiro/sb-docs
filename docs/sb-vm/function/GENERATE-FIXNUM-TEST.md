@@ -4,6 +4,6 @@
 > Set the Z flag if VALUE is fixnum
 
 ### Lambda list
-```
-(VALUE)
+```cl
+(sb-vm::value)
 ```

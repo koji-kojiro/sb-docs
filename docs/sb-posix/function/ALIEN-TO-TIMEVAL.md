@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ALIEN &OPTIONAL INSTANCE)
+```cl
+(sb-alien:alien &optional sb-posix::instance)
 ```

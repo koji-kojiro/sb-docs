@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<FUNCALLABLE-STANDARD-CLASS SB-MOP:FUNCALLABLE-STANDARD-OBJECT>
+```cl
+#<sb-mop:funcallable-standard-class sb-mop:funcallable-standard-object>
 ```

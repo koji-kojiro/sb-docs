@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(METAOBJECT FUNCTION)
+```cl
+(sb-mop:metaobject function)
 ```

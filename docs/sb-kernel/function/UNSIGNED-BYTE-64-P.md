@@ -4,6 +4,6 @@
 > Return true if OBJECT is an UNSIGNED-BYTE-64, and NIL otherwise.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

@@ -4,6 +4,6 @@
 > What case should the printer should use default?
 
 ### Value
-```
-UPCASE
+```cl
+:upcase
 ```

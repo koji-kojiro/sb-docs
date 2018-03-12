@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CALL-TYPE TYPE &OPTIONAL *CTYPE-TEST-FUN* *LOSSAGE-FUN* *UNWINNAGE-FUN*)
+```cl
+(sb-c::call-type type &optional sb-c::*ctype-test-fun*
+ sb-c::*lossage-fun* sb-c::*unwinnage-fun*)
 ```

@@ -4,10 +4,11 @@
 > Common base class of socket related conditions.
 
 ### Precedence list
-```
-(SOCKET-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-bsd-sockets:socket-error error serious-condition condition
+                             sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(ERRNO SYMBOL SYSCALL)
+```cl
+(:errno :symbol :syscall)
 ```

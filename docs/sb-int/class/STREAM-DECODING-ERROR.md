@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(STREAM-DECODING-ERROR STREAM-ERROR CHARACTER-DECODING-ERROR
- CHARACTER-CODING-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:stream-decoding-error stream-error
+ sb-int:character-decoding-error sb-int:character-coding-error error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(EXTERNAL-FORMAT OCTETS STREAM)
+```cl
+(:external-format :octets :stream)
 ```

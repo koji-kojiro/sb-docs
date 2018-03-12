@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TEMPLATE CALL SAFE-P)
+```cl
+(sb-c::template sb-c:call sb-c::safe-p)
 ```

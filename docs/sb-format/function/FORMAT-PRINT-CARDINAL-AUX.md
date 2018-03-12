@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM N PERIOD ERR)
+```cl
+(stream sb-format::n sb-format::period sb-format::err)
 ```

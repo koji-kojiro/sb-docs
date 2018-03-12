@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(PROGRAM ARGV STDIN STDOUT STDERR SEARCH ENVP PTY-NAME WAIT DIR)
+```cl
+(sb-impl::program sb-impl::argv sb-impl::stdin sb-impl::stdout
+ sb-impl::stderr search sb-impl::envp sb-impl::pty-name sb-impl::wait
+ sb-impl::dir)
 ```

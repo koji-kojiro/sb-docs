@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KEYWORDS-AND-FORMS ENVIRONMENT UNIVERSE)
+```cl
+(sb-loop::keywords-and-forms sb-loop::environment sb-loop::universe)
 ```

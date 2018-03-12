@@ -10,6 +10,6 @@
 > by ALLOW-WITH-INTERRUPTS.
 
 ### Lambda list
-```
-(&BODY BODY)
+```cl
+(&body sb-unix::body)
 ```

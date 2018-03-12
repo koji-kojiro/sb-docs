@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INSTS &OPTIONAL INITIAL-MASK)
+```cl
+(sb-disassem::insts &optional sb-disassem::initial-mask)
 ```

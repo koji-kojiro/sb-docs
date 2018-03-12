@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(INDEX READ-ONLY SAFE-P ALWAYS-BOUNDP RSD-INDEX)
+```cl
+(sb-int:index sb-kernel::read-only sb-kernel::safe-p
+ sb-kernel::always-boundp sb-kernel::rsd-index)
 ```

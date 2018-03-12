@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(FUNCTION-REDEFINITION-WARNING REDEFINITION-WARNING STYLE-WARNING WARNING
- CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel::function-redefinition-warning
+ sb-kernel:redefinition-warning style-warning warning condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME NEW-LOCATION NEW-FUNCTION)
+```cl
+(:name :new-location :new-function)
 ```

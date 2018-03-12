@@ -20,6 +20,6 @@
 > the elements are visited in the opposite order.
 
 ### Lambda list
-```
-(SEQUENCE &KEY FROM-END START END)
+```cl
+(sequence &key sb-impl::from-end sb-impl::start sb-impl::end)
 ```

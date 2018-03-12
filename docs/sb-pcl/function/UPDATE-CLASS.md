@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS FINALIZEP)
+```cl
+(class sb-pcl::finalizep)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM &OPTIONAL CHARPOS)
+```cl
+(stream &optional sb-kernel:charpos)
 ```

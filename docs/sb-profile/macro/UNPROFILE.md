@@ -8,6 +8,6 @@
 > profiled functions.
 
 ### Lambda list
-```
-(&REST NAMES)
+```cl
+(&rest sb-profile::names)
 ```

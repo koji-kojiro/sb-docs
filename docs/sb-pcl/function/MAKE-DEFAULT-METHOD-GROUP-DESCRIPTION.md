@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PATTERNS)
+```cl
+(sb-pcl::patterns)
 ```

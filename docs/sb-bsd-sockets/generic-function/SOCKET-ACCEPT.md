@@ -5,6 +5,6 @@
 > socket and the peer address as multiple values
 
 ### Lambda list
-```
-(SOCKET)
+```cl
+(sb-bsd-sockets:socket)
 ```

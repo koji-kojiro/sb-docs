@@ -4,8 +4,9 @@
 > No description.
 
 ### Value
-```
-(STANDARD-METHOD STANDARD-READER-METHOD STANDARD-WRITER-METHOD
- STANDARD-BOUNDP-METHOD GLOBAL-READER-METHOD GLOBAL-WRITER-METHOD
- GLOBAL-BOUNDP-METHOD)
+```cl
+(standard-method sb-mop:standard-reader-method
+ sb-mop:standard-writer-method sb-pcl::standard-boundp-method
+ sb-pcl::global-reader-method sb-pcl::global-writer-method
+ sb-pcl::global-boundp-method)
 ```

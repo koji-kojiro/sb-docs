@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(VARIABLE FORM &KEY DEFAULT EXPLANATION CONDITION)
+```cl
+(variable sb-sys::form &key sb-sys::default sb-sys::explanation
+ condition)
 ```

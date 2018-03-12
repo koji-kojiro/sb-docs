@@ -5,6 +5,7 @@
 > universal time, which is returned.
 
 ### Lambda list
-```
-(SECOND MINUTE HOUR DATE MONTH YEAR &OPTIONAL TIME-ZONE)
+```cl
+(second sb-impl::minute sb-impl::hour sb-impl::date sb-impl::month
+        sb-impl::year &optional sb-impl::time-zone)
 ```

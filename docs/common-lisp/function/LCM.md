@@ -5,6 +5,6 @@
 > arguments is defined to be 1.
 
 ### Lambda list
-```
-(&REST INTEGERS)
+```cl
+(&rest sb-kernel::integers)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INDEX STREAM)
+```cl
+(sb-int:index stream)
 ```

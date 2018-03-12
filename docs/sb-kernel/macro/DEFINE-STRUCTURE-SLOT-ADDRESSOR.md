@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME &KEY STRUCTURE SLOT)
+```cl
+(sb-impl::name &key structure sb-alien:slot)
 ```

@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(NAME DEBUG-NAME LAMBDA-LIST DEBUG-LAMBDA-LIST ENV DECLARATIONS DOCUMENTATION
- BODY SOURCE-LOCATION)
+```cl
+(sb-eval::name sb-eval::debug-name sb-eval::lambda-list
+ sb-eval::debug-lambda-list sb-eval::env sb-eval::declarations
+ documentation sb-eval::body sb-eval::source-location)
 ```

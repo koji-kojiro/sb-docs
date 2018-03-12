@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME KEYFORM KEYFORM-VALUE CLAUSES KEYS ERRORP PROCEEDP EXPECTED-TYPE)
+```cl
+(sb-impl::name sb-impl::keyform sb-impl::keyform-value sb-impl::clauses
+ sb-impl::keys sb-impl::errorp sb-impl::proceedp sb-impl::expected-type)
 ```

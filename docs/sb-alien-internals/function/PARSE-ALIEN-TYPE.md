@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE ENV)
+```cl
+(type sb-alien::env)
 ```

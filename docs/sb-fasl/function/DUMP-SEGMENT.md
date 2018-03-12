@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT CODE-LENGTH FASL-OUTPUT)
+```cl
+(sb-assem:segment sb-fasl::code-length sb-fasl:fasl-output)
 ```

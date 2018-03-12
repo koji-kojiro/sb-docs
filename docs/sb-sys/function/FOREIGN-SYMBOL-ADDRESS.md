@@ -12,6 +12,6 @@
 > On non-linkage-table ports signals an error if the symbol isn't found.
 
 ### Lambda list
-```
-(NAME &OPTIONAL DATAP)
+```cl
+(sb-impl::name &optional sb-impl::datap)
 ```

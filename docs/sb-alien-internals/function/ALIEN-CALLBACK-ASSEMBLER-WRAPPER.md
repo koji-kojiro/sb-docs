@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INDEX RESULT-TYPE ARGUMENT-TYPES)
+```cl
+(sb-int:index sb-vm::result-type sb-vm::argument-types)
 ```

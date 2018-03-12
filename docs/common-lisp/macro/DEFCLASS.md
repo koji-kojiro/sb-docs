@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME DIRECT-SUPERCLASSES DIRECT-SLOTS &REST OPTIONS)
+```cl
+(sb-pcl::name sb-pcl::direct-superclasses sb-pcl::direct-slots &rest
+ sb-pcl::options)
 ```

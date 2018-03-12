@@ -4,7 +4,8 @@
 > No description.
 
 ### Value
-```
-(TRAPS (OVERFLOW INVALID DIVIDE-BY-ZERO) ROUNDING-MODE NEAREST
- CURRENT-EXCEPTIONS (INEXACT) ACCRUED-EXCEPTIONS (INEXACT) FAST-MODE NIL)
+```cl
+(:traps (:overflow :invalid :divide-by-zero) :rounding-mode :nearest
+ :current-exceptions (:inexact) :accrued-exceptions (:inexact)
+ :fast-mode nil)
 ```

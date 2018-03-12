@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME &OPTIONAL TEMPLATE)
+```cl
+(sb-walker::name &optional sb-walker::template)
 ```

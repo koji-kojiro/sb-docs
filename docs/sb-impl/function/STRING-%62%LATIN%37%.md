@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(STRING SSTART SEND GET-BYTES NULL-PADDING)
+```cl
+(string sb-impl::sstart sb-impl::send sb-impl::get-bytes
+        sb-impl::null-padding)
 ```

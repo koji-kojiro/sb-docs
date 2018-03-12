@@ -4,6 +4,6 @@
 > Return the logarithm of NUMBER in the base BASE, which defaults to e.
 
 ### Lambda list
-```
-(NUMBER &OPTIONAL BASE)
+```cl
+(number &optional sb-kernel::base)
 ```

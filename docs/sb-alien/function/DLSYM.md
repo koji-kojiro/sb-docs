@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HANDLE SYMBOL)
+```cl
+(sb-alien::handle symbol)
 ```

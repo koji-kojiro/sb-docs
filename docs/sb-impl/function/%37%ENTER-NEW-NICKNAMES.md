@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PACKAGE NICKNAMES)
+```cl
+(package sb-impl::nicknames)
 ```

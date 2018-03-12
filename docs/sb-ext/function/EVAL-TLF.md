@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ORIGINAL-EXP TLF-INDEX &OPTIONAL LEXENV)
+```cl
+(sb-impl::original-exp sb-impl::tlf-index &optional sb-kernel:lexenv)
 ```

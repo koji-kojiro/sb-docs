@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-EXPANDER-NEXT-ARG
+```cl
+sb-format::expander-next-arg
 ```

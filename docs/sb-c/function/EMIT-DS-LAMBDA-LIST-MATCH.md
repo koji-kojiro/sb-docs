@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INPUT DS-LAMBDA-LIST)
+```cl
+(sb-c::input sb-c::ds-lambda-list)
 ```

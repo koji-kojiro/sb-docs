@@ -4,9 +4,9 @@
 > No description.
 
 ### Value
-```
-#S(SB-C::MODULAR-CLASS
-   :FUNS #<HASH-TABLE :TEST EQ :COUNT 11 {1001034943}>
-   :VERSIONS #<HASH-TABLE :TEST EQ :COUNT 0 {10010349D3}>
-   :WIDTHS NIL)
+```cl
+#s(sb-c::modular-class
+   :funs #<hash-table :test eq :count 11 {1001034943}>
+   :versions #<hash-table :test eq :count 0 {10010349d3}>
+   :widths nil)
 ```

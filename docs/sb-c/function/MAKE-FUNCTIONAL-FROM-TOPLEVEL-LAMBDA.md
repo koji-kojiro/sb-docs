@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LAMBDA-EXPRESSION &KEY NAME PATH)
+```cl
+(sb-c::lambda-expression &key sb-c::name sb-c::path)
 ```

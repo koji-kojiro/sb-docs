@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THUNK FRAME)
+```cl
+(sb-debug::thunk sb-debug::frame)
 ```

@@ -4,6 +4,6 @@
 > Extract the real part of a number.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

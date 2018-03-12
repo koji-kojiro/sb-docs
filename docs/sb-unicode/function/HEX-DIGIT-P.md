@@ -6,6 +6,6 @@
 > are excluded.
 
 ### Lambda list
-```
-(CHARACTER &KEY ASCII)
+```cl
+(character &key sb-unicode::ascii)
 ```

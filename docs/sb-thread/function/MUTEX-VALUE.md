@@ -5,6 +5,6 @@
 > stale value, use MUTEX-OWNER instead.
 
 ### Lambda list
-```
-(MUTEX)
+```cl
+(sb-thread:mutex)
 ```

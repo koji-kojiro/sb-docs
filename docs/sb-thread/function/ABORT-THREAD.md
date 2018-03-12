@@ -21,6 +21,6 @@
 > See also: RETURN-FROM-THREAD and SB-EXT:EXIT.
 
 ### Lambda list
-```
-(&KEY ALLOW-EXIT)
+```cl
+(&key sb-thread::allow-exit)
 ```

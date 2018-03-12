@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EMF FORMAT ARGS)
+```cl
+(sb-pcl::emf format sb-pcl::args)
 ```

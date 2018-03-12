@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM TLF-NUMBER)
+```cl
+(sb-kernel:form sb-di::tlf-number)
 ```

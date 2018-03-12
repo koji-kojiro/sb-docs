@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HASH-TABLE)
+```cl
+(hash-table)
 ```

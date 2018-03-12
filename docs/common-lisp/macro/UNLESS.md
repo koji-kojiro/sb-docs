@@ -5,6 +5,6 @@
 > evaluated as a PROGN.
 
 ### Lambda list
-```
-(TEST &BODY FORMS)
+```cl
+(sb-impl::test &body sb-impl::forms)
 ```

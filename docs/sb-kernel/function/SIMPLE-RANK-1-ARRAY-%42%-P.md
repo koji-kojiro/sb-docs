@@ -4,6 +4,6 @@
 > Return true if OBJECT is a SIMPLE-RANK-1-ARRAY-*, and NIL otherwise.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

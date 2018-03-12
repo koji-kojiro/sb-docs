@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NUMBER EMITTER ATTRIBUTES DELAY)
+```cl
+(number sb-assem::emitter sb-assem::attributes sb-int:delay)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(GF ARG-INFO NEW-METHOD METHODS WAS-VALID-P FIRST-P)
+```cl
+(sb-pcl::gf sb-pcl::arg-info sb-pcl::new-method sb-pcl::methods
+ sb-pcl::was-valid-p sb-pcl::first-p)
 ```

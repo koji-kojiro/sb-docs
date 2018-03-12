@@ -4,6 +4,6 @@
 > Return true if the float X is a NaN (Not a Number).
 
 ### Lambda list
-```
-(X)
+```cl
+(sb-kernel::x)
 ```

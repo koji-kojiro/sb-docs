@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SECS NSECS)
+```cl
+(sb-unix::secs sb-unix::nsecs)
 ```

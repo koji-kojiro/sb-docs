@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ALLOC-TN SIZE NODE &OPTIONAL DYNAMIC-EXTENT LOWTAG)
+```cl
+(sb-vm::alloc-tn sb-vm::size sb-vm::node &optional dynamic-extent
+ sb-vm::lowtag)
 ```

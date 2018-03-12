@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(SIMPLE-ARRAY ARRAY T)
+```cl
+(simple-array array t)
 ```

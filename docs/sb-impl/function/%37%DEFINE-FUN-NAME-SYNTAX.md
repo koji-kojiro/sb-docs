@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SYMBOL CHECKER)
+```cl
+(symbol sb-impl::checker)
 ```

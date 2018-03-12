@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK LOOP)
+```cl
+(block loop)
 ```

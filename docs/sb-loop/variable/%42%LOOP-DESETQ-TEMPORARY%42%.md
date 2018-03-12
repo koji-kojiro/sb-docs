@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-LOOP-DESETQ-TEMP
+```cl
+#:loop-desetq-temp
 ```

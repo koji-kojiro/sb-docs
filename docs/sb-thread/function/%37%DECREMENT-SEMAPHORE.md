@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SEMAPHORE N WAIT NOTIFICATION CONTEXT)
+```cl
+(sb-thread:semaphore sb-thread::n sb-thread::wait
+ sb-thread::notification sb-thread::context)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WHERE OLD)
+```cl
+(sb-unix::where sb-unix::old)
 ```

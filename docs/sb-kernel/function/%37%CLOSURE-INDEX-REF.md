@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLOSURE INDEX)
+```cl
+(sb-kernel:closure sb-int:index)
 ```

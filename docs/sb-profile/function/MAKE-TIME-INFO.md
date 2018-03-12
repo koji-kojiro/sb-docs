@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (CALLS CALLS) (SECONDS SECONDS) (CONSING CONSING)
- (GC-RUN-TIME GC-RUN-TIME))
+```cl
+(&key (:name #:name) (:calls #:calls) (:seconds #:seconds)
+ (:consing #:consing) (:gc-run-time #:gc-run-time))
 ```

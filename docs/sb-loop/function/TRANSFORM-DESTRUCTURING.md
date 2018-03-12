@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TREE)
+```cl
+(sb-loop::tree)
 ```

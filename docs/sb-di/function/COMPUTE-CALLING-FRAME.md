@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALLER RA UP-FRAME &OPTIONAL SAVEDP)
+```cl
+(sb-di::caller sb-di::ra sb-di::up-frame &optional sb-di::savedp)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT INPUT-STREAM OUTPUT-STREAM)
+```cl
+(sb-impl::object sb-impl::input-stream sb-impl::output-stream)
 ```

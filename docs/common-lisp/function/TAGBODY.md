@@ -10,6 +10,6 @@
 > STATEMENT must be a list. Other objects are illegal within the body.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

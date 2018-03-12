@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ABORT-P)
+```cl
+(sb-c::abort-p)
 ```

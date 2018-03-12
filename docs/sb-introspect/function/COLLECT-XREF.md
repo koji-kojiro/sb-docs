@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WANTED-KIND WANTED-NAME)
+```cl
+(sb-introspect::wanted-kind sb-introspect::wanted-name)
 ```

@@ -6,6 +6,6 @@
 > optionally be specified, giving the equivalent of C pointer arithmetic.
 
 ### Lambda list
-```
-(ALIEN &REST INDICES)
+```cl
+(sb-alien:alien &rest sb-alien::indices)
 ```

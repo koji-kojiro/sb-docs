@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DEST SRC N)
+```cl
+(sb-impl::dest sb-impl::src sb-impl::n)
 ```

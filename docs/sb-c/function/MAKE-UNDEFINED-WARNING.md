@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (KIND KIND) (COUNT COUNT) (WARNINGS WARNINGS))
+```cl
+(&key (:name #:name) (:kind #:kind) (:count #:count)
+ (:warnings #:warnings))
 ```

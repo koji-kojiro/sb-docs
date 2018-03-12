@@ -5,6 +5,6 @@
 > system data structures.
 
 ### Lambda list
-```
-(PACKAGE-DESIGNATOR)
+```cl
+(sb-kernel:package-designator)
 ```

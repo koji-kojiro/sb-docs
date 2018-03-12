@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COUNTER)
+```cl
+(sb-profile::counter)
 ```

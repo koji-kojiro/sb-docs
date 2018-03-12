@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DISP-CHAR READTABLE &OPTIONAL ERRORP)
+```cl
+(sb-impl::disp-char readtable &optional sb-impl::errorp)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INTERFERENCE-GRAPH)
+```cl
+(sb-regalloc::interference-graph)
 ```

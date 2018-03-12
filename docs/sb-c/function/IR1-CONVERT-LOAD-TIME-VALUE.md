@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM &OPTIONAL READ-ONLY-P)
+```cl
+(sb-kernel:form &optional sb-c::read-only-p)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK FINAL-PASS-P)
+```cl
+(block sb-c::final-pass-p)
 ```

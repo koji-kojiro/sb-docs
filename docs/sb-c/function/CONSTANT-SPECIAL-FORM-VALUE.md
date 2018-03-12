@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FORM ENVIRONMENT ENVP)
+```cl
+(sb-kernel:form sb-c::environment sb-c::envp)
 ```

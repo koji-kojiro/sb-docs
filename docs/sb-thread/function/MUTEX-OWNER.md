@@ -8,6 +8,6 @@
 > HOLDING-MUTEX-P.
 
 ### Lambda list
-```
-(MUTEX)
+```cl
+(sb-thread:mutex)
 ```

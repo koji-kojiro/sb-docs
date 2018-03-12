@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PROTO-GF PROTO-METHOD METHOD-LAMBDA INITARGS ENV)
+```cl
+(sb-pcl::proto-gf sb-pcl::proto-method sb-pcl::method-lambda
+ sb-pcl::initargs sb-pcl::env)
 ```

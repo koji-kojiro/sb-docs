@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(SYSTEM-AREA-POINTER T)
+```cl
+(sb-sys:system-area-pointer t)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DIR &OPTIONAL ERRORP NAMESTRING)
+```cl
+(sb-unix::dir &optional sb-unix::errorp namestring)
 ```

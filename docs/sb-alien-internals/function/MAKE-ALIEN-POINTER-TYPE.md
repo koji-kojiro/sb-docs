@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY CLASS BITS ALIGNMENT TO)
+```cl
+(&key class sb-alien::bits sb-alien::alignment sb-alien::to)
 ```

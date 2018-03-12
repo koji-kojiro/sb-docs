@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OWRAPPER STATE NWRAPPER)
+```cl
+(sb-pcl::owrapper sb-pcl::state sb-pcl::nwrapper)
 ```

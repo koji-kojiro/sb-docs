@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (PATHNAME PATHNAME) (NAMESTRING NAMESTRING) (HANDLE HANDLE)
- (DONT-SAVE DONT-SAVE))
+```cl
+(&key (:pathname #:pathname) (:namestring #:namestring)
+ (:handle #:handle) (:dont-save #:dont-save))
 ```

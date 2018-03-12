@@ -6,6 +6,6 @@
 > exists that causes WARN to immediately return NIL.
 
 ### Lambda list
-```
-(DATUM &REST ARGUMENTS)
+```cl
+(sb-kernel::datum &rest sb-kernel::arguments)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(START-STATE INDEX SYM-VEC PKGLIST)
+```cl
+(sb-impl::start-state sb-int:index sb-impl::sym-vec sb-impl::pkglist)
 ```

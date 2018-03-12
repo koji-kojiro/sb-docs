@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION &REST SUBSPACES)
+```cl
+(function &rest sb-vm::subspaces)
 ```

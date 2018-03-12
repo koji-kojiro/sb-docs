@@ -4,6 +4,7 @@
 > A list of symbols used as lambda list keywords in SBCL.
 
 ### Value
-```
-(&ALLOW-OTHER-KEYS &AUX &BODY &ENVIRONMENT &KEY &MORE &OPTIONAL &REST &WHOLE)
+```cl
+(&allow-other-keys &aux &body &environment &key sb-int:&more &optional
+ &rest &whole)
 ```

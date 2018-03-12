@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAMESTRING INDICES)
+```cl
+(namestring sb-c::indices)
 ```

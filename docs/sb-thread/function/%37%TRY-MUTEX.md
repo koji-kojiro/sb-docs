@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(MUTEX NEW-OWNER)
+```cl
+(sb-thread:mutex sb-thread::new-owner)
 ```

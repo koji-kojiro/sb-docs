@@ -4,8 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (ANSWER-VARIABLE ANSWER-VARIABLE) (TYPE TYPE)
- (TEMP-VARIABLE TEMP-VARIABLE) (FLAG-VARIABLE FLAG-VARIABLE)
- (OPERATIONS OPERATIONS) (INFINITY-DATA INFINITY-DATA))
+```cl
+(&key (:answer-variable #:answer-variable) (:type #:type)
+ (:temp-variable #:temp-variable) (:flag-variable #:flag-variable)
+ (:operations #:operations) (:infinity-data #:infinity-data))
 ```

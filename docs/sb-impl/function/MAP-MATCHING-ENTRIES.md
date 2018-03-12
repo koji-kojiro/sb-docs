@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUNCTION DIRECTORY MATCH-NAME MATCH-TYPE)
+```cl
+(function directory sb-impl::match-name sb-impl::match-type)
 ```

@@ -8,6 +8,6 @@
 > destructuring lambda list, and the FORMS evaluate to the expansion.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

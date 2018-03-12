@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE CLASS)
+```cl
+(sb-pcl::new-value class)
 ```

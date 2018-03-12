@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR &OPTIONAL ALWAYS-SHAREABLE)
+```cl
+(vector &optional sb-impl::always-shareable)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VARLIST ENDLIST &REST BODY)
+```cl
+(sb-impl::varlist sb-impl::endlist &rest sb-impl::body)
 ```

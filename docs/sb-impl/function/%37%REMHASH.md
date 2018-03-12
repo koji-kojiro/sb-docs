@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KEY HASH-TABLE)
+```cl
+(sb-impl::key hash-table)
 ```

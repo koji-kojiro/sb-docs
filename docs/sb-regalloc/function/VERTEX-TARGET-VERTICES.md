@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VERTEX TN-OFFSET)
+```cl
+(sb-regalloc::vertex sb-c:tn-offset)
 ```

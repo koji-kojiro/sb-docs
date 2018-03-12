@@ -6,6 +6,6 @@
 > the dribble file, and quits logging.
 
 ### Lambda list
-```
-(&OPTIONAL PATHNAME &KEY IF-EXISTS)
+```cl
+(&optional pathname &key sb-impl::if-exists)
 ```

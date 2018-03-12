@@ -4,6 +4,6 @@
 > Coerce the Object to an object of type Output-Type-Spec.
 
 ### Lambda list
-```
-(OBJECT OUTPUT-TYPE-SPEC)
+```cl
+(sb-impl::object sb-impl::output-type-spec)
 ```

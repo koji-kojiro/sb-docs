@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FROBS)
+```cl
+(sb-loop::frobs)
 ```

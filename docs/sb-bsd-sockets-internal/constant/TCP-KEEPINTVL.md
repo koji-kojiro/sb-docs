@@ -4,6 +4,6 @@
 > Seconds between keepalive probes.
 
 ### Value
-```
+```cl
 5
 ```

@@ -5,11 +5,11 @@
 > unavailable.
 
 ### Precedence list
-```
-(LAMBDA-LIST-UNAVAILABLE DEBUG-CONDITION SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-di:lambda-list-unavailable sb-di:debug-condition serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(DEBUG-FUN)
+```cl
+(:debug-fun)
 ```

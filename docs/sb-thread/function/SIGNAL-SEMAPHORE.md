@@ -5,6 +5,6 @@
 > on this semaphore, then N of them is woken up.
 
 ### Lambda list
-```
-(SEMAPHORE &OPTIONAL N)
+```cl
+(sb-thread:semaphore &optional sb-thread::n)
 ```

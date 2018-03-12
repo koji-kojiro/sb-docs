@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VAR-SPECS &BODY CASES)
+```cl
+(sb-kernel::var-specs &body sb-kernel::cases)
 ```

@@ -4,6 +4,6 @@
 > Boole function op, makes BOOLE return logandc1 of integer1 and integer2.
 
 ### Value
-```
+```cl
 12
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE FUNC)
+```cl
+(sb-impl::new-value sb-impl::func)
 ```

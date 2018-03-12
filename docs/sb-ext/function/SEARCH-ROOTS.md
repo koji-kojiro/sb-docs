@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(WPS &OPTIONAL CRITERION)
+```cl
+(sb-ext::wps &optional sb-ext::criterion)
 ```

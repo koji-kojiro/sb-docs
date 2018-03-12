@@ -5,6 +5,6 @@
 > session.
 
 ### Lambda list
-```
-(&OPTIONAL SESSION)
+```cl
+(&optional sb-thread::session)
 ```

@@ -5,6 +5,6 @@
 > if PACKAGE doesn't designate a valid package.
 
 ### Lambda list
-```
-(PACKAGE)
+```cl
+(package)
 ```

@@ -4,12 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(FORMAT-TOO-MANY-ARGS-WARNING FORMAT-ARGS-MISMATCH REFERENCE-CONDITION
- SIMPLE-STYLE-WARNING SIMPLE-CONDITION STYLE-WARNING WARNING CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-int:format-too-many-args-warning sb-int:format-args-mismatch
+ sb-int:reference-condition sb-int:simple-style-warning
+ simple-condition style-warning warning condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS REFERENCES)
+```cl
+(:format-control :format-arguments :references)
 ```

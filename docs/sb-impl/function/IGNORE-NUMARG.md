@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SUB-CHAR NUMARG)
+```cl
+(sb-impl::sub-char sb-impl::numarg)
 ```

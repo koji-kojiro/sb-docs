@@ -8,6 +8,7 @@
 > returns the values NIL and T.
 
 ### Lambda list
-```
-((RESTART-NAME FORMAT-STRING &REST FORMAT-ARGUMENTS) &BODY FORMS)
+```cl
+((restart-name sb-impl::format-string &rest sb-impl::format-arguments)
+ &body sb-impl::forms)
 ```

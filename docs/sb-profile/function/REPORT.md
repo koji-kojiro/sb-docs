@@ -11,6 +11,6 @@
 > uncalled profiled functions are listed.
 
 ### Lambda list
-```
-(&KEY LIMIT PRINT-NO-CALL-LIST)
+```cl
+(&key sb-profile::limit sb-profile::print-no-call-list)
 ```

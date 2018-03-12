@@ -5,6 +5,6 @@
 > locked. Signals an error if PACKAGE is not a valid package designator
 
 ### Lambda list
-```
-(PACKAGE)
+```cl
+(package)
 ```

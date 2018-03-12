@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM BUFFER START REQUESTED EOF-ERROR-P)
+```cl
+(stream sb-impl::buffer sb-impl::start sb-impl::requested
+ sb-impl::eof-error-p)
 ```

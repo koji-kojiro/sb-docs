@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PROGN-BODY LEXENV)
+```cl
+(sb-impl::progn-body sb-kernel:lexenv)
 ```

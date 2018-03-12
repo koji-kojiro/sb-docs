@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE SEQ &KEY KEY)
+```cl
+(sb-impl::value sb-impl::seq &key sb-impl::key)
 ```

@@ -4,6 +4,6 @@
 > Return T if any of the specified bits in integer are 1's.
 
 ### Lambda list
-```
-(BYTESPEC INTEGER)
+```cl
+(sb-kernel::bytespec integer)
 ```

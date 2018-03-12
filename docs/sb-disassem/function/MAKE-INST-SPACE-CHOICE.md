@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (COMMON-ID COMMON-ID) (SUBSPACE SUBSPACE))
+```cl
+(&key (:common-id #:common-id) (:subspace #:subspace))
 ```

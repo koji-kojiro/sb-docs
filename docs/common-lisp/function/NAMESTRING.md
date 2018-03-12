@@ -4,6 +4,6 @@
 > Construct the full (name)string form PATHNAME.
 
 ### Lambda list
-```
-(PATHNAME)
+```cl
+(pathname)
 ```

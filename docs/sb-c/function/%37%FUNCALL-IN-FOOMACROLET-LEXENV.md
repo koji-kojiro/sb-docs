@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(DEFINITIONIZE-FUN DEFINITIONIZE-KEYWORD DEFINITIONS FUN)
+```cl
+(sb-c::definitionize-fun sb-c::definitionize-keyword sb-c::definitions
+ sb-c::fun)
 ```

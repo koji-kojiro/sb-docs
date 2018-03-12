@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE GEN)
+```cl
+(#:node sb-c::gen)
 ```

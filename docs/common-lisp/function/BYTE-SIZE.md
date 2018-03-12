@@ -4,6 +4,6 @@
 > Return the size part of the byte specifier bytespec.
 
 ### Lambda list
-```
-(BYTESPEC)
+```cl
+(sb-kernel::bytespec)
 ```

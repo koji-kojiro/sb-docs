@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-#'XREF-DATA
+```cl
+#'sb-c::xref-data
 ```

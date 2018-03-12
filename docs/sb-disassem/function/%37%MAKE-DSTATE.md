@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ALIGNMENT ARGUMENT-COLUMN FUN-HOOKS)
+```cl
+(sb-disassem::alignment sb-disassem::argument-column
+ sb-disassem::fun-hooks)
 ```

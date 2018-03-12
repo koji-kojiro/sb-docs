@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE COUNT &REST WARN-ARGUMENTS)
+```cl
+(sb-c::node count &rest sb-c::warn-arguments)
 ```

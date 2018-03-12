@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(SYSCALL-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-posix:syscall-error error serious-condition condition
+                        sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(ERRNO NAME)
+```cl
+(:errno :name)
 ```

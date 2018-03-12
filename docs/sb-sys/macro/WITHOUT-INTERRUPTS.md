@@ -37,6 +37,6 @@
 > (lambda () (with-local-interrupts ...)))
 
 ### Lambda list
-```
-(&BODY BODY)
+```cl
+(&body sb-unix::body)
 ```

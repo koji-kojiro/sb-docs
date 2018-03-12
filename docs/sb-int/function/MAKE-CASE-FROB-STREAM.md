@@ -11,6 +11,6 @@
 > case and everything else to lower case.
 
 ### Lambda list
-```
-(TARGET KIND)
+```cl
+(sb-impl::target sb-impl::kind)
 ```

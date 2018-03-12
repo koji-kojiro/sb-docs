@@ -5,6 +5,6 @@
 > the operating system native pathname conventions.
 
 ### Lambda list
-```
-(PATHSPEC)
+```cl
+(sb-impl::pathspec)
 ```

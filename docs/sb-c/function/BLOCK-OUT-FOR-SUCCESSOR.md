@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PRED SUCC)
+```cl
+(sb-c::pred sb-c::succ)
 ```

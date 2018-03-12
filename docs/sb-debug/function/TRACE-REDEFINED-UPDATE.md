@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FNAME NEW-VALUE)
+```cl
+(sb-debug::fname sb-debug::new-value)
 ```

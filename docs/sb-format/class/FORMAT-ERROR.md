@@ -4,11 +4,13 @@
 > No description.
 
 ### Precedence list
-```
-(FORMAT-ERROR ERROR SERIOUS-CONDITION REFERENCE-CONDITION CONDITION SLOT-OBJECT
-              T)
+```cl
+(sb-format:format-error error serious-condition
+                        sb-int:reference-condition condition
+                        sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES COMPLAINT ARGS CONTROL-STRING OFFSET SECOND-RELATIVE PRINT-BANNER)
+```cl
+(:references :complaint :args :control-string :offset :second-relative
+ :print-banner)
 ```

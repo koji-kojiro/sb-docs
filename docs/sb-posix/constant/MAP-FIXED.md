@@ -4,6 +4,6 @@
 > mmap: map at given location
 
 ### Value
-```
+```cl
 16
 ```

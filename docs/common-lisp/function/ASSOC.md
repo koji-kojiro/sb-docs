@@ -5,6 +5,7 @@
 > the ITEM.
 
 ### Lambda list
-```
-(ITEM ALIST &KEY KEY TEST TEST-NOT)
+```cl
+(sb-impl::item sb-impl::alist &key sb-impl::key sb-impl::test
+ sb-impl::test-not)
 ```

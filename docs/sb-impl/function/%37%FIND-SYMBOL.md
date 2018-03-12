@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRING LENGTH PACKAGE)
+```cl
+(string length package)
 ```

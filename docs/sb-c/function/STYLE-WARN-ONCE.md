@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THING FMT &REST ARGS)
+```cl
+(sb-c::thing sb-c::fmt &rest sb-c::args)
 ```

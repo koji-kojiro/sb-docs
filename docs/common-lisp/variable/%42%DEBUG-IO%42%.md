@@ -4,6 +4,6 @@
 > interactive debugging stream
 
 ### Value
-```
-#<SYNONYM-STREAM :SYMBOL *TERMINAL-IO* {100001F743}>
+```cl
+#<synonym-stream :symbol *terminal-io* {100001f743}>
 ```

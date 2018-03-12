@@ -6,6 +6,6 @@
 > Return VALUE without evaluating it.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

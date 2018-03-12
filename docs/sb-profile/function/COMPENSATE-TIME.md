@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALLS TICKS PROFILE)
+```cl
+(sb-profile::calls sb-profile::ticks sb-profile:profile)
 ```

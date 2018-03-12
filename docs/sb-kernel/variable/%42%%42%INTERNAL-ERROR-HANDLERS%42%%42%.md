@@ -4,23 +4,13 @@
 > No description.
 
 ### Value
-```
-#(0 #<FUNCTION "UNDEFINED-FUN-ERROR" {223980DB}>
-  #<FUNCTION "UNDEFINED-ALIEN-FUN-ERROR" {2239838B}>
-  #<FUNCTION "INVALID-ARG-COUNT-ERROR" {223985CB}>
-  #<FUNCTION "LOCAL-INVALID-ARG-COUNT-ERROR" {22398E3B}>
-  #<FUNCTION "BOGUS-ARG-TO-VALUES-LIST-ERROR" {22398F4B}>
-  #<FUNCTION "UNBOUND-SYMBOL-ERROR" {2239945B}>
-  #<FUNCTION "INVALID-UNWIND-ERROR" {223995EB}>
-  #<FUNCTION "UNSEEN-THROW-TAG-ERROR" {2239969B}>
-  #<FUNCTION "DIVISION-BY-ZERO-ERROR" {2239998B}>
-  #<FUNCTION "OBJECT-NOT-TYPE-ERROR" {22399AFB}>
-  #<FUNCTION "ODD-KEY-ARGS-ERROR" {22399DDB}>
-  #<FUNCTION "UNKNOWN-KEY-ARG-ERROR" {22399EFB}>
-  #<FUNCTION "INVALID-ARRAY-INDEX-ERROR" {2239A52B}>
-  #<FUNCTION "NIL-FUN-RETURNED-ERROR" {223997AB}>
-  #<FUNCTION "NIL-ARRAY-ACCESSED-ERROR" {223998BB}>
-  #<FUNCTION "LAYOUT-INVALID-ERROR" {22399CEB}>
-  #<FUNCTION "TLS-EXHAUSTED-ERROR" {2239A5EB}>
-  #<FUNCTION "FAILED-AVER-ERROR" {2239A67B}>)
+```cl
+#(0 #<function "undefined-fun-error" {223980db}>
+  #<function "undefined-alien-fun-error" {2239838b}>
+  #<function "invalid-arg-count-error" {223985cb}>
+  #<function "local-invalid-arg-count-error" {22398e3b}>
+  #<function "bogus-arg-to-values-list-error" {22398f4b}>
+  #<function "unbound-symbol-error" {2239945b}>
+  #<function "invalid-unwind-error" {223995eb}>
+  #<function "unseen-throw-tag-error" {2239969b}> ..)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(XEP)
+```cl
+(sb-c::xep)
 ```

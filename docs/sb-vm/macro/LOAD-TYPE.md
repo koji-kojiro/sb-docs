@@ -5,6 +5,6 @@
 > byte-ordering issues.
 
 ### Lambda list
-```
-(TARGET SOURCE &OPTIONAL OFFSET)
+```cl
+(sb-vm::target sb-vm::source &optional sb-vm::offset)
 ```

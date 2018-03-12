@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARRAY &REST SUBSCRIPTS)
+```cl
+(array &rest sb-impl::subscripts)
 ```

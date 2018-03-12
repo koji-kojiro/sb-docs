@@ -4,15 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NUMBER NUMBER) (%SOURCE-NAME %SOURCE-NAME) (TYPE TYPE)
- (DEFINED-TYPE DEFINED-TYPE) (WHERE-FROM WHERE-FROM) (REFS REFS)
- (EVER-USED EVER-USED) (EXTENT EXTENT) (INFO INFO) (%DEBUG-NAME %DEBUG-NAME)
- (KIND KIND) (HAS-EXTERNAL-REFERENCES-P HAS-EXTERNAL-REFERENCES-P)
- (ENTRY-FUN ENTRY-FUN) (INLINEP INLINEP) (INLINE-EXPANSION INLINE-EXPANSION)
- (LEXENV LEXENV) (ARG-DOCUMENTATION ARG-DOCUMENTATION)
- (DOCUMENTATION DOCUMENTATION) (ALLOCATOR ALLOCATOR) (PLIST PLIST) (XREF XREF)
- (INLINE-EXPANDED INLINE-EXPANDED) (ARGLIST ARGLIST) (ALLOWP ALLOWP)
- (KEYP KEYP) (MIN-ARGS MIN-ARGS) (MAX-ARGS MAX-ARGS)
- (ENTRY-POINTS ENTRY-POINTS) (MORE-ENTRY MORE-ENTRY) (MAIN-ENTRY MAIN-ENTRY))
+```cl
+(&key (:number #:number) (:%source-name #:%source-name) (:type #:type)
+ (:defined-type #:defined-type) (:where-from #:where-from)
+ (:refs #:refs) (:ever-used #:ever-used) (:extent #:extent)
+ (:info #:info) (:%debug-name #:%debug-name) (:kind #:kind)
+ (:has-external-references-p #:has-external-references-p)
+ (:entry-fun #:entry-fun) (:inlinep #:inlinep)
+ (:inline-expansion #:inline-expansion) (:lexenv #:lexenv)
+ (:arg-documentation #:arg-documentation) ..)
 ```

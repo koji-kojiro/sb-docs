@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((KEY VAL) PLIST &BODY BODY)
+```cl
+((sb-impl::key sb-impl::val) sb-impl::plist &body sb-impl::body)
 ```

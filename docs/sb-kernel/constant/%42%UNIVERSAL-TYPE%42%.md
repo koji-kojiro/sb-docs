@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<NAMED-TYPE T>
+```cl
+#<sb-kernel:named-type t>
 ```

@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(NOT-CONNECTED-ERROR SOCKET-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT
- T)
+```cl
+(sb-bsd-sockets:not-connected-error sb-bsd-sockets:socket-error error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(ERRNO SYMBOL SYMBOL SYSCALL)
+```cl
+(:errno :symbol :symbol :syscall)
 ```

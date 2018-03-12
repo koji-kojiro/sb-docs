@@ -4,6 +4,6 @@
 > Return the length of the given List, or Nil if the List is circular.
 
 ### Lambda list
-```
-(LIST)
+```cl
+(list)
 ```

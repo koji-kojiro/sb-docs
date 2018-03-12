@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HASH-TABLE INDEX)
+```cl
+(hash-table sb-int:index)
 ```

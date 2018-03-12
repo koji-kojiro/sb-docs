@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HEAD LOOP)
+```cl
+(sb-c::head loop)
 ```

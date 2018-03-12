@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PRIMITIVE-TYPE)
+```cl
+(sb-c:primitive-type)
 ```

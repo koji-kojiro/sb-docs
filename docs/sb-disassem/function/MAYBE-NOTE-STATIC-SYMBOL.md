@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ADDRESS DSTATE)
+```cl
+(sb-disassem::address sb-disassem::dstate)
 ```

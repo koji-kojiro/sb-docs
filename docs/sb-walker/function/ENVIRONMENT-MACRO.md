@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ENV MACRO)
+```cl
+(sb-walker::env sb-walker::macro)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEGMENT CONSTANTS OPTIMIZE)
+```cl
+(sb-x86-64-asm::segment sb-x86-64-asm::constants optimize)
 ```

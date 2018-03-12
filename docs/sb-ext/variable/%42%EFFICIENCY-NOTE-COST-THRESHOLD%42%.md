@@ -5,6 +5,6 @@
 > the next alternative that justifies an efficiency note.
 
 ### Value
-```
+```cl
 5
 ```

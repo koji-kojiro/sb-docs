@@ -4,6 +4,6 @@
 > Return a new association list which is EQUAL to ALIST.
 
 ### Lambda list
-```
-(ALIST)
+```cl
+(sb-impl::alist)
 ```

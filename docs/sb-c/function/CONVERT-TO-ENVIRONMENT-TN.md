@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TN TN-PHYSENV)
+```cl
+(sb-c:tn sb-c::tn-physenv)
 ```

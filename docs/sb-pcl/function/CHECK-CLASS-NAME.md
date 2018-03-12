@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(THING &OPTIONAL ALLOW-NIL)
+```cl
+(sb-pcl::thing &optional sb-pcl::allow-nil)
 ```

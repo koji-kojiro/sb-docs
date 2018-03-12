@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY SLOTD TYPECHECK READER WRITER BOUNDP)
+```cl
+(&key sb-pcl::slotd sb-pcl::typecheck sb-pcl::reader sb-pcl::writer
+ boundp)
 ```

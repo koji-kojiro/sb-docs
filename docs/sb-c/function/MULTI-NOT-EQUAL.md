@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PREDICATE ARGS TYPE)
+```cl
+(sb-c::predicate sb-c::args type)
 ```

@@ -4,11 +4,13 @@
 > No description.
 
 ### Precedence list
-```
-(SHORT-METHOD-COMBINATION STANDARD-METHOD-COMBINATION DEFINITION-SOURCE-MIXIN
- METHOD-COMBINATION METAOBJECT STANDARD-OBJECT SLOT-OBJECT T)
+```cl
+(sb-pcl::short-method-combination sb-pcl::standard-method-combination
+ sb-pcl::definition-source-mixin method-combination sb-mop:metaobject
+ standard-object sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(DOCUMENTATION SOURCE TYPE-NAME OPTIONS OPERATOR IDENTITY-WITH-ONE-ARGUMENT)
+```cl
+(:documentation sb-pcl::source :type-name :options :operator
+ :identity-with-one-argument)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LAYOUT SLOT-VECTOR)
+```cl
+(sb-kernel:layout sb-vm::slot-vector)
 ```

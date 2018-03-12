@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(VALUE TARGET NOT-P FUNCTION-P HEADERS &KEY EXCEPT DROP-THROUGH COMPUTE-EAX)
+```cl
+(sb-vm::value sb-vm::target sb-vm::not-p sb-vm::function-p
+ sb-vm::headers &key sb-vm::except sb-vm::drop-through
+ sb-vm::compute-eax)
 ```

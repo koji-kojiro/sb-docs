@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME CLASS-NAME ENV)
+```cl
+(sb-pcl::name class-name sb-pcl::env)
 ```

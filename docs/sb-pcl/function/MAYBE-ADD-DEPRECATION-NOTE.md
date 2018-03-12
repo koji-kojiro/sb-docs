@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAMESPACE NAME DOCUMENTATION)
+```cl
+(sb-pcl::namespace sb-pcl::name documentation)
 ```

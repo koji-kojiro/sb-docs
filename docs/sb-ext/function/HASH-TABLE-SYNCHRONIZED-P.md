@@ -4,6 +4,6 @@
 > Returns T if HASH-TABLE is synchronized.
 
 ### Lambda list
-```
-(HT)
+```cl
+(sb-impl::ht)
 ```

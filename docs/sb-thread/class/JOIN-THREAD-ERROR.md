@@ -6,10 +6,11 @@
 > THREAD-ERROR-THREAD.
 
 ### Precedence list
-```
-(JOIN-THREAD-ERROR THREAD-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-thread:join-thread-error sb-thread:thread-error error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(THREAD PROBLEM)
+```cl
+(:thread :problem)
 ```

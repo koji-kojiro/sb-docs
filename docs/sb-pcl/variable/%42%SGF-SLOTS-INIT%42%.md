@@ -4,7 +4,7 @@
 > No description.
 
 ### Value
-```
-(#<unbound> NIL NIL NIL NIL NIL NIL #<unbound> #<unbound> NIL #<unbound> NIL
- #<MUTEX "GF lock" (free)>)
+```cl
+(#<unbound> nil nil nil nil nil nil #<unbound> #<unbound> nil
+ #<unbound> nil #<sb-thread:mutex "gf lock" (free)>)
 ```

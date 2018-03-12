@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (MIN-ARGS MIN-ARGS) (MAX-ARGS MAX-ARGS) (TYPES TYPES) (KEYS KEYS))
+```cl
+(&key (:min-args #:min-args) (:max-args #:max-args) (:types #:types)
+ (:keys #:keys))
 ```

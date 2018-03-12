@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(ARGUMENTS-OUT-OF-DOMAIN-ERROR ARITHMETIC-ERROR ERROR SERIOUS-CONDITION
- REFERENCE-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:arguments-out-of-domain-error arithmetic-error error
+ serious-condition sb-int:reference-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES OPERATION OPERANDS)
+```cl
+(:references :operation :operands)
 ```

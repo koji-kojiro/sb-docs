@@ -4,6 +4,6 @@
 > Return a string representation of the name of the host in PATHNAME.
 
 ### Lambda list
-```
-(PATHNAME)
+```cl
+(pathname)
 ```

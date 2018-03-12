@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SET1 SET2)
+```cl
+(sb-c::set1 sb-c::set2)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(LIST &KEY CONTEXT ACCEPT CONDITION-CLASS SILENT)
+```cl
+(list &key sb-c::context sb-c::accept sb-c::condition-class
+      sb-c::silent)
 ```

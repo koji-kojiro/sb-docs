@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(SIMPLE-ARRAY-FIXNUM VECTOR SIMPLE-ARRAY ARRAY SEQUENCE T)
+```cl
+(sb-kernel::simple-array-fixnum vector simple-array array sequence t)
 ```

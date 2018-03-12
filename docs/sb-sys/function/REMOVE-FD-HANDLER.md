@@ -4,6 +4,6 @@
 > Removes HANDLER from the list of active handlers.
 
 ### Lambda list
-```
-(HANDLER)
+```cl
+(sb-impl::handler)
 ```

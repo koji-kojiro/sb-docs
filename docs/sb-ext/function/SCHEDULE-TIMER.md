@@ -15,6 +15,7 @@
 > i.e. do not catch up.
 
 ### Lambda list
-```
-(TIMER TIME &KEY REPEAT-INTERVAL ABSOLUTE-P CATCH-UP)
+```cl
+(sb-ext:timer time &key sb-impl::repeat-interval sb-impl::absolute-p
+ sb-impl::catch-up)
 ```

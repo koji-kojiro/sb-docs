@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY LOW HIGH)
+```cl
+(&key sb-c::low sb-c::high)
 ```

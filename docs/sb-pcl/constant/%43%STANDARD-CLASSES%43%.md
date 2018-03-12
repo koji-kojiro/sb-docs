@@ -4,7 +4,8 @@
 > No description.
 
 ### Value
-```
-(STANDARD-METHOD STANDARD-GENERIC-FUNCTION STANDARD-CLASS
- STANDARD-EFFECTIVE-SLOT-DEFINITION STANDARD-DIRECT-SLOT-DEFINITION)
+```cl
+(standard-method standard-generic-function standard-class
+ sb-mop:standard-effective-slot-definition
+ sb-mop:standard-direct-slot-definition)
 ```

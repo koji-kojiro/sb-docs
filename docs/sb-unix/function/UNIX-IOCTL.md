@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD CMD ARG)
+```cl
+(sb-unix:fd sb-unix::cmd sb-unix::arg)
 ```

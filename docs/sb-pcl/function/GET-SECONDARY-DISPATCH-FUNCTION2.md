@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(GF METHODS TYPES METHOD-ALIST-P WRAPPERS-P ALL-APPLICABLE-P ALL-SORTED-P
- FUNCTION-P)
+```cl
+(sb-pcl::gf sb-pcl::methods sb-pcl::types sb-pcl::method-alist-p
+ sb-pcl::wrappers-p sb-pcl::all-applicable-p sb-pcl::all-sorted-p
+ sb-pcl::function-p)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(QUALIFIER)
+```cl
+(sb-pcl::qualifier)
 ```

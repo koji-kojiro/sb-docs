@@ -7,6 +7,6 @@
 > invoked. In that case it will store into PLACE and start over.
 
 ### Lambda list
-```
-(PLACE TYPE &OPTIONAL TYPE-STRING)
+```cl
+(sb-impl::place type &optional sb-impl::type-string)
 ```

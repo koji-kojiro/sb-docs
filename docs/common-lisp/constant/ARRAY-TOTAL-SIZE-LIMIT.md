@@ -4,6 +4,6 @@
 > the exclusive upper bound on the total number of elements in an array
 
 ### Value
-```
+```cl
 4611686018427387901
 ```

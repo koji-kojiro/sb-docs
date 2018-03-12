@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (KIND KIND) (SIZE SIZE) (INDEX INDEX)
- (SIZE-INCREMENT SIZE-INCREMENT) (SIZE-ALIGNMENT SIZE-ALIGNMENT))
+```cl
+(&key (:name #:name) (:kind #:kind) (:size #:size) (:index #:index)
+ (:size-increment #:size-increment) (:size-alignment #:size-alignment))
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X EXP)
+```cl
+(sb-kernel::x exp)
 ```

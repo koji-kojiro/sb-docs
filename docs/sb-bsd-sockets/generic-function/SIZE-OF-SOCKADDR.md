@@ -4,6 +4,6 @@
 > Return the size in bytes of a sockaddr object for SOCKET.
 
 ### Lambda list
-```
-(SOCKET)
+```cl
+(sb-bsd-sockets:socket)
 ```

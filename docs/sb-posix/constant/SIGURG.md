@@ -4,6 +4,6 @@
 > urgent condition present on socket.
 
 ### Value
-```
+```cl
 23
 ```

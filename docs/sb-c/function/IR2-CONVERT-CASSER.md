@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE BLOCK NAME OFFSET LOWTAG)
+```cl
+(#:node block sb-c::name sb-c::offset sb-c::lowtag)
 ```

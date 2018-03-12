@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ACCESSOR-TYPE CACHE)
+```cl
+(sb-pcl::accessor-type sb-pcl::cache)
 ```

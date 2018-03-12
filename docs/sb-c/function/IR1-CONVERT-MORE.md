@@ -4,8 +4,10 @@
 > No description.
 
 ### Lambda list
-```
-(RES DEFAULT-VARS DEFAULT-VALS ENTRY-VARS ENTRY-VALS REST MORE-CONTEXT
- MORE-COUNT KEYS SUPPLIED-P-P BODY AUX-VARS AUX-VALS SOURCE-NAME DEBUG-NAME
- POST-BINDING-LEXENV SYSTEM-LAMBDA)
+```cl
+(sb-c::res sb-c::default-vars sb-c::default-vals sb-c::entry-vars
+ sb-c::entry-vals rest sb-c::more-context sb-c::more-count sb-c::keys
+ sb-c::supplied-p-p sb-c::body sb-c::aux-vars sb-c::aux-vals
+ sb-c::source-name sb-c::debug-name sb-c::post-binding-lexenv
+ sb-c::system-lambda)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Value
-```
-(SYMBOL SYSTEM-AREA-POINTER WEAK-POINTER CODE-COMPONENT FDEFN RANDOM-CLASS)
+```cl
+(symbol sb-sys:system-area-pointer sb-ext:weak-pointer
+ sb-kernel:code-component sb-kernel:fdefn sb-kernel::random-class)
 ```

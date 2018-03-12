@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (NAME NAME) (EXPRESSION EXPRESSION) (GETTER GETTER)
- (VALUES-DOCUMENTATION VALUES-DOCUMENTATION))
+```cl
+(&key (:name #:name) (:expression #:expression) (:getter #:getter)
+ (:values-documentation #:values-documentation))
 ```

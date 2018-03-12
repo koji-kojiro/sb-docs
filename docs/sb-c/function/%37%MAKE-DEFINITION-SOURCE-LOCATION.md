@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAMESTRING TLF-NUM SUBFORM-NUM)
+```cl
+(namestring sb-c::tlf-num sb-c::subform-num)
 ```

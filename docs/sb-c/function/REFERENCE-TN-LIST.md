@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TNS WRITE-P &OPTIONAL MORE)
+```cl
+(sb-c::tns sb-c::write-p &optional sb-c::more)
 ```

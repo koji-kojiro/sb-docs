@@ -7,6 +7,6 @@
 > body, references to a NAME will effectively be replaced with the EXPANSION.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

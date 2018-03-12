@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DSTATE MASK)
+```cl
+(sb-disassem::dstate sb-disassem::mask)
 ```

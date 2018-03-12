@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FP UP-FRAME)
+```cl
+(sb-di::fp sb-di::up-frame)
 ```

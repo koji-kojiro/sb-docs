@@ -4,6 +4,6 @@
 > Extract the imaginary part of a number.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

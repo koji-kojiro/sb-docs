@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(EXTERNAL-FORMAT SAP OFFSET COUNT)
+```cl
+(sb-impl::external-format sb-impl::sap sb-impl::offset count)
 ```

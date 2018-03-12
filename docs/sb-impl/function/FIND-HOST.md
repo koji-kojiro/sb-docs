@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HOST-DESIGNATOR &OPTIONAL ERRORP)
+```cl
+(sb-impl::host-designator &optional sb-impl::errorp)
 ```

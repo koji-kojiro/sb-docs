@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(IMPORT-LIST)
+```cl
+(sb-impl::import-list)
 ```

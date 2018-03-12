@@ -5,6 +5,6 @@
 > SOCKET.
 
 ### Lambda list
-```
-(SOCKET SOCKADDR)
+```cl
+(sb-bsd-sockets:socket sb-bsd-sockets::sockaddr)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SYMBOL NAME)
+```cl
+(symbol sb-bsd-sockets::name)
 ```

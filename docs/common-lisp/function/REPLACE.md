@@ -10,6 +10,7 @@
 > many elements are copied.
 
 ### Lambda list
-```
-(SEQUENCE1 SEQUENCE2 &REST ARGS &KEY START1 END1 START2 END2)
+```cl
+(sb-impl::sequence1 sb-impl::sequence2 &rest sb-impl::args &key
+ sb-impl::start1 sb-impl::end1 sb-impl::start2 sb-impl::end2)
 ```

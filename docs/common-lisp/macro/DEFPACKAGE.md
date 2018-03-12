@@ -19,6 +19,6 @@
 > times.
 
 ### Lambda list
-```
-(PACKAGE &REST OPTIONS)
+```cl
+(package &rest sb-impl::options)
 ```

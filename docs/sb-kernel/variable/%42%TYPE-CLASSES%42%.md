@@ -4,12 +4,13 @@
 > No description.
 
 ### Value
-```
-#(#<TYPE-CLASS SB-KERNEL:CHARACTER-SET> #<TYPE-CLASS SB-KERNEL::NAMED>
-  #<TYPE-CLASS SB-KERNEL::HAIRY> #<TYPE-CLASS SB-KERNEL::NEGATION>
-  #<TYPE-CLASS VALUES> #<TYPE-CLASS FUNCTION> #<TYPE-CLASS NUMBER>
-  #<TYPE-CLASS ARRAY> #<TYPE-CLASS MEMBER> #<TYPE-CLASS CONS>
-  #<TYPE-CLASS SB-KERNEL:CLASSOID> #<TYPE-CLASS SB-KERNEL:CONSTANT>
-  #<TYPE-CLASS INTERSECTION> #<TYPE-CLASS UNION> #<TYPE-CLASS SB-EXT:SIMD-PACK>
-  #<TYPE-CLASS SB-ALIEN:ALIEN>)
+```cl
+#(#<sb-kernel::type-class sb-kernel:character-set>
+  #<sb-kernel::type-class sb-kernel::named>
+  #<sb-kernel::type-class sb-kernel::hairy>
+  #<sb-kernel::type-class sb-kernel::negation>
+  #<sb-kernel::type-class values> #<sb-kernel::type-class function>
+  #<sb-kernel::type-class number> #<sb-kernel::type-class array>
+  #<sb-kernel::type-class member> #<sb-kernel::type-class cons>
+  #<sb-kernel::type-class sb-kernel:classoid> ..)
 ```

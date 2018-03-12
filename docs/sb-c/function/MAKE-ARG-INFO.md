@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (SPECIALP SPECIALP) (KIND KIND) (SUPPLIED-P SUPPLIED-P)
- (SUPPLIED-USED-P SUPPLIED-USED-P) (DEFAULT DEFAULT) (KEY KEY))
+```cl
+(&key (:specialp #:specialp) (:kind #:kind) (:supplied-p #:supplied-p)
+ (:supplied-used-p #:supplied-used-p) (:default #:default) (:key #:key))
 ```

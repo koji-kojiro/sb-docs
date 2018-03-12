@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT STREAM TYPE IDENTITY &OPTIONAL BODY)
+```cl
+(sb-impl::object stream type identity &optional sb-impl::body)
 ```

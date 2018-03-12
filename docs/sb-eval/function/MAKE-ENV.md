@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY PARENT VARS FUNS EXPANDERS SYMBOL-EXPANSIONS TAGS BLOCKS DECLARATIONS)
+```cl
+(&key sb-eval::parent sb-eval::vars sb-eval::funs sb-eval::expanders
+ sb-eval::symbol-expansions sb-eval::tags sb-eval::blocks
+ sb-eval::declarations)
 ```

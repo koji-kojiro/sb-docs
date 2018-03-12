@@ -4,12 +4,12 @@
 > No description.
 
 ### Value
-```
-#S(SB-C::EVENT-INFO
-   :NAME MAKE-VALUE-CELL-EVENT
-   :DESCRIPTION Allocate heap value cell for lexical var.
-   :VAR *MAKE-VALUE-CELL-EVENT-EVENT-INFO*
-   :COUNT 1
-   :LEVEL 0
-   :ACTION NIL)
+```cl
+#s(sb-c::event-info
+   :name sb-c::make-value-cell-event
+   :description "allocate heap value cell for lexical var."
+   :var sb-c::*make-value-cell-event-event-info*
+   :count 1
+   :level 0
+   :action nil)
 ```

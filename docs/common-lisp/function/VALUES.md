@@ -4,6 +4,6 @@
 > Return all arguments, in order, as values.
 
 ### Lambda list
-```
-(&REST VALUES)
+```cl
+(&rest values)
 ```

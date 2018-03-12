@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK SAVES RESTORES)
+```cl
+(block sb-regalloc::saves sb-regalloc::restores)
 ```

@@ -4,6 +4,6 @@
 > Return true if OBJECT is an EXTENDED-CHAR, and NIL otherwise.
 
 ### Lambda list
-```
-(OBJECT)
+```cl
+(sb-impl::object)
 ```

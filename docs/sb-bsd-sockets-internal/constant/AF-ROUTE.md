@@ -4,6 +4,6 @@
 > Alias to emulate 4.4BSD
 
 ### Value
-```
+```cl
 16
 ```

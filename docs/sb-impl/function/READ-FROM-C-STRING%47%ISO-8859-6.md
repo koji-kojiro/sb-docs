@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SAP ELEMENT-TYPE)
+```cl
+(sb-impl::sap sb-impl::element-type)
 ```

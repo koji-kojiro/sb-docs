@@ -4,6 +4,6 @@
 > Construct a new alist by adding the pair (KEY . DATUM) to ALIST.
 
 ### Lambda list
-```
-(KEY DATUM ALIST)
+```cl
+(sb-impl::key sb-impl::datum sb-impl::alist)
 ```

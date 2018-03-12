@@ -17,6 +17,6 @@
 > NOTE: This interface is experimental and subject to change.
 
 ### Lambda list
-```
-((&REST FORMS) &BODY BODY)
+```cl
+((&rest sb-impl::forms) &body sb-impl::body)
 ```

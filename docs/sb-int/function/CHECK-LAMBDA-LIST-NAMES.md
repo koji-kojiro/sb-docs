@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(LLKS REQUIRED OPTIONAL REST KEYS AUX ENV WHOLE &KEY CONTEXT SIGNAL-VIA
- ALLOW-SYMBOL-MACRO)
+```cl
+(sb-c::llks sb-c::required sb-c::optional rest sb-c::keys sb-c::aux
+ sb-c::env sb-c::whole &key sb-c::context sb-c::signal-via
+ sb-c::allow-symbol-macro)
 ```

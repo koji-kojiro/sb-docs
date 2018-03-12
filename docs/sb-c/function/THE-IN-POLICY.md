@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE VALUE POLICY START NEXT RESULT)
+```cl
+(type sb-c::value sb-c:policy sb-c::start sb-c::next sb-c::result)
 ```

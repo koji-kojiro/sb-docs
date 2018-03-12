@@ -6,6 +6,7 @@
 > will take effect.
 
 ### Lambda list
-```
-(STRING &OPTIONAL EOF-ERROR-P EOF-VALUE &KEY START END PRESERVE-WHITESPACE)
+```cl
+(string &optional sb-impl::eof-error-p sb-impl::eof-value &key
+        sb-impl::start sb-impl::end sb-impl::preserve-whitespace)
 ```

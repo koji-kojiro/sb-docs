@@ -6,6 +6,6 @@
 > Shared between all threads, unless locally bound. EXPERIMENTAL.
 
 ### Value
-```
+```cl
 0
 ```

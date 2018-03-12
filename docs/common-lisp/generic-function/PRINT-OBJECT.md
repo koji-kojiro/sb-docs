@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT STREAM)
+```cl
+(sb-pcl::object stream)
 ```

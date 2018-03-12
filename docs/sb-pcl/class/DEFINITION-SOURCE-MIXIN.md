@@ -4,10 +4,10 @@
 > No description.
 
 ### Precedence list
-```
-(DEFINITION-SOURCE-MIXIN STANDARD-OBJECT SLOT-OBJECT T)
+```cl
+(sb-pcl::definition-source-mixin standard-object sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(SOURCE)
+```cl
+(sb-pcl::source)
 ```

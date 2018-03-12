@@ -4,7 +4,7 @@
 > Superclass of all Gray output streams.
 
 ### Precedence list
-```
-(FUNDAMENTAL-OUTPUT-STREAM FUNDAMENTAL-STREAM STANDARD-OBJECT SLOT-OBJECT
- STREAM T)
+```cl
+(sb-gray:fundamental-output-stream sb-gray:fundamental-stream
+ standard-object sb-pcl::slot-object stream t)
 ```

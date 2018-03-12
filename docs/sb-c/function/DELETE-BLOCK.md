@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK &OPTIONAL SILENT)
+```cl
+(block &optional sb-c::silent)
 ```

@@ -6,6 +6,6 @@
 > If the character is not a Hangul syllable or Jamo, returns NIL
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

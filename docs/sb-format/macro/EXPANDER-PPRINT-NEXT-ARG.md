@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRING OFFSET)
+```cl
+(string sb-format::offset)
 ```

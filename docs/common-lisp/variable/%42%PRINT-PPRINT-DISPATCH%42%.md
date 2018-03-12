@@ -4,6 +4,6 @@
 > The pprint-dispatch-table that controls how to pretty-print objects.
 
 ### Value
-```
-#<PPRINT-DISPATCH-TABLE {1000028AE3}>
+```cl
+#<sb-pretty:pprint-dispatch-table {1000028ae3}>
 ```

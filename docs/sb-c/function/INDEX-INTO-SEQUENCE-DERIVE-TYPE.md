@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SEQUENCE START END &KEY INCLUSIVE)
+```cl
+(sequence sb-c::start sb-c::end &key sb-c::inclusive)
 ```

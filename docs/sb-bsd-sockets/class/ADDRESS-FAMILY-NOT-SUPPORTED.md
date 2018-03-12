@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(ADDRESS-FAMILY-NOT-SUPPORTED SOCKET-ERROR ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-bsd-sockets:address-family-not-supported
+ sb-bsd-sockets:socket-error error serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(ERRNO SYMBOL SYMBOL SYSCALL)
+```cl
+(:errno :symbol :symbol :syscall)
 ```

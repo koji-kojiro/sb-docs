@@ -4,6 +4,7 @@
 > No description.
 
 ### Value
-```
-#(NIL first second third fourth fifth sixth seventh eighth ninth)
+```cl
+#(nil "first" "second" "third" "fourth" "fifth" "sixth" "seventh"
+  "eighth" "ninth")
 ```

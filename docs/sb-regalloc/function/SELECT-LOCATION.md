@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TN SC &KEY USE-RESERVED-LOCS OPTIMIZE)
+```cl
+(sb-c:tn sb-regalloc::sc &key sb-regalloc::use-reserved-locs optimize)
 ```

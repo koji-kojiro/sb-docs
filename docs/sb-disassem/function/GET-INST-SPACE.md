@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY PACKAGE FORCE)
+```cl
+(&key package sb-int:force)
 ```

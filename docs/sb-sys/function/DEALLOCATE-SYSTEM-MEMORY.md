@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ADDR BYTES)
+```cl
+(sb-alien:addr sb-kernel::bytes)
 ```

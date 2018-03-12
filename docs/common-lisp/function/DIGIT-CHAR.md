@@ -6,6 +6,6 @@
 > character exists.
 
 ### Lambda list
-```
-(WEIGHT &OPTIONAL RADIX)
+```cl
+(sb-impl::weight &optional sb-impl::radix)
 ```

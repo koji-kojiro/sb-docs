@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY TYPE FORCE-TO-MEMORY-P)
+```cl
+(&key type sb-alien::force-to-memory-p)
 ```

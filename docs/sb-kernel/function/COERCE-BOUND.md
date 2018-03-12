@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(BOUND TYPE UPPERP INNER-COERCE-BOUND-FUN)
+```cl
+(sb-kernel::bound type sb-kernel::upperp
+ sb-kernel::inner-coerce-bound-fun)
 ```

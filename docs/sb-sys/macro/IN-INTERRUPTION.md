@@ -4,6 +4,6 @@
 > Convenience macro on top of INVOKE-INTERRUPTION.
 
 ### Lambda list
-```
-((&KEY) &BODY BODY)
+```cl
+((&key) &body sb-unix::body)
 ```

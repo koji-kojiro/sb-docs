@@ -11,7 +11,8 @@
 > See the manual for details.
 
 ### Lambda list
-```
-(FILENAME &KEY DIRECTION ELEMENT-TYPE IF-EXISTS IF-DOES-NOT-EXIST
- EXTERNAL-FORMAT CLASS)
+```cl
+(sb-kernel:filename &key sb-impl::direction sb-impl::element-type
+ sb-impl::if-exists sb-impl::if-does-not-exist sb-impl::external-format
+ class)
 ```

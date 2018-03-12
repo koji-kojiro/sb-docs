@@ -4,6 +4,6 @@
 > Return functions called by FUNCTION.
 
 ### Lambda list
-```
-(FUNCTION)
+```cl
+(function)
 ```

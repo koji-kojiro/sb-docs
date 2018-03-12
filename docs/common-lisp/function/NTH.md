@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEWVAL N LIST)
+```cl
+(sb-kernel::newval sb-impl::n list)
 ```

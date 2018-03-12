@@ -7,6 +7,6 @@
 > stream is there to support magic which requires issuing new prompts.
 
 ### Value
-```
-#<FUNCTION SB-IMPL::REPL-READ-FORM-FUN>
+```cl
+#<function sb-impl::repl-read-form-fun>
 ```

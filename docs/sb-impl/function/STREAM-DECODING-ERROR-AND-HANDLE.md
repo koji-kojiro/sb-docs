@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM OCTET-COUNT)
+```cl
+(stream sb-impl::octet-count)
 ```

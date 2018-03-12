@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN FILE NO-SKIP)
+```cl
+(sb-fasl::fun sb-fasl::file sb-fasl::no-skip)
 ```

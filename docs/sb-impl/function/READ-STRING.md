@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM CLOSECH)
+```cl
+(stream sb-impl::closech)
 ```

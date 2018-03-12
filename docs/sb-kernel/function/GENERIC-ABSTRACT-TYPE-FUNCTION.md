@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE OVERAPPROXIMATE UNION INTERSECTION DIFFERENCE TOP BOTTOM OVER UNDER)
+```cl
+(type sb-kernel::overapproximate union intersection
+ sb-kernel::difference sb-kernel::top sb-kernel::bottom sb-kernel::over
+ sb-kernel::under)
 ```

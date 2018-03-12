@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (LIST-SIZE LIST-SIZE) (DATA DATA))
+```cl
+(&key (:list-size #:list-size) (:data #:data))
 ```

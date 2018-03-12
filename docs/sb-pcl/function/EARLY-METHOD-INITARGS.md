@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE EARLY-METHOD)
+```cl
+(sb-pcl::new-value sb-pcl::early-method)
 ```

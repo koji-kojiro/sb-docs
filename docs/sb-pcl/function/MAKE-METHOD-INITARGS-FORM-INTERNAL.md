@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(METHOD-LAMBDA INITARGS ENV)
+```cl
+(sb-pcl::method-lambda sb-pcl::initargs sb-pcl::env)
 ```

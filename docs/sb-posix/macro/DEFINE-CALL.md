@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME RETURN-TYPE ERROR-PREDICATE &REST ARGUMENTS)
+```cl
+(sb-posix::name sb-posix::return-type sb-posix::error-predicate &rest
+ sb-posix::arguments)
 ```

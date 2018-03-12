@@ -4,6 +4,6 @@
 > Log severity level denoting a panic.
 
 ### Value
-```
+```cl
 0
 ```

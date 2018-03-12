@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME KEYFORM CASES MULTI-P TEST ERRORP PROCEEDP NEEDCASESP)
+```cl
+(sb-impl::name sb-impl::keyform sb-impl::cases sb-impl::multi-p
+ sb-impl::test sb-impl::errorp sb-impl::proceedp sb-impl::needcasesp)
 ```

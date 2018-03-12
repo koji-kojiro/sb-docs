@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE THING &OPTIONAL CONTEXT)
+```cl
+(type sb-c::thing &optional sb-c::context)
 ```

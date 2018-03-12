@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PACKAGE FUNCTION DATUM &REST SYMBOLS)
+```cl
+(package function sb-impl::datum &rest sb-impl::symbols)
 ```

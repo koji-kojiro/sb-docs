@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(CONS LIST SEQUENCE T)
+```cl
+(cons list sequence t)
 ```

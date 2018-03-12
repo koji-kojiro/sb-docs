@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRING COMPATIBILITY FILTER)
+```cl
+(string sb-unicode::compatibility sb-unicode::filter)
 ```

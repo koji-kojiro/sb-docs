@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OPERATION MINIMAX)
+```cl
+(sb-loop::operation sb-loop::minimax)
 ```

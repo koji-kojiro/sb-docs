@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPACE-INFO CUTOFF)
+```cl
+(sb-vm::space-info sb-vm::cutoff)
 ```

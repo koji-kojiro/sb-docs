@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(NAME (LISP-TYPE ALIEN-TYPE) DOC &BODY CONVERSIONS)
+```cl
+(sb-posix::name (sb-posix::lisp-type sb-posix::alien-type)
+ sb-posix::doc &body sb-posix::conversions)
 ```

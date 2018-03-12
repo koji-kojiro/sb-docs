@@ -4,6 +4,6 @@
 > Same as CEILING, but returns first value as a float.
 
 ### Lambda list
-```
-(NUMBER &OPTIONAL DIVISOR)
+```cl
+(number &optional sb-kernel::divisor)
 ```

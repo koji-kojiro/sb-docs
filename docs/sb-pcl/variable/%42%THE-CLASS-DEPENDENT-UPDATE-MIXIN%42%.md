@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-PCL::DEPENDENT-UPDATE-MIXIN>
+```cl
+#<standard-class sb-pcl::dependent-update-mixin>
 ```

@@ -6,6 +6,6 @@
 > triggers.
 
 ### Lambda list
-```
-(TIMER)
+```cl
+(sb-ext:timer)
 ```

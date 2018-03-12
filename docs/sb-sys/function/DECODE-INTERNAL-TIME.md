@@ -4,6 +4,6 @@
 > Returns internal time value TIME decoded into seconds and microseconds.
 
 ### Lambda list
-```
-(TIME)
+```cl
+(time)
 ```

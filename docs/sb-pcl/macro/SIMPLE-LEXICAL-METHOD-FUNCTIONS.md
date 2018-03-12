@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-((LAMBDA-LIST METHOD-ARGS NEXT-METHODS &REST LMF-OPTIONS) &BODY BODY)
+```cl
+((sb-pcl::lambda-list sb-pcl::method-args sb-pcl::next-methods &rest
+  sb-pcl::lmf-options)
+ &body sb-pcl::body)
 ```

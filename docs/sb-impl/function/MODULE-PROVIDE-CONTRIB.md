@@ -5,6 +5,6 @@
 > $SBCL_HOME/name/name
 
 ### Lambda list
-```
-(NAME)
+```cl
+(sb-impl::name)
 ```

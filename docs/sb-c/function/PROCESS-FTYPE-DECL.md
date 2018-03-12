@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(TYPE-SPECIFIER RES NAMES FVARS CONTEXT)
+```cl
+(sb-kernel:type-specifier sb-c::res sb-c::names sb-c::fvars
+                          sb-c::context)
 ```

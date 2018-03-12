@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ARRAY LENGTH)
+```cl
+(array length)
 ```

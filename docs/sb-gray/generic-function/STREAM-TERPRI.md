@@ -5,6 +5,6 @@
 > method does (STREAM-WRITE-CHAR stream #NEWLINE).
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

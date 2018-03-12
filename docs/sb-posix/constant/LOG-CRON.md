@@ -4,6 +4,6 @@
 > openlog() facility for cron and at daemons
 
 ### Value
-```
+```cl
 72
 ```

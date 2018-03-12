@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRING1 STRING2)
+```cl
+(sb-impl::string1 sb-impl::string2)
 ```

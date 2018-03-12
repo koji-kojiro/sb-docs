@@ -7,6 +7,6 @@
 > must be held by this thread during this call.
 
 ### Lambda list
-```
-(QUEUE &OPTIONAL N)
+```cl
+(sb-thread::queue &optional sb-thread::n)
 ```

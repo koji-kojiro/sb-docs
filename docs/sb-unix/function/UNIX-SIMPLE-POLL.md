@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FD DIRECTION TO-MSEC)
+```cl
+(sb-unix:fd sb-unix::direction sb-unix::to-msec)
 ```

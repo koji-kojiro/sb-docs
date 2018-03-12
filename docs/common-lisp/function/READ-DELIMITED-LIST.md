@@ -5,6 +5,6 @@
 > value's representation is ENDCHAR, and return the objects as a list.
 
 ### Lambda list
-```
-(ENDCHAR &OPTIONAL INPUT-STREAM RECURSIVE-P)
+```cl
+(sb-impl::endchar &optional sb-impl::input-stream sb-impl::recursive-p)
 ```

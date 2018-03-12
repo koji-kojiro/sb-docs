@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(KIND TN BLOCK NUMBER)
+```cl
+(sb-c::kind sb-c:tn block number)
 ```

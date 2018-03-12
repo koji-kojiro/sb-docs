@@ -4,6 +4,6 @@
 > Return tail of LIST beginning with first element not satisfying TEST.
 
 ### Lambda list
-```
-(TEST LIST &KEY KEY)
+```cl
+(sb-impl::test list &key sb-impl::key)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM DIRECTIVES ORIG-ARGS ARGS)
+```cl
+(stream sb-format::directives sb-format::orig-args sb-format::args)
 ```

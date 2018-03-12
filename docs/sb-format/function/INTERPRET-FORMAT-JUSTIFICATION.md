@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM ORIG-ARGS ARGS SEGMENTS COLONP ATSIGNP FIRST-SEMI PARAMS)
+```cl
+(stream sb-format::orig-args sb-format::args sb-format::segments
+ sb-format::colonp sb-format::atsignp sb-format::first-semi
+ sb-format::params)
 ```

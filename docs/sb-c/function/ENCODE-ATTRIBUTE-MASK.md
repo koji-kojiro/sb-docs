@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAMES UNIVERSE)
+```cl
+(sb-c::names sb-c::universe)
 ```

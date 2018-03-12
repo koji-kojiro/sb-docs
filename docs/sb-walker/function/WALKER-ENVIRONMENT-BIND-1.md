@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ENV &KEY WALK-FUNCTION WALK-FORM DECLARATIONS LEXICAL-VARS)
+```cl
+(sb-walker::env &key sb-walker::walk-function sb-walker:walk-form
+ sb-walker::declarations sb-walker::lexical-vars)
 ```

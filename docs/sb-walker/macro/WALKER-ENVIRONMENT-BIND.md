@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-((VAR ENV &REST KEY-ARGS) &BODY BODY)
+```cl
+((sb-walker::var sb-walker::env &rest sb-walker::key-args) &body
+ sb-walker::body)
 ```

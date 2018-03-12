@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PGRP SIGNAL)
+```cl
+(sb-unix::pgrp signal)
 ```

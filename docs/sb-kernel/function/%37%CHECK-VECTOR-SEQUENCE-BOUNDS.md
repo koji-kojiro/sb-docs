@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR START END)
+```cl
+(vector sb-impl::start sb-impl::end)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TARGET)
+```cl
+(sb-x86-64-asm::target)
 ```

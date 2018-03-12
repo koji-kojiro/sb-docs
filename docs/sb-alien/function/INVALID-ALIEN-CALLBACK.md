@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&REST ARGUMENTS)
+```cl
+(&rest sb-alien::arguments)
 ```

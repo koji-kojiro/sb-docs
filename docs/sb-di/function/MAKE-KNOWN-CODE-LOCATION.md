@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(PC DEBUG-FUN %DEBUG-BLOCK %FORM-NUMBER %LIVE-SET KIND STEP-INFO CONTEXT)
+```cl
+(sb-di::pc sb-di:debug-fun sb-di::%debug-block sb-di::%form-number
+ sb-di::%live-set sb-di::kind sb-di::step-info sb-di::context)
 ```

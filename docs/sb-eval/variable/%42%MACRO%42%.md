@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-MACRO1
+```cl
+#:macro1
 ```

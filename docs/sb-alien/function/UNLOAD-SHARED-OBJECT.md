@@ -7,6 +7,6 @@
 > Experimental.
 
 ### Lambda list
-```
-(PATHNAME)
+```cl
+(pathname)
 ```

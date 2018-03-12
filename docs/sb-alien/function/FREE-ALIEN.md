@@ -5,6 +5,6 @@
 > allocated by MAKE-ALIEN, MAKE-ALIEN-STRING or malloc(3).
 
 ### Lambda list
-```
-(ALIEN)
+```cl
+(sb-alien:alien)
 ```

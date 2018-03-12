@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-PCL::CLASS-EQ-SPECIALIZER>
+```cl
+#<standard-class sb-pcl::class-eq-specializer>
 ```

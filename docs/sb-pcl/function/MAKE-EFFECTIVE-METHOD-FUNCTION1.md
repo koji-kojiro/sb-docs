@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION FORM METHOD-ALIST-P WRAPPERS-P)
+```cl
+(generic-function sb-kernel:form sb-pcl::method-alist-p
+ sb-pcl::wrappers-p)
 ```

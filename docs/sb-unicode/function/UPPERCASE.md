@@ -9,6 +9,6 @@
 > Win32 only).
 
 ### Lambda list
-```
-(STRING &KEY LOCALE)
+```cl
+(string &key sb-unicode::locale)
 ```

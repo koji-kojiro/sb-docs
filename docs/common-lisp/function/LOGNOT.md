@@ -4,6 +4,6 @@
 > Return the bit-wise logical not of integer.
 
 ### Lambda list
-```
-(NUMBER)
+```cl
+(number)
 ```

@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(INVALID-ARRAY-ERROR REFERENCE-CONDITION TYPE-ERROR ERROR SERIOUS-CONDITION
-                     CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:invalid-array-error sb-int:reference-condition type-error error
+                            serious-condition condition
+                            sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(DATUM EXPECTED-TYPE CONTEXT REFERENCES)
+```cl
+(:datum :expected-type :context :references)
 ```

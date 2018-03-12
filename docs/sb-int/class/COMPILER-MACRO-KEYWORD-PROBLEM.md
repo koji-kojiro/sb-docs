@@ -4,10 +4,10 @@
 > No description.
 
 ### Precedence list
-```
-(COMPILER-MACRO-KEYWORD-PROBLEM CONDITION SLOT-OBJECT T)
+```cl
+(sb-int:compiler-macro-keyword-problem condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(ARGUMENT)
+```cl
+(:argument)
 ```

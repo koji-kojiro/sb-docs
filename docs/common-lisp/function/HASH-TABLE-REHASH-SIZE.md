@@ -4,6 +4,6 @@
 > Return the rehash-size HASH-TABLE was created with.
 
 ### Lambda list
-```
-(INSTANCE)
+```cl
+(sb-kernel:instance)
 ```

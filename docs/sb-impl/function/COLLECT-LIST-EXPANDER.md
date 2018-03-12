@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(N-VALUE N-TAIL FORMS)
+```cl
+(sb-impl::n-value sb-impl::n-tail sb-impl::forms)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((STREAM FILESPEC &REST OPTIONS) &BODY BODY)
+```cl
+((stream sb-impl::filespec &rest sb-impl::options) &body sb-impl::body)
 ```

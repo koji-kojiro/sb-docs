@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DIRECTION DESCRIPTOR FUNCTION)
+```cl
+(sb-impl::direction sb-impl::descriptor function)
 ```

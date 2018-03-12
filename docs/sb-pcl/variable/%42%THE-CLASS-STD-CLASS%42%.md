@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-CLASS SB-PCL::STD-CLASS>
+```cl
+#<standard-class sb-pcl::std-class>
 ```

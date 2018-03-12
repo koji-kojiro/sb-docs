@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<HASH-TABLE :TEST EQ :COUNT 0 {1000007C53}>
+```cl
+#<hash-table :test eq :count 0 {1000007c53}>
 ```

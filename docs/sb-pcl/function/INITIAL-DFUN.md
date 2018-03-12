@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GF ARGS)
+```cl
+(sb-pcl::gf sb-pcl::args)
 ```

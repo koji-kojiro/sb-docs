@@ -15,6 +15,6 @@
 > either STREAM-START-LINE-P or STREAM-FRESH-LINE.
 
 ### Lambda list
-```
-(STREAM)
+```cl
+(stream)
 ```

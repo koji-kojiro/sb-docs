@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PID SIGNAL)
+```cl
+(sb-posix::pid signal)
 ```

@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION FUN-NAME &KEY GENERIC-FUNCTION-CLASS ENVIRONMENT
- &ALLOW-OTHER-KEYS)
+```cl
+(generic-function sb-pcl::fun-name &key sb-pcl::generic-function-class
+ sb-pcl::environment &allow-other-keys)
 ```

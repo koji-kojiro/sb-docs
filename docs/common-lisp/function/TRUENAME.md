@@ -16,6 +16,6 @@
 > broken symlink itself.
 
 ### Lambda list
-```
-(PATHSPEC)
+```cl
+(sb-impl::pathspec)
 ```

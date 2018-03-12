@@ -19,6 +19,6 @@
 > Experimental: interface subject to change.
 
 ### Lambda list
-```
-(PACKAGE-DESIGNATOR)
+```cl
+(sb-kernel:package-designator)
 ```

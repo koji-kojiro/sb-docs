@@ -10,6 +10,6 @@
 > errno variable.
 
 ### Lambda list
-```
-(WHERE &OPTIONAL ERRNO)
+```cl
+(sb-bsd-sockets::where &optional sb-bsd-sockets::errno)
 ```

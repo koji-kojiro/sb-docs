@@ -6,6 +6,6 @@
 > Use SB-THREAD:THREAD-ERROR-THREAD instead.
 
 ### Lambda list
-```
-(CONDITION)
+```cl
+(condition)
 ```

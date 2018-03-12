@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CHUNK BYTE-SPEC)
+```cl
+(sb-disassem::chunk sb-disassem::byte-spec)
 ```

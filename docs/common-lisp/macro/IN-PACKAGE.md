@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STRING-DESIGNATOR)
+```cl
+(sb-kernel:string-designator)
 ```

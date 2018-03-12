@@ -5,6 +5,6 @@
 > body. Body can begin with declarations.
 
 ### Lambda list
-```
-(&BODY BODY)
+```cl
+(&body sb-impl::body)
 ```

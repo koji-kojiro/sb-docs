@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS DIRECT-SLOTDS)
+```cl
+(class sb-pcl::direct-slotds)
 ```

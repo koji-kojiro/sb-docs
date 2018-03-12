@@ -4,7 +4,8 @@
 > Adjust ARRAY's dimensions to the given DIMENSIONS and stuff.
 
 ### Lambda list
-```
-(ARRAY DIMENSIONS &KEY ELEMENT-TYPE INITIAL-ELEMENT INITIAL-CONTENTS
- FILL-POINTER DISPLACED-TO DISPLACED-INDEX-OFFSET)
+```cl
+(array sb-impl::dimensions &key sb-impl::element-type
+ sb-impl::initial-element sb-impl::initial-contents fill-pointer
+ sb-impl::displaced-to sb-impl::displaced-index-offset)
 ```

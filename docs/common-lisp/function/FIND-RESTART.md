@@ -8,6 +8,6 @@
 > with that condition (or with no condition) will be returned.
 
 ### Lambda list
-```
-(IDENTIFIER &OPTIONAL CONDITION)
+```cl
+(sb-kernel::identifier &optional condition)
 ```

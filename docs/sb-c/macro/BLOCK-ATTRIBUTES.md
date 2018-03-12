@@ -5,6 +5,6 @@
 > See !DEF-BOOLEAN-ATTRIBUTE.
 
 ### Lambda list
-```
-(&REST ATTRIBUTE-NAMES)
+```cl
+(&rest sb-c::attribute-names)
 ```

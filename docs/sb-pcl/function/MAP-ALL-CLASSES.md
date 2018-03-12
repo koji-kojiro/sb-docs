@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(FUN &OPTIONAL ROOT)
+```cl
+(sb-pcl::fun &optional sb-pcl::root)
 ```

@@ -7,6 +7,6 @@
 > returned.
 
 ### Lambda list
-```
-(NEW-ELEMENT ARRAY)
+```cl
+(sb-impl::new-element array)
 ```

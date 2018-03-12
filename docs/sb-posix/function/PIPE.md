@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&OPTIONAL FILEDES2)
+```cl
+(&optional sb-posix::filedes2)
 ```

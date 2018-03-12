@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(EVAL-ERROR ENCAPSULATED-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-impl::eval-error sb-int:encapsulated-condition condition
+                     sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(CONDITION)
+```cl
+(:condition)
 ```

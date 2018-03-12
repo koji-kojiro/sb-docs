@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(OBSOLETE-STRUCTURE ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-pcl::obsolete-structure error serious-condition condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(DATUM)
+```cl
+(:datum)
 ```

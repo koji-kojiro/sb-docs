@@ -5,6 +5,6 @@
 > to a function, including &REST args.
 
 ### Value
-```
+```cl
 4611686018427387903
 ```

@@ -5,6 +5,6 @@
 > elements initialized to INITIAL-ELEMENT.
 
 ### Lambda list
-```
-(RESULT-TYPE LENGTH &KEY INITIAL-ELEMENT)
+```cl
+(sb-impl::result-type length &key sb-impl::initial-element)
 ```

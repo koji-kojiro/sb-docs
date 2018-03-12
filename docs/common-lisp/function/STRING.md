@@ -7,6 +7,6 @@
 > into a string, an error occurs.
 
 ### Lambda list
-```
-(X)
+```cl
+(sb-impl::x)
 ```

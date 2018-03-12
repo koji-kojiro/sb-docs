@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TOPLEVEL-LAMBDAS)
+```cl
+(sb-c::toplevel-lambdas)
 ```

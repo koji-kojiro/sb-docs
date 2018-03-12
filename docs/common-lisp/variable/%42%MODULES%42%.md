@@ -5,6 +5,7 @@
 > It is used by PROVIDE and REQUIRE.
 
 ### Value
-```
-(SB-INTROSPECT SB-BSD-SOCKETS ASDF asdf UIOP uiop SB-POSIX)
+```cl
+("sb-introspect" "sb-bsd-sockets" "asdf" "asdf" "uiop" "uiop"
+ "sb-posix")
 ```

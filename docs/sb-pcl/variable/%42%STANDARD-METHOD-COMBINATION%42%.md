@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<STANDARD-METHOD-COMBINATION STANDARD () {10002968C3}>
+```cl
+#<sb-pcl::standard-method-combination standard () {10002968c3}>
 ```

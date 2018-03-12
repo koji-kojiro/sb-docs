@@ -5,6 +5,6 @@
 > Module-name is a string designator
 
 ### Lambda list
-```
-(MODULE-NAME)
+```cl
+(sb-impl::module-name)
 ```

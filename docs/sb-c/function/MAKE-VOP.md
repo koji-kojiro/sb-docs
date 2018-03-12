@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK NODE INFO ARGS RESULTS)
+```cl
+(block sb-c::node sb-int:info sb-c::args sb-c::results)
 ```

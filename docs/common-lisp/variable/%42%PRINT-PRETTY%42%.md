@@ -4,6 +4,6 @@
 > Should pretty printing be used?
 
 ### Value
-```
-T
+```cl
+t
 ```

@@ -14,6 +14,6 @@
 > version 1[.0.0...] or greater.
 
 ### Lambda list
-```
-(&REST SUBVERSIONS)
+```cl
+(&rest sb-impl::subversions)
 ```

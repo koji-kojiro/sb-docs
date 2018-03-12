@@ -6,6 +6,6 @@
 > or if PATHSPEC is a wild pathname.
 
 ### Lambda list
-```
-(PATHSPEC)
+```cl
+(sb-impl::pathspec)
 ```

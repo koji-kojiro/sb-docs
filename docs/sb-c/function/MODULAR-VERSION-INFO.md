@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME KIND SIGNEDP)
+```cl
+(sb-c::name sb-c::kind sb-c::signedp)
 ```

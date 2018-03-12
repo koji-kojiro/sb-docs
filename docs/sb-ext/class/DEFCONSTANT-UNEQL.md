@@ -4,11 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(DEFCONSTANT-UNEQL REFERENCE-CONDITION ERROR SERIOUS-CONDITION CONDITION
- SLOT-OBJECT T)
+```cl
+(sb-ext:defconstant-uneql sb-int:reference-condition error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES NAME OLD-VALUE NEW-VALUE)
+```cl
+(:references :name :old-value :new-value)
 ```

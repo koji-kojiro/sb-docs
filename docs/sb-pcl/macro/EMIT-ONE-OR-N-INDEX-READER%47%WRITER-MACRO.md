@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(READER/WRITER CACHED-INDEX-P CLASS-SLOT-P)
+```cl
+(sb-pcl::reader/writer sb-pcl::cached-index-p sb-pcl::class-slot-p)
 ```

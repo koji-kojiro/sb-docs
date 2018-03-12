@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-INFO SYMBOL)
+```cl
+(sb-impl::new-info symbol)
 ```

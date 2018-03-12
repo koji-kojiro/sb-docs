@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INITARGS CLASS LEGAL &OPTIONAL ERROR-P)
+```cl
+(sb-pcl::initargs class sb-pcl::legal &optional sb-pcl::error-p)
 ```

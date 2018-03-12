@@ -11,7 +11,8 @@
 > position in which the sequences differ is returned.
 
 ### Lambda list
-```
-(SEQUENCE1 SEQUENCE2 &REST ARGS &KEY FROM-END TEST TEST-NOT START1 END1 START2
- END2 KEY)
+```cl
+(sb-impl::sequence1 sb-impl::sequence2 &rest sb-impl::args &key
+ sb-impl::from-end sb-impl::test sb-impl::test-not sb-impl::start1
+ sb-impl::end1 sb-impl::start2 sb-impl::end2 sb-impl::key)
 ```

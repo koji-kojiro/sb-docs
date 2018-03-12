@@ -4,6 +4,7 @@
 > Substitutes new for subtrees matching old.
 
 ### Lambda list
-```
-(NEW OLD TREE &KEY KEY TEST TEST-NOT)
+```cl
+(sb-impl::new sb-impl::old sb-impl::tree &key sb-impl::key
+ sb-impl::test sb-impl::test-not)
 ```

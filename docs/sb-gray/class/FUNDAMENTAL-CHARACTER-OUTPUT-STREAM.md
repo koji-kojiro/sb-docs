@@ -5,8 +5,9 @@
 > is a subtype of character.
 
 ### Precedence list
-```
-(FUNDAMENTAL-CHARACTER-OUTPUT-STREAM FUNDAMENTAL-OUTPUT-STREAM
- FUNDAMENTAL-CHARACTER-STREAM FUNDAMENTAL-STREAM STANDARD-OBJECT SLOT-OBJECT
- STREAM T)
+```cl
+(sb-gray:fundamental-character-output-stream
+ sb-gray:fundamental-output-stream sb-gray:fundamental-character-stream
+ sb-gray:fundamental-stream standard-object sb-pcl::slot-object stream
+ t)
 ```

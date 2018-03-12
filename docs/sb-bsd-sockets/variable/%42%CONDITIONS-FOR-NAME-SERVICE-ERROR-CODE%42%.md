@@ -4,8 +4,11 @@
 > No description.
 
 ### Value
-```
-((NIL . NO-ADDRESS-ERROR) (-4 . NO-RECOVERY-ERROR) (-3 . TRY-AGAIN-ERROR)
- (-2 . HOST-NOT-FOUND-ERROR) (NIL . NETDB-SUCCESS-ERROR)
- (NIL . NETDB-INTERNAL-ERROR))
+```cl
+((nil . sb-bsd-sockets::no-address-error)
+ (-4 . sb-bsd-sockets:no-recovery-error)
+ (-3 . sb-bsd-sockets:try-again-error)
+ (-2 . sb-bsd-sockets:host-not-found-error)
+ (nil . sb-bsd-sockets:netdb-success-error)
+ (nil . sb-bsd-sockets:netdb-internal-error))
 ```

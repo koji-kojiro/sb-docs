@@ -4,6 +4,6 @@
 > Return new integer with newbyte in specified position, newbyte is right justified.
 
 ### Lambda list
-```
-(NEWBYTE BYTESPEC INTEGER)
+```cl
+(sb-kernel::newbyte sb-kernel::bytespec integer)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Precedence list
-```
-(DOUBLE-FLOAT FLOAT REAL NUMBER T)
+```cl
+(double-float float real number t)
 ```

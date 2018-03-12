@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DD VALUES)
+```cl
+(sb-kernel::dd values)
 ```

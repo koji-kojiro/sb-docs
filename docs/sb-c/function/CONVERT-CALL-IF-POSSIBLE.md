@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(REF CALL)
+```cl
+(sb-c::ref sb-c:call)
 ```

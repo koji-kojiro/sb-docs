@@ -9,6 +9,6 @@
 > Ideographic (:ID) class instead of Alphabetic (:AL).
 
 ### Lambda list
-```
-(CHARACTER &KEY RESOLVE)
+```cl
+(character &key sb-unicode::resolve)
 ```

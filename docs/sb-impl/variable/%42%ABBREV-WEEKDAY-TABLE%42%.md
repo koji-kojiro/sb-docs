@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#(Mon Tue Wed Thu Fri Sat Sun)
+```cl
+#("mon" "tue" "wed" "thu" "fri" "sat" "sun")
 ```

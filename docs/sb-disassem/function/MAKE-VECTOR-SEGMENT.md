@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR OFFSET &REST ARGS)
+```cl
+(vector sb-disassem::offset &rest sb-disassem::args)
 ```

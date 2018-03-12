@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLOSURE-VARIABLES ARGS FORM)
+```cl
+(sb-pcl::closure-variables sb-pcl::args sb-kernel:form)
 ```

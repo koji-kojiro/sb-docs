@@ -4,6 +4,6 @@
 > openlog() facility for the printer subsystem
 
 ### Value
-```
+```cl
 48
 ```

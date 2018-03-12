@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(SYMBOL ID ALIVE-P SC-OFFSET SAVE-SC-OFFSET INDIRECT-SC-OFFSET INFO)
+```cl
+(symbol sb-di::id sb-di::alive-p sb-di::sc-offset sb-di::save-sc-offset
+ sb-di::indirect-sc-offset sb-int:info)
 ```

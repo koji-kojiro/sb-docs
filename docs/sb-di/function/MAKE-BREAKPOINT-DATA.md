@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(COMPONENT OFFSET)
+```cl
+(sb-di::component sb-di::offset)
 ```

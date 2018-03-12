@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NODE BLOCK FUN ARG-COUNT-LOCATION)
+```cl
+(sb-c::node block sb-c::fun sb-c::arg-count-location)
 ```

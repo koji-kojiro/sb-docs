@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(GF ARG-INFO WRAPPERS CLASSES TYPES STATE)
+```cl
+(sb-pcl::gf sb-pcl::arg-info sb-pcl::wrappers sb-pcl::classes
+ sb-pcl::types sb-pcl::state)
 ```

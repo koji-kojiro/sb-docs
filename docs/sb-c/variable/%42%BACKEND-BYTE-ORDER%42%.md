@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-LITTLE-ENDIAN
+```cl
+:little-endian
 ```

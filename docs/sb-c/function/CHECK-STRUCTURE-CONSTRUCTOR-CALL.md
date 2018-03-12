@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CALL DD CTOR-LL-PARTS)
+```cl
+(sb-c:call sb-c::dd sb-c::ctor-ll-parts)
 ```

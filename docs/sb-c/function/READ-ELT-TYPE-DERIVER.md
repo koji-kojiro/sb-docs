@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SKIP-ARG-P ELEMENT-TYPE-SPEC NO-HANG)
+```cl
+(sb-c::skip-arg-p sb-c::element-type-spec sb-c::no-hang)
 ```

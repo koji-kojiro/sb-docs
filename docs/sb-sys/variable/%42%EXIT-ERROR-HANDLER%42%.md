@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<FUNCTION SB-IMPL::OS-EXIT-HANDLER>
+```cl
+#<function sb-impl::os-exit-handler>
 ```

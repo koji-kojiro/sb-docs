@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BEFORE-ADDRESS STREAM DSTATE)
+```cl
+(sb-disassem::before-address stream sb-disassem::dstate)
 ```

@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR1 VECTOR2 START1 START2 END1 DIFF)
+```cl
+(sb-impl::vector1 sb-impl::vector2 sb-impl::start1 sb-impl::start2
+ sb-impl::end1 sb-impl::diff)
 ```

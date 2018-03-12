@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(FILENAME &OPTIONAL ACCESS-TIME MODIFICATION-TIME)
+```cl
+(sb-posix:filename &optional sb-posix::access-time
+                   sb-posix::modification-time)
 ```

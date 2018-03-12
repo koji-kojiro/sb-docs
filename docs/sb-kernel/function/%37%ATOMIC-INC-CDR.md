@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PLACE DELTA)
+```cl
+(sb-impl::place sb-impl::delta)
 ```

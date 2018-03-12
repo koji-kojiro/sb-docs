@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SPACE &KEY TYPE LARGER SMALLER COUNT TEST)
+```cl
+(space &key type sb-vm::larger sb-vm::smaller count sb-vm::test)
 ```

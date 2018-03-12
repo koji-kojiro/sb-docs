@@ -6,6 +6,6 @@
 > *STANDARD-OUTPUT* are set up.
 
 ### Value
-```
-#<CLOSURE (LAMBDA (&REST SB-IMPL::ARGUMENTS) :IN CONSTANTLY) {1000C21BAB}>
+```cl
+#<closure (lambda (&rest sb-impl::arguments) :in constantly) {1000c21bab}>
 ```

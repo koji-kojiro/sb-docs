@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(MISS-FN ARGS APPLYP)
+```cl
+(sb-pcl::miss-fn sb-pcl::args sb-pcl::applyp)
 ```

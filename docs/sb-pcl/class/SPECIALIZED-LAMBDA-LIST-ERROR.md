@@ -4,12 +4,14 @@
 > No description.
 
 ### Precedence list
-```
-(SPECIALIZED-LAMBDA-LIST-ERROR REFERENCE-CONDITION SIMPLE-PROGRAM-ERROR
-                               SIMPLE-CONDITION PROGRAM-ERROR ERROR
-                               SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-pcl::specialized-lambda-list-error sb-int:reference-condition
+                                       sb-int:simple-program-error
+                                       simple-condition program-error
+                                       error serious-condition
+                                       condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS REFERENCES)
+```cl
+(:format-control :format-arguments :references)
 ```

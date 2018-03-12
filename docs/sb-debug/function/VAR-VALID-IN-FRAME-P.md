@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VAR LOCATION &OPTIONAL FRAME)
+```cl
+(sb-debug:var sb-debug::location &optional sb-debug::frame)
 ```

@@ -4,7 +4,7 @@
 > No description.
 
 ### Value
-```
-#<POLICY ((INHIBIT-WARNINGS 1) (SPEED 1) (SPACE 1) (SAFETY 1) (DEBUG 1)
-          (COMPILATION-SPEED 1))>
+```cl
+#<sb-c:policy ((sb-ext:inhibit-warnings 1) (speed 1) (space 1)
+               (safety 1) (debug 1) (compilation-speed 1))>
 ```

@@ -4,6 +4,6 @@
 > Returns number of complete years since March 1st 2000, and remainder in seconds
 
 ### Lambda list
-```
-(UTIME)
+```cl
+(sb-impl::utime)
 ```

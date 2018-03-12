@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SORTER SEQUENCE PREDICATE &REST ARGS)
+```cl
+(sb-impl::sorter sequence sb-impl::predicate &rest sb-impl::args)
 ```

@@ -6,6 +6,6 @@
 > expansion happened.
 
 ### Lambda list
-```
-(TYPE-SPECIFIER &OPTIONAL ENV)
+```cl
+(sb-kernel:type-specifier &optional sb-kernel::env)
 ```

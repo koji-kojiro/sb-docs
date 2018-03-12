@@ -5,6 +5,6 @@
 > covered by this segment.
 
 ### Lambda list
-```
-(SEGMENT)
+```cl
+(sb-assem:segment)
 ```

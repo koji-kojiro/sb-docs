@@ -4,6 +4,6 @@
 > Returns the general category of CHARACTER as it appears in UnicodeData.txt
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

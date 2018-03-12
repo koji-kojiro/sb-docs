@@ -21,6 +21,6 @@
 > next line. (See PPRINT-INDENT.)
 
 ### Lambda list
-```
-(KIND &OPTIONAL STREAM)
+```cl
+(sb-pretty::kind &optional stream)
 ```

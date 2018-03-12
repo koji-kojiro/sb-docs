@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(POSSIBLY-LOGICAL-PATHNAME)
+```cl
+(sb-impl::possibly-logical-pathname)
 ```

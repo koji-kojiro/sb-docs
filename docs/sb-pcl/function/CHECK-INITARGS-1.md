@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS INITARGS CALL-LIST &OPTIONAL PLIST-P ERROR-P)
+```cl
+(class sb-pcl::initargs sb-pcl::call-list &optional sb-pcl::plist-p
+ sb-pcl::error-p)
 ```

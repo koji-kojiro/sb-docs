@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(STREAM N-BYTES)
+```cl
+(stream sb-disassem::n-bytes)
 ```

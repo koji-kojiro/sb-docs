@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(NO-NEXT-METHOD-ERROR EFFECTIVE-METHOD-ERROR ERROR SERIOUS-CONDITION
- EFFECTIVE-METHOD-CONDITION REFERENCE-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-pcl::no-next-method-error sb-pcl::effective-method-error error
+ serious-condition sb-pcl::effective-method-condition
+ sb-int:reference-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(REFERENCES GENERIC-FUNCTION METHOD ARGS PROBLEM)
+```cl
+(:references :generic-function :method :args :problem)
 ```

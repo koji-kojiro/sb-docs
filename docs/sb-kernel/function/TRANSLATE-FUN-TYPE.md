@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(CONTEXT ARGS RESULT &KEY DESIGNATOR)
+```cl
+(sb-kernel::context sb-kernel::args sb-kernel::result &key
+ sb-kernel::designator)
 ```

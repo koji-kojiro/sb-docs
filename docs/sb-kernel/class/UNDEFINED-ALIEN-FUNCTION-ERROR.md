@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(UNDEFINED-ALIEN-FUNCTION-ERROR UNDEFINED-ALIEN-ERROR CELL-ERROR ERROR
- SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel::undefined-alien-function-error
+ sb-alien:undefined-alien-error cell-error error serious-condition
+ condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME)
+```cl
+(:name)
 ```

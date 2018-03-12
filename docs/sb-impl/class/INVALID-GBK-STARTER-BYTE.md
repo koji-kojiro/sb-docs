@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(INVALID-GBK-STARTER-BYTE OCTET-DECODING-ERROR CHARACTER-DECODING-ERROR
- CHARACTER-CODING-ERROR ERROR SERIOUS-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-impl::invalid-gbk-starter-byte sb-impl::octet-decoding-error
+ sb-int:character-decoding-error sb-int:character-coding-error error
+ serious-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(EXTERNAL-FORMAT OCTETS ARRAY START END POS EXTERNAL-FORMAT)
+```cl
+(:external-format :octets :array :start :end :pos :external-format)
 ```

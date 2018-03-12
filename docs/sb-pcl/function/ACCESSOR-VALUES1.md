@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GF ACCESSOR-TYPE ACCESSOR-CLASS)
+```cl
+(sb-pcl::gf sb-pcl::accessor-type sb-pcl::accessor-class)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(POINTER)
+```cl
+(sb-di::pointer)
 ```

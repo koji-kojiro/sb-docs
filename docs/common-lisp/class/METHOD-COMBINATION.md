@@ -4,10 +4,11 @@
 > No description.
 
 ### Precedence list
-```
-(METHOD-COMBINATION METAOBJECT STANDARD-OBJECT SLOT-OBJECT T)
+```cl
+(method-combination sb-mop:metaobject standard-object
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(DOCUMENTATION)
+```cl
+(:documentation)
 ```

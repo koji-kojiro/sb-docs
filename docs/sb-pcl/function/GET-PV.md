@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(METHOD-ARGS PV-TABLE)
+```cl
+(sb-pcl::method-args sb-pcl::pv-table)
 ```

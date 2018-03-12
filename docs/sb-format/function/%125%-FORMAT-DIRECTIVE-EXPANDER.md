@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DIRECTIVE0 DIRECTIVES1)
+```cl
+(#:directive0 #:directives1)
 ```

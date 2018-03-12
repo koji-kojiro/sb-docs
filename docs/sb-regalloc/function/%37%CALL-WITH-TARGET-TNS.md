@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(TN CALLEE &KEY LIMIT READS WRITES)
+```cl
+(sb-c:tn sb-regalloc::callee &key sb-regalloc::limit sb-assem:reads
+ sb-assem:writes)
 ```

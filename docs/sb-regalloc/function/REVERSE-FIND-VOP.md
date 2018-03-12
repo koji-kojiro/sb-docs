@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME VOP)
+```cl
+(sb-regalloc::name sb-c::vop)
 ```

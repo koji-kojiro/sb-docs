@@ -7,6 +7,6 @@
 > to the error currently being debugged. See also RESTART-CASE.
 
 ### Lambda list
-```
-(CONDITION-FORM RESTARTS-FORM &BODY BODY)
+```cl
+(sb-impl::condition-form sb-impl::restarts-form &body sb-impl::body)
 ```

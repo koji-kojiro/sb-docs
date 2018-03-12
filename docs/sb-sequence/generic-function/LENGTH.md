@@ -6,6 +6,6 @@
 > SEQUENCE.
 
 ### Lambda list
-```
-(SEQUENCE)
+```cl
+(sequence)
 ```

@@ -5,6 +5,6 @@
 > +++, ++, +, ///, //, /, and -.
 
 ### Lambda list
-```
-(FORM &KEY EVAL)
+```cl
+(sb-kernel:form &key eval)
 ```

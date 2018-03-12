@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (CLOSURE-TN CLOSURE-TN) (OFFSET OFFSET) (NAME NAME) (ARGUMENTS ARGUMENTS)
- (TYPE TYPE) (INFO INFO))
+```cl
+(&key (:closure-tn #:closure-tn) (:offset #:offset) (:name #:name)
+ (:arguments #:arguments) (:type #:type) (:info #:info))
 ```

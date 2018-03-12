@@ -4,6 +4,7 @@
 > Return the number of elements in SEQUENCE not satisfying TEST(el).
 
 ### Lambda list
-```
-(PRED SEQUENCE &REST ARGS &KEY FROM-END START END KEY)
+```cl
+(sb-impl::pred sequence &rest sb-impl::args &key sb-impl::from-end
+ sb-impl::start sb-impl::end sb-impl::key)
 ```

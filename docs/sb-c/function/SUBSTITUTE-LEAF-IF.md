@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TEST NEW-LEAF OLD-LEAF)
+```cl
+(sb-c::test sb-c::new-leaf sb-c::old-leaf)
 ```

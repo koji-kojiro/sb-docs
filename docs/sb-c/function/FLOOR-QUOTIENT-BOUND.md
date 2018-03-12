@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(QUOT)
+```cl
+(sb-c::quot)
 ```

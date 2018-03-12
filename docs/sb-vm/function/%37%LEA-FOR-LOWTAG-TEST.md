@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TARGET VALUE LOWTAG)
+```cl
+(sb-vm::target sb-vm::value sb-vm::lowtag)
 ```

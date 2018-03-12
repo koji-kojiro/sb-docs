@@ -5,6 +5,6 @@
 > new fill pointer.
 
 ### Lambda list
-```
-(ARRAY)
+```cl
+(array)
 ```

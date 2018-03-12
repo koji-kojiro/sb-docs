@@ -4,6 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(((KEY-VAR VALUE-VAR) TABLE &KEY RESULT LOCKED) &BODY BODY)
+```cl
+(((sb-impl::key-var sb-impl::value-var) sb-impl::table &key
+  sb-impl::result sb-impl::locked)
+ &body sb-impl::body)
 ```

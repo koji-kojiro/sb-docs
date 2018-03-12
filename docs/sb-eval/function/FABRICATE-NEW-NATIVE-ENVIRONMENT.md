@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(OLD-LEXENV NEW-FUNS NEW-EXPANDERS NEW-VARS NEW-SYMBOL-EXPANSIONS DECLARATIONS)
+```cl
+(sb-eval::old-lexenv sb-eval::new-funs sb-eval::new-expanders
+ sb-eval::new-vars sb-eval::new-symbol-expansions sb-eval::declarations)
 ```

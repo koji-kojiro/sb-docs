@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(START-LABEL TRAMPOLINE-LABEL FALL-THRU-P ALIGNP)
+```cl
+(sb-vm::start-label sb-vm::trampoline-label sb-vm::fall-thru-p
+ sb-vm::alignp)
 ```

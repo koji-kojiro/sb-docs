@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&REST MEMBERS)
+```cl
+(&rest sb-kernel::members)
 ```

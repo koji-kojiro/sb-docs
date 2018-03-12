@@ -4,6 +4,6 @@
 > default input stream
 
 ### Value
-```
-#<SYNONYM-STREAM :SYMBOL SB-SYS:*STDIN* {1000028FA3}>
+```cl
+#<synonym-stream :symbol sb-sys:*stdin* {1000028fa3}>
 ```

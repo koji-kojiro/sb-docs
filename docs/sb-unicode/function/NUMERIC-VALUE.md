@@ -6,6 +6,6 @@
 > The only constraint on the numeric value is that it be a rational number.
 
 ### Lambda list
-```
-(CHARACTER)
+```cl
+(character)
 ```

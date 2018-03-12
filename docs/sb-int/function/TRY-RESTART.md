@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME CONDITION &REST ARGUMENTS)
+```cl
+(sb-kernel::name condition &rest sb-kernel::arguments)
 ```

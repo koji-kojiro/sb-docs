@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-VALUE CONDITION)
+```cl
+(sb-kernel::new-value condition)
 ```

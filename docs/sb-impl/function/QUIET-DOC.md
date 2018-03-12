@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT TYPE)
+```cl
+(sb-impl::object type)
 ```

@@ -4,6 +4,6 @@
 > Power failure.
 
 ### Value
-```
+```cl
 30
 ```

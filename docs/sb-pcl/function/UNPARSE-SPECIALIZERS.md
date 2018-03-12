@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION SPECIALIZERS)
+```cl
+(generic-function sb-pcl::specializers)
 ```

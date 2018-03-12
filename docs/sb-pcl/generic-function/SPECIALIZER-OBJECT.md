@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(CLASS-EQ-SPECIALIZER)
+```cl
+(sb-pcl::class-eq-specializer)
 ```

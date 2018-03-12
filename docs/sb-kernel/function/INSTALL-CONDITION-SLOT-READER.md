@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME CONDITION SLOT-NAME)
+```cl
+(sb-kernel::name condition sb-kernel::slot-name)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(UNION-TYPE TYPES)
+```cl
+(sb-kernel:union-type sb-kernel::types)
 ```

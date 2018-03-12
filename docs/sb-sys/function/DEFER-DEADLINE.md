@@ -6,6 +6,6 @@
 > seconds.) Otherwise return NIL if the restart is not found.
 
 ### Lambda list
-```
-(SECONDS &OPTIONAL CONDITION)
+```cl
+(sb-impl::seconds &optional condition)
 ```

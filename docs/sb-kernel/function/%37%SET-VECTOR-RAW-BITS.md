@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(OBJECT OFFSET VALUE)
+```cl
+(sb-kernel::object sb-kernel::offset sb-kernel::value)
 ```

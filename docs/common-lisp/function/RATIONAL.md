@@ -6,6 +6,6 @@
 > completely accurate, giving a result that isn't as pretty.
 
 ### Lambda list
-```
-(X)
+```cl
+(sb-kernel::x)
 ```

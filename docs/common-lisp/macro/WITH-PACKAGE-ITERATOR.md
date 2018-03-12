@@ -7,6 +7,7 @@
 > of :INHERITED :EXTERNAL :INTERNAL.
 
 ### Lambda list
-```
-((MNAME PACKAGE-LIST &REST SYMBOL-TYPES) &BODY BODY)
+```cl
+((sb-impl::mname sb-impl::package-list &rest sb-impl::symbol-types)
+ &body sb-impl::body)
 ```

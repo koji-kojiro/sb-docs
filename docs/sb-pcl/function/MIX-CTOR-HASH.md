@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(HASH BASE)
+```cl
+(sb-int:hash sb-pcl::base)
 ```

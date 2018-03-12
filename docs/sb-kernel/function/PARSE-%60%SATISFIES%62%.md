@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PREDICATE-NAME)
+```cl
+(sb-kernel::predicate-name)
 ```

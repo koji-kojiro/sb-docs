@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LOC CONTEXT &OPTIONAL CACHE)
+```cl
+(sb-disassem::loc sb-disassem::context &optional sb-disassem::cache)
 ```

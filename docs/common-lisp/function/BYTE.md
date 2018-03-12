@@ -5,6 +5,6 @@
 > (e.g. LDB).
 
 ### Lambda list
-```
-(SIZE POSITION)
+```cl
+(sb-kernel::size position)
 ```

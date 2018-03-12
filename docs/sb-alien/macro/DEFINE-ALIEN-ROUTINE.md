@@ -40,6 +40,6 @@
 > return.
 
 ### Lambda list
-```
-(NAME RESULT-TYPE &REST ARGS)
+```cl
+(sb-alien::name sb-alien::result-type &rest sb-alien::args)
 ```

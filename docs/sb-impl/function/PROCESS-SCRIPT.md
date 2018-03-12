@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SCRIPT)
+```cl
+(sb-impl::script)
 ```

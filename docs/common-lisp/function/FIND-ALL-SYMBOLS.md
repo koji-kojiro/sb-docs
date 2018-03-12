@@ -4,6 +4,6 @@
 > Return a list of all symbols in the system having the specified name.
 
 ### Lambda list
-```
-(STRING-OR-SYMBOL)
+```cl
+(sb-impl::string-or-symbol)
 ```

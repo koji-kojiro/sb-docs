@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TABLE SIZE)
+```cl
+(sb-impl::table sb-impl::size)
 ```

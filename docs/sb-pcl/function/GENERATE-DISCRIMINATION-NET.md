@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION METHODS TYPES SORTED-P)
+```cl
+(generic-function sb-pcl::methods sb-pcl::types sb-pcl::sorted-p)
 ```

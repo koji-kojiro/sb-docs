@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(REQUIRED OPTIONAL REST &OPTIONAL KEYP)
+```cl
+(sb-kernel::required sb-kernel::optional rest &optional sb-kernel::keyp)
 ```

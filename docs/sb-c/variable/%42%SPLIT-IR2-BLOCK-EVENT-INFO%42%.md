@@ -4,12 +4,12 @@
 > No description.
 
 ### Value
-```
-#S(SB-C::EVENT-INFO
-   :NAME SPLIT-IR2-BLOCK
-   :DESCRIPTION Split an IR2 block to meet LOCAL-TN-LIMIT.
-   :VAR *SPLIT-IR2-BLOCK-EVENT-INFO*
-   :COUNT 2
-   :LEVEL 0
-   :ACTION NIL)
+```cl
+#s(sb-c::event-info
+   :name sb-c::split-ir2-block
+   :description "split an ir2 block to meet local-tn-limit."
+   :var sb-c::*split-ir2-block-event-info*
+   :count 2
+   :level 0
+   :action nil)
 ```

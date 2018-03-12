@@ -4,6 +4,6 @@
 > Return the arc tangent of Y if X is omitted or Y/X if X is supplied.
 
 ### Lambda list
-```
-(Y &OPTIONAL X)
+```cl
+(sb-kernel::y &optional sb-kernel::x)
 ```

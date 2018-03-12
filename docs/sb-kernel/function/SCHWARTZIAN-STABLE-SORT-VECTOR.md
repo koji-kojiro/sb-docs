@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR COMPARATOR &KEY KEY)
+```cl
+(vector sb-kernel::comparator &key sb-kernel::key)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VOP LABEL KIND &OPTIONAL CONTEXT)
+```cl
+(sb-c::vop sb-assem:label sb-c::kind &optional sb-c::context)
 ```

@@ -4,10 +4,11 @@
 > No description.
 
 ### Value
-```
-#S(SB-THREAD::SESSION
-   :LOCK #<MUTEX "session lock" (free)>
-   :THREADS (#<THREAD "main thread" RUNNING {10005605B3}>)
-   :INTERACTIVE-THREADS (#<THREAD "main thread" RUNNING {10005605B3}>)
-   :INTERACTIVE-THREADS-QUEUE #<WAITQUEUE  {10025BB4E3}>)
+```cl
+#s(sb-thread::session
+   :lock #<sb-thread:mutex "session lock" (free)>
+   :threads (#<sb-thread:thread "main thread" running {10005605b3}>)
+   :interactive-threads (#<sb-thread:thread "main thread" running
+                            {10005605b3}>)
+   :interactive-threads-queue #<sb-thread:waitqueue  {100261e723}>)
 ```

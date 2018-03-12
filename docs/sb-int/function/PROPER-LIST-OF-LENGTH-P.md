@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(X MIN &OPTIONAL MAX)
+```cl
+(sb-impl::x min &optional max)
 ```

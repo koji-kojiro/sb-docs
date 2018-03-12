@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(SIZE POSN INT)
+```cl
+(sb-c::size sb-c::posn sb-alien:int)
 ```

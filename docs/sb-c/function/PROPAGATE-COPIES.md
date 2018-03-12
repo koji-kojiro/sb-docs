@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(BLOCK ORIGINAL-COPY-OF)
+```cl
+(block sb-c::original-copy-of)
 ```

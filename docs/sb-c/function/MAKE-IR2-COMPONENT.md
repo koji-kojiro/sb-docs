@@ -4,11 +4,13 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (GLOBAL-TN-COUNTER GLOBAL-TN-COUNTER) (NORMAL-TNS NORMAL-TNS)
- (RESTRICTED-TNS RESTRICTED-TNS) (WIRED-TNS WIRED-TNS)
- (CONSTANT-TNS CONSTANT-TNS) (COMPONENT-TNS COMPONENT-TNS) (NFP NFP)
- (SPECIFIED-SAVE-TNS SPECIFIED-SAVE-TNS) (VALUES-RECEIVERS VALUES-RECEIVERS)
- (CONSTANTS CONSTANTS) (FORMAT FORMAT) (ENTRIES ENTRIES) (ALIAS-TNS ALIAS-TNS)
- (SPILLED-VOPS SPILLED-VOPS) (SPILLED-TNS SPILLED-TNS))
+```cl
+(&key (:global-tn-counter #:global-tn-counter)
+ (:normal-tns #:normal-tns) (:restricted-tns #:restricted-tns)
+ (:wired-tns #:wired-tns) (:constant-tns #:constant-tns)
+ (:component-tns #:component-tns) (:nfp #:nfp)
+ (:specified-save-tns #:specified-save-tns)
+ (:values-receivers #:values-receivers) (:constants #:constants)
+ (:format #:format) (:entries #:entries) (:alias-tns #:alias-tns)
+ (:spilled-vops #:spilled-vops) (:spilled-tns #:spilled-tns))
 ```

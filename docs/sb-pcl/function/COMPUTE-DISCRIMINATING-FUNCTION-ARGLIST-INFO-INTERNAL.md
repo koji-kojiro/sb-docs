@@ -4,7 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(GENERIC-FUNCTION METHOD NUMBER-OF-REQUIREDS RESTP
- SPECIALIZED-ARGUMENT-POSITIONS)
+```cl
+(generic-function method sb-pcl::number-of-requireds sb-pcl::restp
+ sb-pcl::specialized-argument-positions)
 ```

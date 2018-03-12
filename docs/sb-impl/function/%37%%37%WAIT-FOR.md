@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TEST STOP-SEC STOP-USEC)
+```cl
+(sb-impl::test sb-impl::stop-sec sb-impl::stop-usec)
 ```

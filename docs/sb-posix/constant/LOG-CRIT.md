@@ -4,6 +4,6 @@
 > Log severity level denoting critical conditions.
 
 ### Value
-```
+```cl
 2
 ```

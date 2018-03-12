@@ -7,6 +7,6 @@
 > be a lambda expression.
 
 ### Lambda list
-```
-(&REST ARGS)
+```cl
+(&rest sb-c::args)
 ```

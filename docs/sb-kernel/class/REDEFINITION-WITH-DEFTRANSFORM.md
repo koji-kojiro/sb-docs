@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(REDEFINITION-WITH-DEFTRANSFORM REDEFINITION-WARNING STYLE-WARNING WARNING
- CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel:redefinition-with-deftransform
+ sb-kernel:redefinition-warning style-warning warning condition
+ sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(NAME NEW-LOCATION TRANSFORM)
+```cl
+(:name :new-location :transform)
 ```

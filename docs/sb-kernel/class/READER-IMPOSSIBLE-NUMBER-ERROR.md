@@ -4,11 +4,12 @@
 > No description.
 
 ### Precedence list
-```
-(READER-IMPOSSIBLE-NUMBER-ERROR SIMPLE-READER-ERROR READER-ERROR PARSE-ERROR
- STREAM-ERROR ERROR SERIOUS-CONDITION SIMPLE-CONDITION CONDITION SLOT-OBJECT T)
+```cl
+(sb-kernel:reader-impossible-number-error sb-int:simple-reader-error
+ reader-error parse-error stream-error error serious-condition
+ simple-condition condition sb-pcl::slot-object t)
 ```
 ### Initargs
-```
-(FORMAT-CONTROL FORMAT-ARGUMENTS STREAM ERROR)
+```cl
+(:format-control :format-arguments :stream :error)
 ```

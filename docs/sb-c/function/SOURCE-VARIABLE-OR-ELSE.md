@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LVAR FALLBACK)
+```cl
+(sb-c::lvar sb-c::fallback)
 ```

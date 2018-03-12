@@ -4,6 +4,6 @@
 > Make NAME have no global function definition.
 
 ### Lambda list
-```
-(NAME)
+```cl
+(sb-impl::name)
 ```

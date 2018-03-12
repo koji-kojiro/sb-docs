@@ -5,6 +5,6 @@
 > STREAM.
 
 ### Lambda list
-```
-(OBJECT &OPTIONAL STREAM)
+```cl
+(sb-impl::object &optional stream)
 ```

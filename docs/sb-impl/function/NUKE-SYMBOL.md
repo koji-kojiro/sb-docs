@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TABLE SYMBOL)
+```cl
+(sb-impl::table symbol)
 ```

@@ -4,6 +4,6 @@
 > Translate PATHNAME to a physical pathname, which is returned.
 
 ### Lambda list
-```
-(PATHNAME &KEY)
+```cl
+(pathname &key)
 ```

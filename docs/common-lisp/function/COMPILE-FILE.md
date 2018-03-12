@@ -32,8 +32,8 @@
 > of this file into a separate .cfasl file.
 
 ### Lambda list
-```
-(INPUT-FILE &KEY OUTPUT-FILE (VERBOSE *COMPILE-VERBOSE*)
- (PRINT *COMPILE-PRINT*) EXTERNAL-FORMAT TRACE-FILE
- (BLOCK-COMPILE *BLOCK-COMPILE-ARG*) EMIT-CFASL)
+```cl
+(sb-c::input-file &key sb-c::output-file (:verbose *compile-verbose*)
+ (:print *compile-print*) sb-c::external-format sb-c::trace-file
+ (:block-compile sb-c::*block-compile-arg*) sb-c::emit-cfasl)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PRIM-TYPE-NAME SCN OFFSET)
+```cl
+(sb-c::prim-type-name sb-c::scn sb-c::offset)
 ```

@@ -4,6 +4,6 @@
 > Simple equality transform
 
 ### Lambda list
-```
-(NODE)
+```cl
+(sb-c::node)
 ```

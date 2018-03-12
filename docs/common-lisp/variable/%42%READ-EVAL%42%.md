@@ -4,6 +4,6 @@
 > If false, then the #. read macro is disabled.
 
 ### Value
-```
-T
+```cl
+t
 ```

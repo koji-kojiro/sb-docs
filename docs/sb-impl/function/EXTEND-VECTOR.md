@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(VECTOR MIN-EXTENSION)
+```cl
+(vector sb-impl::min-extension)
 ```

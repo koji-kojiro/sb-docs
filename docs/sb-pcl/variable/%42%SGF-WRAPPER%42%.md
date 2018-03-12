@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-#<LAYOUT for STANDARD-GENERIC-FUNCTION {20313B03}>
+```cl
+#<sb-kernel:layout for standard-generic-function {20313b03}>
 ```

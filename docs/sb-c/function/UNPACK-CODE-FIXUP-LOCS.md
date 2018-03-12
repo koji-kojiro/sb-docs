@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PACKED-INTEGER)
+```cl
+(sb-c::packed-integer)
 ```

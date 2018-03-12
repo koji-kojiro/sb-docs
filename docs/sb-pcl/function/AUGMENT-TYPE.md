@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NEW-TYPE KNOWN-TYPE)
+```cl
+(sb-pcl::new-type sb-pcl::known-type)
 ```

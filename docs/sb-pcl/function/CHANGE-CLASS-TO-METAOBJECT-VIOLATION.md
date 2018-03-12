@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(TO-NAME &OPTIONAL FROM-NAME REFERENCES)
+```cl
+(sb-pcl::to-name &optional sb-pcl::from-name sb-pcl::references)
 ```

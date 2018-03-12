@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(ADDR LEN AF)
+```cl
+(sb-alien:addr sb-bsd-sockets-internal::len sb-bsd-sockets-internal::af)
 ```

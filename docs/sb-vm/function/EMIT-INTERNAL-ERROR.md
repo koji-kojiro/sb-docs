@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(KIND CODE VALUES &KEY TRAP-EMITTER COMPACT-ERROR-TRAP)
+```cl
+(sb-vm::kind sb-vm::code values &key sb-vm::trap-emitter
+ sb-vm::compact-error-trap)
 ```

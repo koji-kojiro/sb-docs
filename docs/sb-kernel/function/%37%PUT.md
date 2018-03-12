@@ -5,6 +5,6 @@
 > Returns VALUE.
 
 ### Lambda list
-```
-(SYMBOL INDICATOR VALUE)
+```cl
+(symbol sb-impl::indicator sb-impl::value)
 ```

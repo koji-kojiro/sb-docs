@@ -25,6 +25,6 @@
 > subject to change.
 
 ### Lambda list
-```
-(THREAD &KEY DEFAULT TIMEOUT)
+```cl
+(sb-thread:thread &key sb-thread::default sb-thread::timeout)
 ```

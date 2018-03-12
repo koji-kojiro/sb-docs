@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-((FROM-SC-VAR TO-SC-VAR SCS) &BODY BODY)
+```cl
+((sb-c::from-sc-var sb-c::to-sc-var sb-c::scs) &body sb-c::body)
 ```

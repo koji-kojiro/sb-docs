@@ -9,6 +9,6 @@
 > situations.
 
 ### Lambda list
-```
-(SYMBOL (VAR) &BODY BODY)
+```cl
+(symbol (sb-debug:var) &body sb-impl::body)
 ```

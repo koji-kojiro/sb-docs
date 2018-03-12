@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME DEFSTRUCT-NAME INCLUDE)
+```cl
+(sb-alien::name sb-alien::defstruct-name sb-alien::include)
 ```

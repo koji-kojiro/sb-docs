@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(DEBUG-BLOCK)
+```cl
+(sb-di:debug-block)
 ```

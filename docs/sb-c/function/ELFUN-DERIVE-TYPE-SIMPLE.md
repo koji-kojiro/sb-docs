@@ -4,6 +4,7 @@
 > No description.
 
 ### Lambda list
-```
-(ARG FUN DOMAIN-LOW DOMAIN-HIGH DEFAULT-LOW DEFAULT-HIGH &OPTIONAL INCREASINGP)
+```cl
+(sb-c::arg sb-c::fun sb-c::domain-low sb-c::domain-high
+ sb-c::default-low sb-c::default-high &optional sb-c::increasingp)
 ```

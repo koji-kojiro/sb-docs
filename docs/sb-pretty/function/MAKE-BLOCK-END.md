@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&KEY (POSN POSN) (SUFFIX SUFFIX))
+```cl
+(&key (:posn #:posn) (:suffix #:suffix))
 ```

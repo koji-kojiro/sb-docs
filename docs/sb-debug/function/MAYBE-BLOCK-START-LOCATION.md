@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(LOC)
+```cl
+(sb-debug::loc)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Value
-```
-DYNAMIC
+```cl
+:dynamic
 ```

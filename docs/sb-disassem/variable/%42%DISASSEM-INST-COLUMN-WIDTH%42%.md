@@ -4,6 +4,6 @@
 > The width of instruction bytes.
 
 ### Value
-```
+```cl
 16
 ```

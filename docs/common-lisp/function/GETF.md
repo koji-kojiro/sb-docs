@@ -5,6 +5,6 @@
 > If one is found, return the corresponding value, else return DEFAULT.
 
 ### Lambda list
-```
-(PLACE INDICATOR &OPTIONAL DEFAULT)
+```cl
+(sb-impl::place sb-impl::indicator &optional sb-impl::default)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(INDEX REV-DIMENSIONS)
+```cl
+(sb-int:index sb-impl::rev-dimensions)
 ```

@@ -4,6 +4,6 @@
 > Return the integer code of CHAR.
 
 ### Lambda list
-```
-(CHAR)
+```cl
+(char)
 ```

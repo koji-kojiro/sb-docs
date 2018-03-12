@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(&REST STATEMENTS)
+```cl
+(&rest sb-c::statements)
 ```

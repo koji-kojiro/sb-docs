@@ -4,12 +4,13 @@
 > Return the printed representation of OBJECT as a string.
 
 ### Lambda list
-```
-(OBJECT &KEY (ESCAPE *PRINT-ESCAPE*) (RADIX *PRINT-RADIX*) (BASE *PRINT-BASE*)
- (CIRCLE *PRINT-CIRCLE*) (PRETTY *PRINT-PRETTY*) (LEVEL *PRINT-LEVEL*)
- (LENGTH *PRINT-LENGTH*) (CASE *PRINT-CASE*) (ARRAY *PRINT-ARRAY*)
- (GENSYM *PRINT-GENSYM*) (READABLY *PRINT-READABLY*)
- (RIGHT-MARGIN *PRINT-RIGHT-MARGIN*) (MISER-WIDTH *PRINT-MISER-WIDTH*)
- (LINES *PRINT-LINES*) (PPRINT-DISPATCH *PRINT-PPRINT-DISPATCH*)
- (SUPPRESS-ERRORS *SUPPRESS-PRINT-ERRORS*))
+```cl
+(sb-impl::object &key (:escape *print-escape*) (:radix *print-radix*)
+ (:base *print-base*) (:circle *print-circle*) (:pretty *print-pretty*)
+ (:level *print-level*) (:length *print-length*) (:case *print-case*)
+ (:array *print-array*) (:gensym *print-gensym*)
+ (:readably *print-readably*) (:right-margin *print-right-margin*)
+ (:miser-width *print-miser-width*) (:lines *print-lines*)
+ (:pprint-dispatch *print-pprint-dispatch*)
+ (:suppress-errors sb-ext:*suppress-print-errors*))
 ```

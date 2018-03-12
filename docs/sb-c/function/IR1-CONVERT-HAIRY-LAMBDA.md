@@ -4,7 +4,8 @@
 > No description.
 
 ### Lambda list
-```
-(BODY VARS KEYP ALLOWP AUX-VARS AUX-VALS &KEY POST-BINDING-LEXENV SOURCE-NAME
- DEBUG-NAME SYSTEM-LAMBDA)
+```cl
+(sb-c::body sb-c::vars sb-c::keyp sb-c::allowp sb-c::aux-vars
+ sb-c::aux-vals &key sb-c::post-binding-lexenv sb-c::source-name
+ sb-c::debug-name sb-c::system-lambda)
 ```

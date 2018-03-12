@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(PV-TABLE PV-WRAPPERS)
+```cl
+(sb-pcl::pv-table sb-pcl::pv-wrappers)
 ```

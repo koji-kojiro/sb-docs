@@ -7,6 +7,6 @@
 > currently in the foreground.
 
 ### Lambda list
-```
-(PROCESS SIGNAL &OPTIONAL WHOM)
+```cl
+(sb-impl::process signal &optional sb-impl::whom)
 ```

@@ -4,6 +4,6 @@
 > No description.
 
 ### Lambda list
-```
-(NAME HASH-FUN)
+```cl
+(sb-impl::name sb-impl::hash-fun)
 ```
