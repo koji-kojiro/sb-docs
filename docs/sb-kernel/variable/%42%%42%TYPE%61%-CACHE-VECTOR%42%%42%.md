@@ -5,12 +5,12 @@
 
 ### Value
 ```cl
-#(0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-  0 0 0 0 0 0
-  #(#<sb-kernel:negation-type (not integer)>
-    #<sb-kernel:negation-type (not integer)> t t)
+#(0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  #(#<sb-kernel:hairy-type (satisfies
+                            sb-kernel:uninteresting-generic-function-redefinition-p)>
+    #<sb-kernel:hairy-type (satisfies
+                            sb-kernel:uninteresting-ordinary-function-redefinition-p)>
+    nil nil)
   0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
   0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ..)
 ```
