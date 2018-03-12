@@ -72,9 +72,11 @@
   (insert-description s (getf definition :documentation))
   (loop :for key :in '(:value :lambda-list :precedence-list :initargs)
         :for body := (getf definition key)
-        :when body :do (format s "### ~@(~a~)~%```~%~a~%```~%"
-                               (substitute #\space #\- (string key))
-                               body)))
+        :when body :do (let ((*print-right-margin* 72)
+                             (*print-lines* 8))
+                         (format s "### ~@(~a~)~%```cl~%~(~:W~)~%```~%"
+                                 (substitute #\space #\- (string key))
+                                 body))))
 
 (defun write-index-of-symbols (pkg s)
   (format s "## Package: ~a~%~a~%---~%## Contents~%"
