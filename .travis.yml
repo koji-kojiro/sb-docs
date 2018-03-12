@@ -14,6 +14,7 @@ install:
   - ros install koji-kojiro/sb-docs
 script:
   - make clean build
+  - bundle install
   - time bundle exec jekyll build -s docs --verbose --trace --safe
 
 after_success:
