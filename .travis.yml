@@ -13,9 +13,9 @@ install:
   - curl -L https://raw.githubusercontent.com/roswell/roswell/release/scripts/install-for-ci.sh | sh >&/dev/null
   - ros install koji-kojiro/sb-docs >&/dev/null
 script:
-  - make clean build
+  - make clean build >&/dev/null
   - bundle install >&/dev/null
-  - time bundle exec jekyll build -s docs --trace --safe
+  - travis_wait time bundle exec jekyll build -s docs --verbose --trace --safe
 
 after_success:
   - openssl aes-256-cbc -K $encrypted_ccf13e78b2dd_key -iv $encrypted_ccf13e78b2dd_iv -in .travis.enc -out ~/.ssh/id_rsa -d

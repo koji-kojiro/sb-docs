@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<sb-sys:fd-stream for "standard input" {10018d9b63}>
+#<sb-sys:fd-stream for "standard input" {10018e1d73}>
 ```
