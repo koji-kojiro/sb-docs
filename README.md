@@ -1,4 +1,5 @@
 # sb-docs
+[![Build Status](https://travis-ci.org/koji-kojiro/sb-docs.svg?branch=master)](https://travis-ci.org/koji-kojiro/sb-docs)  
 An unofficial collection of API references of Steel Bank Common Lisp.  
 https://koji-kojiro.github.io/sb-docs/
 
