@@ -6,11 +6,11 @@
 ### Value
 ```cl
 #((0 14 16 19)
-  #<hash-table :test eq :count 14 :weakness :key {1002479aa3}> 19
-  (#<closure (lambda () :in sb-impl::alloc-buffer) {1002783c5b}>)
-  (#<closure (lambda () :in sb-impl::alloc-buffer) {1002783c7b}>)
-  (#<closure (lambda () :in sb-impl::alloc-buffer) {1002783c9b}>)
-  (#<closure (lambda () :in sb-impl::alloc-buffer) {1002783cbb}>)
-  (#<closure (lambda () :in sb-impl::alloc-buffer) {1002783cdb}>)
-  (#<closure (lambda () :in sb-sys:make-fd-stream) {1002783cfb}>) ..)
+  #<hash-table :test eq :count 14 :weakness :key {10024ac663}> 19
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {100280448b}>)
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {10028044ab}>)
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {10028044cb}>)
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {10028044eb}>)
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {100280450b}>)
+  (#<closure (lambda () :in sb-sys:make-fd-stream) {100280452b}>) ..)
 ```

@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<sb-sys:fd-stream for "standard output" {10018e1c43}>
+#<sb-sys:fd-stream for "standard output" {10018d9183}>
 ```
