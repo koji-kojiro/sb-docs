@@ -2,7 +2,7 @@
 An unofficial collection of API references of Steel Bank Common Lisp.  
 https://koji-kojiro.github.io/sb-docs/
 
-# Disclaimer
+## Disclaimer
 This is my **personal** project and very **experimentally**.
 The documentations included in this repo are automatically extracted from documentation strings provided by SBCL,
 so their rights are belongs to the original authors. Also note that this project is **unofficial** one.
