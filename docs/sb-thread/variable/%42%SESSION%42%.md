@@ -10,5 +10,5 @@
    :threads (#<sb-thread:thread "main thread" running {10005605b3}>)
    :interactive-threads (#<sb-thread:thread "main thread" running
                             {10005605b3}>)
-   :interactive-threads-queue #<sb-thread:waitqueue  {100261e723}>)
+   :interactive-threads-queue #<sb-thread:waitqueue  {100260ee93}>)
 ```
