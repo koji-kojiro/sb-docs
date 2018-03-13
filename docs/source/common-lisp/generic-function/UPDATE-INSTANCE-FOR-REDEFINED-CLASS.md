@@ -1,0 +1,10 @@
+## Generic-function: COMMON-LISP:UPDATE-INSTANCE-FOR-REDEFINED-CLASS
+[![package](https://img.shields.io/badge/Package-COMMON--LISP-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Generic--Function-5f9ea0.svg?style=social&colorA=999999)](../#generic-function) [![clhs](https://img.shields.io/badge/CLHS-UPDATE--INSTANCE--FOR--REDEFINED--CLASS-5f9ea0.svg?style=social&colorA=999999)](http://www.lispworks.com/documentation/HyperSpec/Body/f_upda_1.htm) 
+
+> No description.
+
+### Lambda list
+```cl
+(sb-kernel:instance sb-pcl::added-slots sb-pcl::discarded-slots sb-pcl::property-list &rest
+ sb-pcl::initargs)
+```

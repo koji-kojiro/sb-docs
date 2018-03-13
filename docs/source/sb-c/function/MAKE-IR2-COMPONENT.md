@@ -1,0 +1,14 @@
+## Function: SB-C::MAKE-IR2-COMPONENT
+[![package](https://img.shields.io/badge/Package-SB--C-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Function-5f9ea0.svg?style=social&colorA=999999)](../#function) [![github](https://img.shields.io/badge/GitHub-View_the_source-5f9ea0.svg?style=social&colorA=999999&logo=github)](https://github.com/sbcl/sbcl/blob/master/src/compiler/vop.lisp/) 
+
+> No description.
+
+### Lambda list
+```cl
+(&key (:global-tn-counter #:global-tn-counter) (:normal-tns #:normal-tns)
+ (:restricted-tns #:restricted-tns) (:wired-tns #:wired-tns) (:constant-tns #:constant-tns)
+ (:component-tns #:component-tns) (:nfp #:nfp) (:specified-save-tns #:specified-save-tns)
+ (:values-receivers #:values-receivers) (:constants #:constants) (:format #:format)
+ (:entries #:entries) (:alias-tns #:alias-tns) (:spilled-vops #:spilled-vops)
+ (:spilled-tns #:spilled-tns))
+```

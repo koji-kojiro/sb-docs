@@ -1,0 +1,9 @@
+## Macro: SB-ALIEN-INTERNALS:MAYBE-WITH-PINNED-OBJECTS
+[![package](https://img.shields.io/badge/Package-SB--ALIEN--INTERNALS-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Macro-5f9ea0.svg?style=social&colorA=999999)](../#macro) 
+
+> No description.
+
+### Lambda list
+```cl
+(sb-alien::variables sb-alien::types &body sb-alien::body)
+```
