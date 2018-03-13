@@ -1,6 +1,6 @@
 (in-package :sb-docs)
 
-(defvar *document-root* #P"docs/")
+(defvar *document-root* #P"docs/source/")
 
 (defun lispname-filename (lispname &optional (ext ".md"))
   (let ((filename-list (ppcre:split "" lispname)))
@@ -72,30 +72,27 @@
   (insert-description s (getf definition :documentation))
   (loop :for key :in '(:value :lambda-list :precedence-list :initargs)
         :for body := (getf definition key)
-        :when body :do (let ((*print-right-margin* 72)
+        :when body :do (let ((*print-right-margin* 92)
                              (*print-lines* 8))
                          (format s "### ~@(~a~)~%```cl~%~(~:W~)~%```~%"
                                  (substitute #\space #\- (string key))
                                  body))))
 
 (defun write-index-of-symbols (pkg s)
-  (format s "## Package: ~a~%~a~%---~%## Contents~%"
+  (format s "## Package: ~a~%~a~%---~%"
           (package-name pkg)
           (insert-description nil (documentation (find-package pkg) t)))
   (let ((dirs (cl-fad:list-directory (package-dirname pkg))))
-    (loop :for dir :in dirs
-          :when (cl-fad:list-directory dir)
-          :do (format s "- [~@(~a~)](#~:*~a)~%" (first (last (pathname-directory dir)))))
     (loop :for dir :in dirs
           :for files := (cl-fad:list-directory dir)
           :when files
           :do (progn
                 (format s "~2%### ~@(~a~)~%" (first (last (pathname-directory dir))))
                 (loop :for file :in files
-                      :do (format s "- [`~a`](~a/~a.md)~%"
+                      :do (format s "- [`~a`](~a/~a.html)~%"
                                   (filename-lispname (pathname file))
                                   (first (last (pathname-directory dir)))
-                                  (pathname-name file)))))))
+                                  (ppcre:regex-replace-all "%" (pathname-name file) "%25")))))))
 
 (defun build-1 (pkg)
   (let ((definitions (extract-definitions pkg)))
@@ -111,7 +108,7 @@
   (with-open-file-to-write (s (merge-pathnames *document-root* "index.md"))
     (format s "This is an **unofficial** collection of API references of [Steel Bank Common Lisp](http://www.sbcl.org/) aka SBCL.
 All the documentations are automatically extracted from documentation strings provided by SBCL (**version ~a**),
-and their copyrights belong to the original authors.~%## Contents~%"
+and their copyrights belong to the original authors.~%## Package~%"
             (lisp-implementation-version))
     (let ((pkg-list (if pkg-list pkg-list (append '(:cl) (extract-sb-packages)))))
       (loop :for pkg :in (sort pkg-list #'(lambda (a b) (string-lessp (package-name a) (package-name b))))

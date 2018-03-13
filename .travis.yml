@@ -1,4 +1,4 @@
-language: common-lisp
+language: python
 sudo: false
 
 env:
@@ -12,10 +12,9 @@ os:
 install:
   - curl -L https://raw.githubusercontent.com/roswell/roswell/release/scripts/install-for-ci.sh | sh >&/dev/null
   - ros install koji-kojiro/sb-docs >&/dev/null
+  - pip install sphinx recommonmark==0.4.0 sphinx_rtd_theme
 script:
   - make clean build >&/dev/null
-  - bundle install >&/dev/null
-  - travis_wait time bundle exec jekyll build -s docs --trace --safe
 
 after_success:
   - openssl aes-256-cbc -K $encrypted_ccf13e78b2dd_key -iv $encrypted_ccf13e78b2dd_iv -in .travis.enc -out ~/.ssh/id_rsa -d

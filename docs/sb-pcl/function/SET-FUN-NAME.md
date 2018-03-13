@@ -1,9 +1,0 @@
-## Function: SB-PCL::SET-FUN-NAME
-[![package](https://img.shields.io/badge/Package-SB--PCL-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Function-5f9ea0.svg?style=social&colorA=999999)](../#function) [![github](https://img.shields.io/badge/GitHub-View_the_source-5f9ea0.svg?style=social&colorA=999999&logo=github)](https://github.com/sbcl/sbcl/blob/master/src/pcl/low.lisp/) 
-
-> Set the name of a compiled function object. Return the function.
-
-### Lambda list
-```cl
-(sb-pcl::fun sb-pcl::new-name)
-```

@@ -1,9 +1,0 @@
-## Constant: SB-IMPL::+BYTES-PER-BUFFER+
-[![package](https://img.shields.io/badge/Package-SB--IMPL-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Constant-5f9ea0.svg?style=social&colorA=999999)](../#constant) 
-
-> Default number of bytes per buffer.
-
-### Value
-```cl
-4096
-```
