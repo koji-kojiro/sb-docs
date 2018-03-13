@@ -1,0 +1,386 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Package: SB-DEBUG &mdash; sb-docs  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="sb-docs  documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> sb-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Package: SB-DEBUG</a><ul>
+<li><a class="reference internal" href="#function">Function</a></li>
+<li><a class="reference internal" href="#macro">Macro</a></li>
+<li><a class="reference internal" href="#structure">Structure</a></li>
+<li><a class="reference internal" href="#variable">Variable</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">sb-docs</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Package: SB-DEBUG</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/sb-debug/index.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="package-sb-debug">
+<span id="package-sb-debug"></span><h1>Package: SB-DEBUG<a class="headerlink" href="#package-sb-debug" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>sorta public: Eventually this should become the debugger interface, with
+basic stuff like BACKTRACE and ARG. For now, the actual supported interface
+is still mixed indiscriminately with low-level internal implementation stuff
+like <em>STACK-TOP-HINT</em> and unsupported stuff like <em>TRACED-FUN-LIST</em>.</div></blockquote>
+<hr class="docutils" />
+<div class="section" id="function">
+<span id="function"></span><h2>Function<a class="headerlink" href="#function" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="function/%2537%25INVOKE-DEBUGGER.html"><code class="docutils literal notranslate"><span class="pre">%INVOKE-DEBUGGER</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25LIST-TRACED-FUNS.html"><code class="docutils literal notranslate"><span class="pre">%LIST-TRACED-FUNS</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25PRINT-DEBUGGER-INVOCATION-REASON.html"><code class="docutils literal notranslate"><span class="pre">%PRINT-DEBUGGER-INVOCATION-REASON</span></code></a></li>
+<li><a class="reference external" href="function/ARG.html"><code class="docutils literal notranslate"><span class="pre">ARG</span></code></a></li>
+<li><a class="reference external" href="function/BACKTRACE-AS-LIST.html"><code class="docutils literal notranslate"><span class="pre">BACKTRACE-AS-LIST</span></code></a></li>
+<li><a class="reference external" href="function/BACKTRACE-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">BACKTRACE-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/BACKTRACE-START-FRAME.html"><code class="docutils literal notranslate"><span class="pre">BACKTRACE-START-FRAME</span></code></a></li>
+<li><a class="reference external" href="function/BACKTRACE.html"><code class="docutils literal notranslate"><span class="pre">BACKTRACE</span></code></a></li>
+<li><a class="reference external" href="function/BOTTOM-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">BOTTOM-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/CLEAN-%2538%25MORE-PROCESSOR.html"><code class="docutils literal notranslate"><span class="pre">CLEAN-&amp;MORE-PROCESSOR</span></code></a></li>
+<li><a class="reference external" href="function/CLEAN-FAST-METHOD.html"><code class="docutils literal notranslate"><span class="pre">CLEAN-FAST-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/CLEAN-FRAME-CALL.html"><code class="docutils literal notranslate"><span class="pre">CLEAN-FRAME-CALL</span></code></a></li>
+<li><a class="reference external" href="function/CLEAN-XEP.html"><code class="docutils literal notranslate"><span class="pre">CLEAN-XEP</span></code></a></li>
+<li><a class="reference external" href="function/CODE-LOCATION-SOURCE-FORM.html"><code class="docutils literal notranslate"><span class="pre">CODE-LOCATION-SOURCE-FORM</span></code></a></li>
+<li><a class="reference external" href="function/COERCE-FORM-LIST.html"><code class="docutils literal notranslate"><span class="pre">COERCE-FORM-LIST</span></code></a></li>
+<li><a class="reference external" href="function/COERCE-FORM.html"><code class="docutils literal notranslate"><span class="pre">COERCE-FORM</span></code></a></li>
+<li><a class="reference external" href="function/COPY-TRACE-INFO.html"><code class="docutils literal notranslate"><span class="pre">COPY-TRACE-INFO</span></code></a></li>
+<li><a class="reference external" href="function/DEBUG-COMMAND-P.html"><code class="docutils literal notranslate"><span class="pre">DEBUG-COMMAND-P</span></code></a></li>
+<li><a class="reference external" href="function/DEBUG-EVAL-PRINT.html"><code class="docutils literal notranslate"><span class="pre">DEBUG-EVAL-PRINT</span></code></a></li>
+<li><a class="reference external" href="function/DEBUG-EVAL.html"><code class="docutils literal notranslate"><span class="pre">DEBUG-EVAL</span></code></a></li>
+<li><a class="reference external" href="function/DEBUG-LOOP-FUN.html"><code class="docutils literal notranslate"><span class="pre">DEBUG-LOOP-FUN</span></code></a></li>
+<li><a class="reference external" href="function/DEBUG-PROMPT.html"><code class="docutils literal notranslate"><span class="pre">DEBUG-PROMPT</span></code></a></li>
+<li><a class="reference external" href="function/DEBUG-READ.html"><code class="docutils literal notranslate"><span class="pre">DEBUG-READ</span></code></a></li>
+<li><a class="reference external" href="function/DEBUGGER-DISABLED-HOOK.html"><code class="docutils literal notranslate"><span class="pre">DEBUGGER-DISABLED-HOOK</span></code></a></li>
+<li><a class="reference external" href="function/DESCRIBE-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">DESCRIBE-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/DISCARD-INVALID-ENTRIES.html"><code class="docutils literal notranslate"><span class="pre">DISCARD-INVALID-ENTRIES</span></code></a></li>
+<li><a class="reference external" href="function/DOWN-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">DOWN-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/EARLY-FRAME-ARGS.html"><code class="docutils literal notranslate"><span class="pre">EARLY-FRAME-ARGS</span></code></a></li>
+<li><a class="reference external" href="function/EARLY-FRAME-NTH-ARG.html"><code class="docutils literal notranslate"><span class="pre">EARLY-FRAME-NTH-ARG</span></code></a></li>
+<li><a class="reference external" href="function/ENSURE-PRINTABLE-OBJECT.html"><code class="docutils literal notranslate"><span class="pre">ENSURE-PRINTABLE-OBJECT</span></code></a></li>
+<li><a class="reference external" href="function/ERROR-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">ERROR-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/EXPAND-TRACE.html"><code class="docutils literal notranslate"><span class="pre">EXPAND-TRACE</span></code></a></li>
+<li><a class="reference external" href="function/FIND-BINDING-STACK-POINTER.html"><code class="docutils literal notranslate"><span class="pre">FIND-BINDING-STACK-POINTER</span></code></a></li>
+<li><a class="reference external" href="function/FIND-ENCLOSING-CATCH-BLOCK.html"><code class="docutils literal notranslate"><span class="pre">FIND-ENCLOSING-CATCH-BLOCK</span></code></a></li>
+<li><a class="reference external" href="function/FIND-ENCLOSING-UWP.html"><code class="docutils literal notranslate"><span class="pre">FIND-ENCLOSING-UWP</span></code></a></li>
+<li><a class="reference external" href="function/FRAME-ARGS-AS-LIST.html"><code class="docutils literal notranslate"><span class="pre">FRAME-ARGS-AS-LIST</span></code></a></li>
+<li><a class="reference external" href="function/FRAME-CALL-ARG.html"><code class="docutils literal notranslate"><span class="pre">FRAME-CALL-ARG</span></code></a></li>
+<li><a class="reference external" href="function/FRAME-CALL-AS-LIST.html"><code class="docutils literal notranslate"><span class="pre">FRAME-CALL-AS-LIST</span></code></a></li>
+<li><a class="reference external" href="function/FRAME-CALL.html"><code class="docutils literal notranslate"><span class="pre">FRAME-CALL</span></code></a></li>
+<li><a class="reference external" href="function/FRAME-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">FRAME-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/FRAME-HAS-DEBUG-TAG-P.html"><code class="docutils literal notranslate"><span class="pre">FRAME-HAS-DEBUG-TAG-P</span></code></a></li>
+<li><a class="reference external" href="function/FRAME-HAS-DEBUG-VARS-P.html"><code class="docutils literal notranslate"><span class="pre">FRAME-HAS-DEBUG-VARS-P</span></code></a></li>
+<li><a class="reference external" href="function/FUNCALL-WITH-DEBUG-IO-SYNTAX.html"><code class="docutils literal notranslate"><span class="pre">FUNCALL-WITH-DEBUG-IO-SYNTAX</span></code></a></li>
+<li><a class="reference external" href="function/HELP-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">HELP-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/INTERNAL-DEBUG.html"><code class="docutils literal notranslate"><span class="pre">INTERNAL-DEBUG</span></code></a></li>
+<li><a class="reference external" href="function/LIST-BACKTRACE.html"><code class="docutils literal notranslate"><span class="pre">LIST-BACKTRACE</span></code></a></li>
+<li><a class="reference external" href="function/LIST-LOCALS-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">LIST-LOCALS-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-RESTART-COMMANDS.html"><code class="docutils literal notranslate"><span class="pre">MAKE-RESTART-COMMANDS</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-TRACE-INFO.html"><code class="docutils literal notranslate"><span class="pre">MAKE-TRACE-INFO</span></code></a></li>
+<li><a class="reference external" href="function/MAP-BACKTRACE.html"><code class="docutils literal notranslate"><span class="pre">MAP-BACKTRACE</span></code></a></li>
+<li><a class="reference external" href="function/MAP-FRAME-ARGS.html"><code class="docutils literal notranslate"><span class="pre">MAP-FRAME-ARGS</span></code></a></li>
+<li><a class="reference external" href="function/MAYBE-BLOCK-START-LOCATION.html"><code class="docutils literal notranslate"><span class="pre">MAYBE-BLOCK-START-LOCATION</span></code></a></li>
+<li><a class="reference external" href="function/NEXT-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">NEXT-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/NTH-ARG.html"><code class="docutils literal notranslate"><span class="pre">NTH-ARG</span></code></a></li>
+<li><a class="reference external" href="function/OUT-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">OUT-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/PARSE-TRACE-OPTIONS.html"><code class="docutils literal notranslate"><span class="pre">PARSE-TRACE-OPTIONS</span></code></a></li>
+<li><a class="reference external" href="function/PRINT-BACKTRACE.html"><code class="docutils literal notranslate"><span class="pre">PRINT-BACKTRACE</span></code></a></li>
+<li><a class="reference external" href="function/PRINT-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">PRINT-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/PRINT-FRAME-CALL.html"><code class="docutils literal notranslate"><span class="pre">PRINT-FRAME-CALL</span></code></a></li>
+<li><a class="reference external" href="function/PRINT-TRACE-INDENTATION.html"><code class="docutils literal notranslate"><span class="pre">PRINT-TRACE-INDENTATION</span></code></a></li>
+<li><a class="reference external" href="function/READ-IF-AVAILABLE.html"><code class="docutils literal notranslate"><span class="pre">READ-IF-AVAILABLE</span></code></a></li>
+<li><a class="reference external" href="function/READ-PROMPTING-MAYBE.html"><code class="docutils literal notranslate"><span class="pre">READ-PROMPTING-MAYBE</span></code></a></li>
+<li><a class="reference external" href="function/REPLACE-DYNAMIC-EXTENT-OBJECT.html"><code class="docutils literal notranslate"><span class="pre">REPLACE-DYNAMIC-EXTENT-OBJECT</span></code></a></li>
+<li><a class="reference external" href="function/RESOLVE-STACK-TOP-HINT.html"><code class="docutils literal notranslate"><span class="pre">RESOLVE-STACK-TOP-HINT</span></code></a></li>
+<li><a class="reference external" href="function/RESTART-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">RESTART-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/RESTART-FRAME-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">RESTART-FRAME-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/RETURN-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">RETURN-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/RUN-HOOK.html"><code class="docutils literal notranslate"><span class="pre">RUN-HOOK</span></code></a></li>
+<li><a class="reference external" href="function/SHOW-RESTARTS.html"><code class="docutils literal notranslate"><span class="pre">SHOW-RESTARTS</span></code></a></li>
+<li><a class="reference external" href="function/SLURP-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">SLURP-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/SOURCE-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">SOURCE-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/STACK-ALLOCATED-P.html"><code class="docutils literal notranslate"><span class="pre">STACK-ALLOCATED-P</span></code></a></li>
+<li><a class="reference external" href="function/START-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">START-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/STEP-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">STEP-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/STOP-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">STOP-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/TOPLEVEL-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">TOPLEVEL-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-1.html"><code class="docutils literal notranslate"><span class="pre">TRACE-1</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-CALL.html"><code class="docutils literal notranslate"><span class="pre">TRACE-CALL</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-END-BREAKPOINT-FUN.html"><code class="docutils literal notranslate"><span class="pre">TRACE-END-BREAKPOINT-FUN</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-FDEFINITION.html"><code class="docutils literal notranslate"><span class="pre">TRACE-FDEFINITION</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-BREAK-AFTER.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-BREAK-AFTER</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-BREAK.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-BREAK</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-CONDITION-AFTER.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-CONDITION-AFTER</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-CONDITION.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-CONDITION</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-ENCAPSULATED.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-ENCAPSULATED</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-END-BREAKPOINT.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-END-BREAKPOINT</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-METHODS.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-METHODS</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-NAMED.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-NAMED</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-P.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-P</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-PRINT-AFTER.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-PRINT-AFTER</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-PRINT.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-PRINT</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-REPORT.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-REPORT</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-START-BREAKPOINT.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-START-BREAKPOINT</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-UNTRACED.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-UNTRACED</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-WHAT.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-WHAT</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INFO-WHEREIN.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO-WHEREIN</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-MAYBE-BREAK.html"><code class="docutils literal notranslate"><span class="pre">TRACE-MAYBE-BREAK</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-PRINT-UNADORNED.html"><code class="docutils literal notranslate"><span class="pre">TRACE-PRINT-UNADORNED</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-PRINT.html"><code class="docutils literal notranslate"><span class="pre">TRACE-PRINT</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-REDEFINED-UPDATE.html"><code class="docutils literal notranslate"><span class="pre">TRACE-REDEFINED-UPDATE</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-START-BREAKPOINT-FUN.html"><code class="docutils literal notranslate"><span class="pre">TRACE-START-BREAKPOINT-FUN</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-WHEREIN-P.html"><code class="docutils literal notranslate"><span class="pre">TRACE-WHEREIN-P</span></code></a></li>
+<li><a class="reference external" href="function/UNTRACE-1.html"><code class="docutils literal notranslate"><span class="pre">UNTRACE-1</span></code></a></li>
+<li><a class="reference external" href="function/UNTRACE-ALL.html"><code class="docutils literal notranslate"><span class="pre">UNTRACE-ALL</span></code></a></li>
+<li><a class="reference external" href="function/UNTRACE-PACKAGE.html"><code class="docutils literal notranslate"><span class="pre">UNTRACE-PACKAGE</span></code></a></li>
+<li><a class="reference external" href="function/UNWIND-TO-FRAME-AND-CALL.html"><code class="docutils literal notranslate"><span class="pre">UNWIND-TO-FRAME-AND-CALL</span></code></a></li>
+<li><a class="reference external" href="function/UP-DEBUG-COMMAND.html"><code class="docutils literal notranslate"><span class="pre">UP-DEBUG-COMMAND</span></code></a></li>
+<li><a class="reference external" href="function/VAR-VALID-IN-FRAME-P.html"><code class="docutils literal notranslate"><span class="pre">VAR-VALID-IN-FRAME-P</span></code></a></li>
+<li><a class="reference external" href="function/VAR.html"><code class="docutils literal notranslate"><span class="pre">VAR</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="macro">
+<span id="macro"></span><h2>Macro<a class="headerlink" href="#macro" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="macro/WITH-DEBUG-IO-SYNTAX.html"><code class="docutils literal notranslate"><span class="pre">WITH-DEBUG-IO-SYNTAX</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="structure">
+<span id="structure"></span><h2>Structure<a class="headerlink" href="#structure" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="structure/TRACE-INFO.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="variable">
+<span id="variable"></span><h2>Variable<a class="headerlink" href="#variable" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="variable/%2542%25AUTO-EVAL-IN-FRAME%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*AUTO-EVAL-IN-FRAME*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25BACKTRACE-FRAME-COUNT%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*BACKTRACE-FRAME-COUNT*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25CURRENT-FRAME%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*CURRENT-FRAME*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25DEBUG-BEGINNER-HELP-P%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*DEBUG-BEGINNER-HELP-P*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25DEBUG-COMMAND-LEVEL%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*DEBUG-COMMAND-LEVEL*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25DEBUG-COMMANDS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*DEBUG-COMMANDS*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25DEBUG-HELP-STRING%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*DEBUG-HELP-STRING*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25DEBUG-LOOP-FUN%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*DEBUG-LOOP-FUN*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25DEBUG-PRINT-VARIABLE-ALIST%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*DEBUG-PRINT-VARIABLE-ALIST*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25DEBUG-READTABLE%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*DEBUG-READTABLE*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25FLUSH-DEBUG-ERRORS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*FLUSH-DEBUG-ERRORS*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25IN-THE-DEBUGGER%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*IN-THE-DEBUGGER*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25IN-TRACE%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*IN-TRACE*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25MAX-TRACE-INDENTATION%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*MAX-TRACE-INDENTATION*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25METHOD-FRAME-STYLE%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*METHOD-FRAME-STYLE*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25OLD-DEBUGGER-HOOK%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*OLD-DEBUGGER-HOOK*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25SHOW-ENTRY-POINT-DETAILS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*SHOW-ENTRY-POINT-DETAILS*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25STACK-TOP-HINT%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*STACK-TOP-HINT*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25SUPPRESS-FRAME-PRINT%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*SUPPRESS-FRAME-PRINT*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25TRACE-ENCAPSULATE-DEFAULT%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*TRACE-ENCAPSULATE-DEFAULT*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25TRACE-INDENTATION-STEP%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*TRACE-INDENTATION-STEP*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25TRACED-ENTRIES%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*TRACED-ENTRIES*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25TRACED-FUNS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*TRACED-FUNS*</span></code></a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, TANI Kojiro.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

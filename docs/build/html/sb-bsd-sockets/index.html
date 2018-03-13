@@ -1,0 +1,395 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Package: SB-BSD-SOCKETS &mdash; sb-docs  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="sb-docs  documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> sb-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Package: SB-BSD-SOCKETS</a><ul>
+<li><a class="reference internal" href="#class">Class</a></li>
+<li><a class="reference internal" href="#constant">Constant</a></li>
+<li><a class="reference internal" href="#function">Function</a></li>
+<li><a class="reference internal" href="#generic-function">Generic-function</a></li>
+<li><a class="reference internal" href="#macro">Macro</a></li>
+<li><a class="reference internal" href="#variable">Variable</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">sb-docs</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Package: SB-BSD-SOCKETS</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/sb-bsd-sockets/index.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="package-sb-bsd-sockets">
+<span id="package-sb-bsd-sockets"></span><h1>Package: SB-BSD-SOCKETS<a class="headerlink" href="#package-sb-bsd-sockets" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><p>A thinly-disguised BSD socket API for SBCL.  Ideas stolen from the BSD
+socket API for C and Graham Barr’s IO::Socket classes for Perl.</p>
+<p>We represent sockets as CLOS objects, and rename a lot of methods and
+arguments to fit Lisp style more closely.</p>
+</div></blockquote>
+<hr class="docutils" />
+<div class="section" id="class">
+<span id="class"></span><h2>Class<a class="headerlink" href="#class" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="class/ADDRESS-FAMILY-NOT-SUPPORTED.html"><code class="docutils literal notranslate"><span class="pre">ADDRESS-FAMILY-NOT-SUPPORTED</span></code></a></li>
+<li><a class="reference external" href="class/ADDRESS-IN-USE-ERROR.html"><code class="docutils literal notranslate"><span class="pre">ADDRESS-IN-USE-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/BAD-FILE-DESCRIPTOR-ERROR.html"><code class="docutils literal notranslate"><span class="pre">BAD-FILE-DESCRIPTOR-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/CONNECTION-REFUSED-ERROR.html"><code class="docutils literal notranslate"><span class="pre">CONNECTION-REFUSED-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/HOST-NOT-FOUND-ERROR.html"><code class="docutils literal notranslate"><span class="pre">HOST-NOT-FOUND-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/INTERRUPTED-ERROR.html"><code class="docutils literal notranslate"><span class="pre">INTERRUPTED-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/INVALID-ARGUMENT-ERROR.html"><code class="docutils literal notranslate"><span class="pre">INVALID-ARGUMENT-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/NAME-SERVICE-ERROR.html"><code class="docutils literal notranslate"><span class="pre">NAME-SERVICE-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/NETDB-INTERNAL-ERROR.html"><code class="docutils literal notranslate"><span class="pre">NETDB-INTERNAL-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/NETDB-SUCCESS-ERROR.html"><code class="docutils literal notranslate"><span class="pre">NETDB-SUCCESS-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/NETWORK-UNREACHABLE-ERROR.html"><code class="docutils literal notranslate"><span class="pre">NETWORK-UNREACHABLE-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/NO-ADDRESS-ERROR.html"><code class="docutils literal notranslate"><span class="pre">NO-ADDRESS-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/NO-BUFFERS-ERROR.html"><code class="docutils literal notranslate"><span class="pre">NO-BUFFERS-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/NO-RECOVERY-ERROR.html"><code class="docutils literal notranslate"><span class="pre">NO-RECOVERY-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/NOT-CONNECTED-ERROR.html"><code class="docutils literal notranslate"><span class="pre">NOT-CONNECTED-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/OPERATION-IN-PROGRESS.html"><code class="docutils literal notranslate"><span class="pre">OPERATION-IN-PROGRESS</span></code></a></li>
+<li><a class="reference external" href="class/OPERATION-NOT-PERMITTED-ERROR.html"><code class="docutils literal notranslate"><span class="pre">OPERATION-NOT-PERMITTED-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/OPERATION-NOT-SUPPORTED-ERROR.html"><code class="docutils literal notranslate"><span class="pre">OPERATION-NOT-SUPPORTED-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/OPERATION-TIMEOUT-ERROR.html"><code class="docutils literal notranslate"><span class="pre">OPERATION-TIMEOUT-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/OUT-OF-MEMORY-ERROR.html"><code class="docutils literal notranslate"><span class="pre">OUT-OF-MEMORY-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/PROTOCOL-NOT-SUPPORTED-ERROR.html"><code class="docutils literal notranslate"><span class="pre">PROTOCOL-NOT-SUPPORTED-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/SOCKET-ERROR.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/SOCKET-TYPE-NOT-SUPPORTED-ERROR.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-TYPE-NOT-SUPPORTED-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/TRY-AGAIN-ERROR.html"><code class="docutils literal notranslate"><span class="pre">TRY-AGAIN-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/UNKNOWN-PROTOCOL.html"><code class="docutils literal notranslate"><span class="pre">UNKNOWN-PROTOCOL</span></code></a></li>
+<li><a class="reference external" href="class/UNSUPPORTED-OPERATOR.html"><code class="docutils literal notranslate"><span class="pre">UNSUPPORTED-OPERATOR</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="constant">
+<span id="constant"></span><h2>Constant<a class="headerlink" href="#constant" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="constant/NI-MAX-HOST.html"><code class="docutils literal notranslate"><span class="pre">NI-MAX-HOST</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="function">
+<span id="function"></span><h2>Function<a class="headerlink" href="#function" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="function/ADDRESS-NUMBERS%2547%25V4.html"><code class="docutils literal notranslate"><span class="pre">ADDRESS-NUMBERS/V4</span></code></a></li>
+<li><a class="reference external" href="function/ADDRESS-NUMBERS%2547%25V6.html"><code class="docutils literal notranslate"><span class="pre">ADDRESS-NUMBERS/V6</span></code></a></li>
+<li><a class="reference external" href="function/ADDRINFO-ERROR.html"><code class="docutils literal notranslate"><span class="pre">ADDRINFO-ERROR</span></code></a></li>
+<li><a class="reference external" href="function/BOOL-TO-FOREIGN-INT.html"><code class="docutils literal notranslate"><span class="pre">BOOL-TO-FOREIGN-INT</span></code></a></li>
+<li><a class="reference external" href="function/CALL-WITH-SOCKET-ADDR.html"><code class="docutils literal notranslate"><span class="pre">CALL-WITH-SOCKET-ADDR</span></code></a></li>
+<li><a class="reference external" href="function/CONDITION-FOR-ERRNO.html"><code class="docutils literal notranslate"><span class="pre">CONDITION-FOR-ERRNO</span></code></a></li>
+<li><a class="reference external" href="function/CONDITION-FOR-NAME-SERVICE-ERRNO.html"><code class="docutils literal notranslate"><span class="pre">CONDITION-FOR-NAME-SERVICE-ERRNO</span></code></a></li>
+<li><a class="reference external" href="function/CONDITION-FOR-NAME-SERVICE-ERROR-CODE.html"><code class="docutils literal notranslate"><span class="pre">CONDITION-FOR-NAME-SERVICE-ERROR-CODE</span></code></a></li>
+<li><a class="reference external" href="function/ENDPOINT-STRING%2547%25V4.html"><code class="docutils literal notranslate"><span class="pre">ENDPOINT-STRING/V4</span></code></a></li>
+<li><a class="reference external" href="function/ENDPOINT-STRING%2547%25V6.html"><code class="docutils literal notranslate"><span class="pre">ENDPOINT-STRING/V6</span></code></a></li>
+<li><a class="reference external" href="function/FEATUREP.html"><code class="docutils literal notranslate"><span class="pre">FEATUREP</span></code></a></li>
+<li><a class="reference external" href="function/FOREIGN-INT-TO-BOOL.html"><code class="docutils literal notranslate"><span class="pre">FOREIGN-INT-TO-BOOL</span></code></a></li>
+<li><a class="reference external" href="function/FOREIGN-INT-TO-INTEGER.html"><code class="docutils literal notranslate"><span class="pre">FOREIGN-INT-TO-INTEGER</span></code></a></li>
+<li><a class="reference external" href="function/GET-HOST-BY-ADDRESS.html"><code class="docutils literal notranslate"><span class="pre">GET-HOST-BY-ADDRESS</span></code></a></li>
+<li><a class="reference external" href="function/GET-HOST-BY-NAME.html"><code class="docutils literal notranslate"><span class="pre">GET-HOST-BY-NAME</span></code></a></li>
+<li><a class="reference external" href="function/GET-NAME-SERVICE-ERRNO.html"><code class="docutils literal notranslate"><span class="pre">GET-NAME-SERVICE-ERRNO</span></code></a></li>
+<li><a class="reference external" href="function/GET-NAME-SERVICE-ERROR-MESSAGE.html"><code class="docutils literal notranslate"><span class="pre">GET-NAME-SERVICE-ERROR-MESSAGE</span></code></a></li>
+<li><a class="reference external" href="function/GET-PROTOCOL-BY-NAME.html"><code class="docutils literal notranslate"><span class="pre">GET-PROTOCOL-BY-NAME</span></code></a></li>
+<li><a class="reference external" href="function/GETPROTOBYNAME.html"><code class="docutils literal notranslate"><span class="pre">GETPROTOBYNAME</span></code></a></li>
+<li><a class="reference external" href="function/IDENTITY-1.html"><code class="docutils literal notranslate"><span class="pre">IDENTITY-1</span></code></a></li>
+<li><a class="reference external" href="function/INTERRUPTED-P.html"><code class="docutils literal notranslate"><span class="pre">INTERRUPTED-P</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-INET-ADDRESS.html"><code class="docutils literal notranslate"><span class="pre">MAKE-INET-ADDRESS</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-INET-SOCKET.html"><code class="docutils literal notranslate"><span class="pre">MAKE-INET-SOCKET</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-INET6-ADDRESS.html"><code class="docutils literal notranslate"><span class="pre">MAKE-INET6-ADDRESS</span></code></a></li>
+<li><a class="reference external" href="function/NAME-SERVICE-ERROR.html"><code class="docutils literal notranslate"><span class="pre">NAME-SERVICE-ERROR</span></code></a></li>
+<li><a class="reference external" href="function/NATURALIZE-UNSIGNED-BYTE-8-ARRAY.html"><code class="docutils literal notranslate"><span class="pre">NATURALIZE-UNSIGNED-BYTE-8-ARRAY</span></code></a></li>
+<li><a class="reference external" href="function/SOCKET-ERRNO.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-ERRNO</span></code></a></li>
+<li><a class="reference external" href="function/SOCKET-ERROR.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-ERROR</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-BIND-TO-DEVICE.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-BIND-TO-DEVICE</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-BROADCAST.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-BROADCAST</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-BSD-COMPATIBLE.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-BSD-COMPATIBLE</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-DEBUG.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-DEBUG</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-DONT-ROUTE.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-DONT-ROUTE</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-KEEP-ALIVE.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-KEEP-ALIVE</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-OOB-INLINE.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-OOB-INLINE</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-PASS-CREDENTIALS.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-PASS-CREDENTIALS</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-PRIORITY.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-PRIORITY</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-RECEIVE-BUFFER.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-RECEIVE-BUFFER</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-RECEIVE-LOW-WATER.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-RECEIVE-LOW-WATER</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-REUSE-ADDRESS.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-REUSE-ADDRESS</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-SEND-BUFFER.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-SEND-BUFFER</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-SEND-LOW-WATER.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-SEND-LOW-WATER</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-TCP-KEEPCNT.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-TCP-KEEPCNT</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-TCP-KEEPIDLE.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-TCP-KEEPIDLE</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-TCP-KEEPINTVL.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-TCP-KEEPINTVL</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-TCP-NODELAY.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-TCP-NODELAY</span></code></a></li>
+<li><a class="reference external" href="function/SOCKOPT-TYPE.html"><code class="docutils literal notranslate"><span class="pre">SOCKOPT-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/UNPARSE-INET6-ADDRESS.html"><code class="docutils literal notranslate"><span class="pre">UNPARSE-INET6-ADDRESS</span></code></a></li>
+<li><a class="reference external" href="function/UNSUPPORTED-SOCKET-OPTION.html"><code class="docutils literal notranslate"><span class="pre">UNSUPPORTED-SOCKET-OPTION</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="generic-function">
+<span id="generic-function"></span><h2>Generic-function<a class="headerlink" href="#generic-function" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="generic-function/BITS-OF-SOCKADDR.html"><code class="docutils literal notranslate"><span class="pre">BITS-OF-SOCKADDR</span></code></a></li>
+<li><a class="reference external" href="generic-function/FREE-SOCKADDR-FOR.html"><code class="docutils literal notranslate"><span class="pre">FREE-SOCKADDR-FOR</span></code></a></li>
+<li><a class="reference external" href="generic-function/HOST-ENT-ADDRESS-TYPE.html"><code class="docutils literal notranslate"><span class="pre">HOST-ENT-ADDRESS-TYPE</span></code></a></li>
+<li><a class="reference external" href="generic-function/HOST-ENT-ADDRESS.html"><code class="docutils literal notranslate"><span class="pre">HOST-ENT-ADDRESS</span></code></a></li>
+<li><a class="reference external" href="generic-function/HOST-ENT-ADDRESSES.html"><code class="docutils literal notranslate"><span class="pre">HOST-ENT-ADDRESSES</span></code></a></li>
+<li><a class="reference external" href="generic-function/HOST-ENT-ALIASES.html"><code class="docutils literal notranslate"><span class="pre">HOST-ENT-ALIASES</span></code></a></li>
+<li><a class="reference external" href="generic-function/HOST-ENT-NAME.html"><code class="docutils literal notranslate"><span class="pre">HOST-ENT-NAME</span></code></a></li>
+<li><a class="reference external" href="generic-function/MAKE-SOCKADDR-FOR.html"><code class="docutils literal notranslate"><span class="pre">MAKE-SOCKADDR-FOR</span></code></a></li>
+<li><a class="reference external" href="generic-function/NAME-SERVICE-ERROR-ERRNO-SYMBOL.html"><code class="docutils literal notranslate"><span class="pre">NAME-SERVICE-ERROR-ERRNO-SYMBOL</span></code></a></li>
+<li><a class="reference external" href="generic-function/NAME-SERVICE-ERROR-ERRNO.html"><code class="docutils literal notranslate"><span class="pre">NAME-SERVICE-ERROR-ERRNO</span></code></a></li>
+<li><a class="reference external" href="generic-function/NAME-SERVICE-ERROR-ERROR-CODE-SYMBOL.html"><code class="docutils literal notranslate"><span class="pre">NAME-SERVICE-ERROR-ERROR-CODE-SYMBOL</span></code></a></li>
+<li><a class="reference external" href="generic-function/NAME-SERVICE-ERROR-ERROR-CODE.html"><code class="docutils literal notranslate"><span class="pre">NAME-SERVICE-ERROR-ERROR-CODE</span></code></a></li>
+<li><a class="reference external" href="generic-function/NAME-SERVICE-ERROR-SYMBOL.html"><code class="docutils literal notranslate"><span class="pre">NAME-SERVICE-ERROR-SYMBOL</span></code></a></li>
+<li><a class="reference external" href="generic-function/NAME-SERVICE-ERROR-SYSCALL.html"><code class="docutils literal notranslate"><span class="pre">NAME-SERVICE-ERROR-SYSCALL</span></code></a></li>
+<li><a class="reference external" href="generic-function/NON-BLOCKING-MODE.html"><code class="docutils literal notranslate"><span class="pre">NON-BLOCKING-MODE</span></code></a></li>
+<li><a class="reference external" href="generic-function/SIZE-OF-SOCKADDR.html"><code class="docutils literal notranslate"><span class="pre">SIZE-OF-SOCKADDR</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-ACCEPT.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-ACCEPT</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-BIND.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-BIND</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-CLOSE.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-CLOSE</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-CONNECT.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-CONNECT</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-ERROR-ERRNO.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-ERROR-ERRNO</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-ERROR-SYMBOL.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-ERROR-SYMBOL</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-ERROR-SYSCALL.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-ERROR-SYSCALL</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-FAMILY.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-FAMILY</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-FILE-DESCRIPTOR.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-FILE-DESCRIPTOR</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-LISTEN.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-LISTEN</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-MAKE-STREAM.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-MAKE-STREAM</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-NAME.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-NAME</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-NAMESTRING.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-NAMESTRING</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-OPEN-P.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-OPEN-P</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-PEERNAME.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-PEERNAME</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-PEERSTRING.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-PEERSTRING</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-PROTOCOL.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-PROTOCOL</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-RECEIVE.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-RECEIVE</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-SEND.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-SEND</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-SHUTDOWN.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-SHUTDOWN</span></code></a></li>
+<li><a class="reference external" href="generic-function/SOCKET-TYPE.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-TYPE</span></code></a></li>
+<li><a class="reference external" href="generic-function/UNKNOWN-PROTOCOL-NAME.html"><code class="docutils literal notranslate"><span class="pre">UNKNOWN-PROTOCOL-NAME</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="macro">
+<span id="macro"></span><h2>Macro<a class="headerlink" href="#macro" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="macro/ADDRINFO-ERROR-CASE.html"><code class="docutils literal notranslate"><span class="pre">ADDRINFO-ERROR-CASE</span></code></a></li>
+<li><a class="reference external" href="macro/DEFINE-NAME-SERVICE-CONDITION.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-NAME-SERVICE-CONDITION</span></code></a></li>
+<li><a class="reference external" href="macro/DEFINE-SOCKET-CONDITION.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-SOCKET-CONDITION</span></code></a></li>
+<li><a class="reference external" href="macro/DEFINE-SOCKET-OPTION-BOOL.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-SOCKET-OPTION-BOOL</span></code></a></li>
+<li><a class="reference external" href="macro/DEFINE-SOCKET-OPTION-INT.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-SOCKET-OPTION-INT</span></code></a></li>
+<li><a class="reference external" href="macro/DEFINE-SOCKET-OPTION.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-SOCKET-OPTION</span></code></a></li>
+<li><a class="reference external" href="macro/SOCKET-ERROR-CASE.html"><code class="docutils literal notranslate"><span class="pre">SOCKET-ERROR-CASE</span></code></a></li>
+<li><a class="reference external" href="macro/SYSCALL-ERROR-CASE.html"><code class="docutils literal notranslate"><span class="pre">SYSCALL-ERROR-CASE</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-SOCKET-ADDR.html"><code class="docutils literal notranslate"><span class="pre">WITH-SOCKET-ADDR</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-SOCKET-FD-AND-ADDR.html"><code class="docutils literal notranslate"><span class="pre">WITH-SOCKET-FD-AND-ADDR</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-VECTOR-SAP.html"><code class="docutils literal notranslate"><span class="pre">WITH-VECTOR-SAP</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="variable">
+<span id="variable"></span><h2>Variable<a class="headerlink" href="#variable" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="variable/%2542%25CONDITIONS-FOR-ERRNO%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*CONDITIONS-FOR-ERRNO*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25CONDITIONS-FOR-NAME-SERVICE-ERRNO%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*CONDITIONS-FOR-NAME-SERVICE-ERRNO*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25CONDITIONS-FOR-NAME-SERVICE-ERROR-CODE%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*CONDITIONS-FOR-NAME-SERVICE-ERROR-CODE*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25NAME-SERVICE-ERRNO%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*NAME-SERVICE-ERRNO*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25PROTOCOLS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*PROTOCOLS*</span></code></a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, TANI Kojiro.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

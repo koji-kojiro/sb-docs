@@ -1,0 +1,438 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Package: SB-UNIX &mdash; sb-docs  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="sb-docs  documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> sb-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Package: SB-UNIX</a><ul>
+<li><a class="reference internal" href="#constant">Constant</a></li>
+<li><a class="reference internal" href="#function">Function</a></li>
+<li><a class="reference internal" href="#macro">Macro</a></li>
+<li><a class="reference internal" href="#variable">Variable</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">sb-docs</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Package: SB-UNIX</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/sb-unix/index.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="package-sb-unix">
+<span id="package-sb-unix"></span><h1>Package: SB-UNIX<a class="headerlink" href="#package-sb-unix" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>private: a wrapper layer for SBCL itself to use when talking
+with an underlying Unix-y operating system.
+This was a public package in CMU CL, but that was different.
+CMU CL’s UNIX package tried to provide a comprehensive,
+stable Unix interface suitable for the end user.
+This package only tries to implement what happens to be
+needed by the current implementation of SBCL, and makes
+no guarantees of interface stability.</div></blockquote>
+<hr class="docutils" />
+<div class="section" id="constant">
+<span id="constant"></span><h2>Constant<a class="headerlink" href="#constant" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="constant/CODESET.html"><code class="docutils literal notranslate"><span class="pre">CODESET</span></code></a></li>
+<li><a class="reference external" href="constant/EAGAIN.html"><code class="docutils literal notranslate"><span class="pre">EAGAIN</span></code></a></li>
+<li><a class="reference external" href="constant/EBADF.html"><code class="docutils literal notranslate"><span class="pre">EBADF</span></code></a></li>
+<li><a class="reference external" href="constant/EEXIST.html"><code class="docutils literal notranslate"><span class="pre">EEXIST</span></code></a></li>
+<li><a class="reference external" href="constant/EINTR.html"><code class="docutils literal notranslate"><span class="pre">EINTR</span></code></a></li>
+<li><a class="reference external" href="constant/EIO.html"><code class="docutils literal notranslate"><span class="pre">EIO</span></code></a></li>
+<li><a class="reference external" href="constant/ELOOP.html"><code class="docutils literal notranslate"><span class="pre">ELOOP</span></code></a></li>
+<li><a class="reference external" href="constant/ENOENT.html"><code class="docutils literal notranslate"><span class="pre">ENOENT</span></code></a></li>
+<li><a class="reference external" href="constant/ESPIPE.html"><code class="docutils literal notranslate"><span class="pre">ESPIPE</span></code></a></li>
+<li><a class="reference external" href="constant/EWOULDBLOCK.html"><code class="docutils literal notranslate"><span class="pre">EWOULDBLOCK</span></code></a></li>
+<li><a class="reference external" href="constant/FD-SETSIZE.html"><code class="docutils literal notranslate"><span class="pre">FD-SETSIZE</span></code></a></li>
+<li><a class="reference external" href="constant/FPE-FLTDIV.html"><code class="docutils literal notranslate"><span class="pre">FPE-FLTDIV</span></code></a></li>
+<li><a class="reference external" href="constant/FPE-FLTINV.html"><code class="docutils literal notranslate"><span class="pre">FPE-FLTINV</span></code></a></li>
+<li><a class="reference external" href="constant/FPE-FLTOVF.html"><code class="docutils literal notranslate"><span class="pre">FPE-FLTOVF</span></code></a></li>
+<li><a class="reference external" href="constant/FPE-FLTRES.html"><code class="docutils literal notranslate"><span class="pre">FPE-FLTRES</span></code></a></li>
+<li><a class="reference external" href="constant/FPE-FLTSUB.html"><code class="docutils literal notranslate"><span class="pre">FPE-FLTSUB</span></code></a></li>
+<li><a class="reference external" href="constant/FPE-FLTUND.html"><code class="docutils literal notranslate"><span class="pre">FPE-FLTUND</span></code></a></li>
+<li><a class="reference external" href="constant/FPE-INTDIV.html"><code class="docutils literal notranslate"><span class="pre">FPE-INTDIV</span></code></a></li>
+<li><a class="reference external" href="constant/FPE-INTOVF.html"><code class="docutils literal notranslate"><span class="pre">FPE-INTOVF</span></code></a></li>
+<li><a class="reference external" href="constant/F_OK.html"><code class="docutils literal notranslate"><span class="pre">F_OK</span></code></a></li>
+<li><a class="reference external" href="constant/ITIMER-PROF.html"><code class="docutils literal notranslate"><span class="pre">ITIMER-PROF</span></code></a></li>
+<li><a class="reference external" href="constant/ITIMER-REAL.html"><code class="docutils literal notranslate"><span class="pre">ITIMER-REAL</span></code></a></li>
+<li><a class="reference external" href="constant/ITIMER-VIRTUAL.html"><code class="docutils literal notranslate"><span class="pre">ITIMER-VIRTUAL</span></code></a></li>
+<li><a class="reference external" href="constant/L_INCR.html"><code class="docutils literal notranslate"><span class="pre">L_INCR</span></code></a></li>
+<li><a class="reference external" href="constant/L_SET.html"><code class="docutils literal notranslate"><span class="pre">L_SET</span></code></a></li>
+<li><a class="reference external" href="constant/L_XTND.html"><code class="docutils literal notranslate"><span class="pre">L_XTND</span></code></a></li>
+<li><a class="reference external" href="constant/MICRO-SECONDS-PER-INTERNAL-TIME-UNIT.html"><code class="docutils literal notranslate"><span class="pre">MICRO-SECONDS-PER-INTERNAL-TIME-UNIT</span></code></a></li>
+<li><a class="reference external" href="constant/O_ACCMODE.html"><code class="docutils literal notranslate"><span class="pre">O_ACCMODE</span></code></a></li>
+<li><a class="reference external" href="constant/O_APPEND.html"><code class="docutils literal notranslate"><span class="pre">O_APPEND</span></code></a></li>
+<li><a class="reference external" href="constant/O_CREAT.html"><code class="docutils literal notranslate"><span class="pre">O_CREAT</span></code></a></li>
+<li><a class="reference external" href="constant/O_EXCL.html"><code class="docutils literal notranslate"><span class="pre">O_EXCL</span></code></a></li>
+<li><a class="reference external" href="constant/O_LARGEFILE.html"><code class="docutils literal notranslate"><span class="pre">O_LARGEFILE</span></code></a></li>
+<li><a class="reference external" href="constant/O_NOCTTY.html"><code class="docutils literal notranslate"><span class="pre">O_NOCTTY</span></code></a></li>
+<li><a class="reference external" href="constant/O_RDONLY.html"><code class="docutils literal notranslate"><span class="pre">O_RDONLY</span></code></a></li>
+<li><a class="reference external" href="constant/O_RDWR.html"><code class="docutils literal notranslate"><span class="pre">O_RDWR</span></code></a></li>
+<li><a class="reference external" href="constant/O_TRUNC.html"><code class="docutils literal notranslate"><span class="pre">O_TRUNC</span></code></a></li>
+<li><a class="reference external" href="constant/O_WRONLY.html"><code class="docutils literal notranslate"><span class="pre">O_WRONLY</span></code></a></li>
+<li><a class="reference external" href="constant/POLLERR.html"><code class="docutils literal notranslate"><span class="pre">POLLERR</span></code></a></li>
+<li><a class="reference external" href="constant/POLLHUP.html"><code class="docutils literal notranslate"><span class="pre">POLLHUP</span></code></a></li>
+<li><a class="reference external" href="constant/POLLIN.html"><code class="docutils literal notranslate"><span class="pre">POLLIN</span></code></a></li>
+<li><a class="reference external" href="constant/POLLNVAL.html"><code class="docutils literal notranslate"><span class="pre">POLLNVAL</span></code></a></li>
+<li><a class="reference external" href="constant/POLLOUT.html"><code class="docutils literal notranslate"><span class="pre">POLLOUT</span></code></a></li>
+<li><a class="reference external" href="constant/POLLPRI.html"><code class="docutils literal notranslate"><span class="pre">POLLPRI</span></code></a></li>
+<li><a class="reference external" href="constant/RUSAGE_BOTH.html"><code class="docutils literal notranslate"><span class="pre">RUSAGE_BOTH</span></code></a></li>
+<li><a class="reference external" href="constant/RUSAGE_CHILDREN.html"><code class="docutils literal notranslate"><span class="pre">RUSAGE_CHILDREN</span></code></a></li>
+<li><a class="reference external" href="constant/RUSAGE_SELF.html"><code class="docutils literal notranslate"><span class="pre">RUSAGE_SELF</span></code></a></li>
+<li><a class="reference external" href="constant/R_OK.html"><code class="docutils literal notranslate"><span class="pre">R_OK</span></code></a></li>
+<li><a class="reference external" href="constant/S-IFBLK.html"><code class="docutils literal notranslate"><span class="pre">S-IFBLK</span></code></a></li>
+<li><a class="reference external" href="constant/S-IFCHR.html"><code class="docutils literal notranslate"><span class="pre">S-IFCHR</span></code></a></li>
+<li><a class="reference external" href="constant/S-IFDIR.html"><code class="docutils literal notranslate"><span class="pre">S-IFDIR</span></code></a></li>
+<li><a class="reference external" href="constant/S-IFIFO.html"><code class="docutils literal notranslate"><span class="pre">S-IFIFO</span></code></a></li>
+<li><a class="reference external" href="constant/S-IFLNK.html"><code class="docutils literal notranslate"><span class="pre">S-IFLNK</span></code></a></li>
+<li><a class="reference external" href="constant/S-IFMT.html"><code class="docutils literal notranslate"><span class="pre">S-IFMT</span></code></a></li>
+<li><a class="reference external" href="constant/S-IFREG.html"><code class="docutils literal notranslate"><span class="pre">S-IFREG</span></code></a></li>
+<li><a class="reference external" href="constant/S-IFSOCK.html"><code class="docutils literal notranslate"><span class="pre">S-IFSOCK</span></code></a></li>
+<li><a class="reference external" href="constant/SC-NPROCESSORS-ONLN.html"><code class="docutils literal notranslate"><span class="pre">SC-NPROCESSORS-ONLN</span></code></a></li>
+<li><a class="reference external" href="constant/SIG-DFL.html"><code class="docutils literal notranslate"><span class="pre">SIG-DFL</span></code></a></li>
+<li><a class="reference external" href="constant/SIG-IGN.html"><code class="docutils literal notranslate"><span class="pre">SIG-IGN</span></code></a></li>
+<li><a class="reference external" href="constant/SIGALRM.html"><code class="docutils literal notranslate"><span class="pre">SIGALRM</span></code></a></li>
+<li><a class="reference external" href="constant/SIGBUS.html"><code class="docutils literal notranslate"><span class="pre">SIGBUS</span></code></a></li>
+<li><a class="reference external" href="constant/SIGCHLD.html"><code class="docutils literal notranslate"><span class="pre">SIGCHLD</span></code></a></li>
+<li><a class="reference external" href="constant/SIGCONT.html"><code class="docutils literal notranslate"><span class="pre">SIGCONT</span></code></a></li>
+<li><a class="reference external" href="constant/SIGFPE.html"><code class="docutils literal notranslate"><span class="pre">SIGFPE</span></code></a></li>
+<li><a class="reference external" href="constant/SIGHUP.html"><code class="docutils literal notranslate"><span class="pre">SIGHUP</span></code></a></li>
+<li><a class="reference external" href="constant/SIGILL.html"><code class="docutils literal notranslate"><span class="pre">SIGILL</span></code></a></li>
+<li><a class="reference external" href="constant/SIGINT.html"><code class="docutils literal notranslate"><span class="pre">SIGINT</span></code></a></li>
+<li><a class="reference external" href="constant/SIGIO.html"><code class="docutils literal notranslate"><span class="pre">SIGIO</span></code></a></li>
+<li><a class="reference external" href="constant/SIGIOT.html"><code class="docutils literal notranslate"><span class="pre">SIGIOT</span></code></a></li>
+<li><a class="reference external" href="constant/SIGKILL.html"><code class="docutils literal notranslate"><span class="pre">SIGKILL</span></code></a></li>
+<li><a class="reference external" href="constant/SIGPIPE.html"><code class="docutils literal notranslate"><span class="pre">SIGPIPE</span></code></a></li>
+<li><a class="reference external" href="constant/SIGPROF.html"><code class="docutils literal notranslate"><span class="pre">SIGPROF</span></code></a></li>
+<li><a class="reference external" href="constant/SIGQUIT.html"><code class="docutils literal notranslate"><span class="pre">SIGQUIT</span></code></a></li>
+<li><a class="reference external" href="constant/SIGSEGV.html"><code class="docutils literal notranslate"><span class="pre">SIGSEGV</span></code></a></li>
+<li><a class="reference external" href="constant/SIGSTKFLT.html"><code class="docutils literal notranslate"><span class="pre">SIGSTKFLT</span></code></a></li>
+<li><a class="reference external" href="constant/SIGSTOP.html"><code class="docutils literal notranslate"><span class="pre">SIGSTOP</span></code></a></li>
+<li><a class="reference external" href="constant/SIGSYS.html"><code class="docutils literal notranslate"><span class="pre">SIGSYS</span></code></a></li>
+<li><a class="reference external" href="constant/SIGTERM.html"><code class="docutils literal notranslate"><span class="pre">SIGTERM</span></code></a></li>
+<li><a class="reference external" href="constant/SIGTRAP.html"><code class="docutils literal notranslate"><span class="pre">SIGTRAP</span></code></a></li>
+<li><a class="reference external" href="constant/SIGTSTP.html"><code class="docutils literal notranslate"><span class="pre">SIGTSTP</span></code></a></li>
+<li><a class="reference external" href="constant/SIGTTIN.html"><code class="docutils literal notranslate"><span class="pre">SIGTTIN</span></code></a></li>
+<li><a class="reference external" href="constant/SIGTTOU.html"><code class="docutils literal notranslate"><span class="pre">SIGTTOU</span></code></a></li>
+<li><a class="reference external" href="constant/SIGURG.html"><code class="docutils literal notranslate"><span class="pre">SIGURG</span></code></a></li>
+<li><a class="reference external" href="constant/SIGUSR1.html"><code class="docutils literal notranslate"><span class="pre">SIGUSR1</span></code></a></li>
+<li><a class="reference external" href="constant/SIGUSR2.html"><code class="docutils literal notranslate"><span class="pre">SIGUSR2</span></code></a></li>
+<li><a class="reference external" href="constant/SIGVTALRM.html"><code class="docutils literal notranslate"><span class="pre">SIGVTALRM</span></code></a></li>
+<li><a class="reference external" href="constant/SIGWINCH.html"><code class="docutils literal notranslate"><span class="pre">SIGWINCH</span></code></a></li>
+<li><a class="reference external" href="constant/SIGXCPU.html"><code class="docutils literal notranslate"><span class="pre">SIGXCPU</span></code></a></li>
+<li><a class="reference external" href="constant/SIGXFSZ.html"><code class="docutils literal notranslate"><span class="pre">SIGXFSZ</span></code></a></li>
+<li><a class="reference external" href="constant/TIOCGPGRP.html"><code class="docutils literal notranslate"><span class="pre">TIOCGPGRP</span></code></a></li>
+<li><a class="reference external" href="constant/TIOCGWINSZ.html"><code class="docutils literal notranslate"><span class="pre">TIOCGWINSZ</span></code></a></li>
+<li><a class="reference external" href="constant/TIOCSPGRP.html"><code class="docutils literal notranslate"><span class="pre">TIOCSPGRP</span></code></a></li>
+<li><a class="reference external" href="constant/TIOCSWINSZ.html"><code class="docutils literal notranslate"><span class="pre">TIOCSWINSZ</span></code></a></li>
+<li><a class="reference external" href="constant/WCONTINUED.html"><code class="docutils literal notranslate"><span class="pre">WCONTINUED</span></code></a></li>
+<li><a class="reference external" href="constant/WNOHANG.html"><code class="docutils literal notranslate"><span class="pre">WNOHANG</span></code></a></li>
+<li><a class="reference external" href="constant/WSTOPPED.html"><code class="docutils literal notranslate"><span class="pre">WSTOPPED</span></code></a></li>
+<li><a class="reference external" href="constant/WUNTRACED.html"><code class="docutils literal notranslate"><span class="pre">WUNTRACED</span></code></a></li>
+<li><a class="reference external" href="constant/W_OK.html"><code class="docutils literal notranslate"><span class="pre">W_OK</span></code></a></li>
+<li><a class="reference external" href="constant/X_OK.html"><code class="docutils literal notranslate"><span class="pre">X_OK</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="function">
+<span id="function"></span><h2>Function<a class="headerlink" href="#function" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="function/%2537%25CHECK-INTERRUPTS.html"><code class="docutils literal notranslate"><span class="pre">%CHECK-INTERRUPTS</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25EXTRACT-STAT-RESULTS.html"><code class="docutils literal notranslate"><span class="pre">%EXTRACT-STAT-RESULTS</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25UNBLOCK-DEFERRABLE-SIGNALS.html"><code class="docutils literal notranslate"><span class="pre">%UNBLOCK-DEFERRABLE-SIGNALS</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25UNBLOCK-GC-SIGNALS.html"><code class="docutils literal notranslate"><span class="pre">%UNBLOCK-GC-SIGNALS</span></code></a></li>
+<li><a class="reference external" href="function/FD-CLR.html"><code class="docutils literal notranslate"><span class="pre">FD-CLR</span></code></a></li>
+<li><a class="reference external" href="function/FD-ISSET.html"><code class="docutils literal notranslate"><span class="pre">FD-ISSET</span></code></a></li>
+<li><a class="reference external" href="function/FD-SET-TO-NUM.html"><code class="docutils literal notranslate"><span class="pre">FD-SET-TO-NUM</span></code></a></li>
+<li><a class="reference external" href="function/FD-SET.html"><code class="docutils literal notranslate"><span class="pre">FD-SET</span></code></a></li>
+<li><a class="reference external" href="function/FD-TYPE.html"><code class="docutils literal notranslate"><span class="pre">FD-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/FD-ZERO.html"><code class="docutils literal notranslate"><span class="pre">FD-ZERO</span></code></a></li>
+<li><a class="reference external" href="function/GET-TIMEZONE.html"><code class="docutils literal notranslate"><span class="pre">GET-TIMEZONE</span></code></a></li>
+<li><a class="reference external" href="function/INSTALL-HANDLER.html"><code class="docutils literal notranslate"><span class="pre">INSTALL-HANDLER</span></code></a></li>
+<li><a class="reference external" href="function/NANOSLEEP-DOUBLE.html"><code class="docutils literal notranslate"><span class="pre">NANOSLEEP-DOUBLE</span></code></a></li>
+<li><a class="reference external" href="function/NANOSLEEP-FLOAT.html"><code class="docutils literal notranslate"><span class="pre">NANOSLEEP-FLOAT</span></code></a></li>
+<li><a class="reference external" href="function/NANOSLEEP.html"><code class="docutils literal notranslate"><span class="pre">NANOSLEEP</span></code></a></li>
+<li><a class="reference external" href="function/NEWCHARSTAR-STRING.html"><code class="docutils literal notranslate"><span class="pre">NEWCHARSTAR-STRING</span></code></a></li>
+<li><a class="reference external" href="function/NOTE-DANGEROUS-WAIT.html"><code class="docutils literal notranslate"><span class="pre">NOTE-DANGEROUS-WAIT</span></code></a></li>
+<li><a class="reference external" href="function/NUM-TO-FD-SET.html"><code class="docutils literal notranslate"><span class="pre">NUM-TO-FD-SET</span></code></a></li>
+<li><a class="reference external" href="function/POSIX-GETCWD%2547%25.html"><code class="docutils literal notranslate"><span class="pre">POSIX-GETCWD/</span></code></a></li>
+<li><a class="reference external" href="function/POSIX-GETCWD.html"><code class="docutils literal notranslate"><span class="pre">POSIX-GETCWD</span></code></a></li>
+<li><a class="reference external" href="function/RECEIVE-PENDING-INTERRUPT.html"><code class="docutils literal notranslate"><span class="pre">RECEIVE-PENDING-INTERRUPT</span></code></a></li>
+<li><a class="reference external" href="function/SB-MKSTEMP.html"><code class="docutils literal notranslate"><span class="pre">SB-MKSTEMP</span></code></a></li>
+<li><a class="reference external" href="function/SIGALRM-HANDLER.html"><code class="docutils literal notranslate"><span class="pre">SIGALRM-HANDLER</span></code></a></li>
+<li><a class="reference external" href="function/SIGBUS-HANDLER.html"><code class="docutils literal notranslate"><span class="pre">SIGBUS-HANDLER</span></code></a></li>
+<li><a class="reference external" href="function/SIGCHLD-HANDLER.html"><code class="docutils literal notranslate"><span class="pre">SIGCHLD-HANDLER</span></code></a></li>
+<li><a class="reference external" href="function/SIGILL-HANDLER.html"><code class="docutils literal notranslate"><span class="pre">SIGILL-HANDLER</span></code></a></li>
+<li><a class="reference external" href="function/SIGINFO-CODE.html"><code class="docutils literal notranslate"><span class="pre">SIGINFO-CODE</span></code></a></li>
+<li><a class="reference external" href="function/SIGINT-HANDLER.html"><code class="docutils literal notranslate"><span class="pre">SIGINT-HANDLER</span></code></a></li>
+<li><a class="reference external" href="function/SIGPIPE-HANDLER.html"><code class="docutils literal notranslate"><span class="pre">SIGPIPE-HANDLER</span></code></a></li>
+<li><a class="reference external" href="function/SIGTERM-HANDLER.html"><code class="docutils literal notranslate"><span class="pre">SIGTERM-HANDLER</span></code></a></li>
+<li><a class="reference external" href="function/SYSTEM-REAL-TIME-VALUES.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-REAL-TIME-VALUES</span></code></a></li>
+<li><a class="reference external" href="function/UID-HOMEDIR.html"><code class="docutils literal notranslate"><span class="pre">UID-HOMEDIR</span></code></a></li>
+<li><a class="reference external" href="function/UID-USERNAME.html"><code class="docutils literal notranslate"><span class="pre">UID-USERNAME</span></code></a></li>
+<li><a class="reference external" href="function/UNBLOCK-DEFERRABLE-SIGNALS.html"><code class="docutils literal notranslate"><span class="pre">UNBLOCK-DEFERRABLE-SIGNALS</span></code></a></li>
+<li><a class="reference external" href="function/UNBLOCK-GC-SIGNALS.html"><code class="docutils literal notranslate"><span class="pre">UNBLOCK-GC-SIGNALS</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-ACCESS.html"><code class="docutils literal notranslate"><span class="pre">UNIX-ACCESS</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-CLOSE.html"><code class="docutils literal notranslate"><span class="pre">UNIX-CLOSE</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-CLOSEDIR.html"><code class="docutils literal notranslate"><span class="pre">UNIX-CLOSEDIR</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-DIRENT-NAME.html"><code class="docutils literal notranslate"><span class="pre">UNIX-DIRENT-NAME</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-DUP.html"><code class="docutils literal notranslate"><span class="pre">UNIX-DUP</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-EXIT.html"><code class="docutils literal notranslate"><span class="pre">UNIX-EXIT</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-FAST-GETRUSAGE.html"><code class="docutils literal notranslate"><span class="pre">UNIX-FAST-GETRUSAGE</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-FAST-SELECT.html"><code class="docutils literal notranslate"><span class="pre">UNIX-FAST-SELECT</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-FSTAT.html"><code class="docutils literal notranslate"><span class="pre">UNIX-FSTAT</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-GETHOSTNAME.html"><code class="docutils literal notranslate"><span class="pre">UNIX-GETHOSTNAME</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-GETITIMER.html"><code class="docutils literal notranslate"><span class="pre">UNIX-GETITIMER</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-GETPID.html"><code class="docutils literal notranslate"><span class="pre">UNIX-GETPID</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-GETRUSAGE.html"><code class="docutils literal notranslate"><span class="pre">UNIX-GETRUSAGE</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-GETTIMEOFDAY.html"><code class="docutils literal notranslate"><span class="pre">UNIX-GETTIMEOFDAY</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-GETUID.html"><code class="docutils literal notranslate"><span class="pre">UNIX-GETUID</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-IOCTL.html"><code class="docutils literal notranslate"><span class="pre">UNIX-IOCTL</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-ISATTY.html"><code class="docutils literal notranslate"><span class="pre">UNIX-ISATTY</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-KILL.html"><code class="docutils literal notranslate"><span class="pre">UNIX-KILL</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-KILLPG.html"><code class="docutils literal notranslate"><span class="pre">UNIX-KILLPG</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-LSEEK.html"><code class="docutils literal notranslate"><span class="pre">UNIX-LSEEK</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-LSTAT.html"><code class="docutils literal notranslate"><span class="pre">UNIX-LSTAT</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-MKDIR.html"><code class="docutils literal notranslate"><span class="pre">UNIX-MKDIR</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-OPEN.html"><code class="docutils literal notranslate"><span class="pre">UNIX-OPEN</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-OPENDIR.html"><code class="docutils literal notranslate"><span class="pre">UNIX-OPENDIR</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-PIPE.html"><code class="docutils literal notranslate"><span class="pre">UNIX-PIPE</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-POLL.html"><code class="docutils literal notranslate"><span class="pre">UNIX-POLL</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-READ.html"><code class="docutils literal notranslate"><span class="pre">UNIX-READ</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-READDIR.html"><code class="docutils literal notranslate"><span class="pre">UNIX-READDIR</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-READLINK.html"><code class="docutils literal notranslate"><span class="pre">UNIX-READLINK</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-REALPATH.html"><code class="docutils literal notranslate"><span class="pre">UNIX-REALPATH</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-RENAME.html"><code class="docutils literal notranslate"><span class="pre">UNIX-RENAME</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-SELECT.html"><code class="docutils literal notranslate"><span class="pre">UNIX-SELECT</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-SETITIMER.html"><code class="docutils literal notranslate"><span class="pre">UNIX-SETITIMER</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-SETSID.html"><code class="docutils literal notranslate"><span class="pre">UNIX-SETSID</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-SIMPLE-POLL.html"><code class="docutils literal notranslate"><span class="pre">UNIX-SIMPLE-POLL</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-STAT.html"><code class="docutils literal notranslate"><span class="pre">UNIX-STAT</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-UNLINK.html"><code class="docutils literal notranslate"><span class="pre">UNIX-UNLINK</span></code></a></li>
+<li><a class="reference external" href="function/UNIX-WRITE.html"><code class="docutils literal notranslate"><span class="pre">UNIX-WRITE</span></code></a></li>
+<li><a class="reference external" href="function/USER-HOMEDIR.html"><code class="docutils literal notranslate"><span class="pre">USER-HOMEDIR</span></code></a></li>
+<li><a class="reference external" href="function/WITH-DEFERRABLE-SIGNALS-UNBLOCKED.html"><code class="docutils literal notranslate"><span class="pre">WITH-DEFERRABLE-SIGNALS-UNBLOCKED</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="macro">
+<span id="macro"></span><h2>Macro<a class="headerlink" href="#macro" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="macro/INT-SYSCALL.html"><code class="docutils literal notranslate"><span class="pre">INT-SYSCALL</span></code></a></li>
+<li><a class="reference external" href="macro/NLX-PROTECT.html"><code class="docutils literal notranslate"><span class="pre">NLX-PROTECT</span></code></a></li>
+<li><a class="reference external" href="macro/SYSCALL%2542%25.html"><code class="docutils literal notranslate"><span class="pre">SYSCALL*</span></code></a></li>
+<li><a class="reference external" href="macro/SYSCALL.html"><code class="docutils literal notranslate"><span class="pre">SYSCALL</span></code></a></li>
+<li><a class="reference external" href="macro/VOID-SYSCALL.html"><code class="docutils literal notranslate"><span class="pre">VOID-SYSCALL</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-FD-SETSIZE.html"><code class="docutils literal notranslate"><span class="pre">WITH-FD-SETSIZE</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-RESTARTED-SYSCALL.html"><code class="docutils literal notranslate"><span class="pre">WITH-RESTARTED-SYSCALL</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="variable">
+<span id="variable"></span><h2>Variable<a class="headerlink" href="#variable" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="variable/%2542%25ON-DANGEROUS-WAIT%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ON-DANGEROUS-WAIT*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25UNBLOCK-DEFERRABLES-ON-ENABLING-INTERRUPTS-P%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*UNBLOCK-DEFERRABLES-ON-ENABLING-INTERRUPTS-P*</span></code></a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, TANI Kojiro.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

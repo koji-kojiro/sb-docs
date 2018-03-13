@@ -1,0 +1,279 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Function: COMMON-LISP:MAKE-HASH-TABLE &mdash; sb-docs  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="sb-docs  documentation" href="../../index.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> sb-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Function: COMMON-LISP:MAKE-HASH-TABLE</a><ul>
+<li><a class="reference internal" href="#lambda-list">Lambda list</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">sb-docs</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+      <li>Function: COMMON-LISP:MAKE-HASH-TABLE</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/common-lisp/function/MAKE-HASH-TABLE.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="function-common-lisp-make-hash-table">
+<span id="function-common-lisp-make-hash-table"></span><h1>Function: COMMON-LISP:MAKE-HASH-TABLE<a class="headerlink" href="#function-common-lisp-make-hash-table" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="../"><img alt="package" src="https://img.shields.io/badge/Package-COMMON--LISP-5f9ea0.svg?style=social&amp;colorA=999999" /></a> <a class="reference external" href="../#function"><img alt="type" src="https://img.shields.io/badge/Type-Function-5f9ea0.svg?style=social&amp;colorA=999999" /></a> <a class="reference external" href="http://www.lispworks.com/documentation/HyperSpec/Body/f_mk_has.htm"><img alt="clhs" src="https://img.shields.io/badge/CLHS-MAKE--HASH--TABLE-5f9ea0.svg?style=social&amp;colorA=999999" /></a> <a class="reference external" href="https://github.com/sbcl/sbcl/blob/master/src/code/target-hash-table.lisp/"><img alt="github" src="https://img.shields.io/badge/GitHub-View_the_source-5f9ea0.svg?style=social&amp;colorA=999999&amp;logo=github" /></a></p>
+<blockquote>
+<div><p>Create and return a new hash table. The keywords are as follows:</p>
+<p>:TEST
+Determines how keys are compared. Must a designator for one of the
+standard hash table tests, or a hash table test defined using
+SB-EXT:DEFINE-HASH-TABLE-TEST. Additionally, when an explicit
+HASH-FUNCTION is provided (see below), any two argument equivalence
+predicate can be used as the TEST.</p>
+<p>:SIZE
+A hint as to how many elements will be put in this hash table.</p>
+<p>:REHASH-SIZE
+Indicates how to expand the table when it fills up. If an integer, add
+space for that many elements. If a floating point number (which must be
+greater than 1.0), multiply the size by that amount.</p>
+<p>:REHASH-THRESHOLD
+Indicates how dense the table can become before forcing a rehash. Can be
+any positive number &lt;=1, with density approaching zero as the threshold
+approaches 0. Density 1 means an average of one entry per bucket.</p>
+<p>:HASH-FUNCTION
+If NIL (the default), a hash function based on the TEST argument is used,
+which then must be one of the standardized hash table test functions, or
+one for which a default hash function has been defined using
+SB-EXT:DEFINE-HASH-TABLE-TEST. If HASH-FUNCTION is specified, the TEST
+argument can be any two argument predicate consistent with it. The
+HASH-FUNCTION is expected to return a non-negative fixnum hash code.</p>
+<p>:WEAKNESS
+When :WEAKNESS is not NIL, garbage collection may remove entries from the
+hash table. The value of :WEAKNESS specifies how the presence of a key or
+value in the hash table preserves their entries from garbage collection.</p>
+<p>Valid values are:</p>
+<p>:KEY means that the key of an entry must be live to guarantee that the
+entry is preserved.</p>
+<p>:VALUE means that the value of an entry must be live to guarantee that
+the entry is preserved.</p>
+<p>:KEY-AND-VALUE means that both the key and the value must be live to
+guarantee that the entry is preserved.</p>
+<p>:KEY-OR-VALUE means that either the key or the value must be live to
+guarantee that the entry is preserved.</p>
+<p>NIL (the default) means that entries are always preserved.</p>
+<p>:SYNCHRONIZED
+If NIL (the default), the hash-table may have multiple concurrent readers,
+but results are undefined if a thread writes to the hash-table
+concurrently with another reader or writer. If T, all concurrent accesses
+are safe, but note that CLHS 3.6 (Traversal Rules and Side Effects)
+remains in force. See also: SB-EXT:WITH-LOCKED-HASH-TABLE. This keyword
+argument is experimental, and may change incompatibly or be removed in the
+future.</p>
+</div></blockquote>
+<div class="section" id="lambda-list">
+<span id="lambda-list"></span><h2>Lambda list<a class="headerlink" href="#lambda-list" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-cl notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="k">&amp;key</span> <span class="nv">sb-impl::test</span> <span class="nv">sb-impl::size</span> <span class="nv">sb-impl::rehash-size</span> <span class="nv">sb-impl::rehash-threshold</span>
+ <span class="nv">sb-impl::hash-function</span> <span class="nv">sb-impl::weakness</span> <span class="nv">sb-impl::synchronized</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, TANI Kojiro.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

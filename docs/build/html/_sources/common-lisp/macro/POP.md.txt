@@ -1,0 +1,10 @@
+## Macro: COMMON-LISP:POP
+[![package](https://img.shields.io/badge/Package-COMMON--LISP-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Macro-5f9ea0.svg?style=social&colorA=999999)](../#macro) [![clhs](https://img.shields.io/badge/CLHS-POP-5f9ea0.svg?style=social&colorA=999999)](http://www.lispworks.com/documentation/HyperSpec/Body/m_pop.htm) 
+
+> The argument is a location holding a list. Pops one item off the front
+> of the list and returns it.
+
+### Lambda list
+```cl
+(sb-impl::place)
+```

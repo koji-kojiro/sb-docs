@@ -1,0 +1,458 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Package: SB-REGALLOC &mdash; sb-docs  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="sb-docs  documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> sb-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Package: SB-REGALLOC</a><ul>
+<li><a class="reference internal" href="#constant">Constant</a></li>
+<li><a class="reference internal" href="#function">Function</a></li>
+<li><a class="reference internal" href="#macro">Macro</a></li>
+<li><a class="reference internal" href="#structure">Structure</a></li>
+<li><a class="reference internal" href="#variable">Variable</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">sb-docs</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Package: SB-REGALLOC</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/sb-regalloc/index.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="package-sb-regalloc">
+<span id="package-sb-regalloc"></span><h1>Package: SB-REGALLOC<a class="headerlink" href="#package-sb-regalloc" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>private: implementation of the compiler’s register allocator</div></blockquote>
+<hr class="docutils" />
+<div class="section" id="constant">
+<span id="constant"></span><h2>Constant<a class="headerlink" href="#constant" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="constant/LOCAL-TN-LIMIT.html"><code class="docutils literal notranslate"><span class="pre">LOCAL-TN-LIMIT</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="function">
+<span id="function"></span><h2>Function<a class="headerlink" href="#function" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="function/%2537%25CALL-WITH-TARGET-TNS.html"><code class="docutils literal notranslate"><span class="pre">%CALL-WITH-TARGET-TNS</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25MAKE-INTERFERENCE-GRAPH.html"><code class="docutils literal notranslate"><span class="pre">%MAKE-INTERFERENCE-GRAPH</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25MAKE-VERTEX.html"><code class="docutils literal notranslate"><span class="pre">%MAKE-VERTEX</span></code></a></li>
+<li><a class="reference external" href="function/ADD-LOCATION-CONFLICTS.html"><code class="docutils literal notranslate"><span class="pre">ADD-LOCATION-CONFLICTS</span></code></a></li>
+<li><a class="reference external" href="function/ASSIGN-TN-COSTS.html"><code class="docutils literal notranslate"><span class="pre">ASSIGN-TN-COSTS</span></code></a></li>
+<li><a class="reference external" href="function/ASSIGN-TN-DEPTHS.html"><code class="docutils literal notranslate"><span class="pre">ASSIGN-TN-DEPTHS</span></code></a></li>
+<li><a class="reference external" href="function/BASIC-SAVE-TN.html"><code class="docutils literal notranslate"><span class="pre">BASIC-SAVE-TN</span></code></a></li>
+<li><a class="reference external" href="function/BLOCK-GTNS.html"><code class="docutils literal notranslate"><span class="pre">BLOCK-GTNS</span></code></a></li>
+<li><a class="reference external" href="function/BLOCK-INFO.html"><code class="docutils literal notranslate"><span class="pre">BLOCK-INFO</span></code></a></li>
+<li><a class="reference external" href="function/BLOCK-LAST.html"><code class="docutils literal notranslate"><span class="pre">BLOCK-LAST</span></code></a></li>
+<li><a class="reference external" href="function/BLOCK-LOOP.html"><code class="docutils literal notranslate"><span class="pre">BLOCK-LOOP</span></code></a></li>
+<li><a class="reference external" href="function/BLOCK-NEXT.html"><code class="docutils literal notranslate"><span class="pre">BLOCK-NEXT</span></code></a></li>
+<li><a class="reference external" href="function/CHECK-OK-TARGET.html"><code class="docutils literal notranslate"><span class="pre">CHECK-OK-TARGET</span></code></a></li>
+<li><a class="reference external" href="function/CHECK-OPERAND-RESTRICTIONS.html"><code class="docutils literal notranslate"><span class="pre">CHECK-OPERAND-RESTRICTIONS</span></code></a></li>
+<li><a class="reference external" href="function/CLEAN-UP-PACK-STRUCTURES.html"><code class="docutils literal notranslate"><span class="pre">CLEAN-UP-PACK-STRUCTURES</span></code></a></li>
+<li><a class="reference external" href="function/COLOR-INTERFERENCE-GRAPH.html"><code class="docutils literal notranslate"><span class="pre">COLOR-INTERFERENCE-GRAPH</span></code></a></li>
+<li><a class="reference external" href="function/COLOR-NO-CONFLICTS-P.html"><code class="docutils literal notranslate"><span class="pre">COLOR-NO-CONFLICTS-P</span></code></a></li>
+<li><a class="reference external" href="function/COLOR-VERTEX.html"><code class="docutils literal notranslate"><span class="pre">COLOR-VERTEX</span></code></a></li>
+<li><a class="reference external" href="function/COMPONENT-HEAD.html"><code class="docutils literal notranslate"><span class="pre">COMPONENT-HEAD</span></code></a></li>
+<li><a class="reference external" href="function/COMPONENT-TAIL.html"><code class="docutils literal notranslate"><span class="pre">COMPONENT-TAIL</span></code></a></li>
+<li><a class="reference external" href="function/COMPUTE-LIVE-TNS.html"><code class="docutils literal notranslate"><span class="pre">COMPUTE-LIVE-TNS</span></code></a></li>
+<li><a class="reference external" href="function/CONFLICTS-IN-SC.html"><code class="docutils literal notranslate"><span class="pre">CONFLICTS-IN-SC</span></code></a></li>
+<li><a class="reference external" href="function/DELETE-VOP.html"><code class="docutils literal notranslate"><span class="pre">DELETE-VOP</span></code></a></li>
+<li><a class="reference external" href="function/DESCRIBE-TN-USE.html"><code class="docutils literal notranslate"><span class="pre">DESCRIBE-TN-USE</span></code></a></li>
+<li><a class="reference external" href="function/EMIT-LOAD-TEMPLATE.html"><code class="docutils literal notranslate"><span class="pre">EMIT-LOAD-TEMPLATE</span></code></a></li>
+<li><a class="reference external" href="function/EMIT-OPERAND-LOAD.html"><code class="docutils literal notranslate"><span class="pre">EMIT-OPERAND-LOAD</span></code></a></li>
+<li><a class="reference external" href="function/EMIT-SAVES.html"><code class="docutils literal notranslate"><span class="pre">EMIT-SAVES</span></code></a></li>
+<li><a class="reference external" href="function/FAILED-TO-PACK-ERROR.html"><code class="docutils literal notranslate"><span class="pre">FAILED-TO-PACK-ERROR</span></code></a></li>
+<li><a class="reference external" href="function/FAILED-TO-PACK-LOAD-TN-ERROR.html"><code class="docutils literal notranslate"><span class="pre">FAILED-TO-PACK-LOAD-TN-ERROR</span></code></a></li>
+<li><a class="reference external" href="function/FIND-IN.html"><code class="docutils literal notranslate"><span class="pre">FIND-IN</span></code></a></li>
+<li><a class="reference external" href="function/FIND-LOAD-TN-TARGET.html"><code class="docutils literal notranslate"><span class="pre">FIND-LOAD-TN-TARGET</span></code></a></li>
+<li><a class="reference external" href="function/FIND-LOCATION-USAGE.html"><code class="docutils literal notranslate"><span class="pre">FIND-LOCATION-USAGE</span></code></a></li>
+<li><a class="reference external" href="function/FIND-OK-TARGET-OFFSET.html"><code class="docutils literal notranslate"><span class="pre">FIND-OK-TARGET-OFFSET</span></code></a></li>
+<li><a class="reference external" href="function/FIND-SINGLE-WRITER.html"><code class="docutils literal notranslate"><span class="pre">FIND-SINGLE-WRITER</span></code></a></li>
+<li><a class="reference external" href="function/FIND-VERTEX-COLOR.html"><code class="docutils literal notranslate"><span class="pre">FIND-VERTEX-COLOR</span></code></a></li>
+<li><a class="reference external" href="function/FINITE-SB-SIZE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">FINITE-SB-SIZE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/FINITE-SB-SIZE-INCREMENT.html"><code class="docutils literal notranslate"><span class="pre">FINITE-SB-SIZE-INCREMENT</span></code></a></li>
+<li><a class="reference external" href="function/GET-OPERAND-INFO.html"><code class="docutils literal notranslate"><span class="pre">GET-OPERAND-INFO</span></code></a></li>
+<li><a class="reference external" href="function/GLOBAL-CONFLICTS-BLOCK.html"><code class="docutils literal notranslate"><span class="pre">GLOBAL-CONFLICTS-BLOCK</span></code></a></li>
+<li><a class="reference external" href="function/GLOBAL-CONFLICTS-CONFLICTS.html"><code class="docutils literal notranslate"><span class="pre">GLOBAL-CONFLICTS-CONFLICTS</span></code></a></li>
+<li><a class="reference external" href="function/GLOBAL-CONFLICTS-KIND.html"><code class="docutils literal notranslate"><span class="pre">GLOBAL-CONFLICTS-KIND</span></code></a></li>
+<li><a class="reference external" href="function/GLOBAL-CONFLICTS-NEXT-BLOCKWISE.html"><code class="docutils literal notranslate"><span class="pre">GLOBAL-CONFLICTS-NEXT-BLOCKWISE</span></code></a></li>
+<li><a class="reference external" href="function/GLOBAL-CONFLICTS-NEXT-TNWISE.html"><code class="docutils literal notranslate"><span class="pre">GLOBAL-CONFLICTS-NEXT-TNWISE</span></code></a></li>
+<li><a class="reference external" href="function/GLOBAL-CONFLICTS-NUMBER.html"><code class="docutils literal notranslate"><span class="pre">GLOBAL-CONFLICTS-NUMBER</span></code></a></li>
+<li><a class="reference external" href="function/GLOBAL-CONFLICTS-TN.html"><code class="docutils literal notranslate"><span class="pre">GLOBAL-CONFLICTS-TN</span></code></a></li>
+<li><a class="reference external" href="function/GROW-SC.html"><code class="docutils literal notranslate"><span class="pre">GROW-SC</span></code></a></li>
+<li><a class="reference external" href="function/IG-PRECOLORED-VERTICES.html"><code class="docutils literal notranslate"><span class="pre">IG-PRECOLORED-VERTICES</span></code></a></li>
+<li><a class="reference external" href="function/IG-TN-VERTEX-MAPPING.html"><code class="docutils literal notranslate"><span class="pre">IG-TN-VERTEX-MAPPING</span></code></a></li>
+<li><a class="reference external" href="function/IG-VERTICES.html"><code class="docutils literal notranslate"><span class="pre">IG-VERTICES</span></code></a></li>
+<li><a class="reference external" href="function/INIT-LIVE-TNS.html"><code class="docutils literal notranslate"><span class="pre">INIT-LIVE-TNS</span></code></a></li>
+<li><a class="reference external" href="function/INIT-SB-VECTORS.html"><code class="docutils literal notranslate"><span class="pre">INIT-SB-VECTORS</span></code></a></li>
+<li><a class="reference external" href="function/INSERT-BLOCK-LOCAL-CONFLICTS-FOR.html"><code class="docutils literal notranslate"><span class="pre">INSERT-BLOCK-LOCAL-CONFLICTS-FOR</span></code></a></li>
+<li><a class="reference external" href="function/INSERT-BLOCK-LOCAL-CONFLICTS.html"><code class="docutils literal notranslate"><span class="pre">INSERT-BLOCK-LOCAL-CONFLICTS</span></code></a></li>
+<li><a class="reference external" href="function/INSERT-CONFLICT-EDGES.html"><code class="docutils literal notranslate"><span class="pre">INSERT-CONFLICT-EDGES</span></code></a></li>
+<li><a class="reference external" href="function/INSERT-ONE-EDGE.html"><code class="docutils literal notranslate"><span class="pre">INSERT-ONE-EDGE</span></code></a></li>
+<li><a class="reference external" href="function/INTERFERENCE-GRAPH-P.html"><code class="docutils literal notranslate"><span class="pre">INTERFERENCE-GRAPH-P</span></code></a></li>
+<li><a class="reference external" href="function/IR2-BLOCK-COUNT.html"><code class="docutils literal notranslate"><span class="pre">IR2-BLOCK-COUNT</span></code></a></li>
+<li><a class="reference external" href="function/IR2-BLOCK-GLOBAL-TNS.html"><code class="docutils literal notranslate"><span class="pre">IR2-BLOCK-GLOBAL-TNS</span></code></a></li>
+<li><a class="reference external" href="function/IR2-BLOCK-LAST-VOP.html"><code class="docutils literal notranslate"><span class="pre">IR2-BLOCK-LAST-VOP</span></code></a></li>
+<li><a class="reference external" href="function/IR2-BLOCK-LIVE-IN.html"><code class="docutils literal notranslate"><span class="pre">IR2-BLOCK-LIVE-IN</span></code></a></li>
+<li><a class="reference external" href="function/IR2-BLOCK-LOCAL-TN-COUNT.html"><code class="docutils literal notranslate"><span class="pre">IR2-BLOCK-LOCAL-TN-COUNT</span></code></a></li>
+<li><a class="reference external" href="function/IR2-BLOCK-LOCAL-TNS.html"><code class="docutils literal notranslate"><span class="pre">IR2-BLOCK-LOCAL-TNS</span></code></a></li>
+<li><a class="reference external" href="function/IR2-BLOCK-NEXT.html"><code class="docutils literal notranslate"><span class="pre">IR2-BLOCK-NEXT</span></code></a></li>
+<li><a class="reference external" href="function/IR2-BLOCK-NUMBER.html"><code class="docutils literal notranslate"><span class="pre">IR2-BLOCK-NUMBER</span></code></a></li>
+<li><a class="reference external" href="function/IR2-BLOCK-PREV.html"><code class="docutils literal notranslate"><span class="pre">IR2-BLOCK-PREV</span></code></a></li>
+<li><a class="reference external" href="function/IR2-BLOCK-START-VOP.html"><code class="docutils literal notranslate"><span class="pre">IR2-BLOCK-START-VOP</span></code></a></li>
+<li><a class="reference external" href="function/IR2-COMPONENT-GLOBAL-TN-COUNTER.html"><code class="docutils literal notranslate"><span class="pre">IR2-COMPONENT-GLOBAL-TN-COUNTER</span></code></a></li>
+<li><a class="reference external" href="function/IR2-COMPONENT-NORMAL-TNS.html"><code class="docutils literal notranslate"><span class="pre">IR2-COMPONENT-NORMAL-TNS</span></code></a></li>
+<li><a class="reference external" href="function/IR2-COMPONENT-RESTRICTED-TNS.html"><code class="docutils literal notranslate"><span class="pre">IR2-COMPONENT-RESTRICTED-TNS</span></code></a></li>
+<li><a class="reference external" href="function/IR2-COMPONENT-SPILLED-TNS.html"><code class="docutils literal notranslate"><span class="pre">IR2-COMPONENT-SPILLED-TNS</span></code></a></li>
+<li><a class="reference external" href="function/IR2-COMPONENT-SPILLED-VOPS.html"><code class="docutils literal notranslate"><span class="pre">IR2-COMPONENT-SPILLED-VOPS</span></code></a></li>
+<li><a class="reference external" href="function/IR2-COMPONENT-WIRED-TNS.html"><code class="docutils literal notranslate"><span class="pre">IR2-COMPONENT-WIRED-TNS</span></code></a></li>
+<li><a class="reference external" href="function/ITERATE-COLOR.html"><code class="docutils literal notranslate"><span class="pre">ITERATE-COLOR</span></code></a></li>
+<li><a class="reference external" href="function/LAMBDA-PARENT.html"><code class="docutils literal notranslate"><span class="pre">LAMBDA-PARENT</span></code></a></li>
+<li><a class="reference external" href="function/LEXENV-LAMBDA.html"><code class="docutils literal notranslate"><span class="pre">LEXENV-LAMBDA</span></code></a></li>
+<li><a class="reference external" href="function/LISTIFY-RESTRICTIONS.html"><code class="docutils literal notranslate"><span class="pre">LISTIFY-RESTRICTIONS</span></code></a></li>
+<li><a class="reference external" href="function/LOAD-TN-CONFLICTS-IN-SC.html"><code class="docutils literal notranslate"><span class="pre">LOAD-TN-CONFLICTS-IN-SC</span></code></a></li>
+<li><a class="reference external" href="function/LOAD-TN-OFFSET-CONFLICTS-IN-SB.html"><code class="docutils literal notranslate"><span class="pre">LOAD-TN-OFFSET-CONFLICTS-IN-SB</span></code></a></li>
+<li><a class="reference external" href="function/LOOP-DEPTH.html"><code class="docutils literal notranslate"><span class="pre">LOOP-DEPTH</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-INTERFERENCE-GRAPH.html"><code class="docutils literal notranslate"><span class="pre">MAKE-INTERFERENCE-GRAPH</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-TN.html"><code class="docutils literal notranslate"><span class="pre">MAKE-TN</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-VERTEX.html"><code class="docutils literal notranslate"><span class="pre">MAKE-VERTEX</span></code></a></li>
+<li><a class="reference external" href="function/NO-LOAD-FUN-ERROR.html"><code class="docutils literal notranslate"><span class="pre">NO-LOAD-FUN-ERROR</span></code></a></li>
+<li><a class="reference external" href="function/NO-LOAD-SCS-ALLOWED-BY-PRIMITIVE-TYPE-ERROR.html"><code class="docutils literal notranslate"><span class="pre">NO-LOAD-SCS-ALLOWED-BY-PRIMITIVE-TYPE-ERROR</span></code></a></li>
+<li><a class="reference external" href="function/NODE-LEXENV.html"><code class="docutils literal notranslate"><span class="pre">NODE-LEXENV</span></code></a></li>
+<li><a class="reference external" href="function/NOTE-SPILLED-TN.html"><code class="docutils literal notranslate"><span class="pre">NOTE-SPILLED-TN</span></code></a></li>
+<li><a class="reference external" href="function/OPERAND-PARSE-NAME.html"><code class="docutils literal notranslate"><span class="pre">OPERAND-PARSE-NAME</span></code></a></li>
+<li><a class="reference external" href="function/OPTIMIZED-EMIT-SAVES-BLOCK.html"><code class="docutils literal notranslate"><span class="pre">OPTIMIZED-EMIT-SAVES-BLOCK</span></code></a></li>
+<li><a class="reference external" href="function/OPTIMIZED-EMIT-SAVES.html"><code class="docutils literal notranslate"><span class="pre">OPTIMIZED-EMIT-SAVES</span></code></a></li>
+<li><a class="reference external" href="function/ORIGINAL-TN.html"><code class="docutils literal notranslate"><span class="pre">ORIGINAL-TN</span></code></a></li>
+<li><a class="reference external" href="function/PACK-COLORED.html"><code class="docutils literal notranslate"><span class="pre">PACK-COLORED</span></code></a></li>
+<li><a class="reference external" href="function/PACK-GREEDY.html"><code class="docutils literal notranslate"><span class="pre">PACK-GREEDY</span></code></a></li>
+<li><a class="reference external" href="function/PACK-ITERATIVE.html"><code class="docutils literal notranslate"><span class="pre">PACK-ITERATIVE</span></code></a></li>
+<li><a class="reference external" href="function/PACK-LOAD-TN.html"><code class="docutils literal notranslate"><span class="pre">PACK-LOAD-TN</span></code></a></li>
+<li><a class="reference external" href="function/PACK-LOAD-TNS.html"><code class="docutils literal notranslate"><span class="pre">PACK-LOAD-TNS</span></code></a></li>
+<li><a class="reference external" href="function/PACK-SAVE-TN.html"><code class="docutils literal notranslate"><span class="pre">PACK-SAVE-TN</span></code></a></li>
+<li><a class="reference external" href="function/PACK-TN.html"><code class="docutils literal notranslate"><span class="pre">PACK-TN</span></code></a></li>
+<li><a class="reference external" href="function/PACK-WIRED-TN.html"><code class="docutils literal notranslate"><span class="pre">PACK-WIRED-TN</span></code></a></li>
+<li><a class="reference external" href="function/PACK.html"><code class="docutils literal notranslate"><span class="pre">PACK</span></code></a></li>
+<li><a class="reference external" href="function/PARTITION-AND-ORDER-VERTICES.html"><code class="docutils literal notranslate"><span class="pre">PARTITION-AND-ORDER-VERTICES</span></code></a></li>
+<li><a class="reference external" href="function/PREPARE-VERTICES.html"><code class="docutils literal notranslate"><span class="pre">PREPARE-VERTICES</span></code></a></li>
+<li><a class="reference external" href="function/PRIMITIVE-TYPE-SCS.html"><code class="docutils literal notranslate"><span class="pre">PRIMITIVE-TYPE-SCS</span></code></a></li>
+<li><a class="reference external" href="function/PRINT-TN-GUTS.html"><code class="docutils literal notranslate"><span class="pre">PRINT-TN-GUTS</span></code></a></li>
+<li><a class="reference external" href="function/RESET-INTERFERENCE-GRAPH-WITHOUT-VERTEX.html"><code class="docutils literal notranslate"><span class="pre">RESET-INTERFERENCE-GRAPH-WITHOUT-VERTEX</span></code></a></li>
+<li><a class="reference external" href="function/RESTORE-SINGLE-WRITER-TN.html"><code class="docutils literal notranslate"><span class="pre">RESTORE-SINGLE-WRITER-TN</span></code></a></li>
+<li><a class="reference external" href="function/RESTORE-TN.html"><code class="docutils literal notranslate"><span class="pre">RESTORE-TN</span></code></a></li>
+<li><a class="reference external" href="function/RESTRICTED-TN-LOCATIONS.html"><code class="docutils literal notranslate"><span class="pre">RESTRICTED-TN-LOCATIONS</span></code></a></li>
+<li><a class="reference external" href="function/REVERSE-FIND-VOP.html"><code class="docutils literal notranslate"><span class="pre">REVERSE-FIND-VOP</span></code></a></li>
+<li><a class="reference external" href="function/SAVE-COMPLEX-WRITER-TN.html"><code class="docutils literal notranslate"><span class="pre">SAVE-COMPLEX-WRITER-TN</span></code></a></li>
+<li><a class="reference external" href="function/SAVE-IF-NECESSARY.html"><code class="docutils literal notranslate"><span class="pre">SAVE-IF-NECESSARY</span></code></a></li>
+<li><a class="reference external" href="function/SAVE-SINGLE-WRITER-TN.html"><code class="docutils literal notranslate"><span class="pre">SAVE-SINGLE-WRITER-TN</span></code></a></li>
+<li><a class="reference external" href="function/SB-KIND.html"><code class="docutils literal notranslate"><span class="pre">SB-KIND</span></code></a></li>
+<li><a class="reference external" href="function/SB-SIZE.html"><code class="docutils literal notranslate"><span class="pre">SB-SIZE</span></code></a></li>
+<li><a class="reference external" href="function/SC-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">SC-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/SC-ALLOWED-BY-PRIMITIVE-TYPE.html"><code class="docutils literal notranslate"><span class="pre">SC-ALLOWED-BY-PRIMITIVE-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/SC-ALTERNATE-SCS.html"><code class="docutils literal notranslate"><span class="pre">SC-ALTERNATE-SCS</span></code></a></li>
+<li><a class="reference external" href="function/SC-CONSTANT-SCS.html"><code class="docutils literal notranslate"><span class="pre">SC-CONSTANT-SCS</span></code></a></li>
+<li><a class="reference external" href="function/SC-ELEMENT-SIZE.html"><code class="docutils literal notranslate"><span class="pre">SC-ELEMENT-SIZE</span></code></a></li>
+<li><a class="reference external" href="function/SC-LOCATIONS.html"><code class="docutils literal notranslate"><span class="pre">SC-LOCATIONS</span></code></a></li>
+<li><a class="reference external" href="function/SC-MOVE-FUNS.html"><code class="docutils literal notranslate"><span class="pre">SC-MOVE-FUNS</span></code></a></li>
+<li><a class="reference external" href="function/SC-RESERVE-LOCATIONS.html"><code class="docutils literal notranslate"><span class="pre">SC-RESERVE-LOCATIONS</span></code></a></li>
+<li><a class="reference external" href="function/SC-SAVE-P.html"><code class="docutils literal notranslate"><span class="pre">SC-SAVE-P</span></code></a></li>
+<li><a class="reference external" href="function/SELECT-LOAD-TN-LOCATION.html"><code class="docutils literal notranslate"><span class="pre">SELECT-LOAD-TN-LOCATION</span></code></a></li>
+<li><a class="reference external" href="function/SELECT-LOCATION.html"><code class="docutils literal notranslate"><span class="pre">SELECT-LOCATION</span></code></a></li>
+<li><a class="reference external" href="function/TARGET-IF-DESIRABLE.html"><code class="docutils literal notranslate"><span class="pre">TARGET-IF-DESIRABLE</span></code></a></li>
+<li><a class="reference external" href="function/TEMPLATE-NAME.html"><code class="docutils literal notranslate"><span class="pre">TEMPLATE-NAME</span></code></a></li>
+<li><a class="reference external" href="function/TN-COST.html"><code class="docutils literal notranslate"><span class="pre">TN-COST</span></code></a></li>
+<li><a class="reference external" href="function/TN-GLOBAL-CONFLICTS.html"><code class="docutils literal notranslate"><span class="pre">TN-GLOBAL-CONFLICTS</span></code></a></li>
+<li><a class="reference external" href="function/TN-KIND.html"><code class="docutils literal notranslate"><span class="pre">TN-KIND</span></code></a></li>
+<li><a class="reference external" href="function/TN-LEAF.html"><code class="docutils literal notranslate"><span class="pre">TN-LEAF</span></code></a></li>
+<li><a class="reference external" href="function/TN-LEXICAL-DEPTH.html"><code class="docutils literal notranslate"><span class="pre">TN-LEXICAL-DEPTH</span></code></a></li>
+<li><a class="reference external" href="function/TN-LOCAL-CONFLICTS.html"><code class="docutils literal notranslate"><span class="pre">TN-LOCAL-CONFLICTS</span></code></a></li>
+<li><a class="reference external" href="function/TN-LOCAL-NUMBER.html"><code class="docutils literal notranslate"><span class="pre">TN-LOCAL-NUMBER</span></code></a></li>
+<li><a class="reference external" href="function/TN-LOCAL.html"><code class="docutils literal notranslate"><span class="pre">TN-LOCAL</span></code></a></li>
+<li><a class="reference external" href="function/TN-LOOP-DEPTH.html"><code class="docutils literal notranslate"><span class="pre">TN-LOOP-DEPTH</span></code></a></li>
+<li><a class="reference external" href="function/TN-NEXT.html"><code class="docutils literal notranslate"><span class="pre">TN-NEXT</span></code></a></li>
+<li><a class="reference external" href="function/TN-NUMBER.html"><code class="docutils literal notranslate"><span class="pre">TN-NUMBER</span></code></a></li>
+<li><a class="reference external" href="function/TN-PRIMITIVE-TYPE.html"><code class="docutils literal notranslate"><span class="pre">TN-PRIMITIVE-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/TN-READS.html"><code class="docutils literal notranslate"><span class="pre">TN-READS</span></code></a></li>
+<li><a class="reference external" href="function/TN-SAVE-TN.html"><code class="docutils literal notranslate"><span class="pre">TN-SAVE-TN</span></code></a></li>
+<li><a class="reference external" href="function/TN-WRITES.html"><code class="docutils literal notranslate"><span class="pre">TN-WRITES</span></code></a></li>
+<li><a class="reference external" href="function/UNBOUNDED-SC-P.html"><code class="docutils literal notranslate"><span class="pre">UNBOUNDED-SC-P</span></code></a></li>
+<li><a class="reference external" href="function/UNBOUNDED-TN-P.html"><code class="docutils literal notranslate"><span class="pre">UNBOUNDED-TN-P</span></code></a></li>
+<li><a class="reference external" href="function/UNPACK-FOR-LOAD-TN.html"><code class="docutils literal notranslate"><span class="pre">UNPACK-FOR-LOAD-TN</span></code></a></li>
+<li><a class="reference external" href="function/UNPACK-TN.html"><code class="docutils literal notranslate"><span class="pre">UNPACK-TN</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-COLOR-POSSIBLE-P.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-COLOR-POSSIBLE-P</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-COLOR.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-COLOR</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-DOMAIN.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-DOMAIN</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-ELEMENT-SIZE.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-ELEMENT-SIZE</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-FULL-INCIDENCE.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-FULL-INCIDENCE</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-INCIDENCE-COUNT.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-INCIDENCE-COUNT</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-INCIDENCE.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-INCIDENCE</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-INITIAL-DOMAIN-SIZE.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-INITIAL-DOMAIN-SIZE</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-INITIAL-DOMAIN.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-INITIAL-DOMAIN</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-NUMBER.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-NUMBER</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-P.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-P</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-PACK-TYPE.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-PACK-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-SC.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-SC</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-SPILL-COST.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-SPILL-COST</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-TARGET-VERTICES.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-TARGET-VERTICES</span></code></a></li>
+<li><a class="reference external" href="function/VERTEX-TN.html"><code class="docutils literal notranslate"><span class="pre">VERTEX-TN</span></code></a></li>
+<li><a class="reference external" href="function/VERTICES-BEST-COLOR%2547%25GENERAL.html"><code class="docutils literal notranslate"><span class="pre">VERTICES-BEST-COLOR/GENERAL</span></code></a></li>
+<li><a class="reference external" href="function/VERTICES-BEST-COLOR%2547%25SINGLE-COLOR.html"><code class="docutils literal notranslate"><span class="pre">VERTICES-BEST-COLOR/SINGLE-COLOR</span></code></a></li>
+<li><a class="reference external" href="function/VERTICES-BEST-COLOR%2547%25SINGLE-VERTEX.html"><code class="docutils literal notranslate"><span class="pre">VERTICES-BEST-COLOR/SINGLE-VERTEX</span></code></a></li>
+<li><a class="reference external" href="function/VERTICES-BEST-COLOR.html"><code class="docutils literal notranslate"><span class="pre">VERTICES-BEST-COLOR</span></code></a></li>
+<li><a class="reference external" href="function/VOP-ARGS.html"><code class="docutils literal notranslate"><span class="pre">VOP-ARGS</span></code></a></li>
+<li><a class="reference external" href="function/VOP-INFO-ARG-LOAD-SCS.html"><code class="docutils literal notranslate"><span class="pre">VOP-INFO-ARG-LOAD-SCS</span></code></a></li>
+<li><a class="reference external" href="function/VOP-INFO-MOVE-ARGS.html"><code class="docutils literal notranslate"><span class="pre">VOP-INFO-MOVE-ARGS</span></code></a></li>
+<li><a class="reference external" href="function/VOP-INFO-NAME.html"><code class="docutils literal notranslate"><span class="pre">VOP-INFO-NAME</span></code></a></li>
+<li><a class="reference external" href="function/VOP-INFO-RESULT-LOAD-SCS.html"><code class="docutils literal notranslate"><span class="pre">VOP-INFO-RESULT-LOAD-SCS</span></code></a></li>
+<li><a class="reference external" href="function/VOP-INFO-SAVE-P.html"><code class="docutils literal notranslate"><span class="pre">VOP-INFO-SAVE-P</span></code></a></li>
+<li><a class="reference external" href="function/VOP-INFO.html"><code class="docutils literal notranslate"><span class="pre">VOP-INFO</span></code></a></li>
+<li><a class="reference external" href="function/VOP-NEXT.html"><code class="docutils literal notranslate"><span class="pre">VOP-NEXT</span></code></a></li>
+<li><a class="reference external" href="function/VOP-NODE.html"><code class="docutils literal notranslate"><span class="pre">VOP-NODE</span></code></a></li>
+<li><a class="reference external" href="function/VOP-PARSE-OR-LOSE.html"><code class="docutils literal notranslate"><span class="pre">VOP-PARSE-OR-LOSE</span></code></a></li>
+<li><a class="reference external" href="function/VOP-PARSE-TEMPS.html"><code class="docutils literal notranslate"><span class="pre">VOP-PARSE-TEMPS</span></code></a></li>
+<li><a class="reference external" href="function/VOP-PREV.html"><code class="docutils literal notranslate"><span class="pre">VOP-PREV</span></code></a></li>
+<li><a class="reference external" href="function/VOP-REFS.html"><code class="docutils literal notranslate"><span class="pre">VOP-REFS</span></code></a></li>
+<li><a class="reference external" href="function/VOP-RESULTS.html"><code class="docutils literal notranslate"><span class="pre">VOP-RESULTS</span></code></a></li>
+<li><a class="reference external" href="function/VOP-SAVE-SET.html"><code class="docutils literal notranslate"><span class="pre">VOP-SAVE-SET</span></code></a></li>
+<li><a class="reference external" href="function/VOP-TEMPS.html"><code class="docutils literal notranslate"><span class="pre">VOP-TEMPS</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="macro">
+<span id="macro"></span><h2>Macro<a class="headerlink" href="#macro" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="macro/DO-TARGET-TNS.html"><code class="docutils literal notranslate"><span class="pre">DO-TARGET-TNS</span></code></a></li>
+<li><a class="reference external" href="macro/VOP.html"><code class="docutils literal notranslate"><span class="pre">VOP</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="structure">
+<span id="structure"></span><h2>Structure<a class="headerlink" href="#structure" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="structure/FINITE-SB.html"><code class="docutils literal notranslate"><span class="pre">FINITE-SB</span></code></a></li>
+<li><a class="reference external" href="structure/INTERFERENCE-GRAPH.html"><code class="docutils literal notranslate"><span class="pre">INTERFERENCE-GRAPH</span></code></a></li>
+<li><a class="reference external" href="structure/IR2-BLOCK.html"><code class="docutils literal notranslate"><span class="pre">IR2-BLOCK</span></code></a></li>
+<li><a class="reference external" href="structure/IR2-COMPONENT.html"><code class="docutils literal notranslate"><span class="pre">IR2-COMPONENT</span></code></a></li>
+<li><a class="reference external" href="structure/NODE.html"><code class="docutils literal notranslate"><span class="pre">NODE</span></code></a></li>
+<li><a class="reference external" href="structure/TN.html"><code class="docutils literal notranslate"><span class="pre">TN</span></code></a></li>
+<li><a class="reference external" href="structure/VERTEX.html"><code class="docutils literal notranslate"><span class="pre">VERTEX</span></code></a></li>
+<li><a class="reference external" href="structure/VOP-INFO.html"><code class="docutils literal notranslate"><span class="pre">VOP-INFO</span></code></a></li>
+<li><a class="reference external" href="structure/VOP.html"><code class="docutils literal notranslate"><span class="pre">VOP</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="variable">
+<span id="variable"></span><h2>Variable<a class="headerlink" href="#variable" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="variable/%2542%25LOOP-ANALYZE%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*LOOP-ANALYZE*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25PACK-ASSIGN-COSTS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*PACK-ASSIGN-COSTS*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25PACK-ITERATIONS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*PACK-ITERATIONS*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25PACK-OPTIMIZE-SAVES%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*PACK-OPTIMIZE-SAVES*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25REGISTER-ALLOCATION-METHOD%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*REGISTER-ALLOCATION-METHOD*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25REPACK-BLOCK-EVENT-INFO%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*REPACK-BLOCK-EVENT-INFO*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25TN-LOOP-DEPTH-MULTIPLIER%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*TN-LOOP-DEPTH-MULTIPLIER*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25TN-WRITE-COST%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*TN-WRITE-COST*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25UNPACK-FALLBACK-EVENT-INFO%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*UNPACK-FALLBACK-EVENT-INFO*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25UNPACK-TN-EVENT-INFO%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*UNPACK-TN-EVENT-INFO*</span></code></a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, TANI Kojiro.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

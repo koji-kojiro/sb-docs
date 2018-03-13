@@ -1,0 +1,298 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Macro: COMMON-LISP:TRACE &mdash; sb-docs  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="sb-docs  documentation" href="../../index.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> sb-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Macro: COMMON-LISP:TRACE</a><ul>
+<li><a class="reference internal" href="#lambda-list">Lambda list</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">sb-docs</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+      <li>Macro: COMMON-LISP:TRACE</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/common-lisp/macro/TRACE.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="macro-common-lisp-trace">
+<span id="macro-common-lisp-trace"></span><h1>Macro: COMMON-LISP:TRACE<a class="headerlink" href="#macro-common-lisp-trace" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="../"><img alt="package" src="https://img.shields.io/badge/Package-COMMON--LISP-5f9ea0.svg?style=social&amp;colorA=999999" /></a> <a class="reference external" href="../#macro"><img alt="type" src="https://img.shields.io/badge/Type-Macro-5f9ea0.svg?style=social&amp;colorA=999999" /></a> <a class="reference external" href="http://www.lispworks.com/documentation/HyperSpec/Body/m_tracec.htm"><img alt="clhs" src="https://img.shields.io/badge/CLHS-TRACE-5f9ea0.svg?style=social&amp;colorA=999999" /></a></p>
+<blockquote>
+<div><p>TRACE {Option Global-Value}* {Name {Option Value}<em>}</em></p>
+<p>TRACE is a debugging tool that provides information when specified
+functions are called. In its simplest form:</p>
+<p>(TRACE NAME-1 NAME-2 …)</p>
+<p>The NAMEs are not evaluated. Each may be a symbol, denoting an
+individual function, or a string, denoting all functions fbound to
+symbols whose home package is the package with the given name.</p>
+<p>Options allow modification of the default behavior. Each option is a
+pair of an option keyword and a value form. Global options are
+specified before the first name, and affect all functions traced by a
+given use of TRACE. Options may also be interspersed with function
+names, in which case they act as local options, only affecting tracing
+of the immediately preceding function name. Local options override
+global options.</p>
+<p>By default, TRACE causes a printout on <em>TRACE-OUTPUT</em> each time that
+one of the named functions is entered or returns. (This is the basic,
+ANSI Common Lisp behavior of TRACE.)</p>
+<p>The following options are defined:</p>
+<p>:REPORT Report-Type
+If Report-Type is TRACE (the default) then information is
+reported by printing immediately. If Report-Type is NIL, then
+the only effect of the trace is to execute other
+options (e.g. PRINT or BREAK).</p>
+<p>:CONDITION Form
+:CONDITION-AFTER Form
+:CONDITION-ALL Form
+If :CONDITION is specified, then TRACE does nothing unless Form
+evaluates to true at the time of the call. :CONDITION-AFTER is
+similar, but suppresses the initial printout, and is tested when the
+function returns. :CONDITION-ALL tries both before and after.</p>
+<p>:BREAK Form
+:BREAK-AFTER Form
+:BREAK-ALL Form
+If specified, and Form evaluates to true, then the debugger is invoked
+at the start of the function, at the end of the function, or both,
+according to the respective option.</p>
+<p>:PRINT Form
+:PRINT-AFTER Form
+:PRINT-ALL Form
+In addition to the usual printout, the result of evaluating Form is
+printed at the start of the function, at the end of the function, or
+both, according to the respective option. Multiple print options cause
+multiple values to be printed.</p>
+<p>:WHEREIN Names
+If specified, Names is a function name or list of names. TRACE does
+nothing unless a call to one of those functions encloses the call to
+this function (i.e. it would appear in a backtrace.)  Anonymous
+functions have string names like “DEFUN FOO”.</p>
+<p>:ENCAPSULATE {:DEFAULT | T | NIL}
+If T, the tracing is done via encapsulation (redefining the function
+name) rather than by modifying the function. :DEFAULT is the default,
+and means to use encapsulation for interpreted functions and funcallable
+instances, breakpoints otherwise. When encapsulation is used, forms are
+<em>not</em> evaluated in the function’s lexical environment, but SB-DEBUG:ARG
+can still be used.</p>
+<p>:METHODS {T | NIL}
+If T, any function argument naming a generic function will have its
+methods traced in addition to the generic function itself.</p>
+<p>:FUNCTION Function-Form
+This is a not really an option, but rather another way of specifying
+what function to trace. The Function-Form is evaluated immediately,
+and the resulting function is traced.</p>
+<p>:CONDITION, :BREAK and :PRINT forms are evaluated in a context which
+mocks up the lexical environment of the called function, so that
+SB-DEBUG:VAR and SB-DEBUG:ARG can be used.
+The -AFTER and -ALL forms can use SB-DEBUG:ARG.</p>
+</div></blockquote>
+<div class="section" id="lambda-list">
+<span id="lambda-list"></span><h2>Lambda list<a class="headerlink" href="#lambda-list" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-cl notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="k">&amp;rest</span> <span class="nv">sb-debug::specs</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, TANI Kojiro.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

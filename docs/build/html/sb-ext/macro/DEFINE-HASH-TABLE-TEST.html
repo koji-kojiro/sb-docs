@@ -1,0 +1,271 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Macro: SB-EXT:DEFINE-HASH-TABLE-TEST &mdash; sb-docs  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="sb-docs  documentation" href="../../index.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> sb-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Macro: SB-EXT:DEFINE-HASH-TABLE-TEST</a><ul>
+<li><a class="reference internal" href="#lambda-list">Lambda list</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">sb-docs</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+      <li>Macro: SB-EXT:DEFINE-HASH-TABLE-TEST</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/sb-ext/macro/DEFINE-HASH-TABLE-TEST.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="macro-sb-ext-define-hash-table-test">
+<span id="macro-sb-ext-define-hash-table-test"></span><h1>Macro: SB-EXT:DEFINE-HASH-TABLE-TEST<a class="headerlink" href="#macro-sb-ext-define-hash-table-test" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="../"><img alt="package" src="https://img.shields.io/badge/Package-SB--EXT-5f9ea0.svg?style=social&amp;colorA=999999" /></a> <a class="reference external" href="../#macro"><img alt="type" src="https://img.shields.io/badge/Type-Macro-5f9ea0.svg?style=social&amp;colorA=999999" /></a></p>
+<blockquote>
+<div><p>Defines NAME as a new kind of hash table test for use with the :TEST
+argument to MAKE-HASH-TABLE, and associates a default HASH-FUNCTION with it.</p>
+<p>NAME must be a symbol naming a global two argument equivalence predicate.
+Afterwards both ‘NAME and #’NAME can be used with :TEST argument. In both
+cases HASH-TABLE-TEST will return the symbol NAME.</p>
+<p>HASH-FUNCTION must be a symbol naming a global hash function consistent with
+the predicate, or be a LAMBDA form implementing one in the current lexical
+environment. The hash function must compute the same hash code for any two
+objects for which NAME returns true, and subsequent calls with already hashed
+objects must always return the same hash code.</p>
+<p>Note: The :HASH-FUNCTION keyword argument to MAKE-HASH-TABLE can be used to
+override the specified default hash-function.</p>
+<p>Attempting to define NAME in a locked package as hash-table test causes a
+package lock violation.</p>
+<p>Examples:</p>
+<p>;;; 1.</p>
+<p>;; We want to use objects of type FOO as keys (by their
+;; names.) EQUALP would work, but would make the names
+;; case-insensitive – which we don’t want.
+(defstruct foo (name nil :type (or null string)))</p>
+<p>;; Define an equivalence test function and a hash function.
+(defun foo-name= (f1 f2) (equal (foo-name f1) (foo-name f2)))
+(defun sxhash-foo-name (f) (sxhash (foo-name f)))</p>
+<p>(define-hash-table-test foo-name= sxhash-foo-name)</p>
+<p>;; #’foo-name would work too.
+(defun make-foo-table () (make-hash-table :test ‘foo-name=))</p>
+<p>;;; 2.</p>
+<p>(defun == (x y) (= x y))</p>
+<p>(define-hash-table-test ==
+(lambda (x)
+;; Hash codes must be consistent with test, so
+;; not (SXHASH X), since
+;;   (= 1 1.0)                   =&gt; T
+;;   (= (SXHASH 1) (SXHASH 1.0)) =&gt; NIL
+;; Note: this doesn’t deal with complex numbers or
+;; bignums too large to represent as double floats.
+(sxhash (coerce x ‘double-float))))</p>
+<p>;; #’== would work too
+(defun make-number-table () (make-hash-table :test ‘==))</p>
+</div></blockquote>
+<div class="section" id="lambda-list">
+<span id="lambda-list"></span><h2>Lambda list<a class="headerlink" href="#lambda-list" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-cl notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="nv">sb-impl::name</span> <span class="nv">sb-impl::hash-function</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, TANI Kojiro.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

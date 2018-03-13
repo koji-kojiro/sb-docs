@@ -1,0 +1,436 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Package: SB-THREAD &mdash; sb-docs  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="sb-docs  documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> sb-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Package: SB-THREAD</a><ul>
+<li><a class="reference internal" href="#class">Class</a></li>
+<li><a class="reference internal" href="#constant">Constant</a></li>
+<li><a class="reference internal" href="#function">Function</a></li>
+<li><a class="reference internal" href="#macro">Macro</a></li>
+<li><a class="reference internal" href="#structure">Structure</a></li>
+<li><a class="reference internal" href="#type">Type</a></li>
+<li><a class="reference internal" href="#variable">Variable</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">sb-docs</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Package: SB-THREAD</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/sb-thread/index.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="package-sb-thread">
+<span id="package-sb-thread"></span><h1>Package: SB-THREAD<a class="headerlink" href="#package-sb-thread" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>public (but low-level): native thread support</div></blockquote>
+<hr class="docutils" />
+<div class="section" id="class">
+<span id="class"></span><h2>Class<a class="headerlink" href="#class" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="class/INTERRUPT-THREAD-ERROR.html"><code class="docutils literal notranslate"><span class="pre">INTERRUPT-THREAD-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/JOIN-THREAD-ERROR.html"><code class="docutils literal notranslate"><span class="pre">JOIN-THREAD-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/SIMPLE-THREAD-ERROR.html"><code class="docutils literal notranslate"><span class="pre">SIMPLE-THREAD-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/SYMBOL-VALUE-IN-THREAD-ERROR.html"><code class="docutils literal notranslate"><span class="pre">SYMBOL-VALUE-IN-THREAD-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/THREAD-DEADLOCK.html"><code class="docutils literal notranslate"><span class="pre">THREAD-DEADLOCK</span></code></a></li>
+<li><a class="reference external" href="class/THREAD-ERROR.html"><code class="docutils literal notranslate"><span class="pre">THREAD-ERROR</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="constant">
+<span id="constant"></span><h2>Constant<a class="headerlink" href="#constant" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="constant/%2543%25LOCK-CONTESTED%2543%25.html"><code class="docutils literal notranslate"><span class="pre">+LOCK-CONTESTED+</span></code></a></li>
+<li><a class="reference external" href="constant/%2543%25LOCK-FREE%2543%25.html"><code class="docutils literal notranslate"><span class="pre">+LOCK-FREE+</span></code></a></li>
+<li><a class="reference external" href="constant/%2543%25LOCK-TAKEN%2543%25.html"><code class="docutils literal notranslate"><span class="pre">+LOCK-TAKEN+</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="function">
+<span id="function"></span><h2>Function<a class="headerlink" href="#function" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="function/%2537%25%2537%25WAIT-FOR-MUTEX.html"><code class="docutils literal notranslate"><span class="pre">%%WAIT-FOR-MUTEX</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25BLOCK-DEFERRABLE-SIGNALS.html"><code class="docutils literal notranslate"><span class="pre">%BLOCK-DEFERRABLE-SIGNALS</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25CONDITION-WAIT.html"><code class="docutils literal notranslate"><span class="pre">%CONDITION-WAIT</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25CREATE-THREAD.html"><code class="docutils literal notranslate"><span class="pre">%CREATE-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25DECREMENT-SEMAPHORE.html"><code class="docutils literal notranslate"><span class="pre">%DECREMENT-SEMAPHORE</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25DELETE-THREAD-FROM-SESSION.html"><code class="docutils literal notranslate"><span class="pre">%DELETE-THREAD-FROM-SESSION</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25EXIT-OTHER-THREADS.html"><code class="docutils literal notranslate"><span class="pre">%EXIT-OTHER-THREADS</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25FUTEX-WAIT.html"><code class="docutils literal notranslate"><span class="pre">%FUTEX-WAIT</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25MAKE-THREAD.html"><code class="docutils literal notranslate"><span class="pre">%MAKE-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25RETURN-FROM-THREAD.html"><code class="docutils literal notranslate"><span class="pre">%RETURN-FROM-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25SET-SYMBOL-VALUE-IN-THREAD.html"><code class="docutils literal notranslate"><span class="pre">%SET-SYMBOL-VALUE-IN-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25SYMBOL-VALUE-IN-THREAD.html"><code class="docutils literal notranslate"><span class="pre">%SYMBOL-VALUE-IN-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25THREAD-LOCAL-REFERENCES.html"><code class="docutils literal notranslate"><span class="pre">%THREAD-LOCAL-REFERENCES</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25TRY-MUTEX.html"><code class="docutils literal notranslate"><span class="pre">%TRY-MUTEX</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25WAIT-FOR-MUTEX.html"><code class="docutils literal notranslate"><span class="pre">%WAIT-FOR-MUTEX</span></code></a></li>
+<li><a class="reference external" href="function/ABORT-THREAD.html"><code class="docutils literal notranslate"><span class="pre">ABORT-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/BLOCK-DEFERRABLE-SIGNALS.html"><code class="docutils literal notranslate"><span class="pre">BLOCK-DEFERRABLE-SIGNALS</span></code></a></li>
+<li><a class="reference external" href="function/CALL-WITH-MUTEX.html"><code class="docutils literal notranslate"><span class="pre">CALL-WITH-MUTEX</span></code></a></li>
+<li><a class="reference external" href="function/CALL-WITH-NEW-SESSION.html"><code class="docutils literal notranslate"><span class="pre">CALL-WITH-NEW-SESSION</span></code></a></li>
+<li><a class="reference external" href="function/CALL-WITH-RECURSIVE-LOCK.html"><code class="docutils literal notranslate"><span class="pre">CALL-WITH-RECURSIVE-LOCK</span></code></a></li>
+<li><a class="reference external" href="function/CALL-WITH-RECURSIVE-SYSTEM-LOCK%2547%25WITHOUT-GCING.html"><code class="docutils literal notranslate"><span class="pre">CALL-WITH-RECURSIVE-SYSTEM-LOCK/WITHOUT-GCING</span></code></a></li>
+<li><a class="reference external" href="function/CALL-WITH-RECURSIVE-SYSTEM-LOCK.html"><code class="docutils literal notranslate"><span class="pre">CALL-WITH-RECURSIVE-SYSTEM-LOCK</span></code></a></li>
+<li><a class="reference external" href="function/CALL-WITH-SYSTEM-MUTEX%2547%25ALLOW-WITH-INTERRUPTS.html"><code class="docutils literal notranslate"><span class="pre">CALL-WITH-SYSTEM-MUTEX/ALLOW-WITH-INTERRUPTS</span></code></a></li>
+<li><a class="reference external" href="function/CALL-WITH-SYSTEM-MUTEX%2547%25WITHOUT-GCING.html"><code class="docutils literal notranslate"><span class="pre">CALL-WITH-SYSTEM-MUTEX/WITHOUT-GCING</span></code></a></li>
+<li><a class="reference external" href="function/CALL-WITH-SYSTEM-MUTEX.html"><code class="docutils literal notranslate"><span class="pre">CALL-WITH-SYSTEM-MUTEX</span></code></a></li>
+<li><a class="reference external" href="function/CHECK-DEADLOCK.html"><code class="docutils literal notranslate"><span class="pre">CHECK-DEADLOCK</span></code></a></li>
+<li><a class="reference external" href="function/CLEAR-SEMAPHORE-NOTIFICATION.html"><code class="docutils literal notranslate"><span class="pre">CLEAR-SEMAPHORE-NOTIFICATION</span></code></a></li>
+<li><a class="reference external" href="function/CONDITION-BROADCAST.html"><code class="docutils literal notranslate"><span class="pre">CONDITION-BROADCAST</span></code></a></li>
+<li><a class="reference external" href="function/CONDITION-NOTIFY.html"><code class="docutils literal notranslate"><span class="pre">CONDITION-NOTIFY</span></code></a></li>
+<li><a class="reference external" href="function/CONDITION-WAIT.html"><code class="docutils literal notranslate"><span class="pre">CONDITION-WAIT</span></code></a></li>
+<li><a class="reference external" href="function/CURRENT-THREAD-OS-THREAD.html"><code class="docutils literal notranslate"><span class="pre">CURRENT-THREAD-OS-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/CURRENT-THREAD-SAP.html"><code class="docutils literal notranslate"><span class="pre">CURRENT-THREAD-SAP</span></code></a></li>
+<li><a class="reference external" href="function/DEBUGGER-WAIT-UNTIL-FOREGROUND-THREAD.html"><code class="docutils literal notranslate"><span class="pre">DEBUGGER-WAIT-UNTIL-FOREGROUND-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/DESTROY-THREAD.html"><code class="docutils literal notranslate"><span class="pre">DESTROY-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/ENTER-FOREIGN-CALLBACK.html"><code class="docutils literal notranslate"><span class="pre">ENTER-FOREIGN-CALLBACK</span></code></a></li>
+<li><a class="reference external" href="function/FOREGROUND-THREAD.html"><code class="docutils literal notranslate"><span class="pre">FOREGROUND-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/FOREIGN-THREAD-P.html"><code class="docutils literal notranslate"><span class="pre">FOREIGN-THREAD-P</span></code></a></li>
+<li><a class="reference external" href="function/FUTEX-WAIT.html"><code class="docutils literal notranslate"><span class="pre">FUTEX-WAIT</span></code></a></li>
+<li><a class="reference external" href="function/FUTEX-WAKE.html"><code class="docutils literal notranslate"><span class="pre">FUTEX-WAKE</span></code></a></li>
+<li><a class="reference external" href="function/GET-FOREGROUND.html"><code class="docutils literal notranslate"><span class="pre">GET-FOREGROUND</span></code></a></li>
+<li><a class="reference external" href="function/GET-MUTEX.html"><code class="docutils literal notranslate"><span class="pre">GET-MUTEX</span></code></a></li>
+<li><a class="reference external" href="function/GET-SPINLOCK.html"><code class="docutils literal notranslate"><span class="pre">GET-SPINLOCK</span></code></a></li>
+<li><a class="reference external" href="function/GRAB-MUTEX.html"><code class="docutils literal notranslate"><span class="pre">GRAB-MUTEX</span></code></a></li>
+<li><a class="reference external" href="function/HANDLE-THREAD-EXIT.html"><code class="docutils literal notranslate"><span class="pre">HANDLE-THREAD-EXIT</span></code></a></li>
+<li><a class="reference external" href="function/HOLDING-MUTEX-P.html"><code class="docutils literal notranslate"><span class="pre">HOLDING-MUTEX-P</span></code></a></li>
+<li><a class="reference external" href="function/INIT-INITIAL-THREAD.html"><code class="docutils literal notranslate"><span class="pre">INIT-INITIAL-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/INIT-JOB-CONTROL.html"><code class="docutils literal notranslate"><span class="pre">INIT-JOB-CONTROL</span></code></a></li>
+<li><a class="reference external" href="function/INITIAL-THREAD-FUNCTION-TRAMPOLINE.html"><code class="docutils literal notranslate"><span class="pre">INITIAL-THREAD-FUNCTION-TRAMPOLINE</span></code></a></li>
+<li><a class="reference external" href="function/INTERACTIVE-THREADS.html"><code class="docutils literal notranslate"><span class="pre">INTERACTIVE-THREADS</span></code></a></li>
+<li><a class="reference external" href="function/INTERRUPT-THREAD-ERROR-THREAD.html"><code class="docutils literal notranslate"><span class="pre">INTERRUPT-THREAD-ERROR-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/INTERRUPT-THREAD.html"><code class="docutils literal notranslate"><span class="pre">INTERRUPT-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/JOIN-THREAD-ERROR-THREAD.html"><code class="docutils literal notranslate"><span class="pre">JOIN-THREAD-ERROR-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/JOIN-THREAD-PROBLEM.html"><code class="docutils literal notranslate"><span class="pre">JOIN-THREAD-PROBLEM</span></code></a></li>
+<li><a class="reference external" href="function/JOIN-THREAD.html"><code class="docutils literal notranslate"><span class="pre">JOIN-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/KILL-SAFELY.html"><code class="docutils literal notranslate"><span class="pre">KILL-SAFELY</span></code></a></li>
+<li><a class="reference external" href="function/LIST-ALL-THREADS.html"><code class="docutils literal notranslate"><span class="pre">LIST-ALL-THREADS</span></code></a></li>
+<li><a class="reference external" href="function/MAIN-THREAD-P.html"><code class="docutils literal notranslate"><span class="pre">MAIN-THREAD-P</span></code></a></li>
+<li><a class="reference external" href="function/MAIN-THREAD.html"><code class="docutils literal notranslate"><span class="pre">MAIN-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-FOREIGN-THREAD.html"><code class="docutils literal notranslate"><span class="pre">MAKE-FOREIGN-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-LISTENER-THREAD.html"><code class="docutils literal notranslate"><span class="pre">MAKE-LISTENER-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-MUTEX.html"><code class="docutils literal notranslate"><span class="pre">MAKE-MUTEX</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-SEMAPHORE-NOTIFICATION.html"><code class="docutils literal notranslate"><span class="pre">MAKE-SEMAPHORE-NOTIFICATION</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-SEMAPHORE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-SEMAPHORE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-SESSION.html"><code class="docutils literal notranslate"><span class="pre">MAKE-SESSION</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-SPINLOCK.html"><code class="docutils literal notranslate"><span class="pre">MAKE-SPINLOCK</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-THREAD.html"><code class="docutils literal notranslate"><span class="pre">MAKE-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-WAITQUEUE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-WAITQUEUE</span></code></a></li>
+<li><a class="reference external" href="function/MUTEX-%2537%25OWNER.html"><code class="docutils literal notranslate"><span class="pre">MUTEX-%OWNER</span></code></a></li>
+<li><a class="reference external" href="function/MUTEX-NAME.html"><code class="docutils literal notranslate"><span class="pre">MUTEX-NAME</span></code></a></li>
+<li><a class="reference external" href="function/MUTEX-OWNER.html"><code class="docutils literal notranslate"><span class="pre">MUTEX-OWNER</span></code></a></li>
+<li><a class="reference external" href="function/MUTEX-P.html"><code class="docutils literal notranslate"><span class="pre">MUTEX-P</span></code></a></li>
+<li><a class="reference external" href="function/MUTEX-STATE-ADDRESS.html"><code class="docutils literal notranslate"><span class="pre">MUTEX-STATE-ADDRESS</span></code></a></li>
+<li><a class="reference external" href="function/MUTEX-STATE.html"><code class="docutils literal notranslate"><span class="pre">MUTEX-STATE</span></code></a></li>
+<li><a class="reference external" href="function/MUTEX-VALUE.html"><code class="docutils literal notranslate"><span class="pre">MUTEX-VALUE</span></code></a></li>
+<li><a class="reference external" href="function/NEW-SESSION.html"><code class="docutils literal notranslate"><span class="pre">NEW-SESSION</span></code></a></li>
+<li><a class="reference external" href="function/PRINT-LOCK.html"><code class="docutils literal notranslate"><span class="pre">PRINT-LOCK</span></code></a></li>
+<li><a class="reference external" href="function/RELEASE-FOREGROUND.html"><code class="docutils literal notranslate"><span class="pre">RELEASE-FOREGROUND</span></code></a></li>
+<li><a class="reference external" href="function/RELEASE-MUTEX.html"><code class="docutils literal notranslate"><span class="pre">RELEASE-MUTEX</span></code></a></li>
+<li><a class="reference external" href="function/RELEASE-SPINLOCK.html"><code class="docutils literal notranslate"><span class="pre">RELEASE-SPINLOCK</span></code></a></li>
+<li><a class="reference external" href="function/RUN-INTERRUPTION.html"><code class="docutils literal notranslate"><span class="pre">RUN-INTERRUPTION</span></code></a></li>
+<li><a class="reference external" href="function/SEMAPHORE-%2537%25COUNT.html"><code class="docutils literal notranslate"><span class="pre">SEMAPHORE-%COUNT</span></code></a></li>
+<li><a class="reference external" href="function/SEMAPHORE-COUNT.html"><code class="docutils literal notranslate"><span class="pre">SEMAPHORE-COUNT</span></code></a></li>
+<li><a class="reference external" href="function/SEMAPHORE-MUTEX.html"><code class="docutils literal notranslate"><span class="pre">SEMAPHORE-MUTEX</span></code></a></li>
+<li><a class="reference external" href="function/SEMAPHORE-NAME.html"><code class="docutils literal notranslate"><span class="pre">SEMAPHORE-NAME</span></code></a></li>
+<li><a class="reference external" href="function/SEMAPHORE-NOTIFICATION-%2537%25STATUS.html"><code class="docutils literal notranslate"><span class="pre">SEMAPHORE-NOTIFICATION-%STATUS</span></code></a></li>
+<li><a class="reference external" href="function/SEMAPHORE-NOTIFICATION-P.html"><code class="docutils literal notranslate"><span class="pre">SEMAPHORE-NOTIFICATION-P</span></code></a></li>
+<li><a class="reference external" href="function/SEMAPHORE-NOTIFICATION-STATUS.html"><code class="docutils literal notranslate"><span class="pre">SEMAPHORE-NOTIFICATION-STATUS</span></code></a></li>
+<li><a class="reference external" href="function/SEMAPHORE-P.html"><code class="docutils literal notranslate"><span class="pre">SEMAPHORE-P</span></code></a></li>
+<li><a class="reference external" href="function/SEMAPHORE-QUEUE.html"><code class="docutils literal notranslate"><span class="pre">SEMAPHORE-QUEUE</span></code></a></li>
+<li><a class="reference external" href="function/SEMAPHORE-WAITCOUNT.html"><code class="docutils literal notranslate"><span class="pre">SEMAPHORE-WAITCOUNT</span></code></a></li>
+<li><a class="reference external" href="function/SESSION-INTERACTIVE-THREADS-QUEUE.html"><code class="docutils literal notranslate"><span class="pre">SESSION-INTERACTIVE-THREADS-QUEUE</span></code></a></li>
+<li><a class="reference external" href="function/SESSION-INTERACTIVE-THREADS.html"><code class="docutils literal notranslate"><span class="pre">SESSION-INTERACTIVE-THREADS</span></code></a></li>
+<li><a class="reference external" href="function/SESSION-LOCK.html"><code class="docutils literal notranslate"><span class="pre">SESSION-LOCK</span></code></a></li>
+<li><a class="reference external" href="function/SESSION-P.html"><code class="docutils literal notranslate"><span class="pre">SESSION-P</span></code></a></li>
+<li><a class="reference external" href="function/SESSION-THREADS.html"><code class="docutils literal notranslate"><span class="pre">SESSION-THREADS</span></code></a></li>
+<li><a class="reference external" href="function/SET-MUTEX-VALUE.html"><code class="docutils literal notranslate"><span class="pre">SET-MUTEX-VALUE</span></code></a></li>
+<li><a class="reference external" href="function/SIGNAL-SEMAPHORE.html"><code class="docutils literal notranslate"><span class="pre">SIGNAL-SEMAPHORE</span></code></a></li>
+<li><a class="reference external" href="function/SPINLOCK-NAME.html"><code class="docutils literal notranslate"><span class="pre">SPINLOCK-NAME</span></code></a></li>
+<li><a class="reference external" href="function/SPINLOCK-VALUE.html"><code class="docutils literal notranslate"><span class="pre">SPINLOCK-VALUE</span></code></a></li>
+<li><a class="reference external" href="function/SYMBOL-VALUE-IN-THREAD-ERROR-INFO.html"><code class="docutils literal notranslate"><span class="pre">SYMBOL-VALUE-IN-THREAD-ERROR-INFO</span></code></a></li>
+<li><a class="reference external" href="function/SYMBOL-VALUE-IN-THREAD.html"><code class="docutils literal notranslate"><span class="pre">SYMBOL-VALUE-IN-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/TERMINATE-SESSION.html"><code class="docutils literal notranslate"><span class="pre">TERMINATE-SESSION</span></code></a></li>
+<li><a class="reference external" href="function/TERMINATE-THREAD.html"><code class="docutils literal notranslate"><span class="pre">TERMINATE-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-%2537%25ALIVE-P.html"><code class="docutils literal notranslate"><span class="pre">THREAD-%ALIVE-P</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-%2537%25EPHEMERAL-P.html"><code class="docutils literal notranslate"><span class="pre">THREAD-%EPHEMERAL-P</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-ALIVE-P.html"><code class="docutils literal notranslate"><span class="pre">THREAD-ALIVE-P</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-DEADLOCK-CYCLE.html"><code class="docutils literal notranslate"><span class="pre">THREAD-DEADLOCK-CYCLE</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-EPHEMERAL-P.html"><code class="docutils literal notranslate"><span class="pre">THREAD-EPHEMERAL-P</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-ERROR-THREAD.html"><code class="docutils literal notranslate"><span class="pre">THREAD-ERROR-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-INTERRUPTIONS-LOCK.html"><code class="docutils literal notranslate"><span class="pre">THREAD-INTERRUPTIONS-LOCK</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-INTERRUPTIONS.html"><code class="docutils literal notranslate"><span class="pre">THREAD-INTERRUPTIONS</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-NAME.html"><code class="docutils literal notranslate"><span class="pre">THREAD-NAME</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-OS-THREAD.html"><code class="docutils literal notranslate"><span class="pre">THREAD-OS-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-P.html"><code class="docutils literal notranslate"><span class="pre">THREAD-P</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-PRIMITIVE-THREAD.html"><code class="docutils literal notranslate"><span class="pre">THREAD-PRIMITIVE-THREAD</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-RESULT-LOCK.html"><code class="docutils literal notranslate"><span class="pre">THREAD-RESULT-LOCK</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-RESULT.html"><code class="docutils literal notranslate"><span class="pre">THREAD-RESULT</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-STEPPING.html"><code class="docutils literal notranslate"><span class="pre">THREAD-STEPPING</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-WAITING-FOR.html"><code class="docutils literal notranslate"><span class="pre">THREAD-WAITING-FOR</span></code></a></li>
+<li><a class="reference external" href="function/THREAD-YIELD.html"><code class="docutils literal notranslate"><span class="pre">THREAD-YIELD</span></code></a></li>
+<li><a class="reference external" href="function/TRY-SEMAPHORE.html"><code class="docutils literal notranslate"><span class="pre">TRY-SEMAPHORE</span></code></a></li>
+<li><a class="reference external" href="function/WAIT-ON-SEMAPHORE.html"><code class="docutils literal notranslate"><span class="pre">WAIT-ON-SEMAPHORE</span></code></a></li>
+<li><a class="reference external" href="function/WAITQUEUE-NAME.html"><code class="docutils literal notranslate"><span class="pre">WAITQUEUE-NAME</span></code></a></li>
+<li><a class="reference external" href="function/WAITQUEUE-P.html"><code class="docutils literal notranslate"><span class="pre">WAITQUEUE-P</span></code></a></li>
+<li><a class="reference external" href="function/WAITQUEUE-TOKEN-ADDRESS.html"><code class="docutils literal notranslate"><span class="pre">WAITQUEUE-TOKEN-ADDRESS</span></code></a></li>
+<li><a class="reference external" href="function/WAITQUEUE-TOKEN.html"><code class="docutils literal notranslate"><span class="pre">WAITQUEUE-TOKEN</span></code></a></li>
+<li><a class="reference external" href="function/WAKE-THREAD.html"><code class="docutils literal notranslate"><span class="pre">WAKE-THREAD</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="macro">
+<span id="macro"></span><h2>Macro<a class="headerlink" href="#macro" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="macro/%2537%25WITH-CAS-LOCK.html"><code class="docutils literal notranslate"><span class="pre">%WITH-CAS-LOCK</span></code></a></li>
+<li><a class="reference external" href="macro/BARRIER.html"><code class="docutils literal notranslate"><span class="pre">BARRIER</span></code></a></li>
+<li><a class="reference external" href="macro/RETURN-FROM-THREAD.html"><code class="docutils literal notranslate"><span class="pre">RETURN-FROM-THREAD</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-ALL-THREADS-LOCK.html"><code class="docutils literal notranslate"><span class="pre">WITH-ALL-THREADS-LOCK</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-CAS-LOCK.html"><code class="docutils literal notranslate"><span class="pre">WITH-CAS-LOCK</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-DEADLOCKS.html"><code class="docutils literal notranslate"><span class="pre">WITH-DEADLOCKS</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-INTERRUPTIONS-LOCK.html"><code class="docutils literal notranslate"><span class="pre">WITH-INTERRUPTIONS-LOCK</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-MUTEX.html"><code class="docutils literal notranslate"><span class="pre">WITH-MUTEX</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-NEW-SESSION.html"><code class="docutils literal notranslate"><span class="pre">WITH-NEW-SESSION</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-RECURSIVE-LOCK.html"><code class="docutils literal notranslate"><span class="pre">WITH-RECURSIVE-LOCK</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-RECURSIVE-SPINLOCK.html"><code class="docutils literal notranslate"><span class="pre">WITH-RECURSIVE-SPINLOCK</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-RECURSIVE-SYSTEM-LOCK.html"><code class="docutils literal notranslate"><span class="pre">WITH-RECURSIVE-SYSTEM-LOCK</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-SESSION-LOCK.html"><code class="docutils literal notranslate"><span class="pre">WITH-SESSION-LOCK</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-SPINLOCK.html"><code class="docutils literal notranslate"><span class="pre">WITH-SPINLOCK</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-SYSTEM-MUTEX.html"><code class="docutils literal notranslate"><span class="pre">WITH-SYSTEM-MUTEX</span></code></a></li>
+<li><a class="reference external" href="macro/WITHOUT-THREAD-WAITING-FOR.html"><code class="docutils literal notranslate"><span class="pre">WITHOUT-THREAD-WAITING-FOR</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="structure">
+<span id="structure"></span><h2>Structure<a class="headerlink" href="#structure" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="structure/FOREIGN-THREAD.html"><code class="docutils literal notranslate"><span class="pre">FOREIGN-THREAD</span></code></a></li>
+<li><a class="reference external" href="structure/MUTEX.html"><code class="docutils literal notranslate"><span class="pre">MUTEX</span></code></a></li>
+<li><a class="reference external" href="structure/SEMAPHORE-NOTIFICATION.html"><code class="docutils literal notranslate"><span class="pre">SEMAPHORE-NOTIFICATION</span></code></a></li>
+<li><a class="reference external" href="structure/SEMAPHORE.html"><code class="docutils literal notranslate"><span class="pre">SEMAPHORE</span></code></a></li>
+<li><a class="reference external" href="structure/SESSION.html"><code class="docutils literal notranslate"><span class="pre">SESSION</span></code></a></li>
+<li><a class="reference external" href="structure/THREAD.html"><code class="docutils literal notranslate"><span class="pre">THREAD</span></code></a></li>
+<li><a class="reference external" href="structure/WAITQUEUE.html"><code class="docutils literal notranslate"><span class="pre">WAITQUEUE</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="type">
+<span id="type"></span><h2>Type<a class="headerlink" href="#type" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="type/SPINLOCK.html"><code class="docutils literal notranslate"><span class="pre">SPINLOCK</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="variable">
+<span id="variable"></span><h2>Variable<a class="headerlink" href="#variable" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="variable/%2542%25%2542%25DEADLOCK-LOCK%2542%25%2542%25.html"><code class="docutils literal notranslate"><span class="pre">**DEADLOCK-LOCK**</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25ALL-THREADS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ALL-THREADS*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25ALL-THREADS-LOCK%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ALL-THREADS-LOCK*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25CURRENT-THREAD%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*CURRENT-THREAD*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25DEFAULT-ALLOC-SIGNAL%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*DEFAULT-ALLOC-SIGNAL*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25INITIAL-THREAD%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*INITIAL-THREAD*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25MAKE-THREAD-LOCK%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*MAKE-THREAD-LOCK*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25SESSION%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*SESSION*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25THREAD-INITIAL-BINDINGS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*THREAD-INITIAL-BINDINGS*</span></code></a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, TANI Kojiro.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

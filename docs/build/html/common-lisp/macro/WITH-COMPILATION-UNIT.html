@@ -1,0 +1,289 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Macro: COMMON-LISP:WITH-COMPILATION-UNIT &mdash; sb-docs  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="sb-docs  documentation" href="../../index.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> sb-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Macro: COMMON-LISP:WITH-COMPILATION-UNIT</a><ul>
+<li><a class="reference internal" href="#lambda-list">Lambda list</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">sb-docs</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+      <li>Macro: COMMON-LISP:WITH-COMPILATION-UNIT</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/common-lisp/macro/WITH-COMPILATION-UNIT.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="macro-common-lisp-with-compilation-unit">
+<span id="macro-common-lisp-with-compilation-unit"></span><h1>Macro: COMMON-LISP:WITH-COMPILATION-UNIT<a class="headerlink" href="#macro-common-lisp-with-compilation-unit" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="../"><img alt="package" src="https://img.shields.io/badge/Package-COMMON--LISP-5f9ea0.svg?style=social&amp;colorA=999999" /></a> <a class="reference external" href="../#macro"><img alt="type" src="https://img.shields.io/badge/Type-Macro-5f9ea0.svg?style=social&amp;colorA=999999" /></a> <a class="reference external" href="http://www.lispworks.com/documentation/HyperSpec/Body/m_w_comp.htm"><img alt="clhs" src="https://img.shields.io/badge/CLHS-WITH--COMPILATION--UNIT-5f9ea0.svg?style=social&amp;colorA=999999" /></a></p>
+<blockquote>
+<div><p>Affects compilations that take place within its dynamic extent. It is
+intended to be eg. wrapped around the compilation of all files in the same system.</p>
+<p>Following options are defined:</p>
+<p>:OVERRIDE Boolean-Form
+One of the effects of this form is to delay undefined warnings until the
+end of the form, instead of giving them at the end of each compilation.
+If OVERRIDE is NIL (the default), then the outermost
+WITH-COMPILATION-UNIT form grabs the undefined warnings. Specifying
+OVERRIDE true causes that form to grab any enclosed warnings, even if it
+is enclosed by another WITH-COMPILATION-UNIT.</p>
+<p>:POLICY Optimize-Declaration-Form
+Provides dynamic scoping for global compiler optimization qualities and
+restrictions, limiting effects of subsequent OPTIMIZE proclamations and
+calls to SB-EXT:RESTRICT-COMPILER-POLICY to the dynamic scope of BODY.</p>
+<p>If OVERRIDE is false, specified POLICY is merged with current global
+policy. If OVERRIDE is true, current global policy, including any
+restrictions, is discarded in favor of the specified POLICY.</p>
+<p>Supplying POLICY NIL is equivalent to the option not being supplied at
+all, ie. dynamic scoping of policy does not take place.</p>
+<p>This option is an SBCL-specific experimental extension: Interface
+subject to change.</p>
+<p>:SOURCE-NAMESTRING Namestring-Form
+Attaches the value returned by the Namestring-Form to the internal
+debug-source information as the namestring of the source file. Normally
+the namestring of the input-file for COMPILE-FILE is used: this option
+can be used to provide source-file information for functions compiled
+using COMPILE, or to override the input-file of COMPILE-FILE.</p>
+<p>If both an outer and an inner WITH-COMPILATION-UNIT provide a
+SOURCE-NAMESTRING, the inner one takes precedence. Unaffected
+by :OVERRIDE.</p>
+<p>This is an SBCL-specific extension.</p>
+<p>:SOURCE-PLIST Plist-Form
+Attaches the value returned by the Plist-Form to internal debug-source
+information of functions compiled in within the dynamic extent of BODY.</p>
+<p>Primarily for use by development environments, in order to eg. associate
+function definitions with editor-buffers. Can be accessed using
+SB-INTROSPECT:DEFINITION-SOURCE-PLIST.</p>
+<p>If an outer WITH-COMPILATION-UNIT form also provide a SOURCE-PLIST, it
+is appended to the end of the provided SOURCE-PLIST. Unaffected
+by :OVERRIDE.</p>
+<p>This is an SBCL-specific extension.</p>
+<p>Examples:</p>
+<p>;; Prevent proclamations from the file leaking, and restrict
+;; SAFETY to 3 – otherwise uses the current global policy.
+(with-compilation-unit (:policy ‘(optimize))
+(restrict-compiler-policy ‘safety 3)
+(load “foo.lisp”))</p>
+<p>;; Using default policy instead of the current global one,
+;; except for DEBUG 3.
+(with-compilation-unit (:policy ‘(optimize debug)
+:override t)
+(load “foo.lisp”))</p>
+<p>;; Same as if :POLICY had not been specified at all: SAFETY 3
+;; proclamation leaks out from WITH-COMPILATION-UNIT.
+(with-compilation-unit (:policy nil)
+(declaim (optimize safety))
+(load “foo.lisp”))</p>
+</div></blockquote>
+<div class="section" id="lambda-list">
+<span id="lambda-list"></span><h2>Lambda list<a class="headerlink" href="#lambda-list" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-cl notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="nv">sb-c::options</span> <span class="k">&amp;body</span> <span class="nv">sb-c::body</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, TANI Kojiro.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

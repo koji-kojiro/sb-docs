@@ -1,0 +1,378 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Package: SB-SYS &mdash; sb-docs  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="sb-docs  documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> sb-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Package: SB-SYS</a><ul>
+<li><a class="reference internal" href="#class">Class</a></li>
+<li><a class="reference internal" href="#function">Function</a></li>
+<li><a class="reference internal" href="#macro">Macro</a></li>
+<li><a class="reference internal" href="#structure">Structure</a></li>
+<li><a class="reference internal" href="#variable">Variable</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">sb-docs</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Package: SB-SYS</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/sb-sys/index.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="package-sb-sys">
+<span id="package-sb-sys"></span><h1>Package: SB-SYS<a class="headerlink" href="#package-sb-sys" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>private: In theory, this “contains functions and information
+necessary for system interfacing” (said cmu-user.tex at the time
+of the SBCL code fork). That probably was and is a good idea, but in
+practice, the distinctions between this package and SB-KERNEL
+and even SB-VM seem to have become somewhat blurred over the years.
+Some anomalies (e.g. FIND-IF-IN-CLOSURE being in SB-SYS instead of
+SB-KERNEL) have been undone, but probably more remain.</div></blockquote>
+<hr class="docutils" />
+<div class="section" id="class">
+<span id="class"></span><h2>Class<a class="headerlink" href="#class" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="class/BREAKPOINT-ERROR.html"><code class="docutils literal notranslate"><span class="pre">BREAKPOINT-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/DEADLINE-TIMEOUT.html"><code class="docutils literal notranslate"><span class="pre">DEADLINE-TIMEOUT</span></code></a></li>
+<li><a class="reference external" href="class/INTERACTIVE-INTERRUPT.html"><code class="docutils literal notranslate"><span class="pre">INTERACTIVE-INTERRUPT</span></code></a></li>
+<li><a class="reference external" href="class/IO-TIMEOUT.html"><code class="docutils literal notranslate"><span class="pre">IO-TIMEOUT</span></code></a></li>
+<li><a class="reference external" href="class/MEMORY-FAULT-ERROR.html"><code class="docutils literal notranslate"><span class="pre">MEMORY-FAULT-ERROR</span></code></a></li>
+<li><a class="reference external" href="class/SYSTEM-AREA-POINTER.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-AREA-POINTER</span></code></a></li>
+<li><a class="reference external" href="class/SYSTEM-CONDITION.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-CONDITION</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="function">
+<span id="function"></span><h2>Function<a class="headerlink" href="#function" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="function/%2537%25PRIMITIVE.html"><code class="docutils literal notranslate"><span class="pre">%PRIMITIVE</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25STANDARD-CHAR-P.html"><code class="docutils literal notranslate"><span class="pre">%STANDARD-CHAR-P</span></code></a></li>
+<li><a class="reference external" href="function/ADD-FD-HANDLER.html"><code class="docutils literal notranslate"><span class="pre">ADD-FD-HANDLER</span></code></a></li>
+<li><a class="reference external" href="function/ALLOCATE-SYSTEM-MEMORY.html"><code class="docutils literal notranslate"><span class="pre">ALLOCATE-SYSTEM-MEMORY</span></code></a></li>
+<li><a class="reference external" href="function/BEEP.html"><code class="docutils literal notranslate"><span class="pre">BEEP</span></code></a></li>
+<li><a class="reference external" href="function/CANCEL-DEADLINE.html"><code class="docutils literal notranslate"><span class="pre">CANCEL-DEADLINE</span></code></a></li>
+<li><a class="reference external" href="function/CLOSE-SHARED-OBJECTS.html"><code class="docutils literal notranslate"><span class="pre">CLOSE-SHARED-OBJECTS</span></code></a></li>
+<li><a class="reference external" href="function/DEALLOCATE-SYSTEM-MEMORY.html"><code class="docutils literal notranslate"><span class="pre">DEALLOCATE-SYSTEM-MEMORY</span></code></a></li>
+<li><a class="reference external" href="function/DECODE-INTERNAL-TIME.html"><code class="docutils literal notranslate"><span class="pre">DECODE-INTERNAL-TIME</span></code></a></li>
+<li><a class="reference external" href="function/DECODE-TIMEOUT.html"><code class="docutils literal notranslate"><span class="pre">DECODE-TIMEOUT</span></code></a></li>
+<li><a class="reference external" href="function/DEFAULT-INTERRUPT.html"><code class="docutils literal notranslate"><span class="pre">DEFAULT-INTERRUPT</span></code></a></li>
+<li><a class="reference external" href="function/DEFER-DEADLINE.html"><code class="docutils literal notranslate"><span class="pre">DEFER-DEADLINE</span></code></a></li>
+<li><a class="reference external" href="function/DLOPEN-OR-LOSE.html"><code class="docutils literal notranslate"><span class="pre">DLOPEN-OR-LOSE</span></code></a></li>
+<li><a class="reference external" href="function/DYNAMIC-FOREIGN-SYMBOLS-P.html"><code class="docutils literal notranslate"><span class="pre">DYNAMIC-FOREIGN-SYMBOLS-P</span></code></a></li>
+<li><a class="reference external" href="function/ENABLE-INTERRUPT.html"><code class="docutils literal notranslate"><span class="pre">ENABLE-INTERRUPT</span></code></a></li>
+<li><a class="reference external" href="function/ENSURE-DYNAMIC-FOREIGN-SYMBOL-ADDRESS.html"><code class="docutils literal notranslate"><span class="pre">ENSURE-DYNAMIC-FOREIGN-SYMBOL-ADDRESS</span></code></a></li>
+<li><a class="reference external" href="function/EXTERN-ALIEN-NAME.html"><code class="docutils literal notranslate"><span class="pre">EXTERN-ALIEN-NAME</span></code></a></li>
+<li><a class="reference external" href="function/FD-STREAM-FD.html"><code class="docutils literal notranslate"><span class="pre">FD-STREAM-FD</span></code></a></li>
+<li><a class="reference external" href="function/FD-STREAM-P.html"><code class="docutils literal notranslate"><span class="pre">FD-STREAM-P</span></code></a></li>
+<li><a class="reference external" href="function/FIND-DYNAMIC-FOREIGN-SYMBOL-ADDRESS.html"><code class="docutils literal notranslate"><span class="pre">FIND-DYNAMIC-FOREIGN-SYMBOL-ADDRESS</span></code></a></li>
+<li><a class="reference external" href="function/FIND-FOREIGN-SYMBOL-ADDRESS.html"><code class="docutils literal notranslate"><span class="pre">FIND-FOREIGN-SYMBOL-ADDRESS</span></code></a></li>
+<li><a class="reference external" href="function/FIND-FOREIGN-SYMBOL-IN-TABLE.html"><code class="docutils literal notranslate"><span class="pre">FIND-FOREIGN-SYMBOL-IN-TABLE</span></code></a></li>
+<li><a class="reference external" href="function/FOREIGN-SYMBOL-ADDRESS.html"><code class="docutils literal notranslate"><span class="pre">FOREIGN-SYMBOL-ADDRESS</span></code></a></li>
+<li><a class="reference external" href="function/FOREIGN-SYMBOL-SAP.html"><code class="docutils literal notranslate"><span class="pre">FOREIGN-SYMBOL-SAP</span></code></a></li>
+<li><a class="reference external" href="function/GET-MACHINE-VERSION.html"><code class="docutils literal notranslate"><span class="pre">GET-MACHINE-VERSION</span></code></a></li>
+<li><a class="reference external" href="function/GET-PAGE-SIZE.html"><code class="docutils literal notranslate"><span class="pre">GET-PAGE-SIZE</span></code></a></li>
+<li><a class="reference external" href="function/GET-SYSTEM-INFO.html"><code class="docutils literal notranslate"><span class="pre">GET-SYSTEM-INFO</span></code></a></li>
+<li><a class="reference external" href="function/IGNORE-INTERRUPT.html"><code class="docutils literal notranslate"><span class="pre">IGNORE-INTERRUPT</span></code></a></li>
+<li><a class="reference external" href="function/INT-SAP.html"><code class="docutils literal notranslate"><span class="pre">INT-SAP</span></code></a></li>
+<li><a class="reference external" href="function/INVALIDATE-DESCRIPTOR.html"><code class="docutils literal notranslate"><span class="pre">INVALIDATE-DESCRIPTOR</span></code></a></li>
+<li><a class="reference external" href="function/INVOKE-INTERRUPTION.html"><code class="docutils literal notranslate"><span class="pre">INVOKE-INTERRUPTION</span></code></a></li>
+<li><a class="reference external" href="function/LIST-DYNAMIC-FOREIGN-SYMBOLS.html"><code class="docutils literal notranslate"><span class="pre">LIST-DYNAMIC-FOREIGN-SYMBOLS</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-FD-STREAM.html"><code class="docutils literal notranslate"><span class="pre">MAKE-FD-STREAM</span></code></a></li>
+<li><a class="reference external" href="function/MEMMOVE.html"><code class="docutils literal notranslate"><span class="pre">MEMMOVE</span></code></a></li>
+<li><a class="reference external" href="function/MEMORY-FAULT-ERROR.html"><code class="docutils literal notranslate"><span class="pre">MEMORY-FAULT-ERROR</span></code></a></li>
+<li><a class="reference external" href="function/OS-COLD-INIT-OR-REINIT.html"><code class="docutils literal notranslate"><span class="pre">OS-COLD-INIT-OR-REINIT</span></code></a></li>
+<li><a class="reference external" href="function/OS-DEINIT.html"><code class="docutils literal notranslate"><span class="pre">OS-DEINIT</span></code></a></li>
+<li><a class="reference external" href="function/OS-EXIT.html"><code class="docutils literal notranslate"><span class="pre">OS-EXIT</span></code></a></li>
+<li><a class="reference external" href="function/OS-GET-RUNTIME-EXECUTABLE-PATH.html"><code class="docutils literal notranslate"><span class="pre">OS-GET-RUNTIME-EXECUTABLE-PATH</span></code></a></li>
+<li><a class="reference external" href="function/OUTPUT-RAW-BYTES.html"><code class="docutils literal notranslate"><span class="pre">OUTPUT-RAW-BYTES</span></code></a></li>
+<li><a class="reference external" href="function/READ-N-BYTES.html"><code class="docutils literal notranslate"><span class="pre">READ-N-BYTES</span></code></a></li>
+<li><a class="reference external" href="function/REINIT-INTERNAL-REAL-TIME.html"><code class="docutils literal notranslate"><span class="pre">REINIT-INTERNAL-REAL-TIME</span></code></a></li>
+<li><a class="reference external" href="function/REMOVE-FD-HANDLER.html"><code class="docutils literal notranslate"><span class="pre">REMOVE-FD-HANDLER</span></code></a></li>
+<li><a class="reference external" href="function/REOPEN-SHARED-OBJECTS.html"><code class="docutils literal notranslate"><span class="pre">REOPEN-SHARED-OBJECTS</span></code></a></li>
+<li><a class="reference external" href="function/SAP%2543%25.html"><code class="docutils literal notranslate"><span class="pre">SAP+</span></code></a></li>
+<li><a class="reference external" href="function/SAP%2560%25%2561%25.html"><code class="docutils literal notranslate"><span class="pre">SAP&lt;=</span></code></a></li>
+<li><a class="reference external" href="function/SAP%2560%25.html"><code class="docutils literal notranslate"><span class="pre">SAP&lt;</span></code></a></li>
+<li><a class="reference external" href="function/SAP%2561%25.html"><code class="docutils literal notranslate"><span class="pre">SAP=</span></code></a></li>
+<li><a class="reference external" href="function/SAP%2562%25%2561%25.html"><code class="docutils literal notranslate"><span class="pre">SAP&gt;=</span></code></a></li>
+<li><a class="reference external" href="function/SAP%2562%25.html"><code class="docutils literal notranslate"><span class="pre">SAP&gt;</span></code></a></li>
+<li><a class="reference external" href="function/SAP-.html"><code class="docutils literal notranslate"><span class="pre">SAP-</span></code></a></li>
+<li><a class="reference external" href="function/SAP-FOREIGN-SYMBOL.html"><code class="docutils literal notranslate"><span class="pre">SAP-FOREIGN-SYMBOL</span></code></a></li>
+<li><a class="reference external" href="function/SAP-INT.html"><code class="docutils literal notranslate"><span class="pre">SAP-INT</span></code></a></li>
+<li><a class="reference external" href="function/SAP-REF-16.html"><code class="docutils literal notranslate"><span class="pre">SAP-REF-16</span></code></a></li>
+<li><a class="reference external" href="function/SAP-REF-32.html"><code class="docutils literal notranslate"><span class="pre">SAP-REF-32</span></code></a></li>
+<li><a class="reference external" href="function/SAP-REF-64.html"><code class="docutils literal notranslate"><span class="pre">SAP-REF-64</span></code></a></li>
+<li><a class="reference external" href="function/SAP-REF-8.html"><code class="docutils literal notranslate"><span class="pre">SAP-REF-8</span></code></a></li>
+<li><a class="reference external" href="function/SAP-REF-DOUBLE.html"><code class="docutils literal notranslate"><span class="pre">SAP-REF-DOUBLE</span></code></a></li>
+<li><a class="reference external" href="function/SAP-REF-LISPOBJ.html"><code class="docutils literal notranslate"><span class="pre">SAP-REF-LISPOBJ</span></code></a></li>
+<li><a class="reference external" href="function/SAP-REF-OCTETS.html"><code class="docutils literal notranslate"><span class="pre">SAP-REF-OCTETS</span></code></a></li>
+<li><a class="reference external" href="function/SAP-REF-SAP.html"><code class="docutils literal notranslate"><span class="pre">SAP-REF-SAP</span></code></a></li>
+<li><a class="reference external" href="function/SAP-REF-SINGLE.html"><code class="docutils literal notranslate"><span class="pre">SAP-REF-SINGLE</span></code></a></li>
+<li><a class="reference external" href="function/SAP-REF-WORD.html"><code class="docutils literal notranslate"><span class="pre">SAP-REF-WORD</span></code></a></li>
+<li><a class="reference external" href="function/SCRUB-CONTROL-STACK.html"><code class="docutils literal notranslate"><span class="pre">SCRUB-CONTROL-STACK</span></code></a></li>
+<li><a class="reference external" href="function/SERVE-ALL-EVENTS.html"><code class="docutils literal notranslate"><span class="pre">SERVE-ALL-EVENTS</span></code></a></li>
+<li><a class="reference external" href="function/SERVE-EVENT.html"><code class="docutils literal notranslate"><span class="pre">SERVE-EVENT</span></code></a></li>
+<li><a class="reference external" href="function/SIGNAL-DEADLINE.html"><code class="docutils literal notranslate"><span class="pre">SIGNAL-DEADLINE</span></code></a></li>
+<li><a class="reference external" href="function/SIGNED-SAP-REF-16.html"><code class="docutils literal notranslate"><span class="pre">SIGNED-SAP-REF-16</span></code></a></li>
+<li><a class="reference external" href="function/SIGNED-SAP-REF-32.html"><code class="docutils literal notranslate"><span class="pre">SIGNED-SAP-REF-32</span></code></a></li>
+<li><a class="reference external" href="function/SIGNED-SAP-REF-64.html"><code class="docutils literal notranslate"><span class="pre">SIGNED-SAP-REF-64</span></code></a></li>
+<li><a class="reference external" href="function/SIGNED-SAP-REF-8.html"><code class="docutils literal notranslate"><span class="pre">SIGNED-SAP-REF-8</span></code></a></li>
+<li><a class="reference external" href="function/SIGNED-SAP-REF-WORD.html"><code class="docutils literal notranslate"><span class="pre">SIGNED-SAP-REF-WORD</span></code></a></li>
+<li><a class="reference external" href="function/SYSTEM-AREA-POINTER-P.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-AREA-POINTER-P</span></code></a></li>
+<li><a class="reference external" href="function/SYSTEM-CONDITION-ADDRESS.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-CONDITION-ADDRESS</span></code></a></li>
+<li><a class="reference external" href="function/SYSTEM-CONDITION-CONTEXT.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-CONDITION-CONTEXT</span></code></a></li>
+<li><a class="reference external" href="function/SYSTEM-INTERNAL-RUN-TIME.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-INTERNAL-RUN-TIME</span></code></a></li>
+<li><a class="reference external" href="function/UNDEFINED-FOREIGN-SYMBOLS-P.html"><code class="docutils literal notranslate"><span class="pre">UNDEFINED-FOREIGN-SYMBOLS-P</span></code></a></li>
+<li><a class="reference external" href="function/UPDATE-LINKAGE-TABLE.html"><code class="docutils literal notranslate"><span class="pre">UPDATE-LINKAGE-TABLE</span></code></a></li>
+<li><a class="reference external" href="function/VECTOR-SAP.html"><code class="docutils literal notranslate"><span class="pre">VECTOR-SAP</span></code></a></li>
+<li><a class="reference external" href="function/WAIT-UNTIL-FD-USABLE.html"><code class="docutils literal notranslate"><span class="pre">WAIT-UNTIL-FD-USABLE</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="macro">
+<span id="macro"></span><h2>Macro<a class="headerlink" href="#macro" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="macro/ALLOW-WITH-INTERRUPTS.html"><code class="docutils literal notranslate"><span class="pre">ALLOW-WITH-INTERRUPTS</span></code></a></li>
+<li><a class="reference external" href="macro/IN-INTERRUPTION.html"><code class="docutils literal notranslate"><span class="pre">IN-INTERRUPTION</span></code></a></li>
+<li><a class="reference external" href="macro/INIT-VAR-IGNORING-ERRORS.html"><code class="docutils literal notranslate"><span class="pre">INIT-VAR-IGNORING-ERRORS</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-DEADLINE.html"><code class="docutils literal notranslate"><span class="pre">WITH-DEADLINE</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-FD-HANDLER.html"><code class="docutils literal notranslate"><span class="pre">WITH-FD-HANDLER</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-INTERRUPT-BINDINGS.html"><code class="docutils literal notranslate"><span class="pre">WITH-INTERRUPT-BINDINGS</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-INTERRUPTS.html"><code class="docutils literal notranslate"><span class="pre">WITH-INTERRUPTS</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-LOCAL-INTERRUPTS.html"><code class="docutils literal notranslate"><span class="pre">WITH-LOCAL-INTERRUPTS</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-PINNED-OBJECTS.html"><code class="docutils literal notranslate"><span class="pre">WITH-PINNED-OBJECTS</span></code></a></li>
+<li><a class="reference external" href="macro/WITHOUT-GCING.html"><code class="docutils literal notranslate"><span class="pre">WITHOUT-GCING</span></code></a></li>
+<li><a class="reference external" href="macro/WITHOUT-INTERRUPTS.html"><code class="docutils literal notranslate"><span class="pre">WITHOUT-INTERRUPTS</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="structure">
+<span id="structure"></span><h2>Structure<a class="headerlink" href="#structure" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="structure/FD-STREAM.html"><code class="docutils literal notranslate"><span class="pre">FD-STREAM</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="variable">
+<span id="variable"></span><h2>Variable<a class="headerlink" href="#variable" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="variable/%2542%25ALLOW-WITH-INTERRUPTS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ALLOW-WITH-INTERRUPTS*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25EXIT-ERROR-HANDLER%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*EXIT-ERROR-HANDLER*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25EXIT-IN-PROCESS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*EXIT-IN-PROCESS*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25INTERRUPT-PENDING%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*INTERRUPT-PENDING*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25INTERRUPTS-ENABLED%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*INTERRUPTS-ENABLED*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25LINKAGE-INFO%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*LINKAGE-INFO*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25LONG-SITE-NAME%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*LONG-SITE-NAME*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25PERIODIC-POLLING-FUNCTION%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*PERIODIC-POLLING-FUNCTION*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25PERIODIC-POLLING-PERIOD%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*PERIODIC-POLLING-PERIOD*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25RUNTIME-DLHANDLE%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*RUNTIME-DLHANDLE*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25SHARED-OBJECTS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*SHARED-OBJECTS*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25SHORT-SITE-NAME%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*SHORT-SITE-NAME*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25SOFTWARE-VERSION%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*SOFTWARE-VERSION*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25STATIC-FOREIGN-SYMBOLS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*STATIC-FOREIGN-SYMBOLS*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25STDERR%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*STDERR*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25STDIN%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*STDIN*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25STDOUT%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*STDOUT*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25TTY%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*TTY*</span></code></a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, TANI Kojiro.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

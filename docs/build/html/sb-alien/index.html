@@ -1,0 +1,585 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Package: SB-ALIEN &mdash; sb-docs  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="sb-docs  documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> sb-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Package: SB-ALIEN</a><ul>
+<li><a class="reference internal" href="#class">Class</a></li>
+<li><a class="reference internal" href="#constant">Constant</a></li>
+<li><a class="reference internal" href="#function">Function</a></li>
+<li><a class="reference internal" href="#macro">Macro</a></li>
+<li><a class="reference internal" href="#structure">Structure</a></li>
+<li><a class="reference internal" href="#variable">Variable</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">sb-docs</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Package: SB-ALIEN</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/sb-alien/index.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="package-sb-alien">
+<span id="package-sb-alien"></span><h1>Package: SB-ALIEN<a class="headerlink" href="#package-sb-alien" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>public: the ALIEN foreign function interface (If you’re
+porting CMU CL code, note that this package corresponds roughly to a union
+of the packages ALIEN and C-CALL at the time of the SBCL fork. SB-C-CALL
+is a deprecated nickname to help ease the transition from older versions
+of SBCL which maintained the CMU-CL-style split into two packages.)</div></blockquote>
+<hr class="docutils" />
+<div class="section" id="class">
+<span id="class"></span><h2>Class<a class="headerlink" href="#class" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="class/ARRAY.html"><code class="docutils literal notranslate"><span class="pre">ARRAY</span></code></a></li>
+<li><a class="reference external" href="class/DOUBLE-FLOAT.html"><code class="docutils literal notranslate"><span class="pre">DOUBLE-FLOAT</span></code></a></li>
+<li><a class="reference external" href="class/FLOAT.html"><code class="docutils literal notranslate"><span class="pre">FLOAT</span></code></a></li>
+<li><a class="reference external" href="class/FUNCTION.html"><code class="docutils literal notranslate"><span class="pre">FUNCTION</span></code></a></li>
+<li><a class="reference external" href="class/INTEGER.html"><code class="docutils literal notranslate"><span class="pre">INTEGER</span></code></a></li>
+<li><a class="reference external" href="class/SINGLE-FLOAT.html"><code class="docutils literal notranslate"><span class="pre">SINGLE-FLOAT</span></code></a></li>
+<li><a class="reference external" href="class/SYSTEM-AREA-POINTER.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-AREA-POINTER</span></code></a></li>
+<li><a class="reference external" href="class/UNDEFINED-ALIEN-ERROR.html"><code class="docutils literal notranslate"><span class="pre">UNDEFINED-ALIEN-ERROR</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="constant">
+<span id="constant"></span><h2>Constant<a class="headerlink" href="#constant" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="constant/%2543%25METHOD-SLOT-ALIST%2543%25.html"><code class="docutils literal notranslate"><span class="pre">+METHOD-SLOT-ALIST+</span></code></a></li>
+<li><a class="reference external" href="constant/RTLD-GLOBAL.html"><code class="docutils literal notranslate"><span class="pre">RTLD-GLOBAL</span></code></a></li>
+<li><a class="reference external" href="constant/RTLD-LAZY.html"><code class="docutils literal notranslate"><span class="pre">RTLD-LAZY</span></code></a></li>
+<li><a class="reference external" href="constant/RTLD-NOW.html"><code class="docutils literal notranslate"><span class="pre">RTLD-NOW</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="function">
+<span id="function"></span><h2>Function<a class="headerlink" href="#function" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="function/%2537%25ALIEN-CALLBACK-SAP.html"><code class="docutils literal notranslate"><span class="pre">%ALIEN-CALLBACK-SAP</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25DEF-AUXILIARY-ALIEN-TYPES.html"><code class="docutils literal notranslate"><span class="pre">%DEF-AUXILIARY-ALIEN-TYPES</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25DEFINE-ALIEN-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">%DEFINE-ALIEN-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25DEFINE-ALIEN-TYPE.html"><code class="docutils literal notranslate"><span class="pre">%DEFINE-ALIEN-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25DEFINE-ALIEN-VARIABLE.html"><code class="docutils literal notranslate"><span class="pre">%DEFINE-ALIEN-VARIABLE</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25MAKE-ALIEN-STRING.html"><code class="docutils literal notranslate"><span class="pre">%MAKE-ALIEN-STRING</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25MAKE-ALIEN.html"><code class="docutils literal notranslate"><span class="pre">%MAKE-ALIEN</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25NATURALIZE-C-STRING.html"><code class="docutils literal notranslate"><span class="pre">%NATURALIZE-C-STRING</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25UNPARSE-ALIEN-TYPE.html"><code class="docutils literal notranslate"><span class="pre">%UNPARSE-ALIEN-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-%2542%25-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-*-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ALIEN-VALUE-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ALIEN-VALUE-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ALIEN-VALUE-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ALIEN-VALUE-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ALIEN-VALUE-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ALIEN-VALUE-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ALIEN-VALUE-TYPE-P.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ALIEN-VALUE-TYPE-P</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ARRAY-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ARRAY-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ARRAY-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ARRAY-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ARRAY-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ARRAY-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ARRAY-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ARRAY-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-BOOLEAN-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-BOOLEAN-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-BOOLEAN-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-BOOLEAN-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-BOOLEAN-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-BOOLEAN-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-BOOLEAN-TYPE-SIGNED.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-BOOLEAN-TYPE-SIGNED</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-BOOLEAN-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-BOOLEAN-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-C-STRING-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-C-STRING-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-C-STRING-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-C-STRING-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-C-STRING-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-C-STRING-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-C-STRING-TYPE-ELEMENT-TYPE.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-C-STRING-TYPE-ELEMENT-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-C-STRING-TYPE-EXTERNAL-FORMAT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-C-STRING-TYPE-EXTERNAL-FORMAT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-C-STRING-TYPE-NOT-NULL.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-C-STRING-TYPE-NOT-NULL</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-C-STRING-TYPE-P.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-C-STRING-TYPE-P</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-C-STRING-TYPE-TO.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-C-STRING-TYPE-TO</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-C-STRING-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-C-STRING-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-CALLBACK-ARGUMENT-BYTES.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-CALLBACK-ARGUMENT-BYTES</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-CALLBACK-FUNCTION.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-CALLBACK-FUNCTION</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-CALLBACK-INFO.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-CALLBACK-INFO</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-CALLBACK-LISP-TRAMPOLINE.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-CALLBACK-LISP-TRAMPOLINE</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-CALLBACK-LISP-WRAPPER-LAMBDA.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-CALLBACK-LISP-WRAPPER-LAMBDA</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-CALLBACK-P.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-CALLBACK-P</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-DOUBLE-FLOAT-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-DOUBLE-FLOAT-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-DOUBLE-FLOAT-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-DOUBLE-FLOAT-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-DOUBLE-FLOAT-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-DOUBLE-FLOAT-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-DOUBLE-FLOAT-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-DOUBLE-FLOAT-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-DOUBLE-FLOAT-TYPE-TYPE.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-DOUBLE-FLOAT-TYPE-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ENUM-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ENUM-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ENUM-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ENUM-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ENUM-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ENUM-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ENUM-TYPE-FROM.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ENUM-TYPE-FROM</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ENUM-TYPE-KIND.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ENUM-TYPE-KIND</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ENUM-TYPE-NAME.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ENUM-TYPE-NAME</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ENUM-TYPE-OFFSET.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ENUM-TYPE-OFFSET</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ENUM-TYPE-SIGNED.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ENUM-TYPE-SIGNED</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ENUM-TYPE-TO.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ENUM-TYPE-TO</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-ENUM-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ENUM-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-FLOAT-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-FLOAT-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-FLOAT-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-FLOAT-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-FLOAT-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-FLOAT-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-FLOAT-TYPE-TYPE.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-FLOAT-TYPE-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-FUN-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-FUN-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-FUN-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-FUN-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-FUN-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-FUN-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-FUN-TYPE-CONVENTION.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-FUN-TYPE-CONVENTION</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-FUN-TYPE-STUB.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-FUN-TYPE-STUB</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-FUN-TYPE-VARARGS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-FUN-TYPE-VARARGS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-FUNCALL.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-FUNCALL</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-FUNCTION-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-FUNCTION-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-INTEGER-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-INTEGER-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-INTEGER-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-INTEGER-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-INTEGER-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-INTEGER-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-INTEGER-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-INTEGER-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-MEM-BLOCK-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-MEM-BLOCK-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-MEM-BLOCK-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-MEM-BLOCK-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-MEM-BLOCK-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-MEM-BLOCK-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-MEM-BLOCK-TYPE-P.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-MEM-BLOCK-TYPE-P</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-POINTER-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-POINTER-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-POINTER-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-POINTER-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-POINTER-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-POINTER-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-RECORD-FIELD-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-RECORD-FIELD-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-RECORD-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-RECORD-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-RECORD-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-RECORD-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-RECORD-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-RECORD-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-RECORD-TYPE-KIND.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-RECORD-TYPE-KIND</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-RECORD-TYPE-NAME.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-RECORD-TYPE-NAME</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-SAP.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SAP</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-SIGNED-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SIGNED-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-SINGLE-FLOAT-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SINGLE-FLOAT-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-SINGLE-FLOAT-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SINGLE-FLOAT-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-SINGLE-FLOAT-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SINGLE-FLOAT-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-SINGLE-FLOAT-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SINGLE-FLOAT-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-SINGLE-FLOAT-TYPE-TYPE.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SINGLE-FLOAT-TYPE-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-STRUCT-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-STRUCT-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-SYSTEM-AREA-POINTER-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SYSTEM-AREA-POINTER-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-SYSTEM-AREA-POINTER-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SYSTEM-AREA-POINTER-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-SYSTEM-AREA-POINTER-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SYSTEM-AREA-POINTER-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-SYSTEM-AREA-POINTER-TYPE-P.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SYSTEM-AREA-POINTER-TYPE-P</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-SYSTEM-AREA-POINTER-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SYSTEM-AREA-POINTER-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-ALIEN-REP.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-ALIEN-REP</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-ARG-TN.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-ARG-TN</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-DEFSTRUCT-NAME.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-DEFSTRUCT-NAME</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-DEPORT-ALLOC-GEN.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-DEPORT-ALLOC-GEN</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-DEPORT-GEN.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-DEPORT-GEN</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-DEPORT-PIN-P.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-DEPORT-PIN-P</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-DEPOSIT-GEN.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-DEPOSIT-GEN</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-EXTRACT-GEN.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-EXTRACT-GEN</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-INCLUDE.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-INCLUDE</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-LISP-REP.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-LISP-REP</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-NAME.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-NAME</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-NATURALIZE-GEN.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-NATURALIZE-GEN</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-OR-LOSE.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-OR-LOSE</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-P.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-P</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-RESULT-TN.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-RESULT-TN</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-SUBTYPEP.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-SUBTYPEP</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-TYPE%2561%25.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-TYPE=</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS-UNPARSE.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS-UNPARSE</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-TYPE-WORD-ALIGNED-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-WORD-ALIGNED-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-UNION-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-UNION-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-UNSIGNED-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-UNSIGNED-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-VALUE-DEPORT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-VALUE-DEPORT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-VALUE-LISP-REP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-VALUE-LISP-REP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-VALUE-NATURALIZE-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-VALUE-NATURALIZE-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-VALUES-TYPE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-VALUES-TYPE-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-VALUES-TYPE-BITS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-VALUES-TYPE-BITS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-VALUES-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-VALUES-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-VALUES-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-VALUES-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ALIEN-VOID-TYPE-TRANSLATOR.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-VOID-TYPE-TRANSLATOR</span></code></a></li>
+<li><a class="reference external" href="function/ARRAY-SUBTYPEP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ARRAY-SUBTYPEP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ARRAY-TYPE%2561%25-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ARRAY-TYPE=-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ARRAY-UNPARSE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ARRAY-UNPARSE-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/AUXILIARY-ALIEN-TYPE.html"><code class="docutils literal notranslate"><span class="pre">AUXILIARY-ALIEN-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/AUXILIARY-TYPE-DEFINITIONS.html"><code class="docutils literal notranslate"><span class="pre">AUXILIARY-TYPE-DEFINITIONS</span></code></a></li>
+<li><a class="reference external" href="function/BOOLEAN-DEPORT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">BOOLEAN-DEPORT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/BOOLEAN-LISP-REP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">BOOLEAN-LISP-REP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/BOOLEAN-NATURALIZE-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">BOOLEAN-NATURALIZE-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/BOOLEAN-UNPARSE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">BOOLEAN-UNPARSE-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/C-STRING-DEPORT-ALLOC-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">C-STRING-DEPORT-ALLOC-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/C-STRING-DEPORT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">C-STRING-DEPORT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/C-STRING-DEPORT-PIN-P-METHOD.html"><code class="docutils literal notranslate"><span class="pre">C-STRING-DEPORT-PIN-P-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/C-STRING-EXTERNAL-FORMAT.html"><code class="docutils literal notranslate"><span class="pre">C-STRING-EXTERNAL-FORMAT</span></code></a></li>
+<li><a class="reference external" href="function/C-STRING-LISP-REP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">C-STRING-LISP-REP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/C-STRING-NATURALIZE-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">C-STRING-NATURALIZE-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/C-STRING-NEEDS-CONVERSION-P.html"><code class="docutils literal notranslate"><span class="pre">C-STRING-NEEDS-CONVERSION-P</span></code></a></li>
+<li><a class="reference external" href="function/C-STRING-TO-STRING.html"><code class="docutils literal notranslate"><span class="pre">C-STRING-TO-STRING</span></code></a></li>
+<li><a class="reference external" href="function/C-STRING-UNPARSE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">C-STRING-UNPARSE-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/CALLBACK-INFO-FUNCTION.html"><code class="docutils literal notranslate"><span class="pre">CALLBACK-INFO-FUNCTION</span></code></a></li>
+<li><a class="reference external" href="function/CALLBACK-INFO-INDEX.html"><code class="docutils literal notranslate"><span class="pre">CALLBACK-INFO-INDEX</span></code></a></li>
+<li><a class="reference external" href="function/CALLBACK-INFO-KEY.html"><code class="docutils literal notranslate"><span class="pre">CALLBACK-INFO-KEY</span></code></a></li>
+<li><a class="reference external" href="function/CALLBACK-INFO-P.html"><code class="docutils literal notranslate"><span class="pre">CALLBACK-INFO-P</span></code></a></li>
+<li><a class="reference external" href="function/CALLBACK-INFO-SPECIFIER.html"><code class="docutils literal notranslate"><span class="pre">CALLBACK-INFO-SPECIFIER</span></code></a></li>
+<li><a class="reference external" href="function/CALLBACK-INFO-WRAPPER.html"><code class="docutils literal notranslate"><span class="pre">CALLBACK-INFO-WRAPPER</span></code></a></li>
+<li><a class="reference external" href="function/CHAR.html"><code class="docutils literal notranslate"><span class="pre">CHAR</span></code></a></li>
+<li><a class="reference external" href="function/COERCE-TO-INTERPRETED-FUNCTION-CACHE-CLEAR.html"><code class="docutils literal notranslate"><span class="pre">COERCE-TO-INTERPRETED-FUNCTION-CACHE-CLEAR</span></code></a></li>
+<li><a class="reference external" href="function/COERCE-TO-INTERPRETED-FUNCTION.html"><code class="docutils literal notranslate"><span class="pre">COERCE-TO-INTERPRETED-FUNCTION</span></code></a></li>
+<li><a class="reference external" href="function/CREATE-ALIEN-TYPE-CLASS-IF-NECESSARY.html"><code class="docutils literal notranslate"><span class="pre">CREATE-ALIEN-TYPE-CLASS-IF-NECESSARY</span></code></a></li>
+<li><a class="reference external" href="function/DEFAULT-C-STRING-EXTERNAL-FORMAT.html"><code class="docutils literal notranslate"><span class="pre">DEFAULT-C-STRING-EXTERNAL-FORMAT</span></code></a></li>
+<li><a class="reference external" href="function/DEREF-GUTS.html"><code class="docutils literal notranslate"><span class="pre">DEREF-GUTS</span></code></a></li>
+<li><a class="reference external" href="function/DEREF.html"><code class="docutils literal notranslate"><span class="pre">DEREF</span></code></a></li>
+<li><a class="reference external" href="function/DLCLOSE-OR-LOSE.html"><code class="docutils literal notranslate"><span class="pre">DLCLOSE-OR-LOSE</span></code></a></li>
+<li><a class="reference external" href="function/DLCLOSE.html"><code class="docutils literal notranslate"><span class="pre">DLCLOSE</span></code></a></li>
+<li><a class="reference external" href="function/DLERROR.html"><code class="docutils literal notranslate"><span class="pre">DLERROR</span></code></a></li>
+<li><a class="reference external" href="function/DLOPEN.html"><code class="docutils literal notranslate"><span class="pre">DLOPEN</span></code></a></li>
+<li><a class="reference external" href="function/DLSYM.html"><code class="docutils literal notranslate"><span class="pre">DLSYM</span></code></a></li>
+<li><a class="reference external" href="function/DOUBLE-FLOAT-EXTRACT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">DOUBLE-FLOAT-EXTRACT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ENUM-DEPORT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ENUM-DEPORT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ENUM-LISP-REP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ENUM-LISP-REP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ENUM-NATURALIZE-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ENUM-NATURALIZE-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ENUM-TYPE%2561%25-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ENUM-TYPE=-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ENUM-UNPARSE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ENUM-UNPARSE-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/FLOAT-ALIEN-REP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">FLOAT-ALIEN-REP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/FLOAT-DEPORT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">FLOAT-DEPORT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/FLOAT-LISP-REP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">FLOAT-LISP-REP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/FLOAT-NATURALIZE-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">FLOAT-NATURALIZE-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/FLOAT-UNPARSE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">FLOAT-UNPARSE-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/FLOAT.html"><code class="docutils literal notranslate"><span class="pre">FLOAT</span></code></a></li>
+<li><a class="reference external" href="function/FREE-ALIEN.html"><code class="docutils literal notranslate"><span class="pre">FREE-ALIEN</span></code></a></li>
+<li><a class="reference external" href="function/FUN-TYPE%2561%25-METHOD.html"><code class="docutils literal notranslate"><span class="pre">FUN-TYPE=-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/FUN-UNPARSE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">FUN-UNPARSE-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/FUNCTION.html"><code class="docutils literal notranslate"><span class="pre">FUNCTION</span></code></a></li>
+<li><a class="reference external" href="function/GET-ERRNO.html"><code class="docutils literal notranslate"><span class="pre">GET-ERRNO</span></code></a></li>
+<li><a class="reference external" href="function/GUESS-ALIEN-NAME-FROM-LISP-NAME.html"><code class="docutils literal notranslate"><span class="pre">GUESS-ALIEN-NAME-FROM-LISP-NAME</span></code></a></li>
+<li><a class="reference external" href="function/GUESS-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">GUESS-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/GUESS-LISP-NAME-FROM-ALIEN-NAME.html"><code class="docutils literal notranslate"><span class="pre">GUESS-LISP-NAME-FROM-ALIEN-NAME</span></code></a></li>
+<li><a class="reference external" href="function/HEAP-ALIEN-INFO-ALIEN-NAME.html"><code class="docutils literal notranslate"><span class="pre">HEAP-ALIEN-INFO-ALIEN-NAME</span></code></a></li>
+<li><a class="reference external" href="function/HEAP-ALIEN-INFO-DATAP.html"><code class="docutils literal notranslate"><span class="pre">HEAP-ALIEN-INFO-DATAP</span></code></a></li>
+<li><a class="reference external" href="function/HEAP-ALIEN-INFO-SAP.html"><code class="docutils literal notranslate"><span class="pre">HEAP-ALIEN-INFO-SAP</span></code></a></li>
+<li><a class="reference external" href="function/INTEGER-ALIEN-REP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">INTEGER-ALIEN-REP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/INTEGER-DEPORT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">INTEGER-DEPORT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/INTEGER-EXTRACT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">INTEGER-EXTRACT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/INTEGER-LISP-REP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">INTEGER-LISP-REP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/INTEGER-TYPE%2561%25-METHOD.html"><code class="docutils literal notranslate"><span class="pre">INTEGER-TYPE=-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/INTEGER-UNPARSE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">INTEGER-UNPARSE-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/INVALID-ALIEN-CALLBACK.html"><code class="docutils literal notranslate"><span class="pre">INVALID-ALIEN-CALLBACK</span></code></a></li>
+<li><a class="reference external" href="function/INVALIDATE-ALIEN-CALLBACK.html"><code class="docutils literal notranslate"><span class="pre">INVALIDATE-ALIEN-CALLBACK</span></code></a></li>
+<li><a class="reference external" href="function/LIST-UNDEFINED-FOREIGN-SYMBOLS.html"><code class="docutils literal notranslate"><span class="pre">LIST-UNDEFINED-FOREIGN-SYMBOLS</span></code></a></li>
+<li><a class="reference external" href="function/LOAD-1-FOREIGN.html"><code class="docutils literal notranslate"><span class="pre">LOAD-1-FOREIGN</span></code></a></li>
+<li><a class="reference external" href="function/LOAD-FOREIGN.html"><code class="docutils literal notranslate"><span class="pre">LOAD-FOREIGN</span></code></a></li>
+<li><a class="reference external" href="function/LOAD-SHARED-OBJECT.html"><code class="docutils literal notranslate"><span class="pre">LOAD-SHARED-OBJECT</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-ALIEN-VALUE-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-ALIEN-VALUE-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-ARRAY-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-ARRAY-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-BOOLEAN-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-BOOLEAN-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-C-STRING-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-C-STRING-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-DOUBLE-FLOAT-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-DOUBLE-FLOAT-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-ENUM-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-ENUM-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-FLOAT-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-FLOAT-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-INTEGER-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-INTEGER-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-MEM-BLOCK-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-MEM-BLOCK-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-RECORD-FIELD.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-RECORD-FIELD</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-RECORD-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-RECORD-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-SINGLE-FLOAT-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-SINGLE-FLOAT-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-STRING.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-STRING</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-SYSTEM-AREA-POINTER-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-SYSTEM-AREA-POINTER-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ALIEN-VALUES-TYPE.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN-VALUES-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-CALLBACK-INFO.html"><code class="docutils literal notranslate"><span class="pre">MAKE-CALLBACK-INFO</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-HEAP-ALIEN-INFO.html"><code class="docutils literal notranslate"><span class="pre">MAKE-HEAP-ALIEN-INFO</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-LOCAL-ALIEN-INFO.html"><code class="docutils literal notranslate"><span class="pre">MAKE-LOCAL-ALIEN-INFO</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-SHARED-OBJECT.html"><code class="docutils literal notranslate"><span class="pre">MAKE-SHARED-OBJECT</span></code></a></li>
+<li><a class="reference external" href="function/MALLOC-ERROR.html"><code class="docutils literal notranslate"><span class="pre">MALLOC-ERROR</span></code></a></li>
+<li><a class="reference external" href="function/MEM-BLOCK-DEPOSIT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">MEM-BLOCK-DEPOSIT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/MEM-BLOCK-EXTRACT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">MEM-BLOCK-EXTRACT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/METHOD-SLOT.html"><code class="docutils literal notranslate"><span class="pre">METHOD-SLOT</span></code></a></li>
+<li><a class="reference external" href="function/MISSING-ALIEN-OPERATION-ERROR.html"><code class="docutils literal notranslate"><span class="pre">MISSING-ALIEN-OPERATION-ERROR</span></code></a></li>
+<li><a class="reference external" href="function/NULL-ALIEN.html"><code class="docutils literal notranslate"><span class="pre">NULL-ALIEN</span></code></a></li>
+<li><a class="reference external" href="function/NULL-ERROR.html"><code class="docutils literal notranslate"><span class="pre">NULL-ERROR</span></code></a></li>
+<li><a class="reference external" href="function/PARSE-ALIEN-FTYPE.html"><code class="docutils literal notranslate"><span class="pre">PARSE-ALIEN-FTYPE</span></code></a></li>
+<li><a class="reference external" href="function/PARSE-ALIEN-RECORD-FIELDS.html"><code class="docutils literal notranslate"><span class="pre">PARSE-ALIEN-RECORD-FIELDS</span></code></a></li>
+<li><a class="reference external" href="function/PARSE-ALIEN-RECORD-TYPE.html"><code class="docutils literal notranslate"><span class="pre">PARSE-ALIEN-RECORD-TYPE</span></code></a></li>
+<li><a class="reference external" href="function/PARSE-CALLBACK-SPECIFICATION.html"><code class="docutils literal notranslate"><span class="pre">PARSE-CALLBACK-SPECIFICATION</span></code></a></li>
+<li><a class="reference external" href="function/PARSE-ENUM.html"><code class="docutils literal notranslate"><span class="pre">PARSE-ENUM</span></code></a></li>
+<li><a class="reference external" href="function/PICK-LISP-AND-ALIEN-NAMES.html"><code class="docutils literal notranslate"><span class="pre">PICK-LISP-AND-ALIEN-NAMES</span></code></a></li>
+<li><a class="reference external" href="function/POINTER-DEPORT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">POINTER-DEPORT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/POINTER-SUBTYPEP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">POINTER-SUBTYPEP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/POINTER-TYPE%2561%25-METHOD.html"><code class="docutils literal notranslate"><span class="pre">POINTER-TYPE=-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/POINTER-UNPARSE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">POINTER-UNPARSE-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/RECORD-FIELDS-MATCH-P.html"><code class="docutils literal notranslate"><span class="pre">RECORD-FIELDS-MATCH-P</span></code></a></li>
+<li><a class="reference external" href="function/RECORD-TYPE%2561%25-METHOD.html"><code class="docutils literal notranslate"><span class="pre">RECORD-TYPE=-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/RECORD-UNPARSE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">RECORD-UNPARSE-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ROOT-ALIEN-REP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ROOT-ALIEN-REP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ROOT-ARG-TN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ROOT-ARG-TN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ROOT-DEPORT-ALLOC-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ROOT-DEPORT-ALLOC-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ROOT-DEPORT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ROOT-DEPORT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ROOT-DEPORT-PIN-P-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ROOT-DEPORT-PIN-P-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ROOT-DEPOSIT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ROOT-DEPOSIT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ROOT-EXTRACT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ROOT-EXTRACT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ROOT-LISP-REP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ROOT-LISP-REP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ROOT-NATURALIZE-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ROOT-NATURALIZE-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ROOT-RESULT-TN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ROOT-RESULT-TN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ROOT-SUBTYPEP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ROOT-SUBTYPEP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ROOT-TYPE%2561%25-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ROOT-TYPE=-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/ROOT-UNPARSE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">ROOT-UNPARSE-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/SHARED-OBJECT-DONT-SAVE.html"><code class="docutils literal notranslate"><span class="pre">SHARED-OBJECT-DONT-SAVE</span></code></a></li>
+<li><a class="reference external" href="function/SHARED-OBJECT-HANDLE.html"><code class="docutils literal notranslate"><span class="pre">SHARED-OBJECT-HANDLE</span></code></a></li>
+<li><a class="reference external" href="function/SHARED-OBJECT-NAMESTRING.html"><code class="docutils literal notranslate"><span class="pre">SHARED-OBJECT-NAMESTRING</span></code></a></li>
+<li><a class="reference external" href="function/SHARED-OBJECT-P.html"><code class="docutils literal notranslate"><span class="pre">SHARED-OBJECT-P</span></code></a></li>
+<li><a class="reference external" href="function/SHARED-OBJECT-PATHNAME.html"><code class="docutils literal notranslate"><span class="pre">SHARED-OBJECT-PATHNAME</span></code></a></li>
+<li><a class="reference external" href="function/SINGLE-FLOAT-EXTRACT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">SINGLE-FLOAT-EXTRACT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/SLOT-OR-LOSE.html"><code class="docutils literal notranslate"><span class="pre">SLOT-OR-LOSE</span></code></a></li>
+<li><a class="reference external" href="function/SLOT.html"><code class="docutils literal notranslate"><span class="pre">SLOT</span></code></a></li>
+<li><a class="reference external" href="function/STRING-TO-C-STRING.html"><code class="docutils literal notranslate"><span class="pre">STRING-TO-C-STRING</span></code></a></li>
+<li><a class="reference external" href="function/SYSTEM-AREA-POINTER-ALIEN-REP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-AREA-POINTER-ALIEN-REP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/SYSTEM-AREA-POINTER-DEPORT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-AREA-POINTER-DEPORT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/SYSTEM-AREA-POINTER-EXTRACT-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-AREA-POINTER-EXTRACT-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/SYSTEM-AREA-POINTER-LISP-REP-METHOD.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-AREA-POINTER-LISP-REP-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/SYSTEM-AREA-POINTER-NATURALIZE-GEN-METHOD.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-AREA-POINTER-NATURALIZE-GEN-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/SYSTEM-AREA-POINTER-UNPARSE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">SYSTEM-AREA-POINTER-UNPARSE-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/TRY-REOPEN-SHARED-OBJECT.html"><code class="docutils literal notranslate"><span class="pre">TRY-REOPEN-SHARED-OBJECT</span></code></a></li>
+<li><a class="reference external" href="function/UNION.html"><code class="docutils literal notranslate"><span class="pre">UNION</span></code></a></li>
+<li><a class="reference external" href="function/UNLOAD-SHARED-OBJECT.html"><code class="docutils literal notranslate"><span class="pre">UNLOAD-SHARED-OBJECT</span></code></a></li>
+<li><a class="reference external" href="function/UNPARSE-ALIEN-RECORD-FIELD.html"><code class="docutils literal notranslate"><span class="pre">UNPARSE-ALIEN-RECORD-FIELD</span></code></a></li>
+<li><a class="reference external" href="function/UNPARSE-ALIEN-RECORD-KIND.html"><code class="docutils literal notranslate"><span class="pre">UNPARSE-ALIEN-RECORD-KIND</span></code></a></li>
+<li><a class="reference external" href="function/VALUES-TYPE%2561%25-METHOD.html"><code class="docutils literal notranslate"><span class="pre">VALUES-TYPE=-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/VALUES-UNPARSE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">VALUES-UNPARSE-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/VALUES.html"><code class="docutils literal notranslate"><span class="pre">VALUES</span></code></a></li>
+<li><a class="reference external" href="function/VERIFY-LOCAL-AUXILIARIES-OKAY.html"><code class="docutils literal notranslate"><span class="pre">VERIFY-LOCAL-AUXILIARIES-OKAY</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="macro">
+<span id="macro"></span><h2>Macro<a class="headerlink" href="#macro" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="macro/ADDR.html"><code class="docutils literal notranslate"><span class="pre">ADDR</span></code></a></li>
+<li><a class="reference external" href="macro/ALIEN-LAMBDA.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-LAMBDA</span></code></a></li>
+<li><a class="reference external" href="macro/ALIEN-SIZE.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SIZE</span></code></a></li>
+<li><a class="reference external" href="macro/CAST.html"><code class="docutils literal notranslate"><span class="pre">CAST</span></code></a></li>
+<li><a class="reference external" href="macro/DEFINE-ALIEN-CALLBACK.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-ALIEN-CALLBACK</span></code></a></li>
+<li><a class="reference external" href="macro/DEFINE-ALIEN-ROUTINE.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-ALIEN-ROUTINE</span></code></a></li>
+<li><a class="reference external" href="macro/DEFINE-ALIEN-TYPE.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-ALIEN-TYPE</span></code></a></li>
+<li><a class="reference external" href="macro/DEFINE-ALIEN-VARIABLE.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-ALIEN-VARIABLE</span></code></a></li>
+<li><a class="reference external" href="macro/EXTERN-ALIEN.html"><code class="docutils literal notranslate"><span class="pre">EXTERN-ALIEN</span></code></a></li>
+<li><a class="reference external" href="macro/MAKE-ALIEN.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIEN</span></code></a></li>
+<li><a class="reference external" href="macro/SAP-ALIEN.html"><code class="docutils literal notranslate"><span class="pre">SAP-ALIEN</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-ALIEN.html"><code class="docutils literal notranslate"><span class="pre">WITH-ALIEN</span></code></a></li>
+<li><a class="reference external" href="macro/WITH-AUXILIARY-ALIEN-TYPES.html"><code class="docutils literal notranslate"><span class="pre">WITH-AUXILIARY-ALIEN-TYPES</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="structure">
+<span id="structure"></span><h2>Structure<a class="headerlink" href="#structure" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="structure/ALIEN-ALIEN-VALUE-TYPE.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-ALIEN-VALUE-TYPE</span></code></a></li>
+<li><a class="reference external" href="structure/ALIEN-C-STRING-TYPE.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-C-STRING-TYPE</span></code></a></li>
+<li><a class="reference external" href="structure/ALIEN-MEM-BLOCK-TYPE.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-MEM-BLOCK-TYPE</span></code></a></li>
+<li><a class="reference external" href="structure/ALIEN-SYSTEM-AREA-POINTER-TYPE.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-SYSTEM-AREA-POINTER-TYPE</span></code></a></li>
+<li><a class="reference external" href="structure/ALIEN-TYPE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ALIEN-TYPE-CLASS</span></code></a></li>
+<li><a class="reference external" href="structure/CALLBACK-INFO.html"><code class="docutils literal notranslate"><span class="pre">CALLBACK-INFO</span></code></a></li>
+<li><a class="reference external" href="structure/CAST.html"><code class="docutils literal notranslate"><span class="pre">CAST</span></code></a></li>
+<li><a class="reference external" href="structure/SHARED-OBJECT.html"><code class="docutils literal notranslate"><span class="pre">SHARED-OBJECT</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="variable">
+<span id="variable"></span><h2>Variable<a class="headerlink" href="#variable" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="variable/%2542%25%2542%25COERCE-TO-INTERPRETED-FUNCTION-CACHE-VECTOR%2542%25%2542%25.html"><code class="docutils literal notranslate"><span class="pre">**COERCE-TO-INTERPRETED-FUNCTION-CACHE-VECTOR**</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25ALIEN-CALLBACK-INFO%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ALIEN-CALLBACK-INFO*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25ALIEN-CALLBACK-TRAMPOLINES%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ALIEN-CALLBACK-TRAMPOLINES*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25ALIEN-CALLBACK-WRAPPERS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ALIEN-CALLBACK-WRAPPERS*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25ALIEN-CALLBACKS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ALIEN-CALLBACKS*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25ALIEN-FUN-TYPE-VARARGS-DEFAULT%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ALIEN-FUN-TYPE-VARARGS-DEFAULT*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25ALIEN-TYPE-CLASSES%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ALIEN-TYPE-CLASSES*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25ALIEN-TYPE-MATCHES%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ALIEN-TYPE-MATCHES*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25DEFAULT-C-STRING-EXTERNAL-FORMAT%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*DEFAULT-C-STRING-EXTERNAL-FORMAT*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25NEW-AUXILIARY-TYPES%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*NEW-AUXILIARY-TYPES*</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25SHARED-OBJECTS-LOCK%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*SHARED-OBJECTS-LOCK*</span></code></a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, TANI Kojiro.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
