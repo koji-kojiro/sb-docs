@@ -3,14 +3,3 @@
 
 > No description.
 
-### Value
-```cl
-#((" ~:_" " " #<~:_>) 0 0 0
-  ("unsupported documentation: doc-type ~s for object of type ~s"
-   "unsupported documentation: doc-type " #<~s> " for object of type " #<~s>)
-  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-  ("~#[~;~
-             use ~/sb-ext:print-symbol-with-prefix/ instead.~;~
-             use ~/sb-ext:print-symbol-with-prefix/ or ~
-             ~/sb-ext:print-symbol-with-prefix/ instead.~:;~ ..))
-```

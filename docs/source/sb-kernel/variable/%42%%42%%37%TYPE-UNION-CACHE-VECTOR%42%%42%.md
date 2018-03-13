@@ -5,12 +5,12 @@
 
 ### Value
 ```cl
-#(0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+#(0 0
   ((#<sb-kernel:hairy-type (satisfies
                             sb-kernel:uninteresting-ordinary-function-redefinition-p)>
-    #<sb-kernel:hairy-type (satisfies sb-kernel::uninteresting-macro-redefinition-p)> ..)))
+    #<sb-kernel:hairy-type (satisfies sb-kernel::uninteresting-macro-redefinition-p)>
+    #<sb-kernel:hairy-type (satisfies
+                            sb-kernel:uninteresting-generic-function-redefinition-p)>
+    #<sb-kernel:hairy-type (satisfies sb-kernel:uninteresting-method-redefinition-p)>)
+   . #<sb-kernel:union-type (or ..)>))
 ```
