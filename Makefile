@@ -9,3 +9,4 @@ preview:
 	@cd docs; python -m http.server
 clean:
 	@cd docs/source; rm common-lisp sb-* -rf
+	@cd docs/; make clean
