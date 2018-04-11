@@ -1,10 +1,11 @@
 This is an **unofficial** collection of API references of [Steel Bank Common Lisp](http://www.sbcl.org/) aka SBCL.
-All the documentations are automatically extracted from documentation strings provided by SBCL (**version 1.4.5**),
+All the documentations are automatically extracted from documentation strings provided by SBCL (**version 1.4.6**),
 and their copyrights belong to the original authors.
 ## Package
 - [Package: COMMON-LISP](common-lisp/)
 - [Package: SB-ALIEN](sb-alien/)
 - [Package: SB-ALIEN-INTERNALS](sb-alien-internals/)
+- [Package: SB-APROF](sb-aprof/)
 - [Package: SB-ASSEM](sb-assem/)
 - [Package: SB-BIGNUM](sb-bignum/)
 - [Package: SB-BSD-SOCKETS](sb-bsd-sockets/)

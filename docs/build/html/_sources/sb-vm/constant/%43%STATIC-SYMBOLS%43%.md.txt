@@ -5,6 +5,5 @@
 
 ### Value
 ```cl
-#(t sb-vm::*immobile-freelist* sb-vm::*free-tls-index* sb-vm::msan-param-tls
-  sb-thread::*thread-initial-bindings* sb-vm:function-layout)
+#(t sb-vm::*immobile-freelist* sb-vm::*free-tls-index* sb-thread::*thread-initial-bindings*)
 ```

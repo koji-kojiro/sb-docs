@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-impl::name &key structure sb-alien:slot)
+(sb-kernel::name &key structure sb-alien:slot)
 ```

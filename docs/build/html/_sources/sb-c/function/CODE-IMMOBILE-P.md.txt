@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-c::node-or-component)
+(sb-c::thing)
 ```

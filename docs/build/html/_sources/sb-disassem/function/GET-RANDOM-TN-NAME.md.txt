@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-disassem::sc-offs)
+(sb-disassem::sc+offset)
 ```

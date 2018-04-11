@@ -3,3 +3,7 @@
 
 > No description.
 
+### Lambda list
+```cl
+(&optional sb-vm::unused-count)
+```

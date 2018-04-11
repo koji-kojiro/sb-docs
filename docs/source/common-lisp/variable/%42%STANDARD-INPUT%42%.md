@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<synonym-stream :symbol sb-sys:*stdin* {1000028fa3}>
+#<synonym-stream :symbol sb-sys:*stdin* {1000028b53}>
 ```

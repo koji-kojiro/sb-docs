@@ -112,6 +112,8 @@
 - [`TRACE-REDEFINED-UPDATE`](function/TRACE-REDEFINED-UPDATE.html)
 - [`TRACE-START-BREAKPOINT-FUN`](function/TRACE-START-BREAKPOINT-FUN.html)
 - [`TRACE-WHEREIN-P`](function/TRACE-WHEREIN-P.html)
+- [`UNPRINTABLE-OBJECT-P`](function/UNPRINTABLE-OBJECT-P.html)
+- [`UNPRINTABLE-OBJECT-STRING`](function/UNPRINTABLE-OBJECT-STRING.html)
 - [`UNTRACE-1`](function/UNTRACE-1.html)
 - [`UNTRACE-ALL`](function/UNTRACE-ALL.html)
 - [`UNTRACE-PACKAGE`](function/UNTRACE-PACKAGE.html)
@@ -127,6 +129,7 @@
 
 ### Structure
 - [`TRACE-INFO`](structure/TRACE-INFO.html)
+- [`UNPRINTABLE-OBJECT`](structure/UNPRINTABLE-OBJECT.html)
 
 
 ### Variable

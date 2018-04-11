@@ -148,6 +148,7 @@
 - [`EXTRACTPS`](function/EXTRACTPS.html)
 - [`FRAME-BYTE-OFFSET`](function/FRAME-BYTE-OFFSET.html)
 - [`FS`](function/FS.html)
+- [`GPR-P`](function/GPR-P.html)
 - [`HADDPD`](function/HADDPD.html)
 - [`HADDPS`](function/HADDPS.html)
 - [`HLT`](function/HLT.html)
@@ -178,6 +179,7 @@
 - [`MACHINE-EA-DISP`](function/MACHINE-EA-DISP.html)
 - [`MACHINE-EA-INDEX`](function/MACHINE-EA-INDEX.html)
 - [`MACHINE-EA-NEXT`](function/MACHINE-EA-NEXT.html)
+- [`MACHINE-EA-P`](function/MACHINE-EA-P.html)
 - [`MACHINE-EA-SCALE`](function/MACHINE-EA-SCALE.html)
 - [`MAKE-EA`](function/MAKE-EA.html)
 - [`MASKMOVDQU`](function/MASKMOVDQU.html)
@@ -234,6 +236,7 @@
 - [`MULPS`](function/MULPS.html)
 - [`MULSD`](function/MULSD.html)
 - [`MULSS`](function/MULSS.html)
+- [`NEAR-COND-JUMP-DISPLACEMENT`](function/NEAR-COND-JUMP-DISPLACEMENT.html)
 - [`NEAR-JUMP-DISPLACEMENT`](function/NEAR-JUMP-DISPLACEMENT.html)
 - [`NEG`](function/NEG.html)
 - [`NOP`](function/NOP.html)
@@ -452,6 +455,7 @@
 - [`SUBSD`](function/SUBSD.html)
 - [`SUBSS`](function/SUBSS.html)
 - [`SWAP-IF`](function/SWAP-IF.html)
+- [`SYSCALL`](function/SYSCALL.html)
 - [`TEST`](function/TEST.html)
 - [`UCOMISD`](function/UCOMISD.html)
 - [`UCOMISS`](function/UCOMISS.html)
@@ -501,3 +505,4 @@
 
 ### Variable
 - [`*STATIC-LINKER-LOCK*`](variable/%2542%25STATIC-LINKER-LOCK%2542%25.html)
+- [`RIP-TN`](variable/RIP-TN.html)

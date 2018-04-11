@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-introspect::function-designator)
+(sb-kernel:function-designator)
 ```

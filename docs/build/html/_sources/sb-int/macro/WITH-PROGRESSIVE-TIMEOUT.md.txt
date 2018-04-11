@@ -8,5 +8,5 @@
 
 ### Lambda list
 ```cl
-((sb-impl::name &key sb-impl::seconds) &body sb-impl::body)
+((sb-thread::name &key sb-thread::seconds) &body sb-thread::body)
 ```

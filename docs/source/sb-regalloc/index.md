@@ -129,6 +129,8 @@
 - [`SC-ALTERNATE-SCS`](function/SC-ALTERNATE-SCS.html)
 - [`SC-CONSTANT-SCS`](function/SC-CONSTANT-SCS.html)
 - [`SC-ELEMENT-SIZE`](function/SC-ELEMENT-SIZE.html)
+- [`SC-LOCATIONS-COUNT`](function/SC-LOCATIONS-COUNT.html)
+- [`SC-LOCATIONS-FIRST`](function/SC-LOCATIONS-FIRST.html)
 - [`SC-LOCATIONS`](function/SC-LOCATIONS.html)
 - [`SC-MOVE-FUNS`](function/SC-MOVE-FUNS.html)
 - [`SC-RESERVE-LOCATIONS`](function/SC-RESERVE-LOCATIONS.html)

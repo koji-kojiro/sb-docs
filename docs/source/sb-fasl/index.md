@@ -165,7 +165,6 @@
 - [`FOP-MOVE-TO-TABLE`](function/FOP-MOVE-TO-TABLE.html)
 - [`FOP-NAMED-PACKAGE-SAVE`](function/FOP-NAMED-PACKAGE-SAVE.html)
 - [`FOP-NOP`](function/FOP-NOP.html)
-- [`FOP-NOP4`](function/FOP-NOP4.html)
 - [`FOP-NTHCDR`](function/FOP-NTHCDR.html)
 - [`FOP-PACKAGE`](function/FOP-PACKAGE.html)
 - [`FOP-POP`](function/FOP-POP.html)

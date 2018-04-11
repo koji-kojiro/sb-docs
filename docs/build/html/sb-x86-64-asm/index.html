@@ -25,24 +25,17 @@
   
 
   
-  
     <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="sb-docs  documentation" href="../index.html"/> 
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
@@ -105,7 +98,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../index.html">sb-docs</a>
@@ -113,9 +106,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -308,6 +302,7 @@
 <li><a class="reference external" href="function/EXTRACTPS.html"><code class="docutils literal notranslate"><span class="pre">EXTRACTPS</span></code></a></li>
 <li><a class="reference external" href="function/FRAME-BYTE-OFFSET.html"><code class="docutils literal notranslate"><span class="pre">FRAME-BYTE-OFFSET</span></code></a></li>
 <li><a class="reference external" href="function/FS.html"><code class="docutils literal notranslate"><span class="pre">FS</span></code></a></li>
+<li><a class="reference external" href="function/GPR-P.html"><code class="docutils literal notranslate"><span class="pre">GPR-P</span></code></a></li>
 <li><a class="reference external" href="function/HADDPD.html"><code class="docutils literal notranslate"><span class="pre">HADDPD</span></code></a></li>
 <li><a class="reference external" href="function/HADDPS.html"><code class="docutils literal notranslate"><span class="pre">HADDPS</span></code></a></li>
 <li><a class="reference external" href="function/HLT.html"><code class="docutils literal notranslate"><span class="pre">HLT</span></code></a></li>
@@ -338,6 +333,7 @@
 <li><a class="reference external" href="function/MACHINE-EA-DISP.html"><code class="docutils literal notranslate"><span class="pre">MACHINE-EA-DISP</span></code></a></li>
 <li><a class="reference external" href="function/MACHINE-EA-INDEX.html"><code class="docutils literal notranslate"><span class="pre">MACHINE-EA-INDEX</span></code></a></li>
 <li><a class="reference external" href="function/MACHINE-EA-NEXT.html"><code class="docutils literal notranslate"><span class="pre">MACHINE-EA-NEXT</span></code></a></li>
+<li><a class="reference external" href="function/MACHINE-EA-P.html"><code class="docutils literal notranslate"><span class="pre">MACHINE-EA-P</span></code></a></li>
 <li><a class="reference external" href="function/MACHINE-EA-SCALE.html"><code class="docutils literal notranslate"><span class="pre">MACHINE-EA-SCALE</span></code></a></li>
 <li><a class="reference external" href="function/MAKE-EA.html"><code class="docutils literal notranslate"><span class="pre">MAKE-EA</span></code></a></li>
 <li><a class="reference external" href="function/MASKMOVDQU.html"><code class="docutils literal notranslate"><span class="pre">MASKMOVDQU</span></code></a></li>
@@ -394,6 +390,7 @@
 <li><a class="reference external" href="function/MULPS.html"><code class="docutils literal notranslate"><span class="pre">MULPS</span></code></a></li>
 <li><a class="reference external" href="function/MULSD.html"><code class="docutils literal notranslate"><span class="pre">MULSD</span></code></a></li>
 <li><a class="reference external" href="function/MULSS.html"><code class="docutils literal notranslate"><span class="pre">MULSS</span></code></a></li>
+<li><a class="reference external" href="function/NEAR-COND-JUMP-DISPLACEMENT.html"><code class="docutils literal notranslate"><span class="pre">NEAR-COND-JUMP-DISPLACEMENT</span></code></a></li>
 <li><a class="reference external" href="function/NEAR-JUMP-DISPLACEMENT.html"><code class="docutils literal notranslate"><span class="pre">NEAR-JUMP-DISPLACEMENT</span></code></a></li>
 <li><a class="reference external" href="function/NEG.html"><code class="docutils literal notranslate"><span class="pre">NEG</span></code></a></li>
 <li><a class="reference external" href="function/NOP.html"><code class="docutils literal notranslate"><span class="pre">NOP</span></code></a></li>
@@ -612,6 +609,7 @@
 <li><a class="reference external" href="function/SUBSD.html"><code class="docutils literal notranslate"><span class="pre">SUBSD</span></code></a></li>
 <li><a class="reference external" href="function/SUBSS.html"><code class="docutils literal notranslate"><span class="pre">SUBSS</span></code></a></li>
 <li><a class="reference external" href="function/SWAP-IF.html"><code class="docutils literal notranslate"><span class="pre">SWAP-IF</span></code></a></li>
+<li><a class="reference external" href="function/SYSCALL.html"><code class="docutils literal notranslate"><span class="pre">SYSCALL</span></code></a></li>
 <li><a class="reference external" href="function/TEST.html"><code class="docutils literal notranslate"><span class="pre">TEST</span></code></a></li>
 <li><a class="reference external" href="function/UCOMISD.html"><code class="docutils literal notranslate"><span class="pre">UCOMISD</span></code></a></li>
 <li><a class="reference external" href="function/UCOMISS.html"><code class="docutils literal notranslate"><span class="pre">UCOMISS</span></code></a></li>
@@ -667,15 +665,14 @@
 <span id="variable"></span><h2>Variable<a class="headerlink" href="#variable" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="variable/%2542%25STATIC-LINKER-LOCK%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*STATIC-LINKER-LOCK*</span></code></a></li>
+<li><a class="reference external" href="variable/RIP-TN.html"><code class="docutils literal notranslate"><span class="pre">RIP-TN</span></code></a></li>
 </ul>
 </div>
 </div>
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -688,7 +685,7 @@
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -707,6 +704,7 @@
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'',
+            LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,
@@ -724,14 +722,13 @@
     <script type="text/javascript" src="../_static/js/theme.js"></script>
   
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          
+          SphinxRtdTheme.Navigation.enableSticky();
+          
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

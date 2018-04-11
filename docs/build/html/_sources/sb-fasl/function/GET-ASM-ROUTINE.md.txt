@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-fasl::name)
+(sb-fasl::name &optional sb-fasl::indirect)
 ```

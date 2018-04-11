@@ -3,7 +3,8 @@
 
 > Call FN for each allocated code component in one of SPACES.  FN
 > receives the object and its size as arguments.  SPACES should be a
-> list of the symbols :dynamic, :static, or :read-only.
+> list of the symbols :dynamic, :static, :read-only, or :immobile on
+> #+immobile-space
 
 ### Lambda list
 ```cl

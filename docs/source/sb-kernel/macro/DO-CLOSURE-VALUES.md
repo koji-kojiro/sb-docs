@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-((sb-kernel::value sb-kernel:closure) &body sb-kernel::body)
+((sb-impl::value sb-kernel:closure) &body sb-impl::body)
 ```

@@ -25,24 +25,17 @@
   
 
   
-  
     <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="sb-docs  documentation" href="../index.html"/> 
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
@@ -106,7 +99,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../index.html">sb-docs</a>
@@ -114,9 +107,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -1042,6 +1036,7 @@ is a good idea, but see SB-SYS re. blurring of boundaries.</div></blockquote>
 <li><a class="reference external" href="function/INTERSECTION-SIMPLE-%2561%25-TYPE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">INTERSECTION-SIMPLE-=-TYPE-METHOD</span></code></a></li>
 <li><a class="reference external" href="function/INTERSECTION-SIMPLE-SUBTYPEP-TYPE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">INTERSECTION-SIMPLE-SUBTYPEP-TYPE-METHOD</span></code></a></li>
 <li><a class="reference external" href="function/INTERSECTION-SIMPLE-UNION2-TYPE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">INTERSECTION-SIMPLE-UNION2-TYPE-METHOD</span></code></a></li>
+<li><a class="reference external" href="function/INTERSECTION-SINGLETON-P-TYPE-METHOD.html"><code class="docutils literal notranslate"><span class="pre">INTERSECTION-SINGLETON-P-TYPE-METHOD</span></code></a></li>
 <li><a class="reference external" href="function/INTERSECTION-TYPE-CLASS-INFO.html"><code class="docutils literal notranslate"><span class="pre">INTERSECTION-TYPE-CLASS-INFO</span></code></a></li>
 <li><a class="reference external" href="function/INTERSECTION-TYPE-ENUMERABLE.html"><code class="docutils literal notranslate"><span class="pre">INTERSECTION-TYPE-ENUMERABLE</span></code></a></li>
 <li><a class="reference external" href="function/INTERSECTION-TYPE-HASH-VALUE.html"><code class="docutils literal notranslate"><span class="pre">INTERSECTION-TYPE-HASH-VALUE</span></code></a></li>
@@ -1671,7 +1666,6 @@ is a good idea, but see SB-SYS re. blurring of boundaries.</div></blockquote>
 <li><a class="reference external" href="macro/%2537%25FIND-POSITION-VECTOR-MACRO.html"><code class="docutils literal notranslate"><span class="pre">%FIND-POSITION-VECTOR-MACRO</span></code></a></li>
 <li><a class="reference external" href="macro/%2537%25MAKE-STRUCTURE-INSTANCE-MACRO.html"><code class="docutils literal notranslate"><span class="pre">%MAKE-STRUCTURE-INSTANCE-MACRO</span></code></a></li>
 <li><a class="reference external" href="macro/%2537%25WITH-ARRAY-DATA-MACRO.html"><code class="docutils literal notranslate"><span class="pre">%WITH-ARRAY-DATA-MACRO</span></code></a></li>
-<li><a class="reference external" href="macro/DEF%2533%25STRUCT.html"><code class="docutils literal notranslate"><span class="pre">DEF!STRUCT</span></code></a></li>
 <li><a class="reference external" href="macro/DEFINE-STRUCTURE-SLOT-ADDRESSOR.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-STRUCTURE-SLOT-ADDRESSOR</span></code></a></li>
 <li><a class="reference external" href="macro/DELAY-DEFSTRUCT-FUNCTIONS.html"><code class="docutils literal notranslate"><span class="pre">DELAY-DEFSTRUCT-FUNCTIONS</span></code></a></li>
 <li><a class="reference external" href="macro/DESCEND-INTO.html"><code class="docutils literal notranslate"><span class="pre">DESCEND-INTO</span></code></a></li>
@@ -1801,9 +1795,7 @@ is a good idea, but see SB-SYS re. blurring of boundaries.</div></blockquote>
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -1816,7 +1808,7 @@ is a good idea, but see SB-SYS re. blurring of boundaries.</div></blockquote>
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -1835,6 +1827,7 @@ is a good idea, but see SB-SYS re. blurring of boundaries.</div></blockquote>
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'',
+            LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,
@@ -1852,14 +1845,13 @@ is a good idea, but see SB-SYS re. blurring of boundaries.</div></blockquote>
     <script type="text/javascript" src="../_static/js/theme.js"></script>
   
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          
+          SphinxRtdTheme.Navigation.enableSticky();
+          
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

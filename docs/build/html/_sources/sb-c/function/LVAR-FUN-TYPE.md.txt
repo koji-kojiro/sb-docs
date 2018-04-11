@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-c::lvar)
+(sb-c::lvar &optional sb-c::defined-here)
 ```

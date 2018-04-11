@@ -1,5 +1,5 @@
 ## Function: SB-EXT:ASSERT-VERSION->=
-[![package](https://img.shields.io/badge/Package-SB--EXT-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Function-5f9ea0.svg?style=social&colorA=999999)](../#function) [![github](https://img.shields.io/badge/GitHub-View_the_source-5f9ea0.svg?style=social&colorA=999999&logo=github)](https://github.com/sbcl/sbcl/blob/master/src/code/late-extensions.lisp/) 
+[![package](https://img.shields.io/badge/Package-SB--EXT-5f9ea0.svg?style=social&colorA=999999)](../) [![type](https://img.shields.io/badge/Type-Function-5f9ea0.svg?style=social&colorA=999999)](../#function) [![github](https://img.shields.io/badge/GitHub-View_the_source-5f9ea0.svg?style=social&colorA=999999&logo=github)](https://github.com/sbcl/sbcl/blob/master/src/code/target-misc.lisp/) 
 
 > Asserts that the current SBCL is of version equal to or greater than
 > the version specified in the arguments.  A continuable error is signaled
@@ -15,5 +15,5 @@
 
 ### Lambda list
 ```cl
-(&rest sb-impl::subversions)
+(&rest sb-c::subversions)
 ```

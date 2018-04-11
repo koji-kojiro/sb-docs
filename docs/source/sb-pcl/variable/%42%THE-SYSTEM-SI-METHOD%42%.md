@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<standard-method common-lisp:shared-initialize (sb-pcl::slot-object t) {10001685f3}>
+#<standard-method common-lisp:shared-initialize (sb-pcl::slot-object t) {10001681d3}>
 ```

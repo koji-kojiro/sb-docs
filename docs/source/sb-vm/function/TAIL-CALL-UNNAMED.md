@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-vm::fun sb-kernel:callable sb-vm::vop)
+(sb-vm::fun sb-vm::designator-p sb-vm::vop)
 ```

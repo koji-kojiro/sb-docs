@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<synonym-stream :symbol *terminal-io* {100001f743}>
+#<synonym-stream :symbol *terminal-io* {100001f3c3}>
 ```

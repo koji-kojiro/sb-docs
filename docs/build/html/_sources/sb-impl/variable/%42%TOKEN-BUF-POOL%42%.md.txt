@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<sb-impl::token-buf next=#<sb-impl::token-buf  {1001af3ec3}> {10018e0103}>
+#<sb-impl::token-buf next=#<sb-impl::token-buf  {1001ac44d3}> {10018f0103}>
 ```

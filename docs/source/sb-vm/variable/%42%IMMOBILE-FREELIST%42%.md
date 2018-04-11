@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-((256 304) . #<hash-table :test eq :count 2 {1002137713}>)
+(nil . #<hash-table :test eq :count 0 {1002141bd3}>)
 ```

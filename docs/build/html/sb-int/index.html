@@ -25,24 +25,17 @@
   
 
   
-  
     <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="sb-docs  documentation" href="../index.html"/> 
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
@@ -106,7 +99,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../index.html">sb-docs</a>
@@ -114,9 +107,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -476,9 +470,6 @@ possibly temporarily, because it might be used internally.</div></blockquote>
 <li><a class="reference external" href="macro/AWHEN.html"><code class="docutils literal notranslate"><span class="pre">AWHEN</span></code></a></li>
 <li><a class="reference external" href="macro/BINDING%2542%25.html"><code class="docutils literal notranslate"><span class="pre">BINDING*</span></code></a></li>
 <li><a class="reference external" href="macro/COLLECT.html"><code class="docutils literal notranslate"><span class="pre">COLLECT</span></code></a></li>
-<li><a class="reference external" href="macro/DEF%2533%25CONSTANT.html"><code class="docutils literal notranslate"><span class="pre">DEF!CONSTANT</span></code></a></li>
-<li><a class="reference external" href="macro/DEF%2533%25STRUCT.html"><code class="docutils literal notranslate"><span class="pre">DEF!STRUCT</span></code></a></li>
-<li><a class="reference external" href="macro/DEF%2533%25TYPE.html"><code class="docutils literal notranslate"><span class="pre">DEF!TYPE</span></code></a></li>
 <li><a class="reference external" href="macro/DEFCONSTANT-EQX.html"><code class="docutils literal notranslate"><span class="pre">DEFCONSTANT-EQX</span></code></a></li>
 <li><a class="reference external" href="macro/DEFINE-DEPRECATED-FUNCTION.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-DEPRECATED-FUNCTION</span></code></a></li>
 <li><a class="reference external" href="macro/DEFINE-DEPRECATED-VARIABLE.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-DEPRECATED-VARIABLE</span></code></a></li>
@@ -488,6 +479,7 @@ possibly temporarily, because it might be used internally.</div></blockquote>
 <li><a class="reference external" href="macro/DELAY.html"><code class="docutils literal notranslate"><span class="pre">DELAY</span></code></a></li>
 <li><a class="reference external" href="macro/DO-ANONYMOUS.html"><code class="docutils literal notranslate"><span class="pre">DO-ANONYMOUS</span></code></a></li>
 <li><a class="reference external" href="macro/DO-OSET-ELEMENTS.html"><code class="docutils literal notranslate"><span class="pre">DO-OSET-ELEMENTS</span></code></a></li>
+<li><a class="reference external" href="macro/DO-PACKED-VARINTS.html"><code class="docutils literal notranslate"><span class="pre">DO-PACKED-VARINTS</span></code></a></li>
 <li><a class="reference external" href="macro/DO-SSET-ELEMENTS.html"><code class="docutils literal notranslate"><span class="pre">DO-SSET-ELEMENTS</span></code></a></li>
 <li><a class="reference external" href="macro/DOHASH.html"><code class="docutils literal notranslate"><span class="pre">DOHASH</span></code></a></li>
 <li><a class="reference external" href="macro/DONE-WITH-FAST-READ-CHAR.html"><code class="docutils literal notranslate"><span class="pre">DONE-WITH-FAST-READ-CHAR</span></code></a></li>
@@ -566,9 +558,7 @@ possibly temporarily, because it might be used internally.</div></blockquote>
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -581,7 +571,7 @@ possibly temporarily, because it might be used internally.</div></blockquote>
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -600,6 +590,7 @@ possibly temporarily, because it might be used internally.</div></blockquote>
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'',
+            LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,
@@ -617,14 +608,13 @@ possibly temporarily, because it might be used internally.</div></blockquote>
     <script type="text/javascript" src="../_static/js/theme.js"></script>
   
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          
+          SphinxRtdTheme.Navigation.enableSticky();
+          
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

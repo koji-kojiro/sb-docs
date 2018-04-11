@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<sb-impl::info-hashtable 2379/5939 entries {1000037953}>
+#<sb-impl::info-hashtable 2379/5939 entries {10000373e3}>
 ```

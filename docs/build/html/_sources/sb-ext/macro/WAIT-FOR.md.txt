@@ -13,5 +13,5 @@
 
 ### Lambda list
 ```cl
-(sb-impl::test-form &key sb-ext:timeout)
+(sb-thread::test-form &key sb-thread::timeout)
 ```

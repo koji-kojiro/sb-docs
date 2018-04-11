@@ -5,6 +5,6 @@
 
 ### Lambda list
 ```cl
-(symbol sb-di::id sb-di::alive-p sb-di::sc-offset sb-di::save-sc-offset
- sb-di::indirect-sc-offset sb-int:info)
+(symbol sb-di::id sb-di::alive-p sb-di::sc+offset sb-di::save-sc+offset
+ sb-di::indirect-sc+offset sb-int:info)
 ```

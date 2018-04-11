@@ -25,24 +25,17 @@
   
 
   
-  
     <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../../genindex.html"/>
-        <link rel="search" title="Search" href="../../search.html"/>
-    <link rel="top" title="sb-docs  documentation" href="../../index.html"/> 
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
 
   
   <script src="../../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
@@ -101,7 +94,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../../index.html">sb-docs</a>
@@ -109,9 +102,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -163,7 +157,7 @@ zero if more time than SECONDS has elapsed. If SECONDS is NIL, #’NAME
 returns NIL each time.</div></blockquote>
 <div class="section" id="lambda-list">
 <span id="lambda-list"></span><h2>Lambda list<a class="headerlink" href="#lambda-list" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-cl notranslate"><div class="highlight"><pre><span></span><span class="p">((</span><span class="nv">sb-impl::name</span> <span class="k">&amp;key</span> <span class="nv">sb-impl::seconds</span><span class="p">)</span> <span class="k">&amp;body</span> <span class="nv">sb-impl::body</span><span class="p">)</span>
+<div class="highlight-cl notranslate"><div class="highlight"><pre><span></span><span class="p">((</span><span class="nv">sb-thread::name</span> <span class="k">&amp;key</span> <span class="nv">sb-thread::seconds</span><span class="p">)</span> <span class="k">&amp;body</span> <span class="nv">sb-thread::body</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -171,9 +165,7 @@ returns NIL each time.</div></blockquote>
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -186,7 +178,7 @@ returns NIL each time.</div></blockquote>
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -205,6 +197,7 @@ returns NIL each time.</div></blockquote>
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
             VERSION:'',
+            LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,
@@ -222,14 +215,13 @@ returns NIL each time.</div></blockquote>
     <script type="text/javascript" src="../../_static/js/theme.js"></script>
   
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          
+          SphinxRtdTheme.Navigation.enableSticky();
+          
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

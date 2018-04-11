@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-vm::result-tn sb-vm::size sb-vm::lowtag)
+(sb-vm::node sb-vm::result-tn sb-vm::size sb-vm::lowtag)
 ```

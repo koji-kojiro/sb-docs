@@ -25,24 +25,17 @@
   
 
   
-  
     <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="sb-docs  documentation" href="../index.html"/> 
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
@@ -104,7 +97,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../index.html">sb-docs</a>
@@ -112,9 +105,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -269,6 +263,8 @@ like <em>STACK-TOP-HINT</em> and unsupported stuff like <em>TRACED-FUN-LIST</em>
 <li><a class="reference external" href="function/TRACE-REDEFINED-UPDATE.html"><code class="docutils literal notranslate"><span class="pre">TRACE-REDEFINED-UPDATE</span></code></a></li>
 <li><a class="reference external" href="function/TRACE-START-BREAKPOINT-FUN.html"><code class="docutils literal notranslate"><span class="pre">TRACE-START-BREAKPOINT-FUN</span></code></a></li>
 <li><a class="reference external" href="function/TRACE-WHEREIN-P.html"><code class="docutils literal notranslate"><span class="pre">TRACE-WHEREIN-P</span></code></a></li>
+<li><a class="reference external" href="function/UNPRINTABLE-OBJECT-P.html"><code class="docutils literal notranslate"><span class="pre">UNPRINTABLE-OBJECT-P</span></code></a></li>
+<li><a class="reference external" href="function/UNPRINTABLE-OBJECT-STRING.html"><code class="docutils literal notranslate"><span class="pre">UNPRINTABLE-OBJECT-STRING</span></code></a></li>
 <li><a class="reference external" href="function/UNTRACE-1.html"><code class="docutils literal notranslate"><span class="pre">UNTRACE-1</span></code></a></li>
 <li><a class="reference external" href="function/UNTRACE-ALL.html"><code class="docutils literal notranslate"><span class="pre">UNTRACE-ALL</span></code></a></li>
 <li><a class="reference external" href="function/UNTRACE-PACKAGE.html"><code class="docutils literal notranslate"><span class="pre">UNTRACE-PACKAGE</span></code></a></li>
@@ -288,6 +284,7 @@ like <em>STACK-TOP-HINT</em> and unsupported stuff like <em>TRACED-FUN-LIST</em>
 <span id="structure"></span><h2>Structure<a class="headerlink" href="#structure" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="structure/TRACE-INFO.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INFO</span></code></a></li>
+<li><a class="reference external" href="structure/UNPRINTABLE-OBJECT.html"><code class="docutils literal notranslate"><span class="pre">UNPRINTABLE-OBJECT</span></code></a></li>
 </ul>
 </div>
 <div class="section" id="variable">
@@ -322,9 +319,7 @@ like <em>STACK-TOP-HINT</em> and unsupported stuff like <em>TRACED-FUN-LIST</em>
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -337,7 +332,7 @@ like <em>STACK-TOP-HINT</em> and unsupported stuff like <em>TRACED-FUN-LIST</em>
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -356,6 +351,7 @@ like <em>STACK-TOP-HINT</em> and unsupported stuff like <em>TRACED-FUN-LIST</em>
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'',
+            LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,
@@ -373,14 +369,13 @@ like <em>STACK-TOP-HINT</em> and unsupported stuff like <em>TRACED-FUN-LIST</em>
     <script type="text/javascript" src="../_static/js/theme.js"></script>
   
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          
+          SphinxRtdTheme.Navigation.enableSticky();
+          
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

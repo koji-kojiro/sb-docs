@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-di::fp sb-di::sc-offset sb-di::value &optional sb-di::escaped)
+(sb-di::fp sb-di::sc+offset sb-di::value &optional sb-di::escaped)
 ```

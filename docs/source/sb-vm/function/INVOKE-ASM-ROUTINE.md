@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-assem:inst sb-vm::routine sb-vm::vop sb-vm::temp-reg)
+(sb-assem:inst sb-vm::routine sb-vm::vop)
 ```
