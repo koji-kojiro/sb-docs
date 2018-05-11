@@ -9,7 +9,7 @@
    :name sb-c::copy-deleted-move
    :description "copy propagation deleted a move."
    :var sb-c::*copy-deleted-move-event-info*
-   :count 8050
+   :count 8104
    :level 0
    :action nil)
 ```

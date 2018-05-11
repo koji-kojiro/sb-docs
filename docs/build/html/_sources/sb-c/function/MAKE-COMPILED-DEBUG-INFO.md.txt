@@ -6,5 +6,5 @@
 ### Lambda list
 ```cl
 (&key (:name #:name) (:source #:source) (:fun-map #:fun-map) (:contexts #:contexts)
- (:tlf-number #:tlf-number) (:char-offset #:char-offset))
+ (:tlf-num+offset #:tlf-num+offset))
 ```

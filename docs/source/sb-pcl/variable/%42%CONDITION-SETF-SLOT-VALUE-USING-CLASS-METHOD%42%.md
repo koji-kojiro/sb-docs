@@ -8,5 +8,5 @@
 #<standard-method (common-lisp:setf sb-mop:slot-value-using-class) (t
                                                                     sb-pcl::condition-class
                                                                     condition
-                                                                    sb-pcl::condition-effective-slot-definition) {10005aa3f3}>
+                                                                    sb-pcl::condition-effective-slot-definition) {10005a32a3}>
 ```

@@ -8,5 +8,5 @@
 
 ### Lambda list
 ```cl
-(sb-impl::new-element array)
+(sb-vm::new-element array)
 ```

@@ -5,6 +5,6 @@
 
 ### Lambda list
 ```cl
-(sb-debug::frame stream &key sb-debug::print-frame-source number
- sb-debug::method-frame-style sb-debug::emergency-best-effort)
+(sb-di:frame stream &key sb-debug::print-frame-source number sb-debug::method-frame-style
+ sb-debug::emergency-best-effort)
 ```

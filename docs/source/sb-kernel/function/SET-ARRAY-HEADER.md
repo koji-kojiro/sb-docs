@@ -5,6 +5,6 @@
 
 ### Lambda list
 ```cl
-(array sb-impl::data length fill-pointer sb-impl::displacement sb-impl::dimensions
- sb-impl::displacedp sb-impl::newp)
+(array sb-vm::data length fill-pointer sb-vm::displacement sb-vm::dimensions
+ sb-vm::displacedp sb-vm::newp)
 ```

@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#p"/home/travis/.roswell/impls/x86-64/linux/sbcl-bin/1.4.6/bin/sbcl"
+#p"/home/travis/.roswell/impls/x86-64/linux/sbcl-bin/1.4.7/bin/sbcl"
 ```

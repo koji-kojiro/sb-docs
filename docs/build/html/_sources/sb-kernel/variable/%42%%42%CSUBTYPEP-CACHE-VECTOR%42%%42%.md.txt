@@ -5,12 +5,12 @@
 
 ### Value
 ```cl
-#(#(#<sb-kernel::condition-classoid sb-int:bug>
+#(#(#<sb-kernel::condition-classoid unbound-variable>
     #<sb-kernel:structure-classoid structure-object> nil t)
-  #(#<sb-kernel:array-type simple-array> #<sb-kernel:structure-classoid structure-object>
-    nil t)
   0
-  #(#<sb-kernel:array-type (simple-array (complex double-float) (*))>
-    #<sb-kernel:array-type vector> t t)
-  #(#<sb-kernel::condition-classoid sb-kernel:redefinition-warning> ..))
+  #(#<sb-kernel::condition-classoid sb-impl::save-with-multiple-threads-error>
+    #<sb-kernel:structure-classoid structure-object> nil t)
+  0 0 0 0
+  #(#<sb-kernel:structure-classoid sb-alien-internals:alien-record-type>
+    #<sb-kernel:structure-classoid structure-object> t t) ..)
 ```

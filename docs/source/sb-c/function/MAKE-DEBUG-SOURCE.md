@@ -5,6 +5,6 @@
 
 ### Lambda list
 ```cl
-(&key (:namestring #:namestring) (:created #:created) (:form #:form) (:function #:function)
- (:compiled #:compiled) (:plist #:plist))
+(&key (:namestring #:namestring) (:created #:created) (:compiled #:compiled)
+ (:plist #:plist))
 ```

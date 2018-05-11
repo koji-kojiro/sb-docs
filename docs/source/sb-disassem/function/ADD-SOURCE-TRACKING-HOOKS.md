@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-disassem:segment sb-disassem::debug-fun &optional sb-disassem::sfcache)
+(sb-disassem:segment sb-di:debug-fun &optional sb-disassem::sfcache)
 ```

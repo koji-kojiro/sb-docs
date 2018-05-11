@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-c:call sb-c::ir1-converting-not-optimizing-p)
+(sb-c:call sb-c::ir1-converting-not-optimizing-p &optional sb-c::unknown-keys)
 ```

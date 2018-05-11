@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-debug::frame &key sb-debug::method-frame-style)
+(sb-di:frame &key sb-debug::method-frame-style)
 ```

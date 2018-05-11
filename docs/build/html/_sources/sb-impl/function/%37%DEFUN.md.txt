@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-impl::name sb-impl::def &optional sb-impl::inline-lambda)
+(sb-impl::name sb-impl::def &optional sb-impl::inline-lambda sb-impl::dxable-args)
 ```

@@ -6,5 +6,5 @@
 ### Lambda list
 ```cl
 (&key (:closure-tn #:closure-tn) (:offset #:offset) (:name #:name) (:arguments #:arguments)
- (:type #:type) (:info #:info))
+ (:lexpr #:lexpr) (:type #:type) (:info #:info))
 ```

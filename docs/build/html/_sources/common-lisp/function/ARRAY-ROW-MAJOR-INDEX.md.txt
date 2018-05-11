@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(array &rest sb-impl::subscripts)
+(array &rest sb-vm::subscripts)
 ```

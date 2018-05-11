@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-impl::new-element vector &optional sb-impl::min-extension)
+(sb-vm::new-element vector &optional sb-vm::min-extension)
 ```

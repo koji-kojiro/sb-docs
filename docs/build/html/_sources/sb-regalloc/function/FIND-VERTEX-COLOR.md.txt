@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-regalloc::vertex sb-regalloc::tn-vertex-mapping)
+(sb-regalloc::vertex)
 ```

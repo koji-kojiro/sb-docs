@@ -6,5 +6,5 @@
 ### Lambda list
 ```cl
 (sb-c:component sb-regalloc::component-vertices sb-regalloc::global-vertices
- sb-regalloc::local-vertices sb-regalloc::tn-vertex)
+ sb-regalloc::local-vertices)
 ```

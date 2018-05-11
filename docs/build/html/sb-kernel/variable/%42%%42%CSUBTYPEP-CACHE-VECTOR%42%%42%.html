@@ -154,14 +154,14 @@
 <div>No description.</div></blockquote>
 <div class="section" id="value">
 <span id="value"></span><h2>Value<a class="headerlink" href="#value" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-cl notranslate"><div class="highlight"><pre><span></span>#(#(#&lt;sb-kernel::condition-classoid sb-int:bug&gt;
+<div class="highlight-cl notranslate"><div class="highlight"><pre><span></span>#(#(#&lt;sb-kernel::condition-classoid unbound-variable&gt;
     #&lt;sb-kernel:structure-classoid structure-object&gt; nil t)
-  #(#&lt;sb-kernel:array-type simple-array&gt; #&lt;sb-kernel:structure-classoid structure-object&gt;
-    nil t)
   0
-  #(#&lt;sb-kernel:array-type (simple-array (complex double-float) (*))&gt;
-    #&lt;sb-kernel:array-type vector&gt; t t)
-  #(#&lt;sb-kernel::condition-classoid sb-kernel:redefinition-warning&gt; ..))
+  #(#&lt;sb-kernel::condition-classoid sb-impl::save-with-multiple-threads-error&gt;
+    #&lt;sb-kernel:structure-classoid structure-object&gt; nil t)
+  0 0 0 0
+  #(#&lt;sb-kernel:structure-classoid sb-alien-internals:alien-record-type&gt;
+    #&lt;sb-kernel:structure-classoid structure-object&gt; t t) ..)
 </pre></div>
 </div>
 </div>
@@ -221,9 +221,7 @@
 
   <script type="text/javascript">
       jQuery(function () {
-          
-          SphinxRtdTheme.Navigation.enableSticky();
-          
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script> 
 

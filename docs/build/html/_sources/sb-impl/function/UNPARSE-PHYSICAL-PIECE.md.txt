@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-impl::thing sb-impl::escape-char)
+(sb-impl::thing sb-impl::escape-char &key sb-impl::escape-dot)
 ```

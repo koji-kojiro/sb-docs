@@ -5,5 +5,6 @@
 
 ### Lambda list
 ```cl
-(sb-pcl::type-name sb-pcl::options sb-pcl::operator sb-pcl::ioa method sb-pcl::doc)
+(sb-pcl::type-name sb-pcl::options sb-pcl::operator sb-pcl::ioa sb-pcl::source-location
+ sb-pcl::doc)
 ```

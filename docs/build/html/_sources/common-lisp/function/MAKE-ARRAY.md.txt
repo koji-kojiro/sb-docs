@@ -5,7 +5,7 @@
 
 ### Lambda list
 ```cl
-(sb-impl::dimensions &rest sb-impl::args &key sb-impl::element-type
- sb-impl::initial-element sb-impl::initial-contents sb-impl::adjustable fill-pointer
- sb-impl::displaced-to sb-impl::displaced-index-offset)
+(sb-vm::dimensions &rest sb-vm::args &key sb-vm::element-type sb-vm::initial-element
+ sb-vm::initial-contents sb-vm::adjustable fill-pointer sb-vm::displaced-to
+ sb-vm::displaced-index-offset)
 ```

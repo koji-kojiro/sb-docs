@@ -5,6 +5,6 @@
 
 ### Lambda list
 ```cl
-(sb-impl::pred sequence &rest sb-impl::args &key sb-impl::from-end sb-impl::start
+(sb-impl::predicate sequence &rest sb-impl::args &key sb-impl::from-end sb-impl::start
  sb-impl::end sb-impl::key)
 ```

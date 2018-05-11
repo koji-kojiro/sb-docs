@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(vector sb-impl::new-length)
+(vector sb-vm::new-length)
 ```

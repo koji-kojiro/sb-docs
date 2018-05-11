@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<sb-kernel::heap-exhausted-error {1000002753}>
+#<sb-kernel::heap-exhausted-error {1000002663}>
 ```

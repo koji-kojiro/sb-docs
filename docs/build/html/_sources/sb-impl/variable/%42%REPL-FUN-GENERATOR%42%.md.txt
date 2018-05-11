@@ -7,5 +7,5 @@
 
 ### Value
 ```cl
-#<closure (lambda (&rest sb-impl::arguments) :in constantly) {1000c29a7b}>
+#<closure (lambda (&rest sb-impl::arguments) :in constantly) {1000c110eb}>
 ```

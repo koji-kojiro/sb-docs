@@ -5,7 +5,6 @@
 
 ### Lambda list
 ```cl
-(array sb-impl::dimensions &key sb-impl::element-type sb-impl::initial-element
- sb-impl::initial-contents fill-pointer sb-impl::displaced-to
- sb-impl::displaced-index-offset)
+(array sb-vm::dimensions &key sb-vm::element-type sb-vm::initial-element
+ sb-vm::initial-contents fill-pointer sb-vm::displaced-to sb-vm::displaced-index-offset)
 ```

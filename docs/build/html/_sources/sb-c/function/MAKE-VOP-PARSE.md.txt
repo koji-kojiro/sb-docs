@@ -5,11 +5,12 @@
 
 ### Lambda list
 ```cl
-(&key (:name #:name) (:inherits #:inherits) (:args #:args) (:results #:results)
- (:temps #:temps) (:more-args #:more-args) (:more-results #:more-results)
- (:operands #:operands) (:ignores #:ignores) (:conditional-p #:conditional-p)
- (:arg-types #:arg-types) (:result-types #:result-types) (:guard #:guard) (:cost #:cost)
- (:body #:body) (:variant #:variant) (:variant-vars #:variant-vars) (:vop-var #:vop-var)
- (:node-var #:node-var) (:info-args #:info-args) (:note #:note) (:translate #:translate)
+(&key (:source-location #:source-location) (:name #:name) (:inherits #:inherits)
+ (:args #:args) (:results #:results) (:temps #:temps) (:more-args #:more-args)
+ (:more-results #:more-results) (:operands #:operands) (:ignores #:ignores)
+ (:conditional-p #:conditional-p) (:arg-types #:arg-types) (:result-types #:result-types)
+ (:guard #:guard) (:cost #:cost) (:body #:body) (:variant #:variant)
+ (:variant-vars #:variant-vars) (:vop-var #:vop-var) (:node-var #:node-var)
+ (:info-args #:info-args) (:note #:note) (:translate #:translate)
  (:ltn-policy #:ltn-policy) (:save-p #:save-p) (:move-args #:move-args))
 ```

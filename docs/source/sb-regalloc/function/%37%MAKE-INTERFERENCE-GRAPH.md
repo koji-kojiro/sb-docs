@@ -5,6 +5,5 @@
 
 ### Lambda list
 ```cl
-(&key (:vertices #:vertices) (:precolored-vertices #:precolored-vertices)
- (:tn-vertex-mapping #:tn-vertex-mapping))
+(&key (:vertices #:vertices) (:precolored-vertices #:precolored-vertices))
 ```

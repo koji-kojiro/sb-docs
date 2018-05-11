@@ -5,5 +5,6 @@
 
 ### Lambda list
 ```cl
-((sb-impl::name &key sb-impl::conc-name identity) &rest sb-impl::slot-descs)
+((sb-impl::name &key sb-impl::conc-name identity sb-impl::pretty-ir-printer) &rest
+ sb-impl::slot-descs)
 ```

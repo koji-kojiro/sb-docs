@@ -7,7 +7,6 @@
 
 
 ### Constant
-- [`+LOOP-SEPARATING-CLAUSES+`](constant/%2543%25LOOP-SEPARATING-CLAUSES%2543%25.html)
 - [`DEFAULT-LINE-LENGTH`](constant/DEFAULT-LINE-LENGTH.html)
 - [`INITIAL-BUFFER-SIZE`](constant/INITIAL-BUFFER-SIZE.html)
 
@@ -42,7 +41,6 @@
 - [`INDENTATION-P`](function/INDENTATION-P.html)
 - [`INDENTATION-POSN`](function/INDENTATION-POSN.html)
 - [`INDEX-COLUMN`](function/INDEX-COLUMN.html)
-- [`INDEX-POSN`](function/INDEX-POSN.html)
 - [`LOGICAL-BLOCK-P`](function/LOGICAL-BLOCK-P.html)
 - [`LOGICAL-BLOCK-PER-LINE-PREFIX-END`](function/LOGICAL-BLOCK-PER-LINE-PREFIX-END.html)
 - [`LOGICAL-BLOCK-PREFIX-LENGTH`](function/LOGICAL-BLOCK-PREFIX-LENGTH.html)
@@ -69,8 +67,6 @@
 - [`NEWLINE-SECTION-END`](function/NEWLINE-SECTION-END.html)
 - [`OUTPUT-LINE`](function/OUTPUT-LINE.html)
 - [`OUTPUT-PARTIAL-LINE`](function/OUTPUT-PARTIAL-LINE.html)
-- [`POSN-COLUMN`](function/POSN-COLUMN.html)
-- [`POSN-INDEX`](function/POSN-INDEX.html)
 - [`PP-DISPATCH-CONS-ENTRIES`](function/PP-DISPATCH-CONS-ENTRIES.html)
 - [`PP-DISPATCH-ENTRIES`](function/PP-DISPATCH-ENTRIES.html)
 - [`PP-DISPATCH-NUMBER-MATCHABLE-P`](function/PP-DISPATCH-NUMBER-MATCHABLE-P.html)
@@ -159,10 +155,6 @@
 - [`TAB-POSN`](function/TAB-POSN.html)
 - [`TAB-RELATIVEP`](function/TAB-RELATIVEP.html)
 - [`TAB-SECTIONP`](function/TAB-SECTIONP.html)
-
-
-### Macro
-- [`ENQUEUE`](macro/ENQUEUE.html)
 
 
 ### Structure

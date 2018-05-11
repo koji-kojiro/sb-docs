@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(array sb-int:index sb-impl::new-value)
+(array sb-int:index sb-vm::new-value)
 ```

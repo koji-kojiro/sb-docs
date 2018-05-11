@@ -10,5 +10,5 @@
  (:local-number #:local-number) (:local-conflicts #:local-conflicts)
  (:global-conflicts #:global-conflicts) (:current-conflict #:current-conflict)
  (:save-tn #:save-tn) (:sc #:sc) (:offset #:offset) (:cost #:cost) (:physenv #:physenv)
- (:loop-depth #:loop-depth))
+ (:loop-depth #:loop-depth) (:vertex #:vertex))
 ```

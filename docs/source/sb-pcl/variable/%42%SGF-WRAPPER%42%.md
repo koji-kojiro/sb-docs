@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<sb-kernel:layout for standard-generic-function {20313b03}>
+#<sb-kernel:layout for standard-generic-function {20313c83}>
 ```

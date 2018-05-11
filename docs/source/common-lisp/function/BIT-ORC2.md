@@ -8,5 +8,5 @@
 
 ### Lambda list
 ```cl
-(sb-impl::bit-array-1 sb-impl::bit-array-2 &optional sb-impl::result-bit-array)
+(sb-vm::bit-array-1 sb-vm::bit-array-2 &optional sb-vm::result-bit-array)
 ```

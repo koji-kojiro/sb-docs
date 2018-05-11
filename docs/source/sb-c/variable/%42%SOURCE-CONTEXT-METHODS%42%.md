@@ -7,10 +7,10 @@
 ```cl
 (defmethod #<function (lambda (#:whole0)
                         :in
-                        "sys:src;pcl;compiler-support.lisp") {2248ff4b}> sb-int:named-lambda
-           #<function (lambda (#:whole0) :in "sys:src;compiler;ir1report.lisp") {2219783b}>
+                        "sys:src;pcl;compiler-support.lisp") {2249425b}> sb-int:named-lambda
+           #<function (lambda (#:whole0) :in "sys:src;compiler;ir1report.lisp") {2219cb1b}>
   function
-  #<function (lambda (#:whole0) :in "sys:src;compiler;ir1report.lisp") {2219766b}>
+  #<function (lambda (#:whole0) :in "sys:src;compiler;ir1report.lisp") {2219c94b}>
   defstruct
-  #<function (lambda (#:whole0) :in "sys:src;compiler;ir1report.lisp") {2219751b}>)
+  #<function (lambda (#:whole0) :in "sys:src;compiler;ir1report.lisp") {2219c7fb}>)
 ```

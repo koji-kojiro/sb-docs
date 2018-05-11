@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(array sb-impl::dimensions)
+(array sb-vm::dimensions)
 ```

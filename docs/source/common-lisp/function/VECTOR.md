@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(&rest sb-impl::objects)
+(&rest sb-vm::objects)
 ```

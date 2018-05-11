@@ -440,6 +440,7 @@ package is deprecated in favour of SB-MOP.</div></blockquote>
 <li><a class="reference external" href="function/CONVERT-TO-SYSTEM-TYPE.html"><code class="docutils literal notranslate"><span class="pre">CONVERT-TO-SYSTEM-TYPE</span></code></a></li>
 <li><a class="reference external" href="function/COPY-AND-EXPAND-CACHE.html"><code class="docutils literal notranslate"><span class="pre">COPY-AND-EXPAND-CACHE</span></code></a></li>
 <li><a class="reference external" href="function/COPY-CACHE.html"><code class="docutils literal notranslate"><span class="pre">COPY-CACHE</span></code></a></li>
+<li><a class="reference external" href="function/COPY-METHOD-COMBINATION-INFO.html"><code class="docutils literal notranslate"><span class="pre">COPY-METHOD-COMBINATION-INFO</span></code></a></li>
 <li><a class="reference external" href="function/CPD-AFTER.html"><code class="docutils literal notranslate"><span class="pre">CPD-AFTER</span></code></a></li>
 <li><a class="reference external" href="function/CPD-CLASS.html"><code class="docutils literal notranslate"><span class="pre">CPD-CLASS</span></code></a></li>
 <li><a class="reference external" href="function/CPD-COUNT.html"><code class="docutils literal notranslate"><span class="pre">CPD-COUNT</span></code></a></li>
@@ -750,6 +751,7 @@ package is deprecated in favour of SB-MOP.</div></blockquote>
 <li><a class="reference external" href="function/MAKE-INSTANCE-%2562%25CONSTRUCTOR-CALL.html"><code class="docutils literal notranslate"><span class="pre">MAKE-INSTANCE-&gt;CONSTRUCTOR-CALL</span></code></a></li>
 <li><a class="reference external" href="function/MAKE-LONG-METHOD-COMBINATION-FUNCTION.html"><code class="docutils literal notranslate"><span class="pre">MAKE-LONG-METHOD-COMBINATION-FUNCTION</span></code></a></li>
 <li><a class="reference external" href="function/MAKE-METHOD-CALL.html"><code class="docutils literal notranslate"><span class="pre">MAKE-METHOD-CALL</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-METHOD-COMBINATION-INFO.html"><code class="docutils literal notranslate"><span class="pre">MAKE-METHOD-COMBINATION-INFO</span></code></a></li>
 <li><a class="reference external" href="function/MAKE-METHOD-INITARGS-FORM-INTERNAL.html"><code class="docutils literal notranslate"><span class="pre">MAKE-METHOD-INITARGS-FORM-INTERNAL</span></code></a></li>
 <li><a class="reference external" href="function/MAKE-METHOD-INITARGS-FORM-INTERNAL1.html"><code class="docutils literal notranslate"><span class="pre">MAKE-METHOD-INITARGS-FORM-INTERNAL1</span></code></a></li>
 <li><a class="reference external" href="function/MAKE-METHOD-LAMBDA-INTERNAL.html"><code class="docutils literal notranslate"><span class="pre">MAKE-METHOD-LAMBDA-INTERNAL</span></code></a></li>
@@ -801,6 +803,10 @@ package is deprecated in favour of SB-MOP.</div></blockquote>
 <li><a class="reference external" href="function/METHOD-CALL-CALL-METHOD-ARGS.html"><code class="docutils literal notranslate"><span class="pre">METHOD-CALL-CALL-METHOD-ARGS</span></code></a></li>
 <li><a class="reference external" href="function/METHOD-CALL-FUNCTION.html"><code class="docutils literal notranslate"><span class="pre">METHOD-CALL-FUNCTION</span></code></a></li>
 <li><a class="reference external" href="function/METHOD-CALL-P.html"><code class="docutils literal notranslate"><span class="pre">METHOD-CALL-P</span></code></a></li>
+<li><a class="reference external" href="function/METHOD-COMBINATION-INFO-CACHE.html"><code class="docutils literal notranslate"><span class="pre">METHOD-COMBINATION-INFO-CACHE</span></code></a></li>
+<li><a class="reference external" href="function/METHOD-COMBINATION-INFO-CONSTRUCTOR.html"><code class="docutils literal notranslate"><span class="pre">METHOD-COMBINATION-INFO-CONSTRUCTOR</span></code></a></li>
+<li><a class="reference external" href="function/METHOD-COMBINATION-INFO-P.html"><code class="docutils literal notranslate"><span class="pre">METHOD-COMBINATION-INFO-P</span></code></a></li>
+<li><a class="reference external" href="function/METHOD-COMBINATION-INFO-SOURCE-LOCATION.html"><code class="docutils literal notranslate"><span class="pre">METHOD-COMBINATION-INFO-SOURCE-LOCATION</span></code></a></li>
 <li><a class="reference external" href="function/METHOD-COMBINATION-P.html"><code class="docutils literal notranslate"><span class="pre">METHOD-COMBINATION-P</span></code></a></li>
 <li><a class="reference external" href="function/METHOD-FUNCTION-FROM-FAST-FUNCTION.html"><code class="docutils literal notranslate"><span class="pre">METHOD-FUNCTION-FROM-FAST-FUNCTION</span></code></a></li>
 <li><a class="reference external" href="function/METHOD-FUNCTION-FROM-FAST-METHOD-CALL.html"><code class="docutils literal notranslate"><span class="pre">METHOD-FUNCTION-FROM-FAST-METHOD-CALL</span></code></a></li>
@@ -1310,6 +1316,7 @@ package is deprecated in favour of SB-MOP.</div></blockquote>
 <li><a class="reference external" href="structure/FGEN.html"><code class="docutils literal notranslate"><span class="pre">FGEN</span></code></a></li>
 <li><a class="reference external" href="structure/INITIAL.html"><code class="docutils literal notranslate"><span class="pre">INITIAL</span></code></a></li>
 <li><a class="reference external" href="structure/METHOD-CALL.html"><code class="docutils literal notranslate"><span class="pre">METHOD-CALL</span></code></a></li>
+<li><a class="reference external" href="structure/METHOD-COMBINATION-INFO.html"><code class="docutils literal notranslate"><span class="pre">METHOD-COMBINATION-INFO</span></code></a></li>
 <li><a class="reference external" href="structure/N-N.html"><code class="docutils literal notranslate"><span class="pre">N-N</span></code></a></li>
 <li><a class="reference external" href="structure/NO-METHODS.html"><code class="docutils literal notranslate"><span class="pre">NO-METHODS</span></code></a></li>
 <li><a class="reference external" href="structure/ONE-CLASS.html"><code class="docutils literal notranslate"><span class="pre">ONE-CLASS</span></code></a></li>
@@ -1324,6 +1331,7 @@ package is deprecated in favour of SB-MOP.</div></blockquote>
 <span id="variable"></span><h2>Variable<a class="headerlink" href="#variable" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="variable/%2542%25%2542%25BOOT-STATE%2542%25%2542%25.html"><code class="docutils literal notranslate"><span class="pre">**BOOT-STATE**</span></code></a></li>
+<li><a class="reference external" href="variable/%2542%25%2542%25METHOD-COMBINATIONS%2542%25%2542%25.html"><code class="docutils literal notranslate"><span class="pre">**METHOD-COMBINATIONS**</span></code></a></li>
 <li><a class="reference external" href="variable/%2542%25%2542%25STANDARD-METHOD-CLASSES%2542%25%2542%25.html"><code class="docutils literal notranslate"><span class="pre">**STANDARD-METHOD-CLASSES**</span></code></a></li>
 <li><a class="reference external" href="variable/%2542%25%2542%25TYPECHECK-CACHE%2542%25%2542%25.html"><code class="docutils literal notranslate"><span class="pre">**TYPECHECK-CACHE**</span></code></a></li>
 <li><a class="reference external" href="variable/%2542%25ALL-CTORS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ALL-CTORS*</span></code></a></li>
@@ -1573,9 +1581,7 @@ package is deprecated in favour of SB-MOP.</div></blockquote>
 
   <script type="text/javascript">
       jQuery(function () {
-          
-          SphinxRtdTheme.Navigation.enableSticky();
-          
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script> 
 

@@ -7,7 +7,7 @@
 ```cl
 #s(sb-thread::session
    :lock #<sb-thread:mutex "session lock" (free)>
-   :threads (#<sb-thread:thread "main thread" running {10005605b3}>)
-   :interactive-threads (#<sb-thread:thread "main thread" running {10005605b3}>)
-   :interactive-threads-queue #<sb-thread:waitqueue  {1002154f13}>)
+   :threads (#<sb-thread:thread "main thread" running {10005585b3}>)
+   :interactive-threads (#<sb-thread:thread "main thread" running {10005585b3}>)
+   :interactive-threads-queue #<sb-thread:waitqueue  {1002113de3}>)
 ```

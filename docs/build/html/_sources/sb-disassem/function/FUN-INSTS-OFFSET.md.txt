@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(function)
+(sb-kernel:simple-fun)
 ```

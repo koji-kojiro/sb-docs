@@ -5,12 +5,12 @@
 
 ### Value
 ```cl
-#(#<sb-kernel:layout for fixnum {20311e03}>
-  #<sb-kernel:layout for sb-kernel::random-class {20311783}>
-  #<sb-kernel:layout for fixnum {20311e03}>
-  #<sb-kernel:layout for sb-kernel::random-class {20311783}>
-  #<sb-kernel:layout for fixnum {20311e03}>
-  #<sb-kernel:layout for sb-kernel::random-class {20311783}>
-  #<sb-kernel:layout for fixnum {20311e03}> #<sb-kernel:layout for cons {20312603}>
-  #<sb-kernel:layout for fixnum {20311e03}> ..)
+#(#<sb-kernel:layout for fixnum {20311f83}>
+  #<sb-kernel:layout for sb-kernel::random-class {20311903}>
+  #<sb-kernel:layout for fixnum {20311f83}>
+  #<sb-kernel:layout for sb-kernel::random-class {20311903}>
+  #<sb-kernel:layout for fixnum {20311f83}>
+  #<sb-kernel:layout for sb-kernel::random-class {20311903}>
+  #<sb-kernel:layout for fixnum {20311f83}> #<sb-kernel:layout for cons {20312783}>
+  #<sb-kernel:layout for fixnum {20311f83}> ..)
 ```

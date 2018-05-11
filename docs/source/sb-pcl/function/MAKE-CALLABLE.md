@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-pcl::gf sb-pcl::methods sb-pcl::generator sb-pcl::method-alist sb-pcl::wrappers)
+(sb-pcl::generator sb-pcl::method-alist sb-pcl::wrappers)
 ```

@@ -5,8 +5,9 @@
 
 ### Lambda list
 ```cl
-(&key (:enclosing-source #:enclosing-source) (:source #:source)
- (:original-source #:original-source) (:context #:context) (:file-name #:file-name)
- (:file-position #:file-position) (:original-source-path #:original-source-path)
- (:lexenv #:lexenv))
+(&key (:%enclosing-source #:%enclosing-source) (:%source #:%source)
+ (:original-form #:original-form) (:original-form-string #:original-form-string)
+ (:context #:context) (:file-name #:file-name) (:file-position #:file-position)
+ (:path #:path) (:format-args #:format-args) (:initialized #:initialized)
+ (:original-source-path #:original-source-path) (:lexenv #:lexenv))
 ```

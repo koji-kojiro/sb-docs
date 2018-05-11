@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-disassem::debug-fun)
+(sb-di:debug-fun)
 ```

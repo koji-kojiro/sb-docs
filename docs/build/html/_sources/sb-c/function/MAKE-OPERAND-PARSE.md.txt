@@ -6,6 +6,5 @@
 ### Lambda list
 ```cl
 (&key (:name #:name) (:kind #:kind) (:target #:target) (:temp #:temp) (:born #:born)
- (:dies #:dies) (:scs #:scs) (:load-tn #:load-tn) (:load #:load) (:sc #:sc)
- (:offset #:offset))
+ (:dies #:dies) (:load-tn #:load-tn) (:load #:load) (:scs #:scs) (:offset #:offset))
 ```

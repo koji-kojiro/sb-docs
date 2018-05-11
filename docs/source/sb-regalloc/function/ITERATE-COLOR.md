@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-regalloc::vertices sb-c:component &optional sb-regalloc::iterations)
+(sb-regalloc::vertices sb-c:component)
 ```

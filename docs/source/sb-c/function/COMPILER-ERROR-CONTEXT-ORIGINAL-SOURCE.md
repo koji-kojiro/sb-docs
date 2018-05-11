@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-kernel::value sb-kernel:instance)
+(sb-c::context)
 ```

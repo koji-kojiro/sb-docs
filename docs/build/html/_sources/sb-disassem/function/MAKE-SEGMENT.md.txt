@@ -7,5 +7,5 @@
 ```cl
 (sb-disassem::object sb-disassem::initial-raw-bytes sb-disassem::sap-maker length &key
  sb-disassem::code sb-disassem::initial-offset sb-disassem::virtual-location
- sb-disassem::debug-fun sb-disassem::source-form-cache sb-disassem::hooks)
+ sb-di:debug-fun sb-disassem::source-form-cache sb-disassem::hooks)
 ```

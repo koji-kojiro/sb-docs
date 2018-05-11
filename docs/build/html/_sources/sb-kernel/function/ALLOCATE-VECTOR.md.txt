@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(type length sb-impl::words)
+(type length sb-vm::words)
 ```

@@ -5,6 +5,6 @@
 
 ### Value
 ```cl
-((#<restart continue {14a541caf9e3}>) (#<restart abort {14a541cafa43}>)
- (#<restart abort {14a541cafbd3}> #<restart sb-ext:exit {14a541cafb93}>))
+((#<restart continue {15110a8c79e3}>) (#<restart abort {15110a8c7a43}>)
+ (#<restart abort {15110a8c7bd3}> #<restart sb-ext:exit {15110a8c7b93}>))
 ```

@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-((elt vector &optional sb-impl::result) &body sb-impl::body)
+((elt vector &optional sb-vm::result) &body sb-vm::body)
 ```

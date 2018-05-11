@@ -6,5 +6,5 @@
 
 ### Lambda list
 ```cl
-(length &key sb-impl::element-type sb-impl::initial-contents sb-impl::initial-element)
+(length &key sb-vm::element-type sb-vm::initial-contents sb-vm::initial-element)
 ```

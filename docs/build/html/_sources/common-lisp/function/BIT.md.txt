@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-impl::new-value sb-impl::bit-array &rest sb-impl::subscripts)
+(sb-vm::new-value sb-vm::bit-array &rest sb-vm::subscripts)
 ```

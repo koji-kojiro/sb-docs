@@ -6,5 +6,5 @@
 ### Lambda list
 ```cl
 (sb-regalloc::vertex number sb-regalloc::conflicts sb-regalloc::local-tns
- sb-regalloc::ltn-count sb-regalloc::gtn-p sb-regalloc::live-gtns sb-regalloc::tn-vertex)
+ sb-regalloc::ltn-count sb-regalloc::gtn-p sb-regalloc::live-gtns)
 ```

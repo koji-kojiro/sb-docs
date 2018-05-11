@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-int:info break sb-debug::where sb-debug::frame &rest sb-debug::args)
+(sb-int:info break sb-debug::where sb-di:frame &rest sb-debug::args)
 ```
