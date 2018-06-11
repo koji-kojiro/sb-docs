@@ -5,12 +5,12 @@
 
 ### Value
 ```cl
-#(#(#<sb-kernel::condition-classoid unbound-variable>
+#(#(#<sb-kernel::condition-classoid sb-impl::malformed-ascii>
+    #<sb-kernel:structure-classoid structure-object> nil t)
+  #(#<sb-kernel::condition-classoid sb-impl::invalid-utf8-continuation-byte>
+    #<sb-kernel:structure-classoid structure-object> nil t)
+  #(#<sb-kernel::condition-classoid sb-int:simple-stream-error>
     #<sb-kernel:structure-classoid structure-object> nil t)
   0
-  #(#<sb-kernel::condition-classoid sb-impl::save-with-multiple-threads-error>
-    #<sb-kernel:structure-classoid structure-object> nil t)
-  0 0 0 0
-  #(#<sb-kernel:structure-classoid sb-alien-internals:alien-record-type>
-    #<sb-kernel:structure-classoid structure-object> t t) ..)
+  #(#<sb-kernel:array-type (simple-array (unsigned-byte 62) (*))> ..))
 ```

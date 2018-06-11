@@ -12,5 +12,5 @@
  (:entry-fun #:entry-fun) (:inlinep #:inlinep) (:inline-expansion #:inline-expansion)
  (:lexenv #:lexenv) (:arg-documentation #:arg-documentation)
  (:documentation #:documentation) (:allocator #:allocator) (:plist #:plist) (:xref #:xref)
- (:inline-expanded #:inline-expanded))
+ (:inline-expanded #:inline-expanded) (:top-level-defun-p #:top-level-defun-p))
 ```

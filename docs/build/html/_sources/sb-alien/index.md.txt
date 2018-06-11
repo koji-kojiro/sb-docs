@@ -176,7 +176,6 @@
 - [`CALLBACK-INFO-FUNCTION`](function/CALLBACK-INFO-FUNCTION.html)
 - [`CALLBACK-INFO-INDEX`](function/CALLBACK-INFO-INDEX.html)
 - [`CALLBACK-INFO-KEY`](function/CALLBACK-INFO-KEY.html)
-- [`CALLBACK-INFO-P`](function/CALLBACK-INFO-P.html)
 - [`CALLBACK-INFO-SPECIFIER`](function/CALLBACK-INFO-SPECIFIER.html)
 - [`CALLBACK-INFO-WRAPPER`](function/CALLBACK-INFO-WRAPPER.html)
 - [`CHAR`](function/CHAR.html)
@@ -308,6 +307,7 @@
 
 ### Macro
 - [`ADDR`](macro/ADDR.html)
+- [`ALIEN-CALLBACK`](macro/ALIEN-CALLBACK.html)
 - [`ALIEN-LAMBDA`](macro/ALIEN-LAMBDA.html)
 - [`ALIEN-SIZE`](macro/ALIEN-SIZE.html)
 - [`CAST`](macro/CAST.html)

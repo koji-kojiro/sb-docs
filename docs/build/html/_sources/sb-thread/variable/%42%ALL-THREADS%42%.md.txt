@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-(#<sb-thread:thread "main thread" running {10005585b3}>)
+(#<sb-thread:thread "main thread" running {10005505b3}>)
 ```

@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-assem:segment sb-c::vop sb-assem:inst &rest sb-c::args)
+(sb-c::section sb-c::vop sb-assem:inst sb-c::args sb-c::state)
 ```

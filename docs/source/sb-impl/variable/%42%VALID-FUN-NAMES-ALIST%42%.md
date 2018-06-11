@@ -8,7 +8,6 @@
 ((sb-pcl::slow-method . #<function sb-c::%check-slow-method-fun-name>)
  (sb-pcl::fast-method . #<function sb-c::%check-fast-method-fun-name>)
  (sb-pcl::slot-accessor . #<function sb-c::%check-slot-accessor-fun-name>)
- (macrolet . #<function sb-impl::%check-macrolet-fun-name>)
  (defmacro . #<function sb-impl::%check-defmacro-fun-name>)
  (sb-ext:cas . #<function sb-impl::%check-setf-fun-name>)
  (setf . #<function sb-impl::%check-setf-fun-name>))

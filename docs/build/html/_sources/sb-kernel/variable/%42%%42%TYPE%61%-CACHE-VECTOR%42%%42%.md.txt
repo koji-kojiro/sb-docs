@@ -6,11 +6,11 @@
 ### Value
 ```cl
 #(0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-  #(#<sb-kernel:negation-type (not integer)> #<sb-kernel:negation-type (not integer)> t t)
-  0 0
-  #(#<sb-kernel:hairy-type (satisfies sb-kernel:uninteresting-method-redefinition-p)>
-    #<sb-kernel:hairy-type (satisfies
-                            sb-kernel:uninteresting-ordinary-function-redefinition-p)> ..))
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  #(#<sb-kernel:intersection-type ratio> #<sb-kernel:named-type nil> nil t) 0 0 0 0 0 0 0 0
+  0 0 0 0 0
+  #(#<sb-kernel:union-type (or
+                            (satisfies
+                             sb-kernel:uninteresting-ordinary-function-redefinition-p)
+                            (satisfies sb-kernel::uninteresting-macro-redefinition-p) ..)>))
 ```

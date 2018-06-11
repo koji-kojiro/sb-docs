@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<sb-thread:waitqueue finalizer {1000010cb3}>
+#<sb-thread:waitqueue finalizer {1000010bf3}>
 ```

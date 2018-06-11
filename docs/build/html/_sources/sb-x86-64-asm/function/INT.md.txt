@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(number)
+(sb-assem::.operands. sb-x86-64-asm::segment number)
 ```

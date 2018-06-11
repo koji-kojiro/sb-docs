@@ -3,3 +3,7 @@
 
 > No description.
 
+### Lambda list
+```cl
+(sb-assem::.operands. sb-x86-64-asm::segment)
+```

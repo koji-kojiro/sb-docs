@@ -82,7 +82,6 @@
 - [`SAP-REF-8`](function/SAP-REF-8.html)
 - [`SAP-REF-DOUBLE`](function/SAP-REF-DOUBLE.html)
 - [`SAP-REF-LISPOBJ`](function/SAP-REF-LISPOBJ.html)
-- [`SAP-REF-OCTETS`](function/SAP-REF-OCTETS.html)
 - [`SAP-REF-SAP`](function/SAP-REF-SAP.html)
 - [`SAP-REF-SINGLE`](function/SAP-REF-SINGLE.html)
 - [`SAP-REF-WORD`](function/SAP-REF-WORD.html)

@@ -8,7 +8,7 @@
 #(#s(sb-c::policy-dependent-quality
      :name sb-c::check-constant-modification
      :expression safety
-     :getter #<function "check-constant-modification" {220a70cb}>
+     :getter #<function "check-constant-modification" {220a673b}>
      :values-documentation ("no" "maybe" "yes" "yes"))
   #s(sb-c::policy-dependent-quality
      :name sb-c::type-check

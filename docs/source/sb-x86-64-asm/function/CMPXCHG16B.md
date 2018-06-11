@@ -5,5 +5,6 @@
 
 ### Lambda list
 ```cl
-(sb-x86-64-asm::mem &optional sb-x86-64-asm::prefix)
+(sb-assem::.operands. sb-x86-64-asm::segment sb-x86-64-asm::mem &optional
+ sb-x86-64-asm::prefix)
 ```

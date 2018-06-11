@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-kernel:constant sb-assem:label)
+(sb-x86-64-asm::section sb-kernel:constant sb-assem:label)
 ```

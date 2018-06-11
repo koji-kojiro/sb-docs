@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<hash-table :test eql :count 70 :weakness :value {1000c84e73}>
+#<hash-table :test eql :count 70 :weakness :value {1000c3c5e3}>
 ```

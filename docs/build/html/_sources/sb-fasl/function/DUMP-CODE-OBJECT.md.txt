@@ -6,5 +6,5 @@
 ### Lambda list
 ```cl
 (sb-c:component sb-fasl::code-segment sb-fasl::code-length sb-fasl::fixups
- sb-fasl:fasl-output sb-fasl::entry-offsets)
+ sb-fasl:fasl-output)
 ```

@@ -24,8 +24,7 @@
 
   
 
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" /> 
@@ -159,6 +158,7 @@
 <div class="section" id="constant">
 <span id="constant"></span><h2>Constant<a class="headerlink" href="#constant" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
+<li><a class="reference external" href="constant/ASSEM-SCHEDULER-P.html"><code class="docutils literal notranslate"><span class="pre">ASSEM-SCHEDULER-P</span></code></a></li>
 <li><a class="reference external" href="constant/ASSEMBLY-UNIT-BITS.html"><code class="docutils literal notranslate"><span class="pre">ASSEMBLY-UNIT-BITS</span></code></a></li>
 <li><a class="reference external" href="constant/MAX-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">MAX-ALIGNMENT</span></code></a></li>
 </ul>
@@ -167,8 +167,11 @@
 <span id="function"></span><h2>Function<a class="headerlink" href="#function" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="function/%2537%25EMIT-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">%EMIT-ALIGNMENT</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25EMIT-FILLER.html"><code class="docutils literal notranslate"><span class="pre">%EMIT-FILLER</span></code></a></li>
 <li><a class="reference external" href="function/%2537%25EMIT-LABEL.html"><code class="docutils literal notranslate"><span class="pre">%EMIT-LABEL</span></code></a></li>
 <li><a class="reference external" href="function/%2537%25EMIT-POSTIT.html"><code class="docutils literal notranslate"><span class="pre">%EMIT-POSTIT</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25EMIT-SKIP.html"><code class="docutils literal notranslate"><span class="pre">%EMIT-SKIP</span></code></a></li>
+<li><a class="reference external" href="function/%2537%25INST.html"><code class="docutils literal notranslate"><span class="pre">%INST</span></code></a></li>
 <li><a class="reference external" href="function/ADD-TO-NTH-LIST.html"><code class="docutils literal notranslate"><span class="pre">ADD-TO-NTH-LIST</span></code></a></li>
 <li><a class="reference external" href="function/ADJUST-ALIGNMENT-AFTER-CHOOSER.html"><code class="docutils literal notranslate"><span class="pre">ADJUST-ALIGNMENT-AFTER-CHOOSER</span></code></a></li>
 <li><a class="reference external" href="function/ADVANCE-ONE-INST.html"><code class="docutils literal notranslate"><span class="pre">ADVANCE-ONE-INST</span></code></a></li>
@@ -181,7 +184,16 @@
 <li><a class="reference external" href="function/ANNOTATION-INDEX.html"><code class="docutils literal notranslate"><span class="pre">ANNOTATION-INDEX</span></code></a></li>
 <li><a class="reference external" href="function/ANNOTATION-P.html"><code class="docutils literal notranslate"><span class="pre">ANNOTATION-P</span></code></a></li>
 <li><a class="reference external" href="function/ANNOTATION-POSN.html"><code class="docutils literal notranslate"><span class="pre">ANNOTATION-POSN</span></code></a></li>
-<li><a class="reference external" href="function/APPEND-SEGMENT.html"><code class="docutils literal notranslate"><span class="pre">APPEND-SEGMENT</span></code></a></li>
+<li><a class="reference external" href="function/ASMSTREAM-CODE-SECTION.html"><code class="docutils literal notranslate"><span class="pre">ASMSTREAM-CODE-SECTION</span></code></a></li>
+<li><a class="reference external" href="function/ASMSTREAM-CONSTANT-TABLE.html"><code class="docutils literal notranslate"><span class="pre">ASMSTREAM-CONSTANT-TABLE</span></code></a></li>
+<li><a class="reference external" href="function/ASMSTREAM-CONSTANT-VECTOR.html"><code class="docutils literal notranslate"><span class="pre">ASMSTREAM-CONSTANT-VECTOR</span></code></a></li>
+<li><a class="reference external" href="function/ASMSTREAM-DATA-SECTION.html"><code class="docutils literal notranslate"><span class="pre">ASMSTREAM-DATA-SECTION</span></code></a></li>
+<li><a class="reference external" href="function/ASMSTREAM-ELSEWHERE-LABEL.html"><code class="docutils literal notranslate"><span class="pre">ASMSTREAM-ELSEWHERE-LABEL</span></code></a></li>
+<li><a class="reference external" href="function/ASMSTREAM-ELSEWHERE-SECTION.html"><code class="docutils literal notranslate"><span class="pre">ASMSTREAM-ELSEWHERE-SECTION</span></code></a></li>
+<li><a class="reference external" href="function/ASMSTREAM-P.html"><code class="docutils literal notranslate"><span class="pre">ASMSTREAM-P</span></code></a></li>
+<li><a class="reference external" href="function/ASMSTREAM-TRACING-STATE.html"><code class="docutils literal notranslate"><span class="pre">ASMSTREAM-TRACING-STATE</span></code></a></li>
+<li><a class="reference external" href="function/ASSEMBLE-SECTIONS.html"><code class="docutils literal notranslate"><span class="pre">ASSEMBLE-SECTIONS</span></code></a></li>
+<li><a class="reference external" href="function/ASSEMBLING-TO-ELSEWHERE-P.html"><code class="docutils literal notranslate"><span class="pre">ASSEMBLING-TO-ELSEWHERE-P</span></code></a></li>
 <li><a class="reference external" href="function/BACK-PATCH-FUN.html"><code class="docutils literal notranslate"><span class="pre">BACK-PATCH-FUN</span></code></a></li>
 <li><a class="reference external" href="function/BACK-PATCH-INDEX.html"><code class="docutils literal notranslate"><span class="pre">BACK-PATCH-INDEX</span></code></a></li>
 <li><a class="reference external" href="function/BACK-PATCH-P.html"><code class="docutils literal notranslate"><span class="pre">BACK-PATCH-P</span></code></a></li>
@@ -194,17 +206,18 @@
 <li><a class="reference external" href="function/CHOOSER-POSN.html"><code class="docutils literal notranslate"><span class="pre">CHOOSER-POSN</span></code></a></li>
 <li><a class="reference external" href="function/CHOOSER-SIZE.html"><code class="docutils literal notranslate"><span class="pre">CHOOSER-SIZE</span></code></a></li>
 <li><a class="reference external" href="function/CHOOSER-WORST-CASE-FUN.html"><code class="docutils literal notranslate"><span class="pre">CHOOSER-WORST-CASE-FUN</span></code></a></li>
+<li><a class="reference external" href="function/COMBINE-SECTIONS.html"><code class="docutils literal notranslate"><span class="pre">COMBINE-SECTIONS</span></code></a></li>
 <li><a class="reference external" href="function/COMPACT-SEGMENT-BUFFER.html"><code class="docutils literal notranslate"><span class="pre">COMPACT-SEGMENT-BUFFER</span></code></a></li>
 <li><a class="reference external" href="function/COMPRESS-OUTPUT.html"><code class="docutils literal notranslate"><span class="pre">COMPRESS-OUTPUT</span></code></a></li>
+<li><a class="reference external" href="function/COPY-ASMSTREAM.html"><code class="docutils literal notranslate"><span class="pre">COPY-ASMSTREAM</span></code></a></li>
 <li><a class="reference external" href="function/EMIT-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">EMIT-ALIGNMENT</span></code></a></li>
 <li><a class="reference external" href="function/EMIT-ANNOTATION.html"><code class="docutils literal notranslate"><span class="pre">EMIT-ANNOTATION</span></code></a></li>
 <li><a class="reference external" href="function/EMIT-BACK-PATCH.html"><code class="docutils literal notranslate"><span class="pre">EMIT-BACK-PATCH</span></code></a></li>
 <li><a class="reference external" href="function/EMIT-BYTE.html"><code class="docutils literal notranslate"><span class="pre">EMIT-BYTE</span></code></a></li>
 <li><a class="reference external" href="function/EMIT-CHOOSER.html"><code class="docutils literal notranslate"><span class="pre">EMIT-CHOOSER</span></code></a></li>
-<li><a class="reference external" href="function/EMIT-FILLER.html"><code class="docutils literal notranslate"><span class="pre">EMIT-FILLER</span></code></a></li>
 <li><a class="reference external" href="function/EMIT-LABEL.html"><code class="docutils literal notranslate"><span class="pre">EMIT-LABEL</span></code></a></li>
 <li><a class="reference external" href="function/EMIT-POSTIT.html"><code class="docutils literal notranslate"><span class="pre">EMIT-POSTIT</span></code></a></li>
-<li><a class="reference external" href="function/EMIT-SKIP.html"><code class="docutils literal notranslate"><span class="pre">EMIT-SKIP</span></code></a></li>
+<li><a class="reference external" href="function/EMIT.html"><code class="docutils literal notranslate"><span class="pre">EMIT</span></code></a></li>
 <li><a class="reference external" href="function/FILLER-BYTES.html"><code class="docutils literal notranslate"><span class="pre">FILLER-BYTES</span></code></a></li>
 <li><a class="reference external" href="function/FILLER-INDEX.html"><code class="docutils literal notranslate"><span class="pre">FILLER-INDEX</span></code></a></li>
 <li><a class="reference external" href="function/FILLER-P.html"><code class="docutils literal notranslate"><span class="pre">FILLER-P</span></code></a></li>
@@ -225,21 +238,22 @@
 <li><a class="reference external" href="function/INST-WRITE-DEPENDENTS.html"><code class="docutils literal notranslate"><span class="pre">INST-WRITE-DEPENDENTS</span></code></a></li>
 <li><a class="reference external" href="function/INSTRUCTION-HOOKS.html"><code class="docutils literal notranslate"><span class="pre">INSTRUCTION-HOOKS</span></code></a></li>
 <li><a class="reference external" href="function/INSTRUCTION-P.html"><code class="docutils literal notranslate"><span class="pre">INSTRUCTION-P</span></code></a></li>
+<li><a class="reference external" href="function/JOIN-SECTIONS.html"><code class="docutils literal notranslate"><span class="pre">JOIN-SECTIONS</span></code></a></li>
 <li><a class="reference external" href="function/LABEL-INDEX.html"><code class="docutils literal notranslate"><span class="pre">LABEL-INDEX</span></code></a></li>
 <li><a class="reference external" href="function/LABEL-P.html"><code class="docutils literal notranslate"><span class="pre">LABEL-P</span></code></a></li>
 <li><a class="reference external" href="function/LABEL-POSITION.html"><code class="docutils literal notranslate"><span class="pre">LABEL-POSITION</span></code></a></li>
 <li><a class="reference external" href="function/LABEL-POSN.html"><code class="docutils literal notranslate"><span class="pre">LABEL-POSN</span></code></a></li>
 <li><a class="reference external" href="function/MAKE-ALIGNMENT.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ALIGNMENT</span></code></a></li>
-<li><a class="reference external" href="function/MAKE-ARGLIST-FORWARDER.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ARGLIST-FORWARDER</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-ASMSTREAM.html"><code class="docutils literal notranslate"><span class="pre">MAKE-ASMSTREAM</span></code></a></li>
 <li><a class="reference external" href="function/MAKE-BACK-PATCH.html"><code class="docutils literal notranslate"><span class="pre">MAKE-BACK-PATCH</span></code></a></li>
 <li><a class="reference external" href="function/MAKE-CHOOSER.html"><code class="docutils literal notranslate"><span class="pre">MAKE-CHOOSER</span></code></a></li>
 <li><a class="reference external" href="function/MAKE-FILLER.html"><code class="docutils literal notranslate"><span class="pre">MAKE-FILLER</span></code></a></li>
 <li><a class="reference external" href="function/MAKE-INSTRUCTION.html"><code class="docutils literal notranslate"><span class="pre">MAKE-INSTRUCTION</span></code></a></li>
+<li><a class="reference external" href="function/MAKE-SECTION.html"><code class="docutils literal notranslate"><span class="pre">MAKE-SECTION</span></code></a></li>
 <li><a class="reference external" href="function/MAKE-SEGMENT.html"><code class="docutils literal notranslate"><span class="pre">MAKE-SEGMENT</span></code></a></li>
 <li><a class="reference external" href="function/NOTE-RESOLVED-DEPENDENCIES.html"><code class="docutils literal notranslate"><span class="pre">NOTE-RESOLVED-DEPENDENCIES</span></code></a></li>
 <li><a class="reference external" href="function/OP-ENCODER-NAME.html"><code class="docutils literal notranslate"><span class="pre">OP-ENCODER-NAME</span></code></a></li>
 <li><a class="reference external" href="function/PROCESS-BACK-PATCHES.html"><code class="docutils literal notranslate"><span class="pre">PROCESS-BACK-PATCHES</span></code></a></li>
-<li><a class="reference external" href="function/QUEUE-INST.html"><code class="docutils literal notranslate"><span class="pre">QUEUE-INST</span></code></a></li>
 <li><a class="reference external" href="function/SCHEDULE-ONE-INST.html"><code class="docutils literal notranslate"><span class="pre">SCHEDULE-ONE-INST</span></code></a></li>
 <li><a class="reference external" href="function/SCHEDULE-PENDING-INSTRUCTIONS.html"><code class="docutils literal notranslate"><span class="pre">SCHEDULE-PENDING-INSTRUCTIONS</span></code></a></li>
 <li><a class="reference external" href="function/SEGMENT-%2537%25CURRENT-INDEX.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-%CURRENT-INDEX</span></code></a></li>
@@ -255,17 +269,20 @@
 <li><a class="reference external" href="function/SEGMENT-EMITTABLE-INSTS-SSET.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-EMITTABLE-INSTS-SSET</span></code></a></li>
 <li><a class="reference external" href="function/SEGMENT-FINAL-INDEX.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-FINAL-INDEX</span></code></a></li>
 <li><a class="reference external" href="function/SEGMENT-FINAL-POSN.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-FINAL-POSN</span></code></a></li>
+<li><a class="reference external" href="function/SEGMENT-FIXUP-NOTES.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-FIXUP-NOTES</span></code></a></li>
+<li><a class="reference external" href="function/SEGMENT-HEADER-SKEW.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-HEADER-SKEW</span></code></a></li>
 <li><a class="reference external" href="function/SEGMENT-INST-HOOK.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-INST-HOOK</span></code></a></li>
 <li><a class="reference external" href="function/SEGMENT-INST-NUMBER.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-INST-NUMBER</span></code></a></li>
 <li><a class="reference external" href="function/SEGMENT-LAST-ANNOTATION.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-LAST-ANNOTATION</span></code></a></li>
+<li><a class="reference external" href="function/SEGMENT-ORIGIN.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-ORIGIN</span></code></a></li>
 <li><a class="reference external" href="function/SEGMENT-P.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-P</span></code></a></li>
 <li><a class="reference external" href="function/SEGMENT-POSTITS.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-POSTITS</span></code></a></li>
 <li><a class="reference external" href="function/SEGMENT-QUEUED-BRANCHES.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-QUEUED-BRANCHES</span></code></a></li>
 <li><a class="reference external" href="function/SEGMENT-READERS.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-READERS</span></code></a></li>
 <li><a class="reference external" href="function/SEGMENT-RUN-SCHEDULER.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-RUN-SCHEDULER</span></code></a></li>
 <li><a class="reference external" href="function/SEGMENT-SYNC-POSN.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-SYNC-POSN</span></code></a></li>
-<li><a class="reference external" href="function/SEGMENT-TYPE.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-TYPE</span></code></a></li>
 <li><a class="reference external" href="function/SEGMENT-WRITERS.html"><code class="docutils literal notranslate"><span class="pre">SEGMENT-WRITERS</span></code></a></li>
+<li><a class="reference external" href="function/TRACE-INST.html"><code class="docutils literal notranslate"><span class="pre">TRACE-INST</span></code></a></li>
 <li><a class="reference external" href="function/WRITE-SEGMENT-CONTENTS.html"><code class="docutils literal notranslate"><span class="pre">WRITE-SEGMENT-CONTENTS</span></code></a></li>
 </ul>
 </div>
@@ -277,9 +294,7 @@
 <li><a class="reference external" href="macro/DEFINE-INSTRUCTION-MACRO.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-INSTRUCTION-MACRO</span></code></a></li>
 <li><a class="reference external" href="macro/DEFINE-INSTRUCTION.html"><code class="docutils literal notranslate"><span class="pre">DEFINE-INSTRUCTION</span></code></a></li>
 <li><a class="reference external" href="macro/INST.html"><code class="docutils literal notranslate"><span class="pre">INST</span></code></a></li>
-<li><a class="reference external" href="macro/INSTRUCTION-ATTRIBUTEP.html"><code class="docutils literal notranslate"><span class="pre">INSTRUCTION-ATTRIBUTEP</span></code></a></li>
 <li><a class="reference external" href="macro/INSTRUCTION-ATTRIBUTES.html"><code class="docutils literal notranslate"><span class="pre">INSTRUCTION-ATTRIBUTES</span></code></a></li>
-<li><a class="reference external" href="macro/NOTE-DEPENDENCIES.html"><code class="docutils literal notranslate"><span class="pre">NOTE-DEPENDENCIES</span></code></a></li>
 <li><a class="reference external" href="macro/WITHOUT-SCHEDULING.html"><code class="docutils literal notranslate"><span class="pre">WITHOUT-SCHEDULING</span></code></a></li>
 </ul>
 </div>
@@ -288,6 +303,7 @@
 <ul class="simple">
 <li><a class="reference external" href="structure/ALIGNMENT-NOTE.html"><code class="docutils literal notranslate"><span class="pre">ALIGNMENT-NOTE</span></code></a></li>
 <li><a class="reference external" href="structure/ANNOTATION.html"><code class="docutils literal notranslate"><span class="pre">ANNOTATION</span></code></a></li>
+<li><a class="reference external" href="structure/ASMSTREAM.html"><code class="docutils literal notranslate"><span class="pre">ASMSTREAM</span></code></a></li>
 <li><a class="reference external" href="structure/BACK-PATCH.html"><code class="docutils literal notranslate"><span class="pre">BACK-PATCH</span></code></a></li>
 <li><a class="reference external" href="structure/CHOOSER.html"><code class="docutils literal notranslate"><span class="pre">CHOOSER</span></code></a></li>
 <li><a class="reference external" href="structure/FILLER.html"><code class="docutils literal notranslate"><span class="pre">FILLER</span></code></a></li>
@@ -299,9 +315,7 @@
 <div class="section" id="variable">
 <span id="variable"></span><h2>Variable<a class="headerlink" href="#variable" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><a class="reference external" href="variable/%2542%25%2542%25CURRENT-VOP%2542%25%2542%25.html"><code class="docutils literal notranslate"><span class="pre">**CURRENT-VOP**</span></code></a></li>
 <li><a class="reference external" href="variable/%2542%25ASSEM-MAX-LOCATIONS%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ASSEM-MAX-LOCATIONS*</span></code></a></li>
-<li><a class="reference external" href="variable/%2542%25ASSEM-SCHEDULER-P%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*ASSEM-SCHEDULER-P*</span></code></a></li>
 <li><a class="reference external" href="variable/%2542%25BACKEND-INSTRUCTION-SET-PACKAGE%2542%25.html"><code class="docutils literal notranslate"><span class="pre">*BACKEND-INSTRUCTION-SET-PACKAGE*</span></code></a></li>
 </ul>
 </div>
@@ -354,10 +368,7 @@
 
   
 
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
 
   <script type="text/javascript">
       jQuery(function () {

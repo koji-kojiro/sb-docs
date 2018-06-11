@@ -85,7 +85,6 @@
 - [`FORMAT-NAME`](function/FORMAT-NAME.html)
 - [`FUN-HEADER-HOOK`](function/FUN-HEADER-HOOK.html)
 - [`FUN-INSTS-OFFSET`](function/FUN-INSTS-OFFSET.html)
-- [`FUN-OFFSET`](function/FUN-OFFSET.html)
 - [`GET-CODE-CONSTANT-ABSOLUTE`](function/GET-CODE-CONSTANT-ABSOLUTE.html)
 - [`GET-CODE-CONSTANT`](function/GET-CODE-CONSTANT.html)
 - [`GET-CODE-SEGMENTS`](function/GET-CODE-SEGMENTS.html)

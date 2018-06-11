@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-impl::x sb-impl::n)
+(list length)
 ```

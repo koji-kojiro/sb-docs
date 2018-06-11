@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<sb-pretty:pprint-dispatch-table {100001f0d3}>
+#<sb-pretty:pprint-dispatch-table {100001f013}>
 ```

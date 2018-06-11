@@ -7,5 +7,5 @@
 
 ### Lambda list
 ```cl
-((&optional sb-assem:segment) &body sb-assem::body)
+(nil &body sb-assem::body)
 ```

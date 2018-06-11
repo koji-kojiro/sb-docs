@@ -9,7 +9,7 @@
    :name sb-c::ir1-optimize-until-done
    :description "ir1-optimize-until-done called"
    :var sb-c::*ir1-optimize-until-done-event-info*
-   :count 1320
+   :count 1324
    :level 0
    :action nil)
 ```

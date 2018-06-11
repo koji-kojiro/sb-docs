@@ -5,5 +5,6 @@
 
 ### Lambda list
 ```cl
-(sb-walker::arglist sb-walker::context sb-walker::env &optional sb-walker::destructuringp)
+(sb-walker::arglist sb-walker::context sb-walker::env &optional sb-walker::destructuringp
+ &aux sb-walker::arg)
 ```

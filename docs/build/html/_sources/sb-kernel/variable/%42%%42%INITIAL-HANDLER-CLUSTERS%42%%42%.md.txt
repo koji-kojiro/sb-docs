@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-(((#<sb-kernel::classoid-cell warning> . #<function "maybe-muffle" {2201e34b}>)))
+(((#<sb-kernel::classoid-cell warning> . #<function "maybe-muffle" {2201da0b}>)))
 ```

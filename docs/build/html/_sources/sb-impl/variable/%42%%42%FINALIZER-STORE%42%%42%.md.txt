@@ -5,12 +5,12 @@
 
 ### Value
 ```cl
-#((0 14 16 19) #<hash-table :test eq :count 14 :weakness :key {1001938ca3}> 19
-  (#<closure (lambda () :in sb-impl::alloc-buffer) {10030ab80b}>)
-  (#<closure (lambda () :in sb-impl::alloc-buffer) {10030ab82b}>)
-  (#<closure (lambda () :in sb-impl::alloc-buffer) {10030ab84b}>)
-  (#<closure (lambda () :in sb-impl::alloc-buffer) {10030ab86b}>)
-  (#<closure (lambda () :in sb-impl::alloc-buffer) {10030ab88b}>)
-  (#<closure (lambda () :in sb-sys:make-fd-stream) {10030ab8ab}>)
-  (#<closure (lambda () :in sb-impl::alloc-buffer) {10030ab8cb}>) ..)
+#((0 14 16 19) #<hash-table :test eq :count 14 :weakness :key {1001f64703}> 19
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {100201a67b}>)
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {100201a69b}>)
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {100201a6bb}>)
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {100201a6db}>)
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {100201a6fb}>)
+  (#<closure (lambda () :in sb-sys:make-fd-stream) {100201a71b}>)
+  (#<closure (lambda () :in sb-impl::alloc-buffer) {100201a73b}>) ..)
 ```

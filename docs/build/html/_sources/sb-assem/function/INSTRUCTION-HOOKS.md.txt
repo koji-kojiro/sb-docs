@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(&rest sb-assem::args)
+(sb-assem:segment sb-assem::mnemonic sb-assem::operands)
 ```

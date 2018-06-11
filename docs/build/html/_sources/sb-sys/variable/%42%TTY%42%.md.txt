@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<sb-sys:fd-stream for "the terminal" {1001889863}>
+#<sb-sys:fd-stream for "the terminal" {1001871833}>
 ```

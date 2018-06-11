@@ -6,5 +6,5 @@
 ### Lambda list
 ```cl
 (sb-walker::body sb-walker::fn sb-walker::env &optional sb-walker::doc-string-p
- sb-walker::declarations sb-walker::old-body)
+ sb-walker::declarations sb-walker::old-body &aux sb-walker::form)
 ```

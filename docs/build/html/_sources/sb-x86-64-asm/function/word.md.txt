@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-ext:word)
+(sb-assem::.operands. sb-x86-64-asm::segment sb-ext:word)
 ```

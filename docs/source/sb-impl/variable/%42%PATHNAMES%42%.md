@@ -6,11 +6,11 @@
 ### Value
 ```cl
 #((((:relative "docs" "source" "sb-fasl" "function")
-    . #(nil
-        (#p"docs/source/sb-fasl/function/fop-skip.md"
-         #p"docs/source/sb-fasl/function/dump-float.md"
-         #p"docs/source/sb-fasl/function/fop-drop-if-skipping.md"
-         #p"docs/source/sb-fasl/function/equal-save-object.md"
-         #p"docs/source/sb-fasl/function/fop-code.md"
-         #p"docs/source/sb-fasl/function/fop-set-slot-values.md" ..)))))
+    . #((#p"docs/source/sb-fasl/function/fop-array.md"
+         #p"docs/source/sb-fasl/function/read-unsigned-byte-32-arg.md"
+         #p"docs/source/sb-fasl/function/fop-list-4.md"
+         #p"docs/source/sb-fasl/function/fop-uninterned-symbol-save.md"
+         #p"docs/source/sb-fasl/function/note-potential-circularity.md")
+        (#p"docs/source/sb-fasl/function/fop-layout-of-defstruct-slot-description.md"
+         #p"docs/source/sb-fasl/function/dump-unsigned-byte-32.md" ..)))))
 ```

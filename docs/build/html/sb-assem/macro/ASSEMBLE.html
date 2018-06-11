@@ -24,8 +24,7 @@
 
   
 
-  
-    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" /> 
@@ -151,10 +150,10 @@
 <span id="macro-sb-assem-assemble"></span><h1>Macro: SB-ASSEM:ASSEMBLE<a class="headerlink" href="#macro-sb-assem-assemble" title="Permalink to this headline">¶</a></h1>
 <p><a class="reference external" href="../"><img alt="package" src="https://img.shields.io/badge/Package-SB--ASSEM-5f9ea0.svg?style=social&amp;colorA=999999" /></a> <a class="reference external" href="../#macro"><img alt="type" src="https://img.shields.io/badge/Type-Macro-5f9ea0.svg?style=social&amp;colorA=999999" /></a></p>
 <blockquote>
-<div>Execute BODY (as a progn) with SEGMENT as the current segment.</div></blockquote>
+<div>Execute BODY (as a progn) with DEST as the current section or segment.</div></blockquote>
 <div class="section" id="lambda-list">
 <span id="lambda-list"></span><h2>Lambda list<a class="headerlink" href="#lambda-list" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-cl notranslate"><div class="highlight"><pre><span></span><span class="p">((</span><span class="k">&amp;optional</span> <span class="nv">sb-assem:segment</span> <span class="nv">sb-assem::vop</span> <span class="k">&amp;key</span> <span class="k">labels</span><span class="p">)</span> <span class="k">&amp;body</span> <span class="nv">sb-assem::body</span><span class="p">)</span>
+<div class="highlight-cl notranslate"><div class="highlight"><pre><span></span><span class="p">((</span><span class="k">&amp;optional</span> <span class="nv">sb-assem::dest</span> <span class="nv">sb-assem::vop</span> <span class="k">&amp;key</span> <span class="k">labels</span><span class="p">)</span> <span class="k">&amp;body</span> <span class="nv">sb-assem::body</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -207,10 +206,7 @@
 
   
 
-  
-  
-    <script type="text/javascript" src="../../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../../_static/js/theme.js"></script>
 
   <script type="text/javascript">
       jQuery(function () {

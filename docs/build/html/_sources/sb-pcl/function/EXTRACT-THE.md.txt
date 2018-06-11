@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-kernel:form &optional sb-pcl::context)
+(sb-kernel:form)
 ```

@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(cond &optional sb-x86-64-asm::where)
+(sb-assem::.operands. sb-x86-64-asm::segment cond &optional sb-x86-64-asm::where)
 ```

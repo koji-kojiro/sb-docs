@@ -5,5 +5,6 @@
 
 ### Lambda list
 ```cl
-(sb-walker::bindings)
+(sb-walker::bindings &aux sb-walker::names sb-walker::inits
+ (sb-walker::seen (make-hash-table :test #'eq)))
 ```
