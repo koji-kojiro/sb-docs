@@ -5,6 +5,6 @@
 
 ### Lambda list
 ```cl
-(method sb-pcl::cm-args &optional sb-pcl::gf sb-pcl::fmf-p sb-pcl::method-alist
+(sb-pcl::gf method sb-pcl::cm-args sb-pcl::fmf-p &optional sb-pcl::method-alist
  sb-pcl::wrappers)
 ```

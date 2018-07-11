@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-c:tn sb-regalloc::element-size sb-regalloc::pack-type)
+(sb-c:tn sb-regalloc::element-size sb-regalloc::size-mask sb-regalloc::pack-type)
 ```

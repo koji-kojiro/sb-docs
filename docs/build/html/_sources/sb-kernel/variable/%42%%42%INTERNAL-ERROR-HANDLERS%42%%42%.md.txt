@@ -5,12 +5,12 @@
 
 ### Value
 ```cl
-#(0 #<function "undefined-fun-error" {22397bcb}>
-  #<function "undefined-alien-fun-error" {22397e8b}>
-  #<function "invalid-arg-count-error" {223980db}>
-  #<function "local-invalid-arg-count-error" {223989eb}>
-  #<function "bogus-arg-to-values-list-error" {22398afb}>
-  #<function "unbound-symbol-error" {22398feb}>
-  #<function "invalid-unwind-error" {2239917b}>
-  #<function "unseen-throw-tag-error" {2239923b}> ..)
+#(0 #<function "undefined-fun-error" {2239cf9b}>
+  #<function "undefined-alien-fun-error" {2239d25b}>
+  #<function "invalid-arg-count-error" {2239d4ab}>
+  #<function "local-invalid-arg-count-error" {2239ddbb}>
+  #<function "bogus-arg-to-values-list-error" {2239decb}>
+  #<function "unbound-symbol-error" {2239e3bb}>
+  #<function "invalid-unwind-error" {2239e54b}>
+  #<function "unseen-throw-tag-error" {2239e60b}> ..)
 ```

@@ -5,12 +5,12 @@
 
 ### Value
 ```cl
-#(#(#<sb-kernel::condition-classoid sb-impl::malformed-ascii>
+#(#(#<sb-kernel:structure-classoid sb-alien-internals:alien-pointer-type>
+    #<sb-kernel:structure-classoid structure-object> t t)
+  0 0 0
+  #(#<sb-kernel::condition-classoid sb-ext:deprecation-condition>
     #<sb-kernel:structure-classoid structure-object> nil t)
-  #(#<sb-kernel::condition-classoid sb-impl::invalid-utf8-continuation-byte>
-    #<sb-kernel:structure-classoid structure-object> nil t)
-  #(#<sb-kernel::condition-classoid sb-int:simple-stream-error>
-    #<sb-kernel:structure-classoid structure-object> nil t)
-  0
-  #(#<sb-kernel:array-type (simple-array (unsigned-byte 62) (*))> ..))
+  0 0 0
+  #(#<sb-kernel::condition-classoid sb-impl::end-of-input-in-character>
+    #<sb-kernel:structure-classoid structure-object> nil t) ..)
 ```

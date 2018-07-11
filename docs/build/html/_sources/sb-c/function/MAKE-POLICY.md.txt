@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-c::primary-qualities &optional sb-c::presence-bits)
+(sb-c::primary-qualities &optional sb-c::presence-bits sb-c::dependent-qualities)
 ```

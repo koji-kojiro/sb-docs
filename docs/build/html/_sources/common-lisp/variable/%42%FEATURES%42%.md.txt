@@ -9,7 +9,7 @@
 (:closer-mop :cl-ppcre :cl-fad :bordeaux-threads alexandria.0.dev::sequence-emptyp
  :thread-support :quicklisp :quicklisp-support-https :sb-bsd-sockets-addrinfo :asdf3.3
  :asdf3.2 :asdf3.1 :asdf3 :asdf2 :asdf :os-unix :non-base-chars-exist-p :asdf-unicode
- :ros.init :64-bit :64-bit-registers :alien-callbacks :ansi-cl :ash-right-vops
+ :ros.init :x86-64 :64-bit :64-bit-registers :alien-callbacks :ansi-cl :ash-right-vops
  :c-stack-is-control-stack :call-symbol :common-lisp :compact-instance-header
  :compare-and-swap-vops :complex-float-vops :cycle-counter :elf :float-eql-vops
  :fp-and-pc-standard-save :gcc-tls :gencgc :ieee-floating-point :immobile-code

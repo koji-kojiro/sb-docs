@@ -6,7 +6,7 @@
 ### Value
 ```cl
 #s(sb-c::modular-class
-   :funs #<hash-table :test eq :count 10 {1000fbe2e3}>
-   :versions #<hash-table :test eq :count 6 {1000fbe373}>
+   :funs #<hash-table :test eq :count 10 {1000fc6b93}>
+   :versions #<hash-table :test eq :count 6 {1000fc6c23}>
    :widths ((64) (64) (64) (64) (64)))
 ```

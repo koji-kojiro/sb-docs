@@ -5,12 +5,12 @@
 
 ### Value
 ```cl
-#(0 0 0 0 0 0 0 0 0 0 0 0 (" ~:_" " " #<~:_>) 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+#(0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  ("~a~@[ ~s~]" #<~a> #<~@[> " " #<~s> #<~]>) 0 0 0 0 0 0 0 0 0 0 0
+  ("code object [~d]" "code object [" #<~d> "]") 0 0 0 0 0 0 0 0 0 0 0
+  ("file ~a" "file " #<~a>) 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
   ("unsupported documentation: doc-type ~s for object of type ~s"
    "unsupported documentation: doc-type " #<~s> " for object of type " #<~s>)
-  0 0 0 0 0 0 0 ("~&creating directory: ~a~%" #<~&> "creating directory: " #<~a> #<~%>) 0 0
-  0 0 0 0 0 ("file ~a" "file " #<~a>) 0 0 0 0 0 0 0 0 0 0
-  ("the ~(~a~) ~/sb-impl:print-symbol-with-prefix/ has been deprecated as of ~@[~a ~]version ~a.~@[~2%~/sb-impl::print-deprecation-replacements/~]"
-   "the " #<~(> #<~a> #<~)> " " #<~/sb-impl:print-symbol-with-prefix/>
-   " has been deprecated as of " #<~@[> #<~a> " " #<~]> "version " #<~a> "." #<~@[> #<~2%> ..))
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  ("~&creating directory: ~a~%" #<~&> "creating directory: " #<~a> #<~%>) 0 0 0 0 0 0 0 ..)
 ```

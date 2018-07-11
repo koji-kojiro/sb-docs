@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<sb-impl::priority-queue empty {1000c281e3}>
+#<sb-impl::priority-queue empty {1000c30003}>
 ```

@@ -6,5 +6,5 @@
 ### Value
 ```cl
 #<standard-method sb-mop:slot-value-using-class (structure-class structure-object
-                                                 sb-pcl::structure-effective-slot-definition) {100092c0a3}>
+                                                 sb-pcl::structure-effective-slot-definition) {1000933f73}>
 ```

@@ -167,6 +167,7 @@
 - [`LABEL+ADDEND-INDEX`](function/LABEL%2543%25ADDEND-INDEX.html)
 - [`LABEL+ADDEND-LABEL`](function/LABEL%2543%25ADDEND-LABEL.html)
 - [`LABEL+ADDEND-POSN`](function/LABEL%2543%25ADDEND-POSN.html)
+- [`LABEL+ADDEND-USEDP`](function/LABEL%2543%25ADDEND-USEDP.html)
 - [`LAHF`](function/LAHF.html)
 - [`LDMXCSR`](function/LDMXCSR.html)
 - [`LEA-COMPUTE-LABEL`](function/LEA-COMPUTE-LABEL.html)
@@ -509,3 +510,4 @@
 ### Variable
 - [`*STATIC-LINKER-LOCK*`](variable/%2542%25STATIC-LINKER-LOCK%2542%25.html)
 - [`RIP-TN`](variable/RIP-TN.html)
+- [`THREAD-SLOT-NAMES`](variable/THREAD-SLOT-NAMES.html)

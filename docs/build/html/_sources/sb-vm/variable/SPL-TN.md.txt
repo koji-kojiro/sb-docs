@@ -5,5 +5,5 @@
 
 ### Value
 ```cl
-#<sb-c:tn {1000bb4df3}>
+#<sb-c:tn {1000bbcdf3}>
 ```

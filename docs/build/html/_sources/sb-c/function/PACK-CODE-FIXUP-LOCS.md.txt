@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(list)
+(sb-c::abs-fixups sb-c::rel-fixups)
 ```

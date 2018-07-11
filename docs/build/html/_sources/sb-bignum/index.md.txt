@@ -7,6 +7,7 @@
 
 
 ### Constant
+- [`ALL-ONES-DIGIT`](constant/ALL-ONES-DIGIT.html)
 - [`DIGIT-SIZE`](constant/DIGIT-SIZE.html)
 
 
@@ -60,6 +61,7 @@
 - [`BIGNUM-PLUS-P`](function/BIGNUM-PLUS-P.html)
 - [`BIGNUM-TO-FLOAT`](function/BIGNUM-TO-FLOAT.html)
 - [`BIGNUM-TRUNCATE`](function/BIGNUM-TRUNCATE.html)
+- [`BMOD`](function/BMOD.html)
 - [`COPY-BIGNUM`](function/COPY-BIGNUM.html)
 - [`DMOD`](function/DMOD.html)
 - [`DOUBLE-FLOAT-FROM-BITS`](function/DOUBLE-FLOAT-FROM-BITS.html)
@@ -83,6 +85,10 @@
 - [`SUBTRACT-BIGNUM-BUFFERS`](function/SUBTRACT-BIGNUM-BUFFERS.html)
 - [`SUBTRACT-BIGNUM`](function/SUBTRACT-BIGNUM.html)
 - [`SXHASH-BIGNUM`](function/SXHASH-BIGNUM.html)
+
+
+### Macro
+- [`MODULARLY`](macro/MODULARLY.html)
 
 
 ### Variable

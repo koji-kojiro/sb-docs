@@ -199,12 +199,12 @@ nothing unless a call to one of those functions encloses the call to
 this function (i.e. it would appear in a backtrace.)  Anonymous
 functions have string names like “DEFUN FOO”.</p>
 <p>:ENCAPSULATE {:DEFAULT | T | NIL}
-If T, the tracing is done via encapsulation (redefining the function
-name) rather than by modifying the function. :DEFAULT is the default,
-and means to use encapsulation for interpreted functions and funcallable
-instances, breakpoints otherwise. When encapsulation is used, forms are
-<em>not</em> evaluated in the function’s lexical environment, but SB-DEBUG:ARG
-can still be used.</p>
+If T, the default, tracing is done via encapsulation (redefining the
+function name) rather than by modifying the function.  :DEFAULT is
+not the default, but means to use encapsulation for interpreted
+functions and funcallable instances, breakpoints otherwise. When
+encapsulation is used, forms are <em>not</em> evaluated in the function’s
+lexical environment, but SB-DEBUG:ARG can still be used.</p>
 <p>:METHODS {T | NIL}
 If T, any function argument naming a generic function will have its
 methods traced in addition to the generic function itself.</p>

@@ -1,5 +1,5 @@
 This is an **unofficial** collection of API references of [Steel Bank Common Lisp](http://www.sbcl.org/) aka SBCL.
-All the documentations are automatically extracted from documentation strings provided by SBCL (**version 1.4.8**),
+All the documentations are automatically extracted from documentation strings provided by SBCL (**version 1.4.9**),
 and their copyrights belong to the original authors.
 ## Package
 - [Package: COMMON-LISP](common-lisp/)

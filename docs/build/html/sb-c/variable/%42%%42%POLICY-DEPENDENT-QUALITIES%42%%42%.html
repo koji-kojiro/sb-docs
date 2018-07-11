@@ -156,11 +156,11 @@
 <div class="highlight-cl notranslate"><div class="highlight"><pre><span></span>#(#s(sb-c::policy-dependent-quality
      :name sb-c::check-constant-modification
      :expression safety
-     :getter #&lt;function &quot;check-constant-modification&quot; {220a673b}&gt;
+     :getter #&lt;function &quot;check-constant-modification&quot; {220aa8bb}&gt;
+     :documentation &quot;control whether the compiler should check for constant
+modification. defaults to safety.&quot;
      :values-documentation (&quot;no&quot; &quot;maybe&quot; &quot;yes&quot; &quot;yes&quot;))
-  #s(sb-c::policy-dependent-quality
-     :name sb-c::type-check
-     :expression (cond ((= safety 0) 0) ((and (&lt; safety 2) (&lt; safety speed)) 2) (t 3)) ..))
+  #s(sb-c::policy-dependent-quality ..))
 </pre></div>
 </div>
 </div>

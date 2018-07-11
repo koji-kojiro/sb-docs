@@ -29,7 +29,6 @@
 - [`ARG-SIGN-EXTEND-P`](function/ARG-SIGN-EXTEND-P.html)
 - [`ARG-USE-LABEL`](function/ARG-USE-LABEL.html)
 - [`ARG-VALUE`](function/ARG-VALUE.html)
-- [`ASSEM-SEGMENT-TO-DISASSEM-SEGMENT`](function/ASSEM-SEGMENT-TO-DISASSEM-SEGMENT.html)
 - [`BUILD-INST-SPACE`](function/BUILD-INST-SPACE.html)
 - [`CALL-FUN-HOOKS`](function/CALL-FUN-HOOKS.html)
 - [`CALL-OFFS-HOOKS`](function/CALL-OFFS-HOOKS.html)

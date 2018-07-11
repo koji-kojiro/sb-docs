@@ -8,9 +8,9 @@
 #(#s(sb-c::policy-dependent-quality
      :name sb-c::check-constant-modification
      :expression safety
-     :getter #<function "check-constant-modification" {220a673b}>
+     :getter #<function "check-constant-modification" {220aa8bb}>
+     :documentation "control whether the compiler should check for constant
+modification. defaults to safety."
      :values-documentation ("no" "maybe" "yes" "yes"))
-  #s(sb-c::policy-dependent-quality
-     :name sb-c::type-check
-     :expression (cond ((= safety 0) 0) ((and (< safety 2) (< safety speed)) 2) (t 3)) ..))
+  #s(sb-c::policy-dependent-quality ..))
 ```

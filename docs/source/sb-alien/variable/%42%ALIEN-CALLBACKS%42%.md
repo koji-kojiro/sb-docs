@@ -7,5 +7,5 @@
 
 ### Value
 ```cl
-#<hash-table :test equal :count 0 {1000c57d23}>
+#<hash-table :test equal :count 0 {1000c600b3}>
 ```

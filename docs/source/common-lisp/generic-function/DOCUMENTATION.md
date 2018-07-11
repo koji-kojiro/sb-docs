@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-pcl::new-value sb-pcl::slotd sb-pcl::doc-type)
+(sb-pcl::new-value sb-pcl::object sb-pcl::doc-type)
 ```

@@ -9,7 +9,7 @@
   (nil
    #<function (lambda (sb-pcl::cache sb-pcl::miss-fn)
                 :in
-                "/home/travis/build/koji-kojiro/sb-docs/sb-docs.asd") {10021708cb}>
+                "/home/travis/build/koji-kojiro/sb-docs/sb-docs.asd") {10036888cb}>
    sb-pcl::pcl nil))
  (sb-pcl::emit-one-class-boundp
   ((nil) ..)))

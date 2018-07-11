@@ -9,5 +9,5 @@
    :lock #<sb-thread:mutex "session lock" (free)>
    :threads (#<sb-thread:thread "main thread" running {10005505b3}>)
    :interactive-threads (#<sb-thread:thread "main thread" running {10005505b3}>)
-   :interactive-threads-queue #<sb-thread:waitqueue  {1001f82e73}>)
+   :interactive-threads-queue #<sb-thread:waitqueue  {100219c223}>)
 ```

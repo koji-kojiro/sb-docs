@@ -11,6 +11,6 @@
      :init-vop sb-vm::raw-instance-init/word
      :n-words 1
      :alignment 1
-     :comparer #<function "%raw-instance-ref/word=" {21ff613b}>)
+     :comparer #<function "%raw-instance-ref/word=" {21ff9f2b}>)
   #s(sb-kernel::raw-slot-data ..))
 ```

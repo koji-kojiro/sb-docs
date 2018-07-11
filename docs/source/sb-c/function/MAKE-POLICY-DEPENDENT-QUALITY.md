@@ -6,5 +6,5 @@
 ### Lambda list
 ```cl
 (&key (:name #:name) (:expression #:expression) (:getter #:getter)
- (:values-documentation #:values-documentation))
+ (:documentation #:documentation) (:values-documentation #:values-documentation))
 ```

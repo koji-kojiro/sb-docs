@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-(sb-disassem::assem-segment stream)
+(sb-disassem::bytes sb-disassem::ranges stream)
 ```

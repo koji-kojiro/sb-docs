@@ -5,5 +5,5 @@
 
 ### Lambda list
 ```cl
-((sb-c::loc sb-c::locs) &body sb-c::body)
+((sb-c::loc sb-c::locs &optional sb-c::bytepos) &body sb-c::body)
 ```

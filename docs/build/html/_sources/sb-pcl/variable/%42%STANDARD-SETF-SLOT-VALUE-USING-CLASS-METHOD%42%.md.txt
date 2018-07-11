@@ -7,5 +7,5 @@
 ```cl
 #<standard-method (common-lisp:setf sb-mop:slot-value-using-class) (t sb-pcl::std-class
                                                                     standard-object
-                                                                    sb-mop:standard-effective-slot-definition) {10005985c3}>
+                                                                    sb-mop:standard-effective-slot-definition) {100059c8b3}>
 ```
